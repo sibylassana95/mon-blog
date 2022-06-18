@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CSS &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/category/css/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Sat, 18 Jun 2022 18:42:08 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>Les classes et les ID CSS</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-classes-et-les-id-css/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:13:26 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=234</guid>
+
+					<description><![CDATA[1 &#8211; Les classes CSS On a besoin parfois d&#8217;affecter un ensemble de&#160; styles à chaque fois qu&#8217;on a besoin ! Pour répondre à cette nécessité&#160; on utilise ce qu&#8217;on appelle les classes. Le rôle d&#8217;une classe est de stocker&#160; une quantité de codes&#160;CSS&#160;pour être réutilisée par la suite. Déclaration d&#8217;une classe css Une classe&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Les classes CSS</h2>
+
+
+
+<p>On a besoin parfois d&rsquo;affecter un ensemble de&nbsp; styles à chaque fois qu&rsquo;on a besoin ! Pour répondre à cette nécessité&nbsp; on utilise ce qu&rsquo;on appelle les classes. Le rôle d&rsquo;une classe est de stocker&nbsp; une quantité de codes&nbsp;<strong>CSS</strong>&nbsp;pour être réutilisée par la suite.</p>
+
+
+
+<h3>Déclaration d&rsquo;une classe css</h3>
+
+
+
+<p>Une classe est déclarée à l&rsquo;aide de son&nbsp;<strong>nom</strong>&nbsp;précédé d&rsquo;un point&nbsp; « . »</p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<span id="more-234"></span>
+
+
+
+<pre class="wp-block-code"><code>.maClass { font-family: arial ;
+font-size: 28 ;
+font-weight: bold ;
+color:red ;
+}</code></pre>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<p>C&rsquo;est une classe permettant d&rsquo;ecrire avec la police arial, en gras taille=18 et en couleur rouge. Mais comment peut &#8211; on appliquer cette classe ? Le problème est simple : il suffit d&rsquo;ajouter à l&rsquo;interieur de la balise à laquelle on veut appliquer la classe :</p>
+
+
+
+<h3>&nbsp;class= »nom de la classe »</h3>
+
+
+
+<p>dans notre cas c&rsquo;est :</p>
+
+
+
+<h3>class= »maClasse »</h3>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;H1 class="maClass"&gt;</code></pre>
+
+
+
+<p>Et dans ce cas le code de la classe alise&nbsp;<strong>maClass</strong>&nbsp;sera appliqué à la balise&nbsp;<strong>H1</strong></p>
+
+
+
+<p>En appliquant cette classe à un titre on obtient :</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/images/css/_d_improd_/class-css_f_improf_574x68.PNG" alt="Les class CSS" title="class-css.PNG"/></figure>
+
+
+
+<h2>2 &#8211; Les ID CSS</h2>
+
+
+
+<p>Les ID en CSS sont semblables aux class CSS, la seule différence c&rsquo;est que les class sont utilisable autant de fois qu&rsquo;on en a besoin, tandis que les ID ne sont utilisable qu&rsquo;une seule fois. La déclaration d&rsquo;un ID en CSS se fait à l&rsquo;aide de son nom précédé du symbole&nbsp;<strong>&nbsp; » # « </strong></p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>#myID{
+width: 300px;
+border-style:solid;
+border-width: 5px;
+border-color: red ;
+}</code></pre>
+
+
+
+<p>Pour appliquer cet ID CSS à une balise il suffit d&rsquo;introduire l&rsquo;expression id= »myID » à l&rsquo;intérieur de la balise en question</p>
+
+
+
+<h3>Exemple:</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;p id="myID"&gt;
+Voici un paragraphe&lt;br /&gt; 
+dont la mise en forme est gérée  &lt;br /&gt;
+à l'aide de l'id &lt;b&gt;"myID "&lt;b&gt;!
+&lt;/p&gt;</code></pre>
+
+
+
+<p>Ce qui va afficher au navigateur :</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/images/css/_d_improd_/id-css_f_improf_406x109.PNG" alt="id-css.PNG" title="Les ID en CSS"/></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Height &#038; Width CSS (Hauteur et largeur)</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/height-width-css-hauteur-et-largeur/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:12:31 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=232</guid>
+
+					<description><![CDATA[1 &#8211; Propriétés height &#38; width (hauteur et largeur) Les propriétés height et width permettent de définir la hauteur et la largeur d&#8217;un élément en CSS. La hauteur et la largeur peuvent être définies sur auto (valeur par défaut. Indique que le navigateur calcule la hauteur et la largeur) spécifiées en valeurs de longueur, telles&#8230;]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2018/10/css-width-height-css.ico"><img src="http://www.tresfacile.net/wp-content/uploads/2018/10/css-width-height-css.ico" alt="" class="wp-image-5500"/></a></figure></div>
+
+
+<h2>1 &#8211; Propriétés height &amp; width (hauteur et largeur)</h2>
+
+
+
+<p>Les propriétés height et width permettent de définir la hauteur et la largeur d&rsquo;un élément en CSS.</p>
+
+
+
+<p>La hauteur et la largeur peuvent être définies sur auto (valeur par défaut. Indique que le navigateur calcule la hauteur et la largeur) spécifiées en valeurs de longueur, telles que px, cm, etc. ou en pourcentage (%) du bloc qui le contient.</p>
+
+
+
+<span id="more-232"></span>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>div {
+//élément div css de hauteur 150 pixels et une largeur 450px;
+    height: 150px;
+    width: 450px;
+    background-color: blue;
+}</code></pre>
+
+
+
+<h2>2- Propriété max-width</h2>
+
+
+
+<p>La propriété max-width est utilisée pour définir la largeur maximale d&rsquo;un élément.</p>
+
+
+
+<p>La largeur maximale peut être spécifiée en valeurs de longueur, telles que px, cm, etc., ou en pourcentage (%) du bloc conteneur, ou définie sur aucune (valeur par défaut. Indique qu&rsquo;il n&rsquo;y a pas de largeur maximale).</p>
+
+
+
+<p>Le problème avec la balise&nbsp;<strong>div</strong>&nbsp;ci-dessus se produit lorsque la fenêtre du navigateur est inférieure à la largeur de l&rsquo;élément (450px). Le navigateur ajoute ensuite une barre de défilement horizontale à la page.</p>
+
+
+
+<p>Dans ce cas, l&rsquo;utilisation de&nbsp;<strong>max-width</strong>&nbsp;améliorera la gestion des petites fenêtres par le navigateur.</p>
+
+
+
+<p><strong>Remarque :</strong>&nbsp;faites glisser la fenêtre du navigateur sur une largeur inférieure à 450 pixels pour voir la différence entre les deux div!</p>
+
+
+
+<p>L&rsquo;exemple suivant introduit un élément &lt;div&gt; avec une hauteur de 120 pixels et une largeur maximale de 450 pixels:</p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>div {
+    max-width: 450px;
+    height: 120px;
+    background-color: blue;
+}</code></pre>
+
+
+
+<h3>3 &#8211; Récapitulation des propriétés des dimensions CSS</h3>
+
+
+
+<ol><li><strong>height&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:</strong>&nbsp;Définit la hauteur d&rsquo;un élément</li><li><strong>max-height&nbsp; :</strong>&nbsp;Définit la hauteur maximale d&rsquo;un élément</li><li><strong>max-width&nbsp; &nbsp;:</strong>&nbsp;Définit la largeur maximale d&rsquo;un élément</li><li><strong>min-height&nbsp; :</strong>&nbsp;Définit la hauteur minimale d&rsquo;un élément</li><li><strong>min-width&nbsp; &nbsp;:</strong>&nbsp;Définit la largeur minimale d&rsquo;un élément</li><li><strong>width&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</strong>&nbsp;Définit la largeur d&rsquo;un élément</li></ol>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CSS : les propriétés Margin et padding</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/css-les-proprietes-margin-et-padding/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:11:46 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=230</guid>
+
+					<description><![CDATA[1 &#8211; La propriété&#160; margin Margin represente la marge externe d&#8217;un élément, elle est doté des propriétés : -margin-right &#160; &#160; &#160;&#160;:&#160; définit la marge à droite-margin-left &#160; &#160; &#160;&#160;&#160;&#160; :&#160; définit la marge à gauche-margin-top&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; :&#160; définit la marge en haut-margin-bottom :&#160; définit la marge en bas Exemple : Voici un exemple qui détérmine&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; La propriété&nbsp; margin</h2>
+
+
+
+<p>Margin represente la marge externe d&rsquo;un élément, elle est doté des propriétés :</p>
+
+
+
+<p><strong>-margin-right &nbsp; &nbsp; &nbsp;</strong>&nbsp;:&nbsp; définit la marge à droite<br><strong>-margin-left &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; :</strong>&nbsp; définit la marge à gauche<br><strong>-margin-top&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</strong>&nbsp; définit la marge en haut<br><strong>-margin-bottom :</strong>&nbsp; définit la marge en bas</p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<p>Voici un exemple qui détérmine une marge de 150 pixel de touts les cotés :</p>
+
+
+
+<span id="more-230"></span>
+
+
+
+<pre class="wp-block-code"><code>
+p {
+margin-top: 150px ;
+margin-right: 150px ;
+margin-bottom : 150px ;
+margin-left : 150px ;
+}</code></pre>
+
+
+
+<h2>2 &#8211; La propriété&nbsp; padding</h2>
+
+
+
+<p>Contrairement à la propriété margin, la propriété padding définit la marge interne à élément ,&nbsp; la syntaxe de cette dernière est similaire à la première&nbsp; :</p>
+
+
+
+<p><strong>-padding-right &nbsp; &nbsp; &nbsp; &nbsp;</strong>&nbsp;: &nbsp;&nbsp; définit la marge à droite<br><strong>-padding-left &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; :</strong>&nbsp;&nbsp;&nbsp; définit la marge à gauche<br><strong>-padding-top&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; :</strong>&nbsp;&nbsp;&nbsp; définit la marge en haut<br><strong>-padding-bottom&nbsp; &nbsp;&nbsp; :</strong>&nbsp;&nbsp;&nbsp; définit la marge en bas</p>
+
+
+
+<h3>Exemple&nbsp; :</h3>
+
+
+
+<p>Voici un exemple de marge à l&rsquo;interieur des bordures</p>
+
+
+
+<pre class="wp-block-code"><code>p {
+width: 250px; 
+border-style:outset;
+border-width:15px; 
+border-color:black;
+padding-left: 75px;
+padding-right: 75px;
+padding-top: 75px;
+padding-bottom: 75px;
+}</code></pre>
+
+
+
+<p>Ce qui va afficher :</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/images/css/_d_improd_/css-margin-padding_f_improf_558x326.PNG" alt="css marign et padding" title="css-margin-padding.PNG"/></figure>
+
+
+
+<h2>3 &#8211; La propriété Float</h2>
+
+
+
+<p>La propriété float fait flotter un objet à droite ou à gauche.</p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<p>Pour faire flotter un paragraphe à droite on utilise le code :</p>
+
+
+
+<pre class="wp-block-code"><code>p { float: right;
+width: 200px;
+border-style: solid;
+border-width: 5px;
+}</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CSS : Propriété border</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/css-propriete-border/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:10:56 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=228</guid>
+
+					<description><![CDATA[order-style La propriété&#160;border-style&#160;est utilisé pour détérminer le type des bordures elle est doté des propriétés suivantes : Propriété Effet none aucune bordure dotted bordure en pointillé (sauf internet explorer) dashed bordure en tirets (sauf internet explorer) &#160;solid &#160;bordure continue double bordure en double trait groove bordure en creux ridge bordure en saillie inset bordure en&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h3>order-style</h3>
+
+
+
+<p>La propriété&nbsp;<strong>border-style</strong>&nbsp;est utilisé pour détérminer le type des bordures elle est doté des propriétés suivantes :</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>Propriété</strong></td><td><strong>Effet</strong></td></tr><tr><td><strong>none</strong></td><td>aucune bordure</td></tr><tr><td><strong>dotted</strong></td><td>bordure en pointillé (sauf internet explorer)</td></tr><tr><td><strong>dashed</strong></td><td>bordure en tirets (sauf internet explorer)</td></tr><tr><td><strong>&nbsp;solid</strong></td><td>&nbsp;bordure continue</td></tr><tr><td><strong>double</strong></td><td>bordure en double trait</td></tr><tr><td><strong>groove</strong></td><td>bordure en creux</td></tr><tr><td><strong>ridge</strong></td><td>bordure en saillie</td></tr><tr><td><strong>inset</strong></td><td>bordure en 3d lumière basse</td></tr><tr><td><strong>outset</strong></td><td>bordure en 3d lumière haute</td></tr></tbody></table></figure>
+
+
+
+<span id="more-228"></span>
+
+
+
+<h3>Exemple 1 :</h3>
+
+
+
+<pre class="wp-block-code"><code>p { border-style:solid;
+border-width: 5px;
+border-color: red ; }</code></pre>
+
+
+
+<p>Il s&rsquo;agit&nbsp; d&rsquo;un type de bordure continue en rouge :</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/images/css/_d_improd_/css-border-style_f_improf_345x107.PNG" alt="css propriété border-style" title="css-border-style.PNG"/></figure>
+
+
+
+<h3>Exemple 2 :</h3>
+
+
+
+<pre class="wp-block-code"><code>p { 
+border-style: dashed;
+border-width: 2px;
+border-color: blue ; }</code></pre>
+
+
+
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/images/css/_d_improd_/css-border-style-dashed_f_improf_340x96.PNG" alt="css propriété border-style : dashed" title="css-border-style-dashed.PNG"/></figure>
+
+
+
+<h3>Exemple 3 :</h3>
+
+
+
+<pre class="wp-block-code"><code>p { 
+border-style: inset;
+border-width: 5px;
+border-color: black ; }</code></pre>
+
+
+
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/images/css/_d_improd_/css-border-style-inset_f_improf_340x101.PNG" alt="css propriété border-style : inset" title="css-border-style-inset.PNG"/></figure>
+
+
+
+<h3>Remarque</h3>
+
+
+
+<p>On peut aussi spécifier les bordures à droite différemment de&nbsp; celle à gauche, top et bottom, on utilise dans ce cas la commande&nbsp;<strong>border-left-width, border-right-width, border-top-width, border-bottom-width,</strong>&nbsp;et de même pour les autres propriétés&nbsp;<strong>border-left-style, border-left-color&#8230;</strong></p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt; Background CSS &lt;/title&gt;
+&lt;/p&gt;
+&lt;img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-wp-preserve="%3Cstyle%3E%0Ap%20%7B%20%0Aborder-left-style%3A%20inset%3B%0Aborder-left-color%3A%20red%20%3B%0Aborder-top-style%3A%20solid%3B%0Aborder-top-color%3A%20blue%20%3B%0Aborder-bottom-style%3A%20dashed%3B%0Aborder-bottom-color%3A%20black%20%3B%0Aborder-width%3A%205px%3B%0A%20%7D%0A%3C%2Fstyle%3E" data-mce-resize="false" data-mce-placeholder="1" class="mce-object" width="20" height="20" alt="&lt;style&gt;" title="&lt;style&gt;" /&gt;
+&lt;p&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+Voici un exemple simple
+ de bordures css
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+<p>Ce qui va afficher à l&rsquo;exécution :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2014/05/des-exemples-de-bordures-css.png" alt="des-exemples-de-bordures-css" class="wp-image-3241"/></figure></div>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CSS : La propriété Font</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/css-la-propriete-font/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:10:09 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=226</guid>
+
+					<description><![CDATA[1 &#8211; font-family Cette propriété permet de determiner le type de police d&#8217;un sélécteur Exemple Remarque : On peut utiliser plusieur type de police en même temps Exemple : le paragraphe sera afficher avec la police arial si cette dernière n&#8217;est pas disponible, le paragraphe sera afficher à l&#8217;aide de la police Verdana &#8230; 2&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; font-family</h2>
+
+
+
+<p>Cette propriété permet de determiner le type de police d&rsquo;un sélécteur</p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>h1 {
+font-family: arial ;
+}</code></pre>
+
+
+
+<h3>Remarque :</h3>
+
+
+
+<span id="more-226"></span>
+
+
+
+<p>On peut utiliser plusieur type de police en même temps</p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>p {
+font-family: Arial , Verdana, Tahoma ;
+}  </code></pre>
+
+
+
+<p>le paragraphe sera afficher avec la police arial si cette dernière n&rsquo;est pas disponible, le paragraphe sera afficher à l&rsquo;aide de la police Verdana &#8230;</p>
+
+
+
+<h2>2 &#8211; font-style</h2>
+
+
+
+<p>Cette proprièté est utilisé pour appliquer le style italique à un sélécteur</p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>p { font-style: italic ; } ( paragraphe en italique )
+p { font-style: normal ; } (paragraphe normal )</code></pre>
+
+
+
+<h2>3 &#8211; font-size</h2>
+
+
+
+<p>Cette propriété permet de determiner la taille du texte</p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>p { font-size: 36px ; }  ( ecriture avec la taille de la police 36 )</code></pre>
+
+
+
+<h2>4 &#8211; font-weight</h2>
+
+
+
+<p>Cette proprièté est utilisé pour appliquer le style gras à un sélécteur</p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>p { font-weight: bold ; } écriture en gras</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>La propriété background</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/la-propriete-background/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:09:08 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=224</guid>
+
+					<description><![CDATA[La propriété background comme son nom l&#8217;indique, nous permet de modifier l&#8217;arrière plan de notre page web: on peut mettre une couleur de notre choix , on peut mettre aussi une belle image comme arrière plan&#8230; 1 &#8211; background-color Cette propriété s&#8217;utilise pour modifier la couleur de l&#8217;arrière plan d&#8217;un élément. Exemple&#160;: coloration de l&#8217;arrière&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>La propriété background comme son nom l&rsquo;indique, nous permet de modifier l&rsquo;arrière plan de notre page web: on peut mettre une couleur de notre choix , on peut mettre aussi une belle image comme arrière plan&#8230;</p>
+
+
+
+<h2>1 &#8211; background-color</h2>
+
+
+
+<p>Cette propriété s&rsquo;utilise pour modifier la couleur de l&rsquo;arrière plan d&rsquo;un élément.</p>
+
+
+
+<h3><strong>Exemple</strong>&nbsp;: coloration de l&rsquo;arrière plan en rouge :</h3>
+
+
+
+<span id="more-224"></span>
+
+
+
+<pre class="wp-block-code"><code>body { background-color: red ; }</code></pre>
+
+
+
+<h2>2 &#8211; background-image</h2>
+
+
+
+<p>Cette propriété est utilisé pour mettre une image en arrière plan d&rsquo;un élément. L&rsquo;image est automatiquement répété pour recouvrir la totalité de l&rsquo;élément en question.</p>
+
+
+
+<h3><strong>Exemple :</strong></h3>
+
+
+
+<pre class="wp-block-code"><code>body { backgroun-image: url(adresse) ; }    //adresse = adresse url de l'image </code></pre>
+
+
+
+<h2>3 &#8211; background-repeat</h2>
+
+
+
+<p>Cette proprièté définit la façon suivant laquelle l&rsquo;image doit se répéter.</p>
+
+
+
+<h3>Exemple : background sans répétition de l&rsquo;image<strong></strong></h3>
+
+
+
+<pre class="wp-block-code"><code>body { backgroun-image: url(adresse) ; background-repeat: no-repeat ; }  // pas de répétition d'image </code></pre>
+
+
+
+<h3>Exemple : background avec répétition horizontale de l&rsquo;image ( repeat-x)<strong></strong></h3>
+
+
+
+<pre class="wp-block-code"><code>body { backgroun-image: url(adresse) ; background-repeat: repeat-x ; }  // répétition d'une façon horizontale </code></pre>
+
+
+
+<h3>Exemple : background avec répétition verticale de l&rsquo;image ( repeat-y)</h3>
+
+
+
+<pre class="wp-block-code"><code>body { backgroun-image: url(adresse) ; background-repeat: repeat-y ; }  // répetition d'une façon verticale </code></pre>
+
+
+
+<h2>4 &#8211; background-position</h2>
+
+
+
+<p>Cette propriété est utilisé pour détérminer la position de l&rsquo;image sur l&rsquo;arrière plan en utilisant Les mots-clés suivants :</p>
+
+
+
+<p><strong>top&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =</strong>&nbsp;&nbsp; image au centre/haut de la page ou du bloc.<br><strong>center&nbsp;&nbsp;&nbsp;&nbsp; = &nbsp;</strong>&nbsp;image au centre/centre de la page ou du bloc.<br><strong>bottom &nbsp; = &nbsp;</strong>&nbsp;image au centre bas de la page ou du bloc..<br><strong>right&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = &nbsp;</strong>&nbsp;image au centre/droit de la page ou du bloc.<br><strong>left &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; = &nbsp;</strong>&nbsp;image au centre/gauche de la page ou du bloc.</p>
+
+
+
+<h3>Exemple : background avec&nbsp; une image palcée en haut à gauche<strong></strong></h3>
+
+
+
+<pre class="wp-block-code"><code>body { backgroun-image: url(adresse) ;
+background-repeat: no-repeat ;
+background-position: left top ; }
+ l'image dans cet exemple se positionne en haut à gauche </code></pre>
+
+
+
+<h3><strong>Remarque</strong>&nbsp;: On porra aussi utiliser le % pour le positionnement de l&rsquo;image</h3>
+
+
+
+<h3><strong>Exemple :</strong>&nbsp;Pour positionner l&rsquo;image en haut à droite on utilise le code :</h3>
+
+
+
+<pre class="wp-block-code"><code>body { backgroun-image: url(adresse) ;
+background-repeat: no-repeat ;
+background-position: 100% 0% ; } </code></pre>
+
+
+
+<h3><strong>Exemple :</strong>&nbsp;Pour positionner l&rsquo;image au milieu de la page on utilise le code :</h3>
+
+
+
+<pre class="wp-block-code"><code>body { backgroun-image: url(adresse) ;
+background-repeat: no-repeat ;
+background-position: 50% 50% ; }</code></pre>
+
+
+
+<h2>5. Tutoriel Vidéo</h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Chapitre 4 :  la propriété background css" width="650" height="488" src="https://www.youtube.com/embed/3rnIvbmrqG0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>La propriété Text</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/la-propriete-text/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:08:06 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=222</guid>
+
+					<description><![CDATA[1 &#8211; text-align Cette propriété permet de définir l&#8217;aligement d&#8217;un texte Exemple&#160; : 2 &#8211; Text-color C&#8217;est une propriété qui sert à personnaliser la couleur du texte Exemple : 3 &#8211; text-decoration Cette commande permet de décorer un texte avec une ligne en bas, au dessus, barré&#8230; &#160;4 &#8211; text-indent C&#8217;est une propriété permettant de&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; text-align</h2>
+
+
+
+<p>Cette propriété permet de définir l&rsquo;aligement d&rsquo;un texte</p>
+
+
+
+<p><strong>Exemple&nbsp; :</strong></p>
+
+
+
+<pre class="wp-block-code"><code>//Ce code permet d'aligner tous les paragraphes à droite.
+
+p { text-align:right ; } </code></pre>
+
+
+
+<h2>2 &#8211; Text-color</h2>
+
+
+
+<p>C&rsquo;est une propriété qui sert à personnaliser la couleur du texte</p>
+
+
+
+<p><strong>Exemple :</strong></p>
+
+
+
+<span id="more-222"></span>
+
+
+
+<pre class="wp-block-code"><code>//cet exemple permet d'écrire toutes les balises h1 en bleu
+
+h1 { color : blue ; }  </code></pre>
+
+
+
+<h2>3 &#8211; text-decoration</h2>
+
+
+
+<p>Cette commande permet de décorer un texte avec une ligne en bas, au dessus, barré&#8230;</p>
+
+
+
+<pre class="wp-block-code"><code>{ text-decoration: valeur ; }
+    valeur = none                   //aucune décoration
+    valeur = underline        //texte souligné
+    valeur = overline           // ligne au dessus
+    valeur = line-through  // texte barré
+    valeur = blink              
+
+//texte clignottant ( fonctionne avec Mozilla et Netscape et non pas avec Internet explorer )   </code></pre>
+
+
+
+<h2>&nbsp;4 &#8211; text-indent</h2>
+
+
+
+<p>C&rsquo;est une propriété permettant de spécifier le décalage de la première ligne de chaque paragraphe.</p>
+
+
+
+<p><strong>Exemple :</strong></p>
+
+
+
+<pre class="wp-block-code"><code>p { text-indent: 30px ; }</code></pre>
+
+
+
+<h2>5 &#8211; letter-spacing</h2>
+
+
+
+<p>Cette propriété permet de spécifier l&rsquo;espacement entre les caractères.</p>
+
+
+
+<p><strong>Exemple :</strong></p>
+
+
+
+<pre class="wp-block-code"><code>// espacement normal entre les caractères
+
+p { letter-spacing: normal ; }  </code></pre>
+
+
+
+<p><strong>Exemple :</strong></p>
+
+
+
+<p>//espacement de 3px entre les caractères</p>
+
+
+
+<pre class="wp-block-code"><code>p {
+letter-spacing: 3px ;
+}</code></pre>
+
+
+
+<h2>6 &#8211; line-height</h2>
+
+
+
+<p>Cette propriété permet de définir l&rsquo;espace entre les lignes d&rsquo;un paragraphe</p>
+
+
+
+<p><strong>Exemple :</strong></p>
+
+
+
+<pre class="wp-block-code"><code>p{ line-height: 20px ; }</code></pre>
+
+
+
+<h2>7 &#8211; Text-shadow</h2>
+
+
+
+<p>Cette commande permet de décorer du texte avec un ombre, la syntaxe est :</p>
+
+
+
+<pre class="wp-block-code"><code>{
+text-shadow: valeur1 valeur2 valeur3 couleur;
+}</code></pre>
+
+
+
+<p>où :</p>
+
+
+
+<ul><li>valeur1 :&nbsp; mesure le décalage&nbsp; de l&rsquo;ombre horizontalement à droite en pixels</li><li>valeur2 : mesure le décalage&nbsp; de l&rsquo;ombre en bas verticalement en pixels</li><li>valeur3 : mesure l&rsquo;épaisseur de l&rsquo;ombre</li><li>couleur : couleur de l&rsquo;ombre</li></ul>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>p{
+text-shadow:7px 5px 3px black;
+}</code></pre>
+
+
+
+<p>Ce qui affiche à l&rsquo;execution :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2013/11/text-shadow-css.png" alt="text-shadow-css" class="wp-image-3212"/></figure></div>
+
+
+<h2>8 &#8211; Text-transform</h2>
+
+
+
+<p>Cette commande permet de modifier la casse d&rsquo;un texte elle a pour valeurs :</p>
+
+
+
+<ul><li>lowercase : transforme tout le texte en miniscule</li><li>capitalize : transforme la première lettre de chaque mot en majuscule</li><li>uppercase : transforme tout le texte en majuscule</li><li>inherit : hérite des parents</li></ul>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;html&gt;
+&lt;head&gt;
+
+
+&lt;style&gt;
+p{
+text-transform:uppercase;
+}
+&lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+Voici un exemple de texte transformé en majuscule
+à l'aide de la commande CSS text-transform
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+<p>Ce qui affiche à l&rsquo;exécution :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2013/11/text-transform-css1.png" alt="text-transform-css" class="wp-image-3222"/></figure></div>
+
+
+<h2>9 &#8211; Tutoriel Vidéo</h2>
+
+
+
+<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Chapitre 3 : la propriété text css" width="650" height="488" src="https://www.youtube.com/embed/lYkSg11NMsw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Les pricipales propriétés d&#8217;un sélécteur</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-pricipales-proprietes-dun-selecteur/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:07:07 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=220</guid>
+
+					<description><![CDATA[1 &#8211; Sélecteur de balise &#38; syntaxe générale d&#8217;un code CSS Avant de de parler des propriétés d&#8217;un sélecteur,&#160; prenons un exemple simple : Exemple&#160;pour mettre les balise de titre &#60;h1&#62; en rouge on utilise le code&#160; : Ici dans cet exemple : &#8211;&#160;h1&#160;s&#8217;appelle le&#160;sélécteur&#160;de balise ( il sélectionne ici la balise titre&#160;h1)&#160;, &#8211;&#160;color&#160;designe ici&#160;&#160;la&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Sélecteur de balise &amp; syntaxe générale d&rsquo;un code CSS</h2>
+
+
+
+<p>Avant de de parler des propriétés d&rsquo;un sélecteur,&nbsp; prenons un exemple simple :</p>
+
+
+
+<p><strong>Exemple</strong>&nbsp;pour mettre les balise de titre &lt;h1&gt; en rouge on utilise le code&nbsp; :</p>
+
+
+
+<pre class="wp-block-code"><code>h1{ color:#FF0000 ; }</code></pre>
+
+
+
+<p>Ici dans cet exemple :</p>
+
+
+
+<p><strong>&#8211;&nbsp;h1</strong>&nbsp;s&rsquo;appelle le<strong>&nbsp;sélécteur</strong>&nbsp;de balise ( il sélectionne ici la balise titre&nbsp;<strong>h1</strong>)&nbsp;<strong>,</strong></p>
+
+
+
+<p><strong>&#8211;&nbsp;color&nbsp;</strong>designe ici&nbsp;<strong>&nbsp;la propriété</strong>&nbsp;du sélecteur qui dans ce cas rouge )&nbsp;<strong></strong></p>
+
+
+
+<p>à partir de cet exemple, on peut déduire la syntaxe générale d&rsquo;un code CSS :</p>
+
+
+
+<span id="more-220"></span>
+
+
+
+<pre class="wp-block-code"><code>Selecteur de balise{ propriéteé:valeurs;}</code></pre>
+
+
+
+<h2>2 &#8211; Exemple de sélecteurs de balises CSS</h2>
+
+
+
+<p><strong>Exemple :</strong></p>
+
+
+
+<p>Si on veut par exemple que les balises de titre soit en rouge avec la taille 22px, et les balises de sous titre soient en bleu avec la taille 18px, on utilise le code CSS :</p>
+
+
+
+<pre class="wp-block-code"><code>h1{color:red;
+  }
+  h2{color:blue;
+  }</code></pre>
+
+
+
+<p>Voici le code complet de la page Web :</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+h1{color:red;
+  }
+  h2
+{color:blue;
+}
+&lt;/style&gt;
+&lt;title&gt;Sélecteur de balises&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Voici le titre en rouge !&lt;/h1&gt;
+&lt;h2&gt;Voici le sous titre en bleu !&lt;/h2&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+<p>Et voici maintenant l&rsquo;aperçu de la page :</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/images/css/selecteur-de-balise.png" alt="sélecteurs de balise en css" title="selecteur-de-balise.png"/><figcaption>sélecteurs de balise en css</figcaption></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Introduction au feuilles de style CSS ( cascading style sheets )</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-feuilles-de-style-css-cascading-style-sheets/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:05:25 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=215</guid>
+
+					<description><![CDATA[1 &#8211; Introduction Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web. CSS (Cascading Style Sheets : feuilles de style en cascade) est un langage qui consiste à regrouper dans un même document des caractéristiques de mise en forme&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Introduction</h2>
+
+
+
+<p>Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web. CSS (Cascading Style Sheets : feuilles de style en cascade) est un langage qui consiste à regrouper dans un même document des caractéristiques de mise en forme associées à des groupes d&rsquo;éléments. Il suffit de définir par un nom un ensemble de définitions et de caractéristiques de mise en forme, et de l&rsquo;appeler pour l&rsquo;appliquer à un texte. Un codes css est inséré entre les balises &lt;head&gt; et &lt;/head&gt; tandis que son effet s&rsquo;applique à toute la page web en question.</p>
+
+
+
+<span id="more-215"></span>
+
+
+
+<h2>2 &#8211; Syntaxe générale d&rsquo;un code css</h2>
+
+
+
+<p>La syntaxe d&rsquo;un code css se declare de la manière suivante :</p>
+
+
+
+<pre class="wp-block-code"><code>Selecteur de balise{ propriete:valeurs;}</code></pre>
+
+
+
+<p><strong>Le sélécteur :</strong>&nbsp;C&rsquo;est généralement l&rsquo;élément ou la balise html auquelle on veut appliquer le style.</p>
+
+
+
+<p><strong>La propriété&nbsp; :</strong>&nbsp;est l&rsquo;attribut qu&rsquo;on souhaite modifier en introduisant une valeur.</p>
+
+
+
+<p><strong>Exemple&nbsp; :</strong></p>
+
+
+
+<p>Voici le code css permettant de mettre toutes les balises H1 en rouge et centrée :</p>
+
+
+
+<pre class="wp-block-code"><code>H1 { color : red; text-align : center;}   </code></pre>
+
+
+
+<h2>3 &#8211; Insertion du code CSS</h2>
+
+
+
+<p><strong>3.1 &#8211; Méthode interne à la page</strong></p>
+
+
+
+<p>Cette méthode encadre le code css entre les balises &lt;style&gt; et &lt;/style&gt; et l&rsquo;integre directement entre les balise &lt;head&gt; et &lt;/head&gt;</p>
+
+
+
+<p><strong>3.2 &#8211; Méthode externe à la page</strong></p>
+
+
+
+<p>Cette méthode emagazine le code css dans un fichier dont l&rsquo;extension est .css par exemple style.css et introduit dans les pages html entre les balises&nbsp;<strong>&lt;head&gt; et &lt;/head&gt;</strong>&nbsp;un lien du type :</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;link rel="stylesheet" type="text/css" href="style.css"/&gt;</code></pre>
+
+
+
+<h2>3.4 Tutoriel Vidéo</h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Chapitre 1 : Premier pas en CSS ( Cascading style sheet )" width="650" height="488" src="https://www.youtube.com/embed/76tM3o_VhRY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Chapitre 2 : 2ème pas en css, feuille de style externe" width="650" height="488" src="https://www.youtube.com/embed/TYReQOVFVgw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

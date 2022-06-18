@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/informatiques/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Sat, 18 Jun 2022 03:07:03 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 18 Jun 2022 19:00:25 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,164 +20,6 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
-		<title>Présentation WordPress</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/#respond</comments>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 16 May 2022 18:11:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
-
-					<description><![CDATA[* Résumé :&#160; WordPress est un système de gestion de contenu (CMS) qui permet de créer et de gérer facilement un site ou un blog, pour une école par exemple. Vous trouverez, dans cet article, une présentation générale de cet outil et une description succincte de quelques manipulations usuelles. Vous trouverez, dans cet article :&#8230;]]></description>
-										<content:encoded><![CDATA[<header id="article-header" style="background-color: white; box-sizing: border-box; color: #202124; font-family: Roboto, sans-serif; font-size: 14.0488px; margin-top: 24px; width: 360px;">
-<div id="title-collapse" style="box-sizing: border-box;">
-<div class="vertical-center-outer" style="box-sizing: border-box;">
-<div class="vertical-center-inner" style="box-sizing: border-box;">
-<h1 id="title-holder" style="box-sizing: border-box; font-size: 1.714rem; line-height: 1.417; margin: 0px 16px; overflow-wrap: break-word; padding: 0px;"><span style="font-size: 14.0488px;">* Résumé :</span><span style="font-size: 14.0488px;">&nbsp;</span></h1>
-</div>
-</div>
-</div>
-</header>
-<div id="content" style="background-color: white; box-sizing: border-box; color: #202124; font-family: Roboto, sans-serif; font-size: 14.0488px; margin: 24px 16px;">
-<div style="box-sizing: border-box;">
-<div dir="ltr" style="box-sizing: border-box;">WordPress est un système de gestion de contenu (CMS) qui permet de créer et de gérer facilement un site ou un blog, pour une école par exemple. Vous trouverez, dans cet article, une présentation générale de cet outil et une description succincte de quelques manipulations usuelles.</div>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Vous trouverez, dans cet article :</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; FAQ : quelques manipulations fréquemment utilisées</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Généralités</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">WordPress est un système de gestion de contenu (CMS) qui permet de créer et de gérer facilement un site ou un blog, pour une école par exemple.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Dans un tel système, le « look » du site et ses contenus sont gérés séparément : les contenus (articles, pages, images&#8230;) sont stockés dans un espace dédié et ils sont affichés, à la demande, sur le site, selon une présentation (mise en page, couleurs&#8230;) qu&rsquo;on peut faire varier&nbsp;; si on change de thème, les contenus sont automatiquement ré-agencés en conséquence.</p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Les gestionnaires du site disposent d&rsquo;une interface spécifique, protégée par mot de passe, qui leur permet d&rsquo;apporter les modifications souhaitées au site. Selon leur&nbsp;<a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/index.php#utilisateurs">statut</a>, ils peuvent modifier tout ou partie des contenus, des&nbsp;<a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/index.php#apparence">thèmes</a>&nbsp;et/ou des fonctionnalités installées.<br dir="ltr" style="box-sizing: border-box;">Cette interface s&rsquo;ouvre sur un tableau de bord qui résume l&rsquo;état du site et donne accès aux différents réglages.</p>
-<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/tableau_bord.gif" width="800" height="414"></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Pages / articles / catégories / commentaires</p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">WordPress fournit des outils permettant de mêler les notions de&nbsp;<em dir="ltr" style="box-sizing: border-box;"><strong dir="ltr" style="box-sizing: border-box;">site</strong></em>&nbsp;(organisation thématique des contenus) et de&nbsp;<em dir="ltr" style="box-sizing: border-box;"><strong dir="ltr" style="box-sizing: border-box;">blog</strong></em>&nbsp;(organisation chronologique des contenus).</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Il est essentiel de s&rsquo;approprier le vocabulaire utilisé dans WordPress&nbsp;:</p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; pages</strong>&nbsp;: une page est un ensemble de contenus (textes, images, sons&#8230;) fournissant des informations plutôt pérennes&nbsp;: présentation de l&rsquo;école, des classes, contacts&#8230;&nbsp;; c&rsquo;est l&rsquo;aspect « site » de WordPress. Les titres des pages s&rsquo;affichent automatiquement dans le bandeau supérieur du thème (si elles deviennent nombreuses, on peut les organiser en menus déroulants)</p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; articles</strong>&nbsp;: un article contient des éléments plus dynamiques, liés à la vie quotidienne du site, actualités et comptes-rendus d&rsquo;activités au jour le jour&nbsp;; c&rsquo;est l&rsquo;aspect « blog » de WordPress.</p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; catégories</strong>&nbsp;: les catégories permettent d&rsquo;indexer les articles, c&rsquo;est à dire de les classer dans des thèmes pré-définis&nbsp;; cet outil permet d&rsquo;organiser les articles selon des critères autres que chronologique.<br dir="ltr" style="box-sizing: border-box;">L&rsquo;usage des catégories est vivement recommandé : créez des catégories adaptées à votre site (par exemple, une catégorie par classe, un catégorie « sports », une catégorie « arts », une catégorie « classe de découverte »&#8230;) pour que les utilisateurs puissent accéder aux articles selon leurs centres d&rsquo;intérêt et pas seulement via une liste chronologique générale.</p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; commentaires</strong>&nbsp;: pour chaque page ou article publié, les visiteurs du site peuvent laisser des commentaires qui viennent s&rsquo;afficher sous le contenu&nbsp;; les commentaires permettent une interaction et une participation plus active des visiteurs.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Ecrire un article ou une page</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">La publication de contenus se passe de façon identique, dans une page ou dans un article.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Texte</strong></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Un éditeur permet de saisir et de mettre en forme du texte, dans des conditions assez proches d&rsquo;un traitement de texte classique (saisie, barres d&rsquo;outils&#8230;)</p>
-<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/editeur.gif" width="800" height="318"></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">On peut également y copier/coller du texte, avec sa mise en forme, depuis un traitement de texte (Word ou autre).</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em>&nbsp;: si vous maîtrisez le maniement de l&rsquo;HTML, vous pouvez afficher et modifier le code de la page, en cliquant sur l&rsquo;onglet « texte », partie droite de la fenêtre de l&rsquo;éditeur.</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Liens</strong></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">On peut transformer un mot, un groupe de mots ou une image en lien vers un autre article/page du site ou vers un site web quelconque.</p>
-<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/liens.gif" width="636" height="527"></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em>&nbsp;: en cas de lien vers un site externe, il est recommandé de cocher la case « ouvrir le lien dans une nouvelle fenêtre » pour qu&rsquo;un visiteur qui refermerait son navigateur après avoir visité le lien revienne quand même dans votre site.</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Médias (images/galeries, sons, vidéos)</strong></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Dans les articles comme dans les pages, on peut ajouter des photos (individuellement entre des paragraphes de texte ou regroupées dans une galerie), des sons et des vidéos.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Pour qu&rsquo;un média puisse être affiché dans un article/page, il faut, au préalable, l&rsquo;envoyer sur le serveur du site&nbsp;; les médias ainsi disponibles pour votre site se regroupent dans la bibliothèque de médias.</p>
-<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/bib_medias.gif" width="800" height="503"></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Vous pouvez envoyer vos médias avant de commencer un article en utilisant le bouton « médias » du tableau de bord ou en cours de rédaction de l&rsquo;article par le bouton « ajouter un média » de l&rsquo;éditeur d&rsquo;articles.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em>&nbsp;: les photos produites par les appareils photos sont souvent des images de grande taille et des fichiers très lourds. Il est recommandé de les préparer avant envoi sur le site, en réduisant leur taille et leur poids&nbsp;; voir une&nbsp;<a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/photos_traitement_lots/index.php">procédure de retouche d&rsquo;images par lots</a>.</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em>&nbsp;: en cours de rédaction d&rsquo;un article, vous pouvez également ajouter une galerie (=plusieurs photos présentées en tableau), en choisissant « ajouter un média » puis, à gauche, « créer une galerie »&nbsp;; vous pouvez alors sélectionner plusieurs photos de votre biblliothèque de médias ou envoyer de nouveaux fichiers photos qui vont constituer le tableau puis l&rsquo;insérer dans l&rsquo;article. Les vignettes de la galerie sont cliquables pour afficher les photos en taille réelle.</span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Options (colonne de droite)</strong></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Dans la colonne de droite, vous trouverez, outre le bouton « publier » qui enregistre la page ou l&rsquo;article, diverses options dont celle qui consiste à affecter une ou plusieurs catégories à la page/article que vous venez de créer&nbsp;: pensez à cocher la ou les case(s) correspondante(s) pour que votre document apparaisse dans les différentes listes adéquates.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Utilisateurs / statuts</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Différents statuts, octroyant différents droits, peuvent être attribués aux utilisateurs d&rsquo;un site, depuis le simple visiteur qui ne peut que lire les pages et articles jusqu&rsquo;à l&rsquo;administrateur qui peut tout modifier dans le site.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Voici un tableau récapitulatif de ces statuts et des droits qui leur sont associés</p>
-<table dir="ltr" style="border-collapse: collapse; border-spacing: 0px; display: block; margin: 0px 0px 1.143rem; overflow-wrap: break-word; overflow-x: auto; padding: 0px;" border="1" cellspacing="0" cellpadding="2">
-<tbody dir="ltr" style="box-sizing: border-box;">
-<tr dir="ltr" style="background-color: #eeeeee; box-sizing: border-box;">
-<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" width="115" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">statut</em></p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" width="264" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">droits</em></p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" width="276" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">exemples</em></p>
-</td>
-</tr>
-<tr dir="ltr" style="box-sizing: border-box;">
-<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; abonné</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">lecture, commentaires</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">tout public</p>
-</td>
-</tr>
-<tr dir="ltr" style="background-color: #eeeeee; box-sizing: border-box;">
-<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; contributeur</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">écrire (mais pas publier) articles</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">élèves</p>
-</td>
-</tr>
-<tr dir="ltr" style="box-sizing: border-box;">
-<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; auteur</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">gestion complète articles persos</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">autres intervenants&nbsp;: assoc. parents…</p>
-</td>
-</tr>
-<tr dir="ltr" style="background-color: #eeeeee; box-sizing: border-box;">
-<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; éditeur</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">gestion complète articles + pages</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">tous les enseignants</p>
-</td>
-</tr>
-<tr dir="ltr" style="box-sizing: border-box;">
-<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; admin</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">tous droits</p>
-</td>
-<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">un seul par site, le webmestre</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em>&nbsp;: on peut restreindre l&rsquo;accès général à un site WordPress, par exemple le réserver aux parents d&rsquo;élèves de l&rsquo;école, via un&nbsp;<a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/index.php#extensions">plugin</a>.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Apparence : thèmes / widgets</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Thèmes</strong></p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Les thèmes sont les outils de base pour modifier l&rsquo;apparence d&rsquo;un site WordPress&nbsp;: changer de thème, c&rsquo;est modifier la présentation du site, tout en conservant les contenus.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em>&nbsp;: attention, selon les thèmes, il peut être nécessaire, en cas de changement, de procéder à quelques ajustements sur les contenus. Il vaut donc mieux tester des thèmes et choisir celui qui vous convient tant que le site ne contient pas trop d&rsquo;articles.</span></p>
-<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/themes.gif" width="800" height="251"></p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Quelques thèmes sont chargés à l&rsquo;installation de WordPress, d&rsquo;autres sont téléchargeables (gratuits ou payants) sur&nbsp;<a dir="ltr" style="box-sizing: border-box;" href="https://wordpress.org/themes/">le site officiel de WordPress</a>&nbsp;ou d&rsquo;autres sites.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">De plus, chaque thème peut être personnalisé, au niveau de la mise en page, des couleurs et des éléments affichés.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Widgets</strong></p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Au sein de chaque thème, vous pouvez également choisir les modules à afficher dans les barres latérales (sidebars) de votre site&nbsp;; ces blocs, appelés widgets, contiennent des éléments d&rsquo;information de différentes natures&nbsp;: fonction de recherche, calendrier, liste des catégories, archives&#8230; Affichés dans la barre latérale gauche dans le thème par défaut de WordPress, on peut aussi les afficher dans la barre de droite ou en bas de page.</p>
-<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/widgets.gif" width="800" height="600"></p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em>&nbsp;: les widgets permettent de donner un accès rapide à certaines fonctions mais leur multiplication peut rendre la page moins lisible&nbsp;; certains peuvent être jugés plus ou moins utiles, par exemple « articles récents » si votre page d&rsquo;accueil les présente déjà ou « commentaires récents » qui regroupe des commentaires déconnectés de leur contexte.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Extensions : plugins</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Certaines fonctionnalités, non disponibles d&rsquo;origine dans WordPress, peuvent être ajoutées ultérieurement&nbsp;: les plugins sont ces extensions de fonctionnalités qui peuvent être téléchargées et installées, il en existe des gratuites et des payantes.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">On peut, par exemple, ajouter des outils pour créer des diaporamas, pour ajouter des forums, pour mieux protéger le site contre les spams, pour améliorer l&rsquo;indexation du site sur les moteurs de recherche&#8230;</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Installer un plugin, c&rsquo;est le choisir, le télécharger sur votre site puis l&rsquo;activer&nbsp;; le plugin installe généralement de nouveaux menus qui vous permettent d&rsquo;accéder à la fonctionnalité recherchée.</p>
-<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><a dir="ltr" style="box-sizing: border-box;" href="https://wordpress.org/plugins/">Le site officiel de WordPress</a>&nbsp;propose des plugins gratuits, dont la compatibilité a été sérieusement testée.</p>
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">
-<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em style="box-sizing: border-box;">Tutoriels</em></p>
-</div>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>Conversion de nombres</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/</link>
 					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/#respond</comments>
@@ -187,31 +29,29 @@
 				<category><![CDATA[Informatiques]]></category>
 		<guid isPermaLink="false"></guid>
 
-					<description><![CDATA[Il existe de nombreuses méthodes ou techniques qui peuvent être utilisées pour convertir des nombres d&#39;une base à une autre. Dans ce chapitre, nous allons démontrer ce qui suit &#8211; Décimal à un autre système de base Autre système de base en décimal Autre système de base non décimal Méthode de raccourci &#8211; Binaire vers Octal&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">Il existe de nombreuses méthodes ou techniques qui peuvent être utilisées pour convertir des nombres d&#39;une base à une autre. Dans ce chapitre, nous allons démontrer ce qui suit &#8211;</p>
-<ul style="font-size:medium">
-<li>Décimal à un autre système de base</li>
-<li>Autre système de base en décimal</li>
-<li>Autre système de base non décimal</li>
-<li>Méthode de raccourci &#8211; Binaire vers Octal</li>
-<li>Méthode de raccourci &#8211; Octal vers binaire</li>
-<li>Méthode de raccourci &#8211; Binaire à hexadécimal</li>
-<li>Méthode de raccourci &#8211; Hexadécimal à binaire</li>
-</ul>
+					<description><![CDATA[Décimal à un autre système de base Autre système de base en décimal Autre système de base non décimal Méthode de raccourci &#8211; Binaire vers Octal Méthode de raccourci &#8211; Octal vers binaire Méthode de raccourci &#8211; Binaire à hexadécimal Méthode de raccourci &#8211; Hexadécimal à binaire     Décimal à un autre système de&#8230;]]></description>
+										<content:encoded><![CDATA[
+<ul><li>Décimal à un autre système de base</li><li>Autre système de base en décimal</li><li>Autre système de base non décimal</li><li>Méthode de raccourci &#8211; Binaire vers Octal</li><li>Méthode de raccourci &#8211; Octal vers binaire</li><li>Méthode de raccourci &#8211; Binaire à hexadécimal</li><li>Méthode de raccourci &#8211; Hexadécimal à binaire</li></ul>
+
+
+<div dir="auto">
+<h1 style="text-align: center;"> </h1>
+</div>
+<p><span id="more-31"></span></p>
+<p> </p>
+<div dir="auto">
 <h2>Décimal à un autre système de base</h2>
-<p style="font-size:medium"><b>Étape 1</b> &#8211; Divisez le nombre décimal à convertir par la valeur de la nouvelle base.</p>
-<p style="font-size:medium"><b>Étape 2</b> &#8211; Obtenez le reste de l&#39;étape 1 comme le chiffre le plus à droite (chiffre le moins significatif) du nouveau numéro de base.</p>
-<p style="font-size:medium"><b>Étape 3</b> &#8211; Divisez le quotient de la division précédente par la nouvelle base.</p>
-<p style="font-size:medium"><b>Étape 4</b> &#8211; Enregistrez le reste de l&#39;étape 3 comme chiffre suivant (à gauche) du nouveau numéro de base.</p>
-<p style="font-size:medium">Répétez les étapes 3 et 4, en obtenant les restes de droite à gauche, jusqu&#39;à ce que le quotient devienne zéro à l&#39;étape 3.</p>
-<p style="font-size:medium">Le dernier reste ainsi obtenu sera le chiffre le plus significatif (MSD) du nouveau numéro de base.</p>
+<p style="font-size: medium;"><b>Étape 1</b> &#8211; Divisez le nombre décimal à convertir par la valeur de la nouvelle base.</p>
+<p style="font-size: medium;"><b>Étape 2</b> &#8211; Obtenez le reste de l&rsquo;étape 1 comme le chiffre le plus à droite (chiffre le moins significatif) du nouveau numéro de base.</p>
+<p style="font-size: medium;"><b>Étape 3</b> &#8211; Divisez le quotient de la division précédente par la nouvelle base.</p>
+<p style="font-size: medium;"><b>Étape 4</b> &#8211; Enregistrez le reste de l&rsquo;étape 3 comme chiffre suivant (à gauche) du nouveau numéro de base.</p>
+<p style="font-size: medium;">Répétez les étapes 3 et 4, en obtenant les restes de droite à gauche, jusqu&rsquo;à ce que le quotient devienne zéro à l&rsquo;étape 3.</p>
+<p style="font-size: medium;">Le dernier reste ainsi obtenu sera le chiffre le plus significatif (MSD) du nouveau numéro de base.</p>
+<p> </p>
 <h3>Exemple</h3>
-<p style="font-size:medium">Nombre décimal: 29 <sub>10</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:133px">
+<p style="font-size: medium;">Nombre décimal: 29 <sub>10</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 133px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -251,16 +91,16 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Comme mentionné aux étapes 2 et 4, les restes doivent être disposés dans l&#39;ordre inverse de sorte que le premier reste devienne le chiffre le moins significatif (LSD) et le dernier reste le chiffre le plus significatif (MSD).</p>
-<p style="font-size:medium">Nombre décimal: 29 <sub>10</sub> = Nombre binaire: 11101 <sub>2.</sub></p>
+<p style="font-size: medium;">Comme mentionné aux étapes 2 et 4, les restes doivent être disposés dans l&rsquo;ordre inverse de sorte que le premier reste devienne le chiffre le moins significatif (LSD) et le dernier reste le chiffre le plus significatif (MSD).</p>
+<p style="font-size: medium;">Nombre décimal: 29 <sub>10</sub> = Nombre binaire: 11101 <sub>2.</sub></p>
 <h2>Autre système de base au système décimal</h2>
-<p style="font-size:medium"><b>Étape 1</b> &#8211; Déterminez la valeur de colonne (positionnelle) de chaque chiffre (cela dépend de la position du chiffre et de la base du système numérique).</p>
-<p style="font-size:medium"><b>Étape 2</b> &#8211; Multipliez les valeurs de colonne obtenues (à l&#39;étape 1) par les chiffres des colonnes correspondantes.</p>
-<p style="font-size:medium"><b>Étape 3</b> &#8211; Additionnez les produits calculés à l&#39;étape 2. Le total est la valeur équivalente en décimal.</p>
+<p style="font-size: medium;"><b>Étape 1</b> &#8211; Déterminez la valeur de colonne (positionnelle) de chaque chiffre (cela dépend de la position du chiffre et de la base du système numérique).</p>
+<p style="font-size: medium;"><b>Étape 2</b> &#8211; Multipliez les valeurs de colonne obtenues (à l&rsquo;étape 1) par les chiffres des colonnes correspondantes.</p>
+<p style="font-size: medium;"><b>Étape 3</b> &#8211; Additionnez les produits calculés à l&rsquo;étape 2. Le total est la valeur équivalente en décimal.</p>
 <h3>Exemple</h3>
-<p style="font-size:medium">Nombre binaire: 11101 <sub>2</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:197.18px">
+<p style="font-size: medium;">Nombre binaire: 11101 <sub>2</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 197.18px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -284,15 +124,15 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Nombre binaire: 11101 <sub>2</sub> = Nombre décimal: 29 <sub>10</sub></p>
+<p style="font-size: medium;">Nombre binaire: 11101 <sub>2</sub> = Nombre décimal: 29 <sub>10</sub></p>
 <h2>Autre système de base au système non décimal</h2>
-<p style="font-size:medium"><b>Étape 1</b> &#8211; Convertissez le nombre d&#39;origine en nombre décimal (base 10).</p>
-<p style="font-size:medium"><b>Étape 2</b> &#8211; Convertissez le nombre décimal ainsi obtenu en nouveau nombre de base.</p>
+<p style="font-size: medium;"><b>Étape 1</b> &#8211; Convertissez le nombre d&rsquo;origine en nombre décimal (base 10).</p>
+<p style="font-size: medium;"><b>Étape 2</b> &#8211; Convertissez le nombre décimal ainsi obtenu en nouveau nombre de base.</p>
 <h3>Exemple</h3>
-<p style="font-size:medium">Numéro octal: 25 <sub>8</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
+<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
 <h3>Étape 1 &#8211; Convertir en décimal</h3>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:101.914px">
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 101.914px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -316,9 +156,9 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Nombre octal: 25 <sub>8</sub> = Nombre décimal: 21 <sub>10</sub></p>
+<p style="font-size: medium;">Nombre octal: 25 <sub>8</sub> = Nombre décimal: 21 <sub>10</sub></p>
 <h3>Étape 2 &#8211; Conversion décimale en binaire</h3>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:133px">
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 133px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -358,15 +198,15 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Nombre décimal: 21 <sub>10</sub> = Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size:medium">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size: medium;">Nombre décimal: 21 <sub>10</sub> = Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
 <h2>Méthode de raccourci ─ Binaire en octal</h2>
-<p style="font-size:medium"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de trois (en commençant par la droite).</p>
-<p style="font-size:medium"><b>Étape 2</b> &#8211; Convertissez chaque groupe de trois chiffres binaires en un chiffre octal.</p>
+<p style="font-size: medium;"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de trois (en commençant par la droite).</p>
+<p style="font-size: medium;"><b>Étape 2</b> &#8211; Convertissez chaque groupe de trois chiffres binaires en un chiffre octal.</p>
 <h3>Exemple</h3>
-<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent octal &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent octal &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -390,14 +230,14 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub> = Nombre octal: 25 <sub>8</sub></p>
+<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub> = Nombre octal: 25 <sub>8</sub></p>
 <h2>Méthode de raccourci ─ Octal vers binaire</h2>
-<p style="font-size:medium"><b>Étape 1</b> &#8211; Convertissez chaque chiffre octal en un nombre binaire à 3 chiffres (les chiffres octaux peuvent être traités comme des nombres décimaux pour cette conversion).</p>
-<p style="font-size:medium"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 3 chiffres chacun) en un seul nombre binaire.</p>
+<p style="font-size: medium;"><b>Étape 1</b> &#8211; Convertissez chaque chiffre octal en un nombre binaire à 3 chiffres (les chiffres octaux peuvent être traités comme des nombres décimaux pour cette conversion).</p>
+<p style="font-size: medium;"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 3 chiffres chacun) en un seul nombre binaire.</p>
 <h3>Exemple</h3>
-<p style="font-size:medium">Numéro octal: 25 <sub>8</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -421,14 +261,14 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
 <h2>Méthode de raccourci ─ Binaire à Hexadécimal</h2>
-<p style="font-size:medium"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de quatre (en commençant par la droite).</p>
-<p style="font-size:medium"><b>Étape 2</b> &#8211; Convertissez chaque groupe de quatre chiffres binaires en un symbole hexadécimal.</p>
+<p style="font-size: medium;"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de quatre (en commençant par la droite).</p>
+<p style="font-size: medium;"><b>Étape 2</b> &#8211; Convertissez chaque groupe de quatre chiffres binaires en un symbole hexadécimal.</p>
 <h3>Exemple</h3>
-<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent hexadécimal &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent hexadécimal &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -452,14 +292,14 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub> = Nombre hexadécimal: 15 <sub>16</sub></p>
+<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub> = Nombre hexadécimal: 15 <sub>16</sub></p>
 <h2>Méthode de raccourci &#8211; Hexadécimal à binaire</h2>
-<p style="font-size:medium"><b>Étape 1</b> &#8211; Convertissez chaque chiffre hexadécimal en un nombre binaire à 4 chiffres (les chiffres hexadécimaux peuvent être traités comme décimaux pour cette conversion).</p>
-<p style="font-size:medium"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 4 chiffres chacun) en un seul nombre binaire.</p>
+<p style="font-size: medium;"><b>Étape 1</b> &#8211; Convertissez chaque chiffre hexadécimal en un nombre binaire à 4 chiffres (les chiffres hexadécimaux peuvent être traités comme décimaux pour cette conversion).</p>
+<p style="font-size: medium;"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 4 chiffres chacun) en un seul nombre binaire.</p>
 <h3>Exemple</h3>
-<p style="font-size:medium">Nombre hexadécimal: 15 <sub>16</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<p style="font-size: medium;">Nombre hexadécimal: 15 <sub>16</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -483,9 +323,12 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium">Nombre hexadécimal: 15 <sub>16</sub> = Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+<p style="font-size: medium;">Nombre hexadécimal: 15 <sub>16</sub> = Nombre binaire: 10101 <sub>2</sub></p>
 </div>
+<p><!--more--></p>
+
+
+<p>Il existe de nombreuses méthodes ou techniques qui peuvent être utilisées pour convertir des nombres d&rsquo;une base à une autre.&nbsp;Dans ce chapitre, nous allons démontrer ce qui suit &#8211;</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/feed/</wfw:commentRss>
@@ -503,29 +346,22 @@
 				<category><![CDATA[Informatiques]]></category>
 		<guid isPermaLink="false"></guid>
 
-					<description><![CDATA[Lorsque nous tapons des lettres ou des mots, l&#39;ordinateur les traduit en nombres car les ordinateurs ne peuvent comprendre que des nombres. Un ordinateur peut comprendre le système de numération positionnelle où il n&#39;y a que quelques symboles appelés chiffres et ces symboles représentent des valeurs différentes en fonction de la position qu&#39;ils occupent dans le&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">Lorsque nous tapons des lettres ou des mots, l&#39;ordinateur les traduit en nombres car les ordinateurs ne peuvent comprendre que des nombres. Un ordinateur peut comprendre le système de numération positionnelle où il n&#39;y a que quelques symboles appelés chiffres et ces symboles représentent des valeurs différentes en fonction de la position qu&#39;ils occupent dans le nombre.</p>
-<p style="font-size:medium">La valeur de chaque chiffre d&#39;un nombre peut être déterminée en utilisant &#8211;</p>
-<ul style="font-size:medium">
-<li>
-<p>Le chiffre</p>
-</li>
-<li>
-<p>La position du chiffre dans le nombre</p>
-</li>
-<li>
-<p>La base du système numérique (où la base est définie comme le nombre total de chiffres disponibles dans le système numérique)</p>
-</li>
-</ul>
-<h2>Système de nombres décimaux</h2>
-<p style="font-size:medium">Le système numérique que nous utilisons dans notre vie de tous les jours est le système numérique décimal. Le système de nombres décimaux a la base 10 car il utilise 10 chiffres de 0 à 9. Dans le système de nombres décimaux, les positions successives à gauche du point décimal représentent des unités, des dizaines, des centaines, des milliers, etc.</p>
-<p style="font-size:medium">Chaque position représente une puissance spécifique de la base (10). Par exemple, le nombre décimal 1234 se compose du chiffre 4 dans la position des unités, 3 dans la position des dizaines, 2 dans la position des centaines et 1 dans la position des milliers. Sa valeur peut s&#39;écrire</p>
+					<description><![CDATA[Le système numérique que nous utilisons dans notre vie de tous les jours est le système numérique décimal. Le système de nombres décimaux a la base 10 car il utilise 10 chiffres de 0 à 9. Dans le système de nombres décimaux, les positions successives à gauche du point décimal représentent des unités, des dizaines, des&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Le système numérique que nous utilisons dans notre vie de tous les jours est le système numérique décimal. Le système de nombres décimaux a la base 10 car il utilise 10 chiffres de 0 à 9. Dans le système de nombres décimaux, les positions successives à gauche du point décimal représentent des unités, des dizaines, des centaines, des milliers, etc.</p>
+
+
+
+<span id="more-32"></span>
+
+
+<div dir="auto">
+<h1 style="text-align: center;"> </h1>
+<p style="font-size: medium;"> </p>
+<p style="font-size: medium;">Chaque position représente une puissance spécifique de la base (10). Par exemple, le nombre décimal 1234 se compose du chiffre 4 dans la position des unités, 3 dans la position des dizaines, 2 dans la position des centaines et 1 dans la position des milliers. Sa valeur peut s&rsquo;écrire</p>
 <pre>(1 x 1000)+ (2 x 100)+ (3 x 10)+ (4 x l)  (1 x 10<sup>3</sup>)+ (2 x 10<sup>2</sup>)+ (3 x 10<sup>1</sup>)+ (4 x l0<sup>0</sup>)  1000 + 200 + 30 + 4  1234  </pre>
-<p style="font-size:medium">En tant que programmeur informatique ou professionnel de l&#39;informatique, vous devez comprendre les systèmes numériques suivants qui sont fréquemment utilisés dans les ordinateurs.</p>
-<table style="font-size:medium">
+<p style="font-size: medium;">En tant que programmeur informatique ou professionnel de l&rsquo;informatique, vous devez comprendre les systèmes numériques suivants qui sont fréquemment utilisés dans les ordinateurs.</p>
+<table style="font-size: medium;">
 <tbody>
 <tr>
 <th>S.No.</th>
@@ -555,8 +391,8 @@
 </tbody>
 </table>
 <h2>Système de numération binaire</h2>
-<p style="font-size:medium">Les caractéristiques du système de nombres binaires sont les suivantes &#8211;</p>
-<ul style="font-size:medium">
+<p style="font-size: medium;">Les caractéristiques du système de nombres binaires sont les suivantes &#8211;</p>
+<ul style="font-size: medium;">
 <li>
 <p>Utilise deux chiffres, 0 et 1</p>
 </li>
@@ -571,9 +407,9 @@
 </li>
 </ul>
 <h3>Exemple</h3>
-<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:197.18px">
+<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 197.18px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -597,10 +433,10 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium"><b>Remarque</b> &#8211; 10101 <sub>2</sub> s&#39;écrit normalement 10101.</p>
+<p style="font-size: medium;"><b>Remarque</b> &#8211; 10101 <sub>2</sub> s&rsquo;écrit normalement 10101.</p>
 <h2>Système de nombre octal</h2>
-<p style="font-size:medium">Les caractéristiques du système de nombres octaux sont les suivantes &#8211;</p>
-<ul style="font-size:medium">
+<p style="font-size: medium;">Les caractéristiques du système de nombres octaux sont les suivantes &#8211;</p>
+<ul style="font-size: medium;">
 <li>
 <p>Utilise huit chiffres, 0,1,2,3,4,5,6,7</p>
 </li>
@@ -615,9 +451,9 @@
 </li>
 </ul>
 <h3>Exemple</h3>
-<p style="font-size:medium">Numéro octal: 12570 <sub>8</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:178.047px">
+<p style="font-size: medium;">Numéro octal: 12570 <sub>8</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 178.047px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -641,10 +477,10 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium"><b>Remarque</b> &#8211; 12570 <sub>8</sub> s&#39;écrit normalement 12570.</p>
+<p style="font-size: medium;"><b>Remarque</b> &#8211; 12570 <sub>8</sub> s&rsquo;écrit normalement 12570.</p>
 <h2>Système de nombres hexadécimaux</h2>
-<p style="font-size:medium">Les caractéristiques du système de nombres hexadécimaux sont les suivantes &#8211;</p>
-<ul style="font-size:medium">
+<p style="font-size: medium;">Les caractéristiques du système de nombres hexadécimaux sont les suivantes &#8211;</p>
+<ul style="font-size: medium;">
 <li>
 <p>Utilise 10 chiffres et 6 lettres, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</p>
 </li>
@@ -662,9 +498,9 @@
 </li>
 </ul>
 <h3>Exemple</h3>
-<p style="font-size:medium">Nombre hexadécimal: 19FDE <sub>16</sub></p>
-<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:273.555px">
+<p style="font-size: medium;">Nombre hexadécimal: 19FDE <sub>16</sub></p>
+<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
+<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 273.555px;" border="1">
 <tbody>
 <tr>
 <th>Étape</th>
@@ -693,9 +529,27 @@
 </tr>
 </tbody>
 </table>
-<p style="font-size:medium"><b>Remarque</b> &#8211; 19FDE <sub>16</sub> s&#39;écrit normalement 19FDE.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+<p style="font-size: medium;"><b>Remarque</b> &#8211; 19FDE <sub>16</sub> s&rsquo;écrit normalement 19FDE.</p>
+<p style="font-size: medium;"><span style="color: #fc4353;"> </span></p>
 </div>
+<p><!--more--></p>
+<p><!--more--></p>
+<p><!--more--></p>
+
+
+<p>Lorsque nous tapons des lettres ou des mots, l&rsquo;ordinateur les traduit en nombres car les ordinateurs ne peuvent comprendre que des nombres.&nbsp;Un ordinateur peut comprendre le système de numération positionnelle où il n&rsquo;y a que quelques symboles appelés chiffres et ces symboles représentent des valeurs différentes en fonction de la position qu&rsquo;ils occupent dans le nombre.</p>
+
+
+
+<p>La valeur de chaque chiffre d&rsquo;un nombre peut être déterminée en utilisant &#8211;</p>
+
+
+
+<ul><li>Le chiffre</li><li>La position du chiffre dans le nombre</li><li>La base du système numérique (où la base est définie comme le nombre total de chiffres disponibles dans le système numérique)</li></ul>
+
+
+
+<h2>Système de nombres décimaux</h2>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/feed/</wfw:commentRss>
@@ -1286,6 +1140,79 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mémoire d&#8217;ordinateur</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-dordinateur/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-dordinateur/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:22:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Un souvenir est comme un cerveau humain. Il est utilisé pour stocker des données et des instructions. La mémoire de l&#39;ordinateur est l&#39;espace de stockage dans l&#39;ordinateur, où les données doivent être traitées et les instructions nécessaires au traitement sont stockées. La mémoire est divisée en un grand nombre de petites parties appelées cellules. Chaque emplacement ou cellule a&#8230;]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">Un souvenir est comme un cerveau humain. Il est utilisé pour stocker des données et des instructions. La mémoire de l&#39;ordinateur est l&#39;espace de stockage dans l&#39;ordinateur, où les données doivent être traitées et les instructions nécessaires au traitement sont stockées. La mémoire est divisée en un grand nombre de petites parties appelées cellules. Chaque emplacement ou cellule a une adresse unique, qui varie de zéro à la taille de la mémoire moins un. Par exemple, si l&#39;ordinateur a 64k mots, alors cette unité de mémoire a 64 * 1024 = 65536 emplacements de mémoire. L&#39;adresse de ces emplacements varie de 0 à 65535.</p>
+<p style="font-size:medium">La mémoire est principalement de trois types &#8211;</p>
+<ul style="font-size:medium">
+<li>Mémoire cache</li>
+<li>Mémoire primaire / mémoire principale</li>
+<li>Mémoire secondaire</li>
+</ul>
+<h2>Mémoire cache</h2>
+<p style="font-size:medium">La mémoire cache est une mémoire à semi-conducteurs très rapide qui peut accélérer le processeur. Il agit comme un tampon entre le CPU et la mémoire principale. Il est utilisé pour contenir les parties de données et de programme les plus fréquemment utilisées par la CPU. Les parties de données et de programmes sont transférées du disque vers la mémoire cache par le système d&#39;exploitation, d&#39;où le CPU peut y accéder.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/cache_memory.jpg" alt="Mémoire cache" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<h3>Avantages</h3>
+<p style="font-size:medium">Les avantages de la mémoire cache sont les suivants &#8211;</p>
+<ul style="font-size:medium">
+<li>La mémoire cache est plus rapide que la mémoire principale.</li>
+<li>Il consomme moins de temps d&#39;accès par rapport à la mémoire principale.</li>
+<li>Il stocke le programme qui peut être exécuté dans un court laps de temps.</li>
+<li>Il stocke les données pour une utilisation temporaire.</li>
+</ul>
+<h3>Désavantages</h3>
+<p style="font-size:medium">Les inconvénients de la mémoire cache sont les suivants &#8211;</p>
+<ul style="font-size:medium">
+<li>La mémoire cache a une capacité limitée.</li>
+<li>C&#39;est très cher.</li>
+</ul>
+<h2>Mémoire primaire (mémoire principale)</h2>
+<p style="font-size:medium">La mémoire principale ne contient que les données et les instructions sur lesquelles l&#39;ordinateur travaille actuellement. Il a une capacité limitée et des données sont perdues lorsque l&#39;alimentation est coupée. Il est généralement constitué d&#39;un dispositif semi-conducteur. Ces mémoires ne sont pas aussi rapides que les registres. Les données et les instructions à traiter résident dans la mémoire principale. Il est divisé en deux sous-catégories RAM et ROM.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/primary_memory.jpg" alt="Mémoire primaire" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<h3>Caractéristiques de la mémoire principale</h3>
+<ul style="font-size:medium">
+<li>Ce sont des mémoires à semi-conducteurs.</li>
+<li>Il est connu comme la mémoire principale.</li>
+<li>Mémoire généralement volatile.</li>
+<li>Les données sont perdues en cas de mise hors tension.</li>
+<li>C&#39;est la mémoire de travail de l&#39;ordinateur.</li>
+<li>Plus rapide que les souvenirs secondaires.</li>
+<li>Un ordinateur ne peut pas fonctionner sans la mémoire principale.</li>
+</ul>
+<h2>Mémoire secondaire</h2>
+<p style="font-size:medium">Ce type de mémoire est également appelé mémoire externe ou non volatile. Il est plus lent que la mémoire principale. Ceux-ci sont utilisés pour stocker des données / informations en permanence. La CPU n&#39;accède pas directement à ces mémoires, mais au contraire, elles sont accessibles via des routines d&#39;entrée-sortie. Le contenu des mémoires secondaires est d&#39;abord transféré vers la mémoire principale, puis la CPU peut y accéder. Par exemple, disque, CD-ROM, DVD, etc.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/secondary_memory.jpg" alt="Mémoire secondaire" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<h3>Caractéristiques de la mémoire secondaire</h3>
+<ul style="font-size:medium">
+<li>Ce sont des mémoires magnétiques et optiques.</li>
+<li>C&#39;est ce qu&#39;on appelle la mémoire de sauvegarde.</li>
+<li>C&#39;est une mémoire non volatile.</li>
+<li>Les données sont stockées en permanence même si l&#39;alimentation est coupée.</li>
+<li>Il est utilisé pour le stockage de données dans un ordinateur.</li>
+<li>L&#39;ordinateur peut fonctionner sans la mémoire secondaire.</li>
+<li>Plus lent que les souvenirs primaires.</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-dordinateur/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
