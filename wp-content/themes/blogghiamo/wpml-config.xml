@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="blogghiamo_theme_options_mobilemenu_text"/>
+		<key name="blogghiamo_theme_options_readmore"/>
+		<key name="blogghiamo_theme_options_copyrighttext"/>
+	</admin-texts>
+</wpml-config>

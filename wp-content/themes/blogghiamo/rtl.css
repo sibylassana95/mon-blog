@@ -1,0 +1,131 @@
+/*
+Theme Name: blogghiamo
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.spaceRight {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+.spaceLeft {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+.crestaPostStripeInner {
+	marging-left: 0;
+	margin-right: -2.5rem;
+}
+textarea {
+	padding-right: 4px;
+	padding-left: 0;
+}
+.main-navigation li {
+	float: right;
+}
+#comments ol ol article {
+	border-left: 0;
+	border-right: 2px solid rgba(0,0,0,.05);
+	padding-left: 0;
+	padding-right: 5%;
+}
+#comments ol ol {
+	padding-left: 0;
+	padding-right: 5%;
+}
+#comments article footer img {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+#comments .reply {
+	left: 0;
+	right: inherit;
+}
+.comment-reply-title small, .menu-toggle i {
+	float: left;
+}
+code, .menu-toggle, .main-navigation.toggled .nav-menu {
+	text-align: right;
+}
+.main-navigation ul li .indicator {
+	right: inherit;
+    left: 0;
+	border-left: 0px;
+	border-right: 1px solid rgba(0,0,0,.05);
+}
+.main-navigation.toggled .nav-menu ul {
+	padding-left: inherit;
+	padding-right: 5%;
+}
+
+.main-navigation ul ul ul {
+	left: inherit;
+	right: 100%;
+}
+.main-navigation ul ul li a:not(:last-child):after {
+    content: "\f0d9";
+    margin: 0 5px 0 0;
+    float: left;
+}
+.navigation.pagination .nav-links a.next i:before {
+	content: "\f100";
+}
+.navigation.pagination .nav-links a.prev i:before {
+	content: "\f101";
+}
+#toTop {
+	right: inherit;
+	left: 1.5em;
+}
+aside ul.menu .indicatorBar {
+	right: inherit;
+	left: 0;
+	border-left-width: 0px;
+	border-right-width: 1px;
+    border-right-style: solid;
+}
+aside ul.menu ul.sub-menu {
+	padding-right: 2em;
+	padding-left: inherit;
+}
+.widget_archive li, .widget_categories li {
+	text-align: left;
+}
+.widget_archive li a, .widget_categories li a {
+	float: right;
+}
+.widget.widget_categories li:before {
+	padding-right: inherit;
+	padding-left: 0.5em;
+	float: right;
+}
+.widget.widget_archive li:before {
+	content: "\f0d9";
+	padding-right: inherit;
+	padding-left: 0.5em;
+	float: right;
+}
+.widget.widget_search input[type="search"] {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+	border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+	float: right;
+}
+.widget.widget_search input[type="submit"] {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+	border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+	float: left;
+}
