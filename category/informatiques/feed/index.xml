@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Informatiques &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/category/informatiques/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Sat, 18 Jun 2022 03:07:03 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>Présentation WordPress</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Mon, 16 May 2022 18:11:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[* Résumé :&#160; WordPress est un système de gestion de contenu (CMS) qui permet de créer et de gérer facilement un site ou un blog, pour une école par exemple. Vous trouverez, dans cet article, une présentation générale de cet outil et une description succincte de quelques manipulations usuelles. Vous trouverez, dans cet article : [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conversion de nombres</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:29:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Il existe de nombreuses méthodes ou techniques qui peuvent être utilisées pour convertir des nombres d&#39;une base à une autre. Dans ce chapitre, nous allons démontrer ce qui suit &#8211; Décimal à un autre système de base Autre système de base en décimal Autre système de base non décimal Méthode de raccourci &#8211; Binaire vers Octal [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Système de numérotation</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:28:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Lorsque nous tapons des lettres ou des mots, l&#39;ordinateur les traduit en nombres car les ordinateurs ne peuvent comprendre que des nombres. Un ordinateur peut comprendre le système de numération positionnelle où il n&#39;y a que quelques symboles appelés chiffres et ces symboles représentent des valeurs différentes en fonction de la position qu&#39;ils occupent dans le [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Logiciel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/logiciel/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/logiciel/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:28:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Un logiciel est un ensemble de programmes conçus pour exécuter une fonction bien définie. Un programme est une séquence d&#39;instructions écrites pour résoudre un problème particulier. Il existe deux types de logiciels &#8211; Logiciel système Logiciel d&#39;application Logiciel système Le logiciel système est un ensemble de programmes conçus pour faire fonctionner, contrôler et étendre les capacités [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/logiciel/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Matériel informatique</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/materiel-informatique/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/materiel-informatique/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:27:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Le matériel représente les composants physiques et tangibles d&#39;un ordinateur, c&#39;est-à-dire les composants qui peuvent être vus et touchés. Des exemples de matériel sont les suivants &#8211; Périphériques d&#39;entrée &#8211; clavier, souris, etc. Périphériques de sortie &#8211; imprimante, moniteur, etc. Périphériques de stockage secondaires &#8211; Disque dur, CD, DVD, etc. Composants internes &#8211; CPU, carte mère, RAM, etc. Relation [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/materiel-informatique/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ports</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/ports/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/ports/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:26:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Un port est un point d&#39;ancrage physique à l&#39;aide duquel un périphérique externe peut être connecté à l&#39;ordinateur. Il peut également s&#39;agir d&#39;un point d&#39;ancrage programmatique par lequel les informations circulent d&#39;un programme à l&#39;ordinateur ou via Internet. Caractéristiques des ports Un port a les caractéristiques suivantes &#8211; Les périphériques externes sont connectés à un ordinateur [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/ports/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Unités de mémoire</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/unites-de-memoire/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/unites-de-memoire/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:25:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[L&#39;unité de mémoire est la quantité de données qui peut être stockée dans l&#39;unité de stockage. Cette capacité de stockage est exprimée en octets. Le tableau suivant explique les principales unités de stockage de la mémoire &#8211; S.No. Unité et description 1 Bit (chiffre binaire) Un chiffre binaire est un 0 logique et un 1 représentant [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/unites-de-memoire/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Carte mère</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/carte-mere/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/carte-mere/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:25:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[La carte mère sert de plate-forme unique pour connecter toutes les parties d&#39;un ordinateur entre elles. Il connecte le processeur, la mémoire, les disques durs, les lecteurs optiques, la carte vidéo, la carte son et d&#39;autres ports et cartes d&#39;extension directement ou via des câbles. Il peut être considéré comme l&#39;épine dorsale d&#39;un ordinateur. Caractéristiques de la [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/carte-mere/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mémoire en lecture seule</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-en-lecture-seule/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-en-lecture-seule/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:24:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[ROM signifie Read Only Memory . La mémoire à partir de laquelle nous ne pouvons que lire mais pas écrire dessus. Ce type de mémoire est non volatile. Les informations sont stockées en permanence dans ces mémoires lors de la fabrication. Une ROM stocke les instructions nécessaires pour démarrer un ordinateur. Cette opération est appelée bootstrap . Les puces ROM ne sont pas seulement utilisées [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-en-lecture-seule/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mémoire vive</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:23:00 +0000</pubDate>
+				<category><![CDATA[Informatiques]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[La RAM (Random Access Memory) est la mémoire interne du CPU pour stocker les données, le programme et le résultat du programme. C&#39;est une mémoire de lecture / écriture qui stocke les données jusqu&#39;à ce que la machine fonctionne. Dès que la machine est éteinte, les données sont effacées. Le temps d&#39;accès dans la RAM est indépendant [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

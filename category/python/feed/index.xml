@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Python &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/category/python/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Sat, 18 Jun 2022 04:45:22 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>Les boucles While, for en Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-boucles-while-for-en-python/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-boucles-while-for-en-python/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 04:40:11 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=150</guid>
+
+					<description><![CDATA[1 &#8211; La structure répétitive For &#8230; Sytaxe: Exemple. affichage des 10 premiers nombres Remarque&#160;. Noter que dans la&#160;boucle for&#160;i&#160;in range(1,n)&#160;le dernier qui est&#160;n&#160;n&#8217;est pas inclus ! Cela veut dire que la boucle s&#8217;arrête à l&#8217;ordre&#160;n-1. 2- La structure répétitive While La structure while permet d&#8217;exécuter un ensemble d&#8217;instructions tant qu&#8217;une condition est réalisée et [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-boucles-while-for-en-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>La structure sélective If en Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/la-structure-selective-if-en-python/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/la-structure-selective-if-en-python/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 04:36:58 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=147</guid>
+
+					<description><![CDATA[1 &#8211; La structure sélective If &#8230; Else &#8230; La structure&#160;sélective if &#8230;else, permet d’exécuter un ensemble d&#8217;instructions lorsqu&#8217;une condition est réalisée. Syntaxe: Exemple: 2 &#8211; L&#8217;instruction elif Enfance&#160; &#160;age &#60; 14&#160; Adolescence&#160; &#160;&#160;14 &#60; age &#60; 18 L&#8217;instruction&#160;else&#160; sélectionne la condition&#160;contraire&#160; qui est&#160;age &#60; 18&#160;et donc ne peut distinguer entre&#160; les deux cas&#160;enfance&#160;et&#160;adolescence. Ainsi [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/la-structure-selective-if-en-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Les fonctions en langage Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-fonctions-en-langage-python/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-fonctions-en-langage-python/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 04:34:58 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=145</guid>
+
+					<description><![CDATA[Dans ce tutoriel, vous en apprendrez à créer et utiliser des fonctions: Qu&#8217;est-ce qu&#8217;une fonction en Python la syntaxe d&#8217;une fonction Les types d&#8217;une fonction Comment appeler une fonction 1 &#8211; Qu&#8217;est-ce qu&#8217;une fonction en Python? En Python,&#160; une fonction est un groupe d&#8217;instructions liées et structurées dont le but d&#8217;effectuer&#160; une tâche spécifique lors [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-fonctions-en-langage-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Opérateurs Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/operateurs-python/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/operateurs-python/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 04:08:21 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=117</guid>
+
+					<description><![CDATA[1- Les différents types d&#8217;opérateurs en Python Opérateurs arithmétiques Opérateurs d&#8217;assignation Opérateurs de comparaison Opérateurs logiques 2- Les opérateurs arithmétiques Les opérateurs arithmétiques sont utilisés en Python pour effectuer des opérations de calcul sur les variables comme addition, multiplication, division&#8230; Opérateur Description &#160;+&#160; Addition &#8211;&#160; Soustraction *&#160; Multiplication /&#160; Division %&#160; Modulo ( reste de [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/operateurs-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Les commentaires en Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-commentaires-en-python/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-commentaires-en-python/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 03:44:12 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=112</guid>
+
+					<description><![CDATA[1 &#8211; Qu&#8217;est-ce qu&#8217;un commentaire en Python? Les langages de programmation fournissent une méthode pour l&#8217;insertion de commentaires au seins du code afin de fournir des informations supplémentaire. Un commentaire n&#8217;est autre qu&#8217;un texte qui sera ignoré lors de l&#8217;exécution du programme. Les commentaires peuvent être utilisés pour expliquer une partie compliquée d&#8217;un programme, ou [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-commentaires-en-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Les variables en langage Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/109/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/109/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 03:35:17 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=109</guid>
+
+					<description><![CDATA[1 &#8211; Création d&#8217;une variable en Python Exemple Les variables ne doivent pas nécessairement être déclarées avec un type particulier et peuvent même changer de type après avoir été définies. Exemple 2 &#8211; Noms de variables Règles pour les variables Python : Un nom de variable doit commencer par une lettre ou un caractère de [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/109/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Création d&#8217;un premier programme Python avec Wing</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/creation-dun-premier-programme-python-avec-wing/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/creation-dun-premier-programme-python-avec-wing/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 03:30:33 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=107</guid>
+
+					<description><![CDATA[1 ère étape: Télécharger&#160;et installer une version de Python. Notez bien&#160;qu&#8217;il ya deux versions&#160;2.7.x et 3.7.x, la première est compatible avec les anciennes versions de Windows comme Windows vista, Windows 7&#8230;Tandis que la seconde est compatible avec les nouveaux systèmes d&#8217;exploitation comme Windows 10&#8230;Choisissez donc la version qui vous convient et installez la à&#160;la racine [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/creation-dun-premier-programme-python-avec-wing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IDE pour Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/ide-pour-python/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/ide-pour-python/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 03:25:32 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=105</guid>
+
+					<description><![CDATA[Python a connu un regain de popularité puisque ce langage de script s&#8217;est révélé attrayant pour l&#8217;apprentissage automatique et la science des données. Nous examinons quelques-uns des IDE et des éditeurs de code les plus populaires pour Python. L’ascendance actuelle de Python n’était pas sûre. Il y a dix ans, les langages de script tels [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/ide-pour-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Introduction au langage Python</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-python/</link>
+					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-python/#respond</comments>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 03:15:21 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=102</guid>
+
+					<description><![CDATA[Python est un langage de programmation de haut niveau interprété pour la programmation à usage général. Créé par Guido van Rossum et publié pour la première fois en 1991, Python repose sur une philosophie de conception qui met l’accent sur la lisibilité du code, notamment en utilisant des espaces significatifs. Il fournit des constructions permettant [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
