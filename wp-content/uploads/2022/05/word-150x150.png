@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Redirection...</title>
-		<meta http-equiv="refresh" content="0;url=/">
+		<meta http-equiv="refresh" content="0;url=https:///https://sibylassana95.github.io/mon-blog/">
 	</head>
 	<body>
 		<script type="text/javascript">
-			window.location = "/";
+			window.location = "https:///https://sibylassana95.github.io/mon-blog/";
 		</script>
 
-		<p>You are being redirected to <a href="/">/</a></p>
+		<p>You are being redirected to <a href="https:///https://sibylassana95.github.io/mon-blog/">https:///https://sibylassana95.github.io/mon-blog/</a></p>
 	</body>
 </html>

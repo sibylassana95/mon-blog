@@ -6,8 +6,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('/https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: url('/https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'), url('/https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('/https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('/https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('/https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  src: url('https:///https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('https:///https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'), url('https:///https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https:///https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https:///https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https:///https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }

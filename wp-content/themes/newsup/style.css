@@ -1812,7 +1812,7 @@ li.active.home {
 =========================================
 -----------------------------------------*/
 .mg-breadcrumb-section {
-	background: url(/https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/images/breadcrumb-back.jpg) repeat fixed;
+	background: url(https:///https://sibylassana95.github.io/mon-blog/wp-content/themes/newsup/images/breadcrumb-back.jpg) repeat fixed;
 	height: 100%;
 	margin: 0 0 0px;
 	overflow: hidden;
