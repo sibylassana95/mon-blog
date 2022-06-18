@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Sat, 18 Jun 2022 18:42:01 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 18 Jun 2022 19:41:12 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,691 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
+		<title>Gestion des pages WordPress</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/gestion-des-pages-wordpress/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 19:41:12 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=382</guid>
+
+					<description><![CDATA[WordPress est doté d&#8217;une page par défaut nommée&#160;sample page ou page d&#8217;exemple,&#160;mais vous pouvez modifier cette page, l&#8217;éditer ou même la supprimer et créer vos propres pages : 1 &#8211; Création d&#8217;une page WordPress Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&#8217;aide de votre&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress est doté d&rsquo;une page par défaut nommée&nbsp;<strong>sample page ou page d&rsquo;exemple,&nbsp;</strong>mais vous pouvez modifier cette page, l&rsquo;éditer ou même la supprimer et créer vos propres pages :</p>
+
+
+
+<h2>1 &#8211; Création d&rsquo;une page WordPress</h2>
+
+
+
+<p>Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&rsquo;aide de votre sourie sur le menu&nbsp;<strong>Pages,&nbsp;</strong>comme le montre la figure ci-dessous :</p>
+
+
+
+<span id="more-382"></span>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/menu-pages-wordpress_f_improf_585x378.png" alt="menu-pages-wordpress.png"/><figcaption>menu pages wordpress</figcaption></figure>
+
+
+
+<p>&nbsp;Cliquez ensuite sur le sous menu&nbsp;<strong>All Pages</strong>&nbsp;si vous voulez voir la totalité&nbsp; des pages qui existent, mais si vous voulez en ajouter une, cliquez sur le sous menu&nbsp;<strong>Add New</strong>&nbsp; :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/creer-une-pages-wordpress_f_improf_655x442.png" alt="Créer une page wordpress"/><figcaption>creer-une-pages-wordpress.png</figcaption></figure>
+
+
+
+<p>Après avoir terminer la rédaction de votre page WordPress, cliquez sur le bouton&nbsp;<strong>Publish</strong>&nbsp;qui se trouve sur le menu à droite.</p>
+
+
+
+<h2>2 &#8211; Créer un lien sur le menu vers votre page</h2>
+
+
+
+<p>Pour créer un lien sur le menu pointant vers votre page, deux solutions s&rsquo;offrent à vous :</p>
+
+
+
+<p><strong>1 ère méthode&nbsp;</strong></p>
+
+
+
+<p>Vous pouvez éditer votre page depuis votre zone admin, vous trouvez dans le menu à droite un sous menu&nbsp;<strong>Theme options -&gt; Show in menu ,&nbsp;</strong>cochez la case<strong>&nbsp;Yes</strong>&nbsp;et donnez ensuite un nom au menu&nbsp;<strong>ma page de test</strong>&nbsp;par exemple, comme le montre la figure suivante :&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/pages-wordpress-theme-options_f_improf_315x321.png" alt="pages-wordpress-theme-options.png"/><figcaption>pages-wordpress-theme-options.png</figcaption></figure>
+
+
+
+<p>&nbsp;Validez enfin en cliquant sur le bouton Update qui se trouve sur le menu à droite.</p>
+
+
+
+<p><strong>2 ème méthode :</strong></p>
+
+
+
+<p>Depuis votre zone admin, pointez sur le menu&nbsp;<strong>Apparence</strong>&nbsp;et cliquez ensuite sur la rubrique&nbsp;<strong>Menus :</strong></p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/wordpress-apparence-menus_f_improf_502x185.png" alt="wordpress-apparence-menus.png"/><figcaption>wordpress-apparence-menus.png</figcaption></figure>
+
+
+
+<p>Vous allez obtenir la vue suivante :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/wordpress-apparence-menus-pages_f_improf_705x443.png" alt="wordpress-apparence-menus-pages.png"/><figcaption>wordpress-apparence-menus-pages.png</figcaption></figure>
+
+
+
+<p>&nbsp;Cochez maintenant votre page qui est dans ce cas&nbsp;<strong>ma page de Test&nbsp;</strong>et cliquez ensuite sur le bouton Add to Menu sans oublier de cocher la case&nbsp;&nbsp;<strong>Auto add pages&nbsp;</strong>dans la rubrique&nbsp;<strong>Menu Settings&nbsp;</strong>qui se trouve en bas à droite.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WordPress : Tutoriel 6 ( Comment créer et gérer des menus wordpress )</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/wordpress-tutoriel-6-comment-creer-et-gerer-des-menus-wordpress/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 19:40:15 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=379</guid>
+
+					<description><![CDATA[1 &#8211; Menus d&#8217;en-tête et pied de page La plupart des systèmes CMS&#160; possèdent&#160; des thèmes ayant un menu d&#8217;en-tête.&#160;Certains ont également un menu de bas de page.&#160;Vous pouvez gérer vos liens de menu en exécutant : Apparence&#62; Menus 2 &#8211; Modification des menus Pour modifier les menus WordPress,&#160; allez dans : Apparence&#62; Menus, puis&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/gerer-les-menus-wordpress.png" alt=""/></figure>
+
+
+
+<span id="more-379"></span>
+
+
+
+<h2>1 &#8211; Menus d&rsquo;en-tête et pied de page</h2>
+
+
+
+<p><br>La plupart des systèmes CMS&nbsp; possèdent&nbsp; des thèmes ayant un menu d&rsquo;en-tête.&nbsp;Certains ont également un menu de bas de page.&nbsp;Vous pouvez gérer vos liens de menu en exécutant :</p>
+
+
+
+<p><strong>Apparence&gt; Menus</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/gerer-les-menus-wordpress.png" alt="gerer-les-menus-wordpress" class="wp-image-4133"/></figure></div>
+
+
+<h2>2 &#8211; Modification des menus</h2>
+
+
+
+<p>Pour modifier les menus WordPress,&nbsp; allez dans :</p>
+
+
+
+<ul><li><strong>Apparence&gt; Menus,</strong></li><li><strong>puis sélectionnez &#8211;&gt; un menu à modifier</strong>. Le côté gauche montre les liens qui sont disponibles.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Allez dans&nbsp; &#8211;&gt; Options d&rsquo;écran</strong>&nbsp;en haut à droite pour afficher plus d&rsquo;options pour les liens.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Choisissez les liens</strong>&nbsp;que vous souhaitez ajouter au menu,</li><li><strong>Cliquez ensuite sur Ajouter au menu.</strong></li></ul>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/gestion-des-menus-wordpress.png" alt="gestion des menus wordpress" class="wp-image-4136"/></figure></div>
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Une fois que vous avez des liens dans un menu, vous pouvez les faire glisser pour modifier leur commande.&nbsp;Vous pouvez également faire glisser un lien sous un autre vers les éléments de menu imbriqués créés (menus déroulants).<br>Cliquez enfin sur&nbsp;<strong>&nbsp;Enregistrer le menu</strong>&nbsp;lorsque vous avez terminé l&rsquo;édition.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Créer un article WordPress</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/creer-un-article-wordpress/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 19:39:33 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=377</guid>
+
+					<description><![CDATA[Si possédez du contenu il n&#8217;y a pas plus simple que d&#8217;ajouter des&#160; articles&#160; WordPress,&#160; il suffit que vous soyer connecté en tant qu&#8217;admin et suivre les étapes suivantes : 1 &#8211; Depuis votre zone admin, pointez à l&#8217;aide de votre sourie sur le menu&#160;Articles&#160;et cliquez ensuite sur le sous menu&#160;Ajoutez : 2 &#8211; Rédigez&#160;&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Si possédez du contenu il n&rsquo;y a pas plus simple que d&rsquo;ajouter des&nbsp; articles&nbsp; WordPress,&nbsp; il suffit que vous soyer connecté en tant qu&rsquo;admin et suivre les étapes suivantes :</p>
+
+
+
+<p>1 &#8211; Depuis votre zone admin, pointez à l&rsquo;aide de votre sourie sur le menu&nbsp;<strong>Articles</strong>&nbsp;et cliquez ensuite sur le sous menu&nbsp;<strong>Ajoutez :</strong></p>
+
+
+
+<span id="more-377"></span>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/Wordpress-articles-ajouter.png" alt="Ajouter un article WordPress" title="Wordpress-articles-ajouter.png"/><figcaption>Ajouter un article WordPress</figcaption></figure>
+
+
+
+<p>2 &#8211; Rédigez&nbsp; votre article : saisissez un titre dans la zone titre et mettez un contenu dans la zone contenu :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/Wordpress-articles-ajouter-contenu.png" alt="rédiger un article WordPress" title="Wordpress-articles-ajouter-contenu.png"/><figcaption>rédiger un article WordPress</figcaption></figure>
+
+
+
+<p>&nbsp;3 &#8211; Dans le menu à droite , choisir une ou plusieurs catégories pour votre article, ou en créer une nouvelle :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/Wordpress-articles-choisir-categorie.png" alt="choisir une catégorie pour votre article" title="Wordpress-articles-choisir-categorie.png"/><figcaption>choisir une catégorie pour votre article</figcaption></figure>
+
+
+
+<p>4 &#8211; Vous pouvez si vous le souhaitez dans le but d&#8217;embellir votre article, ajouter une image à la une en cliquant sur le menu à droite&nbsp;&nbsp;<strong>Image à la une</strong>&nbsp;:</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/article-wordpress-image-a-la-une.png" alt="utiliser une image à la une" title="article-wordpress-image-a-la-une.png"/><figcaption>utiliser une image à la une</figcaption></figure>
+
+
+
+<p>Vous allez obtenir la vue suivante :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/select-image.png" alt="select média " title="select-image.png"/><figcaption>select média</figcaption></figure>
+
+
+
+<p>Cliquez alors sur le bouton&nbsp;<strong>Sélectionner des fichiers, et après avoir sélectionner l&rsquo;image de votre choix, vous obtenez la fenêtre suivante :&nbsp;</strong></p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/utiliser-comme-image-a-la-une.png" alt="utiliser une image à la une" title="utiliser-comme-image-a-la-une.png"/><figcaption>utiliser une image à la une</figcaption></figure>
+
+
+
+<p>Cliquez ensuite sur le bouton&nbsp;<strong>Utiliser comme image à la une</strong>&nbsp;qui se trouve en bas</p>
+
+
+
+<p>5 &#8211; Et enfin&nbsp; pour&nbsp; publier votre article cliquez sur le bouton Publier qui se trouve dans&nbsp; le menu à droite :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/Wordpress-publier-articles.png" alt="wordpress publier un article" title="Wordpress-publier-articles.png"/><figcaption>wordpress publier un article</figcaption></figure>
+
+
+
+<p>&nbsp;Voici un aperçu de votre article :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/apercu-article-image-a-la-une.png" alt="article aperçu image à la une " title="apercu-article-image-a-la-une.png"/><figcaption>article aperçu image à la une</figcaption></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment créer des catégories et sous catégories WordPress</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/comment-creer-des-categories-et-sous-categories-wordpress/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 19:38:52 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=374</guid>
+
+					<description><![CDATA[1 &#8211; Création de catégories Afin de classifier et organiser nos articles nous devons les classer par catégories, pour cela WordPress nous offre la possibilité de créer autant de catégories et sous catégories. Pour clarifier les choses prenons un exemple simple d&#8217;un site qui traite le développement web ! nous devons dans ce cas créer&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Création de catégories</h2>
+
+
+
+<p>Afin de classifier et organiser nos articles nous devons les classer par catégories, pour cela WordPress nous offre la possibilité de créer autant de catégories et sous catégories. Pour clarifier les choses prenons un exemple simple d&rsquo;un site qui traite le développement web ! nous devons dans ce cas créer les catégories suivantes :&nbsp;<strong>html, css, javascript, php, mysql, web design&#8230;</strong></p>
+
+
+
+<p>Comment allons créer ces catégories ?</p>
+
+
+
+<p>Depuis votre zone admin, pointez de votre sourie sur le menu articles, et puis cliquez sur catégories :</p>
+
+
+
+<span id="more-374"></span>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/wordpress-articles-creation-categorie_f_improf_318x164.PNG" alt="wordpress creation de categories" title="wordpress-articles-creation-categorie.PNG"/><figcaption>wordpress création de catégories</figcaption></figure>
+
+
+
+<p>Remplissez ensuite le formulaire&nbsp; qui contient le nom, identifiant, description&#8230; de la catégorie :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/wordpress-creation-categorie_f_improf_600x389.png" alt="wordpress creation categorie" title="wordpress-creation-categorie.png"/><figcaption>wordpress creation categorie</figcaption></figure></div>
+
+
+<p>par exemple pour la catégorie&nbsp;<strong>html :</strong></p>
+
+
+
+<p>&#8211; mettez dans le champ nom :&nbsp;<em>html</em></p>
+
+
+
+<p>&#8211; mettez dans le champ identifiant :&nbsp;<em>html</em></p>
+
+
+
+<p>&#8211; mettez dans la description&nbsp; :&nbsp;<em>Cette catégorie regroupe tous les cours et tutoriels du langage html</em></p>
+
+
+
+<p>Cliquez ensuite sur le bouton&nbsp; Ajoutez une nouvelle catégorie qui se trouve en bas.</p>
+
+
+
+<h2>2 &#8211; Création de sous catégories</h2>
+
+
+
+<p>Maintenant que vous avez créer une catégorie pour le langage html, vous allez créer de la même façon des catégories pour les langages :&nbsp;<strong>css, javascript, php, mysql.&nbsp;</strong>Vous avez envie sans doute de créer des articles traitant du cours html et d&rsquo;autres traitant des travaux dirigés d&rsquo;html !&nbsp;Comment allez vous faire pour filtrer ceux du cours et ceux des travaux dirigés ?<strong></strong></p>
+
+
+
+<p>Afin de palier à ce problème, il suffit de créer deux sous catégories de la catégorie&nbsp;<strong>html :</strong></p>
+
+
+
+<p>Pour créer la sous catégorie&nbsp;<strong>Cours-html</strong>,&nbsp; procédez de la même façon comme vous avez fait pour la création des catégorie, seulement dans le champ&nbsp;<strong>Parent</strong>&nbsp;choisissez&nbsp;<strong>html</strong>&nbsp;comme catégorie parent comme le montre la figure ci-dessous :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/wordpress-creation-sous-categorie_f_improf_674x396.png" alt="wordpress création  de sous categorie" title="wordpress-creation-sous-categorie.png"/><figcaption>wordpress création de sous catégorie</figcaption></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Gestion des plugin WordPress</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/gestion-des-plugin-wordpress/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 19:37:40 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=371</guid>
+
+					<description><![CDATA[1 &#8211; WordPress Plugin directory WordPress est doté de milliers de plugins permettant à l&#8217;utilisateur d&#8217;ajouter d&#8217;utres fonctionalités afin qu&#8217;ils puissent ameliorer leurs sites. Les plugins sont disponibles via le site&#160;WordPress Plugins Directory&#160;sont conçus par des bénévoles et sont généralement gratuits pour le public.&#160;WordPress Plugins hébergés dans le répertoire WordPress Plugins sont considérés comme minutieusement&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/instaal-plugin.png" alt=""/></figure>
+
+
+
+<h2>1 &#8211; WordPress Plugin directory</h2>
+
+
+
+<p>WordPress est doté de milliers de plugins permettant à l&rsquo;utilisateur d&rsquo;ajouter d&rsquo;utres fonctionalités afin qu&rsquo;ils puissent ameliorer leurs sites. Les plugins sont disponibles via le site&nbsp;<a href="http://wordpress.org/plugins/">WordPress Plugins Directory</a>&nbsp;sont conçus par des bénévoles et sont généralement gratuits pour le public.&nbsp;WordPress Plugins hébergés dans le répertoire WordPress Plugins sont considérés comme minutieusement testés et « sûr ».&nbsp;Rappelez-vous, les Plugins WordPress&nbsp; sont la responsabilité de l&rsquo;auteur et l&rsquo;utilisateur, et ils sont généralement en cours de développement au fur et à mesure que WordPress se développe.</p>
+
+
+
+<span id="more-371"></span>
+
+
+
+<h2>2 &#8211; Installation d&rsquo;un plugin ( extension)</h2>
+
+
+
+<p>Pour ajouter un Plugin WordPress à l&rsquo;aide du plugin intégré, il suffit d&rsquo;effectuer les manipulations suivantes :</p>
+
+
+
+<ul><li>Allez dans Extension &#8211;&gt; Ajouter.&nbsp;&nbsp;&nbsp;&nbsp;</li></ul>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/install-plugin.png" alt="install-plugin" class="wp-image-4145"/></figure></div>
+
+
+<ul><li>Tapez le nom du Plugin WordPress ou le mot-clé descriptif, l&rsquo;auteur ou la balise dans la boîte de dialogue Plugins de recherche ou cliquez sur un lien d&rsquo;étiquette sous l&rsquo;écran.</li></ul>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/search-plugin.png" alt="search-plugin" class="wp-image-4146"/></figure></div>
+
+
+<ul><li>Trouvez le plugin WordPress que vous souhaitez installer.</li><li>Cliquez sur Détails pour plus d&rsquo;informations sur le Plugin et sur les instructions que vous souhaitez imprimer ou enregistrer pour vous aider à configurer le Plugin.</li><li>Cliquez sur Installer maintenant pour installer le plugin WordPress.</li></ul>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/instaal-plugin.png" alt="instaal-plugin" class="wp-image-4147"/></figure></div>
+
+
+<p><br>Si l&rsquo;installation est effectuée avec succès :</p>
+
+
+
+<ul><li>Cliquez sur Activer le plugin pour l&rsquo;activer ou Retournez au programme d&rsquo;installation du plugin pour d&rsquo;autres actions.</li></ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WordPress : Tutoriel 2 ( personnalisation et modification du thème )</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/wordpress-tutoriel-2-personnalisation-et-modification-du-theme/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 19:36:52 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=369</guid>
+
+					<description><![CDATA[1 &#8211;&#160; Installation d&#8217;un theme WordPress Pour installer un thème WordPress, rendez vous dans votre zone admin WordPress&#160; (http://www.votre-site/wp-admin/) Après être logé, pointez à l&#8217;aide de votre sourie sur le menu gauche&#160;Apparence,&#160;puis cliquez sur&#160;Thèmes&#160;: Vous obtenez la fenêtre suivante : Cliquez ensuite sur le lien&#160;Ajouter un thème&#160;,&#160; vous obtenez alors la fenêtre suivante : Cliquez&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211;&nbsp; Installation d&rsquo;un theme WordPress</h2>
+
+
+
+<p>Pour installer un thème WordPress, rendez vous dans votre zone admin WordPress&nbsp; (http://www.votre-site/wp-admin/)</p>
+
+
+
+<p>Après être logé, pointez à l&rsquo;aide de votre sourie sur le menu gauche&nbsp;<strong>Apparence,</strong>&nbsp;puis cliquez sur&nbsp;<strong>Thèmes</strong>&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/wordpress-apparence-themes.png" alt="wordpress menu apparence themes " title="wordpress-apparence-themes.png"/></figure></div>
+
+
+<span id="more-369"></span>
+
+
+
+<p>Vous obtenez la fenêtre suivante :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/wordpress-ajouter-un-theme.png" alt="installer un theme wordpress" title="installer-un-theme-wordpress.png"/><figcaption>installer un theme wordpress</figcaption></figure>
+
+
+
+<p>Cliquez ensuite sur le lien&nbsp;<strong>Ajouter un thème</strong>&nbsp;,&nbsp; vous obtenez alors la fenêtre suivante :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/wordpress-trouvez-des-themes.png" alt="trouvez des thèmes wordpress depuis la zone admin" title="wordpress-trouvez-des-themes.png"/><figcaption>trouvez des thèmes wordpress depuis la zone admin</figcaption></figure>
+
+
+
+<p>Cliquez ensuite sur le bouton en bas&nbsp;<strong>Trouver des thèmes</strong>&nbsp;vous obtenez alors une page contenant des milliers de thèmes Wordress, quelques un sont payants, mais la pluspart d&rsquo;entre eux sont&nbsp; gratuits ! Choisissez un&nbsp; et cliquez sur le lien&nbsp;<strong>Installer maintenant</strong>&nbsp;en bas du thème choisie :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/theme-wordpress-installer-maintenant.png" alt="choix d'un thème wordpress, cliquez sur installer maintenant" title="theme-wordpress-installer-maintenant.png"/></figure></div>
+
+
+<p>Après avoir cliquez sur le lien Installez maintenant, vous obtenez un&nbsp; message vous indiquant que le thème a été installé :</p>
+
+
+
+<p>Le thème&nbsp;<strong>Sensitive 1.2.5</strong>&nbsp;a bien été installé.</p>
+
+
+
+<p><a href="http://localhost/wordpress/wp-admin/customize.php?theme=sensitive">Prévisualiser</a>&nbsp;|&nbsp;<a href="http://localhost/wordpress/wp-admin/themes.php?action=activate&amp;template=sensitive&amp;stylesheet=sensitive&amp;_wpnonce=1ebd0ea52f">Activer</a>&nbsp;|&nbsp;<a href="http://localhost/wordpress/wp-admin/theme-install.php">Retourner à l’installeur de thèmes</a></p>
+
+
+
+<p>avec des liens en bas :&nbsp;<strong>Prévisualiser, Activer, Retournez à l&rsquo;installateur.&nbsp;</strong>Cliquez alors sur le lien Activer et visualiser la page d&rsquo;accueil WordPress pour s&rsquo;assurer que le thème a été changé !</p>
+
+
+
+<p>Installation d&rsquo;un theme WordPress en vidéo</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Comment Changer de Theme WordPress pour Débutant" width="650" height="488" src="https://www.youtube.com/embed/xdnhFJo5BTM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WordPress : Tutoriel 1 ( installation )</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/wordpress-tutoriel-1-installation/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 19:27:12 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=362</guid>
+
+					<description><![CDATA[Installation en localhost L&#8217;installation de WordPress est aussi simple que vous ne le croyez, pour ce faire il suffit de suivre les étapes suivantes&#160; : 1 &#8211; Télécharger le seveur&#160;Wamp Choisissez la version qui correspond à votre système d&#8217;exploitation : Windows 64 bits, Windows 32 bits, Linux&#8230; Démarrez votre serveur&#160;Wamp&#160;depuis le menu démarrer, et assurez&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h1>Installation en localhost</h1>
+
+
+
+<p>L&rsquo;installation de WordPress est aussi simple que vous ne le croyez, pour ce faire il suffit de suivre les étapes suivantes&nbsp; :</p>
+
+
+
+<h2>1 &#8211; Télécharger le seveur&nbsp;<a href="http://www.wampserver.com/">Wamp</a></h2>
+
+
+
+<p>Choisissez la version qui correspond à votre système d&rsquo;exploitation : Windows 64 bits, Windows 32 bits, Linux&#8230;</p>
+
+
+
+<p>Démarrez votre serveur&nbsp;<strong>Wamp</strong>&nbsp;depuis le menu démarrer, et assurez vous qu&rsquo;il fonctionne correctement ( vous devez obtenir une icône&nbsp;&nbsp;<strong>verte&nbsp;</strong>dans la barre des tâches<strong>&nbsp;)</strong></p>
+
+
+
+<span id="more-362"></span>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/installation-wordpress-wamp.png" alt="installation de wordpress demerrage wamp"/></figure>
+
+
+
+<h2>&nbsp;2 &#8211; Créer une base de donnée</h2>
+
+
+
+<p>&nbsp;Le système wordpress fonctionne en php &amp; mysql, pour cela son installation nécessite une base de donnée mysql !</p>
+
+
+
+<p>Pour créer cette dernière il suffit de se rendre sur&nbsp;<strong>phpmyadmin</strong>&nbsp;du&nbsp;<strong>serveur wamp</strong>&nbsp;à l&rsquo;adresse :</p>
+
+
+
+<p><a href="http://localhost/phpmyadmin/">http://localhost/phpmyadmin/</a></p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/phpmyadmin-wamp.png" alt="phpmydamin en localhost"/><figcaption>phpmydamin en localhost sous wamp server</figcaption></figure>
+
+
+
+<p>Cliquez ensuite sur le lien en haut à gauche nommé<strong>&nbsp;Bases de données&nbsp;</strong>comme le montre la figure ci-dessous et choisissez comme interclassement des caractères&nbsp;<strong>utf8_general_ci</strong>&nbsp;( ce jeux de caractère est compatible avec toutes les langues ! )</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/wamp-base-de-donnee-utf8.png" alt="interclassement des caractères utf8 wamp server" title="wamp-base-de-donnee-utf8.png"/></figure></div>
+
+
+<p>Donnez ensuite un nom à votre base de donnée par exemple&nbsp;<strong>mabase</strong></p>
+
+
+
+<h2>3 &#8211; Télécharger l&rsquo;archive du système WordPress du site :&nbsp;<a href="http://fr.wordpress.org/">http://fr.wordpress.org/</a></h2>
+
+
+
+<p>Décompressez l&rsquo;archive et mettez son contenu dans un dossier, nommez&nbsp; le par exemple&nbsp;<strong>wordpress,&nbsp;</strong>mettez ensuite ce dossier à la racine du serveur ( dans le cas de Wamp sous Windows le chemin est<strong>&nbsp;&nbsp; C:\wamp\www\wordpress\ )</strong></p>
+
+
+
+<h2>&nbsp;4 &#8211; Lancer l&rsquo;installation du système wordpress :</h2>
+
+
+
+<p>Maintenant que vous avez tout préparé, vous pouvez lancer l&rsquo;installation du système wordpress depuis votre navigateur en tapant l&rsquo;adresse url :&nbsp;<a href="http://localhost/wordpress/">http://localhost/wordpress/&nbsp;</a></p>
+
+
+
+<p>Vous obtenez la fenêtre suivante :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/installation-wordpress-creez-fichier-config.png" alt="installation de wordpress creez-fichier de configuration" title="installation-wordpress-creez-fichier-config.png"/><figcaption>Installation wordpress : création de fichier de configuration</figcaption></figure>
+
+
+
+<p>Cliquez alors sur le bouton&nbsp;<strong>Créer un fichier de configuration</strong></p>
+
+
+
+<p>Vous obtenez à ce moment la fenêtre suivante :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/installation-wordpress-creez-c-est-parti.png" alt="installation-wordpress-creez-c-est-parti.png"/><figcaption>installation-wordpress c&rsquo;est parti</figcaption></figure>
+
+
+
+<p>Vous voyez sans doute un bouton en bas intitulé :&nbsp;<strong>C&rsquo;est parti !</strong>&nbsp; Cliquez sur ce dernier&nbsp; pour obtenir la fenêtre suivante :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/installation-wordpress-configuration.png" alt="installation de wordpress paramètre de configuration" title="installation-wordpress-configuration.png"/><figcaption>installation de wordpress paramètre de configuration</figcaption></figure>
+
+
+
+<p>Remplissez ensuite ce formulaire attentivement :</p>
+
+
+
+<p><strong>Nom de la base de donnée</strong><strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</strong>&nbsp;: &nbsp;&nbsp; mettez ici le nom de votre base de donnée qui est dans notre cas :&nbsp;<strong>mabase</strong></p>
+
+
+
+<p><strong>Identifiant</strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : &nbsp;&nbsp; vous mettez&nbsp;<strong>root</strong>&nbsp;( en localhost c&rsquo;est toujours root )</p>
+
+
+
+<p><strong>Mot de passe&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; Vous laissez vide ( en localhost c&rsquo;est toujours vide ! )</p>
+
+
+
+<p><strong>Adresse de la base de donnée&nbsp;</strong>&nbsp;&nbsp;:&nbsp; mettez&nbsp;<strong>localhost</strong>&nbsp;( en serveur local c&rsquo;est toujours localhost )</p>
+
+
+
+<p><strong>Préfix des tables</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; Vous pouvez mettre une valeur ou bien laisser&nbsp;<strong>wp_</strong>&nbsp;par défaut</p>
+
+
+
+<p>Cliquez ensuite sur le bouton&nbsp;<strong>Envoyer&nbsp;&nbsp;</strong>qui se trouve en bas de la fenêtre, s i tous les champs sont remplis&nbsp; correctement vous obtenez la fenêtre suivante :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/lancer-installation-wordpress.png" alt="lancer l'installation de wordpress" title="lancer-installation-wordpress.png"/></figure></div>
+
+
+<p>A ce niveau, une fenêtre s&rsquo;affiche et vous demande de remplir quelque informations qui sont utiles pour continuez l&rsquo;installation du système wordpress :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/installation-wordpress-etape-finale.png" alt="installation wordpress etape finale" title="installation-wordpress-etape-finale.png"/><figcaption>installation wordpress etape finale</figcaption></figure>
+
+
+
+<p>Remplissez soigneusement ce forulaire :</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th scope="row">Titre du site</th><th scope="row">mettez ici un titre pour votre site</th></tr><tr><th scope="row">Identifiant</th><th scope="row">choisissez un identifiant pour accéder à la zone d&rsquo;administration de wordpress</th></tr><tr><th scope="row">Mot de passe, deux fois</th><th scope="row">choisissez un mot de passe et tapez le deux fois</th></tr><tr><th scope="row">Votre adresse de messagerie</th><th scope="row">mettez ici votre adresse de messagerie électronique</th></tr><tr><th scope="row">Vie privée</th><th scope="row">cochez cette case pour que votre site wordpress soit indexé par les moteurs de recherche</th></tr></tbody></table></figure>
+
+
+
+<p>Cliquez ensuite sur le bouton en bas intitulé Installer WordPress pour obtenir la fenêtre suivante qui vous indique la fin d&rsquo;installation du système WordPress&nbsp; :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/connexion-admin-wordpress.png" alt="connexion wp-admin wordpress" title="connexion-admin-wordpress.png"/><figcaption>connexion wp-admin wordpress</figcaption></figure>
+
+
+
+<p>Vous pouvez maintenant vous connecter à la zone admin de votre site WordPress en cliquant sur le bouton&nbsp;<strong>Se connecter</strong>&nbsp; pour obtenir une vue comme celle ci :</p>
+
+
+
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/zone-admin-wordpress.png" alt="zone admin wordpress" title="zone-admin-wordpress.png"/><figcaption>zone admin wordpress</figcaption></figure>
+
+
+
+<p>C&rsquo;est votre zone admin WordPress, elle vous permet de gérer la totalité de votre site WordPress :&nbsp; Articles, Médias, Pages, Commentaires &#8230;</p>
+
+
+
+<p>Pour accéder à votre site WordPress depuis votre zone admin, pointez sur le nom de votre site à l&rsquo;aide&nbsp; de votre sourie sur le coin supérieur gauche, vous allez constater l&rsquo;affichage&nbsp; d&rsquo;un menu intitulé&nbsp;&nbsp; :&nbsp;<strong>Aller sur le site :</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/zone-admin-wordpress-allez-sur-le-site.png" alt="zone admin wordpress aller sur le site" title="zone-admin-wordpress-allez-sur-le-site.png"/></figure></div>
+
+
+<p>Cliquez sur ce menu pour accéder à votre site WordPress :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/page-accueil-wordpress.png" alt="page d'accueil wordpress" title="page-accueil-wordpress.png"/></figure></div>
+
+
+<p><em>Toutes mes félicitations !</em></p>
+
+
+
+<h2>5 &#8211; Installation de WordPress en vidéo</h2>
+
+
+
+<p><iframe loading="lazy" title="Comment Installer WordPress en localhost - WordPress - débutant" width="650" height="488" src="https://www.youtube.com/embed/gvyeUL1Bj8Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+
+<p>Dans ce premier tutoriel de WordPress vous allez apprendre comment installer le système WordPress ainsi que toutes les étapes d&rsquo;installation du CMS WordPress : téléchargement, décompression de l&rsquo;archive wordpress, création d&rsquo;une base de donnée en localhost sur Wamp et finalement l&rsquo;installation du système wordpress.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Java IO- Gestion des fichiers en Java</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/java-io-gestion-des-fichiers-en-java/</link>
 		
@@ -584,1322 +1269,6 @@ public class AddStudents {
 
 <div class="wp-block-image">
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/8-outils-graphique-windowBuilder.png" alt="8-outils-graphique-windowBuilder" class="wp-image-4619"/></figure></div>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>La liste JComboBox Java</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/la-liste-jcombobox-java/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 18:08:30 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=306</guid>
-
-					<description><![CDATA[1 &#8211; Création d&#8217;un JCombBox Java Etape 1&#160;: Avant de créer un JComboBox, il va falloire préalablement savoir qu&#8217;il s&#8217;agit d&#8217;un composant Swing.Pour cela, on doit impérativement créer une fenêtre dotée d&#8217;un JPanel en instanciant les classes&#160;JFrame&#160;et&#160;JPanel: Etape 2&#160;: Création des éléments qui vont constituer la JComboBox. Les éléments qui vont constituer la JComboBox, peuvent&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h1>1 &#8211; Création d&rsquo;un JCombBox Java</h1>
-
-
-
-<p><strong>Etape 1</strong>&nbsp;: Avant de créer un JComboBox, il va falloire préalablement savoir qu&rsquo;il s&rsquo;agit d&rsquo;un composant Swing.<br>Pour cela, on doit impérativement créer une fenêtre dotée d&rsquo;un JPanel en instanciant les classes&nbsp;<strong>JFrame</strong>&nbsp;et&nbsp;<strong>JPanel</strong>:</p>
-
-
-
-<pre class="wp-block-code"><code> JFrame f=new JFrame();   
-JPanel pan=new JPanel();
-f.setContentPane(pan);    
-pan.setLayout(null);    
-f.setSize(250,200);</code></pre>
-
-
-
-<span id="more-306"></span>
-
-
-
-<p><strong>Etape 2</strong>&nbsp;: Création des éléments qui vont constituer la JComboBox. Les éléments qui vont constituer la JComboBox, peuvent être créer et organiser sur un tableau d&rsquo;objets</p>
-
-
-
-<pre class="wp-block-code"><code>Object&#91;] elements = new Object&#91;]{"élément1", "élément2", "élément3"};</code></pre>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2018/07/2-JComboBox-Java-string-type-1.png" alt="" class="wp-image-5340"/></figure></div>
-
-
-<h3>Exemple :</h3>
-
-
-
-<pre class="wp-block-code"><code>import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
-
-public class ComboBox1 {
-
-
-public static void main(String&#91;] args) { 
-
-//- 1) --- création d'une fenêtre JFrame Java    
-JFrame f=new JFrame();    
-JPanel pan=new JPanel();    
-f.setContentPane(pan);    
-pan.setLayout(null);    
-f.setSize(250,200);
-
-
-//- 2) --- définir les élément de la liste 
-JComboBoxObject&#91;] elements = new Object&#91;]{"Laptop HP", "Laptop Acer", "Laptop Azus"};    
-
-//- 3) --- Création d'une nouvelle liste 
-JComboBox JComboBox&lt;Object&gt; liste = new JComboBox(elements); 
-liste.setBounds(10, 10, 120, 23); 
-pan.add(liste);           
-f.setVisible(true);</code></pre>
-
-
-
-<h1>3 &#8211; Ajout d&rsquo;actions à la liste JComboBox</h1>
-
-
-
-<p>Après avoir créer une liste&nbsp;<strong>JomboBox</strong>, on peut lui associer une action qui se declenche au moment de la séléction&nbsp;à l&rsquo;aide de la méthode&nbsp;<strong>addActionListener()</strong>. L&rsquo;action ne peut être ajouter que si la séléction est récupérée via&nbsp;la méthode<strong>&nbsp;getSelectedItem()</strong>.</p>
-
-
-
-<pre class="wp-block-code"><code>//- 4) --- Ajout d'une action à la séléction
-liste.addActionListener(new ActionListener() { 
-public void actionPerformed(ActionEvent e) { 
-e.getSource(); 
-
-//- 5) --- récupération de la séléction sur une variable du type String
-String s=(String) liste.getSelectedItem(); 
-System.out.println("Vous avez séléctionné : "+s); 
-} 
-});</code></pre>
-
-
-
-<p>On peut également afficher les résultats sur un&nbsp;<strong>JLabel</strong>&nbsp;:</p>
-
-
-
-<h3>Exemple complet :</h3>
-
-
-
-<pre class="wp-block-code"><code>import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
-public class ComboBox2 {
-
-	public static void main(String&#91;] args) {
-		
-//- 1) --- define new Window JFrame
-		   JFrame f=new JFrame();
-		   JPanel pan=new JPanel();
-		   f.setContentPane(pan);
-		   pan.setLayout(null);
-		   f.setSize(400,300);
-
-//- 2) --- Création des éléments de la JComboBox Java
-Object&#91;] elements = new Object&#91;]{"Laptop HP", "Laptop Acer", "Laptop Azus"};
-
-//- 3) --- Création d'une nouvelle liste JComboBox
-	JComboBox&lt;String&gt; liste = new JComboBox(elements);
-	liste.setBounds(10, 10, 120, 23);
-		pan.add(liste);
-		
-//- 4) --- Création d'un  JLabel pour afficher les résultats de la séléction
-		  JLabel label=new JLabel("View results here !");
-		  pan.add(label);
-		  label.setBounds(10,30,250,50);
-		  
-//- 5) --- appliquer une action listener à la liste  JComboBox
-		liste.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				e.getSource();
-				String s=(String) liste.getSelectedItem();
-				label.setText("Vous avez séléctionné : "+s);
-				}
-		});
-		 f.setVisible(true);
-
-	}
-
-}</code></pre>
-
-
-
-<p>Ce qui affiche après exécution :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2018/07/jcomb-box-get-selected-item.png" alt="" class="wp-image-5338"/></figure></div>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>JMenu : Création des menus avec Java</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/jmenu-creation-des-menus-avec-java/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 18:07:19 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=304</guid>
-
-					<description><![CDATA[1 &#8211; La barre des menus JMenuBar Java Afin d&#8217;organiser les menus, Java est doté d&#8217;une barre susceptible d&#8217;être placée en haut de la fenêtre, permettant d&#8217;accueillir et organiser les menus Java. Pour cela le langage Java utilise une classe nommée JMenuBar est utilisée pour afficher la barre des menus dans la fenêtre JFrame.Pour créer&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h1>1 &#8211; La barre des menus JMenuBar Java</h1>
-
-
-
-<p>Afin d&rsquo;organiser les menus, Java est doté d&rsquo;une barre susceptible d&rsquo;être placée en haut de la fenêtre, permettant d&rsquo;accueillir et organiser les menus Java. Pour cela le langage Java utilise une classe nommée JMenuBar est utilisée pour afficher la barre des menus dans la fenêtre JFrame.<br>Pour créer une barre de menu, il suffit de créer une fenêtre dotée d’un panneau ( JPanel), d&rsquo;instancier la classe JMenuBar, et d’ajouter ensuite la barre de menu au JPanel.</p>
-
-
-
-<span id="more-304"></span>
-
-
-
-<h2>a) Création d’une fenêtre dotée d’un JPanel</h2>
-
-
-
-<pre class="wp-block-code"><code>JFrame fen=new JFrame("Exemple de fenêtre avec menu"); 
-JPanel panel=new JPanel(); 
-panel.setLayout(null); 
-fen.setSize(500, 400); 
-fen.setContentPane(panel);</code></pre>
-
-
-
-<h2>b. Création de la barre des menus avec la classe JMenuBar</h2>
-
-
-
-<pre class="wp-block-code"><code>//création de la barre des menus
-JMenuBar myMenuBar=new JMenuBar();
-//Ajout de la barre de menus au JPanel
-panel.add(myMenuBar)</code></pre>
-
-
-
-<h1>2- La classe JMenu</h1>
-
-
-
-<p>La classe JMenu permet via l’instanciation, de créer un menu. Nous allons à titre d’exemple l’utiliser pour créer un menu Fichier :</p>
-
-
-
-<pre class="wp-block-code"><code>//Création du menu Fichier
-JMenu menuFichier = new JMenu("Fichier");
-//Ajout du menu à la barre des menus 
-myMenuBar.add(menuFichier);</code></pre>
-
-
-
-<h2>Code Complet</h2>
-
-
-
-<pre class="wp-block-code"><code>import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JPanel;
-
-public class MyJMenu {
-
-	public static void main(String&#91;] args) {
-		
-			//création d'une fenêtre JFrame
-			JFrame fen=new JFrame("Exemple de fenêtre avec menu");
-			JPanel panel=new JPanel();
-			//création d'un panneau (JPanel)
-			panel.setLayout(null);
-			fen.setSize(500, 400);
-			fen.setContentPane(panel);
-			
-			//création de la barre des menus
-			JMenuBar myMenuBar=new JMenuBar();
-
-			//Ajout de la barre de menus au JPanel
-			panel.add(myMenuBar);
-			
-			//Positionnement de la barre des menus avec la m"thode setBounds()
-			myMenuBar.setBounds(0, 0, 500, 30);
-			//Création du menu Fichier
-			JMenu menuFichier = new JMenu("Fichier");
-
-			//Ajout du menu à la barre des menus
-			myMenuBar.add(menuFichier);
-			fen.setVisible(true);
-		}
-	}</code></pre>
-
-
-
-<p><strong>Voici un aperçu après exécution du code sur Eclipse</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2018/07/JMenuBar-Java-JMenu-JMenuItem.png" alt="" class="wp-image-5319"/></figure></div>
-
-
-<h1>3 – Création des sous menus avec la classe JMenuItem</h1>
-
-
-
-<p>Pour créer un sous menu et l’ajouter à menu principal, il suffit d’instancier la classe&nbsp;<strong>JMenuItem</strong>&nbsp;et appliquer la&nbsp;<strong>méthode add()</strong>. La classe JMenuItem premet de créer des sous menus, ces sous menus peuvent être ajoutés au menu principal grâce à la méthode add(). Nous allons traiter un exemple simple qui permet d’insérer le menu&nbsp;<strong>« Nouveau »</strong>&nbsp;au menu principal&nbsp;<strong>« Fichier »</strong>&nbsp;:</p>
-
-
-
-<pre class="wp-block-code"><code>//Ajout d'un sous menu "Nouveau"                      
-JMenuItem menuNouveau = new JMenuItem("Nouveau");
-//Ajout du sous menu "Nouveau" au menu principal Fichier                        
-menuFichier.add(menuNouveau);</code></pre>
-
-
-
-<p>On peut également via la même méthode, ajouter d&rsquo;autres sous menus :&nbsp;<strong>« Ouvrir »&nbsp; « Enregistrer »&nbsp; « Imprimer »</strong>&nbsp;<strong>&nbsp;« Quitter »&nbsp;</strong></p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>//Création des sous menus                     
-			JMenuItem menuNouveau = new JMenuItem("Nouveau"); 
-			JMenuItem menuOuvrir = new JMenuItem("Ouvrir"); 
-			JMenuItem menuEnregistrer = new JMenuItem("Enregistrer");
-			JMenuItem menuImprimer = new JMenuItem("Imprimer"); 
-			JMenuItem menuQuitter = new JMenuItem("Quitter"); 
-			
-			//Ajout des sous menus au menu principal Fichier 
-			menuFichier.add(menuNouveau);
-			menuFichier.add(menuOuvrir);
-			menuFichier.add(menuEnregistrer);
-			menuFichier.add(menuImprimer);
-			menuFichier.add(menuQuitter);</code></pre>
-
-
-
-<p>Voici un aperçu de la fenêtre obtenue après exécution du code sur Eclipse</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2018/07/file-menu-java-jmenu-item.png" alt="" class="wp-image-5325"/></figure></div>
-
-
-<h1>4 &#8211; Ajouter une action à un sous menu</h1>
-
-
-
-<p>Dans le paragraphe précédent, vous avez apris à créer des menus et des sous menus, et rien d&rsquo;autre ! Mais quand vous cliquez&nbsp; sur l&rsquo;un de ces sous menus, il doit se produire une&nbsp;<strong>action</strong>&nbsp;ou un&nbsp;<strong>évenement</strong>&nbsp;: exemple nous allons voir comment associer l&rsquo;action qui permet de fermer la fenêtre au sous menu&nbsp;<strong>« Quitter »</strong>.&nbsp; Por cela nous allons utiliser la même méthode&nbsp; &nbsp;<strong>addActionListener( )</strong>&nbsp; que nous avons appliqué aux boutons de comandes, et au sein de cette dernière, nous devons appliquer la méthode<strong>&nbsp;dispose( )</strong>&nbsp; pour fermer la fenêtre :</p>
-
-
-
-<pre class="wp-block-code"><code>menuQuitter.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
-					fen.dispose();
-				}
-			});</code></pre>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Java JTextArea</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/java-jtextarea/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 18:06:14 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=302</guid>
-
-					<description><![CDATA[La classe&#160;JTextArea&#160;est une classe Java permettant de créer une zone de texte multiligne. Ell permet l&#8217;édition de plusieurs lignes de texte. Il s&#8217;agit d&#8217;une classe Java qui hérite de la classe&#160;JTextComponent 1 &#8211; Déclaration de classe JTextArea via l&#8217;héritage de JTextComponent 2 &#8211; Constructeur de classe &#38; description JTextArea ()Construit une nouvelle TextArea.JTextArea (Document doc)Construit&#8230;]]></description>
-										<content:encoded><![CDATA[
-<p>La classe&nbsp;<strong>JTextArea</strong>&nbsp;est une classe Java permettant de créer une zone de texte multiligne. Ell permet l&rsquo;édition de plusieurs lignes de texte. Il s&rsquo;agit d&rsquo;une classe Java qui hérite de la classe<strong>&nbsp;JTextComponent</strong></p>
-
-
-
-<h2>1 &#8211; Déclaration de classe JTextArea via l&rsquo;héritage de JTextComponent</h2>
-
-
-
-<pre class="wp-block-code"><code>public class JTextArea extends JTextComponent</code></pre>
-
-
-
-<h2>2 &#8211; Constructeur de classe &amp; description</h2>
-
-
-
-<span id="more-302"></span>
-
-
-
-<p><strong>JTextArea ()</strong><br>Construit une nouvelle TextArea.<br><strong>JTextArea (Document doc)</strong><br>Construit un nouveau JTextArea avec le modèle de document donné, et par défaut pour tous les autres arguments (null, 0, 0).<br><strong>JTextArea (Document , String&nbsp; texte, lignes int, colonnes int)</strong><br>Construit un nouvel JTextArea avec le nombre spécifié de lignes et de colonnes, et le modèle donné.<br><strong>JTextArea (int rows, int columns)</strong><br>Construit une nouvelle TextArea vide avec le nombre de lignes et de colonnes spécifié.<br><strong>JTextArea (String texte)</strong><br>Construit une nouvelle TextArea avec le texte spécifié affiché.<br><strong>JTextArea (String texte , lignes int, colonnes int)</strong><br>Construit une nouvelle TextArea avec le texte et le nombre de lignes et de colonnes spécifiés.</p>
-
-
-
-<h2>3 &#8211; Méthodes de classe &amp; description</h2>
-
-
-
-<p><strong>void append (String str)</strong><br>Ajoute le texte donné à la fin du document.<br><strong>protected Document createDefaultModel ()</strong><br>Crée l&rsquo;implémentation par défaut du modèle à utiliser lors de la construction si aucune n&rsquo;est explicitement donnée.<br><strong>AccessibleContext getAccessibleContext ()</strong><br>Obtient le AccessibleContext associé à cette JTextArea.<br><strong>int getColumns ()</strong><br>Renvoie le nombre de colonnes dans TextArea.<br><strong>protected int getColumnWidth ()</strong><br>Obtient la largeur de colonne.<br><strong>int getLineCount ()</strong><br>Détermine le nombre de lignes contenues dans la zone.<br><strong>int getLineEndOffset (ligne int)</strong><br>Détermine le décalage de la fin de la ligne donnée.<br><strong>int getLineOfOffset (décalage int)</strong><br>Traduit un décalage dans le texte des composants en un numéro de ligne.<br><strong>int getLineStartOffset (ligne int)</strong><br>Détermine le décalage du début de la ligne donnée.<br><strong>boolean getLineWrap ()</strong><br>Obtient la politique de retour à la ligne de la zone de texte.<br><strong>Dimension getPreferredScrollableViewportSize ()</strong><br>Renvoie la taille préférée de la fenêtre si ce composant est incorporé dans un JScrollPane.<br><strong>Dimension getPreferredSize ()</strong><br>Renvoie la taille préférée de TextArea.<br><strong>protected int getRowHeight ()</strong><br>Définit la signification de la hauteur d&rsquo;une ligne.<br><strong>int getRows ()</strong><br>Renvoie le nombre de lignes dans TextArea.<br><strong>boolean getScrollableTracksViewportWidth()</strong><br>Renvoie true si une fenêtre doit toujours forcer la largeur de ce défilement pour correspondre à la largeur de la fenêtre.<br><strong>int getScrollableUnitIncrement (Rectangle visibleRect, orientation int, int direction)</strong><br>Les composants qui affichent des lignes logiques ou des colonnes doivent calculer l&rsquo;incrément de défilement qui va complètement exposer une nouvelle ligne ou une colonne, en fonction de la valeur de l&rsquo;orientation.<br><strong>int getTabSize ()</strong><br>Obtient le nombre de caractères utilisés pour développer les onglets.<br><strong>String getUIClassID ()</strong><br>Renvoie l&rsquo;ID de la classe pour l&rsquo;interface utilisateur.<br><strong>boolean getWrapStyleWord ()</strong><br>Obtient le style de retour utilisé si la zone de texte est en train d&rsquo;encapsuler des lignes.<br><strong>void Insert(String str, int pos)</strong><br>Insère le texte spécifié à la position spécifiée.<br><strong>protected String paramString ()</strong><br>Renvoie une représentation sous forme de chaîne de cette JTextArea.<br><strong>void replaceRange (Chaîne str, int début, int fin)</strong><br>Remplace le texte de la position de début à la fin indiquée par le nouveau texte spécifié.<br><strong>void setColumns (colonnes int)</strong><br>Définit le nombre de colonnes pour ce TextArea.<br><strong>void setFont (Police f)</strong><br>Définit la police actuelle.<br><strong>void setLineWrap (enveloppe booléenne)</strong><br>Définit la politique de retour à la ligne de la zone de texte.<br><strong>void setRows (int rangées)</strong><br>Définit le nombre de lignes pour cette TextArea.<br><strong>void setTabSize (taille int)</strong><br>Définit le nombre de caractères pour développer les onglets.<br><strong>void setWrapStyleWord (mot booléen)</strong><br>Définit le style d&rsquo;habillage utilisé, si la zone de texte est en train d&rsquo;encapsuler des lignes.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Graphique avec Java Swing</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/graphique-avec-java-swing/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 18:05:39 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=300</guid>
-
-					<description><![CDATA[1 &#8211; Introduction au Bibliothèque Graphique&#160; Java Swing Java Swing constitue l&#8217;une des plus récentes bibliothèque graphique et la plus utilisée pour le langage Java, Java Swing&#160; fait partie du package Java Foundation Classes (JFC) qui elle même fait partie de J2SE. 2 &#8211; Première Fenêtre avec Java Swing Dans ce tutoriel nous allons montrer&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>1 &#8211; Introduction au Bibliothèque Graphique&nbsp; Java Swing</h2>
-
-
-
-<p>Java Swing constitue l&rsquo;une des plus récentes bibliothèque graphique et la plus utilisée pour le langage Java, Java Swing&nbsp; fait partie du package Java Foundation Classes (JFC) qui elle même fait partie de J2SE.</p>
-
-
-
-<h2>2 &#8211; Première Fenêtre avec Java Swing</h2>
-
-
-
-<p>Dans ce tutoriel nous allons montrer comment créer une fenêtre avec la&nbsp;<strong>classe JFrame</strong>&nbsp;qui se trouve dans la bibliothèque&nbsp;&nbsp;<strong>Javax.Swing.</strong></p>
-
-
-
-<p>Pour ce faire nous devons préalablement importer la bibliothèque&nbsp;<strong>javax.swing.JFrame;</strong>&nbsp;et faire ensuite l&rsquo;instanciation sur la<strong>&nbsp;classe JFrame&nbsp;</strong>pour créer une&nbsp;<strong>fenêtre.</strong></p>
-
-
-
-<span id="more-300"></span>
-
-
-
-<pre class="wp-block-code"><code>import javax.swing.JFrame;
-public class maFenetre {
-	
-  public static void main(String&#91;] args) {
-		JFrame f=new JFrame();
-		}
-}</code></pre>
-
-
-
-<p>Ce qui n&rsquo;affiche rien après exécution bien sûr, puisqu&rsquo;on a pas invoquer la méthode&nbsp;<strong>setVisible( )</strong>&nbsp; qui permet de visualiser la fenêtre. On peut donc améliorer le code en ajoutant cette dernière et celle qui définit les dimensions de la façon suivante :</p>
-
-
-
-<pre class="wp-block-code"><code>import javax.swing.JFrame;
-public class maFenetre {
-	
-  public static void main(String&#91;] args) {
-		JFrame f=new JFrame();
-	    f.setVisible(true);
-	    f.setTitle("Une Fenetre tout simplement");
-	    f.setSize(400,200);
-		}
-}</code></pre>
-
-
-
-<p>Ce qui affiche une fenêtre de taille 400 x 200 :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/03/JFrame-fenetre-java-sans-heritage.jpg" alt="JFrame-fenetre-java-sans-heritage" class="wp-image-4293"/></figure></div>
-
-
-<p>Afin de pouvoir améliorer la classe&nbsp;JFrame&nbsp;il vaut mieux créer une sous classe via l&rsquo;instruction&nbsp;extends&nbsp;!</p>
-
-
-
-<pre class="wp-block-code"><code>import javax.swing.JFrame;
-public class maFenetre extends JFrame{
-	//création du constructeur
-  public maFenetre(){
-//Titre de la fenêtre
-this.setTitle("Ma propre fenêtre");
-  }
-}</code></pre>
-
-
-
-<p>Maintenant pour créer et afficher la fenêtre nous devons :</p>
-
-
-
-<ol><li>Créer une&nbsp;<strong>méthode afficher( )</strong>&nbsp;permettant d&rsquo;afficher la fenêtre</li><li>Créer une&nbsp;<strong>méthode main( )</strong>&nbsp;pour instancier la classe&nbsp;<strong>maFenêtre</strong>&nbsp;et afficher l&rsquo;objet fenêtre</li></ol>
-
-
-
-<pre class="wp-block-code"><code>import javax.swing.JFrame;
-public class maFenetre extends JFrame{
-	//création du constructeur
-  public maFenetre(){
-this.setTitle("Ma propre fenêtre");
-  }
-  //création de la fonction d'affichage
-  public void afficher(){
-	  this.setVisible(true);
-  }
-  public static void main(String&#91;] args) {
-		maFenetre f=new maFenetre();
-	    f.afficher();
-		}
-}</code></pre>
-
-
-
-<p>En exécutant ce code vous obtenez une petite fenêtre de dimensions nulles, par ce qu&rsquo;on a pas préciser ses dimensions</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/03/premiere-fenetre-java-JFrame.jpg" alt="premiere-fenetre-java-JFrame" class="wp-image-4290"/></figure></div>
-
-
-<p>Nous pouvons maintenant améliorer le code en ajoutant au constructeur, les dimensions de la fenêtre :</p>
-
-
-
-<pre class="wp-block-code"><code>this.setSize(largeur en pixels , hauteur en pixel);</code></pre>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>import javax.swing.JFrame;
-public class maFenetre extends JFrame{
-	//création du constructeur
-  public maFenetre(){
-// Titre de la fenêtre	  
-this.setTitle("Ma propre fenêtre");
-// dimensions de la fenêtre :
-this.setSize(300, 200);
-  }
-  //création de la fonction d'affichage
-  public void afficher(){
-	  this.setVisible(true);
-  }
-  public static void main(String&#91;] args) {
-		maFenetre f=new maFenetre();
-	    f.afficher();
-		}
-}</code></pre>
-
-
-
-<p>Ce qui affiche après exécution, une fenêtre de taille 300 x 200</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/03/java-swing-this-size.jpg" alt="java-swing-this-size" class="wp-image-4291"/></figure></div>
-
-
-<h2>3 &#8211; Les conteneurs Java Swing ( Swing Containers )</h2>
-
-
-
-<p>Les composants Swing dans lesquels sont incorporés&nbsp;<strong>les composants de la GUI</strong>&nbsp;comme par exemple :&nbsp;<strong>JFrame, JDialog, JPanel, JScrollPane</strong>&#8230;sont appelé les&nbsp;<strong>conteneurs Swing</strong>&nbsp;(&nbsp;<strong>Swing containers</strong>&nbsp;en anglais)</p>
-
-
-
-<h2>4 &#8211; Les composants&nbsp; Java Swing</h2>
-
-
-
-<p>Les composants de la bibliothèque Swing presque identiques à ceux de Awt :</p>
-
-
-
-<ul><li>JButton</li><li>JLabel</li><li>JTextArea</li><li>JTextField</li><li>JRadioButton</li><li>JCheckBox</li><li>JPasswordField</li><li>JComboBox</li><li>JList</li><li>JScrollBar</li></ul>
-
-
-
-<h2>5 &#8211; Ajout de composants Swing à la fenêtre</h2>
-
-
-
-<h3>5 &#8211; 1 &#8211; Ajout d&rsquo;un bouton</h3>
-
-
-
-<p>Avant d&rsquo;ajouter un bouton à une fenêtre il faut préalablement créer un panneau ( Panel ) en faisant une instanciation sur la classe JPanel&nbsp; et d&rsquo;associer le contenu de ce panel à la fenêtre via l&rsquo;instruction :</p>
-
-
-
-<pre class="wp-block-code"><code>
-fenêtre.setContentPane(panel);</code></pre>
-
-
-
-<p>Voici le code :</p>
-
-
-
-<pre class="wp-block-code"><code>JFrame f=new JFrame("Ma Fenêtre");
-f.setSize(500, 400);
-JPanel pan=new JPanel();
-f.setContentPane(pan);</code></pre>
-
-
-
-<p><strong>Explication :</strong>&nbsp;dans ce code on créer une fenêtre nommée&nbsp;<strong>f</strong>&nbsp;contenant un&nbsp;<strong>&nbsp;panel</strong>&nbsp;nommé&nbsp;<strong>pan</strong></p>
-
-
-
-<p>A e moment là il est temps de créer un bouton à l&rsquo;aide d&rsquo;une instanciation sur la classe JButton :</p>
-
-
-
-<pre class="wp-block-code"><code>JButton b=new JButton("Voici un Bouton");
-</code></pre>
-
-
-
-<p>Le bouton ne sera pas visible à ce moment là ! Il va falloir l&rsquo;<strong>ajouter</strong>&nbsp;à la fenêtre<strong>&nbsp;f</strong>&nbsp;l&rsquo;aide de la méthode :</p>
-
-
-
-<pre class="wp-block-code"><code>f.getContentPane().add(b);</code></pre>
-
-
-
-<p>Voici le code final :</p>
-
-
-
-<pre class="wp-block-code"><code>import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-public class AppGaphique {
-	public static void main(String&#91;] args) {
-	JFrame f=new JFrame("Ma Fenêtre");
-	f.setSize(500, 400);
-	JPanel pan=new JPanel();
-	f.setContentPane(pan);
-	//ajout de bouton
-	JButton b=new JButton("Voici un Bouton");
-	f.getContentPane().add(b);
-	f.setVisible(true);
-	} }</code></pre>
-
-
-
-<p>Ce qui affiche après exécution :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/03/JButton-Java-Swing.png" alt="Java JButton La classe JButton sert à créer un bouton étiqueté qui a une implémentation indépendante de la plate-forme. L'application entraîne une action lorsque le bouton est poussé. Il hérite de la classe AbstractButton. Déclaration de classe JButton Voyons la déclaration de la classe javax.swing.JButton. Classe publique JButton étend les outils AbstractButton accessibles" class="wp-image-4506"/></figure></div>
-
-
-<h3>Remarque</h3>
-
-
-
-<p>On ajoute les autres composants&nbsp;<strong>Label, TextField</strong>&#8230; de la même façon en faisant une instanciation sur les classes&nbsp;<strong>JLabel, JTextField&#8230;</strong></p>
-
-
-
-<h2>6 &#8211; Les événements Java Swing</h2>
-
-
-
-<h3>Exemple avec&nbsp;<strong>ActionListener</strong>&nbsp;appliquer à<strong>&nbsp;JButton</strong></h3>
-
-
-
-<pre class="wp-block-code"><code>monBouton.addActionListener(new ActionListener(){  
-public void actionPerformed(ActionEvent e){  
-   &#91;ensemble d'actions ici ]  
-        }  
-    });  </code></pre>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-public class AppGaphique {
-	public static void main(String&#91;] args) {
-	JFrame f=new JFrame("Ma Fenêtre");
-	f.setSize(500, 400);
-	JPanel pan=new JPanel();
-	f.setContentPane(pan);
-	//ajout de bouton
-	JButton b=new JButton("Voici un Bouton");
-	f.getContentPane().add(b);
-	JLabel l=new JLabel("");
-	f.getContentPane().add(l);
-	f.setVisible(true);
-	b.addActionListener(new ActionListener(){  
-		public void actionPerformed(ActionEvent e){  
-		            l.setText("J'ai cliqué sur le bouton");  }  
-		    });  
-	} 
-}</code></pre>
-
-
-
-<p>Ce qui affiche après exécution et après avoir cliqué sur le bouton :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/03/Jbutton-action-listener.png" alt="EventListener interfaces allow you to define processing in response to user events generated by a component. A class must contain an auditory interface for each type of event to be processed: ActionListener: mouse click or press Enter ItemListener: Using a list or check box MouseMotionListener: mouse event WindowListener: Window Event" class="wp-image-4511"/></figure></div>
-
-
-<h2>5 &#8211; Le composant JTable</h2>
-
-
-
-<p><a></a>Dans cette partie, nous allons voir comment créer un tableau pour afficher des données tabulaires en utilisant la classe JTable au sein de&nbsp; la bibliothèque Java swing. La classe&nbsp;<strong>JTable</strong>&nbsp;représente le&nbsp;<strong>composant Swing table</strong>.&nbsp;<strong>JTable</strong>&nbsp;offre une fonctionnalité riche pour gérer l&rsquo;apparence et le comportement du composant table.&nbsp;&nbsp;<strong>JTable étend directement JComponent</strong>&nbsp;et<strong>&nbsp;implémente</strong>&nbsp;plusieurs&nbsp;<strong>interfaces</strong>&nbsp;d&rsquo;auditeurs de modèles telles que&nbsp;<strong>TableModelListener,&nbsp;&nbsp;TableColumnModelListener,&nbsp;&nbsp;ListSelectionListener</strong>&nbsp;&#8230; etc. JTable implémente également une interface défilable; par conséquent, le tableau est généralement placé dans un&nbsp;<strong>JScrollPane</strong>.</p>
-
-
-
-<p>Chaque JTable comporte trois modèles&nbsp;:</p>
-
-
-
-<ul><li>TableModel</li><li>TableColumnModel</li><li>ListSelectionModel.</li></ul>
-
-
-
-<p><strong>TableModel</strong>&nbsp; :&nbsp; est utilisé pour spécifier comment les données de la table sont stockées et la récupération de ces données. Les données de JTable sont souvent en structure bidimensionnelle telle qu&rsquo;un tableau à deux dimensions ou un vecteur de vecteurs. TableModel est également utilisé pour spécifier comment les données peuvent être modifiées dans la table.</p>
-
-
-
-<p><strong>TableColumnModel</strong>&nbsp; : est utilisé pour gérer tout TableColumn en terme de sélection de colonne, d&rsquo;ordre de colonne et de taille de marge.</p>
-
-
-
-<p><strong>ListSelectionModel :</strong>&nbsp;permet au tableau d&rsquo;avoir un mode de sélection différent, tel qu&rsquo;un sélecteur unique, un intervalle unique et plusieurs sélections d&rsquo;intervalles.<br>Nous pouvons créer une table en utilisant ses constructeurs comme suit:</p>
-
-
-
-<figure class="wp-block-table"><table><tbody><tr><td><strong>Constructeurs JTable</strong></td><td><strong>Description</strong></td></tr><tr><td><strong>JTable</strong>()</td><td>Création d&rsquo;une table vide</td></tr><tr><td><strong>JTable</strong>(int&nbsp;rows, int&nbsp;columns)</td><td>Création d&rsquo;une table avec des lignes et des colonnes avec cellules vides.</td></tr><tr><td><strong>JTable</strong>(Object[][]&nbsp;data, Object[]&nbsp;heading)</td><td>Création d&rsquo;une table avec les données spécifiées&nbsp; du tableau bidimensionnel et l&rsquo;en-tête de la colonne</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm)</td><td>Création d&rsquo;une table avec le modèle&nbsp;TableModel</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm, TableColumnModel&nbsp;cm)</td><td>Création d&rsquo;une table avec les modèles&nbsp;TableModel et TableColumnModel.</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm,TableColumnModel&nbsp;cm, ListSelectionModel&nbsp;sm)</td><td>Créez une table avec les modèles&nbsp;TableModel, TableColumnModel, et ListSelectionModel.</td></tr><tr><td><strong>JTable</strong>(Vector&nbsp;data, Vector&nbsp;heading)</td><td>&nbsp;Création d&rsquo;une table avec vector of Vectors&nbsp;<em>data</em>&nbsp;et column headings&nbsp;<em>headin.</em></td></tr></tbody></table></figure>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<p>Nous verrons ici un exemple d&rsquo;utilisation de&nbsp;<strong>JTable</strong>&nbsp;pour afficher les achats de matériels informatiques :</p>
-
-
-
-<ul><li>Nous commençons par spécifier l&rsquo;en-tête de colonne dans le tableau des colonnes.</li><li>Nous utilisons ensuite&nbsp; des données de tableau bidimensionnel pour stocker des données.</li><li>Nous créons ensuite une instance de JTable en transmettant les données du tableau et l&rsquo;en-tête de colonne au constructeur.</li><li>Enfin, nous plaçons la table JScrollPane et l&rsquo;ajoutons au cadre principal.</li></ul>
-
-
-
-<pre class="wp-block-code"><code>package JTableTest;
-
-import javax.swing.*;
-import java.awt.*;
-
-public class MainClass {
- 
-	    public static void main(String&#91;] args) {
-	        final JFrame frame = new JFrame("JTable Demo");
-	        
-        String&#91;] columns = {"id", "Matérièl Informatiques ", "Quantité"};
-
-            Object&#91;]&#91;] data = {
-        {1,"PC ","30"},
-        {2,"Tabettes","45"},
-        {3, "Imprimantes", "10"}
-};          
-	        
-	        JTable table = new JTable(data, columns);
-	        JScrollPane scrollPane = new JScrollPane(table);
-	        JLabel lblHeading = new JLabel("Achat de matériels informatiques");
-	        lblHeading.setFont(new Font("Arial",Font.TRUETYPE_FONT,20));
-	        frame.getContentPane().setLayout(new BorderLayout());
-	        frame.getContentPane().add(lblHeading,BorderLayout.PAGE_START);
-	        frame.getContentPane().add(scrollPane,BorderLayout.CENTER);
-	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	        frame.setSize(450, 250);
-	        frame.setVisible(true);
-	    }
-	}</code></pre>
-
-
-
-<p>En exécutant le code ci-dessus vous obtenez la fenêtre suivante :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/03/Modele-JTable-Java-Swing.png" alt="Modele-JTable-Java-Swing" class="wp-image-4708"/></figure></div>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Les interface en Java</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-interface-en-java/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 18:03:11 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=298</guid>
-
-					<description><![CDATA[1 &#8211; Qu&#8217;est ce qu&#8217;une interface en Java ? Une interface du langage de programmation Java est un type abstrait utilisé pour spécifier un comportement que les classes doivent implémenter. Ils sont similaires aux protocoles. Les interfaces sont déclarées à l&#8217;aide du mot-clé interface et ne peuvent contenir que des déclarations de méthode et des&#8230;]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/Programmation-Java-debutant-1.png" alt="" class="wp-image-5562"/></figure></div>
-
-
-<h2>1 &#8211; Qu&rsquo;est ce qu&rsquo;une interface en Java ?</h2>
-
-
-
-<p>Une interface du langage de programmation Java est un type abstrait utilisé pour spécifier un comportement que les classes doivent implémenter. Ils sont similaires aux protocoles. Les interfaces sont déclarées à l&rsquo;aide du mot-clé interface et ne peuvent contenir que des déclarations de méthode et des déclarations de constante (variable declaratire déclarée à la fois statique et finale). Toutes les méthodes d&rsquo;une interface ne contiennent pas d&rsquo;implémentation (corps de méthodes) de toutes les versions antérieures à Java 11. À partir de Java 8, les méthodes par défaut et les méthodes statiques peuvent avoir une implémentation dans la définition d&rsquo;interface.</p>
-
-
-
-<p>Les interfaces ne peuvent pas être instanciées, mais sont plutôt implémentées. Une classe qui implémente une interface doit implémenter toutes les méthodes non définies par défaut décrites dans l&rsquo;interface ou être une classe abstraite. Les références d&rsquo;objet en Java peuvent être spécifiées comme étant d&rsquo;un type d&rsquo;interface; dans chaque cas, ils doivent être nuls ou être liés à un objet qui implémente l&rsquo;interface.</p>
-
-
-
-<p>L&rsquo;un des avantages de l&rsquo;utilisation des interfaces est qu&rsquo;elles simulent un héritage multiple. Toutes les classes en Java doivent avoir exactement une classe de base, la seule exception étant java.lang.Object (la classe racine du système de types Java); l&rsquo;héritage multiple de classes n&rsquo;est pas autorisé. Cependant, une interface peut hériter de plusieurs interfaces et une classe peut implémenter plusieurs interfaces.</p>
-
-
-
-<h2>2 &#8211; Une interface est crée pour quelle raison ?</h2>
-
-
-
-<p>Pour bien comprendre l&rsquo;utilité des interfaces en Java, prenons un exemple simple :</p>
-
-
-
-<ul><li>On souhaite par exemple créer une&nbsp;<strong>classe Rectangle</strong>&nbsp;qui permet de générer un objet&nbsp;<strong>rectangle</strong></li><li>On souhaite aussi créer une&nbsp;<strong>classe triangle</strong>&nbsp;permettant de générer un objet&nbsp;<strong>triangle</strong></li><li>On souhaite créer une<strong>&nbsp;classe trapèze</strong>&nbsp;permettant de généer un objet&nbsp;<strong>trapèze</strong></li><li>&nbsp; &nbsp;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.</li></ul>
-
-
-
-<p>Les objets&nbsp;<strong>rectangle, triangle</strong>&nbsp;et&nbsp;<strong>trapèze</strong>&nbsp; possèdent tous&nbsp;<strong>des propriétés communes</strong>&nbsp;comme :&nbsp;<strong>surface, perimètre, nombre de cotés</strong>&#8230; Et on souhaite créer un moyen qui permet de gérer ce processus c.a.d&nbsp;<strong>un triangle</strong>&nbsp;doit&nbsp;<strong>obligatoirement</strong>&nbsp;posséder une méthode qui&nbsp;<strong>calcule le périmètre</strong>&nbsp;et une<strong>&nbsp;méthode qui calcul la surface</strong>, faute de quoi le développeur&nbsp; rencontre un message d&rsquo;erreur lui indiquant qu&rsquo;il doit obligatoirement insérer les méthodes&nbsp;<strong>perimetre() et surface()</strong></p>
-
-
-
-<p>C&rsquo;est à ce niveau là qu&rsquo;une interface intervient ! On doit créer une et appelons la par exemple interface polygone qui contient l&rsquo;ensemble des&nbsp; méthodes communes aux formes géométriques cités ci-dessus :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/classrectangle-implement-interface-polygone-1.png" alt="" class="wp-image-5571"/></figure></div>
-
-
-<h2>3 &#8211; Comment créer et utiliser une interface</h2>
-
-
-
-<p>En pratique, la création et la declaration d&rsquo;une interface est semblable à une&nbsp;<strong>classe</strong>, à la différence que l&rsquo;on remplace le mot-clé&nbsp;<strong>class</strong>&nbsp;par<strong>&nbsp;interface</strong>.</p>
-
-
-
-<pre class="wp-block-code"><code>public interface Polygone {
-	public double périmètre();
-	public int nombreCotes();
-}</code></pre>
-
-
-
-<p>Les classes&nbsp;&nbsp;<strong>rectangle, triangle</strong>&nbsp;et&nbsp;<strong>trapèze</strong>&nbsp;vont être maintenant declarées de la même façon comme celle de l&rsquo;héritage, à l a différence de remplacer le mot clé extends par implement:</p>
-
-
-
-<p><em>Class Rectagle</em></p>
-
-
-
-<pre class="wp-block-code"><code>public class Rectangle implements Polygone {
-public double Longueur;
-public double largeur;
-public Rectangle(double L,double l){
-	this.Longueur=L;
-	this.largeur=l;
-}
-
-	public double périmètre(){
-		return 2*(this.Longueur+this.largeur);
-	}
-    public int nombreCotes(){
-		return 4;
-	}
-
-	public void afficher(){
- System.out.println("La périmètre du rectangle est : "+ this.périmètre());
-	}
-	public static void main(String&#91;] args) {
-	Polygone R1=new Rectangle(7,4);
-	Rectangle R2=new Rectangle(9,3);
-	R1.afficher();
-	R2.afficher();
-	}
-}</code></pre>
-
-
-
-<p><em>Class Triangle</em></p>
-
-
-
-<pre class="wp-block-code"><code>public class Triangle implements Polygone{
-	public double coté1;
-	public double coté2;
-	public double coté3;
-	//création du constructeur
-	public Triangle(double c1,double c2,double c3){
-		this.coté1=c1;
-		this.coté2=c2;
-		this.coté3=c3;
-	}
-	
-	public double périmètre(){
-		return this.coté1+this.coté2+this.coté3;
-	}
-	public int nombreCotes(){
-		return 3;
-	}
-	public void afficher(){
-    System.out.println("La périmètre du triangle est : "+ this.périmètre());	
-	}
-	public static void main(String&#91;] args) {
-	Polygone T1=new Triangle(2,3,5);
-	Triangle T2=new Triangle(4,4,5);
-	T1.afficher();
-	T2.afficher();
-
-	}
-
-}</code></pre>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Classes et méthodes Java</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/classes-et-methodes-java/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 18:00:37 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=295</guid>
-
-					<description><![CDATA[&#160;&#8211; Notion d&#8217;objets et de classes 1 &#8211; 1 Exemple d&#8217;une classe prédéfinie : classe String Le but de la&#160; programmation orienté objet est de facilité la programmation en créant des classes qui à travers auxquelles on crée un nouveau objet chaque fois qu’on a besoin à l’aide de ce qu’on appelle l’instanciation. Exemple Ici&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>&nbsp;&#8211; Notion d&rsquo;objets et de classes</h2>
-
-
-
-<h3>1 &#8211; 1 Exemple d&rsquo;une classe prédéfinie : classe String</h3>
-
-
-
-<p>Le but de la&nbsp; programmation orienté objet est de facilité la programmation en créant des classes qui à travers auxquelles on crée un nouveau objet chaque fois qu’on a besoin à l’aide de ce qu’on appelle l’instanciation.</p>
-
-
-
-<h4>Exemple</h4>
-
-
-
-<pre class="wp-block-code"><code>String myString=new String(" salut ");  </code></pre>
-
-
-
-<span id="more-295"></span>
-
-
-
-<p>Ici on crée un objet du type chaine de caractère nommé&nbsp;<strong>myString</strong>&nbsp;à l’aide du modèle&nbsp;<strong>String</strong>&nbsp;la méthode par laquelle on a crée l’objet :<strong>&nbsp;Objet monObjet=new Objet</strong>&nbsp;est appelé&nbsp;<strong>l’instanciation</strong><br>Un objet est doté des propriétés et méthodes qui fournissent des informations sur l’objet.</p>
-
-
-
-<p>Exemple :</p>
-
-
-
-<pre class="wp-block-code"><code>myString.length() ; </code></pre>
-
-
-
-<p>qui fournit ici&nbsp;<strong>la longueur (length en anglais )</strong>&nbsp;de la chaine de caractères&nbsp;<strong>myString= « salut »</strong>&nbsp;qui est égale ici à 5.<br>Pour créer une classe en Java on utilise la syntaxe :</p>
-
-
-
-<pre class="wp-block-code"><code>classe nom_classe{
-//code de la classe  ici
-}</code></pre>
-
-
-
-<h2>2 &#8211; Les classes et les objets Java</h2>
-
-
-
-<h3>2 &#8211; 1 Déclaration d&rsquo;une classe Java</h3>
-
-
-
-<p>Pour bien faciliter l&rsquo;apprentissage nous allons traiter un exemple simple d&rsquo;une classe permettant de générer des objets voitures ayant tous la même marque et le même prix :</p>
-
-
-
-<p><strong>Exemple</strong></p>
-
-
-
-<pre class="wp-block-code"><code>class voiture{
-String marque ;
-double prix ;
-}</code></pre>
-
-
-
-<h3>2 &#8211; 2 Constructeur&nbsp; sans paramètres ( constructeur par défaut )</h3>
-
-
-
-<p>Afin de pouvoir créer des objets pour une classe Java, il faut associer à cette dernière&nbsp;&nbsp;une&nbsp;<strong>méthode (fonction)</strong>qui porte&nbsp;le même nom que la classe&nbsp;appelé&nbsp;&nbsp;<strong>constructeur</strong>&nbsp;:</p>
-
-
-
-<pre class="wp-block-code"><code>voiture(){
-}</code></pre>
-
-
-
-<p>Nous pouvons aussi attribuer des valeurs aux variables&nbsp;marque&nbsp;et&nbsp;prix&nbsp;:</p>
-
-
-
-<pre class="wp-block-code"><code>class voiture {
-	String marque="Renault";
-	double prix=20000;
-voiture(){
-}</code></pre>
-
-
-
-<p>Et maintenant pour créer un objet voiture il suffit de faire&nbsp;l&rsquo;instanciation&nbsp;: par exemple si on veut créer un objet voiture nommé&nbsp;maVoiture&nbsp; on utilise le code :</p>
-
-
-
-<pre class="wp-block-code"><code>voiture maVoiture = new  voiture();</code></pre>
-
-
-
-<p>L&rsquo;objet&nbsp;maVoiture&nbsp;qu&rsquo;on vient de créer est une voiture de&nbsp;marque Renault&nbsp;et de&nbsp;prix 20000&nbsp;( Euro )</p>
-
-
-
-<p>Et maintenant si on veut accéder à la marque de l&rsquo;objet&nbsp;maVoiture&nbsp;et de la récupérer sur une variable String on utilise le code :</p>
-
-
-
-<pre class="wp-block-code"><code>String marque = maVoiture.marque ;</code></pre>
-
-
-
-<p>Voici le code final de la&nbsp;classe&nbsp;voiture&nbsp;:</p>
-
-
-
-<pre class="wp-block-code"><code>class voiture {
-	String marque="Renault";
-	double prix=20000;
-    voiture(){
-    }
-	public static void main(String&#91;] args) {
-		voiture maVoiture=new voiture();
-		System.out.println("La marque de maVoiture est : "+ maVoiture.marque);
-		System.out.println("Le prix de maVoiture est : "+ maVoiture.prix + " Euro");
-	}
-}</code></pre>
-
-
-
-<p>Ce qui affiche à l&rsquo;exécution :</p>
-
-
-
-<p><em><strong>La marque de maVoiture est : Renault</strong></em><br><em><strong>Le prix de maVoiture est : 20000.0 Euro</strong></em></p>
-
-
-
-<h3>&nbsp;2 &#8211; 3 Constructeur avec paramètres</h3>
-
-
-
-<p>On peut aussi donner la possibilité à l&rsquo;utilisateur de choisir lui même la marque et le prix de la voiture en ajoutant&nbsp; des&nbsp;paramètres&nbsp;au&nbsp;constructeur&nbsp;:</p>
-
-
-
-<pre class="wp-block-code"><code>voiture ( String mq , double pr ) {
-    	this.marque=mq ;
-    	this.prix=pr ;
-    }</code></pre>
-
-
-
-<p>Et maintenant l&rsquo;utilisateur du modèle&nbsp;voiture&nbsp;est libre de choisir la&nbsp;marque&nbsp;qu&rsquo;il souhaite avec le&nbsp;prix&nbsp;qui qui lui convient au moment de l&rsquo;instanciation&nbsp;, par exemple s&rsquo;il souhaite créer une voiture de marque<strong>&nbsp;Peugeot</strong>&nbsp;et de&nbsp;<strong>prix 25000 Euro</strong>&nbsp;il n&rsquo;a qu&rsquo;à instancier avec ces paramètres :</p>
-
-
-
-<pre class="wp-block-code"><code>voiture saVoiture=new voiture( "Peugeot" , 25000 ) ;</code></pre>
-
-
-
-<p>Voici le code final de la classe :</p>
-
-
-
-<pre class="wp-block-code"><code>class voiture {
-	String marque;
-	double prix;
-    voiture(String mq,double pr){
-    	this.marque=mq;
-    	this.prix=pr;
-    }
-	public static void main(String&#91;] args) {
-		voiture saVoiture=new voiture("Peugeot",25000);
-		System.out.println("La marque de  saVoiture est : "+ saVoiture.marque);
-		System.out.println("Le prix de saVoiture est : "+ saVoiture.prix + " Euro");
-	}
-}</code></pre>
-
-
-
-<p>Ce qui affiche à l&rsquo;exécution :</p>
-
-
-
-<p><em><strong>La marque de&nbsp; saVoiture est : Peugeot</strong></em><br><em><strong>Le prix de saVoiture est : 25000.0 Euro</strong></em></p>
-
-
-
-<h2>3 &#8211; Modificateurs d&rsquo;accès</h2>
-
-
-
-<p>Vous auriez sûrement déjà remarqué les mots&nbsp;<strong>public, protected et private</strong>&nbsp;au début des déclarations des méthodes de classe. Ces mots-clés sont appelés les&nbsp;<strong>modificateurs d&rsquo;accès</strong>&nbsp;dans la syntaxe du langage Java, et ils définissent la portée d&rsquo;un constituant de la classe.</p>
-
-
-
-<h3>3 &#8211; 1 &#8211; Cas d&rsquo;une classe</h3>
-
-
-
-<ul><li>Si une classe a une visibilité&nbsp;<strong>public</strong>&nbsp;(publique), la classe peut être appelée &nbsp;depuis n&rsquo;importe où dans le programme.</li><li>Si une classe possède une visibilité du package, la classe ne peut être appelée que dans le package où la classe est définie.</li><li>Si une classe a une visibilité&nbsp;<strong>private</strong>&nbsp;(privée) (elle ne peut se produire que si la classe est définie imbriquée dans une autre classe), la classe ne peut être consultée que dans la classe externe.</li></ul>
-
-
-
-<h3>3 &#8211; 2 &#8211; Cas d&rsquo;un attribut</h3>
-
-
-
-<ul><li>&nbsp;&nbsp;&nbsp;&nbsp;Si une variable est définie dans une&nbsp;<strong>classe publique</strong>&nbsp;et qu&rsquo;elle a une visibilité<strong>&nbsp;publique</strong>, la variable peut être appelée n&rsquo;importe où dans l&rsquo;application par la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité&nbsp;<strong>protected</strong>&nbsp;(protégée) , la variable ne peut être appelée que dans les&nbsp;<strong>sous-classes</strong>&nbsp;et dans le même paquet dans la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité du package , la variable ne peut être référencée que dans le même paquet dans la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité&nbsp;<strong>private</strong>&nbsp;(privée), la variable ne peut être accessible que dans la classe dans laquelle elle est définie.</li></ul>
-
-
-
-<h3>3 &#8211; 3 &#8211; Cas d&rsquo;une méthode Java</h3>
-
-
-
-<ul><li>&nbsp;&nbsp;&nbsp;&nbsp;Si une méthode est définie dans une&nbsp;<strong>classe publique</strong>&nbsp;et qu&rsquo;elle a une&nbsp;<strong>visibilité publique</strong>, la méthode peut être appelée n&rsquo;importe où dans l&rsquo;application à travers la classe dans laquelle elle est définie.</li><li>Si une méthode est déclarée&nbsp;<strong>protected</strong>&nbsp; elle a une visibilité protégé, la méthode peut être appelée uniquement dans les sous-classes et dans le même paquetage à travers la classe dans laquelle elle est définie.</li><li>Si une méthode est déclarée&nbsp;<strong>private</strong>&nbsp;elle a une visibilité privée, la méthode peut être appelée uniquement dans la classe dans laquelle elle est définie.</li></ul>
-
-
-
-<h3>3 &#8211; 4 &#8211; Le modificateur abstract</h3>
-
-
-
-<p>Le modificateur&nbsp;<strong>abstract</strong>&nbsp;est utilisé devant les classes&nbsp; Java pour définir les<strong>&nbsp;classes abstraites</strong>&nbsp;( les classes abstraite sont des classes non instanciables et par suite non exécutables directement, elle ne peuvent être utiliser qu&rsquo;en héritage )</p>
-
-
-
-<h3>3 &#8211; 5 &#8211; Le modificateur Final</h3>
-
-
-
-<ul><li>En Java le mot clé<strong>&nbsp;final</strong>&nbsp;s’il est ajouté devant un &nbsp;<strong>attribut</strong>, il le rend non modifiable, il prend toujours la valeur par laquelle il est initialisé.</li><li>Le mot clé<strong>&nbsp;final</strong>&nbsp;s’il est ajouté devant une<strong>&nbsp;méthode</strong>, il indique que cette dernière &nbsp;ne peut pas être modifiée pendant l’héritage. Les méthodes&nbsp;<strong>static</strong>&nbsp;et&nbsp;<strong>private</strong>&nbsp;sont considérées automatiquement&nbsp;<strong>&nbsp;final</strong>.</li><li>Le mot clé<strong>&nbsp;final&nbsp;</strong>s’il est ajouté devant une&nbsp;<strong>classe</strong>, il indique que cette dernière ne peut pas avoir de&nbsp;<strong>classes filles</strong>.</li></ul>
-
-
-
-<h3>3 &#8211; 6 &#8211; &#8211; Le modificateur Static</h3>
-
-
-
-<p>Pour un attribut ou une méthode &nbsp;Java, le modificateur&nbsp;<strong>static</strong>&nbsp;indique, que la méthode ou l&rsquo;attribut &nbsp; peut être appelé sans faire une &nbsp;instanciation sur &nbsp;sa classe.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Structures conditionnelles, boucles</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/structures-conditionnelles-boucles/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 17:57:01 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=291</guid>
-
-					<description><![CDATA[1 &#8211; Structure conditionnelle If&#160; &#38; If else, Java En Java, une instruction if est une instruction conditionnelle qui exécute un ensemble d&#8217;instructions selon une condition si elle est réalisée ou non.Syntaxe: Exemple Ce qui affiche : Vous êtes majeur si l&#8217;âge tapé est &#62;=18Vous êtes mineur si l&#8217;âge tapé est &#60; 18 Remarque :&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>1 &#8211; Structure conditionnelle If&nbsp; &amp; If else, Java</h2>
-
-
-
-<p>En Java, une instruction if est une instruction conditionnelle qui exécute un ensemble d&rsquo;instructions selon une condition si elle est réalisée ou non.<br>Syntaxe:</p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<span id="more-291"></span>
-
-
-
-<pre class="wp-block-code"><code>import java.util.Scanner;
-public class si {
-
-	public static void main(String&#91;] args) {
-		System.out.println("Veuillez saisir votre age !");
-	Scanner age=new Scanner(System.in);
-	int tonAge=age.nextInt();
-	if ( tonAge &lt; 18 ) {
-System.out.println("vous êtes mineur"+" Ton age est : "+tonAge);
-	}
-	else{
-		System.out.println("vous êtes Majeur"+" Ton age est : "+tonAge);	
-	}
-	age.close();
-}
-}</code></pre>
-
-
-
-<p>Ce qui affiche :</p>
-
-
-
-<p>Vous êtes majeur si l&rsquo;âge tapé est &gt;=18<br>Vous êtes mineur si l&rsquo;âge tapé est &lt; 18</p>
-
-
-
-<h3>Remarque :</h3>
-
-
-
-<p>La commande&nbsp;<strong>else {</strong>&nbsp; n&rsquo;est pas obligatoire</p>
-
-
-
-<h2>2 &#8211; Boucle For Java</h2>
-
-
-
-<p>Il existe de nombreuses&nbsp; situations qui vous oblige à exécuter un bloc d&rsquo;instructions plusieurs fois dans vos applications.&nbsp;Les boucles peuvent exécuter un bloc de code un certain nombre de fois.&nbsp;La boucle&nbsp;<strong>for</strong>&nbsp;de Java vous sera&nbsp; utile dans ce cas<br>Syntaxe:</p>
-
-
-
-<pre class="wp-block-code"><code> 
-for (début compteur ;  termination;     incrémentation du compteur) {
-   Bloc d'instructons
-}</code></pre>
-
-
-
-<h3>Exemple :</h3>
-
-
-
-<pre class="wp-block-code"><code>for ( int i = 1 ; i&lt;=10 ; i++){
-System.out.println("bonjour !");
-}</code></pre>
-
-
-
-<p>L&rsquo;exemple ci dessus affiche 10 fois le message&nbsp;&nbsp;<strong>bonjour !</strong></p>
-
-
-
-<h2>3 &#8211; Boucle while Java</h2>
-
-
-
-<p>La&nbsp; boucle&nbsp;<strong>while</strong>&nbsp;est une instruction&nbsp; de contrôle qui permet d&rsquo;exécuter le code à plusieurs reprises en fonction d&rsquo;une condition booléenne donnée, chaque fois que la condition est réalisée l&rsquo;instruction est exécutée.<br>Syntaxe:</p>
-
-
-
-<pre class="wp-block-code"><code>while ( condition ) {
-
-bloc d'instructions ...
-
-}</code></pre>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>int i = 1 ;
-while ( i&lt;=10 ) {
-System.out.println(" bonjour !");
-i ++;
-}</code></pre>
-
-
-
-<p>L&rsquo;exemple ci dessus affiche 10 le message&nbsp;<strong>bonjour !</strong>&nbsp; et s&rsquo;arrête, puis qu&rsquo;à chaque affichage du message i est incrémenté de +1 et à la 10 ème fois il prends la valeur 10 + 1 = 11 et donc la condition i &lt;=10 n&rsquo;est plus réalisée ce qui entraine l&rsquo;arrêt de l&rsquo;instruction :</p>
-
-
-
-<pre class="wp-block-code"><code>System.out.println(" bonjour !") ;</code></pre>
-]]></content:encoded>
 					
 		
 		
