@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirection...</title>
+		<meta http-equiv="refresh" content="0;url=https://sibylassana95.github.io/mon-blog/">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://sibylassana95.github.io/mon-blog/";
+		</script>
+
+		<p>You are being redirected to <a href="https://sibylassana95.github.io/mon-blog/">https://sibylassana95.github.io/mon-blog/</a></p>
+	</body>
+</html>
