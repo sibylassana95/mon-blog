@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SIBY INFORMATIQUE</title>
+	<atom:link href="/https://sibylassana95.github.io/mon-blog/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Sun, 22 May 2022 16:59:10 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>Présentation WordPress</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Mon, 16 May 2022 18:11:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[* Résumé :  WordPress est un système de gestion de contenu (CMS) qui permet de créer et de gérer facilement un site ou un blog, pour une école par exemple. Vous trouverez, dans cet article, une présentation générale de cet outil et une description succincte de quelques manipulations usuelles. Vous trouverez, dans cet article : [&#8230;]]]></description>
+										<content:encoded><![CDATA[<header id="article-header" style="background-color: white; box-sizing: border-box; color: #202124; font-family: Roboto, sans-serif; font-size: 14.0488px; margin-top: 24px; width: 360px;">
+<div id="title-collapse" style="box-sizing: border-box;">
+<div class="vertical-center-outer" style="box-sizing: border-box;">
+<div class="vertical-center-inner" style="box-sizing: border-box;">
+<h1 id="title-holder" style="box-sizing: border-box; font-size: 1.714rem; line-height: 1.417; margin: 0px 16px; overflow-wrap: break-word; padding: 0px;"><span style="font-size: 14.0488px;">* Résumé :</span><span style="font-size: 14.0488px;"> </span></h1>
+</div>
+</div>
+</div>
+</header>
+<div id="content" style="background-color: white; box-sizing: border-box; color: #202124; font-family: Roboto, sans-serif; font-size: 14.0488px; margin: 24px 16px;">
+<div style="box-sizing: border-box;">
+<div dir="ltr" style="box-sizing: border-box;">WordPress est un système de gestion de contenu (CMS) qui permet de créer et de gérer facilement un site ou un blog, pour une école par exemple. Vous trouverez, dans cet article, une présentation générale de cet outil et une description succincte de quelques manipulations usuelles.</div>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Vous trouverez, dans cet article :</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; FAQ : quelques manipulations fréquemment utilisées</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Généralités</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">WordPress est un système de gestion de contenu (CMS) qui permet de créer et de gérer facilement un site ou un blog, pour une école par exemple.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Dans un tel système, le « look » du site et ses contenus sont gérés séparément : les contenus (articles, pages, images&#8230;) sont stockés dans un espace dédié et ils sont affichés, à la demande, sur le site, selon une présentation (mise en page, couleurs&#8230;) qu&rsquo;on peut faire varier ; si on change de thème, les contenus sont automatiquement ré-agencés en conséquence.</p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Les gestionnaires du site disposent d&rsquo;une interface spécifique, protégée par mot de passe, qui leur permet d&rsquo;apporter les modifications souhaitées au site. Selon leur <a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/index.php#utilisateurs">statut</a>, ils peuvent modifier tout ou partie des contenus, des <a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/index.php#apparence">thèmes</a> et/ou des fonctionnalités installées.<br dir="ltr" style="box-sizing: border-box;" />Cette interface s&rsquo;ouvre sur un tableau de bord qui résume l&rsquo;état du site et donne accès aux différents réglages.</p>
+<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/tableau_bord.gif" width="800" height="414" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Pages / articles / catégories / commentaires</p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">WordPress fournit des outils permettant de mêler les notions de <em dir="ltr" style="box-sizing: border-box;"><strong dir="ltr" style="box-sizing: border-box;">site</strong></em> (organisation thématique des contenus) et de <em dir="ltr" style="box-sizing: border-box;"><strong dir="ltr" style="box-sizing: border-box;">blog</strong></em> (organisation chronologique des contenus).</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Il est essentiel de s&rsquo;approprier le vocabulaire utilisé dans WordPress :</p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; pages</strong> : une page est un ensemble de contenus (textes, images, sons&#8230;) fournissant des informations plutôt pérennes : présentation de l&rsquo;école, des classes, contacts&#8230; ; c&rsquo;est l&rsquo;aspect « site » de WordPress. Les titres des pages s&rsquo;affichent automatiquement dans le bandeau supérieur du thème (si elles deviennent nombreuses, on peut les organiser en menus déroulants)</p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; articles</strong> : un article contient des éléments plus dynamiques, liés à la vie quotidienne du site, actualités et comptes-rendus d&rsquo;activités au jour le jour ; c&rsquo;est l&rsquo;aspect « blog » de WordPress.</p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; catégories</strong> : les catégories permettent d&rsquo;indexer les articles, c&rsquo;est à dire de les classer dans des thèmes pré-définis ; cet outil permet d&rsquo;organiser les articles selon des critères autres que chronologique.<br dir="ltr" style="box-sizing: border-box;" />L&rsquo;usage des catégories est vivement recommandé : créez des catégories adaptées à votre site (par exemple, une catégorie par classe, un catégorie « sports », une catégorie « arts », une catégorie « classe de découverte »&#8230;) pour que les utilisateurs puissent accéder aux articles selon leurs centres d&rsquo;intérêt et pas seulement via une liste chronologique générale.</p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong dir="ltr" style="box-sizing: border-box;">&#8211; commentaires</strong> : pour chaque page ou article publié, les visiteurs du site peuvent laisser des commentaires qui viennent s&rsquo;afficher sous le contenu ; les commentaires permettent une interaction et une participation plus active des visiteurs.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Ecrire un article ou une page</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">La publication de contenus se passe de façon identique, dans une page ou dans un article.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Texte</strong></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Un éditeur permet de saisir et de mettre en forme du texte, dans des conditions assez proches d&rsquo;un traitement de texte classique (saisie, barres d&rsquo;outils&#8230;)</p>
+<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/editeur.gif" width="800" height="318" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">On peut également y copier/coller du texte, avec sa mise en forme, depuis un traitement de texte (Word ou autre).</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em> : si vous maîtrisez le maniement de l&rsquo;HTML, vous pouvez afficher et modifier le code de la page, en cliquant sur l&rsquo;onglet « texte », partie droite de la fenêtre de l&rsquo;éditeur.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Liens</strong></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">On peut transformer un mot, un groupe de mots ou une image en lien vers un autre article/page du site ou vers un site web quelconque.</p>
+<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/liens.gif" width="636" height="527" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em> : en cas de lien vers un site externe, il est recommandé de cocher la case « ouvrir le lien dans une nouvelle fenêtre » pour qu&rsquo;un visiteur qui refermerait son navigateur après avoir visité le lien revienne quand même dans votre site.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Médias (images/galeries, sons, vidéos)</strong></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Dans les articles comme dans les pages, on peut ajouter des photos (individuellement entre des paragraphes de texte ou regroupées dans une galerie), des sons et des vidéos.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Pour qu&rsquo;un média puisse être affiché dans un article/page, il faut, au préalable, l&rsquo;envoyer sur le serveur du site ; les médias ainsi disponibles pour votre site se regroupent dans la bibliothèque de médias.</p>
+<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/bib_medias.gif" width="800" height="503" /></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Vous pouvez envoyer vos médias avant de commencer un article en utilisant le bouton « médias » du tableau de bord ou en cours de rédaction de l&rsquo;article par le bouton « ajouter un média » de l&rsquo;éditeur d&rsquo;articles.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em> : les photos produites par les appareils photos sont souvent des images de grande taille et des fichiers très lourds. Il est recommandé de les préparer avant envoi sur le site, en réduisant leur taille et leur poids ; voir une <a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/photos_traitement_lots/index.php">procédure de retouche d&rsquo;images par lots</a>.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em> : en cours de rédaction d&rsquo;un article, vous pouvez également ajouter une galerie (=plusieurs photos présentées en tableau), en choisissant « ajouter un média » puis, à gauche, « créer une galerie » ; vous pouvez alors sélectionner plusieurs photos de votre biblliothèque de médias ou envoyer de nouveaux fichiers photos qui vont constituer le tableau puis l&rsquo;insérer dans l&rsquo;article. Les vignettes de la galerie sont cliquables pour afficher les photos en taille réelle.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Options (colonne de droite)</strong></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Dans la colonne de droite, vous trouverez, outre le bouton « publier » qui enregistre la page ou l&rsquo;article, diverses options dont celle qui consiste à affecter une ou plusieurs catégories à la page/article que vous venez de créer : pensez à cocher la ou les case(s) correspondante(s) pour que votre document apparaisse dans les différentes listes adéquates.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Utilisateurs / statuts</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Différents statuts, octroyant différents droits, peuvent être attribués aux utilisateurs d&rsquo;un site, depuis le simple visiteur qui ne peut que lire les pages et articles jusqu&rsquo;à l&rsquo;administrateur qui peut tout modifier dans le site.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Voici un tableau récapitulatif de ces statuts et des droits qui leur sont associés</p>
+<table dir="ltr" style="border-collapse: collapse; border-spacing: 0px; display: block; margin: 0px 0px 1.143rem; overflow-wrap: break-word; overflow-x: auto; padding: 0px;" border="1" cellspacing="0" cellpadding="2">
+<tbody dir="ltr" style="box-sizing: border-box;">
+<tr dir="ltr" style="background-color: #eeeeee; box-sizing: border-box;">
+<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" width="115" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">statut</em></p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" width="264" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">droits</em></p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" width="276" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">exemples</em></p>
+</td>
+</tr>
+<tr dir="ltr" style="box-sizing: border-box;">
+<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; abonné</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">lecture, commentaires</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">tout public</p>
+</td>
+</tr>
+<tr dir="ltr" style="background-color: #eeeeee; box-sizing: border-box;">
+<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; contributeur</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">écrire (mais pas publier) articles</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">élèves</p>
+</td>
+</tr>
+<tr dir="ltr" style="box-sizing: border-box;">
+<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; auteur</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">gestion complète articles persos</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">autres intervenants : assoc. parents…</p>
+</td>
+</tr>
+<tr dir="ltr" style="background-color: #eeeeee; box-sizing: border-box;">
+<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; éditeur</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">gestion complète articles + pages</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">tous les enseignants</p>
+</td>
+</tr>
+<tr dir="ltr" style="box-sizing: border-box;">
+<td dir="ltr" style="border-inline-start: none; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">&#8211; admin</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">tous droits</p>
+</td>
+<td dir="ltr" style="border-inline-start: 2px solid #aaaaaa; box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0.5rem;" height="30">
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">un seul par site, le webmestre</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em> : on peut restreindre l&rsquo;accès général à un site WordPress, par exemple le réserver aux parents d&rsquo;élèves de l&rsquo;école, via un <a dir="ltr" style="box-sizing: border-box;" href="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/index.php#extensions">plugin</a>.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Apparence : thèmes / widgets</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Thèmes</strong></p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Les thèmes sont les outils de base pour modifier l&rsquo;apparence d&rsquo;un site WordPress : changer de thème, c&rsquo;est modifier la présentation du site, tout en conservant les contenus.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><span dir="ltr" style="box-sizing: border-box;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em> : attention, selon les thèmes, il peut être nécessaire, en cas de changement, de procéder à quelques ajustements sur les contenus. Il vaut donc mieux tester des thèmes et choisir celui qui vous convient tant que le site ne contient pas trop d&rsquo;articles.</span></p>
+<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/themes.gif" width="800" height="251" /></p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Quelques thèmes sont chargés à l&rsquo;installation de WordPress, d&rsquo;autres sont téléchargeables (gratuits ou payants) sur <a dir="ltr" style="box-sizing: border-box;" href="https://wordpress.org/themes/">le site officiel de WordPress</a> ou d&rsquo;autres sites.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">De plus, chaque thème peut être personnalisé, au niveau de la mise en page, des couleurs et des éléments affichés.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><strong style="box-sizing: border-box;">Widgets</strong></p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Au sein de chaque thème, vous pouvez également choisir les modules à afficher dans les barres latérales (sidebars) de votre site ; ces blocs, appelés widgets, contiennent des éléments d&rsquo;information de différentes natures : fonction de recherche, calendrier, liste des catégories, archives&#8230; Affichés dans la barre latérale gauche dans le thème par défaut de WordPress, on peut aussi les afficher dans la barre de droite ou en bas de page.</p>
+<p><img loading="lazy" style="box-sizing: border-box; display: block; height: auto; margin: 0.6rem auto 0.4rem; max-width: 100%;" src="http://www.ac-grenoble.fr/savoie/pedagogie/docs_pedas/wordpress_presentation/images/widgets.gif" width="800" height="600" /></p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em dir="ltr" style="box-sizing: border-box;">Remarque</em> : les widgets permettent de donner un accès rapide à certaines fonctions mais leur multiplication peut rendre la page moins lisible ; certains peuvent être jugés plus ou moins utiles, par exemple « articles récents » si votre page d&rsquo;accueil les présente déjà ou « commentaires récents » qui regroupe des commentaires déconnectés de leur contexte.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Extensions : plugins</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Certaines fonctionnalités, non disponibles d&rsquo;origine dans WordPress, peuvent être ajoutées ultérieurement : les plugins sont ces extensions de fonctionnalités qui peuvent être téléchargées et installées, il en existe des gratuites et des payantes.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">On peut, par exemple, ajouter des outils pour créer des diaporamas, pour ajouter des forums, pour mieux protéger le site contre les spams, pour améliorer l&rsquo;indexation du site sur les moteurs de recherche&#8230;</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">Installer un plugin, c&rsquo;est le choisir, le télécharger sur votre site puis l&rsquo;activer ; le plugin installe généralement de nouveaux menus qui vous permettent d&rsquo;accéder à la fonctionnalité recherchée.</p>
+<p dir="ltr" style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><a dir="ltr" style="box-sizing: border-box;" href="https://wordpress.org/plugins/">Le site officiel de WordPress</a> propose des plugins gratuits, dont la compatibilité a été sérieusement testée.</p>
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;">
+<p style="box-sizing: border-box; margin: 0px 0px 1.143rem; overflow-wrap: break-word; padding: 0px;"><em style="box-sizing: border-box;">Tutoriels</em></p>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/05/16/presentation-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Conversion de nombres</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:29:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Il existe de nombreuses méthodes ou techniques qui peuvent être utilisées pour convertir des nombres d&#39;une base à une autre. Dans ce chapitre, nous allons démontrer ce qui suit &#8211; Décimal à un autre système de base Autre système de base en décimal Autre système de base non décimal Méthode de raccourci &#8211; Binaire vers Octal [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">Il existe de nombreuses méthodes ou techniques qui peuvent être utilisées pour convertir des nombres d&#39;une base à une autre. Dans ce chapitre, nous allons démontrer ce qui suit &#8211;</p>
+<ul style="font-size:medium">
+<li>Décimal à un autre système de base</li>
+<li>Autre système de base en décimal</li>
+<li>Autre système de base non décimal</li>
+<li>Méthode de raccourci &#8211; Binaire vers Octal</li>
+<li>Méthode de raccourci &#8211; Octal vers binaire</li>
+<li>Méthode de raccourci &#8211; Binaire à hexadécimal</li>
+<li>Méthode de raccourci &#8211; Hexadécimal à binaire</li>
+</ul>
+<h2>Décimal à un autre système de base</h2>
+<p style="font-size:medium"><b>Étape 1</b> &#8211; Divisez le nombre décimal à convertir par la valeur de la nouvelle base.</p>
+<p style="font-size:medium"><b>Étape 2</b> &#8211; Obtenez le reste de l&#39;étape 1 comme le chiffre le plus à droite (chiffre le moins significatif) du nouveau numéro de base.</p>
+<p style="font-size:medium"><b>Étape 3</b> &#8211; Divisez le quotient de la division précédente par la nouvelle base.</p>
+<p style="font-size:medium"><b>Étape 4</b> &#8211; Enregistrez le reste de l&#39;étape 3 comme chiffre suivant (à gauche) du nouveau numéro de base.</p>
+<p style="font-size:medium">Répétez les étapes 3 et 4, en obtenant les restes de droite à gauche, jusqu&#39;à ce que le quotient devienne zéro à l&#39;étape 3.</p>
+<p style="font-size:medium">Le dernier reste ainsi obtenu sera le chiffre le plus significatif (MSD) du nouveau numéro de base.</p>
+<h3>Exemple</h3>
+<p style="font-size:medium">Nombre décimal: 29 <sub>10</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:133px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Opération</th>
+<th>Résultat</th>
+<th>Reste</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>29/2</td>
+<td>14</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>14/2</td>
+<td>sept</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>7/2</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Étape 4</td>
+<td>3/2</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Étape 5</td>
+<td>1/2</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Comme mentionné aux étapes 2 et 4, les restes doivent être disposés dans l&#39;ordre inverse de sorte que le premier reste devienne le chiffre le moins significatif (LSD) et le dernier reste le chiffre le plus significatif (MSD).</p>
+<p style="font-size:medium">Nombre décimal: 29 <sub>10</sub> = Nombre binaire: 11101 <sub>2.</sub></p>
+<h2>Autre système de base au système décimal</h2>
+<p style="font-size:medium"><b>Étape 1</b> &#8211; Déterminez la valeur de colonne (positionnelle) de chaque chiffre (cela dépend de la position du chiffre et de la base du système numérique).</p>
+<p style="font-size:medium"><b>Étape 2</b> &#8211; Multipliez les valeurs de colonne obtenues (à l&#39;étape 1) par les chiffres des colonnes correspondantes.</p>
+<p style="font-size:medium"><b>Étape 3</b> &#8211; Additionnez les produits calculés à l&#39;étape 2. Le total est la valeur équivalente en décimal.</p>
+<h3>Exemple</h3>
+<p style="font-size:medium">Nombre binaire: 11101 <sub>2</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:197.18px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Nombre binaire</th>
+<th>Nombre décimal</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>11101 <sub>2</sub></td>
+<td>((1 x 2 <sup>4</sup> ) + (1 x 2 <sup>3</sup> ) + (1 x 2 <sup>2</sup> ) + (0 x 2 <sup>1</sup> ) + (1 x 2 <sup>0</sup> )) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>11101 <sub>2</sub></td>
+<td>(16 + 8 + 4 + 0 + 1) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>11101 <sub>2</sub></td>
+<td>29 <sub>10</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Nombre binaire: 11101 <sub>2</sub> = Nombre décimal: 29 <sub>10</sub></p>
+<h2>Autre système de base au système non décimal</h2>
+<p style="font-size:medium"><b>Étape 1</b> &#8211; Convertissez le nombre d&#39;origine en nombre décimal (base 10).</p>
+<p style="font-size:medium"><b>Étape 2</b> &#8211; Convertissez le nombre décimal ainsi obtenu en nouveau nombre de base.</p>
+<h3>Exemple</h3>
+<p style="font-size:medium">Numéro octal: 25 <sub>8</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
+<h3>Étape 1 &#8211; Convertir en décimal</h3>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:101.914px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Numéro octal</th>
+<th>Nombre décimal</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>25 <sub>8</sub></td>
+<td>((2 x 8 <sup>1</sup> ) + (5 x 8 <sup>0</sup> )) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>25 <sub>8</sub></td>
+<td>(16 + 5) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>25 <sub>8</sub></td>
+<td>21 <sub>10</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Nombre octal: 25 <sub>8</sub> = Nombre décimal: 21 <sub>10</sub></p>
+<h3>Étape 2 &#8211; Conversion décimale en binaire</h3>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:133px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Opération</th>
+<th>Résultat</th>
+<th>Reste</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>21/2</td>
+<td>dix</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>10/2</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>5/2</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Étape 4</td>
+<td>2/2</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Étape 5</td>
+<td>1/2</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Nombre décimal: 21 <sub>10</sub> = Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size:medium">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
+<h2>Méthode de raccourci ─ Binaire en octal</h2>
+<p style="font-size:medium"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de trois (en commençant par la droite).</p>
+<p style="font-size:medium"><b>Étape 2</b> &#8211; Convertissez chaque groupe de trois chiffres binaires en un chiffre octal.</p>
+<h3>Exemple</h3>
+<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent octal &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Nombre binaire</th>
+<th>Numéro octal</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>10101 <sub>2</sub></td>
+<td>010 101</td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>10101 <sub>2</sub></td>
+<td>2 <sub>8</sub> 5 <sub>8</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>10101 <sub>2</sub></td>
+<td>25 <sub>8</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub> = Nombre octal: 25 <sub>8</sub></p>
+<h2>Méthode de raccourci ─ Octal vers binaire</h2>
+<p style="font-size:medium"><b>Étape 1</b> &#8211; Convertissez chaque chiffre octal en un nombre binaire à 3 chiffres (les chiffres octaux peuvent être traités comme des nombres décimaux pour cette conversion).</p>
+<p style="font-size:medium"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 3 chiffres chacun) en un seul nombre binaire.</p>
+<h3>Exemple</h3>
+<p style="font-size:medium">Numéro octal: 25 <sub>8</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Numéro octal</th>
+<th>Nombre binaire</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>25 <sub>8</sub></td>
+<td>2 <sub>10</sub> 5 <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>25 <sub>8</sub></td>
+<td>010 <sub>2</sub> 101 <sub>2</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>25 <sub>8</sub></td>
+<td>010101 <sub>2</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
+<h2>Méthode de raccourci ─ Binaire à Hexadécimal</h2>
+<p style="font-size:medium"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de quatre (en commençant par la droite).</p>
+<p style="font-size:medium"><b>Étape 2</b> &#8211; Convertissez chaque groupe de quatre chiffres binaires en un symbole hexadécimal.</p>
+<h3>Exemple</h3>
+<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent hexadécimal &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Nombre binaire</th>
+<th>Nombre hexadécimal</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>10101 <sub>2</sub></td>
+<td>0001 0101</td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>10101 <sub>2</sub></td>
+<td>1 <sub>10</sub> 5 <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>10101 <sub>2</sub></td>
+<td>15 <sub>16</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub> = Nombre hexadécimal: 15 <sub>16</sub></p>
+<h2>Méthode de raccourci &#8211; Hexadécimal à binaire</h2>
+<p style="font-size:medium"><b>Étape 1</b> &#8211; Convertissez chaque chiffre hexadécimal en un nombre binaire à 4 chiffres (les chiffres hexadécimaux peuvent être traités comme décimaux pour cette conversion).</p>
+<p style="font-size:medium"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 4 chiffres chacun) en un seul nombre binaire.</p>
+<h3>Exemple</h3>
+<p style="font-size:medium">Nombre hexadécimal: 15 <sub>16</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent binaire &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:98.5859px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Nombre hexadécimal</th>
+<th>Nombre binaire</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>15 <sub>16</sub></td>
+<td>1 <sub>10</sub> 5 <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>15 <sub>16</sub></td>
+<td>0001 <sub>2</sub> 0101 <sub>2</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>15 <sub>16</sub></td>
+<td>00010101 <sub>2</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Nombre hexadécimal: 15 <sub>16</sub> = Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Logiciel</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/logiciel/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/logiciel/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:28:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Un logiciel est un ensemble de programmes conçus pour exécuter une fonction bien définie. Un programme est une séquence d&#39;instructions écrites pour résoudre un problème particulier. Il existe deux types de logiciels &#8211; Logiciel système Logiciel d&#39;application Logiciel système Le logiciel système est un ensemble de programmes conçus pour faire fonctionner, contrôler et étendre les capacités [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">Un logiciel est un ensemble de programmes conçus pour exécuter une fonction bien définie. Un programme est une séquence d&#39;instructions écrites pour résoudre un problème particulier.</p>
+<p style="font-size:medium">Il existe deux types de logiciels &#8211;</p>
+<ul style="font-size:medium">
+<li>Logiciel système</li>
+<li>Logiciel d&#39;application</li>
+</ul>
+<h2>Logiciel système</h2>
+<p style="font-size:medium">Le logiciel système est un ensemble de programmes conçus pour faire fonctionner, contrôler et étendre les capacités de traitement de l&#39;ordinateur lui-même. Le logiciel système est généralement préparé par les fabricants d&#39;ordinateurs. Ces produits logiciels comprennent des programmes écrits dans des langages de bas niveau, qui interagissent avec le matériel à un niveau très basique. Le logiciel système sert d&#39;interface entre le matériel et les utilisateurs finaux.</p>
+<p style="font-size:medium">Quelques exemples de logiciels système sont le système d&#39;exploitation, les compilateurs, l&#39;interprète, les assembleurs, etc.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/system_software.jpg" alt="Logiciel d&#39;application" width="100%"></span></p>
+<p style="font-size:medium">Voici une liste de certaines des fonctionnalités les plus importantes d&#39;un logiciel système &#8211;</p>
+<ul style="font-size:medium">
+<li>Proche du système</li>
+<li>Rapide en vitesse</li>
+<li>Difficile à concevoir</li>
+<li>Difficile à comprendre</li>
+<li>Moins interactif</li>
+<li>De plus petite taille</li>
+<li>Difficile à manipuler</li>
+<li>Généralement rédigé dans un langage de bas niveau</li>
+</ul>
+<h2>Logiciel d&#39;application</h2>
+<p style="font-size:medium">Les produits logiciels d&#39;application sont conçus pour répondre à un besoin particulier d&#39;un environnement particulier. Toutes les applications logicielles préparées dans le laboratoire informatique peuvent entrer dans la catégorie des logiciels d&#39;application.</p>
+<p style="font-size:medium">Le logiciel d&#39;application peut être constitué d&#39;un seul programme, tel que le bloc-notes de Microsoft pour écrire et éditer un texte simple. Il peut également consister en un ensemble de programmes, souvent appelés progiciels, qui travaillent ensemble pour accomplir une tâche, comme un tableur.</p>
+<p style="font-size:medium">Des exemples de logiciels d&#39;application sont les suivants:</p>
+<ul style="font-size:medium">
+<li>Logiciel de paie</li>
+<li>Logiciel de dossier étudiant</li>
+<li>Logiciel de gestion des stocks</li>
+<li>Logiciel d&#39;impôt sur le revenu</li>
+<li>Logiciel de réservation de chemins de fer</li>
+<li>Logiciel de la suite Microsoft Office</li>
+<li>Microsoft Word</li>
+<li>Microsoft Excel</li>
+<li>Microsoft Powerpoint</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img loading="lazy" src="https://www.tutorialspoint.com/computer_fundamentals/images/application_software.jpg" alt="Logiciel d&#39;application" width="100%" height="100%"></span></p>
+<p style="font-size:medium">Les caractéristiques du logiciel d&#39;application sont les suivantes &#8211;</p>
+<ul style="font-size:medium">
+<li>Proche de l&#39;utilisateur</li>
+<li>Conception simple</li>
+<li>Plus interactif</li>
+<li>Vitesse lente</li>
+<li>Généralement rédigé dans un langage de haut niveau</li>
+<li>Facile à comprendre</li>
+<li>Facile à manipuler et à utiliser</li>
+<li>Plus grande et nécessite un grand espace de stockage</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/logiciel/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Système de numérotation</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:28:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Lorsque nous tapons des lettres ou des mots, l&#39;ordinateur les traduit en nombres car les ordinateurs ne peuvent comprendre que des nombres. Un ordinateur peut comprendre le système de numération positionnelle où il n&#39;y a que quelques symboles appelés chiffres et ces symboles représentent des valeurs différentes en fonction de la position qu&#39;ils occupent dans le [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">Lorsque nous tapons des lettres ou des mots, l&#39;ordinateur les traduit en nombres car les ordinateurs ne peuvent comprendre que des nombres. Un ordinateur peut comprendre le système de numération positionnelle où il n&#39;y a que quelques symboles appelés chiffres et ces symboles représentent des valeurs différentes en fonction de la position qu&#39;ils occupent dans le nombre.</p>
+<p style="font-size:medium">La valeur de chaque chiffre d&#39;un nombre peut être déterminée en utilisant &#8211;</p>
+<ul style="font-size:medium">
+<li>
+<p>Le chiffre</p>
+</li>
+<li>
+<p>La position du chiffre dans le nombre</p>
+</li>
+<li>
+<p>La base du système numérique (où la base est définie comme le nombre total de chiffres disponibles dans le système numérique)</p>
+</li>
+</ul>
+<h2>Système de nombres décimaux</h2>
+<p style="font-size:medium">Le système numérique que nous utilisons dans notre vie de tous les jours est le système numérique décimal. Le système de nombres décimaux a la base 10 car il utilise 10 chiffres de 0 à 9. Dans le système de nombres décimaux, les positions successives à gauche du point décimal représentent des unités, des dizaines, des centaines, des milliers, etc.</p>
+<p style="font-size:medium">Chaque position représente une puissance spécifique de la base (10). Par exemple, le nombre décimal 1234 se compose du chiffre 4 dans la position des unités, 3 dans la position des dizaines, 2 dans la position des centaines et 1 dans la position des milliers. Sa valeur peut s&#39;écrire</p>
+<pre>(1 x 1000)+ (2 x 100)+ (3 x 10)+ (4 x l)  (1 x 10<sup>3</sup>)+ (2 x 10<sup>2</sup>)+ (3 x 10<sup>1</sup>)+ (4 x l0<sup>0</sup>)  1000 + 200 + 30 + 4  1234  </pre>
+<p style="font-size:medium">En tant que programmeur informatique ou professionnel de l&#39;informatique, vous devez comprendre les systèmes numériques suivants qui sont fréquemment utilisés dans les ordinateurs.</p>
+<table style="font-size:medium">
+<tbody>
+<tr>
+<th>S.No.</th>
+<th>Système de numérotation et description</th>
+</tr>
+<tr>
+<td>1</td>
+<td>
+<p><b>Système de numération binaire</b></p>
+<p>Base 2. Chiffres utilisés: 0, 1</p>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>
+<p><b>Système de nombre octal</b></p>
+<p>Base 8. Chiffres utilisés: 0 à 7</p>
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td>
+<p><b>Système de nombres décimaux hexadécimaux</b></p>
+<p>Base 16. Chiffres utilisés: 0 à 9, Lettres utilisées: A- F</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>Système de numération binaire</h2>
+<p style="font-size:medium">Les caractéristiques du système de nombres binaires sont les suivantes &#8211;</p>
+<ul style="font-size:medium">
+<li>
+<p>Utilise deux chiffres, 0 et 1</p>
+</li>
+<li>
+<p>Aussi appelé système numérique de base 2</p>
+</li>
+<li>
+<p>Chaque position dans un nombre binaire représente une puissance <b>0</b> de la base (2). Exemple 2 <sup>0</sup></p>
+</li>
+<li>
+<p>La dernière position dans un nombre binaire représente une puissance <b>x</b> de la base (2). Exemple 2 <sup>x</sup> où <b>x</b> représente la dernière position &#8211; 1.</p>
+</li>
+</ul>
+<h3>Exemple</h3>
+<p style="font-size:medium">Nombre binaire: 10101 <sub>2</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:197.18px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Nombre binaire</th>
+<th>Nombre décimal</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>10101 <sub>2</sub></td>
+<td>((1 x 2 <sup>4</sup> ) + (0 x 2 <sup>3</sup> ) + (1 x 2 <sup>2</sup> ) + (0 x 2 <sup>1</sup> ) + (1 x 2 <sup>0</sup> )) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>10101 <sub>2</sub></td>
+<td>(16 + 0 + 4 + 0 + 1) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>10101 <sub>2</sub></td>
+<td>21 <sub>10</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium"><b>Remarque</b> &#8211; 10101 <sub>2</sub> s&#39;écrit normalement 10101.</p>
+<h2>Système de nombre octal</h2>
+<p style="font-size:medium">Les caractéristiques du système de nombres octaux sont les suivantes &#8211;</p>
+<ul style="font-size:medium">
+<li>
+<p>Utilise huit chiffres, 0,1,2,3,4,5,6,7</p>
+</li>
+<li>
+<p>Aussi appelé système numérique de base 8</p>
+</li>
+<li>
+<p>Chaque position dans un nombre octal représente une puissance <b>0</b> de la base (8). Exemple 8 <sup>0</sup></p>
+</li>
+<li>
+<p>La dernière position dans un nombre octal représente une puissance <b>x</b> de la base (8). Exemple 8 <sup>x</sup> où <b>x</b> représente la dernière position &#8211; 1</p>
+</li>
+</ul>
+<h3>Exemple</h3>
+<p style="font-size:medium">Numéro octal: 12570 <sub>8</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:178.047px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Numéro octal</th>
+<th>Nombre décimal</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>12570 <sub>8</sub></td>
+<td>((1 x 8 <sup>4</sup> ) + (2 x 8 <sup>3</sup> ) + (5 x 8 <sup>2</sup> ) + (7 x 8 <sup>1</sup> ) + (0 x 8 <sup>0</sup> )) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>12570 <sub>8</sub></td>
+<td>(4096 + 1024 + 320 + 56 + 0) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>12570 <sub>8</sub></td>
+<td>5496 <sub>10</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium"><b>Remarque</b> &#8211; 12570 <sub>8</sub> s&#39;écrit normalement 12570.</p>
+<h2>Système de nombres hexadécimaux</h2>
+<p style="font-size:medium">Les caractéristiques du système de nombres hexadécimaux sont les suivantes &#8211;</p>
+<ul style="font-size:medium">
+<li>
+<p>Utilise 10 chiffres et 6 lettres, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</p>
+</li>
+<li>
+<p>Les lettres représentent les nombres commençant à 10. A = 10. B = 11, C = 12, D = 13, E = 14, F = 15</p>
+</li>
+<li>
+<p>Aussi appelé système numérique de base 16</p>
+</li>
+<li>
+<p>Chaque position dans un nombre hexadécimal représente une puissance <b>0</b> de la base (16). Exemple, 16 <sup>0</sup></p>
+</li>
+<li>
+<p>La dernière position dans un nombre hexadécimal représente une puissance <b>x</b> de la base (16). Exemple 16 <sup>x</sup> où <b>x</b> représente la dernière position &#8211; 1</p>
+</li>
+</ul>
+<h3>Exemple</h3>
+<p style="font-size:medium">Nombre hexadécimal: 19FDE <sub>16</sub></p>
+<p style="font-size:medium">Calcul de l&#39;équivalent décimal &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:273.555px">
+<tbody>
+<tr>
+<th>Étape</th>
+<th>Nombre binaire</th>
+<th>Nombre décimal</th>
+</tr>
+<tr>
+<td>Étape 1</td>
+<td>19FDE <sub>16</sub></td>
+<td>((1 x 16 <sup>4</sup> ) + (9 x 16 <sup>3</sup> ) + (F x 16 <sup>2</sup> ) + (D x 16 <sup>1</sup> ) + (E x 16 <sup>0</sup> )) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 2</td>
+<td>19FDE <sub>16</sub></td>
+<td>((1 x 16 <sup>4</sup> ) + (9 x 16 <sup>3</sup> ) + (15 x 16 <sup>2</sup> ) + (13 x 16 <sup>1</sup> ) + (14 x 16 <sup>0</sup> )) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 3</td>
+<td>19FDE <sub>16</sub></td>
+<td>(65536+ 36864 + 3840 + 208 + 14) <sub>10</sub></td>
+</tr>
+<tr>
+<td>Étape 4</td>
+<td>19FDE <sub>16</sub></td>
+<td>106462 <sub>10</sub></td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium"><b>Remarque</b> &#8211; 19FDE <sub>16</sub> s&#39;écrit normalement 19FDE.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Matériel informatique</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/materiel-informatique/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/materiel-informatique/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:27:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Le matériel représente les composants physiques et tangibles d&#39;un ordinateur, c&#39;est-à-dire les composants qui peuvent être vus et touchés. Des exemples de matériel sont les suivants &#8211; Périphériques d&#39;entrée &#8211; clavier, souris, etc. Périphériques de sortie &#8211; imprimante, moniteur, etc. Périphériques de stockage secondaires &#8211; Disque dur, CD, DVD, etc. Composants internes &#8211; CPU, carte mère, RAM, etc. Relation [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">Le matériel représente les composants physiques et tangibles d&#39;un ordinateur, c&#39;est-à-dire les composants qui peuvent être vus et touchés.</p>
+<p style="font-size:medium">Des exemples de matériel sont les suivants &#8211;</p>
+<ul style="font-size:medium">
+<li>
+<p><b>Périphériques d&#39;entrée</b> &#8211; clavier, souris, etc.</p>
+</li>
+<li>
+<p><b>Périphériques de sortie</b> &#8211; imprimante, moniteur, etc.</p>
+</li>
+<li>
+<p><b>Périphériques de stockage secondaires</b> &#8211; Disque dur, CD, DVD, etc.</p>
+</li>
+<li>
+<p><b>Composants internes</b> &#8211; CPU, carte mère, RAM, etc.</p>
+</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/computer_hardware.jpg" alt="Matériel informatique" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<h2>Relation entre le matériel et le logiciel</h2>
+<ul style="font-size:medium">
+<li>
+<p>Le matériel et le logiciel dépendent l&#39;un de l&#39;autre. Les deux doivent travailler ensemble pour qu&#39;un ordinateur produise une sortie utile.</p>
+</li>
+<li>
+<p>Le logiciel ne peut pas être utilisé sans matériel de support.</p>
+</li>
+<li>
+<p>Le matériel sans un ensemble de programmes sur lesquels opérer ne peut pas être utilisé et est inutile.</p>
+</li>
+<li>
+<p>Pour effectuer un travail particulier sur l&#39;ordinateur, le logiciel approprié doit être chargé dans le matériel.</p>
+</li>
+<li>
+<p>Le matériel est une dépense ponctuelle.</p>
+</li>
+<li>
+<p>Le développement de logiciels est très coûteux et constitue une dépense permanente.</p>
+</li>
+<li>
+<p>Différentes applications logicielles peuvent être chargées sur un matériel pour exécuter différents travaux.</p>
+</li>
+<li>
+<p>Un logiciel agit comme une interface entre l&#39;utilisateur et le matériel.</p>
+</li>
+<li>
+<p>Si le matériel est le «cœur» d&#39;un système informatique, alors le logiciel est son «âme». Les deux sont complémentaires.</p>
+</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/materiel-informatique/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ports</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/ports/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/ports/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:26:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Un port est un point d&#39;ancrage physique à l&#39;aide duquel un périphérique externe peut être connecté à l&#39;ordinateur. Il peut également s&#39;agir d&#39;un point d&#39;ancrage programmatique par lequel les informations circulent d&#39;un programme à l&#39;ordinateur ou via Internet. Caractéristiques des ports Un port a les caractéristiques suivantes &#8211; Les périphériques externes sont connectés à un ordinateur [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">Un port est un point d&#39;ancrage physique à l&#39;aide duquel un périphérique externe peut être connecté à l&#39;ordinateur. Il peut également s&#39;agir d&#39;un point d&#39;ancrage programmatique par lequel les informations circulent d&#39;un programme à l&#39;ordinateur ou via Internet.</p>
+<h2>Caractéristiques des ports</h2>
+<p style="font-size:medium">Un port a les caractéristiques suivantes &#8211;</p>
+<ul style="font-size:medium">
+<li>
+<p>Les périphériques externes sont connectés à un ordinateur à l&#39;aide de câbles et de ports.</p>
+</li>
+<li>
+<p>Les ports sont des emplacements sur la carte mère dans lesquels un câble de périphérique externe est branché.</p>
+</li>
+<li>
+<p>Des exemples de périphériques externes connectés via des ports sont la souris, le clavier, le moniteur, le microphone, les haut-parleurs, etc.</p>
+</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/computer_ports.jpg" alt="Ports informatiques" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<p style="font-size:medium">Parlons maintenant de quelques types importants de ports &#8211;</p>
+<h2>Port série</h2>
+<ul style="font-size:medium">
+<li>
+<p>Utilisé pour les modems externes et les anciennes souris d&#39;ordinateur</p>
+</li>
+<li>
+<p>Deux versions: modèle 9 broches, 25 broches</p>
+</li>
+<li>
+<p>Les données voyagent à 115 kilobits par seconde</p>
+</li>
+</ul>
+<h2>Port parallèle</h2>
+<ul style="font-size:medium">
+<li>
+<p>Utilisé pour les scanners et les imprimantes</p>
+</li>
+<li>
+<p>Aussi appelé port d&#39;imprimante</p>
+</li>
+<li>
+<p>Modèle à 25 broches</p>
+</li>
+<li>
+<p>Port Centronics conforme IEEE 1284</p>
+</li>
+</ul>
+<h2>Port PS / 2</h2>
+<ul style="font-size:medium">
+<li>
+<p>Utilisé pour l&#39;ancien clavier et souris d&#39;ordinateur</p>
+</li>
+<li>
+<p>Aussi appelé port souris</p>
+</li>
+<li>
+<p>La plupart des anciens ordinateurs fournissent deux ports PS / 2, chacun pour la souris et le clavier</p>
+</li>
+<li>
+<p>Port Centronics conforme IEEE 1284</p>
+</li>
+</ul>
+<h2>Port de bus série universel (ou USB)</h2>
+<ul style="font-size:medium">
+<li>
+<p>Il peut connecter toutes sortes de périphériques USB externes tels que disque dur externe, imprimante, scanner, souris, clavier, etc.</p>
+</li>
+<li>
+<p>Il a été introduit en 1997.</p>
+</li>
+<li>
+<p>La plupart des ordinateurs fournissent au minimum deux ports USB.</p>
+</li>
+<li>
+<p>Les données voyagent à 12 mégabits par seconde.</p>
+</li>
+<li>
+<p>Les appareils compatibles USB peuvent être alimentés par un port USB.</p>
+</li>
+</ul>
+<h2>Port VGA</h2>
+<ul style="font-size:medium">
+<li>
+<p>Connecte le moniteur à la carte vidéo d&#39;un ordinateur.</p>
+</li>
+<li>
+<p>Il a 15 trous.</p>
+</li>
+<li>
+<p>Similaire au connecteur de port série. Cependant, le connecteur du port série a des broches, le port VGA a des trous.</p>
+</li>
+</ul>
+<h2>Câble d&#39;alimentation</h2>
+<ul style="font-size:medium">
+<li>
+<p>Fiche à trois broches.</p>
+</li>
+<li>
+<p>Se connecte au câble d&#39;alimentation de l&#39;ordinateur qui se branche sur une barre d&#39;alimentation ou une prise murale.</p>
+</li>
+</ul>
+<h2>Port Firewire</h2>
+<ul style="font-size:medium">
+<li>
+<p>Transfère une grande quantité de données à une vitesse très rapide.</p>
+</li>
+<li>
+<p>Connecte les caméscopes et l&#39;équipement vidéo à l&#39;ordinateur.</p>
+</li>
+<li>
+<p>Les données voyagent de 400 à 800 mégabits par seconde.</p>
+</li>
+<li>
+<p>Inventé par Apple.</p>
+</li>
+<li>
+<p>Il existe trois variantes: connecteur FireWire 400 à 4 broches, connecteur FireWire 400 à 6 broches et connecteur FireWire 800 à 9 broches.</p>
+</li>
+</ul>
+<h2>Port du modem</h2>
+<ul style="font-size:medium">
+<li>Connecte le modem d&#39;un PC au réseau téléphonique.</li>
+</ul>
+<h2>Port Ethernet</h2>
+<ul style="font-size:medium">
+<li>
+<p>Se connecte à un réseau et à Internet haute vitesse.</p>
+</li>
+<li>
+<p>Connecte le câble réseau à un ordinateur.</p>
+</li>
+<li>
+<p>Ce port réside sur une carte Ethernet.</p>
+</li>
+<li>
+<p>Les données se déplacent de 10 mégabits à 1000 mégabits par seconde en fonction de la bande passante du réseau.</p>
+</li>
+</ul>
+<h2>Port de jeu</h2>
+<ul style="font-size:medium">
+<li>
+<p>Connectez un joystick à un PC</p>
+</li>
+<li>
+<p>Maintenant remplacé par USB</p>
+</li>
+</ul>
+<h2>Interface vidéo numérique, port DVI</h2>
+<ul style="font-size:medium">
+<li>
+<p>Connecte le moniteur LCD à écran plat aux cartes graphiques vidéo haut de gamme de l&#39;ordinateur.</p>
+</li>
+<li>
+<p>Très populaire parmi les fabricants de cartes vidéo.</p>
+</li>
+</ul>
+<h2>Douilles</h2>
+<ul style="font-size:medium">
+<li>
+<p>Les prises permettent de connecter le microphone et les haut-parleurs à la carte son de l&#39;ordinateur.</p>
+</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/ports/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Carte mère</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/carte-mere/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/carte-mere/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:25:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[La carte mère sert de plate-forme unique pour connecter toutes les parties d&#39;un ordinateur entre elles. Il connecte le processeur, la mémoire, les disques durs, les lecteurs optiques, la carte vidéo, la carte son et d&#39;autres ports et cartes d&#39;extension directement ou via des câbles. Il peut être considéré comme l&#39;épine dorsale d&#39;un ordinateur. Caractéristiques de la [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">La carte mère sert de plate-forme unique pour connecter toutes les parties d&#39;un ordinateur entre elles. Il connecte le processeur, la mémoire, les disques durs, les lecteurs optiques, la carte vidéo, la carte son et d&#39;autres ports et cartes d&#39;extension directement ou via des câbles. Il peut être considéré comme l&#39;épine dorsale d&#39;un ordinateur.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/mother_board.jpg" alt="Carte mère" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<h2>Caractéristiques de la carte mère</h2>
+<p style="font-size:medium">Une carte mère est dotée des fonctionnalités suivantes &#8211;</p>
+<ul style="font-size:medium">
+<li>
+<p>La carte mère varie considérablement dans la prise en charge de divers types de composants.</p>
+</li>
+<li>
+<p>La carte mère prend en charge un seul type de processeur et quelques types de mémoires.</p>
+</li>
+<li>
+<p>Les cartes vidéo, les disques durs, les cartes son doivent être compatibles avec la carte mère pour fonctionner correctement.</p>
+</li>
+<li>
+<p>Les cartes mères, les boîtiers et les blocs d&#39;alimentation doivent être compatibles pour fonctionner correctement ensemble.</p>
+</li>
+</ul>
+<h2>Fabricants populaires</h2>
+<p style="font-size:medium">Voici les fabricants populaires de la carte mère.</p>
+<ul style="font-size:medium">
+<li>Intel</li>
+<li>ASUS</li>
+<li>AOuvrir</li>
+<li>UN PEU</li>
+<li>Biostar</li>
+<li>Gigaoctet</li>
+<li>MSI</li>
+</ul>
+<h2>Description de la carte mère</h2>
+<p style="font-size:medium">La carte mère est montée à l&#39;intérieur du boîtier et est solidement fixée via de petites vis à travers des trous pré-percés. La carte mère contient des ports pour connecter tous les composants internes. Il fournit un seul socket pour le processeur, alors que pour la mémoire, un ou plusieurs emplacements sont normalement disponibles. Les cartes mères fournissent des ports pour connecter le lecteur de disquette, le disque dur et les lecteurs optiques via des câbles plats. La carte mère porte des ventilateurs et un port spécial conçu pour l&#39;alimentation.</p>
+<p style="font-size:medium">Il y a un emplacement pour carte périphérique devant la carte mère qui permet de connecter les cartes vidéo, les cartes son et les autres cartes d&#39;extension à la carte mère.</p>
+<p style="font-size:medium">Sur le côté gauche, les cartes mères comportent un certain nombre de ports pour connecter le moniteur, l&#39;imprimante, la souris, le clavier, le haut-parleur et les câbles réseau. Les cartes mères fournissent également des ports USB, qui permettent aux appareils compatibles d&#39;être connectés en mode plug-in / plug-out. Par exemple, clé USB, appareils photo numériques, etc.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/carte-mere/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Unités de mémoire</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/unites-de-memoire/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/unites-de-memoire/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:25:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[L&#39;unité de mémoire est la quantité de données qui peut être stockée dans l&#39;unité de stockage. Cette capacité de stockage est exprimée en octets. Le tableau suivant explique les principales unités de stockage de la mémoire &#8211; S.No. Unité et description 1 Bit (chiffre binaire) Un chiffre binaire est un 0 logique et un 1 représentant [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">L&#39;unité de mémoire est la quantité de données qui peut être stockée dans l&#39;unité de stockage. Cette capacité de stockage est exprimée en octets.</p>
+<p style="font-size:medium">Le tableau suivant explique les principales unités de stockage de la mémoire &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:699px">
+<tbody>
+<tr>
+<th>S.No.</th>
+<th>Unité et description</th>
+</tr>
+<tr>
+<td>1</td>
+<td>
+<p><b>Bit (chiffre binaire)</b></p>
+<p>Un chiffre binaire est un 0 logique et un 1 représentant un état passif ou actif d&#39;un composant dans un circuit électrique.</p>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>
+<p><b>Grignoter</b></p>
+<p>Un groupe de 4 bits est appelé grignotage.</p>
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td>
+<p><b>Octet</b></p>
+<p>Un groupe de 8 bits est appelé octet. Un octet est la plus petite unité, qui peut représenter un élément de données ou un caractère.</p>
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>
+<p><b>Mot</b></p>
+<p>Un mot d&#39;ordinateur, comme un octet, est un groupe de nombre fixe de bits traités comme une unité, qui varie d&#39;un ordinateur à l&#39;autre mais est fixe pour chaque ordinateur.</p>
+<p>La longueur d&#39;un mot informatique est appelée taille de mot ou longueur de mot. Il peut être aussi petit que 8 bits ou peut être aussi long que 96 bits. Un ordinateur stocke les informations sous forme de mots informatiques.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium">Le tableau suivant répertorie certaines unités de stockage supérieures &#8211;</p>
+<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:468px">
+<tbody>
+<tr>
+<th style="width:71.2109px">S.No.</th>
+<th style="width:265.789px">Unité et description</th>
+</tr>
+<tr>
+<td style="width:71.2109px">1</td>
+<td style="width:265.789px">
+<p><b>Kilo-octets (Ko)</b></p>
+<p>1 Ko = 1024 octets</p>
+</td>
+</tr>
+<tr>
+<td style="width:71.2109px">2</td>
+<td style="width:265.789px">
+<p><b>Mégaoctet (Mo)</b></p>
+<p>1 Mo = 1024 Ko</p>
+</td>
+</tr>
+<tr>
+<td style="width:71.2109px">3</td>
+<td style="width:265.789px">
+<p><b>GigaByte (Go)</b></p>
+<p>1 Go = 1024 Mo</p>
+</td>
+</tr>
+<tr>
+<td style="width:71.2109px">4</td>
+<td style="width:265.789px">
+<p><b>TeraByte (To)</b></p>
+<p>1 To = 1024 Go</p>
+</td>
+</tr>
+<tr>
+<td style="width:71.2109px">5</td>
+<td style="width:265.789px">
+<p><b>PetaByte (PB)</b></p>
+<p>1 Po = 1024 To</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/unites-de-memoire/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mémoire en lecture seule</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-en-lecture-seule/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-en-lecture-seule/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:24:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[ROM signifie Read Only Memory . La mémoire à partir de laquelle nous ne pouvons que lire mais pas écrire dessus. Ce type de mémoire est non volatile. Les informations sont stockées en permanence dans ces mémoires lors de la fabrication. Une ROM stocke les instructions nécessaires pour démarrer un ordinateur. Cette opération est appelée bootstrap . Les puces ROM ne sont pas seulement utilisées [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<h1 style="text-align:center"></h1>
+<hr style="font-size:medium">
+<p style="font-size:medium">ROM signifie <b>Read Only Memory</b> . La mémoire à partir de laquelle nous ne pouvons que lire mais pas écrire dessus. Ce type de mémoire est non volatile. Les informations sont stockées en permanence dans ces mémoires lors de la fabrication. Une ROM stocke les instructions nécessaires pour démarrer un ordinateur. Cette opération est appelée <b>bootstrap</b> . Les puces ROM ne sont pas seulement utilisées dans l&#39;ordinateur, mais également dans d&#39;autres articles électroniques comme la machine à laver et le four à micro-ondes.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/rom.jpg" alt="ROM" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<p style="font-size:medium">Voyons maintenant les différents types de ROM et leurs caractéristiques.</p>
+<h2>MROM (ROM masquée)</h2>
+<p style="font-size:medium">Les toutes premières ROM étaient des dispositifs câblés contenant un ensemble préprogrammé de données ou d&#39;instructions. Ces types de ROM sont connus sous le nom de ROM masquées, qui sont peu coûteuses.</p>
+<h2>PROM (mémoire morte programmable)</h2>
+<p style="font-size:medium">La PROM est une mémoire en lecture seule qui ne peut être modifiée qu&#39;une seule fois par un utilisateur. L&#39;utilisateur achète une PROM vierge et entre le contenu souhaité à l&#39;aide d&#39;un programme PROM. À l&#39;intérieur de la puce PROM, il y a de petits fusibles qui sont brûlés pendant la programmation. Il ne peut être programmé qu&#39;une seule fois et n&#39;est pas effaçable.</p>
+<h2>EPROM (mémoire morte effaçable et programmable)</h2>
+<p style="font-size:medium">L&#39;EPROM peut être effacée en l&#39;exposant à la lumière ultraviolette pendant une durée allant jusqu&#39;à 40 minutes. En général, une gomme à effacer EPROM remplit cette fonction. Pendant la programmation, une charge électrique est piégée dans une zone de grille isolée. La charge est conservée pendant plus de 10 ans car la charge n&#39;a pas de chemin de fuite. Pour effacer cette charge, la lumière ultraviolette passe à travers une fenêtre en cristal de quartz (couvercle). Cette exposition à la lumière ultraviolette dissipe la charge. Lors d&#39;une utilisation normale, le couvercle en quartz est scellé avec un autocollant.</p>
+<h2>EEPROM (mémoire morte effaçable électriquement et programmable)</h2>
+<p style="font-size:medium">L&#39;EEPROM est programmée et effacée électriquement. Il peut être effacé et reprogrammé environ dix mille fois. L&#39;effacement et la programmation prennent environ 4 à 10 ms (millisecondes). En EEPROM, n&#39;importe quel emplacement peut être effacé et programmé de manière sélective. Les EEPROM peuvent être effacées un octet à la fois, plutôt que d&#39;effacer toute la puce. Par conséquent, le processus de reprogrammation est flexible mais lent.</p>
+<h2>Avantages de la ROM</h2>
+<p style="font-size:medium">Les avantages de la ROM sont les suivants &#8211;</p>
+<ul style="font-size:medium">
+<li>Non volatile par nature</li>
+<li>Ne peut pas être modifié accidentellement</li>
+<li>Moins cher que les RAM</li>
+<li>Facile à tester</li>
+<li>Plus fiable que les RAM</li>
+<li>Statique et ne nécessite pas de rafraîchissement</li>
+<li>Le contenu est toujours connu et peut être vérifié</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-en-lecture-seule/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mémoire vive</title>
+		<link>/https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/</link>
+					<comments>/https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/#respond</comments>
+		
+		<dc:creator><![CDATA[SIBY LASSANA]]></dc:creator>
+		<pubDate>Tue, 15 Feb 2022 10:23:00 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[La RAM (Random Access Memory) est la mémoire interne du CPU pour stocker les données, le programme et le résultat du programme. C&#39;est une mémoire de lecture / écriture qui stocke les données jusqu&#39;à ce que la machine fonctionne. Dès que la machine est éteinte, les données sont effacées. Le temps d&#39;accès dans la RAM est indépendant [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div dir="auto">
+<div dir="auto">
+<h1 style="text-align:center"></h1>
+<p style="font-size:medium">La RAM (Random Access Memory) est la mémoire interne du CPU pour stocker les données, le programme et le résultat du programme. C&#39;est une mémoire de lecture / écriture qui stocke les données jusqu&#39;à ce que la machine fonctionne. Dès que la machine est éteinte, les données sont effacées.</p>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/primary_memory.jpg" alt="Mémoire primaire" style="display:block;margin-left:auto;margin-right:auto"></span></p>
+<p style="font-size:medium">Le temps d&#39;accès dans la RAM est indépendant de l&#39;adresse, c&#39;est-à-dire que chaque emplacement de stockage à l&#39;intérieur de la mémoire est aussi facile à atteindre que les autres emplacements et prend le même temps. Les données de la RAM sont accessibles de manière aléatoire mais cela coûte très cher.</p>
+<p style="font-size:medium">La RAM est volatile, c&#39;est-à-dire que les données qui y sont stockées sont perdues lorsque nous éteignons l&#39;ordinateur ou en cas de panne de courant. Par conséquent, un système d&#39;alimentation sans interruption (UPS) de secours est souvent utilisé avec les ordinateurs. La RAM est petite, à la fois en termes de taille physique et de quantité de données qu&#39;elle peut contenir.</p>
+<p style="font-size:medium">La RAM est de deux types &#8211;</p>
+<ul style="font-size:medium">
+<li>RAM statique (SRAM)</li>
+<li>RAM dynamique (DRAM)</li>
+</ul>
+<h2>RAM statique (SRAM)</h2>
+<p style="font-size:medium">Le mot <b>statique</b> indique que la mémoire conserve son contenu tant que l&#39;alimentation est fournie. Cependant, les données sont perdues lorsque l&#39;alimentation est coupée en raison de la nature volatile. Les puces SRAM utilisent une matrice de 6 transistors et aucun condensateur. Les transistors ne nécessitent pas d&#39;alimentation pour éviter les fuites, la SRAM n&#39;a donc pas besoin d&#39;être rafraîchie régulièrement.</p>
+<p style="font-size:medium">Il y a de l&#39;espace supplémentaire dans la matrice, par conséquent, la SRAM utilise plus de puces que la DRAM pour la même quantité d&#39;espace de stockage, ce qui augmente les coûts de fabrication. La SRAM sert donc de mémoire cache et a un accès très rapide.</p>
+<h3>Caractéristique de la RAM statique</h3>
+<ul style="font-size:medium">
+<li>Longue vie</li>
+<li>Pas besoin de rafraîchir</li>
+<li>plus rapide</li>
+<li>Utilisé comme mémoire cache</li>
+<li>Grande taille</li>
+<li>Coûteux</li>
+<li>Consommation d&#39;énergie élevée</li>
+</ul>
+<h2>RAM dynamique (DRAM)</h2>
+<p style="font-size:medium">La DRAM, contrairement à la SRAM, doit être continuellement <b>actualisée</b> afin de conserver les données. Cela se fait en plaçant la mémoire sur un circuit de rafraîchissement qui réécrit les données plusieurs centaines de fois par seconde. La DRAM est utilisée pour la plupart de la mémoire système car elle est peu coûteuse et petite. Toutes les DRAM sont constituées de cellules de mémoire, qui sont composées d&#39;un condensateur et d&#39;un transistor.</p>
+<h3>Caractéristiques de la RAM dynamique</h3>
+<ul style="font-size:medium">
+<li>Durée de vie courte des données</li>
+<li>A besoin d&#39;être rafraîchi en permanence</li>
+<li>Plus lent que SRAM</li>
+<li>Utilisé comme RAM</li>
+<li>De plus petite taille</li>
+<li>Moins cher</li>
+<li>Moins de consommation d&#39;énergie</li>
+</ul>
+<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
