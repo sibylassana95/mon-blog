@@ -1,18 +1,14 @@
-<?php
-/**
- * User Profile Administration Screen.
- *
- * @package WordPress
- * @subpackage Administration
- */
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirection...</title>
+		<meta http-equiv="refresh" content="0;url=https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fprofile.php&reauth=1">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fprofile.php&reauth=1";
+		</script>
 
-/**
- * This is a profile page.
- *
- * @since 2.5.0
- * @var bool
- */
-define( 'IS_PROFILE_PAGE', true );
-
-/** Load User Editing Page */
-require_once __DIR__ . '/user-edit.php';
+		<p>You are being redirected to <a href="https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fprofile.php&reauth=1">https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fprofile.php&reauth=1</a></p>
+	</body>
+</html>

@@ -1,36 +1,14 @@
-<?php
-/**
- * WordPress Network Administration Bootstrap
- *
- * @package WordPress
- * @subpackage Multisite
- * @since 3.1.0
- */
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirection...</title>
+		<meta http-equiv="refresh" content="0;url=https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fnetwork%2Fadmin.php&reauth=1">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fnetwork%2Fadmin.php&reauth=1";
+		</script>
 
-define( 'WP_NETWORK_ADMIN', true );
-
-/** Load WordPress Administration Bootstrap */
-require_once dirname( __DIR__ ) . '/admin.php';
-
-// Do not remove this check. It is required by individual network admin pages.
-if ( ! is_multisite() ) {
-	wp_die( __( 'Multisite support is not enabled.' ) );
-}
-
-$redirect_network_admin_request = ( 0 !== strcasecmp( $current_blog->domain, $current_site->domain ) || 0 !== strcasecmp( $current_blog->path, $current_site->path ) );
-
-/**
- * Filters whether to redirect the request to the Network Admin.
- *
- * @since 3.2.0
- *
- * @param bool $redirect_network_admin_request Whether the request should be redirected.
- */
-$redirect_network_admin_request = apply_filters( 'redirect_network_admin_request', $redirect_network_admin_request );
-
-if ( $redirect_network_admin_request ) {
-	wp_redirect( network_admin_url() );
-	exit;
-}
-
-unset( $redirect_network_admin_request );
+		<p>You are being redirected to <a href="https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fnetwork%2Fadmin.php&reauth=1">https://sibylassana95.github.io/mon-blog/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fprojet%2Fmon-blog%2Fwp-admin%2Fnetwork%2Fadmin.php&reauth=1</a></p>
+	</body>
+</html>

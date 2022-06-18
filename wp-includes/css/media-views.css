@@ -286,7 +286,7 @@
 
 /* higher specificity */
 .wp-core-ui .media-modal-icon {
-	background-image: url(../images/uploader-icons.png);
+	background-image: url(https://sibylassana95.github.io/mon-blog/wp-includes/images/uploader-icons.png);
 	background-repeat: no-repeat;
 }
 
@@ -1752,7 +1752,7 @@
  * Spinner
  */
 .media-frame .spinner {
-	background: url(../images/spinner.gif) no-repeat;
+	background: url(https://sibylassana95.github.io/mon-blog/wp-includes/images/spinner.gif) no-repeat;
 	background-size: 20px 20px;
 	float: right;
 	display: inline-block;
@@ -2930,12 +2930,12 @@
   (min-resolution: 120dpi) {
 
 	.wp-core-ui .media-modal-icon {
-		background-image: url(../images/uploader-icons-2x.png);
+		background-image: url(https://sibylassana95.github.io/mon-blog/wp-includes/images/uploader-icons-2x.png);
 		background-size: 134px 15px;
 	}
 
 	.media-frame .spinner {
-		background-image: url(../images/spinner-2x.gif);
+		background-image: url(https://sibylassana95.github.io/mon-blog/wp-includes/images/spinner-2x.gif);
 	}
 }
 
