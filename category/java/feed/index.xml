@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/java/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Sat, 18 Jun 2022 18:42:01 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 19 Jun 2022 14:05:07 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -151,7 +151,7 @@ myFile.delete();</code></pre>
 		
 			</item>
 		<item>
-		<title>Connxion Java avec MySql Database</title>
+		<title>Connexion Java avec MySql Database</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/connxion-java-avec-mysql-database/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
