@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/author/sibylassana95/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Sun, 19 Jun 2022 14:39:47 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jun 2022 02:29:54 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,1198 +20,976 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
-		<title>Création d&#8217;une base de donnée MySql</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/creation-dune-base-de-donnee-mysql/</link>
+		<title>NATURE ET CULTURE</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/nature-et-culture/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 14:39:47 +0000</pubDate>
-				<category><![CDATA[MYSQL]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=534</guid>
-
-					<description><![CDATA[1 &#8211; Création d&#8217;une base de donnée MySql via l&#8217;interface phpMyAdmin Après installation du serveur Wamp, votre machine est dotée d&#8217;une interface gestion de bases de données très agréable, vous permettant la création de bases de données, des tables sql, l&#8217;importation et l&#8217;exportation des donnée mysql  sans faire recours à la moindre requête sql. Nous supposons que votre&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>1 &#8211; Création d&rsquo;une base de donnée MySql via l&rsquo;interface phpMyAdmin</h2>
-
-
-
-<p>Après installation du<em><strong><a href="https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-php/"> serveur Wamp</a></strong></em>, votre machine est dotée d&rsquo;une interface gestion de bases de données très agréable, vous permettant la création de bases de données, des tables sql, l&rsquo;importation et l&rsquo;exportation des donnée mysql  sans faire recours à la moindre requête<strong> sql.</strong> Nous supposons que votre machine est déjà équipée du serveur wamp et si votre machine n&rsquo;est doté d&rsquo;aucun serveur local veuillez vous reporter au <a href="https://sibylassana95.github.io/mon-blog/php/">premier chapitre du langage php</a>.</p>
-
-
-
-<span id="more-534"></span>
-
-
-
-<p>Maintenant pour créer une base de donnée via le système de gestion des bases de données&nbsp;<strong>phpMyAdmin</strong>, vous devez préalablement démarrer votre serveur wamp :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql0.png" alt=""/></figure></div>
-
-
-<p>Assurez vous qu&rsquo;il fonctionne correctement<em>&nbsp;( icône verte à droite en bas sur la barre des tâches ) :</em></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql1.png" alt=""/></figure></div>
-
-
-<p>Si votre serveur wamp fonctionne correctement, lancer votre navigateur et tapez l&rsquo;adresse url :&nbsp;<strong>http://localhost/</strong>&nbsp;ou bien&nbsp;<strong>http://127.0.0.1/</strong></p>
-
-
-
-<p>Vous obtenez la page de démarrage du serveur<strong>&nbsp;wamp</strong>&nbsp;:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql2.png" alt=""/></figure></div>
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql3.png" alt=""/></figure></div>
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql4.png" alt=""/></figure></div>
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql5.png" alt=""/></figure></div>
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql6.png" alt=""/></figure></div>]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Introduction à MySql</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/introduction-a-mysql/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 14:35:16 +0000</pubDate>
-				<category><![CDATA[MYSQL]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=532</guid>
-
-					<description><![CDATA[1 &#8211; Le langage MySql MySQL est un système open source  conçu spécialement pour la  gestion de base de données relationnelle (SGBDR). Le nom MySql est une combinaison de « My » qui designe le nom de la fille du cofondateur Michael Widenius et « SQL », l&#8217;abréviation de l’expression Structured Query Language. Le projet de développement MySQL a&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>1 &#8211; Le langage MySql</h2>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/Database-Mysql.png" alt="MySQL est un moteur SQL gratuit et largement utilisé. Il peut être utilisé comme une base de données rapide ainsi qu'un SGBD solide grâce à une architecture de moteur modulaire." class="wp-image-4625"/></figure></div>
-
-
-<p>MySQL est un système open source  conçu spécialement pour la  gestion de base de données relationnelle (SGBDR). Le nom MySql est une combinaison de « My » qui designe le nom de la fille du cofondateur Michael Widenius et « SQL », l&rsquo;abréviation de l’expression Structured Query Language. Le projet de développement MySQL a rendu son code source disponible sous les termes de la Licence Publique Générale GNU, ainsi que dans le cadre d&rsquo;une variété d&rsquo;accords de propriété. MySQL était détenu et parrainé par une seule société à but lucratif, la société suédoise MySQL AB. MySql est actuellement détenue par Oracle Corporation.  Aujourd’hui, de nombreuses  éditions payantes sont disponibles et offrent des fonctionnalités supplémentaires aux utilisateurs de bases de données.MySQL est un composant central de la pile de logiciel </p>
-
-
-
-<span id="more-532"></span>
-
-
-
-<p>d&rsquo;application Web LAMP open-source (« Linux, Apache, MySQL, Perl / PHP / Python »). Les applications qui utilisent la base de données MySQL incluent: Joomla, WordPress, phpBB, MyBB, Drupal… MySQL est également utilisé dans de nombreux sites Web à grande échelle y compris Google, Yhoo, Facebook, Twitter,  YouTube…Depuis mai 2009, son créateur Michael Widenius a créé MariaDB (fork communautaire de MySQL ) pour continuer son développement en tant que projet Open Source.<br>&#8211;fork  =  nouveau logiciel créé à partir du code source d&rsquo;un logiciel existant&#8211;</p>
-
-
-
-<h2>2 &#8211; Qu&rsquo;est-ce que la base de données?</h2>
-
-
-
-<p>Une base de données est une application ( ie : un logiciel) qui stocke des données informatiques. Chaque base de données possède une ou plusieurs API distinctes pour créer, accéder, gérer, rechercher et répliquer les données qu&rsquo;elle contient.<br>Actuellement on utilise des systèmes de gestion de bases de données relationnelles&nbsp;<strong>(SGBDR)</strong>&nbsp;pour stocker et gérer un énorme volume de données. C&rsquo;est ce qu&rsquo;on appelle les bases de données relationnelles car toutes les données sont stockées dans différentes tables dotées de&nbsp; relations qui sont établies à l&rsquo;aide de clés primaires ou étrangères.<br>Un système de gestion de base de données relationnelle&nbsp;<strong>(RDBMS)</strong>est un logiciel qui :</p>
-
-
-
-<ul><li>Permet de mettre en œuvre une base de données avec des tableaux, des colonnes et des index.</li><li>Garantit l&rsquo;intégrité référentielle entre les rangées de différentes tables.</li><li>Met&nbsp; à jour automatiquement les index.</li><li>Interprète une requête SQL et combine des informations de différentes tables.</li><li>&#8230;</li></ul>
-
-
-
-<h2>3 &#8211; Les avantages des bases de données MySQL:</h2>
-
-
-
-<p><strong>MySQL</strong>&nbsp;est un&nbsp;<strong>SGBDR</strong>&nbsp;rapide et facile à manipuler,&nbsp; utilisé pour de nombreuses petites et grandes entreprises. MySQL est développé, commercialisé et soutenu par&nbsp;<strong>MySQL AB</strong>, une société suédoise. MySQL devient tellement populaire grâce à de nombreuses bonnes raisons:</p>
-
-
-
-<ul><li>MySQL est publié sous licence open source. Donc, vous n&rsquo;avez rien à payer pour l&rsquo;utiliser.</li><li>MySQL utilise une forme standard du langage&nbsp; SQL bien connue.</li><li>MySQL fonctionne sur de nombreux systèmes d&rsquo;exploitation et avec de nombreux langages, y compris PHP, PERL, C, C ++, JAVA, etc.</li><li>MySQL fonctionne très rapidement et fonctionne bien même avec&nbsp; de gigantesques&nbsp; ensembles&nbsp; de données.</li><li>MySQL est très sympathique avec&nbsp; PHP, le langage le plus apprécié&nbsp; pour le développement web.</li><li>MySQL prend en charge de grandes bases de données, jusqu&rsquo;à 50 millions de lignes ou plus dans une table. La limite de taille de fichier par défaut pour un tableau est de 4 Go, mais vous pouvez augmenter cela (si votre système d&rsquo;exploitation peut le gérer) à une limite théorique de 8 millions de téraoctets (TB).</li><li>MySQL est personnalisable. La licence GPL open source permet aux programmeurs de modifier le logiciel MySQL pour s&rsquo;adapter à leurs propres environnements spécifiques.</li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Installation du Serveur MySql</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/installation-du-serveur-mysql/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 14:34:22 +0000</pubDate>
-				<category><![CDATA[MYSQL]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=530</guid>
-
-					<description><![CDATA[1 &#8211; Télécharger MySQL Pour télécharger mysql il suffit de suivre les&#160; étapes suivantes: Accédez au site officiel de MySQL http://www.mysql.com/downloads/ Choisissez le numéro de version du serveur de communauté MySQL que vous souhaitez. 2 &#8211; Installation de MySQL sous Windows Le serveur&#160; MySQL que vous venez de télécharger est&#160; emballé avec un installateur. Téléchargez&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>1 &#8211; Télécharger MySQL</h2>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-install-wizard.png" alt="installer mysql 5 ou mettre à niveau une version existante de MySQL vers une version plus récente plutôt que d'installer MySQL pour la première fois, reportez-vous à la Section 2.11.1, «Mise à niveau de MySQL», pour plus d'informations sur les procédures de mise à niveau et sur les problèmes que vous devriez considérer avant la mise à niveau." class="wp-image-4638"/></figure></div>
-
-
-<span id="more-530"></span>
-
-
-
-<p>Pour télécharger mysql il suffit de suivre les&nbsp; étapes suivantes:</p>
-
-
-
-<ul><li><em><strong>Accédez au site officiel de MySQL http://www.mysql.com/downloads/</strong></em></li><li><em><strong>Choisissez le numéro de version du serveur de communauté MySQL que vous souhaitez.</strong></em></li></ul>
-
-
-
-<h2>2 &#8211; Installation de MySQL sous Windows</h2>
-
-
-
-<p>Le serveur&nbsp; MySQL que vous venez de télécharger est&nbsp; emballé avec un installateur. Téléchargez le package d&rsquo;installation, décompressez-le là où vous souhaitez, et exécutez&nbsp;<strong>setup.exe.</strong><br>Par défaut, ce processus,&nbsp; installera le logiciel à l&rsquo;endroit&nbsp;&nbsp;<strong>C: \ mysql\</strong>.</p>
-
-
-
-<h3>Vérifiez l&rsquo;installation de MySQL</h3>
-
-
-
-<p>Une fois que MySQL a été installé avec succès, les tables de base ont été initialisées et le serveur a été démarré, vous pouvez vérifier son fonctionnement via des tests simples.<br>Ouvrez votre client de ligne de commande MySQL, il devrait apparaître avec une invite mysql&gt;. Si vous avez défini un mot de passe, écrivez votre mot de passe ici. Maintenant, vous êtes connecté au serveur MySQL et vous pouvez exécuter toute les commandes&nbsp;&nbsp;<strong>SQL</strong>&nbsp;sur&nbsp;<strong>mysql&gt;</strong>&nbsp;comme suit:<br>Par exemple: Vérifiez les bases de données déjà créées avec la commande</p>
-
-
-
-<p><strong>show databases:</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/install-mysql-show-database.png" alt="SHOW DATABASES répertorie les bases de données sur l'hôte du serveur MySQL. SHOW SCHEMAS est synonyme de SHOW DATABASES. La clause LIKE, si présent, indique les noms de base de données auxquels correspondent. La clause WHERE peut être donnée pour sélectionner des lignes en utilisant des conditions plus générales, comme indiqué dans la section 23.34, «Extensions à SHOW Statements»" class="wp-image-4637"/></figure></div>
-
-
-<h3>Autre méthode d&rsquo;installation de MySql Sous Windows</h3>
-
-
-
-<p>Il n&rsquo;y a pas une seule façon pour installer MySql sous Windows, les méthodes sont nombreuses, mais il existe une façon privilégiée :&nbsp;<strong>c&rsquo;est la solution du tout en un&nbsp;</strong>qui consiste à télécharger un package contenant :</p>
-
-
-
-<ul><li>Le serveur apache</li><li>Le langage PHP</li><li>Le serveur MySql</li><li>Le système de gestion de bases de données phpMyAdmin</li></ul>
-
-
-
-<p>Pour ce faire, il suffit de télécharger un package doté des truc ci-dessus comme :&nbsp;<strong>EasyPHP,&nbsp; Wamp Server,&nbsp; Xampp&#8230;</strong></p>
-
-
-
-<p>Si vous installez&nbsp;<strong>Wamp Server</strong>&nbsp;à titre d&rsquo;exemple, vous pouvez alors accéder au&nbsp;<strong>Serveur MySql</strong>&nbsp;après l&rsquo;avoir démarré :</p>
-
-
-
-<ul><li>Cliquez&nbsp; sur son<strong>&nbsp;icône</strong>&nbsp;sur la barre des tâches</li><li>Choisissez ensuite&nbsp;<strong>MySql &#8211;&gt; MySql Console</strong></li></ul>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-console-wamp-server.png" alt="invite de votre interpréteur de commande comme suit: shell&gt; mysql db_name Mysql envoie chaque instruction SQL que vous émettez au serveur à exécuter. Il existe également un ensemble de commandes que Mysql interprète lui-même. Pour une liste de ces commandes, tapez help ou \ h à l'invite mysql" class="wp-image-4647"/></figure></div>
-
-
-<p>Vous obtenez alors votre&nbsp; fenêtre MySql permettant de vous rassurer une communication souple et rapide avec votre&nbsp;<strong>serveur mysql</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/console-mysql-wamp-server-1.png" alt="Comment puis-je accéder à la console MySQL sur Wampserver 3? Avec les versions antérieures, tout ce que vous aviez à faire était de cliquer avec le bouton droit de la souris sur l'icône du serveur Wamp et l'option d'accès à la console MySQL apparaît sur le côté-même chose pour Wampserver 3," class="wp-image-4650"/></figure></div>
-
-
-<h2>2 &#8211; Installation du serveur MySQL sous Linux : Ubuntu &amp; CentOS</h2>
-
-
-
-<p>Pour télécharger le serveur MysQl sous Linux vous n&rsquo;êtes pas obligé de le chercher sur le web, vous pouvez le télécharger et l&rsquo;installer rapidement en ligne de commandes shell :</p>
-
-
-
-<h3>Cas du système Ubuntu:</h3>
-
-
-
-<p>Il suffit d&rsquo;ouvrir la ligne de commande shell et de passer en mode root par la commande :</p>
-
-
-
-<pre class="wp-block-code"><code>$ sudo -i
-&#91;sudo] password for &lt;votre identifiant&gt;:</code></pre>
-
-
-
-<p>Après être passé en mode root, tapez la commande suivante :</p>
-
-
-
-<pre class="wp-block-code"><code>sudo apt-get install mysql-server</code></pre>
-
-
-
-<h3>Cas du système Centos :</h3>
-
-
-
-<p>Lancer une fenêtre de terminal shell et tapez la commande suivante :</p>
-
-
-
-<pre class="wp-block-code"><code>sudo yum install mysql-server
-sudo /sbin/service mysqld start</code></pre>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Communication avec les bases de données MySql</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/communication-avec-les-bases-de-donnees-mysql/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 14:32:58 +0000</pubDate>
-				<category><![CDATA[MYSQL]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=528</guid>
-
-					<description><![CDATA[1 &#8211; Création d&#8217;une base de donné MySql ( Create Database ) Vous pouvez créer une base de données MySQL en utilisant la ligne de commande MySQL.Ouvrez alors la console MySQL et écrivez le mot de passe, si vous avez configuré un pendant l&#8217;installation. Vous obtiendrez la fenêtre suivante : Vous pouvez alors créer maintenant&#8230;]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/Mysql-Database.jpg" alt="Créez une nouvelle base de données nommée avec la chaîne que vous avez fournie. Créez un nom d'utilisateur salué (dans l'exemple, mysitedb_user) et le mot de passe (mysitedb.Pass!), Avec un accès complet à la base de données nouvellement créée (sans l'autorisation GRANT) depuis localhost" class="wp-image-4653"/></figure></div>
-
-
-<h2>1 &#8211; Création d&rsquo;une base de donné MySql ( Create Database )</h2>
-
-
-
-<p>Vous pouvez créer une base de données MySQL en utilisant la ligne de commande MySQL.<br>Ouvrez alors la console MySQL et écrivez le mot de passe, si vous avez configuré un pendant l&rsquo;installation. Vous obtiendrez la fenêtre suivante :</p>
-
-
-
-<span id="more-528"></span>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/console-mysql-wamp-server-1.png" alt="L'utilitaire de ligne de commande MySQL vous permet d'exécuter des requêtes et de voir les résultats de la requête, etc. à partir d'une invite de commande interactive. Il est également possible d'exécuter une seule requête à partir de la ligne de commande sans entrer dans l'invite interactive. Cette publication examine comment procéder." class="wp-image-4650"/></figure></div>
-
-
-<p>Vous pouvez alors créer maintenant une base de donnée MySql via la commande :</p>
-
-
-
-<p><strong>CREATE DATABASE&nbsp; nom_de_la_base_de_donnée ;</strong></p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>CREATE DATABASE  mabase ; </code></pre>
-
-
-
-<p>Vous souhaitez sans doute voir la base de donnée&nbsp;<strong>mabase</strong>&nbsp;que vous venez de créer, il suffit alors pour cela de tapez sur la console la commande :</p>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt;  SHOW DATABASES; </code></pre>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/show-databse-mysql-console.png" alt="show-databse-mysql-console" class="wp-image-4656"/></figure></div>
-
-
-<h2>2 &#8211; Sélection d&rsquo;une base de donnée MySql ( Select Database )</h2>
-
-
-
-<p>Pour sélectionner une base de donnée MySql, on utilise la commande :</p>
-
-
-
-<p><strong>mysql &gt; USE nom_de_la_base</strong></p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt; USE mabase ;</code></pre>
-
-
-
-<p>La console vous affichera que la base de donnée mysql a été changée :</p>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt; USE mabase ;
-Database changed
-mysql &gt;</code></pre>
-
-
-
-<h2>3 &#8211; Effacer une base de donnée MySql ( Drop Database )</h2>
-
-
-
-<p>Vous pouvez supprimer une base de données MySQL facilement avec la commande MySQL&nbsp;<strong>DROP DATABASE</strong>. Vous devez être prudent lors de la suppression de toute base de données car vous allez perdre toutes les données disponibles dans votre base de données.<br><strong>Syntaxe:</strong></p>
-
-
-
-<p><strong>&nbsp; DROP DATABASE&nbsp;nom_de_la_base;</strong></p>
-
-
-
-<h3>Exemple:</h3>
-
-
-
-<p>Prenons un exemple pour supprimer la base de données mabase que nous venons de créer récemment:</p>
-
-
-
-<pre class="wp-block-code"><code>DROP DATABASE  mabase ;</code></pre>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Manipulation des tables MySql</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/manipulation-des-tables-mysql/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 14:31:52 +0000</pubDate>
-				<category><![CDATA[MYSQL]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=526</guid>
-
-					<description><![CDATA[1 &#8211; Création des tables MySql à l&#8217;aide de la commande Create Table 1 &#8211; 1 &#8211; Création des tables MySql Vous pouvez créer facilement des nouvelles tables MySql dans la base de données sélectionnée, à l&#8217;aide de la&#160; commande MySQL CREATE TABLE.&#160; Une commande de création de table nécessite trois choses: Nom de la&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>1 &#8211; Création des tables MySql à l&rsquo;aide de la commande Create Table</h2>
-
-
-
-<h3>1 &#8211; 1 &#8211; Création des tables MySql</h3>
-
-
-
-<p>Vous pouvez créer facilement des nouvelles tables MySql dans la base de données sélectionnée, à l&rsquo;aide de la&nbsp; commande MySQL CREATE TABLE.&nbsp; Une commande de création de table nécessite trois choses:</p>
-
-
-
-<ul><li>Nom de la table</li><li>Noms des champs</li><li>Définitions pour chaque champ</li></ul>
-
-
-
-<span id="more-526"></span>
-
-
-
-<h3>Syntaxe:</h3>
-
-
-
-<p>Voici une syntaxe générique pour créer une table MySQL dans la base de données sélectionnée :</p>
-
-
-
-<p><strong>CREATE&nbsp;TABLE&nbsp; nom_de_la_table (nom_de_la_colonne&nbsp; type_de_la_colonne&#8230;);&nbsp;</strong></p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>CREATE TABLE students(  
-   id INT NOT NULL AUTO_INCREMENT,  
-   nom VARCHAR(100) NOT NULL,  
-   adresse VARCHAR(250) NOT NULL,  
-   PRIMARY KEY ( id )  
-);</code></pre>
-
-
-
-<p>L&rsquo;exemple ci-dessus crée une table MySql contenant trois champs :&nbsp;<strong>id ,&nbsp; nom ,&nbsp; adresse</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-create-table.png" alt="mysql-create-table" class="wp-image-4663"/></figure></div>
-
-
-<h3>1 &#8211; 2 &#8211; Affichage des tables MySql crées</h3>
-
-
-
-<p>Pour affiché les tables MySql,&nbsp; il suffit de sélectionner la base&nbsp; et d&rsquo;utiliser ensuite la commande :</p>
-
-
-
-<p><strong>SHOW&nbsp;tables;</strong></p>
-
-
-
-<p>La fenêtre console affichera alors toutes les tables MySql contenues dans la base :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/create-table-show-table-mysql.png" alt="create-table-show-table-mysql" class="wp-image-4665"/></figure></div>
-
-
-<h3>1 &#8211; 3 &#8211; Afficher&nbsp; la structure de la table</h3>
-
-
-
-<p>Pour afficher la structure d&rsquo;une table MySql, il suffit d&rsquo;utiliser la commande :</p>
-
-
-
-<p><strong>Describe&nbsp; nom_de_la_table</strong></p>
-
-
-
-<p>Exemple</p>
-
-
-
-<p>Pour afficher la structure de la table&nbsp;<strong>students</strong>&nbsp;qu&rsquo;on vient de créer, on utilise la syntaxe :</p>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt; describe students ;</code></pre>
-
-
-
-<p>Ce qui va afficher la structure de la table au sein de la console:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/describe-table-mysql.png" alt="describe-table-mysql" class="wp-image-4666"/></figure></div>
-
-
-<h2>2 &#8211; Modification d&rsquo;une table MySql ( Alter table )</h2>
-
-
-
-<p>L&rsquo;instruction<strong>&nbsp;MySQL ALTER</strong>&nbsp;est utilisée lorsque vous souhaitez modifier le nom de votre table MySql ou un champ de la table. Il est également utilisé pour ajouter ou supprimer une colonne existante dans une table. L&rsquo;instruction&nbsp;<strong>ALTER</strong>&nbsp;est toujours utilisée avec les commandes « <strong>ADD », « DROP » et « MODIFY »</strong>&nbsp;en fonction de la situation.</p>
-
-
-
-<h3>2 &#8211; 1&nbsp; Ajouter une colonne à une table MySql</h3>
-
-
-
-<h3>Syntax:</h3>
-
-
-
-<p>Pour ajouter une colone à une table MySql on utilise la commande d&rsquo;altération (modification) :</p>
-
-
-
-<p><strong>ALTER TABLE nom_de_la_table</strong></p>
-
-
-
-<p>Ensuite pour ajouter une colonne on utilise la commande :</p>
-
-
-
-<p><strong>ADD nom_de_la_nouvelle_colonne type_de_la_colonne</strong></p>
-
-
-
-<p>On peut ensuite spécifier l&#8217;emplacement de la colonne au début ou après une colonne spéifique de la table MySql :</p>
-
-
-
-<p><strong>[ FIRST | AFTER nom_de_la_colonne ];</strong></p>
-
-
-
-<h3>Explication du code :</h3>
-
-
-
-<ul><li><strong>nom_de_la_table</strong>&nbsp;: cette commande spécifie le nom de la table que vous voulez modifier.</li><li><strong>nom_de_la_nouvelle_colonne</strong>&nbsp;: cette commande spécifie le nom de la nouvelle colonne que vous souhaitez ajouter à la table.</li><li><strong>type_de_la_colonne&nbsp;</strong>: Spécifie le type de données et la définition de la colonne (NULL ou NOT NULL, etc.).</li><li><strong>[FIRST | AFTER]&nbsp; nom_de_la_colonne</strong>: il est facultatif. Il indique à MySQL l&#8217;emplacement où la nouvelle colonne va être insérée dans la table. Si ce paramètre n&rsquo;est pas spécifié, la nouvelle colonne sera ajoutée à la fin de la table.</li></ul>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>ALTER TABLE students  
-ADD age varchar(30) NOT NULL
-After nom; </code></pre>
-
-
-
-<p>L&rsquo;exemple ci-dessus permet d’insérer la nouvelle&nbsp;<strong>colonne age&nbsp;après&nbsp;la colonne nom</strong>&nbsp;:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql_alter-table-add-columns.png" alt="Mysql ALTER TABLE est utilisée pour ajouter et supprimer diverses contraintes sur une table existante.ALTER TABLE - ADD Colonne" class="wp-image-4669"/></figure></div>
-
-
-<h3>2 &#8211; 2 &#8211; Renommer une colonne d&rsquo;une table MySql (CHANGE COLUMN)</h3>
-
-
-
-<h3>2 &#8211; 3 &#8211; Modifier une colonne d&rsquo;une table MySql ( Modify Column )</h3>
-
-
-
-<h3>2 &#8211; 4 &#8211; Supprimer une colonne d&rsquo;une table MySql ( Drop Column )</h3>
-
-
-
-<h3>2 &#8211; 5 &#8211; Renomer une table MySql Rename Table</h3>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Requêtes d&#8217;insertion, de suppression et de mise à jour des données MySql ( MySql Queries )</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/requetes-dinsertion-de-suppression-et-de-mise-a-jour-des-donnees-mysql-mysql-queries/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 14:30:05 +0000</pubDate>
-				<category><![CDATA[MYSQL]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=524</guid>
-
-					<description><![CDATA[1 &#8211; Insertion de données MySql (Insert Query) La requête&#160; INSERT&#160; MySql permet d&#8217;insérer des données dans une table MySQL. Nous pouvons insérer des enregistrements uniques ou multiples en utilisant une seule requête&#160; MySQL. Syntaxe: La commande&#160;MySql INSERT INTO&#160;est utilisée pour insérer des données dans la table MySQL. Voici la syntaxe générique: Exemple Remarque Lorsqu&#8217;on&#8230;]]></description>
-										<content:encoded><![CDATA[
-<h2>1 &#8211; Insertion de données MySql (Insert Query)</h2>
-
-
-
-<p>La requête&nbsp; INSERT&nbsp; MySql permet d&rsquo;insérer des données dans une table MySQL. Nous pouvons insérer des enregistrements uniques ou multiples en utilisant une seule requête&nbsp; MySQL.</p>
-
-
-
-<h3>Syntaxe:</h3>
-
-
-
-<p>La commande&nbsp;<strong>MySql INSERT INTO</strong>&nbsp;est utilisée pour insérer des données dans la table MySQL. Voici la syntaxe générique:</p>
-
-
-
-<span id="more-524"></span>
-
-
-
-<pre class="wp-block-code"><code>INSERT INTO nom_de_la_table (champ1, champ2, ... champ N)
-     VALUES
-     (Valeur1, valeur2, ... valeurN);</code></pre>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>INSERT  INTO  students  ( `nom`, `age`)  VALUES  ( 'David', '35'); </code></pre>
-
-
-
-<h3>Remarque</h3>
-
-
-
-<p>Lorsqu&rsquo;on veut&nbsp;&nbsp;<strong>insérer des données sur tout les champs</strong>&nbsp;il n&rsquo;est pas nécessaire d&rsquo;ajouter la commande :</p>
-
-
-
-<p><strong>VALUES (Valeur1, valeur2, &#8230; valeurN);</strong></p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>Insert Into students values ('','Najib','27');</code></pre>
-
-
-
-<h2>2 &#8211; Affichage des données de la table MySql :</h2>
-
-
-
-<h3>2 &#8211; 1 &#8211; Requête de sélection d&rsquo;une table MySql ( SELECT * FROM Table )</h3>
-
-
-
-<p>Pour afficher les données d&rsquo;une table MySql on utilise la syntaxe :</p>
-
-
-
-<p><strong>SELECT * FROM Nom_de_la_table ;</strong></p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>SELECT * FROM students ;</code></pre>
-
-
-
-<p>Ce qui affiche sur la console :</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-select-from-table.png" alt="La commande SELECT, select * from table mysql ou encore select * from mysql table limit i,j nous permet d'accéder aux données dans une table mysql. utilisée par les développeurs SQL, des requêtes qui montrent des données à l'utilisateur ou fournissent des données pour un point d'extrémité API.commande qui effectue une requête sur la table des utilisateurs et affiche tous les contenus de cette table mysql." class="wp-image-4678"/></figure></div>
-
-
-<h3>2 &#8211; 2 &#8211; Limiter la sélection à une rangé de lignes spécifique ( Condition limit )</h3>
-
-
-
-<p>La commande&nbsp; SELECT * FROM nom_de_la_table ;&nbsp; sélectionne le contenu en entier et l&rsquo;affiche à l&rsquo;écran, ce qui provoque un plantage de la machine lorsque le nombre d&rsquo;enregistrement est très grands !</p>
-
-
-
-<p>Pour éviter de tomber sur ce problème, on utilise une commande d&rsquo;affichage limité des données :</p>
-
-
-
-<p><strong>SELECT * FROM nom_de_la_table&nbsp; limit&nbsp; i , j ;</strong></p>
-
-
-
-<p>Cette commande permet de sélectionner&nbsp; exactement&nbsp;<strong>j lignes</strong>&nbsp;à partir de la&nbsp;&nbsp;<strong>(i + 1 )ème ligne</strong></p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<p>Pour sélectionner et afficher les trois premières lignes on utilise le code :</p>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt; SELECT * FROM students limit 0 , 3 ;</code></pre>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-select-from-table-limit-i-j.png" alt="mysql-select-from-table-limit-i-j" class="wp-image-4681"/></figure></div>
-
-
-<h3>2 &#8211; 3 &#8211; Sélectionner des lignes spécifiques avec la commande SELECT&nbsp; WHERE</h3>
-
-
-
-<p>Vous pouvez sélectionner des lignes spécifique d&rsquo;une table MySql en utlisant la commande&nbsp;<strong>SELECT WHERE</strong></p>
-
-
-
-<h3>Syntaxe :</h3>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt;  SELECT * FROM  nom_de_la_table  WHERE  Condition ;</code></pre>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt;  SELECT  *  FROM  students  WHERE  id&gt;=10 ;</code></pre>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-select-from-table-where-condition.png" alt="mysql-select-from-table-where-condition" class="wp-image-4691"/></figure></div>
-
-
-<h3>2 &#8211; 4 &#8211; Sélectionner une colonne ou une plage de colonnes d&rsquo;une table MySql</h3>
-
-
-
-<p>Vous pouvez aussi limiter la sélection à une colonne spécifique de votre choix ou à une plage de colonnes en utilisant la syntaxe :</p>
-
-
-
-<pre class="wp-block-code"><code>SELECT colonne1, colonne2, ...From nom_de_la_table ;</code></pre>
-
-
-
-<p>Ici,&nbsp;<strong>&nbsp;colonne1, colonne2</strong>, &#8230; sont les<strong>&nbsp;noms</strong>&nbsp;de&nbsp;<strong>champs</strong>&nbsp;de la table dont vous souhaitez sélectionner les données.</p>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>SELECT   nom   FROM  students ;</code></pre>
-
-
-
-<h2>3 &#8211; Mise à jour des données d&rsquo;une table MySql : la requête UPDATE MySQL</h2>
-
-
-
-<p>L&rsquo;instruction MySQL UPDATE sert à mettre à jour les données d&rsquo;une table MySQL dans la base de données. elle est utilisé lorsque vous souhaitez modifier les données de la table MySql.</p>
-
-
-
-<h3>Syntaxe:</h3>
-
-
-
-<p>Voici la syntaxe de la commande UPDATE MySQL:</p>
-
-
-
-<pre class="wp-block-code"><code>UPDATE nom_de_la_table SET champ1 = nouvelle_valeur1, champ2 = nouvelle_valeur2,
-     &#91;Condition WHERE]</code></pre>
-
-
-
-<h3>Remarque:</h3>
-
-
-
-<ul><li>Vous pouvez mettre à jour plusieurs valeurs dans une seule table à la fois.</li><li>La condition WHERE est utilisée pour mettre à jour des lignes spécifiques dans une table MySql.</li></ul>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt; UPDATE  students  set  nom = 'David Beckham'  WHERE  nom = 'David' ;</code></pre>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-update-table-where.png" alt="mysql UPDATE statement is used to update existing records in a mysql table" class="wp-image-4687"/></figure></div>
-
-
-<h2>4 &#8211; Suppression des données d&rsquo;une table MySql : DELETE FROM</h2>
-
-
-
-<p>Pour supprimer des données d&rsquo;une tab le MySql, on utilise la sysntaxe :</p>
-
-
-
-<pre class="wp-block-code"><code>DELETE FROM  nom_de_la_table   WHERE condition ;</code></pre>
-
-
-
-<h3>Exemple</h3>
-
-
-
-<pre class="wp-block-code"><code>mysql &gt; DELETE FROM  students  WHERE id=1 ;</code></pre>
-
-
-
-<p>Ce code permet de supprimer la première ligne de la table students</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>20 FIGURES DE STYLE</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/20-figures-de-style/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 12:51:39 +0000</pubDate>
+		<pubDate>Mon, 20 Jun 2022 02:23:19 +0000</pubDate>
 				<category><![CDATA[EDUCATION]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=453</guid>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=635</guid>
 
-					<description><![CDATA[FORMULE INTRODUCTIVE.Pourquoidit-on que tel texte 📰 est bien écrit ? C&#8217;est parce que, parmiplusieurs autres raisons, les écrivains expriment leurs pensées 💭 avecbeaucoup d&#8217;adresse. Ils séduisent par des mots de tous les jours maisqui en disent long, pour un esprit éclairé qui en lit l&#8217;énoncé. Ce sontjustement tous ces savants procédés, ces sous-entendus, ces tournuresrhétoriques&#8230;]]></description>
+					<description><![CDATA[Le terme ‘’nature’’ désigne les charmes paisibles de la campagne, la pureté de l’air, l’authenticité des choses, les quatre éléments, l’environnement, le milieu physique, ce que l’homme trouve sur place, le monde, l’univers, tout ce qui ne relève pas de l’activité transformatrice de l’homme. Elle peut aussi renvoyer à l’instinct, aux pulsions primitives, ce avec&#8230;]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-container-1 wp-block-group"><div class="wp-block-group__inner-container">
-<p><strong>FORMULE INTRODUCTIVE.</strong><br>Pourquoi<br>dit-on que tel texte <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4f0.png" alt="📰" class="wp-smiley" style="height: 1em; max-height: 1em;" /> est bien écrit ? C&rsquo;est parce que, parmi<br>plusieurs autres raisons, les écrivains expriment leurs pensées <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4ad.png" alt="💭" class="wp-smiley" style="height: 1em; max-height: 1em;" /> avec<br>beaucoup d&rsquo;adresse. Ils séduisent par des mots de tous les jours mais<br>qui en disent long, pour un esprit éclairé qui en lit l&rsquo;énoncé. Ce sont<br>justement tous ces savants procédés, ces sous-entendus, ces tournures<br>rhétoriques ou esthétiques qu&rsquo;on appelle  »figures de style ».<br>L&rsquo;expression<br>« je t&rsquo;aime » par exemple est devenue si familière qu&rsquo;un amoureux lui<br>préfère de loin la phrase suivante qu&rsquo;il débite devant sa bien-aimée en<br>ces termes : « si tu étais une étoile <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f31f.png" alt="🌟" class="wp-smiley" style="height: 1em; max-height: 1em;" />, je passerais des nuits <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f303.png" alt="🌃" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br>entières à sautiller <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f3c3.png" alt="🏃" class="wp-smiley" style="height: 1em; max-height: 1em;" /> pour te cueillir du ciel <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f381.png" alt="🎁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> et te planter <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f331.png" alt="🌱" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br>dans le jardin de mon coeur <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2665.png" alt="♥" class="wp-smiley" style="height: 1em; max-height: 1em;" />! ». Mdr ! <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" />.<br>Toutefois, il en<br>existe tellement que, dans ma publication, je ne propose que les plus<br>fréquemment employées dans les textes littéraires (vingt en particulier)<br>que je regroupe autour de sept catégories.</p>
+<p>Le terme ‘’nature’’ désigne les charmes paisibles de la campagne, la pureté de l’air, l’authenticité des choses, les quatre éléments, l’environnement, le milieu physique, ce que l’homme trouve sur place, le monde, l’univers, tout ce qui ne relève pas de l’activité transformatrice de l’homme. Elle peut aussi renvoyer à l’instinct, aux pulsions primitives, ce avec quoi l’on nait, l’hérédité psychobiologique, le patrimoine génétique, l’inné, tout ce qui est universel chez l’homme, tout ce qui se caractérise par la spontanéité.</p>
 
 
 
-<p><strong>I. LES FIGURES D&rsquo;ANALOGIE.</strong><br>C&rsquo;est l&rsquo;ensemble des figures qui établissent une relation de ressemblance entre deux ou plusieurs faits, objets, personnes&#8230;</p>
+<span id="more-635"></span>
 
 
 
-<p><strong>1. La comparaison</strong>.<br>Exemple : Balla Gaye est fort comme le lion.</p>
+<p><br>La nature peut encore se définir comme ce que Dieu nous a donné, l’âme ou l’essence ou bien Dieu lui-même. La force qui régit souverainement l’univers.<br>   La culture quant à elle peut se comprendre d’abord comme l’action de cultiver, la mise en valeur de la nature (ici le monde physique). Elle peut aussi se définir comme la civilisation, la formation du citoyen, l’éducation, l’acquis, l’ensemble des acquisitions d’un individu hors d’une société, tout ce qui dans le comportement parvient d’un apport extérieur. C’est aussi le langage articulé, le relatif, le particulier, un ensemble complexe de croyances, de coutumes, des stipulations et d’institutions que l’on désigne sous le nom de prohibition de l’inceste.<br>Existe-t-il une nature humaine ?<br>Cette clarification nous mène à nous poser la question de l’existence d’une nature humaine.<br>-sur le plan scientifique, l’homme est un ensemble de caractéristique psychobiologique. En effet, il est corps et raison. A la naissance, l’homme apparait sous une forme particulière quel que soient sa couleur et son appartenance sociale. Il est constitué d’organes, de membres, d’instincts, de pulsions et de cerveau. Celui-ci se présente comme un réceptacle et est ce qui permet à l’homme de recevoir des données extérieures, d’être formé. L’ensemble de ces dispositions naturels que l’homme apporte à la naissance est ce qu’on nomme HEREDITE et que les psychologues appellent l’équipement congénital ou l’appareil biologique.<br>Il s’agit d’un fond commun à tout les hommes qui restent immuable, c’est-à-dire ce qui ne change pas. C’est ce que LEVI-STRAUSS appelle l’«universel», ce qui «relève de l’ordre de la nature» et qui «se caractérise par la spontanéité». C’est le noyau dur, immuable, que les biologistes tels qu’ALEXIS CARREL et GOBBINEAU désignent sous l’appellation de nature humaine. <br>-sur le plan philosophique, il existe par contre une vive polémique entre les IDEALISTES et les EXISTENTIALISTES à propos de l’existence de la nature humaine. Déjà, chez PLATON, on retrouve une conception de l’homme qui fait abstraction de son apparence pour ne porter attention qu’à sa dimension spirituelle. L’homme, nous dit PLATON, est son essence, c’est-à-dire son âme. Dans LE PHEDON, il l’a considère comme l’être véritable d’autan plus que a réalité concrète est changeante. La nature humaine serait donc cet être immuable qui est chez tout homme et qui fait qu’il soit appelé homme. Ce qui reste le même chez chacun et qui ne change pas. C’est l’idée elle-même d’homme tel que nous la présente l’anthropologie philosophique. Celle à partir de laquelle la qualité est définie. Elle est non seulement immuable mais immortelle contrairement au corps.<br>Pour ce qui est des EXISTENTIALISTES, ils rejettent l’idée d’une nature humaine. En effet, pour eux, il n’existe ni essence ni nature humaine qui serait donnée d’avance. Pour JEAN PAUL SARTRE : «l’homme n’est rien d’autre que son projet, il n’existe que dans la mesure où il se réalise, il n’est donc rien d’autre que l’ensemble de ses actes, rien d’autres que sa vie». Ce qu’il faut retenir par là, c’est que, ce que l’homme est, dépend de ses choix individuels, de son engagement. Il est à lui-même son propre projet. Il n’a donc pas de destin préétabli qui prévoit ce qu’il sera ou qui dit d’avance qui il sera. S’il pourrait se définir, il se définirait selon sa liberté. «En effet, tout est permis si Dieu n’existe pas, et par conséquent l’homme est délaissé, parce qu’il ne trouve ni en lui, ni hors de lui une possibilité de s’accrocher». Son devenir est placé sous sa volonté, sous sa responsabilité. Son avenir est une page blanche, une case vide, selon LUCIEN MALSON. Il n’est donc ni connaissable à l’avance ni définissable. LUC FERRY et ANDRE COMTE SPONVILLE le considèrent comme un être indéterminé, libre de l’influence de la nature. C’est un «être d’antinature (…), son essence est de ne pas avoir d’essence».  A sa naissance, il est un ensemble de possibilité, de virtualité aussi légère qu’une transparente vapeur d’eau. L’homme est donc en devenir et, selon LUCIEN MALSON, «il n’est pas encore réalisé, il est en réalisation».<br>Le fait culturel :<br>Comme précédemment énoncé, la culture est tout ce que l’homme ajoute à la nature, qu’il s’agisse du milieu physique ou de la nature propre de l’homme.<br>Dans le cas premier, la culture est l’action transformatrice du milieu naturel. Contrairement à l’animal qui est déterminé, l’homme ne peut se contenter de suivre, d’obéir aux lois de la nature. En effet, l’animal est agit, il ne fait que suivre un plan déjà ficelé par la nature. Il est comme programmé, il répète toujours les mêmes opérations. Il subit ainsi le déterminisme naturel. L’oiseau par exemple fera toujours son nid de la même manière, l’abeille fait à chaque fois la même ruche. Par contre, l’homme a su se mettre à l’écoute de la nature pour en comprendre des lois. La maitrise de celle-ci lui a permis de la transformer et de la soumettre à sa volonté. Ainsi, si l’animal subit le déterminisme naturel, la nature, l’homme agit sur elle, il le domine et s’en libère grâce à la raison.<br>Il invente des objets, des outils qui seront le prolongement de ses mains. Ces intermédiaires qu’il fabrique lui sont indispensables car à la naissance, l’homme est nu et désarmé. De plus, selon FRANCIS BACON : «la main et l’entendement abandonnés à lui-même n’ont qu’un pouvoir très limité ; ce sont les instruments et les autres genres de secours qui font presque tout, secours et instruments non moins nécessaires à l’esprit qu’à la main».<br>Par ailleurs, en même que l’homme agit sur le milieu extérieur, il «se nie lui-même, il s’éduque, il refuse par exemple de donner à la satisfaction de ses besoins animaux ce cours libre auquel l’animal n’apportait pas de réserve», comme le dit GEORGES BATAILLE. Ce second sens du mot culture est donc étroitement inhérent au premier où cette notion signifie Travail. Ici, en effet, la culture est ce qui humanise l’homme. Elle est en quel que sorte un rempart contre la barbarie, du moins elle devrait l’être. Selon MICHEL LERIS qui cite RALPH LINTON, la culture est un «ensemble organisé de comportements appris et résultats de comportements, dont les éléments composants sont partagés et transmis par les membres d’une société particulière». Elle diffère, de ce point de vue, des instruments et outils de la technique. Il s’agit de la religion, de la morale, de la science, de la littérature, de la philosophie, de l’art, en un mot de tout ce qui entre dans l’éducation et qui est transmit par les membres d’une société. A ce niveau, il convient de noter qu’il existe une multiplicité de cultures qui varient d’une société à l’autre et d’une époque à l’autre. Donc les cultures sont différentes. En effet, les modes de vie, les coutumes, les pratiques culturelles et cultuelles, les normes de référence, les institutions sont spécifiques à chaque groupe social. On parle alors de relativité culturelle ou de multiculturalisme.  C’est ainsi que si certains peuples sont monothéistes, d’autres sont polythéistes. Par ailleurs, nous n’avons pas les mêmes modes vestimentaires et alimentaires. Du point de vue des traditions, nous notons aussi des différences. Ainsi, au Sénégal par exemple, ce sont les hommes qui donnent la dit contrairement en Inde où c’est la famille de la mariée qui s’en acquitte. Enfin, le mariage homosexuel est autorisé en Hollande alors qu’il est pratiquement interdit dans tous les pays d’Afrique. Cela a pour conséquence de créer des barrières entre les peuples et ainsi que la montée du racisme et de la xénophobie.<br>Aujourd’hui, il est possible de parler également de métissage culturel ou de dialogue entre les cultures. Il y a alors un rapprochement entre les peuples. Ceci se traduit à travers le phénomène de la mondialisation. Ainsi, le monde est devenu conne un village planétaire. Le développement des technologies de l’information et de la communication a facilité l’accès à l’information, la libre échange, la circulation des personnes et des biens. Nous assistons à une délocalisation de certaines industries. Cela permet le transfert des compétences et de technologies.<br>Cependant, l’universalité culturelle cache de graves problèmes. En effet, elle engendre chez certains un déracinement, une acculturation. Ainsi, certains renient leur culture pour épouser celle d’autres. Certaines cultures sont menacées de disparition. Il s’en suit dégradation des valeurs et une perte de repère sans précédents, comme le dit SERGES LATOUCHE. Les pays techniquement et scientifiquement avancés imposent leurs cultures aux pays les moins avancés. Cette influence extérieure est à l’origine de la dégradation des mœurs, du conflit de générations. La perversion gagne du terrain de même que le proxénétisme, la prostitution clandestin, la cybercriminalité, la pornographie. Pour faire face à de tels fléaux, certains comme SENGHOR ont proposé «l’enracinement et l’ouverture», d’autre comme CESAIRE «le retour aux sources». </p>
 
 
 
-<p>La<br>comparaison créé un lien (d&rsquo;égalité, de supériorité ou d&rsquo;infériorité)<br>entre un comparé (ce qu&rsquo;on compare) et un comparant (ce à quoi on le<br>compare) par le moyen d&rsquo;un comparatif (outil grammatical de<br>comparaison).</p>
+<p>Le travail :</p>
 
 
 
-<p><strong>2. La métaphore.</strong><br>Exemple : Balla Gaye est un vrai lion.</p>
-
-
-
-<p>La métaphore est à peu près pareille à la comparaison, à la seule différence qu&rsquo;elle se passe du comparatif.</p>
-
-
-
-<p><strong>3. La personnification.</strong><br>Exemple : les pieds de la table étaient handicapés.</p>
-
-
-
-<p>C&rsquo;est<br>le fait d&rsquo;attribuer des qualificatifs humains (la parole, le physique,<br>l&rsquo;état d&rsquo;esprit&#8230;) à des êtres animés (animaux, végétaux) ou inanimés<br>(choses, objets, idée&#8230;)</p>
-
-
-
-<p><strong>II. LES FIGURES DE SUBSTITUTION.</strong><br>C&rsquo;est<br>l&rsquo;ensemble des  »termes savants » utilisés pour remplacer une<br>désignation par une autre, afin de rendre l&rsquo;idée plus suggestive. </p>
-
-
-
-<p><strong>1. La métonymie.</strong><br>Exemple : ce rasta passe tout le temps à fumer de l&rsquo;herbe.</p>
-
-
-
-<p>La<br>métonymie désigne un objet ou une idée par un autre avec qui elle<br>entretient un rapport de voisinage (le contenu pour son contenant ; la<br>cause pour son effet ; le tout pour sa partie ; le lieu pour l&rsquo;activité<br>exercée&#8230; ou vice-versa).</p>
-
-
-
-<p><strong>2. La synecdoque.</strong><br>Exemple : ce pauvre homme dort sous ce toit.</p>
-
-
-
-<p>Elle<br>ne se distingue pas tellement de la métonymie, à la différence qu&rsquo;elle<br>assigne à un mot un sens plus large (ou plus restreint) qu&rsquo;il ne<br>comporte habituellement.&nbsp;</p>
-
-
-
-<p><strong>3. La périphrase.</strong><br>Exemple : le lion de Guédiawaye (= Balla Gaye).</p>
-
-
-
-<p>La périphrase tourne autour du mot au lieu de le désigner nommément de façon populaire ou poétique.&nbsp;</p>
-
-
-
-<p><strong>III. LES FIGURES D&rsquo;OPPOSITION.</strong><br>Ce sont figures qui établissent un rapport d&rsquo;opposition entre au moins deux idées. </p>
-
-
-
-<p><strong>1. Le chiasme.</strong><br>Exemple : « Le chien du roi est le roi des chiens » (Toundi &#8211; Oyono).</p>
-
-
-
-<p>Il<br>s&rsquo;agit d&rsquo;un jeu de construction de mots disposés en croix<br>(verticalement) ou comme des rimes embrassées (horizontalement) et qui<br>offre de surprenants effets de sens.&nbsp;</p>
-
-
-
-<p><strong>2. L&rsquo;oxymore.</strong><br>Exemple : « hâtez-vous lentement » (Boileau).</p>
-
-
-
-<p>C&rsquo;est l&rsquo;association (plus étroite) de deux mots antonymiques (de sens contraire) pour renforcer une idée.</p>
-
-
-
-<p><strong>3. L&rsquo;antithèse.</strong><br>Exemple<br>: « je n&rsquo;ai jamais vu un enfant sans penser qu&rsquo;il deviendrait<br>vieillard, ni un berceau sans songer à une tombe » (Flaubert).</p>
-
-
-
-<p>Ici, l&rsquo;idée d&rsquo;arrivée s&rsquo;oppose à l&rsquo;idée de départ de l&rsquo;énoncé.</p>
-
-
-
-<p><strong>IV. LES FIGURES D&rsquo;ATTÉNUATION.</strong><br>Ce<br>sont les figures qui servent à amoindrir l&rsquo;effet brutal, choquant que<br>pourrait provoquer une nouvelle ou une opinion blessante.</p>
-
-
-
-<p><strong>1. L&rsquo;euphémisme.</strong><br>Exemple : il est parti pour ne plus revenir (= il est mort).</p>
-
-
-
-<p>C&rsquo;est une figure qui consiste à rendre l&rsquo;idée émise moins brutale par le choix de termes très appropriés.&nbsp;</p>
-
-
-
-<p><strong>2. L&rsquo;ironie.</strong><br>Exemple : ce plat est trop pimenté ; les invités vont adorer&#8230;</p>
-
-
-
-<p>C&rsquo;est<br>une figure qui dit exactement le contraire de ce qu&rsquo;on pense ; bien<br>souvent, elle provoque le rire mais elle peut prendre quelquefois des<br>proportions plus sérieuses.</p>
-
-
-
-<p><strong>3. La litote.</strong><br>Exemple : viens suivre ce film ; il n&rsquo;est pas mauvais.</p>
-
-
-
-<p>Elle fonctionne comme l&rsquo;ironie, à part qu&rsquo;elle s&rsquo;associe toujours d&rsquo;une négation.</p>
-
-
-
-<p><strong>V. LES FIGURES D&rsquo;EXAGÉRATION.</strong><br>C&rsquo;est l&rsquo;ensemble des figures qui amplifient l&rsquo;idée émise au point de lui donner des proportions à la limite démesurées. </p>
-
-
-
-<p><strong>1. L&rsquo;hyperbole.</strong><br>Exemple : à la fin du discours du politicien, il y eut un tonnerre d&rsquo;applaudissements.</p>
-
-
-
-<p>L&rsquo;énoncé exagère l&rsquo;idée pour rendre celle-ci subjectivement plus imposante.</p>
-
-
-
-<p><strong>2. La gradation ascendante</strong>.<br>Exemple : va, cours, vole et nous venge ! (Don Diègue &#8211; Corneille)</p>
-
-
-
-<p>C&rsquo;est une figure dont les énoncés successifs gagnent en puissance (hauteur, grandeur, poids, vitesse&#8230;)</p>
-
-
-
-<p><strong>3. La gradation descendant</strong>e.<br>Exemple : « Je me meurs, je suis mort, je suis enterré » (Harpagon &#8211; Molière).</p>
-
-
-
-<p>C&rsquo;est une figure dont les énoncés successifs perdent en puissance.</p>
-
-
-
-<p><strong>VI. LES FIGURES DE RÉPÉTITION.</strong><br>C&rsquo;est<br>l&rsquo;ensemble des figures qui reprennent une idée de différentes façons<br>afin d&rsquo;en tirer de surprenants effets loin d&rsquo;être fautifs. </p>
-
-
-
-<p><strong>1. L&rsquo;anaphore.</strong><br>Exemple :<br>« Je me rappelle<br>Je me rappelle les signares à l&rsquo;ombre verte des vérandas [&#8230;]<br>Je me rappelle les fastes du couchant [&#8230;]<br>Je me rappelle les festins funèbres [&#8230;]<br>Je me rappelle les voix païennes [&#8230;]<br>Je me rappelle la danse des filles nubiles [&#8230;]<br>Je me rappelle, je me rappelle&#8230; »<br>(Senghor).</p>
-
-
-
-<p>C&rsquo;est la répétition d&rsquo;un même mot ou d&rsquo;une même expression à chaque début de vers ou de phrase.&nbsp;</p>
-
-
-
-<p><strong>2. L&rsquo;épiphore.</strong><br>Exemple : « Et toujours ce parfum de foin coupé qui venait de Bérénice, qui résumait Bérénice, qui le pénétrait de Bérénice ».<br>(Aragon).</p>
-
-
-
-<p>C&rsquo;est la répétition d&rsquo;un même mot ou d&rsquo;une même expression à chaque fin de vers ou de phrase.</p>
-
-
-
-<p><strong>3. La redondance</strong>.<br>Exemple : il était seul, orphelin.</p>
-
-
-
-<p>C&rsquo;est une formule répétitive en deuxième lieu qui renforce l&rsquo;idée émise en premier lieu.&nbsp;</p>
-
-
-
-<p><strong>VII. LES FIGURES DE SONORITÉ.</strong><br>C&rsquo;est<br>l&rsquo;ensemble des figures dont l&rsquo;idée émise dans l&rsquo;énoncé est davantage<br>suggérée par la récurrence d&rsquo;un même son qui imite ou restitue un bruit,<br>un cri&#8230; </p>
-
-
-
-<p><strong>1. L&rsquo;assonance.</strong><br>Exemple :<br>« Un pauvre bûcheron tout couvert de ramée,<br>Sous le faix du fagot aussi bien que des ans<br>Gémissait et, courbé, marchait à pas pesants,<br>Et tâchait de gagner sa chaumine enfumée ».<br>(La mort et le bûcheron &#8211; La Fontaine).<br>[ã] : gémissements.<br>.<br>C&rsquo;est une figure dont l&rsquo;énoncé contient la répétition suggestive d&rsquo;un même son vocalique (d&rsquo;une même voyelle).</p>
-
-
-
-<p><strong>2. L&rsquo;allitération.</strong><br>Exemple :<br>« Pour qui sont ces serpents qui sifflent sur vos têtes »<br>(Oreste &#8211; Racine).<br>[s] : cris du serpent.</p>
-
-
-
-<p>C&rsquo;est une figure dont l&rsquo;énoncé contient la répétition suggestive d&rsquo;un même son consonantique (d&rsquo;une même consonne).</p>
-</div></div>
+<p>Le travail peut être défini comme une activité de production d’une réalité utile. C’est aussi un exercice professionnel réglementé.<br>-Le travail comme libérateur :<br>Si l’on se place du point de vue de la religion, le travail est une source de réalisation, d’humanisation. Dans l’éthique protestante, l’homme est considère comme l’être le plus parfait de la création : il est fait a l’image de Dieu. Or, pour mériter ce statut ; il doit poursuivre et approfondir l’œuvre créatrice de Dieu. Il devra faire fructifier les ressources en germe dans la nature. On comprend d’ailleurs pourquoi chez les Mourides du Sénégal,&nbsp; la l’oisiveté est condamnée. Max Weber l’a compare d’ailleurs à une contemplation inactive qui se fait au détriment du travail producteur.<br>Par ailleurs, nous avons l’habitude d’appeler les gens par leur métier, par leur caste. Chez les «Pular» du Fouta du Sénégal, la distinction est faite entre les hommes en fonction de leur travail. De ce point de vue, ce dernier est un facteur d’intégration socioprofessionnel. De plus, non seulement le travail insert l’homme parmi ses semblables mais également il lui confère une dignité par rapport aux animaux. Il est également un moyen d’échapper à l’imminence de la mort. Pour MICHEL FAUCAULT, «c’est parce que les ressources naturelles sont insuffisantes que les hommes travaillent». Donc le travail est une activité par laquelle l’homme se libère de la nature et diffère la mort, autrement dit retarder la mort. Ceci, d’ailleurs, place le travail au centre de l’économie. Il note : «à chaque instant de son histoire, l’humanité ne travaille que sous la menace de la mort : toute population, si elle ne trouve pas de ressources, est vouée à s’éteindre», sauf que l’homme, comme nous l’avons évoqué, ne se maintient en vie en suivant la nature. Il l’a façonne et en tire des outils, des outils qu’il fabrique et qui sont une manifestation de son esprit. HEGEL écrit dans ce sens : «un instrument inventé par l’homme est plus haut qu’une chose de la nature ; car il est une production de l’esprit». L’homme est donc travailleur et technicien.<br>Dans la dialectique du maitre et de l’esclave, celui devient le maitre du maitre en travaillant et en soumettant le monde extérieur à sa propre force. Par le travail, l’homme humanise le monde. Dans la conception hégélienne, le travail opère une conversion en produisant un renversement dialectique entre le maitre qui vit dans la l’oisiveté et l’esclave travailleur. Ce dernier se libère de la nature mais aussi de la domination du maitre qui devient l’esclave de l’esclave.<br>Pourtant, toutes ces considérations ne devraient pas cacher les critiques faites du travail.<br>-Le travail comme facteur d’aliénation :<br>Même s’il est facteur d’intégration, le travail n’en est pas moins source d’inégalité socioprofessionnelle et économique.<br>-Sur le plan social, la différence des métiers a été à l’origine des castes. Et, au lieu de se traduire par une intégration, le travail est à l’origine du clivage, de la répartition de la société en classes, de la marginalisation des chômeurs. Dans nos sociétés modernes, seul les riches et ceux dont le travail est subtilement rémunéré sont respectes. Cela a pour conséquence de nombreux maux dont l’exclusion sociale, la stigmatisation et la montée en puissance de la violence.<br>-Sur le plan professionnel, cela se traduit par des grèves, des luttes syndicales pour la réclamation de meilleures conditions de vie et de travail : grèves des médecins, des professeurs par exemple.<br>-Sur le plan économique, on note un regroupement des Etats en blocs idéologiques, une répartition du monde en pays développés, émergents, sous-développés ou pauvres.<br>-Sue le plan philosophique, le travail a été critiqué par des acteurs&nbsp; comme PLATON, MARCUSE et même KARL MARX.<br>Dans la Grèce antique, le travail manuel était jugé servile. Il était réservé aux esclaves. Les hommes libres se consacraient à la méditation et à la politique. La société méprisée les artisans et les hommes qui s’adonnaient à ce que NITZSCHE appellera plutard : «les durs labeurs».<br>D’un autre côté, nous remarquons qu’à notre époque, les hommes aspirent plus aux jeux, à la distraction qu’au travail. D’ailleurs, MARCUSE prône le retour à la société des loisirs. Il pense, en effet, que les hommes ont produit suffisamment de biens et de richesses et qu’ils n’ont plus besoins de travailler. Enfin, dans sa critique du capitalisme, KARL MARX voit le travail comme un moyen d’exploitation de l’homme par l’homme ou de domination du prolétariat par la bourgeoisie. Ce qui d’ailleurs a conduit à la lutte ouvrière pour le respect des droits des travailleurs et l’amélioration de leurs conditions de vie.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Le Regard du roi</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/le-regard-du-roi-est-un-roman-de-l/</link>
+		<title>BIOGRAPHIE D’AIMÉ CESAIRE</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/biographie-daime-cesaire/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sun, 19 Jun 2022 03:07:00 +0000</pubDate>
+		<pubDate>Mon, 20 Jun 2022 02:21:34 +0000</pubDate>
 				<category><![CDATA[EDUCATION]]></category>
-		<guid isPermaLink="false"></guid>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=633</guid>
 
-					<description><![CDATA[Le Regard du roi est un roman de l&#8217;écrivain guinéen Camara Laye écrit en français et paru en 1954 aux éditions Plon. Il s&#8217;agit d&#8217;un roman allégorique relatant les interrogations et le cheminement mystique d&#8217;un homme blanc désargenté en Afrique noire. Résumé Première partie : Adramé Le roman se déroule au xxe siècle, dans un&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<div dir="auto">
-<div dir="auto"></div>
-</div>
-<div dir="auto">Le Regard du roi est un roman de l&rsquo;écrivain guinéen Camara Laye écrit en français et paru en 1954 aux éditions Plon. Il s&rsquo;agit d&rsquo;un roman allégorique relatant les interrogations et le cheminement mystique d&rsquo;un homme blanc désargenté en Afrique noire.</div>
-<div dir="auto"></div>
-<div dir="auto">Résumé</div>
-<div dir="auto">Première partie : Adramé</div>
-<div dir="auto"></div>
-<div dir="auto">Le roman se déroule au xxe siècle, dans un pays d&rsquo;Afrique dont le nom n&rsquo;est pas précisé. Dans la première partie, le personnage principal du roman, Clarence, a perdu au jeu tout son argent peu après son arrivée en Afrique et se trouve sans le sou dans la ville d&rsquo;Adramé. Il décide alors d&rsquo;aller trouver le roi pour se faire employer à son service. Sur une place publique où le roi doit faire une apparition, Clarence se fraye difficilement un chemin dans la foule compacte venue accueillir le souverain. Il rencontre alors un mendiant étrangement autoritaire qui lui promet de quémander cette faveur pour lui, ainsi que deux jeunes hommes turbulents, Nagoa et Noaga, que le mendiant ne cesse de rabrouer en les traitant de bons à rien. Clarence est fortement impressionné par l&rsquo;apparition du roi, dont toute la personne revêt des allures de figure mystique. Cependant, le mendiant échoue dans sa requête. Il promet alors à Clarence de lui servir de guide vers le Sud, où le roi vient régulièrement rendre visite à ses vassaux et où Clarence pourrait enfin lui parler.</div>
-<div dir="auto"></div>
-<div dir="auto">Tous deux ont cependant affaire au tenancier de l&rsquo;hôtel de Clarence, à qui ce dernier doit de l&rsquo;argent. Clarence abandonne à contrecœur sa veste au tenancier de l&rsquo;hôtel, mais, peu après, des gardes viennent arrêter Clarence sur la réclamation du tenancier qui affirme que Clarence lui a repris le vêtement. Le juge auquel est confiée l&rsquo;affaire s&rsquo;avère manifestement corrompu : encouragé par le mendiant, Clarence prend la fuite, rencontre une jeune femme qui l&rsquo;aide en apparence mais ne fait que le ramener au tribunal où le juge s&rsquo;avère être son père. Lorsque l&rsquo;affaire s&rsquo;arrange finalement, Clarence découvre que ce sont Nagoa et Noaga qui ont dérobé la veste.</div>
-<div dir="auto"></div>
-<div dir="auto">Enfin, Clarence et le mendiant se mettent en route, accompagnés de Nagoa et Noaga qui rentrent dans leur village au sud. La traversée de la forêt est éprouvante pour l&rsquo;homme blanc, qui a le sentiment persistant de parcourir chaque jour la même portion de forêt et de s&rsquo;arrêter chaque nuit dans le même village. Tous quatre finissent par franchir la forêt et arriver au village d&rsquo;Aziana, où le mendiant intercède en faveur de Clarence auprès du naba et du maître des cérémonies. Durant la soirée où la boisson coule à flots, Clarence surprend une lueur redoutable dans le regard du mendiant et ne comprend pas bien la conversation que ce dernier mène avec un nommé Samba Baloum : il semble avoir été troqué en échange d&rsquo;un âne que le mendiant utilise comme monture pour repartir, laissant Clarence au village.</div>
-<div dir="auto"></div>
-<div dir="auto">Deuxième partie : Aziana</div>
-<div dir="auto"></div>
-<div dir="auto">Dans la deuxième partie, « Aziana », Clarence s&rsquo;adapte peu à peu au mode de vie des villageois. Il fréquente Nagoa et Noaga, Samba Baloum ainsi qu&rsquo;une femme nommée Akissi. Mais sa vie demeure oisive dans l&rsquo;attente de la venue du roi, et il se reproche la paresse qui l&rsquo;envahit. Il passe son temps à discuter en buvant de calebasses de vin, et se rend tout juste un peu utile en tissant du coton de temps en temps. Clarence passe des nuits difficiles où il est tenté de sombrer dans la bestialité. Il est souvent incommodé par une odeur de fleurs qu&rsquo;Akissi apporte par bouquets dans leur case et qu&rsquo;il déteste. Clarence soupçonne Akissi de le manipuler, car elle lui semble multiple, jamais tout à fait semblable à elle-même, surtout la nuit. Mais il n&rsquo;arrive pas à avoir de certitude. Samba Baloum compare souvent Clarence à un coq. Un jour, un procès oppose Samba Baloum au maître des cérémonies et Clarence, qui ne doit normalement pas y assister, convainc Nagoa et Noaga de lui trouver un endroit d&rsquo;où il pourra regarder discrètement le procès. Mais Clarence finit par devoir fuir pour ne pas être repéré et il passe de toit en toit, jusqu&rsquo;à apercevoir la cour d&rsquo;un bâtiment qui n&rsquo;est autre que le sérail où vivent les femmes du naba. Clarence aperçoit de nombreux jeunes mulâtres dans la cour et conçoit des soupçons, mais on le rassure. Clarence assiste ensuite à la punition du maître des cérémonies, mais exige l&rsquo;arrêt des coups de bâton devant le naba. Il doit ensuite donner son boubou à Nagoa et Noaga en échange de la ruse qu&rsquo;ils lui ont indiquée pour assister au procès, mais il se retrouve nu devant le naba. Sur les conseils de Samba Baloum, il demande un autre boubou au naba.</div>
-<div dir="auto"></div>
-<div dir="auto">Un jour, Clarence se réveille et ne trouve pas Akissi à son côté. Ses soupçons se renforcent. Il sort et va discuter avec le forgeron Diallo, mais les deux hommes ne parviennent pas à comprendre leurs conceptions divergentes de la justice à propos du supplice du maître des cérémonies. Clarence espèce toujours la venue du roi, tandis que Diallo forge des haches toujours plus parfaites dans l&rsquo;espoir d&rsquo;offrir la meilleure au roi. Après s&rsquo;être disputé avec Diallo, Noaga et Nagoa, Clarence veut quitter le village et part dans la forêt. Il éprouve des doutes croissants sur la réalité de son statut au village et de ses propres faits et gestes pendant les nuits. Saisi peu à peu par l&rsquo;odeur de la forêt, Clarence tente d&rsquo;avancer pour s&rsquo;éloigner du village, mais est effrayé par le spectacle d&rsquo;une, puis de plusieurs femmes-poissons qui surgissent du fleuve. Entraîné par une pesanteur accablante, il glisse dans le fleuve et progresse parmi des îles de plus en plus rapprochées, toutes hantées par d&rsquo;inquiétantes femmes-poissons qui le frôlent de leurs seins et lui inspirent un terrible dégoût. Clarence se réveille alors, transporté par Samba Baloum et les deux jeunes gens, qui lui disent qu&rsquo;il n&rsquo;a fait que rêvé et que ces femmes n&rsquo;étaient que de simples lamantins.</div>
-<div dir="auto"></div>
-<div dir="auto">Troisième partie : le roi</div>
-<div dir="auto"></div>
-<div dir="auto">Dans la troisième partie, « Le Roi », Clarence assiste enfin à la venue du roi à Aziana. Toujours à son attente, Clarence commence à douter que le roi viendra un jour. Il va voir une vieille sorcière, Dioki, qui inspire la plus grande peur à Nagoa et Noaga, afin de lui demander une prophétie sur le roi. Dioki vit à l&rsquo;écart du village, dans une cuvette naturelle où sa bicoque est infestée de serpents. Clarence fait porter aux deux frères des offrandes pour Dioki et ses serpents. Il la prend pour une vieille folle, mais se garde de l&rsquo;offenser par crainte des serpents. Dioki prophétise et Clarence a une vision du roi en route pour Aziana. Il émerge de la vision bouleversé, même si Dioki ne lui a pas dit dans combien de temps au juste le roi arrivera. Clarence soupçonne avoir dû coucher avec Dioki pour obtenir la vision, mais n&rsquo;en a pas de souvenir clair. Il relate sa vision à Diallo et aux deux frères lorsque les tambours commencent à résonner, annonçant la venue imminente du roi.</div>
-<div dir="auto"></div>
-<div dir="auto">Le lendemain est le jour prévu pour la venue du roi. L&rsquo;attente de Clarence touche à sa fin, mais, le matin, le maître des cérémonies vient lui dire que le naba lui défend de quitter sa case. Clarence, en colère, rapporte les dires du maître des cérémonies à Samba Baloum, qui va aussitôt voir le maître des cérémonies et revient avec des nouvelles rassurantes : Clarence devra seulement s&rsquo;abstenir de marcher en chaussures sur les tapis disposés sur le chemin du roi. Clarence se lave et fait revenir le maître des cérémonies. L&rsquo;entretien tourne à la dispute et le maître des cérémonies déclare à Clarence qu&rsquo;il se voile la face au sujet de ses activités réelles à Aziana : Clarence n&rsquo;est qu&rsquo;un coq, qui a été troqué par le mendiant en échange d&rsquo;un âne ; il est la propriété du naba ; il a engrossé chaque nuit les femmes du sérail du naba et les jeunes mulâtres qu&rsquo;il a aperçus dans la cour sont bel et bien ses enfants ; il n&rsquo;a jamais su se rendre utile au village et son attente a été complètement indigne du roi au service duquel il prétend entrer. Mis en colère et profondément affecté par les paroles du maître des cérémonies, Clarence le chasse, puis demeure dans sa case, saisi par de terribles doutes. Samba Baloum, Akissi, Nagoa et Noaga tentent en vain de le convaincre de s&rsquo;habiller et de sortir voir le roi. Au bout d&rsquo;un temps indéfini, Clarence regarde par la fenêtre en hublot de sa case et aperçoit le roi assis sous la galerie non loin de sa maison. Son regard croise celui du roi. Subjugué, Clarence s&rsquo;avance comme dans un rêve tandis que sa case s&rsquo;effondre derrière lui. Dans la lumière aveuglante qu&rsquo;émet la personne du roi, Clarence sort nu sur l&rsquo;esplanade et rejoint le roi, qui l&rsquo;accueille contre son cœur et l&rsquo;enveloppe dans son manteau pour toujours.</div>
-</div>
+					<description><![CDATA[Aimé CESAIRE est né le 26 juin 1913 au sein d’une famille nombreuse de Basse-Pointe, commune du Nord-Est de la Martinique, bordée par l’océan Atlantique dont la « lèche hystérique » viendra plus tard rythmer ses poèmes. Le père est un petit fonctionnaire. La mère est couturière.Aimé CESAIRE, élève brillant du Lycée Schoelcher de Fort-de-France,&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Aimé CESAIRE est né le 26 juin 1913 au sein d’une famille nombreuse de Basse-Pointe, commune du Nord-Est de la Martinique, bordée par l’océan Atlantique dont la « lèche hystérique » viendra plus tard rythmer ses poèmes. Le père est un petit fonctionnaire. La mère est couturière.<br>Aimé CESAIRE, élève brillant du Lycée Schoelcher de Fort-de-France, poursuit ses études secondaires en tant que boursier du Gouvernement Français au Lycée Louis Le Grand, à Paris. C’est dans les couloirs de ce grand lycée Parisien que, dès son arrivée, le jeune CESAIRE rencontre Léopold Sédar SENGHOR, son aîné de quelques années qui le prend sous son aile protectrice.<br>Au contact des jeunes Africains étudiants à Paris, Aimé CESAIRE et son ami Guyanais Léon Gontran DAMAS, qu’il connaît depuis le Lycée Schoelcher, découvrent progressivement une part refoulée de l’identité martiniquaise, la composante africaine dont ils prennent progressivement conscience au fur et à mesure qu’émerge une conscience forte de la situation coloniale. En septembre 1934, CESAIRE fonde avec d’autres étudiants Antillo-Guyanais et Africains (Léon Gontran DAMAS, les Sénégalais Léopold Sédar SENGHOR et Birago DIOP), le journal l’Etudiant noir. C’est dans les pages de cette revue qu’apparaîtra pour la première fois le terme de « Négritude ». Ce concept, forgé par Aimé CESAIRE en réaction à l’oppression culturelle du système colonial français, vise à rejeter d’une part le projet français d’assimilation culturelle et d’autre part la dévalorisation de l’Afrique et de sa culture, des références que le jeune auteur et ses camarades mettent à l’honneur. Construit contre le projet colonial français, le projet de la négritude est plus culturel que politique. Il s’agit, au-delà d’une vision partisane et raciale du monde, d’un humanisme actif et concret, à destination de tous les opprimés de la planète. CESAIRE déclare en effet : « Je suis de la race de ceux qu’on opprime ». Admis à l’Ecole Normale Supérieure en 1935, CESAIRE commence en 1936 la rédaction de son chef d’œuvre, le « Cahier d’un Retour a u Pays Natal ». Marié en 1937 à une étudiante martiniquaise, Suzanne ROUSSI, Aimé CESAIRE, agrégé de lettres, rentre en Martinique en 1939, pour enseigner, tout comme son épouse, au Lycée Schoelcher<br>En réaction contre le statu quo culturel martiniquais, le couple CESAIRE, épaulé par René MENIL et Aristide MAUGEE, fonde en 1941 la revue Tropiques, dont le projet est la ré-appropriation par les Martiniquais de leur patrimoine culturel. La seconde guerre mondiale se traduit pour la Martinique par un blocus qui coupe l’approvisionnement de l’île par la France. En plus d’une situation économique très difficile, l’Envoyé du Gouvernement de Vichy, l’Amiral ROBERT, instaure un régime répressif, dont la censure vise directement la revue Tropiques. Celle-ci paraîtra, avec difficulté, jusqu’en 1943.<br>La guerre marque aussi le passage en Martinique d’André BRETON. Le maître du surréalisme découvre avec stupéfaction la poésie de CESAIRE et le rencontre en 1941. En 1944, BRETON rédigera la préface du recueil Les Armes Miraculeuses, qui marque le ralliement de CESAIRE au surréalisme.<br>Invité à Port-au-Prince par le docteur MABILLE, attaché culturel de l’Ambassade de France, Aimé CESAIRE passera six mois en Haïti, donnant une série de conférences dont le retentissement sur les milieux intellectuels haïtiens est formidable. Ce séjour haïtien aura une forte empreinte sur l’œuvre d’Aimé CESAIRE, qui écrira un essai historique sur Toussaint LOUVERTURE et consacrera une pièce de théâtre au roi Henri CHRISTOPHE, héros de l’indépendance.<br>Alors que son engagement littéraire et culturel constitue le centre de sa vie, Aimé CESAIRE est happé par la politique dès son retour en Martinique. Pressé par les élites communistes, à la recherche d’une figure incarnant le renouveau politique après les années sombres de l’Amiral ROBERT, CESAIRE est élu Maire de Fort-de-France, la capitale de la Martinique, en 1945, à 32 ans. L’année suivante, il est élu Député de la Martinique à l’Assemblée Nationale.<br>Le Député CESAIRE sera, en 1946, le rapporteur de la Loi faisant des colonies de Guadeloupe, Guyane Française, Martinique et la Réunion, des Départements Français. Ce changement de statut correspond à une demande forte du corps social, souhaitant accéder aux moyens d’une promotion sociale et économique. Conscient du rôle de la départementalisation comme réparation des dégâts de la colonisation. Aimé CESAIRE est tout aussi conscient du danger d’aliénation culturelle qui menace les Martiniquais. La préservation et le développement de la culture martiniquaise seront dès lors ses priorités.<br>Partageant sa vie entre Fort-de-France et Paris, CESAIRE fonde, dans la Capitale française, la revue Présence Africaine, aux côtés du Sénégalais Alioune DIOP, et des Guadeloupéens Paul NIGER et Guy TIROLIEN. Cette revue deviendra ensuite une maison d’édition qui publiera plus tard, entre autres, les travaux de l’égyptologue Cheikh Anta DIOP, et les romans et nouvelles de Joseph ZOBEL.<br>En 1950, c’est dans la revue Présence Africaine que sera publié pour la fois le Discours sur le colonialisme, charge virulente et analyse implacable de l’idéologie colonialiste européenne, que CESAIRE compare avec audace au nazisme auquel l’Europe vient d’échapper. Les grands penseurs et hommes politiques français sont convoqués dans ce texte par l’auteur qui met à nu les origines du racisme et du colonialisme européen. Peu enclin au compromis, Aimé CESAIRE, révolté par la position du Parti Communiste Français face à l’invasion soviétique de la Hongrie en 1956, publie une « Lettre à Maurice THOREZ » pour expliquer les raisons de son départ du Parti. En mars 1958, il crée le Parti Progressiste Martiniquais (PPM), qui a pour ambition d’instaurer un « type de communisme martiniquais plus résolu et plus responsable dans la pensée et dans l’action ». Le mot d’ordre d’autonomie de la Martinique est situé au cœur du discours du PPM.<br>Parallèlement à une activité politique continue (il conservera son mandat de Député pendant 48 ans, et sera Maire de Fort-de-France pendant 56 ans), Aimé CESAIRE continue son œuvre littéraire et publie plusieurs recueils de poésie, toujours marqués au coin du surréalisme (Soleil Cou Coupé en 1948, Corps perdu en 1950, Ferrements en 1960). A partir de 1956, il s’oriente vers le théâtre. Avec Et les chiens se taisaient, texte fort, réputé impossible à mettre en scène, il explore les drames de la lutte de décolonisation autour du programme du Rebelle, esclave qui tue son maître puis tombe victime de la trahison. La tragédie du Roi Chistophe (1963), qui connaît un grand succès dans les capitales européennes, est l’occasion pour lui de revenir à l’expérience haïtienne, en mettant en scène les contradictions et les impasses auxquelles sont confrontés les pays décolonisés et leurs dirigeants. Une saison au Congo (1966) met en scène la tragédie de Patrice LUMUMBA, père de l’indépendance du Congo Belge. Une tempête (1969), inspiré de Shakespeare, explose les catégories de l’identité raciale et les schémas de l’aliénation coloniale. Pensant à l’origine situer l’action de cette adaptation de Shakespeare aux Etats-Unis, il choisit finalement les Antilles, gardant tout de même le projet de refléter l’expérience noire aux Amériques.<br>Au total CESAIRE a publié plus de quatorze œuvres, recueils des poésies, pièces de théâtre et essais. De nombreux colloques et conférences internationales ont été organisés sur son œuvre littéraire qui est universellement connue. Son œuvre a été traduite dans de nombreuses langues : anglais espagnol, allemand, etc.</p>
+
+
+
+<p>SES ŒUVRES</p>
+
+
+
+<p>ŒUVRES PRINCIPALES</p>
+
+
+
+<p>&nbsp; Œuvres complètes. (1. Poèmes ; 2. Théâtre ; 3 Œuvre historique et poétique).<br>éd. Desormeaux, Fort- de-France 1976, éd. Seuil, Gallimard, Présence Africaine.</p>
+
+
+
+<p>POESIE</p>
+
+
+
+<p>&nbsp; Cahier d’un retour au pays natal. Paris : Présence Africaine, 1939, 1960.<br>&nbsp; Soleil Cou Coupé. Paris : Ed. K, 1948.<br>&nbsp; Corps perdu. (gravures de Pablo Picasso) Paris : Editions Fragance, 1950.<br>&nbsp; Ferrements, Paris : Seuil, 1960, 1961.<br>&nbsp; Cadastre. Paris : Seuil,1961.<br>&nbsp; Les Armes Miraculeuses. Paris : Gallimard, 1970.<br>&nbsp; Moi Laminaire. Paris : Seuil, 1982.<br>&nbsp; La Poésie. Paris : Seuil,1994.</p>
+
+
+
+<p>ESSAIS ET DISCOURS</p>
+
+
+
+<p>&nbsp; Discours sur le colonialisme. Paris : Présence Africaine, 1955.<br>&nbsp; Lettre à Maurice THOREZ. Paris : Présence Africaine, 24 octobre 1956.<br>&nbsp; La poésie un moyen de connaissance et de co-naissance : propositions poétiques, publié en Haïti en 1944.<br>&nbsp; Toussaint LOUVERTURE ; La Révolution française et le problème colonial. Paris : Présence Africaine, 1961/62.<br>&nbsp; Culture et colonisation, communication faite au 1er Congrès des Ecrivains et Artistes noirs en 1956, à la Sorbonne.<br>&nbsp; L’homme de Culture et ses responsabilités, communication faite au deuxième Congrès des Ecrivains et Artistes noirs en 1959, à Rome.<br>&nbsp; Discours sur l’Art Africain au Premier Festival Mondial des Arts nègres à Dakar en 1966.<br>&nbsp; Discours sur la Négritude au colloque organisé par Carlos MOORE en 1987, à l’Université Internationale de Miami.<br>&nbsp; Discours relatif à la commémoration du centenaire de l’abolition de l’esclavage à la Sorbonne en 1948.<br>&nbsp; Discours d’accueil de François MITTERRAND, prononcé à la Mairie de Fort-de-France le 25 octobre 1974.<br>&nbsp; Discours prononcé en l’honneur de la visite de Léopold Sédar SENGHOR à la Mairie de Fort-de-France le 13 février 1976.</p>
+
+
+
+<p>THEATRE</p>
+
+
+
+<p>&nbsp; Et les chiens se taisaient, publiée en 1956 (tragédie).<br>&nbsp; La Tragédie du Roi Christophe, publiée en 1963 (tragédie).<br>&nbsp; Une Saison au Congo, publiée en 1966 (tragédie).<br>&nbsp; Une Tempête, adaptation à La Tempête de Shakespeare, publiée en 1969 (une tragi-comédie ou romance).</p>
+
+
+
+<p>Source: <a href="http://www.hommage-cesaire.net/" target="_blank" rel="noreferrer noopener">www.hommage-cesaire.net</a></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Gestion des pages WordPress</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/gestion-des-pages-wordpress/</link>
+		<title>Sujets du domaine III : Epistémologie</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/sujets-du-domaine-iii-epistemologie/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 19:41:12 +0000</pubDate>
-				<category><![CDATA[Wordpress]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=382</guid>
+		<pubDate>Mon, 20 Jun 2022 02:19:09 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=631</guid>
 
-					<description><![CDATA[WordPress est doté d&#8217;une page par défaut nommée&#160;sample page ou page d&#8217;exemple,&#160;mais vous pouvez modifier cette page, l&#8217;éditer ou même la supprimer et créer vos propres pages : 1 &#8211; Création d&#8217;une page WordPress Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&#8217;aide de votre&#8230;]]></description>
+					<description><![CDATA[1- Le progrès scientifique constitue une menace pour la religion et la philosophie. Qu’en pensez-vous ? 2- Y a-t-il des vérités indiscutables ? 3- Opposer science et philosophie, est-ce légitime ? 4- La science peut-elle mettre fin à la philosophie ? 5- Aujourd’hui, les sciences et les techniques ont des progrès tels que la réalité&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>WordPress est doté d&rsquo;une page par défaut nommée&nbsp;<strong>sample page ou page d&rsquo;exemple,&nbsp;</strong>mais vous pouvez modifier cette page, l&rsquo;éditer ou même la supprimer et créer vos propres pages :</p>
+<p>1- Le progrès scientifique constitue une menace pour la religion et la philosophie. Qu’en pensez-vous ?</p>
 
 
 
-<h2>1 &#8211; Création d&rsquo;une page WordPress</h2>
+<p>2- Y a-t-il des vérités indiscutables ?</p>
 
 
 
-<p>Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&rsquo;aide de votre sourie sur le menu&nbsp;<strong>Pages,&nbsp;</strong>comme le montre la figure ci-dessous :</p>
+<p>3- Opposer science et philosophie, est-ce légitime ?</p>
 
 
 
-<span id="more-382"></span>
+<p>4- La science peut-elle mettre fin à la philosophie ?</p>
 
 
 
-<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/menu-pages-wordpress_f_improf_585x378.png" alt="menu-pages-wordpress.png"/><figcaption>menu pages wordpress</figcaption></figure>
+<p>5- Aujourd’hui, les sciences et les techniques ont des progrès tels que la réalité et la fiction se confondent ? Qu’en pensez-vous ?</p>
 
 
 
-<p>&nbsp;Cliquez ensuite sur le sous menu&nbsp;<strong>All Pages</strong>&nbsp;si vous voulez voir la totalité&nbsp; des pages qui existent, mais si vous voulez en ajouter une, cliquez sur le sous menu&nbsp;<strong>Add New</strong>&nbsp; :</p>
+<p>6- Le mythe et la magie peuvent respectivement être considérés comme la science et la technique des sociétés primitives. Que vous suggère cette pensée ?</p>
 
 
 
-<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/creer-une-pages-wordpress_f_improf_655x442.png" alt="Créer une page wordpress"/><figcaption>creer-une-pages-wordpress.png</figcaption></figure>
+<p>7- L’unanimité est-elle critère de vérité ?</p>
 
 
 
-<p>Après avoir terminer la rédaction de votre page WordPress, cliquez sur le bouton&nbsp;<strong>Publish</strong>&nbsp;qui se trouve sur le menu à droite.</p>
+<p>8- « Si on ferme la porte à l’erreur, la vérité restera dehors ». Qu’en pensez-vous ?</p>
 
 
 
-<h2>2 &#8211; Créer un lien sur le menu vers votre page</h2>
+<p>9- Expliquez et discuter le propos suivant : « C’est parce qu’elle n’est sûre de rien que la science progresse ».</p>
 
 
 
-<p>Pour créer un lien sur le menu pointant vers votre page, deux solutions s&rsquo;offrent à vous :</p>
+<span id="more-631"></span>
 
 
 
-<p><strong>1 ère méthode&nbsp;</strong></p>
+<p>10- Toute connaissance autre que scientifique n’est pas connaissance mais ignorance. Qu’en pensez-vous ?</p>
 
 
 
-<p>Vous pouvez éditer votre page depuis votre zone admin, vous trouvez dans le menu à droite un sous menu&nbsp;<strong>Theme options -&gt; Show in menu ,&nbsp;</strong>cochez la case<strong>&nbsp;Yes</strong>&nbsp;et donnez ensuite un nom au menu&nbsp;<strong>ma page de test</strong>&nbsp;par exemple, comme le montre la figure suivante :&nbsp;</p>
+<p>11- Ce que les sciences humaines nous font connaître de l’homme suffit-il pour connaître l’homme ?</p>
 
 
 
-<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/pages-wordpress-theme-options_f_improf_315x321.png" alt="pages-wordpress-theme-options.png"/><figcaption>pages-wordpress-theme-options.png</figcaption></figure>
+<p>12- L’homme doit-il craindre que les machines travaillent pour lui ?</p>
 
 
 
-<p>&nbsp;Validez enfin en cliquant sur le bouton Update qui se trouve sur le menu à droite.</p>
+<p>13- Le progrès scientifique s’accompagne-t-il de progrès moral ?</p>
 
 
 
-<p><strong>2 ème méthode :</strong></p>
+<p>14- Faut-il renoncer à s’interroger sur ce qui est hors de portée de la connaissance scientifique ?</p>
 
 
 
-<p>Depuis votre zone admin, pointez sur le menu&nbsp;<strong>Apparence</strong>&nbsp;et cliquez ensuite sur la rubrique&nbsp;<strong>Menus :</strong></p>
+<p>15- La philosophie doit-elle laisser la science sans surveillance ?</p>
 
 
 
-<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/wordpress-apparence-menus_f_improf_502x185.png" alt="wordpress-apparence-menus.png"/><figcaption>wordpress-apparence-menus.png</figcaption></figure>
+<p>16- Notre désir de savoir est-il satisfait par la science ?</p>
 
 
 
-<p>Vous allez obtenir la vue suivante :</p>
+<p>Sujets du domaine IV : Esthétique</p>
 
 
 
-<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/_d_improd_/wordpress-apparence-menus-pages_f_improf_705x443.png" alt="wordpress-apparence-menus-pages.png"/><figcaption>wordpress-apparence-menus-pages.png</figcaption></figure>
+<p>1- Peut-on expliquer une œuvre d’art ?</p>
 
 
 
-<p>&nbsp;Cochez maintenant votre page qui est dans ce cas&nbsp;<strong>ma page de Test&nbsp;</strong>et cliquez ensuite sur le bouton Add to Menu sans oublier de cocher la case&nbsp;&nbsp;<strong>Auto add pages&nbsp;</strong>dans la rubrique&nbsp;<strong>Menu Settings&nbsp;</strong>qui se trouve en bas à droite.</p>
+<p>2- L’art est-il un luxe mensonger ?</p>
+
+
+
+<p>3- Ce qu’il y a de commun entre l’art et la morale, c’est que dans les deux cas, il y a création et invention. Quelle réflexion vous suggère ces propos de Sartre ?</p>
+
+
+
+<p>4- L’art peut-il être un langage ?</p>
+
+
+
+<p>5- « L’art ne reproduit pas le visible, il le rend visible ». Expliquez et discutez cette affirmation de Paul Klee.</p>
+
+
+
+<p>6- L’art vise-t-il à imprimer en nous des sentiments ou à les exprimer ?</p>
+
+
+
+<p>Voici quelques sujets avec lesquels vous pourriez vous exercer !</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>WordPress : Tutoriel 6 ( Comment créer et gérer des menus wordpress )</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/wordpress-tutoriel-6-comment-creer-et-gerer-des-menus-wordpress/</link>
+		<title>Sujets du domaine II : La vie sociale</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/sujets-du-domaine-ii-la-vie-sociale/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Sat, 18 Jun 2022 19:40:15 +0000</pubDate>
-				<category><![CDATA[Wordpress]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=379</guid>
+		<pubDate>Mon, 20 Jun 2022 02:18:09 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=629</guid>
 
-					<description><![CDATA[1 &#8211; Menus d&#8217;en-tête et pied de page La plupart des systèmes CMS&#160; possèdent&#160; des thèmes ayant un menu d&#8217;en-tête.&#160;Certains ont également un menu de bas de page.&#160;Vous pouvez gérer vos liens de menu en exécutant : Apparence&#62; Menus 2 &#8211; Modification des menus Pour modifier les menus WordPress,&#160; allez dans : Apparence&#62; Menus, puis&#8230;]]></description>
+					<description><![CDATA[1- Pour une culture, s’ouvrir est-ce se perdre ? 2- La diversité culturelle est-elle un obstacle à l’unité de l’humanité ? 3- L’homme est à la fois producteur et produit de la culture ? 4- Dominer la nature, peut-il être pour l’homme un idéal suffisant ? 5- Les devoirs de l’homme varient-ils selon les cultures&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/gerer-les-menus-wordpress.png" alt=""/></figure>
+<p>1- Pour une culture, s’ouvrir est-ce se perdre ?</p>
 
 
 
-<span id="more-379"></span>
+<p>2- La diversité culturelle est-elle un obstacle à l’unité de l’humanité ?</p>
 
 
 
-<h2>1 &#8211; Menus d&rsquo;en-tête et pied de page</h2>
+<p>3- L’homme est à la fois producteur et produit de la culture ?</p>
 
 
 
-<p><br>La plupart des systèmes CMS&nbsp; possèdent&nbsp; des thèmes ayant un menu d&rsquo;en-tête.&nbsp;Certains ont également un menu de bas de page.&nbsp;Vous pouvez gérer vos liens de menu en exécutant :</p>
+<p>4- Dominer la nature, peut-il être pour l’homme un idéal suffisant ?</p>
 
 
 
-<p><strong>Apparence&gt; Menus</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/gerer-les-menus-wordpress.png" alt="gerer-les-menus-wordpress" class="wp-image-4133"/></figure></div>
-
-
-<h2>2 &#8211; Modification des menus</h2>
+<p>5- Les devoirs de l’homme varient-ils selon les cultures ?</p>
 
 
 
-<p>Pour modifier les menus WordPress,&nbsp; allez dans :</p>
+<p>6- L’homme est-il libre ou tient-il à le devenir ?</p>
 
 
 
-<ul><li><strong>Apparence&gt; Menus,</strong></li><li><strong>puis sélectionnez &#8211;&gt; un menu à modifier</strong>. Le côté gauche montre les liens qui sont disponibles.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Allez dans&nbsp; &#8211;&gt; Options d&rsquo;écran</strong>&nbsp;en haut à droite pour afficher plus d&rsquo;options pour les liens.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Choisissez les liens</strong>&nbsp;que vous souhaitez ajouter au menu,</li><li><strong>Cliquez ensuite sur Ajouter au menu.</strong></li></ul>
+<p>7- Le travail est-il nécessaire pour être libre ?</p>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/gestion-des-menus-wordpress.png" alt="gestion des menus wordpress" class="wp-image-4136"/></figure></div>
+
+<span id="more-629"></span>
 
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Une fois que vous avez des liens dans un menu, vous pouvez les faire glisser pour modifier leur commande.&nbsp;Vous pouvez également faire glisser un lien sous un autre vers les éléments de menu imbriqués créés (menus déroulants).<br>Cliquez enfin sur&nbsp;<strong>&nbsp;Enregistrer le menu</strong>&nbsp;lorsque vous avez terminé l&rsquo;édition.</p>
+
+<p>8- Le travail est-il une obligation, une contrainte ou une nécessité ?</p>
+
+
+
+<p>9- Est-ce pour se reposer que l’homme travaille ?</p>
+
+
+
+<p>10- Peut-on agir moralement en étant inconscient ?</p>
+
+
+
+<p>11- Peut-on être libre sans être heureux ?</p>
+
+
+
+<p>12- Vivre en société, est-ce vivre par et pour la société ?</p>
+
+
+
+<p>13- La liberté de l’Etat pour ou contre l’Etat ?</p>
+
+
+
+<p>14- L’Etat est-il un mal nécessaire ?</p>
+
+
+
+<p>15- La mondialisation ne fait que détruire les Etats et nier la souveraineté des nations. Qu’en pensez-vous ?</p>
+
+
+
+<p>16- La violence peut-elle avoir raison ?</p>
+
+
+
+<p>17- Une société sans conflit, est-elle possible ? Est-ce souhaitable ?</p>
+
+
+
+<p>18- Peut-on tout attendre de l’Etat ?</p>
+
+
+
+<p>19- Bien informés, nous sommes des citoyens. Mal informés, nous sommes des sujets. Qu’en pensez-vous ?</p>
+
+
+
+<p>20- Peut-on refuser d’obéir à la politique par respect à la loi morale ?</p>
+
+
+
+<p>21- Ethique et politique<br>22- Par le langage, peut-on agir sur la réalité ?</p>
+
+
+
+<p>23- Est-il légitime d’assimiler notre temps de travail à notre temps de liberté ?</p>
+
+
+
+<p>24- L’exigence d’autonomie individuelle exclut-elle la conformité aux nomes ?</p>
+
+
+
+<p>25- « L’homme se distingue de l’animal par le fait qu’il naît prématuré ». Qu’en pensez-vous ?</p>
+
+
+
+<p>26- Les techniques libèrent-elles l’homme plus qu’elles ne le déshumanisent ?</p>
+
+
+
+<p>27- L’homme doit-il craindre que les machines travaillent pour lui ?</p>
+
+
+
+<p>28- Peut-on se servir de la violence à des fins morales ?</p>
+
+
+
+<p>29- « Langage et travail sont des manifestations dans lesquelles l’individu ne se conserve plus et ne se possède plus, mais par lesquelles il laisse son intimité sortir tout à fait de soi et la livre à autrui ». Que pensez-vous de cette affirmation de Hegel ?</p>
+
+
+
+<p>30- Langage et pensée sont-ils dissociables ?</p>
+
+
+
+<p>31- Le langage et le travail sont-ils spécifiques à l’homme ?</p>
+
+
+
+<p>32- Peut-on penser à ce que l’on veut dire sans dire ce que l’on&nbsp; pense ?</p>
+
+
+
+<p>33- Est-on d’autant plus libre qu’on est conscient ?</p>
+
+
+
+<p>34- L’idée d’inconscient exclut-elle l’idée de liberté ?</p>
+
+
+
+<p>35- L’idée de liberté est-elle compatible avec le concept d’inconscient ?</p>
+
+
+
+<p>36- La notion d’inconscient introduit-elle la fatalité dans la vie de l’homme ?</p>
+
+
+
+<p>37- Le recours à l’inconscient autorise-t-il l’alibi de l’inconscience ?</p>
+
+
+
+<p>38- Sur quelles raisons pouvons-nous nous appuyer pour admettre l’existence d’un inconscient ?</p>
+
+
+
+<p>39- L’inconscient permet-il autant que la conscience de définir l’homme ?</p>
+
+
+
+<p>40- La connaissance de l’inconscient apporte-t-elle quelque chose d’essentiel à la connaissance de l’homme ?</p>
+
+
+
+<p>41- Obéir, est-ce renoncer à la liberté ?</p>
+
+
+
+<p>42- Exiger l’obéissance est-ce nécessairement porter atteinte à la liberté ?</p>
+
+
+
+<p>43- La contrainte annihile-t-elle la liberté ?</p>
+
+
+
+<p>44- La contrainte est-elle le contraire de la liberté ?</p>
+
+
+
+<p>45- Y a-t-il contradiction entre être libre et être soumis aux lois ?</p>
+
+
+
+<p>46- Etre libre, est-ce être autonome ?</p>
+
+
+
+<p>47- Peut-on restreindre la liberté sans la nier ?</p>
+
+
+
+<p>48- La liberté peut-elle se définir comme l’obéissance à la raison ?</p>
+
+
+
+<p>49- Est-il facile d’être libre ?</p>
+
+
+
+<p>50- Est-il pertinent de revendiquer une liberté à laquelle nous sommes condamné ?</p>
+
+
+
+<p>51- « Entre le fort et le faible, c’est la liberté qui opprime et c’est la loi qui&nbsp; affranchit ». Qu’en pensez-vous ?</p>
+
+
+
+<p>52- Y a-t-il des guerres justes ?</p>
+
+
+
+<p>53- Peut-on dire que l’homme occupe une place particulière dans le monde ?</p>
+
+
+
+<p>54- Les différences entre les hommes ont-elles seulement un fondement biologique ?</p>
+
+
+
+<p>55- Etre conscient de soi, est-ce être maître de soi ?</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sujets du domaine I : La réflexion philosophique</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/sujets-du-domaine-i-la-reflexion-philosophique/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Mon, 20 Jun 2022 02:17:24 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=627</guid>
+
+					<description><![CDATA[Sujets du domaine I : La réflexion philosophique 1- La réflexion philosophique nous détache-t-elle du monde ? 2- Peut-on douter de tout ? 3- « La philosophie, écrit un philosophe, boîte ». Est-ce à dire qu’elle va tomber ?Peut-on tout dire ? 4- L’engagement politique et la réflexion philosophique sont-elles compatibles ? 5- La tâche&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Sujets du domaine I : La réflexion philosophique</p>
+
+
+
+<p>1- La réflexion philosophique nous détache-t-elle du monde ?</p>
+
+
+
+<p>2- Peut-on douter de tout ?</p>
+
+
+
+<p>3- « La philosophie, écrit un philosophe, boîte ». Est-ce à dire qu’elle va tomber ?<br>Peut-on tout dire ?</p>
+
+
+
+<span id="more-627"></span>
+
+
+
+<p>4- L’engagement politique et la réflexion philosophique sont-elles compatibles ?</p>
+
+
+
+<p>5- La tâche de la philosophie est-elle de nous débarrasser de nos illutions et préjugés ?</p>
+
+
+
+<p>6- La philosophie est la science qui met fin au règne des certitudes. Cette définition de la philosophie vous paraît-elle recevable ?</p>
+
+
+
+<p>7- Philosopher, est-ce nier le savoir ?</p>
+
+
+
+<p>8- Faire de la philosophie, ce n’est pas poser un savoir, c’est contredire un passé, ruiner des certitudes. Qu’en pensez-vous ?</p>
+
+
+
+<p>9- La certitude est le signe d’une pensée morte. Qu’en pensez-vous ?</p>
+
+
+
+<p>10- La philosophie est-elle une entreprise de remise en cause de toutes les certitudes ?</p>
+
+
+
+<p>11- « La philosophie ne nous paraît pas recherche de savoir. Au contraire, elle nous paraît dissolution de tout savoir acquis ». Quelle réflexion vous suggère ce propos ?</p>
+
+
+
+<p>12- Douter est-ce renoncer à la vérité ?</p>
+
+
+
+<p>13- Le philosophe est-il nécessairement l’homme de son temps ?</p>
+
+
+
+<p>14- La raison a-t-elle toujours raison ?</p>
+
+
+
+<p>15- « Malheur au penseur qui n’est pas le jardiner mais le terrain de ses plantes ». Que vous suggère cette affirmation ?</p>
+
+
+
+<p>16- La philosophie se nourrit-elle essentiellement de ce qui n’est pas elle ?</p>
+
+
+
+<p>17- La philosophie n’est pas seulement une réflexion libre, elle est aussi une « discipline de libération ». Qu’en pensez-vous ?</p>
+
+
+
+<p>18- Suffit-il de prendre la vie avec philosophie pour philosopher ?</p>
+
+
+
+<p>19- Le plus grand bien dans un Etat consiste-t-il à avoir de vrais philosophes à sa tête ?</p>
+
+
+
+<p>20- La philosophie est une aventure de la raison qui naît de l’insatisfaction et s’achève dans la déception. Qu’en pensez-vous ?</p>
+
+
+
+<p>21- Croire et savoir.</p>
+
+
+
+<p>22- Deux excès : exclure la raison, n’admettre que la raison. Que vous suggère cette pensée ?</p>
+
+
+
+<p>23- Le fait que la philosophie revendique son droit d’être inutile est-il suffisant pour la récuser ?</p>
+
+
+
+<p>24- L’inutilité de la philosophie nous autorise-t-elle à la rejeter ?</p>
+
+
+
+<p>25- Les hommes actuels peuvent-ils dialoguer avec les philosophes du passé ?</p>
+
+
+
+<p>26- L’idée d’une philosophie locale ne vous semble-t-elle pas paradoxale ?</p>
+
+
+
+<p>27- Existe-t-il une philosophie africaine ?</p>
+
+
+
+<p>28- L’avenir est-il comme une page blanche ?</p>
+
+
+
+<p>29- Y a-t-il des vérités indiscutables ?</p>
+
+
+
+<p>30- Il n’y a pas de vérité sacrée, c&rsquo;est-à-dire interdite à la pleine investigation de l’homme. Qu’en pensez-vous ?</p>
+
+
+
+<p>31- Si quelqu’un pense et voit clair en tout, c’est qu’il a cessé de philosopher. Qu’en pensez-vous ?</p>
+
+
+
+<p>32- La sagesse est-elle périmée dans ce monde actuel ?</p>
+
+
+
+<p>33- La métaphysique comme œuvre de la raison n’est-elle qu’une illusion ?</p>
+
+
+
+<p>34- La certitude que nous offrent les sciences nous autorise-t-elle à renoncer à la métaphysique ?</p>
+
+
+
+<p>35- La métaphysique est dépassée a-t-on dit. Qu’en pensez-vous ?</p>
+
+
+
+<p>36- Faut-il rejeter la métaphysique ?</p>
+
+
+
+<p>37- C’est l’insuffisance des donnés sensibles qui fait naître la métaphysique. Qu’en pensez-vous ?</p>
+
+
+
+<p>38- Peut-on concevoir un homme sans valeur ?</p>
+
+
+
+<p>39- Le réel se réduit-il à ce qu’on perçoit ?</p>
+
+
+
+<p>40- Suffit-il de percevoir les objets pour les connaître ?</p>
+
+
+
+<p>41- Suffit-il de voir pour savoir ?</p>
+
+
+
+<p>42- La philosophie peut-elle aider à mieux vivre ?</p>
+
+
+
+<p>43- La philosophie est plutôt une façon d’être qu’un savoir. Qu’en pensez-vous ?</p>
+
+
+
+<p>44- La religion peut-elle avoir la même fonction que la philosophie ?</p>
+
+
+
+<p>45- La religion est-elle aliénation ?</p>
+
+
+
+<p>46- La philosophie a-t-elle quelque chose à apporter au savant ?</p>
+
+
+
+<p>47- La philosophie promet-elle le bonheur ?</p>
+
+
+
+<p>48- Ce que les sciences humaines nous font connaître de l’homme suffit-il pour connaître l’homme ?</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Dogmatisme, Dogme et Doute.</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/dogmatisme-dogme-et-doute/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Mon, 20 Jun 2022 02:14:35 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=623</guid>
+
+					<description><![CDATA[Les étymologies&#8230;Nous allons nous intéresser aux mots : Dogmatisme, Dogme et Doute. DOGMATISME : Le terme vient du grec et latin « dogma » qui veut dire opinion ou doctrine.&#8211; Sens ordinaire : c&#8217;est une rigidité intellectuelle des adeptes d&#8217;une doctrine, lorsque ceux-ci refusent d&#8217;envisager la discussion ou la remise en cause de ses fondements.&#8211; En philosophie&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Les étymologies&#8230;<br>Nous allons nous intéresser aux mots : Dogmatisme, Dogme et Doute.</p>
+
+
+
+<p>DOGMATISME :</p>
+
+
+
+<p>Le terme vient du grec et latin « dogma » qui veut dire opinion ou doctrine.<br>&#8211; Sens ordinaire : c&rsquo;est une rigidité intellectuelle des adeptes d&rsquo;une doctrine, lorsque ceux-ci refusent d&rsquo;envisager la discussion ou la remise en cause de ses fondements.<br>&#8211; En philosophie : c&rsquo;est une position philosophique consistant a admettre que l&rsquo;on peut atteindre puis démontrer des vérités certaines ou même absolues, notamment dans le domaine métaphysique.</p>
+
+
+
+<span id="more-623"></span>
+
+
+
+<p>Termes voisins : scepticisme.<br>Termes opposés : certitude, conviction, critique, doute, fanatisme, fideisme, préjugé.</p>
+
+
+
+<p>DOGME :</p>
+
+
+
+<p>Toujours du grec et latin « dogma », opinion, doctrine.<br>&#8211; Sens Théologique : c&rsquo;est l&rsquo;ensemble des positions caractéristiques d&rsquo;une religion.<br>&#8211; Sens ordinaire : point de doctrine établi et considéré comme intangible et indiscutable dans une école philosophique ou religieuse, dans un courant politique, etc.</p>
+
+
+
+<p>DOUTE :</p>
+
+
+
+<p>Du latin « dubitare », qui veut dire balancer.<br>&#8211; Sens ordinaire : état d&rsquo;esprit provenant d&rsquo;une absence de certitude.<br>&#8211; En philosophie : c&rsquo;est une attitude réfléchie, volontaire et critique ; suspension du jugement devant ce qui se présente comme une vérité, afin de l&rsquo;examiner et d&rsquo;en mettre a l&rsquo;épreuve le bien-fondé.<br>&#8211; En Epistemologie : selon Claude Bernard, c&rsquo;est la qualité fondamentale de l&rsquo;investigation scientifique, qui vise a ne pas prendre des conclusions momentanée des vérités absolues.</p>
+
+
+
+<p>Termes voisins : embarras, hésitation, incertitude.<br>Termes opposés : certitude.</p>
+
+
+
+<p></p>
+
+
+
+<p>Le doute libérateur :</p>
+
+
+
+<p>La valeur de la philosophie doit, en réalité, surtout résider dans son caractère incertain même. Celui qui n’a aucune teinture de philosophie traverse l’existence, prisonnier des préjugés dérivés du sens commun, des croyances habituelles à son temps ou à son pays et de conviction qui ont grandi en lui sans la coopération ni le consentement de la raison.<br>Pour un tel individu, le monde tend à devenir défini, fini, évident : les objets ordinaires ne font pas naître des questions et les possibilités peu familières sont rejetées avec mépris. Dès que nous commençons à penser conformément à la philosophie, au contraire, nous voyons, que mêmes les choses les plus ordinaires de la vie quotidienne posent des problèmes auxquels on ne trouve que des réponses très incomplètes.<br>La philosophie, bien qu’elle ne soit pas en mesure de nous donner avec certitude la réponse aux doutes qui nous assiègent, peut tout de même suggérer des possibilités qui élargissent le champ de notre pensée et délivre celle-ci de la tyrannie de l’habitude. Tout en ébranlant notre certitude concernant la nature de ce qui nous entoure, elle accroît énormément notre connaissance d’une réalité possible et différente ; elle fait disparaître le dogmatisme quelque peu arrogant de ceux qui n’ont jamais parcouru la région du doute libérateur, et elle garde intact notre sentiment d’émerveillement en nous faisant voir les choses familières sous un aspect nouveau.<br>Bernard Russel, Problèmes de philosophie.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ANTIGONE de Jean ANOUILH.</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/antigone-de-jean-anouilh/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Mon, 20 Jun 2022 02:13:10 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=621</guid>
+
+					<description><![CDATA[INTRODUCTION.S&#8217;il faut dresser une liste des dramaturges les plus en vue au XIX ème siècle, nous ne pouvons pas manquer d&#8217;y faire figurer Jean Anouilh en bonne place. En effet, ce talentueux dramaturge a marqué son temps de son empreinte par la diversité de ses pièces et la nouveauté de son style. Pour cerner cette&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>INTRODUCTION.<br>S&rsquo;il faut dresser une liste des dramaturges les plus en vue au XIX ème siècle, nous ne pouvons pas manquer d&rsquo;y faire figurer Jean Anouilh en bonne place. En effet, ce talentueux dramaturge a marqué son temps de son empreinte par la diversité de ses pièces et la nouveauté de son style. Pour cerner cette étude faite sur lui, nous l&rsquo;articulerons autour de quatre points : la vie et l&rsquo;oeuvre d&rsquo;abord, le résumé de la pièce ensuite et, avant de parler de la portée significative de l&rsquo;oeuvre enfin, nous ne manquerons pas de faire le portrait des personnages les plus influents.</p>
+
+
+
+<span id="more-621"></span>
+
+
+
+<p>I. LA VIE ET L&rsquo;OEUVRE.<br>1. La biographie (vie de l&rsquo;auteur).<br>Jean Anouilh est un auteur dramatique en même temps que metteur en scène français dont le répertoire riche et varié mêle le classicisme des sentiments à la nouveauté de la forme théâtrale. Né à Bordeaux en 1910, il fit des études de droit à Paris puis travailla dans la publicité, avant de devenir le secrétaire de Louis Jouvet en 1928. Cette rencontre avec ce grand metteur en scène fut décisive dans sa volonté de se consacrer au théâtre où ses premières pièces suscitèrent l&rsquo;adhésion d&rsquo;un vaste public. Il mourut à l&rsquo;âge de soixante-dix-sept ans, en 1987.</p>
+
+
+
+<p>2. La bibliographie (oeuvres de l&rsquo;auteur).<br>Ses premières pièces sont L&rsquo;Hermine (1932), Le Voyageur sans bagages (1937) et La Sauvage (1938). Anouilh se révéla également doué pour la comédie grâce notamment au Bal des voleurs (1938). Sous l&rsquo;Occupation, il donna deux adaptations modernes de la tragédie grecque (Eurydice, 1942 et Antigone, 1944) qui eurent un succès retentissant. Bien qu&rsquo;il soit d&rsquo;apparence classique, son théâtre comprend quelques-unes des oeuvres les plus modernistes du XX ème siècle : L&rsquo;Alouette (1953), une adaptation de la légende de Jeanne d&rsquo;Arc, Beckett ou l&rsquo;Honneur de Dieu (1959) où, là encore, l&rsquo;histoire est prétexte à une création originale. En outre, il est parfois considéré comme l&rsquo;auteur d&rsquo;un théâtre de distraction ; il donna effectivement des pièces de pur divertissement comme La Culotte (1978) ou encore Le Nombril (1981). Dénonçant sans cesse le mensonge social, il développa un vaste réquisitoire contre la famille, l&rsquo;amour, l&rsquo;amitié et tout ce qu&rsquo;il considérait comme des idéaux naïfs, avant de se tourner vers un théâtre plus autobiographique où se réaffirmait cependant sa nostalgie d&rsquo;une pureté inaccessible : Le Boulanger, la Boulangère et le petit mitron (1968), Les Poissons rouges (1970), Ne réveillez pas Madame (1970)&#8230;</p>
+
+
+
+<p>II. LE RÉSUMÉ DE L&rsquo;OEUVRE.<br>1. L&rsquo;exposition.<br>L&rsquo;exposition encadre d&rsquo;habitude l&rsquo;ensemble des premières scènes où règne la tranquillité. C&rsquo;est aussi l&rsquo;occasion, pour l&rsquo;auteur, d&rsquo;exposer la naissance du conflit qui servira de trame aux événements qui surviendront .<br>Dans Antigone, l&rsquo;histoire commence à six heures du matin. Tout est tranquille mais la nourrice est inquiète parce qu&rsquo;Antigone, la jeune fille dont elle a la charge, n&rsquo;a pas passé la nuit dans sa chambre. Celle-ci apparaît pieds nus, salie par un peu de terre sur sa vilaine figure et ses petites mains. La nourrice la gronde. Elle se défend en disant qu&rsquo;elle vient d&rsquo;accomplir son devoir moral : enterrer son frère Polynice. Sa soeur Ismène, elle, avoue son manque de courage et son envie de vivre car on a interdit à quiconque (sous peine d&rsquo;être enterré vivant) d&rsquo;accorder une sépulture au cadavre de Polynice jeté sous le chaud soleil pour s&rsquo;être battu à mort contre son frère aîné Étéocle.</p>
+
+
+
+<p>2. Le noeud.<br>Le noeud correspond à une période de crise pendant laquelle la tension est tellement vive, la solution si invisible, les relations si tendues, qu&rsquo;on ne sait plus quelle issue, quelle trajectoire la suite de la pièce va épouser.<br>Dans l&rsquo;oeuvre, Antigone récidive en retournant auprès du corps de Polynice pour tenter à nouveau de lui offrir la sépulture qui sied à tout cadavre respectable. Cette fois, les gardes la surprennent, la mettent aux arrêts et la conduisent manu militari auprès du roi Créon. Celui-ci veut la sauver car elle est avant tout une citoyenne, qui plus est sa nièce et, mieux encore, sa future belle-fille, étant donné qu&rsquo;elle est fiancée à son fils Hémon. Il lui promet de supprimer les gardes qui sont des témoins gênants, à condition qu&rsquo;elle ne refasse plus la même bêtise.</p>
+
+
+
+<p>3. Le dénouement.<br>Le dénouement regroupe l&rsquo;ensemble des scènes où une issue au blocage commence à apparaître, qu&rsquo;elle soit heureuse ou malheureuse.<br>C&rsquo;est cette dernière trajectoire que la fatalité choisit pour Antigone. En effet, elle est obstinée dans sa ferme volonté d&rsquo;enterrer son frère. La sentence sera exécutée après cette troisième tentative car elle sera enterrée vivante tel que l&rsquo;a décidé le conseil des sages du royaume. Ismène aura du courage pour la première fois de sa vie puisqu&rsquo;elle se suicidera, suivant sa soeur en enfer par cet acte fraternel. Incapable de supporter une vie sans sa bien-aimée, Hémon lui aussi décide de se donner la mort. C&rsquo;est donc un triple deuil pour Créon qui se sent seul, très seul, à la fin de la pièce. Il quitte la scène en affirmant avoir l&rsquo;impression d&rsquo;être subitement vieilli par l&rsquo;exercice du pouvoir.</p>
+
+
+
+<p>III. PERSONNAGES PRINCIPAUX.<br>1. Antigone et Ismène.<br>Ce sont deux soeurs aux traits et tempéraments opposés, bien qu&rsquo;étant très attachées l&rsquo;une à l&rsquo;autre. Antigone est laide tandis qu&rsquo;Ismène est belle à ravir. L&rsquo;une n&rsquo;a qu&rsquo;une idée fixe (enterrer son frère) alors que l&rsquo;autre rêve d&rsquo;amour et songe à sa toilette, au bal et à la belle vie. Antigone est brave et Ismène est peureuse. La nourrice aurait aimé échanger ces traits physiques et moraux pour avoir la paix.</p>
+
+
+
+<p>2. La nourrice.<br>Après la mort de leur père et mère (Oedipe et Jocaste), c&rsquo;est elle qui a assuré la garde de ces deux filles. Elle veille sur elles mais ne pourra empêcher le destin de se produire, malgré tous ses efforts et toute son autorité.</p>
+
+
+
+<p>3. Créon.<br>C&rsquo;est lui qui a été porté à la tête du pouvoir après la mort de son grand frère Oedipe. Il est donc l&rsquo;oncle de ces deux filles (Antigone et Ismène) et des deux garçons (Polynice et Étéocle). Chose plus plus complexe encore : ce roi de Thèbes qui prétend exercer son pouvoir par une main de fer est aussi faible qu&rsquo;un roseau. Lors de plusieurs tête-à-tête, il tente en vain de sauver sa nièce ou sa future belle-fille. Il promet même de tuer les gardes qui ont surpris Antigone dans son entreprise audacieuse.</p>
+
+
+
+<p>4. Hémon.<br>C&rsquo;est le prince, futur roi et futur époux d&rsquo;Antigone qu&rsquo;il aime passionnément. Malheureusement, il se révèle incapable de sauver sa bien-aimée. Le dernier acte symbolique ou sa plus grande preuve d&rsquo;amour qu&rsquo;il lui voue sera de la suivre dans la tombe où elle a été enterrée vivante.</p>
+
+
+
+<p>5. Les gardes.<br>Ils sont les forces de l&rsquo;ordre, les représentants de la loi. Leur rôle est donc d&rsquo;exécuter les ordres du chef, même s&rsquo;il faut, pour cela, être brutal. Ils apparaissent sur scène toutes les fois qu&rsquo;Antigone récidive.</p>
+
+
+
+<p>IV. PORTÉE ET SIGNIFICATION DE LA PIÈCE.<br>1. L&rsquo;actualisation du mythe.<br>Cette histoire a déjà été écrite par Sophocle, un grand tragédien grec du XVI ème siècle. Anouilh a renouvelé ce mythe dans un tout autre objectif ; en effet, la France vivait pendant la seconde guerre mondiale sous l&rsquo;occupation allemande. Deux choix s&rsquo;étaient alors opposés. Les uns acceptaient de cohabiter avec l&rsquo;ennemi tandis que les autres choisirent la résistance. Justement, A. N. T. I. G. O. N. E est l&rsquo;incarnation de cette résistance. Rien que l&rsquo;anagramme de son prénom la définit comme la « N. E. G. A. T. I. O. N » d&rsquo;une loi humiliante à laquelle elle était incapable de se soumettre. Le dramaturge a préféré un personnage féminin comme la France et l&rsquo;a vêtue de toutes les qualités requises dans un univers de violence absurde qui rappelle au spectateur le chaos dans lequel l&rsquo;Europe se trouvait au moment de la création de la pièce.</p>
+
+
+
+<p>2. Le style employé.<br>Anouilh a véritablement révolutionné le théâtre traditionnel en travestissant les règles qui le codifient. Il mêle avec aisance les genres dramatiques à tel point qu&rsquo;on n&rsquo;ose plus appeler la pièce une tragédie (car il y a tellement de scènes comiques), ni une comédie (étant donné que les personnages sont de sang royal), ni une tragicomédie (puisque l&rsquo;histoire se termine par un bain de sang), mais plutôt un drame. En outre, le langage est retravaillé, modernisé à telle enseigne que les personnages, bien que d&rsquo;origine antique, semblent très proches de nous. C&rsquo;est pour cette raison que la nourrice est un personnage créé de toute pièce. Enfin, quand les gardes ou Ismène parlent par exemple, ils emploient un langage familier truffé du vocabulaire du XX ème siècle. Le décor, les costumes et les objets bénéficient à leur tour du même traitement (souliers, robes de soie, nounours, rouge à lèvres&#8230;)</p>
+
+
+
+<p>CONCLUSION.<br>En conclusion, nous pouvons dire que la pièce est étonnamment moderne, dans le style comme dans le thème ,même si le sujet est emprunté à un dramaturge antique tel que Sophocle. Antigone fait partie de ces oeuvres qu&rsquo;on lit et dont on a envie d&rsquo;assister à la représentation ; tellement le langage est travaillé avec simplicité, tellement l&rsquo;action théâtrale est bien enchaînée et tellement les personnages nous séduisent et nous émeuvent, qu&rsquo;on finit par se demander pourquoi l&rsquo;auteur n&rsquo;a pas emporté un prix Nobel de littérature&#8230;</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LE ROMANTISME</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/le-romantisme/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Mon, 20 Jun 2022 02:12:25 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=619</guid>
+
+					<description><![CDATA[Premier mouvement artistique apparu au XIX ème siècle (peinture, musique et littérature), le romantisme est un courant entretenant des rapports étroits avec ceux qui l&#8217;ont précédé dans le temps : le préromantisme (XVIII ème siècle) et le classicisme (XVII ème siècle). Une relation de ressemblance avec le premier au point qu&#8217;un lien de sympathie unit&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p><br>Premier mouvement artistique apparu au XIX ème siècle (peinture, musique et littérature), le romantisme est un courant entretenant des rapports étroits avec ceux qui l&rsquo;ont précédé dans le temps : le préromantisme (XVIII ème siècle) et le classicisme (XVII ème siècle). Une relation de ressemblance avec le premier au point qu&rsquo;un lien de sympathie unit le romantique aux devanciers. (Ils partagent les mêmes thèmes et le même style). Une relation d&rsquo;opposition à l&rsquo;encontre du second puisque le romantique juge les règles d&rsquo;écriture classique trop contraignantes qui bloquent, étouffent, anéantissent le génie  le talent, l&rsquo;inspiration de l&rsquo;écrivain. Et celui qui s&rsquo;est le plus érigé contre ces règles, celui qui a produit le plus d&rsquo;oeuvres, celui qui a traversé tout son siècle (surnommé pour cela  »l&rsquo;homme-océan ») a été incontestablement considéré comme chef de file : Victor Hugo. On peut citer d&rsquo;autres écrivains romantiques tels que Lamartine, Chateaubriand, Madame de Staël, George Sand, Musset, Vigny, Nerval, Michelet&#8230;</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LE SYMBOLISME.</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/le-symbolisme/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Mon, 20 Jun 2022 02:11:41 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=617</guid>
+
+					<description><![CDATA[Bien après la seconde moitié du XIX ème siècle français, un courant littéraire est né pour succéder au Parnasse : le symbolisme.Ce nom de baptême nécessite un petit commentaire pour en comprendre le sens. Étymologiquement parlant, durant la Grèce antique, pour former ou matérialiser une relation (amicale, amoureuse, matrimoniale, parentale, nationale&#8230;), les gens avaient le&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Bien après la seconde moitié du XIX ème siècle français, un courant littéraire est né pour succéder au Parnasse : le symbolisme.<br>Ce nom de baptême nécessite un petit commentaire pour en comprendre le sens. Étymologiquement parlant, durant la Grèce antique, pour former ou matérialiser une relation (amicale, amoureuse, matrimoniale, parentale, nationale&#8230;), les gens avaient le pli (l&rsquo;habitude) de s&rsquo;échanger une poterie brisée (le  »symbôlon ») dont chacun gardait une partie.<br>Charles Baudelaire, Paul Verlaine, Arthur Rimbaud, Stéphane Mallarmé&#8230; en sont les auteurs incontournables. Trois principes fondamentaux sous-tendent ce mouvement littéraire.</p>
+
+
+
+<p>PRINCIPE 1 : UNE ENTREPRISE DE SIGNIFICATION.<br>Le réel qui environne l&rsquo;humanité est peuplé de signes qui nous parlent dans un langage codé mais, hélas, inaudible, imperceptible pour le commun des mortels. Seul un oeil averti, un esprit observateur, une attention particulière portée sur les objets, en un mot un illuminé comme l&rsquo;artiste, le poète, est capable d&rsquo;en comprendre le sens profond sous la structure de surface. Combien de fois le sens commun observe-t-il les étapes d&rsquo;évolution d&rsquo;un arbre fruitier par exemple (semaille, germination, arborescence, bourgeonnement, défeuillaison, fin)? S&rsquo;est-on toujours demandé à quoi ces étapes successives ressemblent-elles ? N&rsquo;est-ce pas pareil à l&rsquo;évolution de l&rsquo;homme (spermatozoïde, naissance, jeunesse, reproduction, vieillesse, mort)?<br>Les symbolistes sont alors absolument convaincus que le rôle de l&rsquo;artiste consiste à découvrir (au sens propre comme au figuré), au grand bonheur des hommes, le sens caché des objets qui nous entourent. Voilà pourquoi ils utilisent les figures de substitution telles que la comparaison, la métaphore, la périphrase, l&rsquo;allégorie&#8230; pour représenter les lignes arrière, montrer les arbres que cache la forêt. C&rsquo;est aussi pour toutes ces raisons que Baudelaire disait dans un de ses poèmes des Fleurs du Mal (1857) intitulé  »Correspondances » :</p>
+
+
+
+<p> »La nature est un temple où de vivants piliers<br>Laissent parfois sortir de confuses paroles ;<br>L&rsquo;homme y passe à travers des forêts de symboles<br>Qui l&rsquo;observent avec des regards familiers ».</p>
+
+
+
+<p>PRINCIPE 2 : UN COCKTAIL DE COURANTS<br>J&rsquo;ai une fois vu la publication d&rsquo;un internaute à propos de la différence physique entre les femmes. L&rsquo;internaute disait que ces dernières ont l&rsquo;apparence de la diversité des fruits : il y en a, en effet, qui sont vertes, jaunes, oranges, rouges&#8230; Le plus drôle, c&rsquo;est quand, après avoir juré qu&rsquo;elles sont toutes merveilleuses, il a regretté le comportement de certains hommes infidèles qui préfèrent, malgré tout, le cocktail, la salade de fruits. (Mdr !)<br>Justement, le symbolisme est un cocktail, par rapport aux écrivains&nbsp; français qui les ont précédés dans le temps et dont j&rsquo;avais énoncé les principes (les classiques, les romantiques, les réalistes et les naturalistes, les parnassiens).<br>Ainsi, en comparaison avec les premiers, les symbolistes partagent le souci du texte bien écrit, mais l&rsquo;inspiration n&rsquo;est pas forcément antique. Ces écrivains sont également sentimentaux comme les deuxièmes ; toutefois, leur projet d&rsquo;écriture ne consiste à s&rsquo;épancher. Les symbolistes sympathisent avec les troisièmes en s&rsquo;inspirant certes du réel (beau ou laid) mais le choix du roman exclusif est contestable. Enfin, les écrivains acclament la pureté du style prônée par les quatrièmes ; en revanche, ce culte du beau ne doit pas être seulement perçu par rapport à l&rsquo;objet ou à l&rsquo;objectif de l&rsquo;activité créatrice.</p>
+
+
+
+<p>PRINCIPE 3 : DIFFÉRENCES DE CONCEPTION ENTRE SYMBOLISTES.<br>Voici une génération d&rsquo;écrivains avec des différences de conception du texte littéraire. En d&rsquo;autres termes, ils ambitionnent tous de passer par la représentation des objets pour aboutir à l&rsquo;idée mais même si l&rsquo;approche est assez identique, la conception du texte diffère quelque peu.<br>Ainsi, la poésie des uns est assez explicite. L&rsquo;objet représenté de long en large, de sa structure de surface à sa structure profonde, aboutit à une signification exprimée par l&rsquo;auteur généralement à la chute (à la fin du poème). C&rsquo;est bien ce que nous remarquons dans  »L&rsquo;Albatros » de Baudelaire ou encore dans  »Le dormeur du val » de Rimbaud. Dans le premier poème, l&rsquo;auteur révèle que  »le poète est semblable au prince des nuées » (l&rsquo;oiseau) ; dans le second, l&rsquo;artiste montre combien le sommeil et la mort sont apparentés, à l&rsquo;instar de ce soldat qui a  »deux trous rouges au côté droit ».<br>Néanmoins, la poésie des autres reste hermétique parce que, pour eux, pour qu&rsquo;un signe conserve toute sa splendeur, il doit le demeurer. Il appartient donc au lecteur de faire un effort d&rsquo;interprétation pour saisir tout le sens de l&rsquo;objet représenté de façon implicite. C&rsquo;est pour cette raison que Mallarmé disait :  »toute chose sacrée qui veut demeurer sacrée s&rsquo;enveloppe de mystères ».</p>
+
+
+
+<p>LE MOT DE LA FIN.<br>Somme toute, le symbolisme est le courant littéraire qui a réussi à synthétiser tous les modèles de pensées et d&rsquo;écriture des générations précédentes.<br>En revanche, il a fait l&rsquo;objet de critiques car certains qualifiaient les écrivains qui s&rsquo;adonnaient à&nbsp; cette forme de littérature comme des gens qui encouragent la jeunesse au vice (drogue, sexualité, fugue, déviances, alcoolisme dont les mérites sont souvent vantés). Pour preuve, interprétons le titre du recueil poétique de Baudelaire (Les Fleurs du Mal).<br>Pourtant, ces écrivains restent persuadés qu&rsquo;ils promettent au monde une délivrance prométhéenne à la limite, en sortant l&rsquo;humanité des ténèbres pour la mener vers la lumière. D&rsquo;ailleurs, des écrivains du siècle suivant porteront encore ce flambeau : les surréalistes.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LE RÉALISME ET LE NATURALISME.</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/le-realisme-et-le-naturalisme/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Mon, 20 Jun 2022 02:10:58 +0000</pubDate>
+				<category><![CDATA[EDUCATION]]></category>
+		<category><![CDATA[expose]]></category>
+		<category><![CDATA[philo]]></category>
+		<category><![CDATA[philosophie]]></category>
+		<category><![CDATA[roman]]></category>
+		<category><![CDATA[theatre]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=615</guid>
+
+					<description><![CDATA[Formule introductive : la révolution industrielle a connu son apogée au XIX ème siècle. Les découvertes scientifiques et techniques avaient vraiment secoué et préoccupé le monde européen dans tous les domaines d&#8217;activité (agriculture, transport, médecine&#8230;). Nonobstant, celles-ci avaient aussi l&#8217;air d&#8217;un couteau à double tranchant. En effet, autant elles ont sensiblement amélioré les conditions de&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Formule introductive : la révolution industrielle a connu son apogée au XIX ème siècle. Les découvertes scientifiques et techniques avaient vraiment secoué et préoccupé le monde européen dans tous les domaines d&rsquo;activité (agriculture, transport, médecine&#8230;). Nonobstant, celles-ci avaient aussi l&rsquo;air d&rsquo;un couteau à double tranchant. En effet, autant elles ont sensiblement amélioré les conditions de vie (le travail était devenu moins fatigant et la production intensifiée et accélérée, on se déplaçait plus vite et plus confortablement, on ne mourait plus de certaines maladies&#8230;), autant elles ont également donné naissance aux classes sociales dont les forces sont inégales : la  bourgeoisie (moins nombreuse et plus riche) et le prolétariat (plus populeuse et plus pauvre).<br>Divorçant avec la littérature romantique (égoïste avec son lyrisme et imaginative avec ses fictions), une nouvelle génération d&rsquo;artistes préfère attacher plus de prix à la fidèle peinture du réel, à cette représentation de ce conflit de classes et de passions qui offre un sujet d&rsquo;inspiration inépuisable et qui lui semble plus utilitaire. C&rsquo;est ainsi que le réalisme est né, un mouvement artistique qui se prolongera dans le temps pour s&rsquo;appeler naturalisme. Parmi les plus grands auteurs de ce courant littéraire, on doit citer Honoré de BALZAC, Henri BEYLE (Stendhal), Gustave FLAUBERT, les frères GONCOURT (Jules et Edmond), Guy de MAUPASSANT, Émile ZOLA&#8230;<br>Voici, très brièvement résumés, quatre principes fondamentaux du réalisme et du naturalisme.</p>
+
+
+
+<p>PRINCIPE 1 : LA REPRÉSENTATION DU RÉEL.<br>Au tribunal, quand on attrait un témoin à la barre, avant tout, on lui fait jurer, la main sur le texte sacré, de dire la vérité, toute la vérité, rien que la vérité (comme dans  »rirou tribunal »<img alt="&#x1f602;" src="https://fonts.gstatic.com/s/e/notoemoji/14.0/1f602/32.png">). C&rsquo;est à peu près cela aussi, le projet de départ de l&rsquo;écrivain réaliste : la volonté de représenter le plus fidèlement possible la réalité, rien que la réalité, toute la réalité. Pour y parvenir, il puise son sujet, sa source d&rsquo;inspiration, dans les faits divers, le vécu quotidien, les bas-fonds. Pour ce faire, il s&rsquo;adonne à une patiente et obsédante documentation (en notant tout, en lisant tout, en interrogeant tout&#8230;). Ce n&rsquo;est qu&rsquo;après ce travail souterrain qu&rsquo;il commence véritablement la rédaction de l&rsquo;oeuvre qui sort de sa plume comme un enfant du ventre de sa mère ! Gustave Flaubert est passé maître dans la patience de mettre par écrit ses oeuvres d&rsquo;art, surtout lorsqu&rsquo;on lit ses fameuses Correspondances où il en parle.</p>
+
+
+
+<p>PRINCIPE 2 : LA LITTÉRATURE DE L&rsquo;HORREUR.<br>Beaucoup de contemporains du réalisme ne partageaient pas tellement cette nouvelle tendance de l&rsquo;artiste qui n&rsquo;éprouve aucun scrupule à restituer si crûment, si indifféremment, la réalité cruelle. En effet, ces écrivains affectionnaient particulièrement la représentation de scènes liées à la saleté, la sexualité, au manque de morale, à la violence&#8230; Ils étaient alors qualifiés de malpropres (comme chez les pauvres), d&rsquo;obscènes (comme chez les arrivistes coureurs de jupons), d&rsquo;immoraux (comme chez les chefs d&rsquo;entreprise), de sadiques (comme chez les grévistes ou les hommes de tenue)&#8230; Mais nous en comprenons la raison : c&rsquo;est parce que ces écrivains ne veulent point trahir leur projet de départ, en particulier la représentation de toute la réalité, adhérant par la même occasion à la conception du monde tel que l&rsquo;entend la philosophie chinoise du yin et du yang ; ce bas-monde tient son équilibre d&rsquo;une chose et de son contraire, à l&rsquo;instar de la beauté qui cohabite avec la laideur, à cette  »horreur », synonyme du mal observé sous tous les angles, même sentimentaux. Il suffit de lire L&rsquo;Assommoir de Émile Zola pour s&rsquo;en convaincre.</p>
+
+
+
+<p>PRINCIPE 3 : L&rsquo;IMPERSONNALITÉ.<br>On dit d&rsquo;un écrivain qu&rsquo;il est impersonnel lorsqu&rsquo;il se garde de toute apparition dans son texte (physique, avisée, visionnaire). Les réalistes et les naturalistes sont comme des photographes de leur époque, et un photographe n&rsquo;est intéressé que par son objectif. Toutefois, ils sont très engagés même s&rsquo;ils adoptent une posture d&rsquo;objectivité, de neutralité absolue. Pour preuve, Émile ZOLA disait : « j&rsquo;aurais voulu aplatir le monde, d&rsquo;un coup de ma plume, en forgeant des fictions utiles ». Quand le romantique est engagé avec un  »je », le réalisme s&rsquo;en défend et fait juste voir les injustices dont les bourgeois sont les responsables et les prolétaires les victimes. Cet engagement objectif se perçoit aussi dans cette citation des frères GONCOURT qui affirment : « l&rsquo;écrivain doit être dans son livre comme la police dans une ville, partout et nulle part ». Gustave FLAUBERT ira beaucoup plus loin lorsqu&rsquo;il ordonne : « l&rsquo;artiste doit être dans son oeuvre comme Dieu dans la création ; présent partout et visible nulle part, qu&rsquo;on le sente mais qu&rsquo;on ne le voie pas ». J&rsquo;ai exploité avec mes élèves un passage textuel de Germinal (1885) qui représente la scène de rencontre d&rsquo;Étienne (personnage principal) et Bonnemort (doyen des ouvriers mineurs). En le subdivisant en trois mouvements (les présentations, le portrait du vieil homme et la carrière de celui-ci), on s&rsquo;est rendu compte que le premier est effectué par les deux personnages ; le deuxième s&rsquo;échafaude sous le regard médusé d&rsquo;Étienne ; le troisième est parcouru, retracé par Bonnemort. Nulle part Émile Zola n&rsquo;apparaît, grâce à l&rsquo;usage exclusif de la focalisation interne.</p>
+
+
+
+<p>PRINCIPE 4 : LE CHOIX DU ROMAN.<br>C&rsquo;est devenu comme un pléonasme (une répétition inutile) quand on emploie l&rsquo;expression  »romancier réaliste » parce que l&rsquo;écrasante majorité des réalistes et naturalistes fait usage des romans. Pourquoi le choix exclusif de ce genre littéraire au détriment des autres ? C&rsquo;est parce que la poésie est trop réglementaire et ceux qui l&#8217;emploient l&rsquo;utilisent généralement pour la description. C&rsquo;est parce que le théâtre se consacre essentiellement à la représentation des scènes de dialogue. C&rsquo;est plutôt le roman qui permet le mieux, et plus aisément, de restituer fidèlement le réel sous tous ses angles, selon les nécessités esthétiques, en harmonisant toutes ces formes textuelles conjuguées. En effet, là, l&rsquo;écrivain est capable de produire des passages descriptifs, des séquences narratives, des scènes de dialogue, selon l&rsquo;exigence stylistique qui s&rsquo;impose dans l&rsquo;oeuvre et surtout son lien avec le projet de départ : la réalité, rien que la réalité, toute la réalité. Pour preuve, toujours dans le même passage textuel de Germinal cité plus haut <img alt="&#x1f446;" src="https://fonts.gstatic.com/s/e/notoemoji/14.0/1f446/32.png">, les présentations se déroulent sous forme de DIALOGUE, le portrait n&rsquo;est qu&rsquo;une variante de la DESCRIPTION et la carrière est parcourue sous forme de NARRATION.</p>
+
+
+
+<p>Le mot de la fin :<br>Jusqu&rsquo;à la fin du siècle, le réalisme et le naturalisme n&rsquo;étaient pas démodés. Mieux encore, au XX ème siècle, une nouvelle génération les propulse beaux plus en avant : les surréalistes . Que dire de ces deux noms de baptême ? Existe-t-il une différence entre eux ? À la place de différence, il faut préférer le terme  »prolongation ». Si le réalisme était très enclin à la description du réel, le naturalisme le prolonge dans cette voie jusqu&rsquo;à donner à cette littérature une portée, un procédé presque scientifique à la limite. Quoi qu&rsquo;il en soit, la différence est bien maigre.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
 ]]></content:encoded>
 					
 		
