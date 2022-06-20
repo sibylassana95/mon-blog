@@ -12,13 +12,21 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/html/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Sat, 18 Jun 2022 18:42:09 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jun 2022 03:27:30 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>HTML &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Les caractères spéciaux</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-caracteres-speciaux/</link>
@@ -958,7 +966,6 @@ ou provisoire à chaque appareil connecté
 		<item>
 		<title>Mise en forme d&#8217;un document HTML</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/mise-en-forme-dun-document-html/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/mise-en-forme-dun-document-html/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:45:04 +0000</pubDate>
@@ -1093,15 +1100,12 @@ Si vous avez une &lt;u&gt; question &lt;/u&gt; posez la dans le &lt;font color="
 </div></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/mise-en-forme-dun-document-html/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Structure d&#8217;un document HTML</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/creez-votre-premiere-page-web-en-html/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/creez-votre-premiere-page-web-en-html/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:36:26 +0000</pubDate>
@@ -1178,15 +1182,12 @@ Voici un exemple de page HTML
 </div></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/creez-votre-premiere-page-web-en-html/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Introduction au langage HTML</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-html/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-html/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:32:37 +0000</pubDate>
@@ -1230,8 +1231,6 @@ Voici un exemple de page HTML
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-html/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

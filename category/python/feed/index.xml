@@ -12,17 +12,24 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/python/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Sat, 18 Jun 2022 16:24:11 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jun 2022 03:26:19 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>Python &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Le gestionnaire des packages pip</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/le-gestionnaire-des-packages-pip/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/le-gestionnaire-des-packages-pip/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:24:11 +0000</pubDate>
@@ -140,15 +147,12 @@
 <pre class="wp-block-code"><code>pip search nom_du_package</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/le-gestionnaire-des-packages-pip/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Les exceptions en Python ( Try Except )</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-exceptions-en-python-try-except/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-exceptions-en-python-try-except/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:22:34 +0000</pubDate>
@@ -265,15 +269,12 @@ finally:
     # bloc de code qui sera toujours exécuté</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-exceptions-en-python-try-except/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Héritage en langage Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/heritage-en-langage-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/heritage-en-langage-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:21:05 +0000</pubDate>
@@ -380,15 +381,12 @@ print("La filière de l'étudiant  est : " ,Stud.filiere)</code></pre>
 <p><em>Le nom de l&rsquo;étudiant est :<strong>&nbsp;Albert</strong></em><br><em>L&rsquo;age de l&rsquo;étudiant est :<strong>&nbsp;27</strong></em><br><em>La filière de l&rsquo;étudiant est :&nbsp;<strong>math</strong></em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/heritage-en-langage-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Programmation orientée objet POO et classes en Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/programmation-orientee-objet-poo-et-classes-en-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/programmation-orientee-objet-poo-et-classes-en-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:19:55 +0000</pubDate>
@@ -542,15 +540,12 @@ class myClass:
 myClass.myStaticMethod()</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/programmation-orientee-objet-poo-et-classes-en-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Les ensembles en Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-ensembles-en-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-ensembles-en-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:18:15 +0000</pubDate>
@@ -760,15 +755,12 @@ print(mySet)
 <ol id="magicparlabel-947"><li><strong>add() :&nbsp;</strong>ajoute un élément à l&rsquo;ensemble</li><li><strong>clear()</strong>&nbsp;: supprime tous les éléments de l&rsquo;ensemble</li><li><strong>copy()</strong>&nbsp;: retourne une copie de l&rsquo;ensemble</li><li><strong>difference ()</strong>&nbsp;: retourne un ensemble contenant la différence entre deux ensembles ou plus.</li><li><strong>difference_update() :&nbsp;</strong>supprime les éléments de cet ensemble qui sont également inclus dans un autre ensemble spécifié</li><li><strong>discard() :</strong>&nbsp;supprimer l&rsquo;élément spécifié</li><li><strong>intersection() :</strong>&nbsp;retourne un ensemble, qui est l&rsquo;intersection de deux autres ensembles.</li><li><strong>intersection_update() :</strong>&nbsp;supprime les éléments de cet ensemble qui ne sont pas présents dans d&rsquo;autres ensembles spécifiés.</li><li><strong>isdisjoint() :</strong>&nbsp;indique si deux ensembles ont une intersection ou non.</li><li><strong>issubset() :</strong>&nbsp;indique si un autre jeu contient ce jeu ou non.</li><li><strong>issuperset() :</strong>&nbsp;indique si cet ensemble contient un autre ensemble ou non.</li><li><strong>pop() :&nbsp;</strong>supprime un élément de l&rsquo;ensemble</li><li><strong>remove() :</strong>&nbsp;supprime l&rsquo;élément spécifié</li><li><strong>symmetric_difference() :</strong>&nbsp;retourne un ensemble avec les différences symétriques de deux ensembles</li><li><strong>symmetric_difference_update() :</strong>&nbsp;insère les différences symétriques de cet ensemble et d&rsquo;un autre</li><li><strong>union() :&nbsp;</strong>retourne un ensemble contenant l&rsquo;union des ensembles</li><li><strong>update() :</strong>&nbsp;met à jour l&rsquo;ensemble avec l&rsquo;union de cet ensemble et d&rsquo;autres</li></ol>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-ensembles-en-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Les dictionnaires en langage Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-dictionnaires-en-langage-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-dictionnaires-en-langage-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:16:51 +0000</pubDate>
@@ -981,15 +973,12 @@ print(stock)
 <ol><li><strong>clear() :</strong>&nbsp;supprime tous les éléments du dictionnaire.</li><li><strong>copy() :</strong>&nbsp;retourne une copie superficielle du dictionnaire.</li><li><strong>fromkeys(seq [, v]) :</strong>&nbsp;retourne un nouveau dictionnaire avec les clés de seq et une valeur égale à v (la valeur par défaut est None).</li><li><strong>get(key [, d]) :</strong>&nbsp;retourne la valeur de key. Si la clé ne quitte pas, retourne d (la valeur par défaut est Aucune).</li><li><strong>items() :</strong>&nbsp;retourne une nouvelle vue des éléments du dictionnaire (clé, valeur).</li><li><strong>keys() :</strong>&nbsp;retourne une nouvelle vue des clés du dictionnaire.</li><li><strong>pop(key [, d]) :</strong>&nbsp;supprime l&rsquo;élément avec key et renvoie sa valeur ou d si key n&rsquo;est pas trouvé. Si d n&rsquo;est pas fourni et que la clé est introuvable, soulève KeyError.</li><li><strong>popitem() :</strong>&nbsp;supprimer et retourner un élément arbitraire (clé, valeur). Lève KeyError si le dictionnaire est vide.</li><li><strong>setdefault(key [, d]) :</strong>&nbsp;si key est dans le dictionnaire, retourne sa valeur. Sinon, insérez la clé avec la valeur d et renvoyez d (la valeur par défaut est Aucune).</li><li><strong>update([other]) :</strong>&nbsp;met à jour le dictionnaire avec les paires clé / valeur des autres clés existantes.</li><li><strong>values() :</strong>&nbsp;retourne une nouvelle vue des valeurs du dictionnaire</li></ol>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-dictionnaires-en-langage-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Les tuples en langage Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-tuples-en-langage-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-tuples-en-langage-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:15:06 +0000</pubDate>
@@ -1165,15 +1154,12 @@ print(myTuple)</code></pre>
 <ol><li><strong>count ()&nbsp; :</strong>&nbsp;retourne le nombre de fois qu&rsquo;une valeur spécifiée apparaît dans un tuple.</li><li><strong>index ()&nbsp; :</strong>&nbsp;recherche dans le tuple une valeur spécifiée et renvoie la position de l&rsquo;endroit où il a été trouvé.</li></ol>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-tuples-en-langage-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Le Listes En Langage Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/le-listes-en-langage-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/le-listes-en-langage-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:12:43 +0000</pubDate>
@@ -1392,15 +1378,12 @@ print (myList) #cela causera une erreur car "myList" n'existe plus.</code></pre>
 <p><strong>append()</strong>&nbsp; &nbsp;Ajoute un élément à la fin de la liste<br><strong>clear()</strong>&nbsp; &nbsp;Supprime tous les éléments de la liste<br><strong>copy()</strong>&nbsp; &nbsp;Retourne une copie de la liste<br><strong>count()</strong>&nbsp; &nbsp;Retourne le nombre d&rsquo;éléments avec la valeur spécifiée<br><strong>extend()</strong>&nbsp; &nbsp;Ajoute les éléments d&rsquo;une liste (ou de tout élément itérable) à la fin de la liste actuelle<br><strong>index()</strong>&nbsp; &nbsp;Retourne l&rsquo;index du premier élément avec la valeur spécifiée.<br><strong>insert()</strong>&nbsp; &nbsp;Ajoute un élément à la position spécifiée<br><strong>pop()</strong>&nbsp; &nbsp;Supprime l&rsquo;élément à la position spécifiée<br><strong>remove()</strong>&nbsp; &nbsp;Supprime l&rsquo;élément avec la valeur spécifiée<br><strong>reverse()</strong>&nbsp; &nbsp;Inverse l&rsquo;ordre de la liste<br><strong>sort()</strong>&nbsp; &nbsp;Trie la liste</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/le-listes-en-langage-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Formatage des chaines de caractères en Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/formatage-des-chaines-de-caracteres-en-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/formatage-des-chaines-de-caracteres-en-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:11:12 +0000</pubDate>
@@ -1531,15 +1514,12 @@ print(s)</code></pre>
 <p>Cette fois-ci à l&rsquo;exécution, on constate réellement la conversion de la variable <strong>age</strong> en<strong> flot</strong>:<br><em>Je m&rsquo;appelle Albert je suis enseignant de mathématiques. J&rsquo;ai 30.000000 an</em>s</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/formatage-des-chaines-de-caracteres-en-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Les boucles While, for en Python</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-boucles-while-for-en-python/</link>
-					<comments>https://sibylassana95.github.io/mon-blog/2022/06/18/les-boucles-while-for-en-python/#respond</comments>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 04:40:11 +0000</pubDate>
@@ -1608,8 +1588,6 @@ while (i &lt; = 10):
       i = i + 1</code></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://sibylassana95.github.io/mon-blog/2022/06/18/les-boucles-while-for-en-python/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

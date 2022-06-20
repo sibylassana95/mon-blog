@@ -12,13 +12,21 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/php/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Sat, 18 Jun 2022 18:42:04 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jun 2022 03:27:27 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>PHP &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Gestion des dossiers et des fichiers en php</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/gestion-des-dossiers-et-des-fichiers-en-php/</link>
