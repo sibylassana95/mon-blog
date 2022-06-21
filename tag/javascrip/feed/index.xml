@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>javascrip &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/javascrip/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 03:01:04 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>javascrip &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Les Sélecteurs jQuery</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-selecteurs-jquery/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:35:26 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=259</guid>
+
+					<description><![CDATA[1 &#8211; Syntaxe d&#8217;un sélecteur jQuery Les sélecteurs jQuery sont l&#8217;une des parties les plus importantes de la bibliothèque jQuery.Les sélecteurs jQuery vous permettent de sélectionner et de manipuler les éléments HTML, XHTM et CSS.Les sélecteurs jQuery sont utilisés pour « trouver » (ou sélectionner) des éléments HTML / CSS en fonction de leur nom, identifiant, classes,&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/wp-content/uploads/2017/11/javascript-avec-jquery-debutant.png" alt=""/></figure>
+
+
+
+<h2>1 &#8211; Syntaxe d&rsquo;un sélecteur jQuery</h2>
+
+
+
+<p>Les sélecteurs jQuery sont l&rsquo;une des parties les plus importantes de la bibliothèque jQuery.<br>Les sélecteurs jQuery vous permettent de sélectionner et de manipuler les éléments HTML, XHTM et CSS.<br>Les sélecteurs jQuery sont utilisés pour « trouver » (ou sélectionner) des éléments HTML / CSS en fonction de leur nom, identifiant, classes, types, attributs, valeurs d&rsquo;attributs et bien plus encore. Il est basé sur les sélecteurs CSS existants, et en plus, il possède ses propres sélecteurs personnalisés.</p>
+
+
+
+<span id="more-259"></span>
+
+
+
+<p>Tous les sélecteurs dans jQuery commencent par la commande<strong>&nbsp;jQuery()</strong>, ou bien pour simplifier la syntaxe par le signe dollar et les parenthèses:&nbsp;<strong>$().</strong></p>
+
+
+
+<p>Le sélecteur d&rsquo;élément jQuery sélectionne les éléments en fonction du nom de l&rsquo;élément via la syntaxe :</p>
+
+
+
+<pre class="wp-block-code"><code>$("élément_à_séletionner").méthode_à_appliquer();</code></pre>
+
+
+
+<p>Vous pouvez à titre d&rsquo;exemple sélectionner tous les éléments &lt;p&gt; sur une page de la façon suivante:</p>
+
+
+
+<pre class="wp-block-code"><code>$("p").méthode();</code></pre>
+
+
+
+<h3>Exemple ( cacher un paragraphe avec la méthode hide() )</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;h1&gt;Exemple de sélecteur jQuery&lt;/h1&gt;
+&lt;p&gt;Ce contenu sera caché à l'exécution ! &lt;/p&gt;
+&lt;script type="text/javascript"&gt;
+$(document).ready(function(){
+
+$("p").hide();
+});
+&lt;/script&gt;</code></pre>
+
+
+
+<h3>Exemple complet</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;Mon premier test jQuery&lt;/title&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Premier pas avec jQuery&lt;/h1&gt;
+&lt;p&gt;Ce contenu sera caché à l'exécution ! &lt;/p&gt;
+&lt;script type="text/javascript"&gt;
+$(document).ready(function(){
+        $("p").hide();
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+<p>Ce qui affiche au navigateur après exécution :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/11/hide-selector-jQuery.png" alt="" class="wp-image-5149"/></figure></div>
+
+
+<p>Vous avez bien remarquer que le paragraphe :&nbsp;<em><strong>« Ce contenu sera caché à l&rsquo;exécution ! »&nbsp;</strong></em>&nbsp;a été caché à l’exécution</p>
+
+
+
+<h2>2 &#8211; Les différents types d&rsquo;un&nbsp; sélecteur&nbsp; jQuery</h2>
+
+
+
+<p>On peut classifier les sélecteurs jQuery selon l&rsquo;élément qu&rsquo;ils sélectionnent :</p>
+
+
+
+<h3>2.1 &#8211; Sélecteur jQuery pour les balises HTML</h3>
+
+
+
+<p>Nous avons déjà traité ce type de sélecteur au paragraphe précédent. Sa syntaxe est de la forme :</p>
+
+
+
+<pre class="wp-block-code"><code>$("élément").methode() ;</code></pre>
+
+
+
+<p>Imaginons maintenant une page web qui contient plusieurs paragraphe et qu&rsquo;on souhaite sélectionner un seul paragraphe bien déterminé la méthode&nbsp;&nbsp;<strong>$(« p »)</strong>&nbsp;ne peut être appliquer dans ce cas puisqu&rsquo;elle sélectionne tous les paragraphes. Nous auron donc besoin des paramètres supplémentaires :</p>
+
+
+
+<pre class="wp-block-code"><code>$('p:first');   // sélectionne le premier paragraphe de la page
+$('p:eq(i)');  // sélectionne le (i+1)ème paragraphe de la page (l'indice commence à 0)
+$('p:last');  // sélectionne le dernier paragraphe  de la page</code></pre>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;h1&gt;Premier pas avec jQuery&lt;/h1&gt;
+&lt;p&gt;Contenu du premier paragraphe &lt;/p&gt;
+&lt;p&gt;Contenu du 2ème paragraphe &lt;/p&gt;
+&lt;p&gt;Contenu du 3ème paragraphe &lt;/p&gt;
+&lt;script type="text/javascript"&gt;
+$(document).ready(function(){
+$("p:eq(1)").hide();
+});
+&lt;/script&gt;</code></pre>
+
+
+
+<p>L&rsquo;exemple ci dessus permet de cacher le paragraphe à la position 1 qui est donc le 2ème paragraphe puisque le compteur commence à 0. Il va donc afficher après exécution au navigateur :</p>
+
+
+
+<p><em><strong>Contenu du premier paragraphe</strong></em><br><em><strong>Contenu du 3ème paragraphe</strong></em></p>
+
+
+
+<h3>2.2 &#8211; Sélecteur jQuery pour les classes CSS</h3>
+
+
+
+<p>Les sélecteur&nbsp; jQuery peuvent aussi s&rsquo;appliquer aux classes CSS en utilisant la syntaxe :</p>
+
+
+
+<pre class="wp-block-code"><code>$(".Classes_CSS").methode( );</code></pre>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<p>Considérons la classe CSS suivante :</p>
+
+
+
+<pre class="wp-block-code"><code>.myClass{
+font-family: arial ;
+font-size: 28 ;
+font-weight: bold ;
+color:red ;
+}</code></pre>
+
+
+
+<p>Essayons d&rsquo;applique cette classe CSS à une balise div :</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;Mon premier test jQuery&lt;/title&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;style&gt;
+.myClass{
+font-family: arial ;
+font-size: 28 ;
+font-weight: bold ;
+color:red ;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Sélecteur de Class CSS avec jQuery&lt;/h1&gt;
+&lt;div class="myClass"&gt;Voici un exemple de sélcteur jQuery pour les  classes CSS&lt;/div&gt; 
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+<p>On obtient après exécution :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/11/selecteur-class-jquery.png" alt="Sélecteur de Class CSS avec jQuery Voici un exemple de sélcteur jQuery pour les classes CSS" class="wp-image-5159"/></figure></div>
+
+
+<p>Mais si on ajoute le code de sélecteur jQuery suivant :</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;script type="text/javascript"&gt;
+$(document).ready(function(){
+$(".myClass").hide();
+});
+&lt;/script&gt;</code></pre>
+
+
+
+<p>On obtient alors après exécution au navigateur :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/11/selecteur-css-class-jquery.png" alt="" class="wp-image-5160"/></figure></div>
+
+
+<p>Voici le code complet :</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;Mon premier test jQuery&lt;/title&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;style&gt;
+.myClass{
+font-family: arial ;
+font-size: 28 ;
+font-weight: bold ;
+color:red ;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Sélecteur de Class CSS avec jQuery&lt;/h1&gt;
+&lt;div class="myClass"&gt;Voici un exemple de sélcteur jQuery pour les  classes CSS&lt;/div&gt; 
+&lt;script type="text/javascript"&gt;
+$(document).ready(function(){
+$(".myClass").hide();
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+<h3>2.3 &#8211; Sélecteur jQuery pour les id CSS</h3>
+
+
+
+<p>Les sélecteurs jQuery pour les id CSS se fond de la même manirèe en remplaçant le code :</p>
+
+
+
+<pre class="wp-block-code"><code>$(".Classes_CSS").methode( );</code></pre>
+
+
+
+<p>par :</p>
+
+
+
+<pre class="wp-block-code"><code>$("#id_CSS").methode( );</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Premier pas avec le framework jQuery</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/premier-pas-avec-le-framework-jquery/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:33:58 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=257</guid>
+
+					<description><![CDATA[1 &#8211; Installation du Framework jQuery Pour développer des applications ou scripts web à l&#8217;aide du framework jQuery deux choix s&#8217;offrent à vous : Vous pouvez télécharger gratuitement le framework&#160; jQuery via :&#160;https://jquery.com/download/ Ou bien, vous indiquer le chemin de la librairie en ligne entre les balises&#160;head&#160;et&#160;/head 2 &#8211; Chargement du DOM ( document Object&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.tresfacile.net/wp-content/uploads/2017/11/javascript-avec-jquery-debutant.png" alt=""/></figure>
+
+
+
+<h2>1 &#8211; Installation du Framework jQuery</h2>
+
+
+
+<p>Pour développer des applications ou scripts web à l&rsquo;aide du framework jQuery deux choix s&rsquo;offrent à vous :</p>
+
+
+
+<ol><li>Vous pouvez télécharger gratuitement le framework&nbsp; jQuery via :&nbsp;<a href="http://www.tresfacile.net/goto/aHR0cHM6Ly9qcXVlcnkuY29tL2Rvd25sb2FkLw==" target="_blank" rel="noreferrer noopener">https://jquery.com/download/</a></li><li>Ou bien, vous indiquer le chemin de la librairie en ligne entre les balises&nbsp;<strong>head</strong>&nbsp;et&nbsp;<strong>/head</strong></li></ol>
+
+
+
+<span id="more-257"></span>
+
+
+
+<pre class="wp-block-code"><code>&lt;head&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;</code></pre>
+
+
+
+<h2>2 &#8211; Chargement du DOM ( document Object Model )</h2>
+
+
+
+<p>Afin de ne pas décourager un débutant, nous allons commencer par exemple simple permettant de remplacer un contenu sélectionné dans une page web à l&rsquo;aide de la fonction append();</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;script type="text/javascript"&gt;
+$(document).ready(function() {
+$("div").text("Chargement du DOM...");
+});
+&lt;/script&gt;</code></pre>
+
+
+
+<p>C&rsquo;est exactement le contenu qui se trouve au niveau de la balise &lt;div&gt; qui va être remplacé par le nouveau</p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;h1&gt;Premier pas avec jQuery&lt;/h1&gt;
+&lt;div&gt;Ce contenu sera remplacé et vous ne l'allez pas voir au niveau de l'exécution ! &lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+$(document).ready(function() {
+$("div").text("Chargement du DOM");
+$("div").append("&lt;h3&gt; Exemple jQuery avec la fonction append() &lt;/h3&gt;");
+});
+&lt;/script&gt;</code></pre>
+
+
+
+<h3>Exemple complet</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;Mon premier test jQuery&lt;/title&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Premier pas avec jQuery&lt;/h1&gt;
+&lt;div&gt;Ce contenu sera remplacé et vous ne l'allez pas voir au niveau de l'exécution ! &lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+$(document).ready(function() {
+$("div").text("Chargement du DOM");
+$("div").append("&lt;h3&gt; Exemple jQuery avec la fonction append() &lt;/h3&gt;");
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+<p>Ce qui affiche après exécution :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/11/append-jQuery-framework.png" alt="" class="wp-image-5142"/></figure></div>
+
+
+<p>Remarquez bien que le contenu qui se trouve au niveau de la balise div a été remplacé !</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Introduction au Framework jQuery</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-framework-jquery/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:33:11 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=255</guid>
+
+					<description><![CDATA[jQuery est une bibliothèque JavaScript multiplateforme conçue pour simplifier les scripts côté client de HTML, &#38; Javascript. C&#8217;est un script libre et open-source. Si vous faite une analyse des pages Web vous allez constater qu&#8217;il s&#8217;agit de  la bibliothèque JavaScript la plus répandu et la plus utilisée. La syntaxe de jQuery est conçue pour faciliter la navigation dans&#8230;]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/11/javascript-avec-jquery-debutant-1.png" alt="jQuery fournit également un paradigme pour la gestion des événements qui va au-delà de la sélection et de la manipulation élémentaires des éléments DOM. L'affectation d'événement et la définition de la fonction de rappel d'événement sont effectuées en une seule étape dans un seul emplacement du code. jQuery vise également à incorporer d'autres fonctionnalités JavaScript très utilisées (par exemple, fondus enchaînés et fondus masqués lorsque vous masquez des éléments, des animations en manipulant les propriétés CSS)." class="wp-image-5133"/></figure></div>
+
+
+<p><strong>jQuery est une bibliothèque JavaScript</strong> multiplateforme conçue pour simplifier les scripts côté client de HTML, &amp; Javascript. C&rsquo;est un script libre et open-source. Si vous faite une analyse des pages Web vous allez constater qu&rsquo;il s&rsquo;agit de  la bibliothèque JavaScript la plus répandu et la plus utilisée. La syntaxe de<strong> jQuery</strong> est conçue pour faciliter la navigation dans un document, </p>
+
+
+
+<span id="more-255"></span>
+
+
+
+<p>sélectionner des éléments <strong>DOM</strong>, créer des animations, gérer des événements et développer des <strong>applications Ajax</strong>. <strong>jQuery</strong> offre également aux développeurs la possibilité de créer des plug-ins via sa bibliothèque JavaScript. Cela permet aux développeurs de créer des abstractions pour l&rsquo;interaction et l&rsquo;animation de bas niveau, des effets avancés et des widgets thématiques de haut niveau. L&rsquo;approche modulaire de la bibliothèque jQuery permet la création de puissantes pages Web dynamiques et d&rsquo;applications Web rapidement.</p>
+
+
+
+<p>L&rsquo;ensemble des fonctionnalités de base de jQuery, sélections d&rsquo;éléments DOM, traversées et manipulations activées par son moteur de sélection nommé « Sizzle » , a créé un nouveau « style de programmation », algorithmes de fusion et structures de données DOM. Ce style a influencé l&rsquo;architecture d&rsquo;autres frameworks JavaScript comme YUI v3 et Dojo, stimulant plus tard la création de l&rsquo;API Selectors standard.<br>De nombeuses sociétés intègre actuellement le framework jQuery dans leurs produits, comme Microsoft, Google, Facebook, Nokia&#8230;<br>Vous pouvez télécharger gratuitement jQuery via :&nbsp;<a href="https://jquery.com/download/" target="_blank" rel="noreferrer noopener">https://jquery.com/download/</a><br>NB : Vous pouvez utiliser jQuery sans le télécharger, il suffit alors d&rsquo;inserer une balise indiquant le chemin de la librairie entre les balises Head et /Head :</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;head&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>L&#8217;objet javascript array</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/lobjet-javascript-array/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:31:56 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=253</guid>
+
+					<description><![CDATA[1 &#8211; A propos de l&#8217;objet javascript array L&#8217;objet Array&#160;vous permet de&#160;stocker&#160;plusieurs valeurs dans une&#160;seule variable. Il stocke une collection séquentielle de taille fixe d&#8217;éléments du même type. Un tableau est utilisé pour stocker une collection de données, mais il est souvent plus utile de considérer un tableau comme une collection de variables du même&#8230;]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/wp-content/uploads/2020/04/array-javascript-object-1.png" alt="" class="wp-image-7136"/></figure></div>
+
+
+<h2>1 &#8211; A propos de l&rsquo;objet javascript array</h2>
+
+
+
+<p>L&rsquo;<strong>objet Array</strong>&nbsp;vous permet de&nbsp;<strong>stocker</strong>&nbsp;plusieurs valeurs dans une<strong>&nbsp;seule variable</strong>. Il stocke une collection séquentielle de taille fixe d&rsquo;éléments du même type. Un tableau est utilisé pour stocker une collection de données, mais il est souvent plus utile de considérer un tableau comme une collection de variables du même type.</p>
+
+
+
+<h2>2 &#8211; Syntaxe</h2>
+
+
+
+<p>Pour créer un objet Array, on utilise la syntaxe suivante:</p>
+
+
+
+<pre class="wp-block-code"><code>var laptop = new Array ("acer", "hp", "del");</code></pre>
+
+
+
+<span id="more-253"></span>
+
+
+
+<p>Le<strong>&nbsp;paramètre Array</strong>&nbsp;est une liste de chaînes ou d&rsquo;entiers. Lorsque vous spécifiez un seul paramètre numérique avec le constructeur Array, vous spécifiez la longueur initiale du tableau. La longueur maximale autorisée pour un tableau est de 4 294 967 295.</p>
+
+
+
+<p>Vous pouvez créer un tableau en attribuant simplement des valeurs:</p>
+
+
+
+<pre class="wp-block-code"><code>var laptop = &#91;"acer", "hp", "del"];</code></pre>
+
+
+
+<p>Vous utiliserez des nombres ordinaux pour accéder et définir des valeurs dans un tableau comme suit.</p>
+
+
+
+<pre class="wp-block-code"><code>laptop &#91;0] // est le premier élément
+laptop &#91;1]  //est le deuxième élément
+laptop &#91;2]  //est le troisième élément</code></pre>
+
+
+
+<h2>3 &#8211; Propriétés d&rsquo;un objet array</h2>
+
+
+
+<p>Voici une liste des<strong>&nbsp;propriétés</strong>&nbsp;de l&rsquo;<strong>objet Array</strong>&nbsp;ainsi que leur descriptions:</p>
+
+
+
+<ol><li><strong>Constructor :</strong>&nbsp;renvoie une référence à la fonction de tableau qui a créé l&rsquo;objet.</li><li><strong>index:</strong>&nbsp; propriété qui représente l&rsquo;index de base zéro de la correspondance dans la chaîne</li><li><strong>input :</strong>&nbsp;cette propriété n&rsquo;est présente que dans les tableaux créés par des correspondances d&rsquo;expressions régulières.</li><li><strong>length :</strong>&nbsp; reflète le nombre d&rsquo;éléments dans un tableau.</li><li><strong>prototype :</strong>&nbsp; la propriété prototype vous permet d&rsquo;ajouter des propriétés et des méthodes à un objet.</li></ol>
+
+
+
+<h2>4 &#8211; Les méthodes associées à l&rsquo;objet array</h2>
+
+
+
+<p>Voici une liste des<strong>&nbsp;méthodes&nbsp;</strong>de<strong>&nbsp;l&rsquo;objet Array</strong>&nbsp;ainsi que leur description:</p>
+
+
+
+<div class="wp-container-2 wp-block-columns">
+<div class="wp-container-1 wp-block-column" style="flex-basis:100%">
+<ol><li><strong>concat () :&nbsp;</strong>&nbsp;renvoie un nouveau tableau composé de ce tableau joint à d&rsquo;autres tableaux et / ou valeurs.</li><li><strong>every() :</strong>&nbsp;renvoie true si chaque élément de ce tableau satisfait la fonction de test fournie.</li><li><strong>filer() :</strong>&nbsp;crée un nouveau tableau avec tous les éléments de ce tableau pour lesquels la fonction de filtrage fournie renvoie true.</li><li><strong>forEach() :</strong>&nbsp;appelle une fonction pour chaque élément du tableau.</li><li><strong>indexOf ()</strong>&nbsp;: renvoie le premier (le moins) index d&rsquo;un élément dans le tableau égal à la valeur spécifiée, ou -1 si aucun n&rsquo;est trouvé.</li><li><strong>join() :</strong>&nbsp;joint tous les éléments d&rsquo;un tableau en une chaîne.</li><li><strong>lastIndexOf () :</strong>&nbsp;renvoie le dernier (le plus grand) index d&rsquo;un élément dans le tableau égal à la valeur spécifiée, ou -1 si aucun n&rsquo;est trouvé.</li><li><strong>map() :&nbsp;</strong>&nbsp;crée un nouveau tableau avec les résultats de l&rsquo;appel d&rsquo;une fonction fournie sur chaque élément de ce tableau.</li><li><strong>pop () :</strong>&nbsp;supprime le dernier élément d&rsquo;un tableau et renvoie cet élément.</li><li><strong>push() :</strong>&nbsp;ajoute un ou plusieurs éléments à la fin d&rsquo;un tableau et renvoie la nouvelle longueur du tableau.</li><li><strong>reduce() :</strong>&nbsp;appliquez une fonction simultanément contre deux valeurs du tableau (de gauche à droite) afin de la réduire à une seule valeur.</li><li><strong>reduceRight() :</strong>&nbsp;ppliquez une fonction simultanément contre deux valeurs du tableau (de droite à gauche) afin de la réduire à une seule valeur.</li><li><strong>reverse()</strong>&nbsp;: inverse l&rsquo;ordre des éléments d&rsquo;un tableau &#8211; le premier devient le dernier et le dernier devient le premier.</li><li><strong>shift() :</strong>&nbsp;supprime le premier élément d&rsquo;un tableau et renvoie cet élément.</li><li><strong>slice() :</strong>&nbsp;extrait une section d&rsquo;un tableau et renvoie un nouveau tableau.</li><li><strong>some() :</strong>&nbsp;renvoie true si au moins un élément de ce tableau satisfait la fonction de test fournie.</li><li><strong>toSource () :</strong>&nbsp;représente le code source d&rsquo;un objet</li><li><strong>sort() :</strong>&nbsp;trie les éléments d&rsquo;un tableau</li><li><strong>splice() :</strong>&nbsp;ajoute et / ou supprime des éléments d&rsquo;un tableau.</li><li><strong>toString () :</strong>&nbsp;renvoie une chaîne représentant le tableau et ses éléments.</li><li><strong>unshift () :</strong>&nbsp;ajoute un ou plusieurs éléments à l&rsquo;avant d&rsquo;un tableau et renvoie la nouvelle longueur du tableau.</li></ol>
+</div>
+</div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Le modèle objet du Javascript</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/le-modele-objet-du-javascript/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:30:13 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=251</guid>
+
+					<description><![CDATA[1 – Introduction Le langage javascript est un langage orienté objet, en plus il est doté de l’avantage de manipulation d’objets sans instanciation, et par suite vous pouvez manipuler tous ce qui apparaissent dans votre browser : fenêtres corps du document, boutons, zones de texte… comme etant des objets javascript. Nous n’allons pas ici traiter&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h1>1 – Introduction</h1>
+
+
+
+<p>Le langage javascript est un langage orienté objet, en plus il est doté de l’avantage de manipulation d’objets sans instanciation, et par suite vous pouvez manipuler tous ce qui apparaissent dans votre browser : fenêtres corps du document, boutons, zones de texte… comme etant des objets javascript. Nous n’allons pas ici traiter le coté POO du javascript proprement dit mais quelque exemple d’objets fondamentaux. Pour accéder aux propriétés d’un objet on utilise la syntaxe:</p>
+
+
+
+<span id="more-251"></span>
+
+
+
+<p><strong>objet.propriété</strong></p>
+
+
+
+<h1>2 – Objet Javascript prédéfinit</h1>
+
+
+
+<h2>2.1 &#8211; L&rsquo;objet window</h2>
+
+
+
+<p>Tous les composants d’une page web sont des objets y compris l’objet windows qui est leur parent, l’objet window est parfois appelé l’objet par excellence. Exemple pour écrire un texte on utilise la syntaxe :</p>
+
+
+
+<pre class="wp-block-code"><code>window.document.write(‘bonjour’);</code></pre>
+
+
+
+<h3>Propriétés et méthodes de l&rsquo;objet window</h3>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>Propriété ou méthode</strong></td><td><strong>Description</strong></td></tr><tr><td><strong>document</strong></td><td>permet d’accéder à tous les objets</td></tr><tr><td><strong>status</strong></td><td>affiche un message dans la barre d’état</td></tr><tr><td><strong>name</strong></td><td>le nom de la fenêtre actuelle</td></tr><tr><td><strong>window</strong></td><td>fenêtre actuelle</td></tr><tr><td><strong>Home()</strong></td><td>permet d’atteindre la page d’accueil</td></tr><tr><td><strong>Alert()</strong></td><td>affiche un message sur une boite</td></tr><tr><td><strong>Prompt()</strong></td><td>affichage d’une boite qui contrôle la saisi clavier</td></tr><tr><td><strong>Close()</strong></td><td>ferme la fenêtre</td></tr><tr><td><strong>Open()</strong></td><td>ouvre une fenêtre pop-up</td></tr><tr><td><strong>Blur()</strong></td><td>cache la fenêtre</td></tr><tr><td><strong>resizeBy()</strong></td><td>permet de modifier les dimensions de la fenêtre</td></tr></tbody></table></figure>
+
+
+
+<h3>Remarque</h3>
+
+
+
+<p>En Javascripte, ils existent de nombreux autres&nbsp; objets&nbsp; dotés de méthodes et de propriétés accessibles directement sans instanciation, on peut en citer :&nbsp;&nbsp;<strong>String, Math, date, navigator, array&#8230;</strong></p>
+
+
+
+<p>Si on veut&nbsp; à titre d&rsquo;exemple examiner l&rsquo;objet String, de nombreuses méthodes sont associées à ce dernier :</p>
+
+
+
+<p><strong>charAt ()</strong>&nbsp;&nbsp;&nbsp;Retourne le caractère à l&rsquo;index spécifié (position)</p>
+
+
+
+<p><strong>charCodeAt ()</strong>&nbsp;&nbsp;&nbsp;Retourne l&rsquo;Unicode du caractère à l&rsquo;index spécifié</p>
+
+
+
+<p><strong>concat ()</strong>&nbsp;&nbsp;&nbsp;Joint deux chaînes ou plus et renvoie une nouvelle chaîne jointe</p>
+
+
+
+<p><strong>endsWith ()</strong>&nbsp;&nbsp;&nbsp;Vérifie si une chaîne se termine par des chaînes / caractères spécifiés</p>
+
+
+
+<p><strong>fromCharCode ()</strong>&nbsp;&nbsp;&nbsp;Convertit les valeurs Unicode en caractères</p>
+
+
+
+<p><strong>includes ()</strong>&nbsp;&nbsp;&nbsp;Vérifie si une chaîne contient la chaîne / les caractères spécifiés</p>
+
+
+
+<p><strong>indexOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la position de la première occurrence trouvée d&rsquo;une valeur spécifiée dans une chaîne</p>
+
+
+
+<p><strong>lastIndexOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la position de la dernière occurrence trouvée d&rsquo;une valeur spécifiée dans une chaîne</p>
+
+
+
+<p><strong>localeCompare ()</strong>&nbsp;&nbsp;&nbsp;Compare deux chaînes dans les paramètres régionaux en cours</p>
+
+
+
+<p><strong>match ()</strong>&nbsp;&nbsp;&nbsp;Recherche une chaîne pour une correspondance avec une expression régulière et renvoie les correspondances</p>
+
+
+
+<p><strong>repeat ()</strong>&nbsp;&nbsp;&nbsp;Retourne une nouvelle chaîne avec un nombre spécifié de copies d&rsquo;une chaîne existante</p>
+
+
+
+<p><strong>replace ()</strong>&nbsp;&nbsp;&nbsp;Recherche une chaîne pour une valeur spécifiée ou une expression régulière et renvoie une nouvelle chaîne dans laquelle les valeurs spécifiées sont remplacées</p>
+
+
+
+<p><strong>search ()</strong>&nbsp;&nbsp;&nbsp;Recherche une chaîne pour une valeur spécifiée ou une expression régulière et renvoie la position de la correspondance</p>
+
+
+
+<p><strong>slice ()</strong>&nbsp;&nbsp;&nbsp;Extrait une partie d&rsquo;une chaîne et retourne une nouvelle chaîne</p>
+
+
+
+<p><strong>split ()</strong>&nbsp;&nbsp;&nbsp;Divise une chaîne en un tableau de sous-chaînes</p>
+
+
+
+<p><strong>startsWith ()</strong>&nbsp;&nbsp;&nbsp;Vérifie si une chaîne commence par des caractères spécifiés</p>
+
+
+
+<p><strong>substr ()</strong>&nbsp; &nbsp;Extrait les caractères d&rsquo;une chaîne, en commençant à une position de départ spécifiée, et à travers le nombre de caractères spécifié</p>
+
+
+
+<p><strong>substring ()</strong>&nbsp;&nbsp;&nbsp;Extrait les caractères d&rsquo;une chaîne, entre deux index spécifiés</p>
+
+
+
+<p><strong>toLocaleLowerCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en minuscules, en fonction des paramètres régionaux de l&rsquo;hôte</p>
+
+
+
+<p><strong>toLocaleUpperCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en majuscules, en fonction des paramètres régionaux de l&rsquo;hôte</p>
+
+
+
+<p><strong>toLowerCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en lettres minuscules</p>
+
+
+
+<p><strong>toString ()</strong>&nbsp; &nbsp;Retourne la valeur d&rsquo;un objet String</p>
+
+
+
+<p><strong>toUpperCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en majuscules</p>
+
+
+
+<p><strong>trim ()</strong>&nbsp;&nbsp;&nbsp;Supprime les espaces des deux extrémités d&rsquo;une chaîne</p>
+
+
+
+<p><strong>valueOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la valeur primitive d&rsquo;un objet String</p>
+
+
+
+<p>Nous n&rsquo;allons pas pouvoir traiter toutes ces méthodes ici, mais amusons nous à faire un petit exemple simple pour la première&nbsp;<strong>charAt()</strong>.Le lecteur curieux peux consulter ces méthodes en détails chacune avec un exemple bien expliqué&nbsp;&nbsp;<a href="https://www.w3schools.com/jsref/jsref_obj_string.asp">ici</a></p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;script type="text/javascript"&gt;
+var s = new String("bonjour");
+alert("Le premier caractère de la chaine 'bonjour' est  " + s.charAt(0));
+&lt;/script&gt;</code></pre>
+
+
+
+<p>Ce qui affiche au navigateur :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2013/05/string-javascript-charAt.png" alt="" class="wp-image-5253"/></figure></div>
+
+
+<h1>3 &#8211; Prototypes orienté objet</h1>
+
+
+
+<p>JavaScript utilise des prototypes où de nombreux autres langages orientés objet utilisent des classes pour l&rsquo;héritage.&nbsp; Il est possible de simuler de nombreuses fonctionnalités basées sur des classes avec des prototypes en JavaScript.</p>
+
+
+
+<h2>3.1 &#8211; Fonctions en tant que constructeurs d&rsquo;objets</h2>
+
+
+
+<p>On peut créer des objets dotés de paramètres et propriétés en déclarant de simples fonctions Javascript.</p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;script type="text/javascript"&gt;
+function mobile(marque,system){
+this.marque=marque;
+this.system=system;
+}
+&lt;/script&gt;</code></pre>
+
+
+
+<p>Cet exemple permet de créer un objet nommé :&nbsp;<strong>mobile</strong>&nbsp;doté des deux&nbsp;<strong>paramètres</strong>&nbsp;:&nbsp;<strong>marque</strong>&nbsp;et&nbsp;<strong>system</strong>. Si on veut par exemple faire une instanciation pour créer un objet téléphone de marque&nbsp; :&nbsp;<strong>Galaxy</strong>&nbsp; dont le système est&nbsp;<strong>Android</strong>, il suffit d&rsquo;ajouter le code :</p>
+
+
+
+<pre class="wp-block-code"><code>var mymobile=new mobile("Galaxy","Android");
+//affichage des résultats
+alert("Mon mobile est  " + mymobile.marque + " Son system est  " + mymobile.system);</code></pre>
+
+
+
+<h2>3.2 &#8211; Les classes&nbsp; Javascript</h2>
+
+
+
+<p>Javascript&nbsp; est doté de l&rsquo;instruction&nbsp;<strong>class</strong>&nbsp;qui permet à l&rsquo;utilisateur de créer ses propres classes, de faire l&rsquo;instanciation pour créer des objets&#8230;</p>
+
+
+
+<p>Syntax :</p>
+
+
+
+<pre class="wp-block-code"><code>class nom_de_la_classe {
+  constructor(paramètres) {
+  }
+}</code></pre>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;script type="text/javascript"&gt;
+class Rectangle {
+  constructor(hauteur, largeur) {
+    this.hauteur = hauteur;
+    this.largeur = largeur;
+  }
+}
+&lt;/script&gt;</code></pre>
+
+
+
+<p>Cet exemple permet de construire une classe nommée rectangle dotée d&rsquo;un constructeur ayant deux paramètres hauteur et largeur. Pour faire une instanciation sur cette classe et créer un objet rectangle il suffit d&rsquo;ajouter le code :</p>
+
+
+
+<pre class="wp-block-code"><code>const R= new Rectangle(20, 12);
+//affichage des résultats
+alert("la hauteur du rectangle est : "+R.hauteur + " La largeur du rectangle est : "+ R.largeur);</code></pre>
+
+
+
+<p>Ce qui affiche après exécution :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2013/05/classe-javascript-constructor.png" alt="" class="wp-image-5255"/></figure></div>
+
+
+<h3>Remarque</h3>
+
+
+
+<p>On peut aussi ajouter d&rsquo;autres méthodes à la classes, par exemple une méthode qui calcul la surface, une autre qui calcul le périmètre&#8230;</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;script type="text/javascript"&gt;
+
+class Rectangle {
+  constructor(hauteur, largeur) {
+    this.hauteur = hauteur;
+    this.largeur = largeur;
+  }
+  surface(){
+  return this.hauteur*this.largeur;
+  }
+  
+  périmètre(){
+  return 2*(this.hauteur + this.largeur);
+}
+}
+const R= new Rectangle(8, 6);
+//affichage des résultats
+alert("la surface du rectangle est : "+R.surface() + " Le périmètre du rectangle est : "+ R.périmètre());
+&lt;/script&gt;</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Les événements Javascript</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/les-evenements-javascript/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:29:00 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=248</guid>
+
+					<description><![CDATA[. Les événements Javascript : syntax Le click de la sourie, le passage de la sourie … sont dit événements. Javascript peut associer des méthodes ou procédures à ces derniers à l&#8217;aide de la syntaxe : Grâce au Javascript de nombreuses opérations sont susceptible d&#8217;être déclenchés dès que le visiteur effectue une opération sur la&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>. Les événements Javascript : syntax</h2>
+
+
+
+<p>Le click de la sourie, le passage de la sourie … sont dit événements. Javascript peut associer des méthodes ou procédures à ces derniers à l&rsquo;aide de la syntaxe :</p>
+
+
+
+<pre class="wp-block-code"><code>onEvenement="Action_Javascript_ou_Fonction();"</code></pre>
+
+
+
+<p>Grâce au Javascript de nombreuses opérations sont susceptible d&rsquo;être déclenchés dès que le visiteur effectue une opération sur la page à titre d&rsquo;exemple :<br>&#8211; En cliquant sur un lien ou un bouton, un événement onClick se déclenche<br>&#8211; En passant la sourie sur un texte, un événement onMouseover se produit<br>&#8211; En modifiant le contenu d&rsquo;un champ de texte, un événement onChange se déclenche<br>&#8230;</p>
+
+
+
+<span id="more-248"></span>
+
+
+
+<h2>2. Liste des événement Javascript</h2>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>Evénement Javascript</strong></td><td><strong>&nbsp;Effet produit</strong></td></tr><tr><td><strong>onClick</strong></td><td>Se produit lorsque l&rsquo;utilisateur clique sur l&rsquo;élément associé à l&rsquo;événement</td></tr><tr><td><strong>onLoad</strong></td><td>Se produit lorsque le navigateur de l&rsquo;utilisateur charge la page en cours</td></tr><tr><td><strong>onUnload</strong></td><td>Se produit lorsque le navigateur de l&rsquo;utilisateur quitte la page en cours</td></tr><tr><td><strong>onMouseOver</strong></td><td>Se produit lorsque l&rsquo;utilisateur positionne le curseur de la souris au-dessus d&rsquo;un élément</td></tr><tr><td><strong>onMouseOut</strong></td><td>Se produit lorsque le curseur de la souris quitte un élément</td></tr><tr><td><strong>onMouseDown</strong></td><td>quand le bouton de la sourie est appuyé</td></tr><tr><td><strong>onMouseMove</strong></td><td>quand le curseur bouge</td></tr><tr><td><strong>onMouseUp</strong></td><td>quand le bouton de la sourie est relâché</td></tr><tr><td><strong>onFocus</strong></td><td>Se produit lorsque l&rsquo;utilisateur donne le focus à un élément, c.a.d&nbsp; élément est sélectionné comme étant actif</td></tr><tr><td><strong>onBlur</strong></td><td>Se produit lorsque l&rsquo;élément perd le focus, c.a.d élément non sélectionné ( désactivé )</td></tr><tr><td><strong>onChange</strong></td><td>&nbsp;Se produit lorsque l&rsquo;utilisateur modifie le contenu d&rsquo;un champ de données</td></tr><tr><td><strong>onSelect</strong></td><td>&nbsp;Se produit lorsque l&rsquo;utilisateur sélectionne un texte dans un champ de type « text » ou « textarea » ou un objet</td></tr><tr><td><strong>onSubmit</strong></td><td>&nbsp;Se produit lorsque l&rsquo;utilisateur clique sur le bouton de soumission d&rsquo;un formulaire</td></tr><tr><td><strong>onabort</strong></td><td>lorsque l&rsquo;utilisateur a stoppé le chargement de l&rsquo;image</td></tr><tr><td><strong>ondlclick</strong></td><td>quand on fait un double clique</td></tr><tr><td><strong>ondragdrop</strong></td><td>quand on déplace un objet dans une fenêtre</td></tr><tr><td><strong>onerror</strong></td><td>lorsqu&rsquo;il se produit une erreur de script</td></tr><tr><td><strong>onkeydown</strong></td><td>quand une touche du clavier est enfoncée</td></tr><tr><td><strong>onkeypress</strong></td><td>quand on appuie sur une touche</td></tr><tr><td><strong>onkeyup</strong></td><td>quand on lâche une touche du clavier</td></tr><tr><td><strong>onMove</strong></td><td>quand on déplace la fenêtre</td></tr><tr><td><strong>onReset &nbsp;</strong></td><td>quand on réinitialise</td></tr><tr><td><strong>onResize</strong></td><td>quand on redimensionne</td></tr></tbody></table></figure>
+
+
+
+<h2>&nbsp;3. Exemples d&rsquo;événement Javascript</h2>
+
+
+
+<h3>Exemple 1 ( l&rsquo;événement onLoad )</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;body onload="alert('Bienvenue sur le site');"&gt;
+
+&lt;/body&gt;</code></pre>
+
+
+
+<p>Cet exemple affiche le message « Bienvenue sur le site » dès le chargement de la page :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2016/01/onload-javascript.png"><img src="http://www.tresfacile.net/wp-content/uploads/2016/01/onload-javascript.png" alt="onload-javascript" class="wp-image-3186"/></a></figure></div>
+
+
+<h3>Exemple 2 ( l&rsquo;événement onBlur )</h3>
+
+
+
+<pre class="wp-block-code"><code>
+
+&lt;/p&gt;
+&lt;form&gt;&lt;input size=40 type="text" value="Cliquez ici pour voir l'événement onblur" onblur="alert('vous avez quitté le champ de texte')"/&gt;
+&lt;/form&gt;
+&lt;p&gt;</code></pre>
+
+
+
+<p>Testez vous même ce code</p>
+
+
+
+<p>Vous verrez apparaitre la fenêtre suivante :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2016/01/onblur-javscript.png"><img src="http://www.tresfacile.net/wp-content/uploads/2016/01/onblur-javscript-300x172.png" alt="onblur-javscript" class="wp-image-3188"/></a></figure></div>
+
+
+<h3>Exemple 3&nbsp; ( les événements onMousOut et onMousOver)</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;a href="#" onmouseOver="alert('vous avez testé onmouseover')" onmouseOut="alert('Vous venez de tester onMouseOut')"&gt;Evénement onMousOver&lt;/a&gt;</code></pre>
+
+
+
+<p>Quand vous faite passer la sourie au dessus du lien vous verrez apparaitre la fenêtre suivante :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2016/01/onmouseover-javascript.png"><img src="http://www.tresfacile.net/wp-content/uploads/2016/01/onmouseover-javascript-300x197.png" alt="onmouseover-javascript" class="wp-image-3191"/></a></figure></div>
+
+
+<p>Et quand vous quittez le lien vous verrez apparaitre la fenêtre suivante :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2016/01/onmousout-javascript.png"><img src="http://www.tresfacile.net/wp-content/uploads/2016/01/onmousout-javascript-300x175.png" alt="onmousout-javascript" class="wp-image-3192"/></a></figure></div>
+
+
+<h3>Exemple 4 ( changement d&rsquo;image avec onMousOver et onMouseOut )</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;html>
+&lt;head>
+&lt;img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-wp-preserve="%3Cscript%20language%3D%22Javascript%22%3E%0Afunction%20lightUp()%20%7B%0Adocument.images%5B%22voiture%22%5D.src%3D%22rouge.jpg%22%0A%7D%0Afunction%20dimDown()%20%7B%0Adocument.images%5B%22voiture%22%5D.src%3D%22blanche.jpg%22%0A%7D%0A%3C%2Fscript%3E" data-mce-resize="false" data-mce-placeholder="1" class="mce-object" width="20" height="20" alt="&lt;script>" title="&lt;script>" />
+&lt;/head>
+&lt;body>
+&lt;a href="#" onmouseOver="lightUp();" onmouseOut="dimDown();">
+&lt;img src="blanche.jpg" name="voiture" width=250 height=250 border=0> &lt;/a>
+&lt;/body>
+&lt;/html></code></pre>
+
+
+
+<p>Enregistrez ce fichier sur un dossier de votre machine, avec deux images :&nbsp;&nbsp;<strong>rouge.jpg</strong>&nbsp;et&nbsp;<strong>blanche.jpg</strong>&nbsp;que vous pouvez télécharger via google images. Vous pouvez aussi télécharger&nbsp;l&rsquo;application via&nbsp;<a href="http://www.tresfacile.net/download/test.rar">&nbsp;ce lien</a></p>
+
+
+
+<p>Dans cet exemple quand vous faite passer la sourie sur l&rsquo;image elle change, c&rsquo;est l&rsquo;événement&nbsp;<strong>onmouseOver= »lightUp(); »</strong>&nbsp;qui se produit et fais afficher l&rsquo;image&nbsp;<strong>rouge.jpg</strong>&nbsp;qui est programmée dans la fonction&nbsp;<strong>lightUp()</strong>&nbsp;:</p>
+
+
+
+<pre class="wp-block-code"><code>function lightUp() {
+document.images&#91;"voiture"].src="rouge.jpg"
+}</code></pre>
+
+
+
+<p>Et quand vous quittez l&rsquo;image elle reprend sa forme c.a.d&nbsp; l&rsquo;image&nbsp;<strong>blanche.jpg</strong>&nbsp;s&rsquo;affiche qui est programmée dans la fonction&nbsp;<strong>dimDown()</strong>&nbsp;:</p>
+
+
+
+<pre class="wp-block-code"><code>function dimDown() {document.images&#91;"voiture"].src="blanche.jpg"
+}</code></pre>
+
+
+
+<h2>4. Tutoriel Vidéo</h2>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-prise-en-charge-des-contenus-embarques wp-block-embed-prise-en-charge-des-contenus-embarques"><div class="wp-block-embed__wrapper">
+https://youtube.com/watch?v=FCQuU5tTQak%3Ffeature%3Doembed
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Javascript Les structures de controls et les boucles</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/javascript-les-structures-de-controls-et-les-boucles/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:21:28 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=240</guid>
+
+					<description><![CDATA[1 &#8211; La structure conditionnelle If Les structures conditionnelles permettent l&#8217;exécution d&#8217;un groupe d&#8217;instructions lorsqu&#8217;une condition est réalisée. La plus répandu est la structure If , la syntaxe est la suivante : Exemple Nous allons créer maintenant un exemple à l&#8217;aide de la fonction&#160;prompt()&#160;(&#160;rappelons qu&#8217;il&#160;&#160; s&#8217;agit&#160; d&#8217;une méthode qui invite l&#8217;internaute&#160; à saisir une donnée&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; La structure conditionnelle If</h2>
+
+
+
+<p>Les structures conditionnelles permettent l&rsquo;exécution d&rsquo;un groupe d&rsquo;instructions lorsqu&rsquo;une condition est réalisée. La plus répandu est la structure If , la syntaxe est la suivante :</p>
+
+
+
+<pre class="wp-block-code"><code>if (condition){
+    Bloc d'instructions
+   }
+    else{
+    Bloc d'instructions
+    } </code></pre>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<h4></h4>
+
+
+
+<h4></h4>
+
+
+
+<p>Nous allons créer maintenant un exemple à l&rsquo;aide de la fonction&nbsp;<strong><a href="http://www.tresfacile.net/javascript-2eme-partie-variables-operateurs-et-fonction-javascript/">prompt()</a>&nbsp;(&nbsp;</strong>rappelons qu&rsquo;il&nbsp;&nbsp; s&rsquo;agit&nbsp; d&rsquo;une méthode qui invite l&rsquo;internaute&nbsp; à saisir une donnée à l&rsquo;aide du clavier, une fois la donnée saisie elle sera récupéré dans une<strong>&nbsp;variable javascript )</strong></p>
+
+
+
+<span id="more-240"></span>
+
+
+
+<p>Si vous exécutez ce code vous allez voir apparaitre une fenêtre comme celle ci :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/prompt-javascript.PNG" alt=""/></figure></div>
+
+
+<p>C&rsquo;est une fenêtre contenant un champ de texte et vous invitant à tapez votre age, votre age sera récupéré dans une variable javascript et analysé : si votre age est &lt; 18 ans elle vous affiche le message&nbsp;<strong>« vous êtes mineur »</strong>&nbsp;dans le cas contraire, elle vous affiche le message :&nbsp;<strong>« vous êtes majeur »</strong></p>
+
+
+
+<p>Si vous tapez un age supérieur à 18 ans vous allez voir apparaitre le message suivant :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/javascript-prompt.PNG" alt="javascript-prompt"/></figure></div>
+
+
+<h2>2 &#8211; Les boucles : for, while et do while.</h2>
+
+
+
+<h3>La boucle for</h3>
+
+
+
+<p>Les boucles permettent de répéter une séquence du programme un nombre spécifique de fois.<br>La boucle for est constituée de trois paramètres :<br>&#8211; La valeur initiale du compteur<br>&#8211; La condition d&rsquo;arrêt du passage dans la boucle<br>&#8211; La valeur d&rsquo;incrémentation du compteur </p>
+
+
+
+<h4>Syntax :</h4>
+
+
+
+<pre class="wp-block-code"><code>for (compteur=début ;  compteur &lt; =fin ;  compteur ++){
+Liste d'instructions ;
+}</code></pre>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<h4>(Cet exemple permet d&rsquo;afficher le message bienvenue 10 fois)</h4>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/javascript-boucle-for.PNG" alt="javascript-boucle-for"/></figure></div>
+
+
+<p>Exemple ( Calcul de Factorielle n! )</p>
+
+
+
+<h3>Exemple ( algorithme Javascript permettant de calculer factorielle n! )</h3>
+
+
+
+<p><strong>1ère partie ( Calcul de factorielle d&rsquo;un entier donné exemple n = 5 )</strong></p>
+
+
+
+<p><strong>2ème partie ( Calcul de factorielle n! pour un entier donné saisi par l&rsquo;utilisateur )</strong></p>
+
+
+
+<p>Il suffit d&rsquo;introduire n à l&rsquo;aide de la fonction prompt</p>
+
+
+
+<pre class="wp-block-code"><code>var n=prompt("Tapez votre nombre n");</code></pre>
+
+
+
+<p>et d&rsquo;utiliser l&rsquo;algorithme précédent</p>
+
+
+
+<p>On peut introduire la valeur de n à l&rsquo;aide d&rsquo;un bouton de commande et afficher les valeur sur champ de texte</p>
+
+
+
+<h3>La boucle while</h3>
+
+
+
+<p>La boucle while permet de répeter une plusieurs instruction autant qu&rsquo;une condition soit réalisée</p>
+
+
+
+<p><strong>Syntaxe&nbsp; :</strong></p>
+
+
+
+<p><strong>while ( condition booléenne )<br>{ Instructions à itérer }</strong></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Javascript Variables, opérateurs et fonction Javascript</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/javascript-variables-operateurs-et-fonction-javascript/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:20:15 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=238</guid>
+
+					<description><![CDATA[1 &#8211; Les variables Javascript 1 &#8211; 1 Définition : Une variable Javascript est&#160; un conteneur, c&#8217;est à dire elle est introduite pour&#160; représenter ou schématiser une zone mémoire ou autrement dit&#160; un lieu de stockage d&#8217;informations. 1 &#8211; 2 Types de variable Javascript : Javascript comprend 4 types de variables : &#8211; nombre&#160;: entier&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Les variables Javascript</h2>
+
+
+
+<h3>1 &#8211; 1 Définition :</h3>
+
+
+
+<p>Une variable Javascript est&nbsp; un conteneur, c&rsquo;est à dire elle est introduite pour&nbsp; représenter ou schématiser une zone mémoire ou autrement dit&nbsp; un lieu de stockage d&rsquo;informations.</p>
+
+
+
+<h3>1 &#8211; 2 Types de variable Javascript :</h3>
+
+
+
+<p>Javascript comprend 4 types de variables :</p>
+
+
+
+<p><strong>&#8211; nombre</strong>&nbsp;: entier ou à virgule ( comme 5&nbsp; &nbsp;&nbsp; 7 &nbsp; 2.35&#8230; )</p>
+
+
+
+<p><strong>&#8211; chaîne de caractères (string )</strong>&nbsp;( comme&nbsp; « voiture » , « maison », « arbre » &#8230;)</p>
+
+
+
+<p><strong>&#8211; Booléens</strong>&nbsp;( valeur logique comme true ou false )</p>
+
+
+
+<p>Pour déclarer une variable il suffit de mettre l&rsquo;instruction var suivie du nom de la variable</p>
+
+
+
+<span id="more-238"></span>
+
+
+
+<pre class="wp-block-code"><code>var x=5;
+//on vient de définir une variable x dont la valeur est 5</code></pre>
+
+
+
+<p>Javascript est un langage à typage dynamique, ce qui veut dire&nbsp; qu&rsquo;on est pas obligé à déclarer le type de la variable. prenons l&rsquo;exemple suivant pour bien éclaircir le truc :</p>
+
+
+
+<pre class="wp-block-code"><code>var x=5;
+//le type de la variable x est maintenant numérique
+x="voiture";
+//le langage convertis automatiquement le type de la variable numérique au type string  </code></pre>
+
+
+
+<h3>1 -3 Concaténation de variables</h3>
+
+
+
+<p>Le terme&nbsp;<strong>concaténation</strong>&nbsp;signifie :&nbsp;<strong>juxtaposition</strong>&nbsp;ou&nbsp;&nbsp;<strong>enchaînement,&nbsp;</strong>et ici en javascript le terme veut dire mettre une variable juste à coté de l&rsquo;autre, pour concaténer deux variables on utilise le symbol&nbsp; « + » :</p>
+
+
+
+<p><strong>Exemple :</strong></p>
+
+
+
+<pre class="wp-block-code"><code>var x="auto";
+var y="bus";
+var z=x+y;
+//la variable z prend la valeur "autobus"</code></pre>
+
+
+
+<pre class="wp-block-code"><code>&lt;script language="javascript"&gt;
+var x=5;
+window.document.write("la valeur de x est " + x);
+//le symbol + ici joue le rôle de la concaténation
+&lt;/script&gt;</code></pre>
+
+
+
+<p>Ce qui va afficher après exécution :&nbsp;<strong>la valeur de x est : 5</strong>&nbsp;( c&rsquo;est une concaténation entre une variable de type numérique&nbsp;&nbsp;<em><strong>x=5</strong></em>&nbsp; et une variable de type string<strong>&nbsp; « <em><strong>la valeur de x est :  » )</strong></em></strong></p>
+
+
+
+<h3>1 &#8211; 4 Récupération d&rsquo;une saisie clavier dans une variable Javascript</h3>
+
+
+
+<p>On a besoin parfois de demander à l&rsquo;internaute de saisir à l&rsquo;aide du clavier des données et de les récupérer sous forme de variable javascript, pour cela le langage javascript est doté d&rsquo;une méthode nommée<strong>&nbsp;prompt()&nbsp;</strong></p>
+
+
+
+<h3>Exemple :</h3>
+
+
+
+<pre class="wp-block-code"><code>&lt;script language="javascript"&gt;
+    var age=prompt("Tapez votre age") ;
+    document.write("Votre age est " + age + " ans ") ;
+    &lt;/script&gt;</code></pre>
+
+
+
+<p>Si vous exécutez ce code vous allez voir apparaitre une fenêtre comme celle ci :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/prompt-javascript.PNG" alt=""/></figure></div>
+
+
+<p>Amusez vous maintenant à tapez votre age sur le champ de saisie de cette fenêtre tapez par exemple 30, et vous allez voir apparaitre la fenêtre suivante :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/methode-javascript-prompt.PNG" alt=""/></figure></div>
+
+
+<h2>2 &#8211; Les opérateurs Javascript</h2>
+
+
+
+<p>Les opérateurs sont des symboles qui permettent de manipuler des variables, c&rsquo;est-à-dire effectuer des opérations, les évaluer, &#8230;On distingue plusieurs types d&rsquo;opérateurs: les opérateurs de calcul les opérateurs d&rsquo;assignation, les opérateurs de comparaison, les opérateurs logiques,…</p>
+
+
+
+<h3>2 &#8211; 1 Les opérateurs de calcul</h3>
+
+
+
+<p>Les opérateurs de calcul permettent de modifier mathématiquement la valeur d&rsquo;une variable<br>+ opérateur d&rsquo;addition Ajoute deux valeurs<br>&#8211; opérateur de soustraction Soustrait deux valeurs<br>* opérateur de multiplication Multiplie deux valeurs<br>/ opérateur de division Divise deux valeurs<br>= opérateur d&rsquo;affectation Affecte une valeur à une variable x=3 Met la valeur 3 dans la variable x</p>
+
+
+
+<h3>2 &#8211; 2 Les opérateurs d&rsquo;assignation</h3>
+
+
+
+<p>Ces opérateurs permettent de simplifier des opérations telles que ajouter une valeur dans une variable et stocker le résultat dans la variable. Par exemple: x=x+2</p>
+
+
+
+<p>Avec les opérateurs d&rsquo;assignation il est possible d&rsquo;écrire cette opération sous la forme suivante: x+=2. C&rsquo;est à dire si x= 3 elle devient après l&rsquo;opération 5.</p>
+
+
+
+<p>+= additionne deux valeurs et stocke le résultat dans la variable (à gauche)<br>-= soustrait deux valeurs et stocke le résultat dans la variable<br>*= multiplie deux valeurs et stocke le résultat dans la variable<br>/= divise deux valeurs et stocke le résultat dans la variable</p>
+
+
+
+<h2>3 &#8211; Les fonctions Javascript</h2>
+
+
+
+<p>Le langage Javascript est doté d&rsquo;un grand nombre de fonctions, mais en essayant de répondre aux exigences et besoins de l&rsquo;utilisateur ce langage nous offre la possibilité de construire ses propres fonction. La syntaxe est la suivante :</p>
+
+
+
+<p>&nbsp;&nbsp;<strong>&nbsp; function nom_de_la_fonction(arguments) {<br>&#8230; code des instructions &#8230;<br>}</strong><br>Le code d&rsquo;une fonction peut être introduit dans une page HTML de deux façons différentes : ou bien :</p>
+
+
+
+<p><strong>1 &#8211;</strong>&nbsp; entre les balises<strong>&nbsp;Head</strong>&nbsp; et&nbsp;<strong>/Head</strong>&nbsp; dans ce cas elle ne sera pas exécuté directement au chargement de la page pour qu&rsquo;il en soit ainsi il faut donner un ordre d&rsquo;exécution sur la balise&nbsp;<strong>Body</strong>&nbsp; à l&rsquo;aid de l&rsquo;instruction&nbsp;<strong>Body onload</strong></p>
+
+
+
+<p><strong>2 &#8211;</strong>&nbsp;directement entre les balises&nbsp;<strong>Body</strong>&nbsp;et&nbsp;<strong>/Body</strong>&nbsp;&nbsp;et il sera directement exécuté avec le chargement de la page</p>
+
+
+
+<h4>En utilisant la première méthode, voici un exemple d&rsquo;une fonction affichant ule message :&nbsp;&nbsp;<em>bienvenue au CRMEF OUJDA</em></h4>
+
+
+
+<pre class="wp-block-code"><code>&lt;html&gt;
+    &lt;head&gt;
+    &lt;script language="Javascript"&gt;
+    function bienvenue() {
+    alert("Bienvenue au CRMEF Oujda");
+    }
+    &lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body onLoad="bienvenue()"&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</code></pre>
+
+
+
+<p>Voici un autre exemple de fonction permettant de calculer la somme de deux nombres :</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;script language="javascript"&gt;
+function somme(x,y){
+return x+y;
+}
+var z=somme(5,4);
+document.write("La somme de 5 et de 4 est " + z);
+&lt;/script&gt;</code></pre>
+
+
+
+<p>Ce qui affiche après exécution :&nbsp; « <em><strong>La somme de 5 et de 4 est 9&Prime;</strong></em></p>
+
+
+
+<h2>4 &#8211; Les événements Javascript</h2>
+
+
+
+<p>On appelle événement toute action comme : click de la sourie,&nbsp; passage de la sourie, mettre le curseur dans une zone de saisie …&nbsp; Javascript peut associer des méthodes ou procédures à ces derniers à l&rsquo;aide de la syntaxe :</p>
+
+
+
+<p><strong>&nbsp;onEvenement= »Action_Javascript_ou_Fonction(); »</strong></p>
+
+
+
+<h3>4 &#8211; 1 Liste des événements</h3>
+
+
+
+<p><strong>Click (onClick)</strong><br>Se produit lorsque l&rsquo;utilisateur clique sur l&rsquo;élément associé à l&rsquo;événement</p>
+
+
+
+<p><strong>Load (onLoad)</strong><br>Se produit lorsque le navigateur de l&rsquo;utilisateur charge la page en cours</p>
+
+
+
+<p><strong>Unload (onUnload)&nbsp;&nbsp;</strong><br>Se produit lorsque le navigateur de l&rsquo;utilisateur quitte la page en cours</p>
+
+
+
+<p><strong>MouseOver (onMouseOver)</strong><br>Se produit lorsque l&rsquo;utilisateur positionne le curseur de la souris au-dessus d&rsquo;un élément</p>
+
+
+
+<p><strong>MouseOut (onMouseOut)</strong><br>Se produit lorsque le curseur de la souris quitte un élément</p>
+
+
+
+<p><strong>Focus (onFocus)</strong><br>Se produit lorsque l&rsquo;utilisateur donne le focus à un élément, c&rsquo;est-à-dire que cet élément est sélectionné comme étant l&rsquo;élément actif</p>
+
+
+
+<p><strong>Blur (onBlur)</strong><br>Se produit lorsque l&rsquo;élément perd le focus, c&rsquo;est-à-dire que l&rsquo;utilisateur clique hors de cet élément, celui-ci n&rsquo;est alors plus sélectionné comme étant l&rsquo;élément actif</p>
+
+
+
+<p><strong>Change (onChange)</strong><br>Se produit lorsque l&rsquo;utilisateur modifie le contenu d&rsquo;un champ de données</p>
+
+
+
+<p><strong>Select (onSelect)</strong><br>Se produit lorsque l&rsquo;utilisateur sélectionne un texte (ou une partie d&rsquo;un texte) dans un champ de type « text » ou « textarea »</p>
+
+
+
+<p><strong>Submit (onSubmit)</strong><br>Se produit lorsque l&rsquo;utilisateur clique sur le bouton de soumission d&rsquo;un formulaire (le bouton qui permet d&rsquo;envoyer le formulaire)</p>
+
+
+
+<h3>Exemple ( événement onclick )</h3>
+
+
+
+<p>Nous allons créer une fonction&nbsp;&nbsp;<strong>exemple()</strong>&nbsp;dont la fonction est l&rsquo;affichage du message<strong>&nbsp; » Vous avez cliqué sur le bouton »</strong>&nbsp;et lui associer un bouton lié à l’événement<strong>&nbsp;onclick&nbsp;</strong></p>
+
+
+
+<pre class="wp-block-code"><code>&lt;html&gt;
+    &lt;head&gt;
+    &lt;script language="Javascript"&gt;
+    function exemple() {
+    return alert("Vous avez cliqué sur le bouton");
+    }
+    &lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+	&lt;input type=button value="Cliquer ici" onclick="exemple();"&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</code></pre>
+
+
+
+<p>Et maintenant en cliquant sur aperçu on obtient une fenêtre qui contient un bouton :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/onclick-javascript.png" alt="onclick-javascript"/></figure></div>
+
+
+<p>En cliquant sur ce bouton il se produit l’événement exemple() qui&nbsp; est une fonction permettant d&rsquo;afficher le message&nbsp;<strong> » Vous avez cliqué sur le bouton » :</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/executer-evenement-javascript.png" alt="executer-evenement-javascript"/></figure></div>
+
+
+<p>J&rsquo;espère que vous avez bien compris les événement Javascript, si vous avez des questions et que vous avez besoin d&rsquo;un soutien merci de le poster sur notre&nbsp;&nbsp;<a href="https://plus.google.com/u/0/communities/108500242892278298417/stream/889c19bb-625f-4b52-91e4-628247463375" target="_blank" rel="noreferrer noopener">page&nbsp; communauté de Google plus</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Introduction Javascript</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-javascript/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2022 17:18:25 +0000</pubDate>
+				<category><![CDATA[JS]]></category>
+		<category><![CDATA[javascrip]]></category>
+		<category><![CDATA[js]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=236</guid>
+
+					<description><![CDATA[Qu’est-ce que JavaScript ?Bienvenue dans le cours JavaScript pour débutants MDN! Dans ce premierarticle, nous examinerons JavaScript à un niveau élevé, en répondant àdes questions telles que « qu’est-ce que c’est? », et « que fait-il? », et ennous assurant que vous êtes à l’aise avec l’objectif de JavaScript.Un premier coup d’œil en JavaScriptMaintenant que&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Qu’est-ce que JavaScript ?<br>Bienvenue dans le cours JavaScript pour débutants MDN! Dans ce premier<br>article, nous examinerons JavaScript à un niveau élevé, en répondant à<br>des questions telles que « qu’est-ce que c’est? », et « que fait-il? », et en<br>nous assurant que vous êtes à l’aise avec l’objectif de JavaScript.<br>Un premier coup d’œil en JavaScript<br>Maintenant que vous avez appris quelque chose sur la théorie de<br>JavaScript, et ce que vous pouvez en faire, nous allons vous donner un<br>cours intensif sur les fonctionnalités de base de JavaScript via un tutoriel<br>complètement pratique. Ici, vous allez construire un jeu simple « Devinez le<br>nombre », étape par étape.</p>
+
+
+
+<p></p>
+
+
+
+<p>Qu’est-ce qui a mal tourné? Dépannage de JavaScript<br>Lorsque vous avez créé le jeu « Devinez le nombre » dans l’article<br>précédent, vous avez peut-être constaté que cela ne fonctionnait pas.<br>N’ayez crainte &#8211; cet article vise à vous éviter de vous arracher les cheveux<br>sur de tels problèmes en vous fournissant quelques conseils simples sur la<br>façon de trouver et de corriger les erreurs dans les programmes JavaScript</p>
+
+
+
+<p>Après avoir lu les deux derniers articles, vous devriez maintenant savoir ce<br>qu’est JavaScript, ce qu’il peut faire pour vous, comment vous l’utilisez aux<br>côtés d’autres technologies Web et à quoi ressemblent ses principales<br>fonctionnalités à un niveau élevé. Dans cet article, nous allons passer aux<br>bases réelles, en examinant comment travailler avec les blocs de<br>construction les plus élémentaires de JavaScript &#8211; Variables.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

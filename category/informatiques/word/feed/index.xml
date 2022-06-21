@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Word &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/category/informatiques/word/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 02:57:55 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>Word &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Comment créer une table des matières à un document Word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-creer-une-table-des-matieres-a-un-document-word/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:49:05 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=708</guid>
+
+					<description><![CDATA[Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école. L’une de ces fonctionnalités&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/sommaire-automatique.png?resize=780%2C470&amp;ssl=1" alt="Comment créer un sommaire automatique"/></figure>
+
+
+
+<p>Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école.</p>
+
+
+
+<span id="more-708"></span>
+
+
+
+<p>L’une de ces fonctionnalités est&nbsp;<strong>la Table des matières</strong>. Word a une grande fonctionnalité qui vous permet de créer une table de contenu automatique ou bien on l’appel aussi&nbsp;<strong>sommaire automatique</strong>. La grande chose est que même si vous avez déjà un document Word avec beaucoup de contenu, il est très facile de le modifier afin que vous puissiez générer la table des matières automatiquement.</p>
+
+
+
+<p>Dans cet article, je vais vous guider dans le processus de la mise en place de votre document Word avec les en-têtes corrects et ensuite parler de comment créer la table des matières. Je vais également parler de la façon dont vous pouvez personnaliser la table des matières à votre goût.</p>
+
+
+
+<h2>Configuration et affichage des en-têtes dans Word</h2>
+
+
+
+<p>La première chose que vous voulez faire avant de pouvoir créer une table des matières est de configurer vos en-têtes. Par défaut, les en-têtes autorisés que vous pouvez utiliser sont&nbsp;<strong>H1 (titre 1), H2 (titre 2) et H3 (titre 3)</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/1.png?resize=556%2C204" alt="header format dans word" class="wp-image-1095"/></figure></div>
+
+
+<p>Vous pouvez les trouver dans la boîte Styles de l’onglet Accueil principal du ruban. Ce sont les trois seules que vous pouvez utiliser pour un TOC par défaut. Si vous ajoutez un TOC personnalisé, vous pouvez également utiliser&nbsp;<strong>H4 (titre 4), H5 (titre 5), H6 (titre 6), sous-titre, titre et titre de tableur</strong>.</p>
+
+
+
+<p>Lorsque vous parcourez votre document pour ajouter les différentes rubriques, n’hésitez pas à choisir parmi les titres susmentionnés si H1, H2 et H3 se sentent trop restreints. Vous aurez juste à insérer un TOC personnalisé et modifier quelques paramètres, que je vais également mentionner.</p>
+
+
+
+<p>Il est très facile d’appliquer des en-têtes au texte dans Word. Cliquez simplement sur la ligne avec le texte, puis cliquez sur le style de titre que vous souhaitez appliquer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/applique-header-dans-word.png?resize=498%2C201" alt="Appliquer header dans Word" class="wp-image-1096"/></figure></div>
+
+
+<p>Passez par le document et ajoutez autant de titres que vous le souhaitez. Notez que lorsque vous ajoutez des en-têtes, il sera difficile de voir les en-têtes, même si vous avez des marques de paragraphe visibles. Pour afficher rapidement tous les en-têtes d’un document Word, cliquez sur l’onglet&nbsp;<strong>Affichage</strong>&nbsp;puis cochez la case sous&nbsp;<strong>Volet&nbsp;de navigation</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/navigation-volet-word.png?resize=555%2C201" alt="Volet de navigation dans Word" class="wp-image-1097"/></figure></div>
+
+
+<p>Lorsque vous faites cela, un volet apparaîtra sur le côté gauche du document et vous pourrez voir les différentes rubriques, sous-titres, etc.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/afficher-heading-word.png?resize=270%2C403" alt="Afficher heading dans Word" class="wp-image-1098"/></figure></div>
+
+
+<p>En cliquant sur l’un des éléments de la liste, vous accédez à cette rubrique dans le document Word. C’est une excellente façon de voir rapidement votre structure de titre avant de créer votre TOC final.</p>
+
+
+
+<h2>Ajout d’une table des matières dans Word</h2>
+
+
+
+<p>Maintenant que nous avons tous nos en-têtes correctement configurés, allons-y et insérez une table des matières. Tout d’abord, nous allons commencer avec la configuration TOC par défaut dans Word. Avant de commencer, il peut être judicieux d’ajouter une page blanche au début de votre document.</p>
+
+
+
+<p>Pour ce faire, allez au sommet de votre première page actuelle, puis cliquez sur Insérer et page blanche.</p>
+
+
+
+<p>Cliquez maintenant sur&nbsp;<strong>Références</strong>,&nbsp;<strong>Table des matières</strong>&nbsp;et choisissez parmi les choix&nbsp;<strong>automatiques</strong>&nbsp;en haut.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/inserrer-table-de-matiere-word.png?resize=406%2C619" alt="Insérrer un table de matière dans Word" class="wp-image-1099"/></figure></div>
+
+
+<p>Une table manuelle ne sera que du texte de remplissage au format d’une table des matières, mais vous devrez effectuer manuellement toutes les modifications. Lorsque vous insérez la table des matières automatique, vous devriez voir quelque chose comme ceci:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-contenu-word.png?resize=677%2C359" alt="Table de contenu dans Word" class="wp-image-1100"/></figure></div>
+
+
+<p>Impressionnant! Maintenant, vous avez un TOC joliment formaté dans votre document Word! Une fois que vous avez inséré le TOC, vous pouvez toujours modifier les en-têtes de votre document, mais les modifications ne seront pas automatiquement reflétées dans le TOC.</p>
+
+
+
+<p>Afin de mettre à jour la table des matières, il vous suffit de cliquer à l’intérieur de celle-ci, puis de cliquer sur Mettre à jour la table en haut.</p>
+
+
+
+<p>Il vous demandera si vous voulez mettre à jour uniquement les numéros de page ou la&nbsp;<strong>table entière</strong>. Si vous avez modifié, inséré ou supprimé des en-têtes, vous devez choisir la table entière. Si vous venez d’ajouter plus de contenu à votre document, mais que vous n’avez pas ajouté ou supprimé d’en-têtes, vous pouvez choisir uniquement&nbsp;<strong>les numéros de page</strong>.</p>
+
+
+
+<h2>Personnaliser la table des matières</h2>
+
+
+
+<p>Si vous avez utilisé des titres autres que H1, H2 et H3, vous remarquerez qu’ils n’apparaîtront pas dans le TOC. Pour utiliser ces en-têtes supplémentaires, vous devez choisir&nbsp;<strong>Table des matières personnalisée</strong>&nbsp;lors de l’insertion de la table des matières.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/options-table-de-matiere.png?resize=517%2C463" alt="Option table de contenu dans Word" class="wp-image-1101"/></figure></div>
+
+
+<p>Cela ouvre la boîte de dialogue des options pour le TOC. Vous pouvez modifier certains paramètres de base, comme pour afficher les numéros de page et pour aligner ou non les numéros de droite. Sous&nbsp;<strong>Général</strong>, vous pouvez choisir parmi plusieurs styles et vous pouvez également choisir d’afficher plus de niveaux au-delà de trois, qui est le titre H3.</p>
+
+
+
+<p>Si vous cliquez sur&nbsp;<strong>Options</strong>, vous pouvez choisir des éléments supplémentaires pour construire la table des matières avec. Si vous faites défiler vers le bas, vous pourrez sélectionner l’en-tête des&nbsp;<strong>sous-titres</strong>&nbsp;et de&nbsp;<strong>la table des matières</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/toc-options-word.png?resize=369%2C319" alt="Option table de matiére" class="wp-image-1102"/></figure></div>
+
+
+<p>Pour personnaliser l’apparence de la table des matières, vous devez cliquer sur le bouton&nbsp;<strong>Modifier</strong>. Si vous cliquez simplement sur la table des matières et choisissez&nbsp;<strong>Police</strong>&nbsp;ou&nbsp;<strong>Paragraphe</strong>, il ne formate pas la table des matières.</p>
+
+
+
+<p>Lorsque vous cliquez sur Modifier, vous obtenez une autre boîte de dialogue où vous pouvez modifier chaque niveau de COT. TOC 1 représente H1, TOC 2 représente un groupe H2, etc.</p>
+
+
+
+<p>Cliquez sur le deuxième bouton&nbsp;<strong>Modifier</strong>&nbsp;et vous serez en mesure de modifier la mise en forme pour ce titre particulier. Donc, si vous voulez, vous pouvez faire toutes les rubriques H1 gras et une taille de police différente.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/modifier-style-toc.png?resize=526%2C539" alt="Modifier le style du table de matiére" class="wp-image-1103"/></figure></div>
+
+
+<p>Si vous cliquez sur le bouton&nbsp;<strong>Format</strong>&nbsp;en bas, vous pouvez personnaliser encore plus de paramètres comme le paragraphe, onglets, bordure, cadre, numérotation, etc Voici mon TOC avec H1 en gras et avec une taille de police plus grande.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-matiere-modifiee.png?resize=669%2C361" alt="Table de matière modifié" class="wp-image-1104"/></figure></div>
+
+
+<p>Enfin, si vous appuyez sur la touche CTRL et puis cliquez sur quoi que ce soit dans la table des matières, vous serez amené à cette page.</p>
+
+
+
+<p>Toutefois, si vous trouvez ennuyeux d’avoir à appuyer sur la touche CTRL, vous pouvez changer cela en allant à&nbsp;<strong>Fichier – Options</strong>&nbsp;et puis en cliquant sur Avancé.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ctrl-click-hyperlink.png?resize=559%2C316" alt="ctrl-click-hyperlink" class="wp-image-1105"/></figure></div>
+
+
+<p>Allez-y et décochez la case&nbsp;<strong>Utiliser CTRL + Cliquer pour suivre l’hyperlien</strong>. Maintenant, vous pouvez simplement cliquer sur les éléments de la table des matières comme des liens sans tenir la touche CTRL enfoncée. Malheureusement, cela ne fonctionne que sur votre copie locale de Word.</p>
+
+
+
+<p>Lorsque vous envoyez un courrier électronique à quelqu’un et si elles n’ont pas ce paramètre modifié, ils devront CTRL + clic. C’est à ce sujet quand il s’agit de la table des matières dans Word. Prendre plaisir!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Supprimer le formattage de text collé dans word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/supprimer-le-formattage-de-text-colle-dans-word/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:46:15 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[formattage text word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=706</guid>
+
+					<description><![CDATA[Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&#160;Microsoft Word, Word permet de garder la mise en forme du texte. Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&#160;gras, et ce texte resterait&#160;bleu. Pour supprimer&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word.jpg?resize=780%2C470&amp;ssl=1" alt="Microsoft Word"/></figure>
+
+
+
+<p>Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&nbsp;<strong>Microsoft Word</strong>, Word permet de garder la mise en forme du texte.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png?resize=256%2C256" alt="word-logo" class="wp-image-34"/></a></figure></div>
+
+
+<p>Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&nbsp;<strong>gras</strong>, et ce texte resterait&nbsp;<strong>bleu</strong>. Pour supprimer la mise en forme dans Microsoft Word à partir de n’importe quel texte en surbrillance le texte et appuyez sur la touche raccourci&nbsp;<strong>Ctrl + Espace</strong>. Cela mettra le texte à la police par défaut, supprimer la mise en forme, et même supprimer les liens.</p>
+
+
+
+<p>Sinon, vous pouvez utiliser l’option de Collage spécial dans Microsoft Word pour coller le texte sans formatage.</p>
+
+
+
+<p><strong>Astuce:</strong>&nbsp;Dans la plupart des versions de Windows&nbsp;<strong>Ctrl + Windows + V</strong>&nbsp;sera aussi souvent coller le texte en texte brut.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment ajouter ou supprimer une bordure de page dans Microsoft Word ?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-ajouter-ou-supprimer-une-bordure-de-page-dans-microsoft-word/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:44:50 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=704</guid>
+
+					<description><![CDATA[Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D. Ajouter une bordure dans Microsoft Word Ouvrez Microsoft Word. Cliquez sur l’onglet&#160;Mise en page. Dans Word 2013 et 2016, cliquez&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-bordure.jpg?resize=608%2C470&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D.</p>
+
+
+
+<span id="more-704"></span>
+
+
+
+<h2>Ajouter une bordure dans Microsoft Word</h2>
+
+
+
+<ol><li>Ouvrez Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Encadré</strong>&nbsp;si vous souhaitez une bordure carrée autour de votre page.</li><li>Sélectionnez le style de bordure souhaité sur la page, qui peut être plein, pointillé. Sélectionnez la couleur et la largeur de la bordure. Cliquez sur la flèche vers le bas pour le menu déroulant&nbsp;<strong>Motif</strong>. Dans l’exemple ci-dessous, nous utilisons l’art des coeurs comme bordure.</li><li>Une fois que vous avez sélectionné toutes les options de bordure que vous souhaitez utiliser dans votre document, cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour appliquer la bordure.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-word.jpg?resize=563%2C427&amp;ssl=1" alt="microsoft-word-ajouter-supprimer-word" class="wp-image-6501"/></figure></div>
+
+
+<p><strong>Remarque</strong>&nbsp;: Par défaut, les bordures sont appliquées à l’ensemble du document, ce qui signifie que chaque page a la même bordure. En cliquant sur la flèche vers le bas sur Appliquer à, vous avez la possibilité de sélectionner uniquement la première page, la page sélectionnée, toutes les pages sauf la première page et d’autres options.</p>
+
+
+
+<h2>Supprimer une bordure dans Microsoft Word</h2>
+
+
+
+<ol><li><strong>Ouvrez</strong>&nbsp;Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Aucun</strong>&nbsp;pour supprimer toute bordure sur la page.</li><li>Supprimer la bordure de page dans Microsoft Word</li><li>Cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour supprimer la bordure.</li></ol>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment utiliser Microsoft Office gratuitement sur le Web ?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-utiliser-microsoft-office-gratuitement-sur-le-web/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:43:47 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=702</guid>
+
+					<description><![CDATA[Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web. Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&#160;Office gratuit pour les applications Web. Anciennement connu&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=727%2C404&amp;ssl=1" alt="microsoft-office-en-ligne"/></figure>
+
+
+
+<p>Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web.</p>
+
+
+
+<span id="more-702"></span>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=708%2C393&amp;ssl=1" alt="microsoft-office-en-ligne" class="wp-image-6508"/></figure></div>
+
+
+<p>Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&nbsp;<strong>Office gratuit pour les applications Web</strong>.</p>
+
+
+
+<p>Anciennement connu sous le nom d’<strong>Office Online</strong>&nbsp;et maintenant simplement appelé Office, les applications Web résident en ligne, accessibles via votre navigateur. Au lieu d’installer Word, Excel et PowerPoint sur votre ordinateur, vous utilisez des variétés basées sur le cloud des différents programmes – similaires à Google Docs – et tout ce dont vous avez besoin est un navigateur Web tel que Chrome, Firefox, Edge, Internet Explorer ou un programme similaire.</p>
+
+
+
+<p>Au lieu de stocker vos fichiers et documents sur votre ordinateur, vous les enregistrez sur&nbsp;<strong>Microsoft OneDrive</strong>, le service de stockage en nuage de l’entreprise. Le seul inconvénient est que Office pour les applications Web n’est pas aussi riche en fonctionnalités que leurs homologues de bureau. Vous trouverez des commandes d’édition et de formatage de base, mais pas beaucoup plus. Cependant, si tout ce dont vous avez besoin sont les bases, c’est une option qui mérite d’être essayée.</p>
+
+
+
+<p>Office pour le Web propose les quatre programmes principaux: Word, Excel, PowerPoint et OneNote. Mais vous pouvez également accéder à d’autres applications, notamment Outlook, Calendar, People, Skype et OneDrive. Une autre application appelée Sway vous permet de créer des rapports et des présentations interactifs.</p>
+
+
+
+<p>Passons en revue les étapes d’accès et d’utilisation d’<strong>Office pour les applications Web</strong> pour créer, modifier et enregistrer vos documents.</p>
+
+
+
+<h2>Comment utiliser Microsoft Office gratuitement</h2>
+
+
+
+<p>Tout d’abord, vous aurez besoin d’un compte Microsoft. Si vous n’en avez pas déjà un, configurez-le sur le site Web du compte Microsoft. Un compte Microsoft est livré avec 5 Go de stockage OneDrive gratuit; si vous en avez besoin de plus, vous pouvez récupérer 100 Go pour 1,99 $ par mois.</p>
+
+
+
+<p>Accédez au&nbsp;<a href="https://products.office.com/fr-FR/free-office-online-for-the-web" target="_blank" rel="noreferrer noopener">site Web Office</a>&nbsp;et cliquez sur&nbsp;<strong>Utiliser l’application gratuitement sur Office.com</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/utiliser-microsoft-office-en-ligne.jpg?resize=664%2C383&amp;ssl=1" alt="utiliser-microsoft-office-en-ligne" class="wp-image-6509"/></figure></div>
+
+
+<p>Connectez-vous avec votre compte Microsoft et vous serez redirigé vers le site Web d’Office.</p>
+
+
+
+<p>En haut, vous verrez des applications comme Word, Excel, PowerPoint et Outlook. Une fois que vous avez commencé à créer et à enregistrer des fichiers Office, ceux-ci apparaîtront en bas de la page sous forme de documents récents afin que vous puissiez y accéder plus facilement et plus rapidement.</p>
+
+
+
+<h2>Créer un document Word</h2>
+
+
+
+<p>Nous utiliserons Word comme sujet de test ici. Cliquez dessus et une page s’ouvre où vous pouvez sélectionner un modèle pour créer votre document ou fichier. Par exemple, Word propose des modèles de curriculum vitae, lettres de motivation, dépliants et calendriers. Si vous n’avez pas besoin d’un modèle spécial, cliquez simplement sur Nouveau document vierge.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne.jpg?resize=694%2C343&amp;ssl=1" alt="microsoft-word-en-ligne" class="wp-image-6510"/></figure></div>
+
+
+<p>Word s’ouvre pour que vous puissiez commencer à créer votre document; vous trouverez toutes les options d’édition de base via la barre d’outils. Par exemple, vous pouvez: définir la police, la taille en points et d’autres attributs de votre texte ainsi qu’appliquer certains styles; insérer des tableaux, des images, des numéros de page et des en-têtes et pieds de page; ajustez la taille de la page, les marges et l’orientation; effectuer un zoom avant et arrière sur votre document; et lancez une vérification d’orthographe.</p>
+
+
+
+<p><a rel="noreferrer noopener" href="https://astuces-informatique.com/supprimer-un-mot-a-la-fois-dans-microsoft-word/" target="_blank"></a></p>
+
+
+
+<p>Votre document prend le nom par défaut Document 1, Document 2, etc. Pour modifier le nom, cliquez dans le nom de fichier en haut du document et saisissez-en un nouveau. Votre document est automatiquement enregistré périodiquement, mais vous souhaiterez peut-être l’enregistrer manuellement à un emplacement spécifique dans OneDrive.</p>
+
+
+
+<p>Cliquez sur le menu&nbsp;<strong>Fichier</strong>, sélectionnez la commande&nbsp;<strong>Enregistrer sous</strong>, puis sélectionnez Enregistrer sous et choisissez l’emplacement dans lequel vous souhaitez enregistrer le fichier. Vous pouvez également télécharger le fichier sur votre PC, sous forme de document Word ou PDF. Le menu Fichier vous donne également la possibilité d’imprimer le document ou de le partager avec d’autres personnes en leur envoyant un lien par e-mail.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/word-en-ligne-enregistrer-sous.jpg?resize=685%2C340&amp;ssl=1" alt="word-en-ligne-enregistrer-sous" class="wp-image-6511"/></figure></div>
+
+
+<h2>Ouvrez un fichier que vous avez créé précédemment</h2>
+
+
+
+<p>Pour ouvrir un fichier que vous avez déjà créé, cliquez sur la commande&nbsp;<strong>Ouvrir</strong>&nbsp;et choisissez parmi les documents récents.</p>
+
+
+
+<p>Les versions en ligne d’Excel, PowerPoint et OneNote fonctionnent de manière similaire à Word en ce qu’elles offrent toutes les commandes et fonctionnalités de base. Vous pouvez accéder à une autre application Office sans fermer votre application actuelle.</p>
+
+
+
+<p>Pour ce faire, cliquez sur le bouton «&nbsp;Liste des services Microsoft&nbsp;» dans le coin supérieur gauche (c’est celui qui contient neuf petits carrés) puis sélectionnez l’application que vous souhaitez ouvrir. Étant donné que les programmes et vos fichiers sont tous en ligne, vous pouvez y accéder depuis n’importe quel ordinateur ou appareil connecté.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne-ouvrir-document.jpg?resize=630%2C371&amp;ssl=1" alt="microsoft-word-en-ligne-ouvrir-document" class="wp-image-6512"/></figure></div>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment utiliser le ruban dans Microsoft Word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-utiliser-le-ruban-dans-microsoft-word/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:41:07 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=700</guid>
+
+					<description><![CDATA[Le ruban est la barre d’outils située en haut de Microsoft Word, PowerPoint et Excel, ainsi que d’autres applications Microsoft. Le ruban est composé d’onglets qui conservent les outils associés. Cela rend tous les outils facilement accessibles, quel que soit le type de projet ou d’appareil sur lequel vous travaillez. Le ruban peut être complètement&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/personnaliser-rubban-2.jpg?resize=780%2C470&amp;ssl=1" alt="Personnaliser Ruban"/></figure>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/rubban-microsoft-word.jpg?resize=708%2C139&amp;ssl=1" alt="Rubban Microsoft Word" class="wp-image-2893"/></figure></div>
+
+
+<p>Le ruban est la barre d’outils située en haut de Microsoft Word, PowerPoint et Excel, ainsi que d’autres applications Microsoft. Le ruban est composé d’onglets qui conservent les outils associés. Cela rend tous les outils facilement accessibles, quel que soit le type de projet ou d’appareil sur lequel vous travaillez.</p>
+
+
+
+<span id="more-700"></span>
+
+
+
+<p>Le ruban peut être complètement masqué ou montré de différentes manières et peut être personnalisé pour répondre aux besoins de chacun. Le ruban est devenu disponible dans Microsoft Word 2007 et continue de faire partie de Microsoft Word 2013 et de Microsoft Word 2016.</p>
+
+
+
+<h2>Explorer les options d’affichage du ruban</h2>
+
+
+
+<p>Selon vos paramètres actuels, le ruban se présentera sous l’une des trois formes suivantes. Vous pourriez ne rien voir du tout; c’est le paramètre&nbsp;<strong>Masquer automatiquement le ruban</strong>. Vous ne pouvez voir que les onglets (Fichier, Accueil, Insérer, Dessiner, Conception, Mise en page, Références, Publipostage, Révision et Affichage); c’est le paramètre&nbsp;<strong>Afficher les onglets</strong>. Enfin, vous pouvez voir les onglets et les commandes en dessous; c’est le paramètre Afficher les onglets et les commandes.</p>
+
+
+
+<p>Pour vous déplacer parmi ces vues:</p>
+
+
+
+<p>Si le ruban:</p>
+
+
+
+<ul><li>N’est pas disponible, cliquez sur les trois points dans le coin supérieur droit de la fenêtre&nbsp;<strong>Word</strong>.</li><li>Affiche uniquement les onglets, cliquez sur l’icône carrée avec la flèche vers le haut dans le coin supérieur droit de la fenêtre Word.</li><li>Affiche les onglets et les commandes, cliquez sur l’icône carrée avec la flèche vers le haut dans le coin supérieur droit de la fenêtre Word.</li></ul>
+
+
+
+<p>Cliquez sur la vue que vous souhaitez voir:</p>
+
+
+
+<ul><li><strong>Masquer automatiquement le ruban</strong>&nbsp;– pour masquer le ruban jusqu’à ce que vous en ayez besoin. Cliquez ou déplacez votre souris dans la zone du ruban pour l’afficher.</li><li><strong>Afficher uniquement les onglets</strong>&nbsp;– pour afficher uniquement les onglets du ruban.</li><li><strong>Afficher les onglets et les commandes</strong>&nbsp;– pour afficher les onglets et les commandes du ruban à tout moment.</li></ul>
+
+
+
+<p><strong>Remarque</strong>: Pour utiliser le ruban, vous devez pouvoir accéder aux onglets au moins. Si vous pouvez voir les commandes aussi, c’est encore mieux. Si vous ne connaissez pas le ruban, envisagez de modifier les paramètres d’affichage décrits ci-dessus pour afficher les onglets et les commandes.</p>
+
+
+
+<h2>Utilisez le ruban</h2>
+
+
+
+<p>Chacun des onglets du ruban Word ont des commandes et des outils sous eux. Si vous avez changé l’affichage pour afficher les onglets et les commandes, vous les verrez. Si votre vue du ruban est définie sur Afficher les onglets, vous devrez cliquer sur l’onglet lui-même pour voir les commandes associées.</p>
+
+
+
+<p>Pour utiliser une commande, vous trouvez d’abord la commande souhaitée, puis cliquez dessus. Parfois, vous devrez faire autre chose, mais pas toujours. Si vous ne savez pas ce que représente une icône sur le ruban, passez simplement votre souris dessus.</p>
+
+
+
+<p>Voici quelques exemples:</p>
+
+
+
+<ul><li>Pour insérer une image dans votre document Word, cliquez sur l’onglet&nbsp;<strong>Insertion</strong>, puis sur Images. Naviguez jusqu’à l’image que vous souhaitez insérer et cliquez sur&nbsp;<strong>Ouvrir</strong>.</li><li>Pour démarrer une liste à puces, cliquez sur l’onglet&nbsp;<strong>Accueil</strong>, puis sur l’icône Puces.</li><li>Pour démarrer une liste numérotée, cliquez sur l’onglet&nbsp;<strong>Accueil</strong>, puis sur l’icône&nbsp;<strong>Numérotation</strong>.</li><li>Pour choisir une conception pour l’ensemble du document, cliquez sur l’onglet&nbsp;<strong>Conception</strong>, puis sur le dessin que vous souhaitez utiliser.</li><li>Pour vérifier l’orthographe et la grammaire, cliquez sur l’onglet&nbsp;<strong>Révision</strong>, puis sur&nbsp;<strong>Orthographe</strong>&nbsp;et grammaire.</li></ul>
+
+
+
+<p>De nombreux outils fonctionnent différemment si vous avez sélectionné du texte (ou un autre élément). Vous pouvez sélectionner du texte en faisant glisser votre souris dessus. Lorsque le texte est sélectionné, l’application d’un outil lié au texte (comme Gras, Italique, Souligné, Couleur de surbrillance du texte ou Couleur de police) s’applique uniquement au texte sélectionné. Par ailleurs, si vous appliquez ces outils sans que du texte soit sélectionné, ces attributs seront appliqués uniquement au texte suivant que vous tapez.</p>
+
+
+
+<h2>Personnaliser la barre d’outils Accès rapide</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/personnaliser-rubban.jpg?resize=631%2C446&amp;ssl=1" alt="Personnaliser Rubban" class="wp-image-2894"/></figure></div>
+
+
+<p>Vous pouvez personnaliser le ruban de plusieurs manières. Une option consiste à ajouter ou à supprimer des éléments dans la barre d’outils Accès rapide, située tout en haut de l’interface du ruban. La barre d’accès rapide offre des raccourcis vers les commandes les plus utilisées.</p>
+
+
+
+<p>Par défaut, Enregistrer est là, de même que Annuler et Rétablir. Vous pouvez supprimer ceux-ci et / ou en ajouter d’autres, y compris Nouveau (pour créer un nouveau document), Imprimer, Courrier électronique, etc.</p>
+
+
+
+<p>Pour ajouter des éléments à la barre d’outils Accès rapide:</p>
+
+
+
+<ol><li>Cliquez sur la flèche vers le bas à droite du dernier élément de la barre d’outils Accès rapide.</li><li>Cliquez sur une commande sans coche pour l’ajouter.</li><li>Cliquez sur une commande qui comporte une coche à côté pour la supprimer.</li><li>Pour voir plus de commandes et ajouter le</li><li>Cliquez sur Plus de commandes.</li><li>Dans le volet gauche, cliquez sur la commande à ajouter.</li><li>Cliquez sur Ajouter.</li><li>Cliquez sur OK.</li><li>Répétez comme vous le souhaitez.</li><li><a rel="noreferrer noopener" href="https://astuces-informatique.com/utiliser-microsoft-office-en-ligne/" target="_blank"></a></li></ol>
+
+
+
+<p>Personnaliser le ruban</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/personnaliser-rubban-2.jpg?resize=708%2C577&amp;ssl=1" alt="Personnaliser Ruban" class="wp-image-2895"/></figure></div>
+
+
+<p>Vous pouvez ajouter ou supprimer des éléments du ruban pour le personnaliser en fonction de vos besoins. Vous pouvez ajouter ou supprimer des onglets et ajouter ou supprimer des éléments que vous voyez sur ces onglets. Bien que cela puisse sembler une bonne idée au départ, il est préférable de ne pas apporter trop de changements ici, du moins jusqu’à ce que vous soyez parfaitement familiarisé avec la configuration par défaut du ruban.</p>
+
+
+
+<p>Vous pouvez supprimer les outils dont vous aurez besoin plus tard et ne pas vous souvenir comment les retrouver ou les récupérer. De plus, si vous avez besoin de demander de l’aide à un ami ou à un support technique, ils ne pourront pas résoudre votre problème rapidement si les outils supposés ne le sont pas.</p>
+
+
+
+<p>Cela dit, vous pouvez apporter des modifications si vous le souhaitez. Les utilisateurs avancés peuvent souhaiter ajouter l’onglet Développeur, et d’autres utilisateurs pour rationaliser Word afin qu’il affiche uniquement ce qu’ils savent qu’ils utiliseront et dont ils ont besoin.</p>
+
+
+
+<p>Pour accéder aux options de personnalisation du ruban:</p>
+
+
+
+<ol><li>Cliquez sur&nbsp;<strong>Fichier</strong>, puis sur&nbsp;<strong>Options</strong>.</li><li>Cliquez sur&nbsp;<strong>Personnaliser</strong>&nbsp;le ruban.</li><li>Pour supprimer un onglet,&nbsp;<strong>désélectionnez</strong>-le dans le volet de droite.</li><li>Pour supprimer une commande sur un onglet: développez l’onglet dans le volet de droite, localisez la commande (vous devrez peut-être développer une section à nouveau pour la trouver), cliquez sur la commande, cliquez sur&nbsp;<strong>Supprimer</strong>.</li><li>Pour ajouter un onglet, sélectionnez-le dans le volet de droite.</li></ol>
+
+
+
+<p>Il est également possible d’ajouter des commandes aux onglets existants ou de créer de nouveaux onglets et d’y ajouter des commandes. C’est un peu compliqué et dépasse nos possibilités ici. Cependant, si vous souhaitez essayer, vous devez d’abord créer un nouvel onglet ou un groupe à partir des options disponibles sur la droite. C’est là que vos nouvelles commandes vont vivre. Après cela, vous pouvez commencer à ajouter ces commandes.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Supprimer un mot à la fois dans Microsoft Word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/supprimer-un-mot-a-la-fois-dans-microsoft-word/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:38:41 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=697</guid>
+
+					<description><![CDATA[Supprimer un mot à la fois dans la plupart des programmes Windows ce fait en déplaçant le curseur devant le mot que vous souhaitez supprimer, en appuyant et en maintenant enfoncée la touche CTRL , puis appuyez sur la touche Retour arrière ou si vous êtes sur une machine Apple&#160; maintenez la touche Commande et&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word-logo.png?resize=780%2C470&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>Supprimer un mot à la fois dans la plupart des programmes Windows ce fait en déplaçant le curseur devant le mot que vous souhaitez supprimer, en appuyant et en maintenant enfoncée la touche CTRL , puis appuyez sur la touche Retour arrière ou si vous êtes sur une machine Apple&nbsp; maintenez la touche Commande et la touche d’effacement arrière.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word-logo.png"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word-logo-300x300.png?resize=300%2C300" alt="microsoft-word-logo" class="wp-image-31"/></a></figure></div>]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

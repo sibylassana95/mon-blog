@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/java/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Mon, 20 Jun 2022 03:27:28 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 03:00:13 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,6 +34,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:13:54 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=312</guid>
 
 					<description><![CDATA[1 &#8211; La classe File Java La&#160;classe File Java&#160; permet de gérer les fichiers, les noms de chemins de fichiers et de répertoires de manière abstraite. Cette classe est utilisée pour la création de fichiers et de répertoires, la recherche de fichiers, la suppression de fichiers, etc. Nous verrons plus loin dans les&#160; prochains tutoriels&#8230;]]></description>
@@ -165,6 +166,7 @@ myFile.delete();</code></pre>
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:12:58 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=310</guid>
 
 					<description><![CDATA[Nous allons vous présenter un guide complet&#160; étape par étape pour créer une connexion Java avec une base de donnée MySql en utilisant l&#8217;IDE Eclipse et le driver JBDC pour MySql. 1 &#8211; Créer un projet Eclipse Un projet dans Eclipse est essentiellement un dossier contenant tout le code source et d’autres fichiers nécessaires.construisez votre&#8230;]]></description>
@@ -527,6 +529,7 @@ public class AddStudents {
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:09:13 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=308</guid>
 
 					<description><![CDATA[1 &#8211; Introduction Le plugin Eclipse WindowBuilder est un concepteur Java GUI visuel, puissant et facile à utiliser permettant la création d&#8217;applications GUI Java sans vous casser la tête à écrire du code pour afficher des objets graphiques&#160; simples comme fenêtres, bouton de commandes, champs de textes&#8230; Avec WindowBuilder, vous pouvez créer des fenêtres compliquées&#8230;]]></description>
@@ -603,6 +606,7 @@ public class AddStudents {
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:08:30 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=306</guid>
 
 					<description><![CDATA[1 &#8211; Création d&#8217;un JCombBox Java Etape 1&#160;: Avant de créer un JComboBox, il va falloire préalablement savoir qu&#8217;il s&#8217;agit d&#8217;un composant Swing.Pour cela, on doit impérativement créer une fenêtre dotée d&#8217;un JPanel en instanciant les classes&#160;JFrame&#160;et&#160;JPanel: Etape 2&#160;: Création des éléments qui vont constituer la JComboBox. Les éléments qui vont constituer la JComboBox, peuvent&#8230;]]></description>
@@ -768,6 +772,7 @@ Object&#91;] elements = new Object&#91;]{"Laptop HP", "Laptop Acer", "Laptop Azu
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:07:19 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=304</guid>
 
 					<description><![CDATA[1 &#8211; La barre des menus JMenuBar Java Afin d&#8217;organiser les menus, Java est doté d&#8217;une barre susceptible d&#8217;être placée en haut de la fenêtre, permettant d&#8217;accueillir et organiser les menus Java. Pour cela le langage Java utilise une classe nommée JMenuBar est utilisée pour afficher la barre des menus dans la fenêtre JFrame.Pour créer&#8230;]]></description>
@@ -940,6 +945,7 @@ menuFichier.add(menuNouveau);</code></pre>
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:06:14 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=302</guid>
 
 					<description><![CDATA[La classe&#160;JTextArea&#160;est une classe Java permettant de créer une zone de texte multiligne. Ell permet l&#8217;édition de plusieurs lignes de texte. Il s&#8217;agit d&#8217;une classe Java qui hérite de la classe&#160;JTextComponent 1 &#8211; Déclaration de classe JTextArea via l&#8217;héritage de JTextComponent 2 &#8211; Constructeur de classe &#38; description JTextArea ()Construit une nouvelle TextArea.JTextArea (Document doc)Construit&#8230;]]></description>
@@ -985,6 +991,7 @@ menuFichier.add(menuNouveau);</code></pre>
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:05:39 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=300</guid>
 
 					<description><![CDATA[1 &#8211; Introduction au Bibliothèque Graphique&#160; Java Swing Java Swing constitue l&#8217;une des plus récentes bibliothèque graphique et la plus utilisée pour le langage Java, Java Swing&#160; fait partie du package Java Foundation Classes (JFC) qui elle même fait partie de J2SE. 2 &#8211; Première Fenêtre avec Java Swing Dans ce tutoriel nous allons montrer&#8230;]]></description>
@@ -1388,6 +1395,7 @@ public class MainClass {
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:03:11 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=298</guid>
 
 					<description><![CDATA[1 &#8211; Qu&#8217;est ce qu&#8217;une interface en Java ? Une interface du langage de programmation Java est un type abstrait utilisé pour spécifier un comportement que les classes doivent implémenter. Ils sont similaires aux protocoles. Les interfaces sont déclarées à l&#8217;aide du mot-clé interface et ne peuvent contenir que des déclarations de méthode et des&#8230;]]></description>
@@ -1530,6 +1538,7 @@ public Rectangle(double L,double l){
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 18:00:37 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=295</guid>
 
 					<description><![CDATA[&#160;&#8211; Notion d&#8217;objets et de classes 1 &#8211; 1 Exemple d&#8217;une classe prédéfinie : classe String Le but de la&#160; programmation orienté objet est de facilité la programmation en créant des classes qui à travers auxquelles on crée un nouveau objet chaque fois qu’on a besoin à l’aide de ce qu’on appelle l’instanciation. Exemple Ici&#8230;]]></description>
@@ -1790,6 +1799,7 @@ voiture(){
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:57:01 +0000</pubDate>
 				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=291</guid>
 
 					<description><![CDATA[1 &#8211; Structure conditionnelle If&#160; &#38; If else, Java En Java, une instruction if est une instruction conditionnelle qui exécute un ensemble d&#8217;instructions selon une condition si elle est réalisée ou non.Syntaxe: Exemple Ce qui affiche : Vous êtes majeur si l&#8217;âge tapé est &#62;=18Vous êtes mineur si l&#8217;âge tapé est &#60; 18 Remarque :&#8230;]]></description>

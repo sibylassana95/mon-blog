@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mv &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/mv/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 02:10:11 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>mv &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Tutoriel shell Linux</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/tutoriel-shell-linux/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 02:10:11 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[cd]]></category>
+		<category><![CDATA[ligne commande]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ls]]></category>
+		<category><![CDATA[mkdir]]></category>
+		<category><![CDATA[mv]]></category>
+		<category><![CDATA[pwd]]></category>
+		<category><![CDATA[shell linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=716</guid>
+
+					<description><![CDATA[À propos du Shell Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/tutoriel-shell-linux.jpg?resize=743%2C415&amp;ssl=1" alt="Tutoriel Shell Linux"/></figure>
+
+
+
+<h2 id="apropos">À propos du Shell</h2>
+
+
+
+<p>Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le système d’exploitation et, dans de nombreux cas, vous offre un contrôle plus direct sur les processus du système.</p>
+
+
+
+<span id="more-716"></span>
+
+
+
+<h2 id="aquoi">À quoi sert le Shell?</h2>
+
+
+
+<p>Quand il s’agit de communiquer avec votre système d’exploitation, tout ce que vous pouvez faire avec une interface graphique peut être fait sur la ligne de commande. Par exemple, prenons quelque chose que vous devez faire tout le temps; déplacer des fichiers dans votre système de fichiers. À l’aide d’une interface graphique, vous pouvez sélectionner les icônes représentant vos fichiers, les faire glisser dans un autre dossier et les déposer pour les déplacer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/drag-and-drop.jpg?resize=690%2C540&amp;ssl=1" alt="Tutoriel Linux -glisser déposer" class="wp-image-2951"/></figure></div>
+
+
+<p>Cependant, en utilisant la ligne de commande, cette opération peut être effectuée en utilisant une seule commande:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv.jpg?resize=570%2C174&amp;ssl=1" alt="Shell, commande mv" class="wp-image-2954"/></figure></div>
+
+
+<p>La ligne de commande, une fois que vous vous y êtes habitué, vous permet de contrôler votre système avec plus d’efficacité et de précision qu’avec une interface graphique.</p>
+
+
+
+<h2 id="pourquoi">Pourquoi s’appelle-t-il «&nbsp;Shell&nbsp;»?</h2>
+
+
+
+<p>L’interface utilisateur est appelée «&nbsp;shell&nbsp;» car c’est la couche externe qui vous sépare des parties les plus profondes du système d’exploitation, appelée noyau. Techniquement, l’interface graphique de votre système d’exploitation est également un «&nbsp;shell&nbsp;», mais la ligne de commande est souvent appelée «&nbsp;le shell&nbsp;».</p>
+
+
+
+<h2 id="lignecommande">Comment accéder à la ligne de commande de Shell ?</h2>
+
+
+
+<p>La manière la plus courante d’accéder au shell de ligne de commande consiste à utiliser un émulateur de terminal.</p>
+
+
+
+<p>Si vous utilisez une distribution Linux moderne, il y a des chances qu’elle démarre dans le système X-Windows , ce qui vous permet d’exécuter des programmes dans leurs propres fenêtres et d’interagir avec eux avec la souris. Il existe différentes manières de lancer un émulateur de terminal, mais voici les plus courantes:</p>
+
+
+
+<p>De nombreuses distributions Linux utilisent un environnement de bureau similaire à Microsoft Windows, avec un «&nbsp;menu Démarrer&nbsp;». Dans ce menu, votre application de terminal se trouve généralement sous «&nbsp;Accessoires&nbsp;». Par exemple, Lubuntu est livré avec l’émulateur de terminal déjà installé et le raccourci se trouve dans le menu Accessoires.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ubuntu-startmenu.jpg?resize=452%2C306&amp;ssl=1" alt="Shell Ubuntu Startmenu" class="wp-image-2955"/></figure></div>
+
+
+<p>La sélection de l’élément de menu du terminal lance l’émulateur et vous place sur une ligne de commande.</p>
+
+
+
+<p>Différentes versions de Linux utilisent différents types de gestionnaires de fenêtres, chacun avec une interface légèrement différente. Avec de nombreux gestionnaires de fenêtres, un clic droit sur le bureau affiche un menu contenant une option de terminal. Par exemple, le menu contextuel de Crunchbang Linux comporte une option «&nbsp;Terminal&nbsp;». Voici à quoi ressemble ce menu, après un clic droit n’importe où sur le bureau.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-crunchbang-menu.jpg?resize=390%2C432&amp;ssl=1" alt="Shell menu" class="wp-image-2956"/></figure></div>
+
+
+<p>Ici, le menu Accessoires aurait également une option pour exécuter le terminal.<br>Sur de nombreuses versions de Linux, le raccourci clavier par défaut pour lancer un terminal consiste à appuyer simultanément sur la touche&nbsp;<strong>Super</strong>&nbsp;et sur la touche «&nbsp;<strong>T</strong>«&nbsp;. (La Super clé est généralement la première clé à gauche de la barre d’espace, également appelée&nbsp;<strong>clé Windows</strong>).</p>
+
+
+
+<p>Si vous ne savez pas comment lancer votre émulateur de terminal, consultez la documentation de votre système d’exploitation spécifique et recherchez «terminal».</p>
+
+
+
+<h2 id="invitecommande">L’invite de commande</h2>
+
+
+
+<p>Lorsque vous lancez l’émulateur de terminal, une invite de commande s’affiche.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-invite-commande.jpg?resize=636%2C143&amp;ssl=1" alt="shell invite commande" class="wp-image-2957"/></figure></div>
+
+
+<p><strong>Remarque</strong>&nbsp;: Ces exemples sont tous exécutés à l’aide du shell Bourne-Again (bash), qui est le shell de ligne de commande par défaut sous Linux.</p>
+
+
+
+<p>Regardons cette invite de commande de près. L’invite peut être configurée pour être ce que vous voulez, mais par défaut, elle ressemble à ce que nous voyons ici, nous fournissant des informations utiles avant de saisir une commande.</p>
+
+
+
+<p>Plus précisément, il nous indique qui nous sommes (nom d’utilisateur) et où nous sommes (quel système nous utilisons et notre répertoire de travail).</p>
+
+
+
+<h2 id="saisie">Saisie de commandes</h2>
+
+
+
+<p>Entrons notre première commande. Nous devrions commencer par lister les fichiers dans notre répertoire personnel. Le moyen le plus simple de voir tous ces fichiers est d’utiliser la commande&nbsp;<strong>ls;</strong>&nbsp;tapez&nbsp;<strong>ls</strong>&nbsp;à l’invite de commande et appuyez sur Entrée.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls.jpg?resize=633%2C143&amp;ssl=1" alt="Shell saisir commandes" class="wp-image-2959"/></figure></div>
+
+
+<p>Comme indiqué ci-dessus, la commande ls répertorie le contenu du répertoire et nous place à une autre invite de commandes.</p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Toutes les commandes et noms de fichiers sous Unix et Linux sont sensibles à la casse. La commande ls, par exemple, doit être saisie en lettres minuscules, comme ci-dessus.</p>
+
+
+
+<p>Pour une liste plus détaillée du contenu du répertoire, nous pouvons spécifier des options de ligne de commande, également appelées commutateurs. Ce sont des arguments supplémentaires à la commande qui modifient son fonctionnement. Ici, nous utiliserons l’option -l (utiliser le format longue liste) pour obtenir plus d’informations de notre liste:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-plus-de-commandes-l.jpg?resize=631%2C288&amp;ssl=1" alt="Shell plus de commandes" class="wp-image-2960"/></figure></div>
+
+
+<p>Comme indiqué ci-dessus, la commande ls -l nous fournit beaucoup plus d’informations sur le contenu de notre répertoire personnel. Pour le moment, les informations les plus importantes à noter sont que la première lettre des listes est un d, ce qui signifie que chacun de ces contenus de répertoire est lui-même un répertoire.</p>
+
+
+
+<h2 id="effacer">Effacer l’écran</h2>
+
+
+
+<p>Avant de faire quoi que ce soit d’autre, effacez l’écran pour supprimer l’encombrement produit par la sortie de nos commandes précédentes. Utilisez la commande&nbsp;<strong>clear</strong>&nbsp;en tapant clear à une nouvelle invite de commande et appuyez sur&nbsp;<strong>Entrée</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-rm-remove.jpg?resize=633%2C269&amp;ssl=1" alt="Shell commande rm remove" class="wp-image-2961"/></figure></div>
+
+
+<p>Après avoir appuyé sur Entrée, l’écran s’efface et vous place à une nouvelle invite de commandes en haut de l’écran de votre terminal.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-terminal.jpg?resize=633%2C140&amp;ssl=1" alt="Shell terminal" class="wp-image-2962"/></figure></div>
+
+
+<h2 id="changer">Changer de répertoire</h2>
+
+
+
+<p>Passons dans notre dossier de documents en utilisant la commande <strong>cd</strong> (« <strong>change directory</strong>« ). Pour modifier le répertoire en cours, tapez « cd » puis un espace, puis le nom du répertoire dans lequel vous souhaitez changer, puis appuyez sur Entrée.<a rel="noreferrer noopener" href="https://astuces-informatique.com/quel-difference-entre-linux-et-unix/" target="_blank"></a></p>
+
+
+
+<p>La commande cd suppose que le nom de tout répertoire que vous spécifiez est relatif à votre répertoire actuel. Par conséquent, pour changer dans le répertoire de documents, qui existe dans notre répertoire actuel, tapez «&nbsp;cd documents&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-cd.jpg?resize=629%2C97&amp;ssl=1" alt="Shell commande cd" class="wp-image-2963"/></figure></div>
+
+
+<p>L’invite de commande reflète désormais le nouveau répertoire de travail: ~ / documents, ce qui équivaut au chemin d’accès complet: /&nbsp;<strong>home / yourname / documents</strong>. Quel que soit l’utilisateur avec lequel vous êtes connecté, «&nbsp;~&nbsp;» représente toujours votre répertoire personnel. Dans l’exemple, le nouveau répertoire de travail est également visible dans la barre de titre de notre fenêtre de terminal.</p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Contrairement à MS-DOS et à Microsoft Windows, les noms de répertoires hiérarchiques sous Linux sont séparés par une barre oblique («&nbsp;<strong>/</strong>«&nbsp;) plutôt que par une barre oblique inverse («&nbsp;<strong>\</strong>«&nbsp;). Ce changement de symboles est une différence fondamentale entre ces différents systèmes d’exploitation.</p>
+
+
+
+<p>A tout moment, vous pouvez vérifier votre répertoire actuel en utilisant la commande&nbsp;<strong>pwd&nbsp;</strong>(«&nbsp;print working directory&nbsp;»).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-pwd.jpg?resize=626%2C115&amp;ssl=1" alt="Shell pwd" class="wp-image-2964"/></figure></div>
+
+
+<p>La commande imprime le nom du répertoire en cours sur le terminal, dans ce cas «&nbsp;<strong>/ home / votrenom / documents</strong>«&nbsp;. Encore une fois, avec «&nbsp;<strong>~ / documents</strong>&nbsp;» le «&nbsp;<strong>~</strong>&nbsp;» représente notre répertoire personnel, qui est&nbsp;<strong>/ home / yourname</strong>. Donc, si nous sommes dans notre répertoire personnel, taper «&nbsp;cd documents&nbsp;», «&nbsp;cd&nbsp;<strong>/ home / votrenom /</strong>&nbsp;documents&nbsp;» ou «&nbsp;<strong>cd ~ / documents</strong>&nbsp;» nous placerait tous dans le même répertoire.</p>
+
+
+
+<p>Maintenant, montons d’un répertoire dans notre répertoire personnel. Le nom de répertoire spécial «&nbsp;<strong>..</strong>&nbsp;» (le double point) signifie «&nbsp;un répertoire&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-2-points.jpg?resize=630%2C116&amp;ssl=1" alt="Shell cd.." class="wp-image-2965"/></figure></div>
+
+
+<p>Nous sommes maintenant de retour dans notre répertoire personnel.</p>
+
+
+
+<p><strong>Note</strong>&nbsp;: Si vous êtes plus familier avec MS-DOS, gardez à l’esprit qu’il doit y avoir un espace entre cd et les deux points.</p>
+
+
+
+<h2 id="deplacement">Déplacement de fichiers</h2>
+
+
+
+<p>Maintenant, familiarisons-vous avec le déplacement des fichiers.</p>
+
+
+
+<p>Disons que nous venons de télécharger deux images avec un navigateur Web, et ils ont enregistré dans notre&nbsp;<strong>dossier de téléchargements</strong>. Allons là-bas et jetons un coup d’oeil. Tout d’abord, nous changeons de répertoire dans le répertoire de téléchargements.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-downloads.jpg?resize=632%2C82&amp;ssl=1" alt="Shell cd downloads" class="wp-image-2966"/></figure></div>
+
+
+<p>Puis listez les fichiers du répertoire avec la commande ls.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-downloads.jpg?resize=623%2C107&amp;ssl=1" alt="Shell ls downloads" class="wp-image-2967"/></figure></div>
+
+
+<p>Nous voyons ici deux fichiers JPEG. Sortons-les du dossier des téléchargements et placez-les à un endroit plus approprié, comme le dossier images. Pour déplacer ces fichiers, nous utiliserons la commande mv («&nbsp;move&nbsp;»).</p>
+
+
+
+<p>La commande mv prend la forme générale suivante:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>mv [OPTIONS …] DESTINATION SOURCE</p></blockquote>
+
+
+
+<p><strong>OPTIONS</strong>&nbsp;est entre crochets car vous n’êtes pas obligé de spécifier des options pour terminer la commande. Les arguments SOURCE et DESTINATION sont tous deux requis.</p>
+
+
+
+<p><strong>SOURCE</strong>&nbsp;est le nom du ou des fichiers que vous souhaitez déplacer. DESTINATION est l’endroit où vous souhaitez les déplacer. Si DESTINATION est un nom de répertoire, le ou les fichiers sont déplacés dans ce répertoire.</p>
+
+
+
+<p>Nous sommes actuellement dans le répertoire&nbsp;<strong>/ home / votrenom / downloads</strong>&nbsp;et nous souhaitons déplacer les fichiers dans&nbsp;<strong>/ home / votrenom / images</strong>. Nous pourrions spécifier notre DESTINATION en utilisant le chemin complet («&nbsp;<strong>/ home / yourname / images</strong>«&nbsp;), ou en tant que chemin relatif à notre répertoire actuel («&nbsp;<strong>../images</strong>«&nbsp;), ou en utilisant un tilde comme abréviation pour notre répertoire personnel ( «&nbsp;<strong>~ / images</strong>«&nbsp;). Tous ces éléments sont équivalents et donnent le même résultat. Utilisons le chemin relatif de notre DESTINATION:&nbsp;<strong>../images</strong>.</p>
+
+
+
+<p>Alors, comment allons-nous spécifier notre SOURCE?</p>
+
+
+
+<p>Nous voulons déplacer les deux fichiers, et ils sont les seuls fichiers du répertoire. Donc, le moyen le plus simple de les spécifier serait de dire à&nbsp;<strong>mv</strong>&nbsp;«&nbsp;déplacer tous les fichiers de ce répertoire dans ../images&nbsp;».</p>
+
+
+
+<p>Un caractère générique est un caractère spécial qui peut représenter plus d’un nom de fichier (ou plus d’une partie du nom de fichier). Ici, nous allons utiliser le caractère générique astérisque («&nbsp;*&nbsp;»). Si nous utilisons * comme nom de fichier complet, le shell applique notre commande à chaque fichier de notre répertoire de travail.</p>
+
+
+
+<p>Donc, notre commande se lira comme suit: « <strong>mv * ../images</strong>« . Entrons le maintenant.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-star.jpg?w=628&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>On dirait que rien ne s’est passé, mais c’est la façon dont le shell nous dit qu’aucune erreur ne s’est produite. En cas de problème, il afficherait un message d’erreur ou un avertissement quelconque.</p>
+
+
+
+<p>Vérifions que les fichiers ont été déplacés. Nous pouvons répertorier le contenu d’un autre répertoire en exécutant ls et en spécifiant un chemin d’accès. Dans ce cas, notre chemin est «&nbsp;<strong>../images</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-dotdot-images.jpg?resize=634%2C53&amp;ssl=1" alt="Shell ..images" class="wp-image-2969"/></figure></div>
+
+
+<p>Les images sont à la fois là, avec un autre répertoire qui existait déjà («&nbsp;wallpapers&nbsp;»). Nous devrions créer un nouveau répertoire pour mieux organiser nos images et éviter que le répertoire principal des images ne soit encombré. Faisons cela maintenant.</p>
+
+
+
+<h2 id="mkdir">Créer des répertoires</h2>
+
+
+
+<p>Changeons dans le répertoire images où résident nos deux images pingouin.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-dotdot-images.jpg?resize=619%2C45&amp;ssl=1" alt="Shell CD ../images" class="wp-image-2970"/></figure></div>
+
+
+<p>Faisons maintenant un nouveau répertoire pour nos images pingouin. La création de nouveaux répertoires est effectuée avec la commande&nbsp;<strong>mkdir</strong>.</p>
+
+
+
+<p>La forme la plus simple de la commande&nbsp;<strong>mkdir</strong>&nbsp;est de lui donner un argument: le nom du nouveau répertoire. Nous aimerions créer un nouveau répertoire dans notre répertoire courant, nous n’avons donc pas à attribuer à mkdir un chemin complet, juste le nom du répertoire lui-même. Appelons notre nouveau répertoire pingouin-pix.</p>
+
+
+
+<p>Donc, la commande que nous allons entrer est «&nbsp;<strong>mkdir penguin-pix</strong>&nbsp;» pour créer un nouveau répertoire.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir.jpg?resize=623%2C45&amp;ssl=1" alt="Shell mkdir" class="wp-image-2971"/></figure></div>
+
+
+<p>Maintenant, vérifions que c’est là, en listant le contenu du répertoire:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-verifier-repertoire.jpg?resize=624%2C63&amp;ssl=1" alt="Shell vérifier répertoire" class="wp-image-2972"/></figure></div>
+
+
+<p>Liste des fichiers dans le répertoire images en utilisant la commande&nbsp;<strong>ls</strong></p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Vous pouvez voir que lorsque nous listons le contenu du répertoire, les noms de fichiers et les noms de répertoires sont de couleurs différentes pour vous aider à identifier les différents fichiers et répertoires. Bien que la mise en évidence des couleurs soit commune à la plupart des shells, tous les shells ne le font pas par défaut.</p>
+
+
+
+<p>Si nous ne pouvions pas dire par la couleur des noms, nous pourrions toujours vérifier lesquels de ces fichiers sont des répertoires en appelant&nbsp;<strong>ls</strong>&nbsp;avec l’option&nbsp;<strong>-l</strong>&nbsp;(longue liste).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-images-long-list.jpg?resize=630%2C124&amp;ssl=1" alt="Shell ls longue liste" class="wp-image-2973"/></figure></div>
+
+
+<p>Les informations supplémentaires incluent les autorisations (qui a accès au fichier et quel type d’accès), la propriété (qui est le propriétaire du fichier), l’auteur (qui a créé le fichier), la taille du fichier et mtime (date de la dernière modification). La première lettre sur les lignes pour pingouin-pix et <strong>wallpapers</strong> est un « d », indiquant que ce sont des répertoires. Pour plus d’informations sur les listes de fichiers, consultez la documentation de la commande chmod.<a rel="noreferrer noopener" href="https://astuces-informatique.com/unix-ligne-de-commande/" target="_blank"></a></p>
+
+
+
+<p>Nous pouvons maintenant déplacer nos images dans le nouveau répertoire. Pour dire à mv quels fichiers déplacer, nous pouvons utiliser à nouveau un caractère générique, mais cette fois, faisons en sorte qu’il sache qu’il ne doit déplacer que les fichiers image, pas les répertoires. Comme les deux fichiers image se terminent par l’extension JPEG .jpg, nous pouvons spécifier le nom de fichier «&nbsp;<strong>* .jpg</strong>«&nbsp;: cela indique au shell «&nbsp;les fichiers que je veux déplacer sont des fichiers du répertoire en cours qui se terminent par .jpg&nbsp;». Ainsi, notre commande ressemblera à ceci: «&nbsp;mv * .jpg penguin-pix&nbsp;»:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-etoile-point-jpg-penguin-pix.jpg?resize=659%2C40&amp;ssl=1" alt="Shell jpg image" class="wp-image-2974"/></figure></div>
+
+
+<p>Aucun message d’erreur n’a été donné, ce qui signifie que la commande s’est terminée correctement. Vérifions que les fichiers ont été déplacés en listant le contenu de pingouin-pix:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix.jpg?resize=670%2C56&amp;ssl=1" alt="Shell ls Linux" class="wp-image-2975"/></figure></div>
+
+
+<h2 id="supprimer">Supprimer des fichiers</h2>
+
+
+
+<p>Nous avons deux images de pingouin, mais nous avons peut-être décidé que nous n’avions besoin que de&nbsp;<strong>real-penguin.jpg</strong>, et nous n’avons plus besoin de tux-the-penguin.jpg. Nous pouvons supprimer ce fichier en utilisant la commande&nbsp;<strong>rm</strong>&nbsp;(«&nbsp;<strong>remove</strong>«&nbsp;).</p>
+
+
+
+<p>Nous devons fournir à&nbsp;<strong>rm</strong>&nbsp;le nom du fichier à supprimer. Nous sommes actuellement dans le répertoire images, mais notre image est maintenant dans le sous-répertoire penguin-pix. Nous pourrions changer notre répertoire de travail en penguin-pix, puis exécuter la commande, mais ce n’est qu’un travail supplémentaire, nous pouvons sauter cette étape en utilisant le répertoire comme partie du chemin.</p>
+
+
+
+<p>Notre commande ressemblera à ceci: «&nbsp;<strong>rm penguin-pix / tux-the-penguin.jpg</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rm.jpg?resize=653%2C41&amp;ssl=1" alt="Shell rm" class="wp-image-2976"/></figure></div>
+
+
+<p>Encore une fois, le shell exécute notre commande sans donner de retour. la commande a été exécutée avec succès, de sorte que le shell nous renvoie à l’invite de commande, nous indiquant qu’il est prêt pour une autre commande.</p>
+
+
+
+<p><strong>Avertissement</strong>&nbsp;: Contrairement au fait de faire glisser un fichier vers la corbeille ou vers la corbeille Microsoft Windows, il est impossible d’annuler la suppression d’un fichier avec rm. Retirez vos fichiers avec soin! Une fois parti, il est (pratiquement) impossible de les récupérer.</p>
+
+
+
+<p>Vérifions simplement que le fichier a vraiment disparu:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix-2.jpg?resize=640%2C61&amp;ssl=1" alt="shell ls penguin pix" class="wp-image-2977"/></figure></div>
+
+
+<h2 id="supprimer-rep">Supprimer des répertoires</h2>
+
+
+
+<p>C’est génial pour les fichiers, mais qu’en est-il des répertoires? Par défaut,&nbsp;<strong>rm</strong>&nbsp;ne supprime que les fichiers et non les répertoires.</p>
+
+
+
+<p>La commande&nbsp;<strong>rmdir</strong>&nbsp;(«&nbsp;<strong>remove directory</strong>«&nbsp;) supprime un répertoire, en supposant qu’il soit vide. Testons-le en créant un nouveau répertoire vide en utilisant la commande «&nbsp;<strong>mkdir test-directory</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir-test-repertoire.jpg?resize=676%2C33&amp;ssl=1" alt="Shell mkdir test repertoire" class="wp-image-2978"/></figure></div>
+
+
+<p>Vérifions qu’il existe avec la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-l-test-repertoire.jpg?resize=645%2C102&amp;ssl=1" alt="Shell ls-l test répertoire" class="wp-image-2979"/></figure></div>
+
+
+<p>Nous pouvons maintenant supprimer notre tout nouveau répertoire en utilisant la commande «&nbsp;<strong>rmdir test-directory</strong>&nbsp;» et vérifier qu’il est parti en exécutant à nouveau la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-test-repertoire.jpg?resize=631%2C101&amp;ssl=1" alt="Shell rmdir test répertoire" class="wp-image-2981"/></figure></div>
+
+
+<p>Oui, c’est parti.</p>
+
+
+
+<p>Cependant, que se passerait-il si nous essayions de «&nbsp;<strong>rmdir penguin-pix</strong>«&nbsp;?</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-penguin-pix-echec.jpg?resize=630%2C50&amp;ssl=1" alt="Shell echec de rmdir" class="wp-image-2983"/></figure></div>
+
+
+<p>Obtenir une erreur indiquant que&nbsp;<strong>rmdir</strong>&nbsp;n’a pas réussi à supprimer un répertoire</p>
+
+
+
+<p>Nous ne pouvons pas&nbsp;<strong>rmdir</strong>&nbsp;ce répertoire car il n’est pas vide.</p>
+
+
+
+<p>Si vous êtes sûr de vouloir supprimer&nbsp;<strong>penguin-pix</strong>&nbsp;et tout ce qu’il contient (y compris tous les fichiers et répertoires qu’il contient), vous pouvez utiliser la commande&nbsp;<strong>rm</strong>&nbsp;avec l’option&nbsp;<strong>-r</strong>.</p>
+
+
+
+<p>Normalement,&nbsp;<strong>rm</strong>&nbsp;ne fonctionnera pas sur un répertoire. Cependant, si elle est appelée avec l’option -r, rm supprime récursivement un répertoire, ce qui signifie qu’il se déplace dans le répertoire et dans tous les sous-répertoires, en supprimant tout ce qui inclut le répertoire. Donc, si nous exécutons la commande «&nbsp;<strong>rm -r penguin-pix</strong>«&nbsp;, cela supprime le répertoire et le fichier qui se trouvait à l’intérieur. S’il y avait des répertoires à l’intérieur, ils auraient également été supprimés.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-tutoriel-rm.jpg?resize=646%2C43&amp;ssl=1" alt="Tutoriel Shell commande rm" class="wp-image-2984"/></figure></div>
+
+
+<p><strong>Attention!</strong>&nbsp;Encore une fois, il n’y a pas d’annulation pour cette commande. Lorsque vous&nbsp;<strong>rm -r</strong>&nbsp;un répertoire, ce répertoire et tout ce qu’il contient sont supprimés pour toujours! Comme la plupart des commandes Linux,&nbsp;<strong>rm</strong>&nbsp;est très puissant et doit être utilisé avec précaution.</p>
+
+
+
+<h2 id="copier">Copier des fichiers</h2>
+
+
+
+<p>Pour copier un fichier, utilisez la commande&nbsp;<strong>cp</strong>. La forme la plus simple de cp est:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>cp SOURCE DESTINATION</p></blockquote>
+
+
+
+<p><strong>SOURCE</strong>&nbsp;est le nom du fichier que vous souhaitez copier et&nbsp;<strong>DESTINATION</strong>&nbsp;est le chemin spécifiant la destination du nouveau fichier. La destination peut être un nouveau nom de fichier ou le nom du répertoire dans lequel vous souhaitez trouver une copie.</p>
+
+
+
+<p>Disons que nous avons un fichier texte dans notre dossier de documents appelé&nbsp;<strong>orig.txt</strong>, et nous voulons en faire une copie appelée&nbsp;<strong>copy.txt</strong>. La commande à utiliser est «&nbsp;<strong>cp orig.txt copy.txt</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-exemple.jpg?resize=649%2C104&amp;ssl=1" alt="Shell exemple commande cp" class="wp-image-2985"/></figure></div>
+
+
+<p>Si, par contre, nous spécifions un répertoire comme destination de la commande cp, il en crée une copie avec le même nom que l’original dans le répertoire de destination. Dans l’exemple suivant, nous faisons six choses:</p>
+
+
+
+<ol><li>Répertorie le contenu du répertoire de travail;</li><li>Créez un nouveau répertoire, appelé&nbsp;<strong>copies</strong>;</li><li>Lister le contenu du répertoire de travail, qui inclut maintenant le répertoire des&nbsp;<strong>copies</strong>;</li><li>Répertorie le contenu du répertoire des copies (il n’y en a pas. Il est&nbsp;<strong>vide</strong>);</li><li>Copier&nbsp;<strong>copy.txt</strong>&nbsp;dans le répertoire des copies;</li><li>Répertorie le contenu du répertoire des copies, qui contient désormais une copie de copy.txt.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-repertoire.jpg?resize=662%2C161&amp;ssl=1" alt="Shell cp répertoire" class="wp-image-2986"/></figure></div>
+
+
+<h2 id="renommer-file">Renommer un fichier</h2>
+
+
+
+<p>La commande mv peut également être utilisée pour modifier le nom d’un fichier. Par exemple, la commande «&nbsp;<strong>mv orig.txt original.txt</strong>&nbsp;» renommera le fichier&nbsp;<strong>orig.txt</strong>&nbsp;en&nbsp;<strong>original.txt</strong>:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename.jpg?resize=659%2C104&amp;ssl=1" alt="Shell mv rename" class="wp-image-2987"/></figure></div>
+
+
+<h2 id="renommer-dir">Renommer un répertoire</h2>
+
+
+
+<p>Renommer des répertoires fonctionne exactement comme renommer des fichiers, avec la commande&nbsp;<strong>mv</strong>. Ici, nous créons un répertoire nommé «&nbsp;<strong>copy</strong>«&nbsp;, mais nous le renommons «&nbsp;copies&nbsp;» en utilisant la commande «&nbsp;<strong>mv copy copies</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename-directory.jpg?resize=653%2C117&amp;ssl=1" alt="Shell mv rename directory" class="wp-image-2988"/></figure></div>
+
+
+<p>Si le répertoire de copie contenait des fichiers ou des répertoires, ils resteraient inchangés. La seule chose qui changerait serait le nom du répertoire qui les contenait.</p>
+
+
+
+<h2 id="exit">Quitter Shell</h2>
+
+
+
+<p>Si vous tapez la commande&nbsp;<strong>exit</strong>, vous quittez le Shell de commande et fermez la fenêtre du terminal ou préparez la fenêtre du terminal pour qu’elle soit fermée manuellement.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>requette &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/requette/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 03:02:03 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>requette &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Création d&#8217;une base de donnée MySql</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/creation-dune-base-de-donnee-mysql/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sun, 19 Jun 2022 14:39:47 +0000</pubDate>
+				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=534</guid>
+
+					<description><![CDATA[1 &#8211; Création d&#8217;une base de donnée MySql via l&#8217;interface phpMyAdmin Après installation du serveur Wamp, votre machine est dotée d&#8217;une interface gestion de bases de données très agréable, vous permettant la création de bases de données, des tables sql, l&#8217;importation et l&#8217;exportation des donnée mysql  sans faire recours à la moindre requête sql. Nous supposons que votre&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Création d&rsquo;une base de donnée MySql via l&rsquo;interface phpMyAdmin</h2>
+
+
+
+<p>Après installation du<em><strong><a href="https://sibylassana95.github.io/mon-blog/2022/06/18/introduction-au-langage-php/"> serveur Wamp</a></strong></em>, votre machine est dotée d&rsquo;une interface gestion de bases de données très agréable, vous permettant la création de bases de données, des tables sql, l&rsquo;importation et l&rsquo;exportation des donnée mysql  sans faire recours à la moindre requête<strong> sql.</strong> Nous supposons que votre machine est déjà équipée du serveur wamp et si votre machine n&rsquo;est doté d&rsquo;aucun serveur local veuillez vous reporter au <a href="https://sibylassana95.github.io/mon-blog/php/">premier chapitre du langage php</a>.</p>
+
+
+
+<span id="more-534"></span>
+
+
+
+<p>Maintenant pour créer une base de donnée via le système de gestion des bases de données&nbsp;<strong>phpMyAdmin</strong>, vous devez préalablement démarrer votre serveur wamp :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql0.png" alt=""/></figure></div>
+
+
+<p>Assurez vous qu&rsquo;il fonctionne correctement<em>&nbsp;( icône verte à droite en bas sur la barre des tâches ) :</em></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql1.png" alt=""/></figure></div>
+
+
+<p>Si votre serveur wamp fonctionne correctement, lancer votre navigateur et tapez l&rsquo;adresse url :&nbsp;<strong>http://localhost/</strong>&nbsp;ou bien&nbsp;<strong>http://127.0.0.1/</strong></p>
+
+
+
+<p>Vous obtenez la page de démarrage du serveur<strong>&nbsp;wamp</strong>&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql2.png" alt=""/></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql3.png" alt=""/></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql4.png" alt=""/></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql5.png" alt=""/></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://www.tresfacile.net/images/mysql/langage-mysql6.png" alt=""/></figure></div>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Introduction à MySql</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/introduction-a-mysql/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sun, 19 Jun 2022 14:35:16 +0000</pubDate>
+				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=532</guid>
+
+					<description><![CDATA[1 &#8211; Le langage MySql MySQL est un système open source  conçu spécialement pour la  gestion de base de données relationnelle (SGBDR). Le nom MySql est une combinaison de « My » qui designe le nom de la fille du cofondateur Michael Widenius et « SQL », l&#8217;abréviation de l’expression Structured Query Language. Le projet de développement MySQL a&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Le langage MySql</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/Database-Mysql.png" alt="MySQL est un moteur SQL gratuit et largement utilisé. Il peut être utilisé comme une base de données rapide ainsi qu'un SGBD solide grâce à une architecture de moteur modulaire." class="wp-image-4625"/></figure></div>
+
+
+<p>MySQL est un système open source  conçu spécialement pour la  gestion de base de données relationnelle (SGBDR). Le nom MySql est une combinaison de « My » qui designe le nom de la fille du cofondateur Michael Widenius et « SQL », l&rsquo;abréviation de l’expression Structured Query Language. Le projet de développement MySQL a rendu son code source disponible sous les termes de la Licence Publique Générale GNU, ainsi que dans le cadre d&rsquo;une variété d&rsquo;accords de propriété. MySQL était détenu et parrainé par une seule société à but lucratif, la société suédoise MySQL AB. MySql est actuellement détenue par Oracle Corporation.  Aujourd’hui, de nombreuses  éditions payantes sont disponibles et offrent des fonctionnalités supplémentaires aux utilisateurs de bases de données.MySQL est un composant central de la pile de logiciel </p>
+
+
+
+<span id="more-532"></span>
+
+
+
+<p>d&rsquo;application Web LAMP open-source (« Linux, Apache, MySQL, Perl / PHP / Python »). Les applications qui utilisent la base de données MySQL incluent: Joomla, WordPress, phpBB, MyBB, Drupal… MySQL est également utilisé dans de nombreux sites Web à grande échelle y compris Google, Yhoo, Facebook, Twitter,  YouTube…Depuis mai 2009, son créateur Michael Widenius a créé MariaDB (fork communautaire de MySQL ) pour continuer son développement en tant que projet Open Source.<br>&#8211;fork  =  nouveau logiciel créé à partir du code source d&rsquo;un logiciel existant&#8211;</p>
+
+
+
+<h2>2 &#8211; Qu&rsquo;est-ce que la base de données?</h2>
+
+
+
+<p>Une base de données est une application ( ie : un logiciel) qui stocke des données informatiques. Chaque base de données possède une ou plusieurs API distinctes pour créer, accéder, gérer, rechercher et répliquer les données qu&rsquo;elle contient.<br>Actuellement on utilise des systèmes de gestion de bases de données relationnelles&nbsp;<strong>(SGBDR)</strong>&nbsp;pour stocker et gérer un énorme volume de données. C&rsquo;est ce qu&rsquo;on appelle les bases de données relationnelles car toutes les données sont stockées dans différentes tables dotées de&nbsp; relations qui sont établies à l&rsquo;aide de clés primaires ou étrangères.<br>Un système de gestion de base de données relationnelle&nbsp;<strong>(RDBMS)</strong>est un logiciel qui :</p>
+
+
+
+<ul><li>Permet de mettre en œuvre une base de données avec des tableaux, des colonnes et des index.</li><li>Garantit l&rsquo;intégrité référentielle entre les rangées de différentes tables.</li><li>Met&nbsp; à jour automatiquement les index.</li><li>Interprète une requête SQL et combine des informations de différentes tables.</li><li>&#8230;</li></ul>
+
+
+
+<h2>3 &#8211; Les avantages des bases de données MySQL:</h2>
+
+
+
+<p><strong>MySQL</strong>&nbsp;est un&nbsp;<strong>SGBDR</strong>&nbsp;rapide et facile à manipuler,&nbsp; utilisé pour de nombreuses petites et grandes entreprises. MySQL est développé, commercialisé et soutenu par&nbsp;<strong>MySQL AB</strong>, une société suédoise. MySQL devient tellement populaire grâce à de nombreuses bonnes raisons:</p>
+
+
+
+<ul><li>MySQL est publié sous licence open source. Donc, vous n&rsquo;avez rien à payer pour l&rsquo;utiliser.</li><li>MySQL utilise une forme standard du langage&nbsp; SQL bien connue.</li><li>MySQL fonctionne sur de nombreux systèmes d&rsquo;exploitation et avec de nombreux langages, y compris PHP, PERL, C, C ++, JAVA, etc.</li><li>MySQL fonctionne très rapidement et fonctionne bien même avec&nbsp; de gigantesques&nbsp; ensembles&nbsp; de données.</li><li>MySQL est très sympathique avec&nbsp; PHP, le langage le plus apprécié&nbsp; pour le développement web.</li><li>MySQL prend en charge de grandes bases de données, jusqu&rsquo;à 50 millions de lignes ou plus dans une table. La limite de taille de fichier par défaut pour un tableau est de 4 Go, mais vous pouvez augmenter cela (si votre système d&rsquo;exploitation peut le gérer) à une limite théorique de 8 millions de téraoctets (TB).</li><li>MySQL est personnalisable. La licence GPL open source permet aux programmeurs de modifier le logiciel MySQL pour s&rsquo;adapter à leurs propres environnements spécifiques.</li></ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Installation du Serveur MySql</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/installation-du-serveur-mysql/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sun, 19 Jun 2022 14:34:22 +0000</pubDate>
+				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=530</guid>
+
+					<description><![CDATA[1 &#8211; Télécharger MySQL Pour télécharger mysql il suffit de suivre les&#160; étapes suivantes: Accédez au site officiel de MySQL http://www.mysql.com/downloads/ Choisissez le numéro de version du serveur de communauté MySQL que vous souhaitez. 2 &#8211; Installation de MySQL sous Windows Le serveur&#160; MySQL que vous venez de télécharger est&#160; emballé avec un installateur. Téléchargez&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Télécharger MySQL</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-install-wizard.png" alt="installer mysql 5 ou mettre à niveau une version existante de MySQL vers une version plus récente plutôt que d'installer MySQL pour la première fois, reportez-vous à la Section 2.11.1, «Mise à niveau de MySQL», pour plus d'informations sur les procédures de mise à niveau et sur les problèmes que vous devriez considérer avant la mise à niveau." class="wp-image-4638"/></figure></div>
+
+
+<span id="more-530"></span>
+
+
+
+<p>Pour télécharger mysql il suffit de suivre les&nbsp; étapes suivantes:</p>
+
+
+
+<ul><li><em><strong>Accédez au site officiel de MySQL http://www.mysql.com/downloads/</strong></em></li><li><em><strong>Choisissez le numéro de version du serveur de communauté MySQL que vous souhaitez.</strong></em></li></ul>
+
+
+
+<h2>2 &#8211; Installation de MySQL sous Windows</h2>
+
+
+
+<p>Le serveur&nbsp; MySQL que vous venez de télécharger est&nbsp; emballé avec un installateur. Téléchargez le package d&rsquo;installation, décompressez-le là où vous souhaitez, et exécutez&nbsp;<strong>setup.exe.</strong><br>Par défaut, ce processus,&nbsp; installera le logiciel à l&rsquo;endroit&nbsp;&nbsp;<strong>C: \ mysql\</strong>.</p>
+
+
+
+<h3>Vérifiez l&rsquo;installation de MySQL</h3>
+
+
+
+<p>Une fois que MySQL a été installé avec succès, les tables de base ont été initialisées et le serveur a été démarré, vous pouvez vérifier son fonctionnement via des tests simples.<br>Ouvrez votre client de ligne de commande MySQL, il devrait apparaître avec une invite mysql&gt;. Si vous avez défini un mot de passe, écrivez votre mot de passe ici. Maintenant, vous êtes connecté au serveur MySQL et vous pouvez exécuter toute les commandes&nbsp;&nbsp;<strong>SQL</strong>&nbsp;sur&nbsp;<strong>mysql&gt;</strong>&nbsp;comme suit:<br>Par exemple: Vérifiez les bases de données déjà créées avec la commande</p>
+
+
+
+<p><strong>show databases:</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/install-mysql-show-database.png" alt="SHOW DATABASES répertorie les bases de données sur l'hôte du serveur MySQL. SHOW SCHEMAS est synonyme de SHOW DATABASES. La clause LIKE, si présent, indique les noms de base de données auxquels correspondent. La clause WHERE peut être donnée pour sélectionner des lignes en utilisant des conditions plus générales, comme indiqué dans la section 23.34, «Extensions à SHOW Statements»" class="wp-image-4637"/></figure></div>
+
+
+<h3>Autre méthode d&rsquo;installation de MySql Sous Windows</h3>
+
+
+
+<p>Il n&rsquo;y a pas une seule façon pour installer MySql sous Windows, les méthodes sont nombreuses, mais il existe une façon privilégiée :&nbsp;<strong>c&rsquo;est la solution du tout en un&nbsp;</strong>qui consiste à télécharger un package contenant :</p>
+
+
+
+<ul><li>Le serveur apache</li><li>Le langage PHP</li><li>Le serveur MySql</li><li>Le système de gestion de bases de données phpMyAdmin</li></ul>
+
+
+
+<p>Pour ce faire, il suffit de télécharger un package doté des truc ci-dessus comme :&nbsp;<strong>EasyPHP,&nbsp; Wamp Server,&nbsp; Xampp&#8230;</strong></p>
+
+
+
+<p>Si vous installez&nbsp;<strong>Wamp Server</strong>&nbsp;à titre d&rsquo;exemple, vous pouvez alors accéder au&nbsp;<strong>Serveur MySql</strong>&nbsp;après l&rsquo;avoir démarré :</p>
+
+
+
+<ul><li>Cliquez&nbsp; sur son<strong>&nbsp;icône</strong>&nbsp;sur la barre des tâches</li><li>Choisissez ensuite&nbsp;<strong>MySql &#8211;&gt; MySql Console</strong></li></ul>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-console-wamp-server.png" alt="invite de votre interpréteur de commande comme suit: shell&gt; mysql db_name Mysql envoie chaque instruction SQL que vous émettez au serveur à exécuter. Il existe également un ensemble de commandes que Mysql interprète lui-même. Pour une liste de ces commandes, tapez help ou \ h à l'invite mysql" class="wp-image-4647"/></figure></div>
+
+
+<p>Vous obtenez alors votre&nbsp; fenêtre MySql permettant de vous rassurer une communication souple et rapide avec votre&nbsp;<strong>serveur mysql</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/console-mysql-wamp-server-1.png" alt="Comment puis-je accéder à la console MySQL sur Wampserver 3? Avec les versions antérieures, tout ce que vous aviez à faire était de cliquer avec le bouton droit de la souris sur l'icône du serveur Wamp et l'option d'accès à la console MySQL apparaît sur le côté-même chose pour Wampserver 3," class="wp-image-4650"/></figure></div>
+
+
+<h2>2 &#8211; Installation du serveur MySQL sous Linux : Ubuntu &amp; CentOS</h2>
+
+
+
+<p>Pour télécharger le serveur MysQl sous Linux vous n&rsquo;êtes pas obligé de le chercher sur le web, vous pouvez le télécharger et l&rsquo;installer rapidement en ligne de commandes shell :</p>
+
+
+
+<h3>Cas du système Ubuntu:</h3>
+
+
+
+<p>Il suffit d&rsquo;ouvrir la ligne de commande shell et de passer en mode root par la commande :</p>
+
+
+
+<pre class="wp-block-code"><code>$ sudo -i
+&#91;sudo] password for &lt;votre identifiant&gt;:</code></pre>
+
+
+
+<p>Après être passé en mode root, tapez la commande suivante :</p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt-get install mysql-server</code></pre>
+
+
+
+<h3>Cas du système Centos :</h3>
+
+
+
+<p>Lancer une fenêtre de terminal shell et tapez la commande suivante :</p>
+
+
+
+<pre class="wp-block-code"><code>sudo yum install mysql-server
+sudo /sbin/service mysqld start</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Communication avec les bases de données MySql</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/communication-avec-les-bases-de-donnees-mysql/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sun, 19 Jun 2022 14:32:58 +0000</pubDate>
+				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=528</guid>
+
+					<description><![CDATA[1 &#8211; Création d&#8217;une base de donné MySql ( Create Database ) Vous pouvez créer une base de données MySQL en utilisant la ligne de commande MySQL.Ouvrez alors la console MySQL et écrivez le mot de passe, si vous avez configuré un pendant l&#8217;installation. Vous obtiendrez la fenêtre suivante : Vous pouvez alors créer maintenant&#8230;]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/Mysql-Database.jpg" alt="Créez une nouvelle base de données nommée avec la chaîne que vous avez fournie. Créez un nom d'utilisateur salué (dans l'exemple, mysitedb_user) et le mot de passe (mysitedb.Pass!), Avec un accès complet à la base de données nouvellement créée (sans l'autorisation GRANT) depuis localhost" class="wp-image-4653"/></figure></div>
+
+
+<h2>1 &#8211; Création d&rsquo;une base de donné MySql ( Create Database )</h2>
+
+
+
+<p>Vous pouvez créer une base de données MySQL en utilisant la ligne de commande MySQL.<br>Ouvrez alors la console MySQL et écrivez le mot de passe, si vous avez configuré un pendant l&rsquo;installation. Vous obtiendrez la fenêtre suivante :</p>
+
+
+
+<span id="more-528"></span>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/console-mysql-wamp-server-1.png" alt="L'utilitaire de ligne de commande MySQL vous permet d'exécuter des requêtes et de voir les résultats de la requête, etc. à partir d'une invite de commande interactive. Il est également possible d'exécuter une seule requête à partir de la ligne de commande sans entrer dans l'invite interactive. Cette publication examine comment procéder." class="wp-image-4650"/></figure></div>
+
+
+<p>Vous pouvez alors créer maintenant une base de donnée MySql via la commande :</p>
+
+
+
+<p><strong>CREATE DATABASE&nbsp; nom_de_la_base_de_donnée ;</strong></p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>CREATE DATABASE  mabase ; </code></pre>
+
+
+
+<p>Vous souhaitez sans doute voir la base de donnée&nbsp;<strong>mabase</strong>&nbsp;que vous venez de créer, il suffit alors pour cela de tapez sur la console la commande :</p>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt;  SHOW DATABASES; </code></pre>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/show-databse-mysql-console.png" alt="show-databse-mysql-console" class="wp-image-4656"/></figure></div>
+
+
+<h2>2 &#8211; Sélection d&rsquo;une base de donnée MySql ( Select Database )</h2>
+
+
+
+<p>Pour sélectionner une base de donnée MySql, on utilise la commande :</p>
+
+
+
+<p><strong>mysql &gt; USE nom_de_la_base</strong></p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt; USE mabase ;</code></pre>
+
+
+
+<p>La console vous affichera que la base de donnée mysql a été changée :</p>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt; USE mabase ;
+Database changed
+mysql &gt;</code></pre>
+
+
+
+<h2>3 &#8211; Effacer une base de donnée MySql ( Drop Database )</h2>
+
+
+
+<p>Vous pouvez supprimer une base de données MySQL facilement avec la commande MySQL&nbsp;<strong>DROP DATABASE</strong>. Vous devez être prudent lors de la suppression de toute base de données car vous allez perdre toutes les données disponibles dans votre base de données.<br><strong>Syntaxe:</strong></p>
+
+
+
+<p><strong>&nbsp; DROP DATABASE&nbsp;nom_de_la_base;</strong></p>
+
+
+
+<h3>Exemple:</h3>
+
+
+
+<p>Prenons un exemple pour supprimer la base de données mabase que nous venons de créer récemment:</p>
+
+
+
+<pre class="wp-block-code"><code>DROP DATABASE  mabase ;</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Manipulation des tables MySql</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/manipulation-des-tables-mysql/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sun, 19 Jun 2022 14:31:52 +0000</pubDate>
+				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=526</guid>
+
+					<description><![CDATA[1 &#8211; Création des tables MySql à l&#8217;aide de la commande Create Table 1 &#8211; 1 &#8211; Création des tables MySql Vous pouvez créer facilement des nouvelles tables MySql dans la base de données sélectionnée, à l&#8217;aide de la&#160; commande MySQL CREATE TABLE.&#160; Une commande de création de table nécessite trois choses: Nom de la&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Création des tables MySql à l&rsquo;aide de la commande Create Table</h2>
+
+
+
+<h3>1 &#8211; 1 &#8211; Création des tables MySql</h3>
+
+
+
+<p>Vous pouvez créer facilement des nouvelles tables MySql dans la base de données sélectionnée, à l&rsquo;aide de la&nbsp; commande MySQL CREATE TABLE.&nbsp; Une commande de création de table nécessite trois choses:</p>
+
+
+
+<ul><li>Nom de la table</li><li>Noms des champs</li><li>Définitions pour chaque champ</li></ul>
+
+
+
+<span id="more-526"></span>
+
+
+
+<h3>Syntaxe:</h3>
+
+
+
+<p>Voici une syntaxe générique pour créer une table MySQL dans la base de données sélectionnée :</p>
+
+
+
+<p><strong>CREATE&nbsp;TABLE&nbsp; nom_de_la_table (nom_de_la_colonne&nbsp; type_de_la_colonne&#8230;);&nbsp;</strong></p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>CREATE TABLE students(  
+   id INT NOT NULL AUTO_INCREMENT,  
+   nom VARCHAR(100) NOT NULL,  
+   adresse VARCHAR(250) NOT NULL,  
+   PRIMARY KEY ( id )  
+);</code></pre>
+
+
+
+<p>L&rsquo;exemple ci-dessus crée une table MySql contenant trois champs :&nbsp;<strong>id ,&nbsp; nom ,&nbsp; adresse</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-create-table.png" alt="mysql-create-table" class="wp-image-4663"/></figure></div>
+
+
+<h3>1 &#8211; 2 &#8211; Affichage des tables MySql crées</h3>
+
+
+
+<p>Pour affiché les tables MySql,&nbsp; il suffit de sélectionner la base&nbsp; et d&rsquo;utiliser ensuite la commande :</p>
+
+
+
+<p><strong>SHOW&nbsp;tables;</strong></p>
+
+
+
+<p>La fenêtre console affichera alors toutes les tables MySql contenues dans la base :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/create-table-show-table-mysql.png" alt="create-table-show-table-mysql" class="wp-image-4665"/></figure></div>
+
+
+<h3>1 &#8211; 3 &#8211; Afficher&nbsp; la structure de la table</h3>
+
+
+
+<p>Pour afficher la structure d&rsquo;une table MySql, il suffit d&rsquo;utiliser la commande :</p>
+
+
+
+<p><strong>Describe&nbsp; nom_de_la_table</strong></p>
+
+
+
+<p>Exemple</p>
+
+
+
+<p>Pour afficher la structure de la table&nbsp;<strong>students</strong>&nbsp;qu&rsquo;on vient de créer, on utilise la syntaxe :</p>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt; describe students ;</code></pre>
+
+
+
+<p>Ce qui va afficher la structure de la table au sein de la console:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/describe-table-mysql.png" alt="describe-table-mysql" class="wp-image-4666"/></figure></div>
+
+
+<h2>2 &#8211; Modification d&rsquo;une table MySql ( Alter table )</h2>
+
+
+
+<p>L&rsquo;instruction<strong>&nbsp;MySQL ALTER</strong>&nbsp;est utilisée lorsque vous souhaitez modifier le nom de votre table MySql ou un champ de la table. Il est également utilisé pour ajouter ou supprimer une colonne existante dans une table. L&rsquo;instruction&nbsp;<strong>ALTER</strong>&nbsp;est toujours utilisée avec les commandes « <strong>ADD », « DROP » et « MODIFY »</strong>&nbsp;en fonction de la situation.</p>
+
+
+
+<h3>2 &#8211; 1&nbsp; Ajouter une colonne à une table MySql</h3>
+
+
+
+<h3>Syntax:</h3>
+
+
+
+<p>Pour ajouter une colone à une table MySql on utilise la commande d&rsquo;altération (modification) :</p>
+
+
+
+<p><strong>ALTER TABLE nom_de_la_table</strong></p>
+
+
+
+<p>Ensuite pour ajouter une colonne on utilise la commande :</p>
+
+
+
+<p><strong>ADD nom_de_la_nouvelle_colonne type_de_la_colonne</strong></p>
+
+
+
+<p>On peut ensuite spécifier l&#8217;emplacement de la colonne au début ou après une colonne spéifique de la table MySql :</p>
+
+
+
+<p><strong>[ FIRST | AFTER nom_de_la_colonne ];</strong></p>
+
+
+
+<h3>Explication du code :</h3>
+
+
+
+<ul><li><strong>nom_de_la_table</strong>&nbsp;: cette commande spécifie le nom de la table que vous voulez modifier.</li><li><strong>nom_de_la_nouvelle_colonne</strong>&nbsp;: cette commande spécifie le nom de la nouvelle colonne que vous souhaitez ajouter à la table.</li><li><strong>type_de_la_colonne&nbsp;</strong>: Spécifie le type de données et la définition de la colonne (NULL ou NOT NULL, etc.).</li><li><strong>[FIRST | AFTER]&nbsp; nom_de_la_colonne</strong>: il est facultatif. Il indique à MySQL l&#8217;emplacement où la nouvelle colonne va être insérée dans la table. Si ce paramètre n&rsquo;est pas spécifié, la nouvelle colonne sera ajoutée à la fin de la table.</li></ul>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>ALTER TABLE students  
+ADD age varchar(30) NOT NULL
+After nom; </code></pre>
+
+
+
+<p>L&rsquo;exemple ci-dessus permet d’insérer la nouvelle&nbsp;<strong>colonne age&nbsp;après&nbsp;la colonne nom</strong>&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql_alter-table-add-columns.png" alt="Mysql ALTER TABLE est utilisée pour ajouter et supprimer diverses contraintes sur une table existante.ALTER TABLE - ADD Colonne" class="wp-image-4669"/></figure></div>
+
+
+<h3>2 &#8211; 2 &#8211; Renommer une colonne d&rsquo;une table MySql (CHANGE COLUMN)</h3>
+
+
+
+<h3>2 &#8211; 3 &#8211; Modifier une colonne d&rsquo;une table MySql ( Modify Column )</h3>
+
+
+
+<h3>2 &#8211; 4 &#8211; Supprimer une colonne d&rsquo;une table MySql ( Drop Column )</h3>
+
+
+
+<h3>2 &#8211; 5 &#8211; Renomer une table MySql Rename Table</h3>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Requêtes d&#8217;insertion, de suppression et de mise à jour des données MySql ( MySql Queries )</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/19/requetes-dinsertion-de-suppression-et-de-mise-a-jour-des-donnees-mysql-mysql-queries/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Sun, 19 Jun 2022 14:30:05 +0000</pubDate>
+				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=524</guid>
+
+					<description><![CDATA[1 &#8211; Insertion de données MySql (Insert Query) La requête&#160; INSERT&#160; MySql permet d&#8217;insérer des données dans une table MySQL. Nous pouvons insérer des enregistrements uniques ou multiples en utilisant une seule requête&#160; MySQL. Syntaxe: La commande&#160;MySql INSERT INTO&#160;est utilisée pour insérer des données dans la table MySQL. Voici la syntaxe générique: Exemple Remarque Lorsqu&#8217;on&#8230;]]></description>
+										<content:encoded><![CDATA[
+<h2>1 &#8211; Insertion de données MySql (Insert Query)</h2>
+
+
+
+<p>La requête&nbsp; INSERT&nbsp; MySql permet d&rsquo;insérer des données dans une table MySQL. Nous pouvons insérer des enregistrements uniques ou multiples en utilisant une seule requête&nbsp; MySQL.</p>
+
+
+
+<h3>Syntaxe:</h3>
+
+
+
+<p>La commande&nbsp;<strong>MySql INSERT INTO</strong>&nbsp;est utilisée pour insérer des données dans la table MySQL. Voici la syntaxe générique:</p>
+
+
+
+<span id="more-524"></span>
+
+
+
+<pre class="wp-block-code"><code>INSERT INTO nom_de_la_table (champ1, champ2, ... champ N)
+     VALUES
+     (Valeur1, valeur2, ... valeurN);</code></pre>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>INSERT  INTO  students  ( `nom`, `age`)  VALUES  ( 'David', '35'); </code></pre>
+
+
+
+<h3>Remarque</h3>
+
+
+
+<p>Lorsqu&rsquo;on veut&nbsp;&nbsp;<strong>insérer des données sur tout les champs</strong>&nbsp;il n&rsquo;est pas nécessaire d&rsquo;ajouter la commande :</p>
+
+
+
+<p><strong>VALUES (Valeur1, valeur2, &#8230; valeurN);</strong></p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>Insert Into students values ('','Najib','27');</code></pre>
+
+
+
+<h2>2 &#8211; Affichage des données de la table MySql :</h2>
+
+
+
+<h3>2 &#8211; 1 &#8211; Requête de sélection d&rsquo;une table MySql ( SELECT * FROM Table )</h3>
+
+
+
+<p>Pour afficher les données d&rsquo;une table MySql on utilise la syntaxe :</p>
+
+
+
+<p><strong>SELECT * FROM Nom_de_la_table ;</strong></p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>SELECT * FROM students ;</code></pre>
+
+
+
+<p>Ce qui affiche sur la console :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-select-from-table.png" alt="La commande SELECT, select * from table mysql ou encore select * from mysql table limit i,j nous permet d'accéder aux données dans une table mysql. utilisée par les développeurs SQL, des requêtes qui montrent des données à l'utilisateur ou fournissent des données pour un point d'extrémité API.commande qui effectue une requête sur la table des utilisateurs et affiche tous les contenus de cette table mysql." class="wp-image-4678"/></figure></div>
+
+
+<h3>2 &#8211; 2 &#8211; Limiter la sélection à une rangé de lignes spécifique ( Condition limit )</h3>
+
+
+
+<p>La commande&nbsp; SELECT * FROM nom_de_la_table ;&nbsp; sélectionne le contenu en entier et l&rsquo;affiche à l&rsquo;écran, ce qui provoque un plantage de la machine lorsque le nombre d&rsquo;enregistrement est très grands !</p>
+
+
+
+<p>Pour éviter de tomber sur ce problème, on utilise une commande d&rsquo;affichage limité des données :</p>
+
+
+
+<p><strong>SELECT * FROM nom_de_la_table&nbsp; limit&nbsp; i , j ;</strong></p>
+
+
+
+<p>Cette commande permet de sélectionner&nbsp; exactement&nbsp;<strong>j lignes</strong>&nbsp;à partir de la&nbsp;&nbsp;<strong>(i + 1 )ème ligne</strong></p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<p>Pour sélectionner et afficher les trois premières lignes on utilise le code :</p>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt; SELECT * FROM students limit 0 , 3 ;</code></pre>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-select-from-table-limit-i-j.png" alt="mysql-select-from-table-limit-i-j" class="wp-image-4681"/></figure></div>
+
+
+<h3>2 &#8211; 3 &#8211; Sélectionner des lignes spécifiques avec la commande SELECT&nbsp; WHERE</h3>
+
+
+
+<p>Vous pouvez sélectionner des lignes spécifique d&rsquo;une table MySql en utlisant la commande&nbsp;<strong>SELECT WHERE</strong></p>
+
+
+
+<h3>Syntaxe :</h3>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt;  SELECT * FROM  nom_de_la_table  WHERE  Condition ;</code></pre>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt;  SELECT  *  FROM  students  WHERE  id&gt;=10 ;</code></pre>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-select-from-table-where-condition.png" alt="mysql-select-from-table-where-condition" class="wp-image-4691"/></figure></div>
+
+
+<h3>2 &#8211; 4 &#8211; Sélectionner une colonne ou une plage de colonnes d&rsquo;une table MySql</h3>
+
+
+
+<p>Vous pouvez aussi limiter la sélection à une colonne spécifique de votre choix ou à une plage de colonnes en utilisant la syntaxe :</p>
+
+
+
+<pre class="wp-block-code"><code>SELECT colonne1, colonne2, ...From nom_de_la_table ;</code></pre>
+
+
+
+<p>Ici,&nbsp;<strong>&nbsp;colonne1, colonne2</strong>, &#8230; sont les<strong>&nbsp;noms</strong>&nbsp;de&nbsp;<strong>champs</strong>&nbsp;de la table dont vous souhaitez sélectionner les données.</p>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>SELECT   nom   FROM  students ;</code></pre>
+
+
+
+<h2>3 &#8211; Mise à jour des données d&rsquo;une table MySql : la requête UPDATE MySQL</h2>
+
+
+
+<p>L&rsquo;instruction MySQL UPDATE sert à mettre à jour les données d&rsquo;une table MySQL dans la base de données. elle est utilisé lorsque vous souhaitez modifier les données de la table MySql.</p>
+
+
+
+<h3>Syntaxe:</h3>
+
+
+
+<p>Voici la syntaxe de la commande UPDATE MySQL:</p>
+
+
+
+<pre class="wp-block-code"><code>UPDATE nom_de_la_table SET champ1 = nouvelle_valeur1, champ2 = nouvelle_valeur2,
+     &#91;Condition WHERE]</code></pre>
+
+
+
+<h3>Remarque:</h3>
+
+
+
+<ul><li>Vous pouvez mettre à jour plusieurs valeurs dans une seule table à la fois.</li><li>La condition WHERE est utilisée pour mettre à jour des lignes spécifiques dans une table MySql.</li></ul>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt; UPDATE  students  set  nom = 'David Beckham'  WHERE  nom = 'David' ;</code></pre>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/mysql-update-table-where.png" alt="mysql UPDATE statement is used to update existing records in a mysql table" class="wp-image-4687"/></figure></div>
+
+
+<h2>4 &#8211; Suppression des données d&rsquo;une table MySql : DELETE FROM</h2>
+
+
+
+<p>Pour supprimer des données d&rsquo;une tab le MySql, on utilise la sysntaxe :</p>
+
+
+
+<pre class="wp-block-code"><code>DELETE FROM  nom_de_la_table   WHERE condition ;</code></pre>
+
+
+
+<h3>Exemple</h3>
+
+
+
+<pre class="wp-block-code"><code>mysql &gt; DELETE FROM  students  WHERE id=1 ;</code></pre>
+
+
+
+<p>Ce code permet de supprimer la première ligne de la table students</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

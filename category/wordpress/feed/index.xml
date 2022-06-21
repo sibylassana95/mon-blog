@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/wordpress/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Mon, 20 Jun 2022 03:27:29 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 03:04:21 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,6 +34,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 19:41:12 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[wordpress]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=382</guid>
 
 					<description><![CDATA[WordPress est doté d&#8217;une page par défaut nommée&#160;sample page ou page d&#8217;exemple,&#160;mais vous pouvez modifier cette page, l&#8217;éditer ou même la supprimer et créer vos propres pages : 1 &#8211; Création d&#8217;une page WordPress Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&#8217;aide de votre&#8230;]]></description>
@@ -127,6 +128,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 19:40:15 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[wordpress]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=379</guid>
 
 					<description><![CDATA[1 &#8211; Menus d&#8217;en-tête et pied de page La plupart des systèmes CMS&#160; possèdent&#160; des thèmes ayant un menu d&#8217;en-tête.&#160;Certains ont également un menu de bas de page.&#160;Vous pouvez gérer vos liens de menu en exécutant : Apparence&#62; Menus 2 &#8211; Modification des menus Pour modifier les menus WordPress,&#160; allez dans : Apparence&#62; Menus, puis&#8230;]]></description>
@@ -182,6 +184,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 19:39:33 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[wordpress]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=377</guid>
 
 					<description><![CDATA[Si possédez du contenu il n&#8217;y a pas plus simple que d&#8217;ajouter des&#160; articles&#160; WordPress,&#160; il suffit que vous soyer connecté en tant qu&#8217;admin et suivre les étapes suivantes : 1 &#8211; Depuis votre zone admin, pointez à l&#8217;aide de votre sourie sur le menu&#160;Articles&#160;et cliquez ensuite sur le sous menu&#160;Ajoutez : 2 &#8211; Rédigez&#160;&#8230;]]></description>
@@ -271,6 +274,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 19:38:52 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[wordpress]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=374</guid>
 
 					<description><![CDATA[1 &#8211; Création de catégories Afin de classifier et organiser nos articles nous devons les classer par catégories, pour cela WordPress nous offre la possibilité de créer autant de catégories et sous catégories. Pour clarifier les choses prenons un exemple simple d&#8217;un site qui traite le développement web ! nous devons dans ce cas créer&#8230;]]></description>
@@ -355,6 +359,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 19:37:40 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[wordpress]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=371</guid>
 
 					<description><![CDATA[1 &#8211; WordPress Plugin directory WordPress est doté de milliers de plugins permettant à l&#8217;utilisateur d&#8217;ajouter d&#8217;utres fonctionalités afin qu&#8217;ils puissent ameliorer leurs sites. Les plugins sont disponibles via le site&#160;WordPress Plugins Directory&#160;sont conçus par des bénévoles et sont généralement gratuits pour le public.&#160;WordPress Plugins hébergés dans le répertoire WordPress Plugins sont considérés comme minutieusement&#8230;]]></description>
@@ -421,6 +426,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 19:36:52 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[wordpress]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=369</guid>
 
 					<description><![CDATA[1 &#8211;&#160; Installation d&#8217;un theme WordPress Pour installer un thème WordPress, rendez vous dans votre zone admin WordPress&#160; (http://www.votre-site/wp-admin/) Après être logé, pointez à l&#8217;aide de votre sourie sur le menu gauche&#160;Apparence,&#160;puis cliquez sur&#160;Thèmes&#160;: Vous obtenez la fenêtre suivante : Cliquez ensuite sur le lien&#160;Ajouter un thème&#160;,&#160; vous obtenez alors la fenêtre suivante : Cliquez&#8230;]]></description>
@@ -506,6 +512,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 19:27:12 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[wordpress]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=362</guid>
 
 					<description><![CDATA[Installation en localhost L&#8217;installation de WordPress est aussi simple que vous ne le croyez, pour ce faire il suffit de suivre les étapes suivantes&#160; : 1 &#8211; Télécharger le seveur&#160;Wamp Choisissez la version qui correspond à votre système d&#8217;exploitation : Windows 64 bits, Windows 32 bits, Linux&#8230; Démarrez votre serveur&#160;Wamp&#160;depuis le menu démarrer, et assurez&#8230;]]></description>

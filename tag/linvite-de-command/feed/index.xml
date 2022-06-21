@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>L’invite de command &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/linvite-de-command/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 02:14:47 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>L’invite de command &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Liste de toutes les commandes CMD pour Windows</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/liste-de-toutes-les-commandes-cmd-pour-windows/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 02:14:47 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[CMD]]></category>
+		<category><![CDATA[L’invite de command]]></category>
+		<category><![CDATA[windows]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=718</guid>
+
+					<description><![CDATA[L’invite de commande&#160;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&#160;liste des commandes les plus utilisées dans la fenêtre CMD&#160;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows. L’invite de commande est l’un des outils les&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/commandes-cmd-description.jpg?resize=677%2C470&amp;ssl=1" alt="Liste des commandes CMD les plus utilisés"/></figure>
+
+
+
+<p><strong>L’invite de commande</strong>&nbsp;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&nbsp;<strong>liste des commandes les plus utilisées dans la fenêtre CMD</strong>&nbsp;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows.</p>
+
+
+
+<span id="more-718"></span>
+
+
+
+<p>L’invite de commande est l’un des outils les plus puissants de Windows, également connu sous le nom de CMD. CMD est l’interpréteur de ligne de commande sur les systèmes d’exploitation Windows. L’invite de commande interagit avec l’utilisateur via une interface de ligne de commande. Les choses n’étaient pas toujours comme ça; mais avec l’avènement des systèmes d’exploitation basés sur l’interface graphique, les gens ont commencé à se sentir que l’informatique par le biais d’outils basés sur les commandes était ennuyeuse.</p>
+
+
+
+<p>Cependant, l’invite de commande n’est pas inutile. En fait, cela peut être très utile. Cet article fournit d’excellents astuces, secrets et hacks qui vous feront réaliser que l’invite de commande de Windows est non seulement utile mais aussi un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd.</p>
+
+
+
+<p>Pour ouvrir CMD, vous devez rechercher&nbsp;<strong>CMD</strong>&nbsp;dans la boîte de recherche ou vous pouvez simplement appuyer sur la touche&nbsp;<strong>Windows + R</strong>&nbsp;qui finira par ouvrir la fenêtre&nbsp;<strong>Exécuter</strong>, où vous devez taper CMD et appuyer sur&nbsp;<strong>Entrée</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/cmd.jpg?resize=491%2C410&amp;ssl=1" alt="cmd" class="wp-image-2615"/></figure></div>
+
+
+<p>1. Contrôles d’accessibilité – access.cpl</p>
+
+
+
+<p>2. Assistant d’accessibilité – accwiz</p>
+
+
+
+<p>3. Ajouter un assistant matériel – hdwwiz.cpl</p>
+
+
+
+<p>4. Ajouter / Supprimer des programmes – appwiz.cpl</p>
+
+
+
+<p>5. Outils d’administration – control admintools</p>
+
+
+
+<p>6. Mises à jour automatiques – wuaucpl.cpl</p>
+
+
+
+<p>7. Assistant de transfert Bluetooth – fsquirt</p>
+
+
+
+<p>8. Calculatrice – calc</p>
+
+
+
+<p>9. Gestionnaire de certificats – certmgr.msc</p>
+
+
+
+<p>10. Carte de caractère – charmap</p>
+
+
+
+<p>11. Vérifiez l’utilitaire de disque – chkdsk</p>
+
+
+
+<p>12. Clipboard Viewer – clipbrd</p>
+
+
+
+<p>13. Invite de commandes – cmd</p>
+
+
+
+<p>14. Services de composants – dcomcnfg</p>
+
+
+
+<p>15. Gestion de l’ordinateur – compmgmt.msc</p>
+
+
+
+<p>16. Panneau de contrôle – control</p>
+
+
+
+<p>17. Propriétés de date et d’heure – timedate.cpl</p>
+
+
+
+<p>18. Actions DDE – ddeshare</p>
+
+
+
+<p>19. Gestionnaire de périphériques – devmgmt.msc</p>
+
+
+
+<p>20. Dépanneur Direct X – dxdiag</p>
+
+
+
+<p>21. Utilitaire de nettoyage de disque – cleanmgr</p>
+
+
+
+<p>22. Défragmenter le disque – dfrg.msc</p>
+
+
+
+<p>23. Gestion des disques – diskmgmt.msc</p>
+
+
+
+<p>24. Gestionnaire de partition de disque – diskpart</p>
+
+
+
+<p>25. Propriétés d’affichage – control desktop</p>
+
+
+
+<p>26. Propriétés d’affichage – desk.cpl</p>
+
+
+
+<p>27. Dr. Watson Utilitaire de dépannage du système – drwtsn32</p>
+
+
+
+<p>28. Utilitaire vérificateur de pilotes – verifier</p>
+
+
+
+<p>29. Observateur d’événements – eventvwr.msc</p>
+
+
+
+<p>30. Outil de transfert de fichiers et de paramètres – migwiz</p>
+
+
+
+<p>31. Outil de vérification de signature de fichier – sigverif</p>
+
+
+
+<p>32. Findfast – findfast.cpl</p>
+
+
+
+<p>33. Firefox – Firefox</p>
+
+
+
+<p>34. Propriétés des dossiers – control folders</p>
+
+
+
+<p>35. Polices – control fonts</p>
+
+
+
+<p>36. Dossier des Fonts – fonts</p>
+
+
+
+<p>37. Jeu de cartes gratuit – freecell</p>
+
+
+
+<p>38. Contrôleurs de jeu – joy.cpl</p>
+
+
+
+<p>39. Éditeur de stratégie de groupe (pour xp professional) – gpedit.msc</p>
+
+
+
+<p>40. Jeu de cartes coeurs – mshearts</p>
+
+
+
+<p>41. Aide et support – helpctr</p>
+
+
+
+<p>42. HyperTerminal – hypertrm</p>
+
+
+
+<p>43. Assistant Iexpress – iexpress</p>
+
+
+
+<p>44. Service d’indexation – ciadv.msc</p>
+
+
+
+<p>45. Assistant de connexion Internet – icwconn1</p>
+
+
+
+<p>46. ​​Internet Explorer – iexplore</p>
+
+
+
+<p>47. Propriétés Internet – inetcpl.cpl</p>
+
+
+
+<p>48. Propriétés du clavier – control keyboard</p>
+
+
+
+<p>49. Paramètres de sécurité locaux – secpol.msc</p>
+
+
+
+<p>50. Utilisateurs et groupes locaux – lusrmgr.msc</p>
+
+
+
+<p>51. Se déconnecter à Windows – logoff</p>
+
+
+
+<p>52. Outil de suppression de logiciels malveillants – mrt</p>
+
+
+
+<p>53. Microsoft Chat – winchat</p>
+
+
+
+<p>54. Microsoft Movie Maker – MovieMaker</p>
+
+
+
+<p>55. Microsoft Paint – mspaint</p>
+
+
+
+<p>56. Microsoft Syncronization Tool – mobsync</p>
+
+
+
+<p>57. Jeu de dragueur de mines – winmine</p>
+
+
+
+<p>58. Propriétés de la souris – control mouse</p>
+
+
+
+<p>59. Propriétés de la souris – main.cpl</p>
+
+
+
+<p>60. Netmeeting – conf</p>
+
+
+
+<p>61. Connexions réseau – control netconnections</p>
+
+
+
+<p>62. Connexions réseau – ncpa.cpl</p>
+
+
+
+<p>63. Assistant de configuration réseau – netsetup.cpl</p>
+
+
+
+<p>64. Bloc-notes – bloc-notes</p>
+
+
+
+<p>65. Object Packager – packager</p>
+
+
+
+<p>66. Administrateur de sources de données ODBC – odbccp32.cpl</p>
+
+
+
+<p>67. Clavier sur écran – osk</p>
+
+
+
+<p>68. Outlook Express – msimn</p>
+
+
+
+<p>69. Peinture – pbrush</p>
+
+
+
+<p>70. Propriétés du mot de passe – password.cpl</p>
+
+
+
+<p>71. Analyseur de performances – perfmon.msc</p>
+
+
+
+<p>72. Analyseur de performances – perfmon</p>
+
+
+
+<p>73. Options de téléphonie et modem – telephon.cpl</p>
+
+
+
+<p>74. Numéroteur téléphonique – dialer</p>
+
+
+
+<p>75. Jeu de flipper – flipper</p>
+
+
+
+<p>76. Configuration de l’alimentation – powercfg.cpl</p>
+
+
+
+<p>77. Imprimantes et télécopieurs – control printer</p>
+
+
+
+<p>78. Imprimantes – printers</p>
+
+
+
+<p>79. Paramètres régionaux – intl.cpl</p>
+
+
+
+<p>80. Éditeur du Registre – regedit</p>
+
+
+
+<p>81. Éditeur du Registre – regedit32</p>
+
+
+
+<p>82. Répertoire d’accès à distance – rasphone</p>
+
+
+
+<p>83. Bureau à distance – mstsc</p>
+
+
+
+<p>84. Stockage amovible – ntmsmgr.msc</p>
+
+
+
+<p>85. Demandes d’opérateur de stockage amovible – ntmsoprq.msc</p>
+
+
+
+<p>86. Jeu de stratégie résultant (pour xp professional) – rsop.msc</p>
+
+
+
+<p>87. Scanneurs et appareils photo – sticpl.cpl</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

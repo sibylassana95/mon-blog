@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Excel &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/category/informatiques/excel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 03:07:07 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>Excel &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Comment puis-je créer et modifier un commentaire dans Microsoft Excel ?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-puis-je-creer-et-modifier-un-commentaire-dans-microsoft-excel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:33:46 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=695</guid>
+
+					<description><![CDATA[Question Comment puis-je créer et modifier un commentaire dans Microsoft Excel? Réponse Microsoft Excel a la capacité de créer des commentaires dans chacune des cellules. Les commentaires permettent à un utilisateur d’obtenir des informations supplémentaires sur la cellule comme par exemple la valeur qui le représente. Ci-dessous des informations supplémentaires sur la création et l’édition&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/08/commentaire-excel.jpg?resize=378%2C184&amp;ssl=1" alt=""/></figure>
+
+
+
+<p><strong>Question</strong></p>
+
+
+
+<p>Comment puis-je créer et modifier un commentaire dans Microsoft Excel?</p>
+
+
+
+<p><strong>Réponse</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/08/commentaire-excel.jpg"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/08/commentaire-excel-300x146.jpg?resize=300%2C146" alt="commentaire-excel" class="wp-image-10"/></a></figure></div>
+
+
+<p>Microsoft Excel a la capacité de créer des commentaires dans chacune des cellules. Les commentaires permettent à un utilisateur d’obtenir des informations supplémentaires sur la cellule comme par exemple la valeur qui le représente. Ci-dessous des informations supplémentaires sur la création et l’édition d’un commentaire dans Microsoft Excel.</p>
+
+
+
+<span id="more-695"></span>
+
+
+
+<p><strong>Créer un commentaire</strong></p>
+
+
+
+<ol><li>Sélectionnez la cellule que vous voulez ajouter un commentaire, toute seule cellule peut contenir un&nbsp; commentaire.</li><li>Cliquez sur&nbsp;<strong>Insérer</strong>&nbsp;et sélectionnez Commentaire ou cliquez-droit sur la cellule et sélectionnez&nbsp;<strong>Insérer Commentaire.</strong></li><li>Tapez dans le commentaire.</li><li>4- Pour fermer le commentaire, soit cliquer ailleurs dans la feuille de calcul ou appuyez sur ESC deux fois.</li></ol>
+
+
+
+<p><strong>Voir un commentaire</strong></p>
+
+
+
+<p>Vous pouvez identifier les cellules qui ont des commentaires en eux par la recherche d’une tête de flèche rouge dans le coin supérieur droit de la cellule comme on le voit ci-dessous.</p>
+
+
+
+<p>Une fois que vous avez identifié la cellule que vous souhaitez afficher, déplacer la souris sur la cellule pour voir le commentaire.</p>
+
+
+
+<p>Si vous souhaitez voir tous les commentaires, cliquez sur&nbsp;<strong>Afficher</strong>&nbsp;et puis&nbsp;<strong>Commentaires</strong>. Cela montrera tous les commentaires sur la feuille de calcul.</p>
+
+
+
+<p><strong>Cacher les commentaires</strong></p>
+
+
+
+<p><strong>Les commentaires</strong>&nbsp;vont se cacher automatique lors du déplacement de la souris du commentaire, sauf en suivant les étapes ci-dessus pour voir tous les commentaires. Si vous souhaitez masquer tous les commentaires, cliquez sur Afficher et puis Commentaires.</p>
+
+
+
+<p><strong>Modification d’un commentaire</strong></p>
+
+
+
+<ol><li>Passer à la cellule contenant le commentaire que vous souhaitez modifier.</li><li>Cliquez-droit sur ??la cellule et cliquez sur&nbsp;<strong>Modifier commentaire</strong>. Si vous avez plusieurs commentaires que vous souhaitez modifier, cliquez sur&nbsp;<strong>Afficher</strong>&nbsp;et puis&nbsp;<strong>Commentaires</strong>&nbsp;pour voir tous les commentaires et&nbsp;<strong>modifier les commentaires</strong>&nbsp;en cliquant dessus.</li><li><strong>Suppression d’un commentaire</strong><strong>&nbsp;</strong><ol><li>Passer à la cellule contenant le commentaire que vous souhaitez supprimer.</li><li>Cliquez-droit sur ??la cellule, puis cliquez sur&nbsp;<strong>Supprimer le commentaire</strong>. Si vous avez plusieurs commentaires que vous souhaitez supprimer, cliquez sur&nbsp;<strong>Afficher</strong>&nbsp;et puis&nbsp;<strong>Commentaires</strong>&nbsp;pour voir tous les commentaires et supprimer chacune des commentaires en cliquant sur Supprimer dans le commentaire&nbsp;<strong>commentaire</strong>&nbsp;Revoir barre d’outils .</li></ol></li></ol>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tutoriel Excel la fonction TODAY</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/tutoriel-excel-la-fonction-today/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:32:48 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=693</guid>
+
+					<description><![CDATA[Utilisation de la fonction&#160;TODAY&#160;pour ajouter la date du jour. Dans ce tutoriel, nous allons utiliser la fonction TODAY qui peut être utilisé pour afficher la date actuelle.En termes simples, une fonction dans Excel est une formule intégrée qui a été créé pour effectuer un calcul précis lorsqu’il est utilisé dans une feuille de calcul .&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/excel-2010-basic-tutorial-sbs3.gif?resize=400%2C266&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>Utilisation de la fonction&nbsp;<strong>TODAY</strong>&nbsp;pour ajouter la date du jour.</p>
+
+
+
+<p>Dans ce tutoriel, nous allons utiliser la fonction TODAY qui peut être utilisé pour afficher la date actuelle.En termes simples, une fonction dans Excel est une formule intégrée qui a été créé pour effectuer un calcul précis lorsqu’il est utilisé dans une feuille de calcul .</p>
+
+
+
+<span id="more-693"></span>
+
+
+
+<p>Certaines fonctions sont destinées à rendre plus facile d’effectuer des calculs courants.&nbsp;<strong>La fonction SOMME</strong>&nbsp;, par exemple, peut être utilisé pour ajouter rapidement des colonnes ou rangées de numéros figurant dans la&nbsp;<strong>feuille de calcul</strong>.</p>
+
+
+
+<p>Autres fonctions effectuent des calculs plus complexes – tels que les plans de remboursement pour les prêts hypothécaires – et d’autres encore peuvent être utilisés pour afficher des informations sur le programme ou l’ordinateur sur lequel vous travaillez.<br>Les fonctions de date et d’heure utilisent l’horloge intégrée de l’ordinateur pour les calculs liés aux dates et heures ou pour simplement ajouter la date du jour à une feuille de calcul.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/excel-2010-basic-tutorial-sbs3.gif"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/excel-2010-basic-tutorial-sbs3-300x199.gif?resize=300%2C199" alt="excel-2010-basic-tutorial-sbs3" class="wp-image-28"/></a></figure></div>
+
+
+<p>Ajouter la date actuelle avec la fonction TODAY</p>
+
+
+
+<p>Il convient de noter que, normalement, cette fonction se met à jour à chaque fois que la feuille de calcul est ouverte. Pour entrer la date de telle manière qu’il ne change pas, vous pouvez utiliser ce raccourci clavier .<br><strong>Tutoriel étapes :</strong></p>
+
+
+
+<p>Pour de l’aide sur ces étapes, reportez-vous à l’image ci-dessus.</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; 1- Cliquez sur la cellule B3 et tapez le titre Date:</p>
+
+
+
+<p>    2- Cliquez sur la cellule C3 – l’endroit où la date actuelle sera affichée.<br>    3- Cliquez sur l’onglet Formules.</p>
+
+
+
+<p>&nbsp; 4- Choisir une date et heure dans le ruban pour ouvrir la fonction liste déroulante.</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; 5- Cliquez sur TODAY dans la liste pour faire apparaître la fonction de la boîte de dialogue .</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; 6- Puisque&nbsp;<strong>la fonction TODAY</strong>&nbsp;lit l’horloge interne de l’ordinateur pour déterminer la date actuelle, la boîte de dialogue contient un message indiquant que la fonction ne prend pas des arguments .</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; 7- Cliquez sur OK.</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; 8- La date d’aujourd’hui doit apparaître dans la cellule C3.</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; 9- Lorsque vous cliquez sur la cellule C3 de la fonction complète = TODAY () apparaît dans la barre de formule -dessus de la feuille de calcul.</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; 10- Sauvegardez votre feuille de calcul.</p>
+
+
+
+<p><strong>Note:</strong>&nbsp;Si la date n’apparaît que&nbsp; des signes – tels que # # # # # – dans la cellule, c’est parce que la cellule n’est pas assez large pour accueillir les données formatées.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment entrer le même texte dans plusieurs cellules Excel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-entrer-le-meme-texte-dans-plusieurs-cellules-excel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:30:56 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=691</guid>
+
+					<description><![CDATA[Dans&#160;Microsoft Excel&#160;, vous pouvez entrer les mêmes données ou&#160;mêmes&#160;texte dans plusieurs cellules à la fois en suivant les étapes simples&#160;ci-dessous. Mettez en surbrillance toutes les cellules que vous voulez avoir le même texte. Tapez le texte que vous voulez. Quand cela est fait au lieu d’appuyer sur enter appuyez sur Ctrl + Entrée. Après avoir terminé&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Dans&nbsp;<strong>Microsoft Excel</strong>&nbsp;, vous pouvez entrer les mêmes données ou&nbsp;mêmes&nbsp;texte dans plusieurs cellules à la fois en suivant les étapes simples&nbsp;ci-dessous.</p>
+
+
+
+<ol><li>Mettez en surbrillance toutes les cellules que vous voulez avoir le même texte.</li><li>Tapez le texte que vous voulez.</li><li>Quand cela est fait au lieu d’appuyer sur enter appuyez sur <strong>Ctrl + Entrée</strong>.</li></ol>
+
+
+
+<span id="more-691"></span>
+
+
+
+<p>Après avoir terminé les étapes ci-dessus, le texte sera automatiquement inscrit dans toutes les&nbsp;cellules sélectionnées. Cette&nbsp;<strong>astuce</strong>&nbsp;peut être très utile quand vous avez des données qui ont le même préfixe et ont juste besoin d’ajouter quelque chose à la fin de chaque cellule.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/excel-astuce.jpg"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/excel-astuce-179x300.jpg?resize=179%2C300" alt="excel-astuce" class="wp-image-37"/></a></figure></div>
+
+
+<p>Par exemple, les étapes ci-dessus ont été fait pour créer de «&nbsp;cours en pdf&nbsp;» dans toutes&nbsp;<strong>les cellules</strong>, comme indiqué dans l’image à droite. Une fois terminé, je pouvais appuyer sur&nbsp;F2 sur une cellule sélectionnée, aller jusqu’au bout, et d’ajouter «&nbsp;1&nbsp;» pour la&nbsp;cellule&nbsp;«&nbsp;cours en pdf 1&nbsp;» . Je pourrais continuer comme ça pour avoir «&nbsp;cours en pdf&nbsp;» de 1 à 16.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Formation avec exemples sur les formules de Microsoft Excel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/formation-avec-exemples-sur-les-formules-de-microsoft-excel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:27:11 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=688</guid>
+
+					<description><![CDATA[Les formules ont &#160;contribué à rendre l’utilisation des tableaux dans Microsoft Excel&#160;très populaires. En créant des formules, vous pouvez avoir des calculs rapides même si l’information change dans les cellules en liaison avec&#160;la formule. Par exemple, vous pourriez avoir une cellule totale qui contient la somme de toutes les valeurs dans une colonne. Les bases&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Les formules ont &nbsp;contribué à rendre l’utilisation des tableaux dans Microsoft Excel&nbsp;très populaires. En créant des formules, vous pouvez avoir des calculs rapides même si l’information change dans les cellules en liaison avec&nbsp;la formule. Par exemple, vous pourriez avoir une cellule totale qui contient la somme de toutes les valeurs dans une colonne.</p>
+
+
+
+<span id="more-688"></span>
+
+
+
+<h2>Les bases</h2>
+
+
+
+<ul><li>Toutes les formules de feuilles de calcul commencent par un signe égal (=).</li><li>Après&nbsp;le symbole égal , une fonction ou une formule est saisie. La fonction indique à la feuille de calcul le type de formule.</li><li>Si une fonction mathématique est exécutée, la formule mathématique est entourée entre parenthèses.</li><li>L’utilisation du côlon (:) vous permet d’obtenir une plage de cellules pour une formule. Par exemple A1: A10 sont&nbsp;les cellules A1 à A10.</li></ul>
+
+
+
+<h2>Créer une formule Excel</h2>
+
+
+
+<p>Voici un exemple visuel &nbsp;de la façon dont une formule Excel peut être insérée dans une feuille de calcul. Dans notre exemple une formule est entrée dans la cellule «&nbsp;C5&nbsp;», nous entrons manuellement une formule de somme = pour faire la somme des cellules de C1 à C4 pour obtenir le total de «&nbsp;85&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/03/fonctions-excel.png?resize=508%2C435" alt="Les fonction dans Microsoft Excel" class="wp-image-1313"/></figure></div>
+
+
+<h2>Exemples de formules</h2>
+
+
+
+<p><strong>Remarque</strong>: Les fonctions répertoriées ci-dessous peuvent ne pas être les mêmes dans toutes les langues de Microsoft Excel. Tous ces exemples sont effectués dans la version française&nbsp;de Microsoft Excel.</p>
+
+
+
+<p><strong>Astuce</strong>: Tous les exemples ci-dessous sont listés par ordre alphabétique, si vous voulez commencer par la formule la plus courante, nous vous suggérons de commencer par la formule = SOMME.<br><strong>=</strong><br><strong>MOYENNE</strong><br><strong>NB</strong><br><strong>NBVAL</strong><br><strong>NB.SI</strong><br><strong>SI</strong><br><strong>INDIRECT</strong><br><strong>MEDIAN</strong><br><strong>MIN ET MAX</strong><br><strong>PRODUIT</strong><br><strong>ALEA</strong><br><strong>ALEA.ENTRE.BORNES</strong><br><strong>SOMME</strong><br><strong>SOMME.SI</strong><br><strong>AUJOURDHUI</strong><br><strong>TENDANCE</strong><br><strong>RECHERCHEV</strong></p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>=</strong></p></blockquote>
+
+
+
+<p>= Va créer une cellule égale à une autre. Par exemple, si vous mettiez = A1 dans B1 ce qui était dans A1 serait automatiquement mis en B1. Vous pouvez également créer une formule qui ferait une cellule égale à plus d’une valeur. Par exemple, si vous avez un prénom dans la cellule A1 et un nom de famille dans la cellule B1, vous pouvez mettre dans la cellule A2 = A1 &amp; «&nbsp;&nbsp;» &amp; B1 qui mettrait la cellule A1 dans B1 avec un espace entre. Vous pouvez également utiliser une formule&nbsp;<strong>CONCATENER&nbsp;</strong>pour combiner des valeurs de cellule.</p>
+
+
+
+<h2>MOYENNE</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= MOYENNE (X: X)</strong></p></blockquote>
+
+
+
+<p>Affiche la quantité moyenne entre les cellules. Par exemple, si vous voulez obtenir la moyenne pour les cellules A1 à A30, vous devez taper: = MOYENNE (A1: A30).</p>
+
+
+
+<h2>NB</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= NB&nbsp;(X: X)</strong></p></blockquote>
+
+
+
+<p>Compter le nombre de cellules dans une plage contenant uniquement des nombres. Par exemple, vous pouvez trouver combien de cellules entre A1 et A15 contiennent une valeur numérique en utilisant &nbsp;= NB&nbsp;(A1: A15). Si les cellules A1 et A5 ne contiennent que des nombres, la valeur de la cellule qui contient cette fonction serait égale à «&nbsp;2&nbsp;».</p>
+
+
+
+<h2>NBVAL</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= NBVAL&nbsp;(X: X)</strong></p></blockquote>
+
+
+
+<p>Compter le nombre de cellules dans une plage qui contiennent du texte et ne sont pas vides. Par exemple, vous pouvez compter le nombre de cellules contenant du texte dans les cellules A1 à A20 en utilisant le = NBVAL&nbsp;(A1: A20). Si sept cellules étaient vides, le nombre «&nbsp;13&nbsp;» serait retourné.</p>
+
+
+
+<h2>NB.SI</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= NB.SI (X: X, «&nbsp;*&nbsp;»)</strong></p></blockquote>
+
+
+
+<p>Compter les cellules qui ont une certaine valeur. Par exemple, si vous avez = NB.SI (A1: A10, «&nbsp;TEST&nbsp;») dans la cellule A11, toute les cellules entre A1 et A10 ayant le test de mot sera comptée +&nbsp;1. Donc si vous avez 5 cellules dans cette plage qui contiennent Le mot test, A11 aura la valeur&nbsp;5.</p>
+
+
+
+<h2>SI</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= SI&nbsp;(*)</strong></p></blockquote>
+
+
+
+<p>La syntaxe de l’instruction SI est = SI (CELL = «&nbsp;VALUE&nbsp;», «&nbsp;IMPRIMER OU FAIRE CETTE&nbsp;», «&nbsp;IMPRIMER OU FAIRE CECI&nbsp;»). Ainsi, un bon exemple de la syntaxe serait = SI (A1 = «&nbsp;&nbsp;», «&nbsp;BLANK&nbsp;», «&nbsp;NOT BLANK&nbsp;»), cela ferait toute cellule en dehors de la cellule A1 reçoivent «&nbsp;BLANK&nbsp;» si A1 n’avait rien à l’intérieur et «&nbsp;NOT BLANK «&nbsp;S’il y avait une valeur. La fonction&nbsp;SI peut, bien sûr, devenir beaucoup plus compliquée mais peut être réduite si on suit la structure ci-dessus.</p>
+
+
+
+<h2>INDIRECT</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= INDIRECT («&nbsp;A&nbsp;» et «&nbsp;2&nbsp;»)</strong></p></blockquote>
+
+
+
+<p>Renvoie une référence spécifiée par une chaîne de texte. Dans l’exemple ci-dessus, la formule renverrait la valeur de la cellule contenue dans A2.<br>= INDIRECT («&nbsp;A&nbsp;» &amp; ALEA.ENTRE.BORNES (1,10))</p>
+
+
+
+<p>Renvoie la valeur d’une cellule aléatoire entre A1 et A2 en utilisant les fonctions indirecte et ALEA.ENTRE.BORNES (expliqué ci-dessous).</p>
+
+
+
+<h2>MEDIAN</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= MEDIAN (A1: A7)</strong></p></blockquote>
+
+
+
+<p>Renvoie la valeur médiane des nombres. La médiane est la valeur qui se trouve au centre d’un ensemble de nombres.</p>
+
+
+
+<h2>MIN ET MAX</h2>
+
+
+
+<p>Trouver la médiane des valeurs des cellules A1 à A7. Par exemple, quatre est la médiane pour 1, 2, 3, 4, 5, 6, 7.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= MIN / MAX (X: X)</strong></p></blockquote>
+
+
+
+<p>Min et Max représentent la quantité minimale ou maximale dans les cellules. Par exemple, si vous voulez obtenir la valeur minimale entre les cellules A1 et A30, vous mettez = MIN (A1: A30) ou si vous voulez obtenir le Maximum about = MAX (A1: A30).</p>
+
+
+
+<h2>PRODUIT</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= PRODUIT (X: X)</strong></p></blockquote>
+
+
+
+<p>Multiplie plusieurs cellules ensemble. Par exemple = Produit (A1: A30) serait multiple toutes les cellules ensemble, donc A1 * A2 * A3, etc.</p>
+
+
+
+<h2>ALEA</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= ALEA ()</strong></p></blockquote>
+
+
+
+<p>Génère un nombre aléatoire supérieur à zéro mais inférieur à un. Par exemple, «&nbsp;0.681359187&nbsp;» peut être un nombre généré de manière aléatoire placé dans la cellule de la formule.</p>
+
+
+
+<h2>ALEA.ENTRE.BORNES</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= ALEA.ENTRE.BORNES (1,100)</strong></p></blockquote>
+
+
+
+<p>Génère un nombre aléatoire entre deux valeurs. Dans l’exemple ci-dessus, la formule créerait un nombre entier aléatoire entre 1 et 100.</p>
+
+
+
+<h2>SOMME</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= SOMME (X: X)</strong></p></blockquote>
+
+
+
+<p>La fonction la plus couramment utilisée pour ajouter, soustraire, multiple ou diviser des valeurs dans les cellules. Voici quelques exemples.<br>= SOMME (A1 + A2)</p>
+
+
+
+<p>Ajouter les cellules A1 et A2.<br>= SOMME (A1: A5)</p>
+
+
+
+<p>Ajoutez les cellules A1 à A5.<br>= SOMME (A1, A2, A5)</p>
+
+
+
+<p>Ajoute les cellules A1, A2 et A5.<br>= SOMME(A2-A1)</p>
+
+
+
+<p>Soustraire la cellule A1 de A2.<br>= SOMME (A1 * A2)</p>
+
+
+
+<p>Multipliez les cellules A1 et A2.<br>= SOMME (A1 / A2)</p>
+
+
+
+<p>Diviser la cellule A1 par A2.</p>
+
+
+
+<h2>SOMME.SI</h2>
+
+
+
+<blockquote class="wp-block-quote"><p>= SOMME.SI (X: X, «&nbsp;*&nbsp;» X: X)</p></blockquote>
+
+
+
+<p>Exécutez la fonction SOMME uniquement s’il existe une valeur spécifiée dans les premières cellules sélectionnées. Un exemple de ceci serait = SUMIF (A1: A6, «&nbsp;TEST&nbsp;», B1: B6) qui n’ajoute que les valeurs B1: B6 si le mot «&nbsp;test&nbsp;» a été placé quelque part entre A1: A6. Donc, si vous mettez TEST (non sensible à la casse) dans A1, mais que vous avez des numéros dans B1 à B6, il ajouterait seulement la valeur dans B1 parce que TEST est en A1.<br>Voir notre définition SUMIF pour plus d’informations.</p>
+
+
+
+<h2>AUJOURDHUI</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= AUJOURDHUI ()</strong></p></blockquote>
+
+
+
+<p>Imprime la date actuelle dans la cellule entrée. Cette valeur changera pour refléter la date actuelle chaque fois que vous ouvrez votre feuille de calcul. Si vous voulez entrer une date qui ne change pas, maintenez la touche CTRL enfoncée et; Pour saisir la date.</p>
+
+
+
+<h2>TENDANCE</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= TENDANCE (X: X)</strong></p></blockquote>
+
+
+
+<p>Pour trouver la valeur commune de la cellule. Par exemple, si les cellules A1 à A6 avaient 2,4,6,8,10,12 et que vous avez entré formule = TENDANCE (A1: A6) dans une cellule différente, vous obtiendrez la valeur de 2 parce que chaque nombre va augmenter 2.</p>
+
+
+
+<h2>RECHERCHEV</h2>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>= RECHERCHEV (X, X: X, X, X)</strong></p></blockquote>
+
+
+
+<p>La formule de recherche, RECHERCHV (recherche verticale)&nbsp;ou RECHERCHH (recherche horizontale) vous permet de rechercher et de trouver des valeurs associées.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Utilisez une image comme fond d’écran dans Microsoft Excel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/utilisez-une-image-comme-fond-decran-dans-microsoft-excel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:19:41 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=686</guid>
+
+					<description><![CDATA[Généralement, la plupart d’entre nous voient Excel comme un logiciel simple et monotone. Mais avez-vous déjà pensé que vous pouvez utiliser votre créativité pour créer des feuilles de calcul incroyables et attrayantes? Dans cette publication, je vais partager une de ces techniques, ici, nous allons apprendre à&#160;ajouter des images d’arrière-plan&#160;dans vos feuilles de calcul Excel.&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Généralement, la plupart d’entre nous voient Excel comme un logiciel simple et monotone.</p>
+
+
+
+<p>Mais avez-vous déjà pensé que vous pouvez utiliser votre créativité pour créer des feuilles de calcul incroyables et attrayantes?</p>
+
+
+
+<p>Dans cette publication, je vais partager une de ces techniques, ici, nous allons apprendre à&nbsp;<strong>ajouter des images d’arrière-plan</strong>&nbsp;dans vos feuilles de calcul Excel.</p>
+
+
+
+<span id="more-686"></span>
+
+
+
+<p>Alors prenez une tasse de café, détendez vous et lisez:</p>
+
+
+
+<h3>Option 1: ajout d’une image d’arrière plan à votre feuille de calcul:</h3>
+
+
+
+<p><strong>Pour Excel 2003:</strong></p>
+
+
+
+<ol><li>Tout d’abord, ouvrez la feuille de calcul où vous souhaitez ajouter l’arrière-plan.</li></ol>
+
+
+
+<ol start="2"><li>Après cela, naviguez jusqu’à<strong>&nbsp;‘Format’&gt; ‘Feuille’&gt; ‘Fond’</strong>.</li><li>Maintenant, parcourez toutes les images disponibles, sélectionnez l’image que vous souhaitez ajouter et cliquez sur le bouton Insérer comme indiqué dans l’image ci-dessous.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/06/ouvrir-image.png?resize=628%2C496&amp;ssl=1" alt="Ouvrir une image" class="wp-image-1944"/></figure></div>
+
+
+<ol start="4"><li>Cela ajoutera l’image que vous venez de sélectionner en tant que fond de feuille.</li></ol>
+
+
+
+<p><strong>Pour Excel 2007, 2010 et 2013:</strong></p>
+
+
+
+<ol><li>Ouvrez d’abord la feuille de calcul où vous devez ajouter l’arrière-plan.</li><li>Ensuite, accédez à l’onglet «&nbsp;<strong>Mise en page</strong>&nbsp;» dans le ruban et cliquez sur l’option ‘<strong>Fond d’écran</strong>‘.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/06/feuil-excel-arriere-plan.png?resize=607%2C287&amp;ssl=1" alt="Feuil Excel arriere plan" class="wp-image-1943"/></figure></div>
+
+
+<ol start="3"><li>Cela ouvrira une fenêtre de fond de feuille, sélectionnez l’image que vous souhaitez utiliser en arrière-plan, puis cliquez sur le bouton Insérer.</li><li>Maintenant, l’image que vous venez de sélectionner sera utilisée dans l’arrière-plan de votre feuille de calcul.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/06/image-arriere-plan-dans-Excel.jpg?resize=708%2C448&amp;ssl=1" alt="Image d'arriére plan dans Excel" class="wp-image-1945"/></figure></div>
+
+
+<ol start="5"><li>Le résultat apparaîtra comme l’image ci-dessus.</li></ol>
+
+
+
+<h3>Quelques conseils importants sur les feuilles de calcul:</h3>
+
+
+
+<ul><li>Essayez d’utiliser des couleurs de contraste pour rendre vos feuilles de calcul plus lisibles. Par exemple, si vous utilisez une police de couleur sombre sur une image d’arrière-plan de couleur claire, il sera plus facile à lire.</li><li>Vous pouvez également utiliser le raccourci Alt + PG pour ajouter un fond d’image à vos feuilles de calcul.</li><li>L’image dans votre feuille de calcul peut augmenter la taille globale de la feuille de calcul. Alors, sélectionnez uniquement les images qui ont de petites tailles.</li><li>Vous ne pouvez pas ajouter une image d’arrière-plan à plusieurs feuilles de travail à la fois. Vous pouvez uniquement ajouter l’arrière-plan à une feuille de calcul à la fois.</li><li>Supprimez les lignes de répartition sur vos feuilles de calcul lorsque vous utilisez une image d’arrière-plan, ce qui les rend lisses.</li><li>Il convient de noter que lorsque vous ajoutez un fond d’image à votre feuille de calcul en utilisant la méthode ci-dessus, elle ne s’affiche pas lorsque vous imprimez la feuille. Pour ajouter des arrière-plans imprimables à votre feuille de calcul, utilisez la deuxième option.</li></ul>
+
+
+
+<h3>Comment supprimer l’image de fond dans Excel:</h3>
+
+
+
+<p>Pour supprimer le fond de l’image, suivez les étapes ci-dessous:</p>
+
+
+
+<p><strong>Pour Excel 2003:</strong></p>
+
+
+
+<ol><li>Ouvrez d’abord la feuille de calcul, où vous avez déjà ajouté une image en arrière-plan.</li><li>Ensuite, accédez à ‘<strong>Format’&gt; ‘Feuille’&gt; ‘Supprimer le fond</strong>‘.</li><li>Cela va supprimer l’image de l’arrière-plan.</li></ol>
+
+
+
+<p><strong>Pour Excel 2007, 2010 et 2013:</strong></p>
+
+
+
+<ol><li>Tout d’abord, ouvrez la feuille de calcul, où vous avez déjà ajouté une image en arrière-plan.</li><li>Après cela, accédez à l’onglet « Mise en page » dans le ruban et cliquez sur l’option ‘Supprimer l’arrière-plan’.</li><li>Maintenant, l’image en arrière-plan de votre feuille de calcul sera supprimée.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/06/Excel-supprimer-arriere-plan.png?resize=690%2C375&amp;ssl=1" alt="Excel supprimer arriére plan" class="wp-image-1948"/></figure></div>
+
+
+<h3>Option 2: Ajout d’une image imprimable à votre feuille de calcul:</h3>
+
+
+
+<p>Dans cette méthode, nous n’ajouterons pas l’image en arrière-plan, mais nous ajouterons l’image au-dessus d’un autre objet. Ensuite, nous allons régler l’objet afin qu’il corresponde à toute la zone imprimable. Pour utiliser la méthode, procédez comme suit:</p>
+
+
+
+<ol><li>Ouvrez la feuille de calcul où vous souhaitez ajouter votre arrière-plan d’image. Avant de continuer, assurez-vous que vous avez rempli les données requises dans votre feuille de calcul.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/06/ajouter-forme.png?resize=548%2C502&amp;ssl=1" alt="Ajouter forme" class="wp-image-1949"/></figure></div>
+
+
+<ol start="2"><li>Ensuite, accédez à l’onglet ‘<strong>Insérer’&gt; ‘Formes’&gt; ‘Rectangle</strong>‘, et tracez un rectangle sur votre feuille.</li><li>Après cela, cliquez avec le bouton droit sur le rectangle et sélectionnez l’option ‘Format Forme’ comme indiqué dans l’image.</li><li>Cela ouvrira les options ‘Format Shape’, cliquez sur l’option ‘Fill’, dans le ‘Fill’, sélectionnez le bouton radio ‘Gradient ou Texture’. Ensuite, utilisez le bouton «&nbsp;Fichier&nbsp;» pour sélectionner l’image de votre choix comme arrière-plan et définir sa transparence selon vos besoins.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/06/imprimer-avec-arriere-plan.png?resize=628%2C368&amp;ssl=1" alt="Imprimer feuil Excel avec arriére plan" class="wp-image-1950"/></figure></div>
+
+
+<ol start="5"><li>Réglez maintenant l’image telle qu’elle s’affiche dans la zone imprimable, puis imprimez la feuille.</li></ol>
+
+
+
+<p>Donc, c’était tout de mon côté. J’espère que vous auriez aimé cette publication.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Astuces Excel : Modification des paramètres de recherche par défaut</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/astuces-excel-modification-des-parametres-de-recherche-par-defaut/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:16:48 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=684</guid>
+
+					<description><![CDATA[Excel ne vous permet pas de spécifier les paramètres que vous souhaitez pour un paramètre par défaut dans la boîte de dialogue Rechercher. Il ya un peu de chemin autour de cette limitation apparente, cependant, au moins partiellement. Excel se souvient des derniers paramètres dans la boîte de dialogue Rechercher pour la session Excel entière. (Les&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/01/excel-parametres-recherches.png?resize=486%2C470&amp;ssl=1" alt="Excel parametres recherches"/></figure>
+
+
+
+<p>Excel ne vous permet pas de spécifier les paramètres que vous souhaitez pour un paramètre par défaut dans<strong> la boîte de dialogue Rechercher</strong>. Il ya un peu de chemin autour de cette limitation apparente, cependant, au moins partiellement. Excel se souvient des derniers paramètres dans la boîte de dialogue Rechercher pour la session Excel entière. (Les paramètres ne sont pas réinitialisés avant de quitter et de redémarrer Excel.) Cela signifie que tout ce que vous devez faire est de créer une petite macro qui définira les paramètres que vous souhaitez dans la boîte de dialogue.</p>
+
+
+
+<span id="more-684"></span>
+
+
+
+<p>Il y a deux façons de le faire. La première est de&nbsp;<strong>créer une macro</strong>&nbsp;qui définit les options dans la boîte de dialogue directement, comme ceci:</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>Sub SetFind1 ()<br>Application.Dialogs (xlDialogFormulaFind) .Show, 2,2<br>End Sub<br>La deuxième façon est d’utiliser la méthode Find de l’objet Cells, de cette manière:<br>Sub SetFind2 ()<br>Dim C As Gamme<br>C = Cells.Find (What: = «&nbsp;&nbsp;», LookIn: = xlValues, LookAt: = xlPart)<br>End Sub</p></blockquote></figure>
+
+
+
+<p>L’un ou l’autre de ces travaux fonctionnera juste fin, à un point. (Plus à ce sujet dans un moment.) Tout ce que vous devez faire est d’exécuter la macro lorsque vous démarrez Excel, soit manuellement ou dans le cadre d’une macro Auto_Open. Les paramètres de la boîte de dialogue sont ensuite modifiés pour le reste de la session Excel, sauf si vous les modifiez manuellement.</p>
+
+
+
+<p>Maintenant, au point. Il semble qu’il n’existe aucun moyen de modifier le paramètre Intérieur de la boîte de dialogue. Par défaut, ce paramètre est affiché dans la feuille de calcul. Vous pouvez le modifier manuellement en classeur et Excel se souviendra fidèlement du paramètre de votre session actuelle. Toutefois, vous ne semblez pas pouvoir&nbsp;<strong>modifier le paramètre dans VBA</strong>. Vous remarquerez qu’aucune des macros exemple ci-dessus ne modifie ce paramètre particulier. En outre, si vous enregistrez une macro dans laquelle vous modifiez les deux paramètres (Intérieur et Look In), vous vous retrouvez avec quelque chose qui ressemble à ceci:</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>Sub Macro1 ()<br>‘<br>Macro1 Macro<br>‘<br>‘<br>Feuilles (« Feuille1 »).<br>Cells.Find (What: = «  », After: = ActiveCell, LookIn: = xlValues, _<br>LookAt: = xlPart, SearchOrder: = xlByRows, _<br>SearchDirection: = xlNext, MatchCase: = False) .Activer<br>End Sub</p></blockquote></figure>
+
+
+
+<p>Si vous enregistrez le classeur dans lequel cette macro existe, redémarrez Excel et puis examinez les paramètres dans la boîte de dialogue Rechercher (appuyez sur&nbsp;<strong>Ctrl + F</strong>), vous remarquerez que les paramètres sont de retour à la recherche par défaut dans la feuille de calcul et en recherchant Dans les formules. Exécutez la macro et regardez à nouveau la boîte de dialogue; Vous devriez voir que les paramètres sont pour rechercher dans les valeurs dans la feuille de calcul; La macro ne définit pas le paramètre Intérieur, même si vous l’avez enregistré lorsque vous définissez dans le classeur.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment ajouter une macro à la barre d’outils dans Office</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-ajouter-une-macro-a-la-barre-doutils-dans-office/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:14:41 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=682</guid>
+
+					<description><![CDATA[Les Macros dans Word et Excel offrent la possibilité de gagner du temps pour les tâches répétitives . Vous pouvez enregistrer une série d’actions dans une macro et puis tout simplement cliquer sur un bouton pour exécuter la macro et effectuer la tâche. Une fois que vous avez enregistré votre macro , vous pouvez ajouter&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2015/11/1-macro-barred-accees-rapide-office.png?resize=650%2C300&amp;ssl=1" alt=""/></figure>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2015/11/1-macro-barred-accees-rapide-office.png?resize=650%2C300" alt="1-macro-barred-accees-rapide-office" class="wp-image-596"/></figure></div>
+
+
+<span id="more-682"></span>
+
+
+
+<p>Les Macros dans Word et Excel offrent la possibilité de gagner du temps pour les tâches répétitives . Vous pouvez enregistrer une série d’actions dans une macro et puis tout simplement cliquer sur un bouton pour exécuter la macro et effectuer la tâche.</p>
+
+
+
+<p>Une fois que vous avez enregistré votre macro , vous pouvez ajouter un bouton à la barre d’outils d’Accès rapide de sorte que vous pouvez rapidement exécuter la macro. Pour ce faire, cliquez sur le bouton flèche vers le bas sur le côté droit de la barre d’outils Accès rapide et sélectionnez «&nbsp;Autres commandes&nbsp;» dans le menu contextuel.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2015/11/2-macro-barred-accees-rapide-office.png?resize=650%2C419" alt="2-macro-barred-accees-rapide-office" class="wp-image-597"/></figure></div>
+
+
+<p><br>Sélectionnez «&nbsp;Macros&nbsp;» dans «&nbsp;choisir des commandes à partir de&nbsp;» dans liste déroulante.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2015/11/3-macro-barred-accees-rapide-office.png?resize=650%2C327" alt="3-macro-barred-accees-rapide-office" class="wp-image-598"/></figure></div>
+
+
+<p><br>Sélectionnez la macro que vous voulez dans la liste ci-dessous «choisir des commandes à partir de&nbsp;» liste déroulante, puis cliquez sur «&nbsp;Ajouter&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2015/11/4-macro-barred-accees-rapide-office.png?resize=650%2C428" alt="4-macro-barred-accees-rapide-office" class="wp-image-599"/></figure></div>
+
+
+<p><br>La macro est ajouté à la liste «&nbsp;Personnaliser la barre d’outils Accès rapide&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2015/11/5-macro-barred-accees-rapide-office.png?resize=650%2C390" alt="5-macro-barred-accees-rapide-office" class="wp-image-600"/></figure></div>
+
+
+<p><br>Cliquez sur «&nbsp;OK&nbsp;» pour accepter le changement et fermer la boîte de dialogue «&nbsp;Options Excel&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2015/11/6-macro-barred-accees-rapide-office.png?resize=650%2C196" alt="6-macro-barred-accees-rapide-office" class="wp-image-601"/></figure></div>
+
+
+<p><br>Les macros peuvent être enregistrées dans Word et Excel. Nous vous avons montré comment ajouter une macro à la barre d’outils Accès rapide dans Excel 2016, mais cette procédure est applicable aussi dans Excel 2013 et Word 2013 et 2016.</p>
+
+
+
+<p><strong>NOTE:</strong>&nbsp;<em>Les macros sont essentiellement des morceaux de code informatique et sont potentiellement dangereux.</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>5 trucs et astuces de Microsoft Excel 2013 que vous devez savoir</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/5-trucs-et-astuces-de-microsoft-excel-2013-que-vous-devez-savoir/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:13:24 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=680</guid>
+
+					<description><![CDATA[Microsoft Excel 2013 a une multitude de caractéristiques particulières qui rendent la navigation, l’organisation, la recherche et la présentation des données simple et efficace pour les utilisateurs. Avez-vous déjà effectué une&#160;RechercheV&#160;pour extraire des données à partie d’un tableau? Vous savez probablement comment créer des&#160;tableaux croisés dynamiques, mais est ce que vous pouvez combiner&#160;plusieurs feuilles de&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/trucs-astuces-excel-2013.jpg?resize=622%2C360&amp;ssl=1" alt="Microsoft Excel 2013"/></figure>
+
+
+
+<p>Microsoft Excel 2013 a une multitude de caractéristiques particulières qui rendent la navigation, l’organisation, la recherche et la présentation des données simple et efficace pour les utilisateurs. Avez-vous déjà effectué une&nbsp;<strong>RechercheV</strong>&nbsp;pour extraire des données à partie d’un tableau? Vous savez probablement comment créer des&nbsp;<strong>tableaux croisés dynamiques</strong>, mais est ce que vous pouvez combiner&nbsp;plusieurs feuilles de calcul dans un superbe tableau croisé dynamique pour accéder plus rapidement à&nbsp;vos rapports? Ou comment mettre en place une feuille de calcul avec&nbsp;<strong>mise en forme conditionnelle</strong>&nbsp;pour que les données d’une nature spécifique devient reconnaissable à un coup d’oeil? Ces paramètres spéciaux et plus font partie de notre liste de Microsoft Excel 2013 Trucs&nbsp;et astuces que vous devez savoir.</p>
+
+
+
+<span id="more-680"></span>
+
+
+
+<h2>Exécuter une RECHERCHEV</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/Excel-2013-RechercheV.jpg?resize=673%2C433" alt="Excel-2013-RechercheV" class="wp-image-753"/></figure></div>
+
+
+<p>C’est l’abréviation de «recherche verticale,&nbsp;»<strong>VLOOKUP</strong>&nbsp;» en anglais ,cette fonction tire profit des tables alignées verticalement pour trouver rapidement des données associées à une valeur que l’utilisateur tape. Si vous connaissez le nom d’un produit, par exemple, et que vous voulez déterminer rapidement son prix, vous pouvez simplement entrer le nom du produit dans Excel et faire une RECHERCHEV&nbsp;pour trouver le prix pour vous voulez. Pour le novice utilisateur Excel, cependant, la mise en place de RECHERCHEV peut ressembler à un processus intimidant – mais il ne doit pas l’être.</p>
+
+
+
+<h2>Ajouter Mise en forme conditionnelle</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/Excel-2013-ajouter-mise-en-forme-conditionelle.jpg?resize=673%2C433" alt="Excel-2013-ajouter-mise-en-forme-conditionelle" class="wp-image-752"/></figure></div>
+
+
+<p>Cet outil pratique va appliquer des couleurs à la police et le fond d’une cellule en fonction des conditions que vous avez définies – si vous voulez mettre en évidence toute cellule qui comporte un nom ou une date spécifique, par exemple, ou de différencier les valeurs numériques élevées, moyennes et basses. Suivez ces instructions pour configurer votre propre mise en forme conditionnelle en quelques étapes simples.</p>
+
+
+
+<h2>Créer un TimeLine dans un tableau croisé dynamique</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/creer-un-table-timeline-pivot.jpg?resize=673%2C433" alt="creer-un-table-timeline-pivot" class="wp-image-751"/></figure></div>
+
+
+<p>Ces types des tableaux&nbsp;vous permettent de sélectionner les données&nbsp;rapidement de votre&nbsp;tableau selon les dates et l’heure, ainsi que le zoom dans et hors des périodes de temps spécifiques. Heureusement, l’ajout d’une ligne de temps à votre table de pivot est pas plus difficile que quelques clics de la souris. Il suffit de suivre ces étapes pour commencer.</p>
+
+
+
+<h2>Tableau croisé dynamique&nbsp;Basé sur plusieurs tables</h2>
+
+
+
+<p>Comment créer un tableau croisé dynamique Basé sur plusieurs tablettes ?</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/table-pivot-basee-sur-plusieurs-table.jpg?resize=673%2C433" alt="table-pivot-basee-sur-plusieurs-table" class="wp-image-755"/></figure></div>
+
+
+<p>Excel 2013 élimine les tracas de la consolidation des données sur plusieurs feuilles de calcul dans un seul tableau croisé dynamique en automatisant le processus autrefois fastidieux – aucune mise en forme manuelle requise. Ces étapes simples vous aideront à démarrer.</p>
+
+
+
+<h2>Créer un graphique croisé dynamique Sans un tableau croisé dynamique</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/graphique-croisee-dynamique.jpg?resize=673%2C433" alt="graphique-croisee-dynamique" class="wp-image-754"/></figure></div>
+
+
+<p>Parfois, vous voulez la flexibilité et l’interactivité d’un tableau croisé dynamique sans les tracas de la création d’un nouveau tableau croisé dynamique. Heureusement, Microsoft Excel 2013 fournit exactement cette capacité. En quelques étapes simples, vous pouvez créer un tableau croisé dynamique à partir des données brutes. Voici comment.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment utiliser la fonction RechercheV dans Excel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-utiliser-la-fonction-recherchev-dans-excel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:10:55 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=678</guid>
+
+					<description><![CDATA[Microsoft Excel 2013 dispose d’un grand nombre de fonctions et utilitaires pratiques, dont beaucoup ne sont pas connus&#160;par la plupart des utilisateurs . Si vous vous trouvez souvent besoin de consulter un tableau pour trouver les mêmes données, cependant, vous aurez probablement envie d’apprendre à utiliser VLOOKUP ou bien&#160;RECHERCHEV. Abréviation de «recherche verticale,&#160;» RECHERCHEV tire&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/RechercheV.jpg?resize=780%2C470&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>Microsoft Excel 2013 dispose d’un grand nombre de fonctions et utilitaires pratiques, dont beaucoup ne sont pas connus&nbsp;par la plupart des utilisateurs . Si vous vous trouvez souvent besoin de consulter un tableau pour trouver les mêmes données, cependant, vous aurez probablement envie d’apprendre à utiliser VLOOKUP ou bien&nbsp;<strong>RECHERCHEV</strong>. Abréviation de «recherche verticale,&nbsp;» RECHERCHEV tire profit des tables alignées verticalement pour trouver rapidement des données associées à une valeur que l’utilisateur entre.</p>
+
+
+
+<span id="more-678"></span>
+
+
+
+<p>Si vous connaissez le nom d’un produit, par exemple, et que vous voulez déterminer rapidement son prix, vous pouvez simplement entrer le nom du produit dans Excel et&nbsp;<strong>utiliser&nbsp;RECHERCHEV&nbsp;</strong>pour trouver le prix . Pour le novice utilisateur de Microsoft Excel, cependant, la&nbsp;<strong>mise en place de RECHERCHEV</strong>&nbsp;peut ressembler à un processus intimidant – mais il ne doit pas l’être. Il suffit de suivre notre tutoriel étape par étape pour commencer à utiliser RECHERCHEV convenablement.</p>
+
+
+
+<p>Cliquez sur la cellule où vous voulez la utiliser formule RECHERCHEV .</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-1.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-1" class="wp-image-779"/></figure></div>
+
+
+<p>Cliquez sur «&nbsp;Formule&nbsp;» en haut de l’écran .</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-2.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-2" class="wp-image-780"/></figure></div>
+
+
+<p>Cliquez sur «&nbsp;<strong>Recherche et références</strong>&nbsp;» sur le ruban.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-3.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-3" class="wp-image-781"/></figure></div>
+
+
+<p>Cliquez sur «&nbsp;<strong>VLOOKUP</strong>&nbsp;ou en Français&nbsp;<strong>RECHERCHEV</strong>&nbsp;» au bas du menu déroulant.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-4.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-4" class="wp-image-782"/></figure></div>
+
+
+<p>Spécifiez la cellule dans laquelle vous entrez la valeur dont les données que vous recherchez. Dans ce cas, la valeur de notre recherche est H2, car c’est là nous allons saisir le nom d’un tournoi comme «Championnat de la PGA,&nbsp;» donc vous&nbsp;entrez «&nbsp;H2&nbsp;» dans la boîte de&nbsp;<strong>lookup_value</strong>&nbsp;de la fenêtre contextuelle. Une fois que nous&nbsp;mettons&nbsp;en place RECHERCHEV correctement, Excel retournera Note Valeur totale du tournoi dans la cellule H3 lorsque l’ on tape le nom du tournoi dans la cellule H2 .</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-5.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-5" class="wp-image-783"/></figure></div>
+
+
+<p>Spécifiez les données que vous souhaitez utiliser pour sa recherche dans la zone de&nbsp;<strong>table_array</strong>. Dans ce cas, nous avons choisi la table entière ( à l’ exclusion des en- têtes).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-7.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-7" class="wp-image-784"/></figure></div>
+
+
+<p>Indiquez le numéro de colonne que&nbsp;<strong>la fonction &nbsp;RECHERCHEV</strong>&nbsp;utilisera pour trouver les données pertinentes dans la boîte de&nbsp;<strong>col_index_num</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-8.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-8" class="wp-image-785"/></figure></div>
+
+
+<p>Indiquez si vous avez besoin d’ une correspondance exacte en entrant FALSE (correspondance exacte) ou TRUE (correspondance approximative) dans la zone de&nbsp;<strong>range_lookup</strong>. Dans ce cas, nous voulons une correspondance exacte donc&nbsp;nous tapons FALSE.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-9.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-9" class="wp-image-786"/></figure></div>
+
+
+<p>Cliquez sur «&nbsp;OK&nbsp;» en bas de la fenêtre contextuelle.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-10.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-10" class="wp-image-787"/></figure></div>
+
+
+<p>Entrez la valeur dont vous voulez rechercher ces données. Dans notre exemple, nous voulons trouver la valeur Note totale du Championnat de la PGA, nous tapons «&nbsp;PGA Championship&nbsp;» dans la cellule H2 et RECHERCHEV produit automatiquement la valeur Note totale (dans ce cas, 914) dans la cellule H3.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/comment-utiliser-recherchev-11.jpg?resize=675%2C403" alt="comment-utiliser-recherchev-11" class="wp-image-788"/></figure></div>
+
+
+<p>Avec&nbsp;RECHERCHEV non seulement vous pouvez rechercher des valeurs individuelles, mais aussi combiner deux feuilles de calcul en une seule. Par exemple, si vous avez une feuille de calcul avec les noms et les numéros de téléphone et une autre feuille avec les noms et adresses e-mail, vous pouvez mettre les adresses e-mail à côté des noms et des numéros de téléphone en utilisant RECHERCHEV.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Comment ajouter une Mise en forme conditionnelle dans Excel 2013</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-ajouter-une-mise-en-forme-conditionnelle-dans-excel-2013/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:05:16 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=675</guid>
+
+					<description><![CDATA[Microsoft Excel 2013&#160;introduit une nouvelle fonctionnalité qui vous permet de différencier les données,elle s’appelle&#160;Mise en forme conditionnelle. Cet outil pratique va appliquer des couleurs à la police et modifier le fond d’une cellule en fonction des conditions que vous avez définies – si vous voulez mettre en évidence toute cellule qui comporte un nom ou&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/trucs-astuces-excel-2013.jpg?resize=622%2C360&amp;ssl=1" alt="Microsoft Excel 2013"/></figure>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-1.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-1" class="wp-image-802"/></figure></div>
+
+
+<span id="more-675"></span>
+
+
+
+<p><strong>Microsoft Excel 2013</strong>&nbsp;introduit une nouvelle fonctionnalité qui vous permet de différencier les données,elle s’appelle&nbsp;<strong>Mise en forme conditionnelle</strong>. Cet outil pratique va appliquer des couleurs à la police et modifier le fond d’une cellule en fonction des conditions que vous avez définies – si vous voulez mettre en évidence toute cellule qui comporte un nom ou une date spécifique, par exemple, ou de différencier les valeurs numériques élevées, moyennes et basses. Suivez ces instructions pour configurer votre propre mise en forme conditionnelle en quelques&nbsp;<strong>étapes simples</strong>.</p>
+
+
+
+<p>1. Sélectionnez les cellules que vous souhaitez formater.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-2.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-2" class="wp-image-803"/></figure></div>
+
+
+<p><br>2. Cliquez sur «&nbsp;Mise en forme conditionnelle&nbsp;» sur le ruban.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-3.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-3" class="wp-image-804"/></figure></div>
+
+
+<p><br>3. Placez le curseur sur «&nbsp;<strong>Highlight Cleels Rules</strong>&nbsp;» dans le menu déroulant.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-4.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-4" class="wp-image-805"/></figure></div>
+
+
+<p><br>4. Cliquez sur «&nbsp;<strong>texte qui contient</strong>&nbsp;» dans le menu déroulant.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-5.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-5" class="wp-image-806"/></figure></div>
+
+
+<p><br>5. Sélectionnez le texte que vous souhaitez formaté dans la fenêtre&nbsp;«&nbsp;texte qui contient&nbsp;» .</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-6.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-6" class="wp-image-807"/></figure></div>
+
+
+<p><br>6. Choisissez le format dans la fenêtre&nbsp;«&nbsp;texte qui contient&nbsp;» .</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-7.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-7" class="wp-image-808"/></figure></div>
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

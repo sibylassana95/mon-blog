@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>machine &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/machine/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 02:00:37 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>machine &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Convertir un PC Windows en Machine Virtuelle à l’aide d’Hyper-V</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/convertir-un-pc-windows-en-machine-virtuelle-a-laide-dhyper-v/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 02:00:37 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[hyper-v]]></category>
+		<category><![CDATA[machine]]></category>
+		<category><![CDATA[virtuel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=712</guid>
+
+					<description><![CDATA[Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/Hyper-V-et-machine-Virtuelle.png?resize=500%2C300&amp;ssl=1" alt="Hyper V et machine Virtuelle"/></figure>
+
+
+
+<p>Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.</p>
+
+
+
+<span id="more-712"></span>
+
+
+
+<p>La version virtuelle de Windows est juste un gros fichier et un logiciel spécial exécuté sur votre ordinateur Windows (logiciel de virtualisation) agit comme un faux ordinateur pour que Windows puisse s’exécuter. Tout ce que vous faites dans la machine virtuelle n’affectera pas votre système d’exploitation hôte. Ainsi, vous pouvez télécharger des&nbsp;virus sur la machine virtuelle et votre système d’exploitation principal serait en sécurité.</p>
+
+
+
+<p>Ce qui est bien sur les machines virtuelles, c’est que vous pouvez les réinitialiser. Donc, si vous obtenez un virus lors de la navigation sur la machine virtuelle, vous pouvez simplement réinitialiser la machine virtuelle à son état par défaut lorsque vous l’avez installé et recommencer. C’est aussi un excellent moyen d’augmenter votre vie privée, car vous pouvez simplement effacer tout ce que vous avez fait dans une machine virtuelle.</p>
+
+
+
+<p>Avant de commencer, parlons des exigences. Il existe de nombreux outils de virtualisation de logiciels comme&nbsp;<strong>VMWare</strong>,&nbsp;<strong>Parallels</strong>,&nbsp;<strong>VirtualBox</strong>, pour&nbsp;les logiciels Microsoft vous avez besoin de deux choses:</p>
+
+
+
+<p><a href="https://technet.microsoft.com/fr-fr/library/ee656415.aspx">Disk2VHD</a>&nbsp;– Un outil gratuit de Microsoft qui sera utilisé pour convertir n’importe quel système d’exploitation Windows à partir de Windows XP en un fichier de machine virtuelle.</p>
+
+
+
+<p><strong>Windows 8.1 Pro ou Windows 10 Pro</strong>&nbsp;– Vous aurez besoin des versions Pro de Windows 8.1 ou Windows 10 pour compléter ce processus. Les deux systèmes d’exploitation ont un outil appelé&nbsp;<strong>Hyper-V</strong>&nbsp;qui peut être utilisé pour accéder au fichier virtuel créé par Disk2VHD.</p>
+
+
+
+<p>Il est également intéressant de noter que même si vous pouvez utiliser Windows XP, Vista et 7 comme machine virtuelle, il est préférable de convertir une machine Windows 8.1 ou Windows 10 parce que la plus haute résolution prise en charge par Hyper-V pour les anciens systèmes d’exploitation est 1600 × 1200. C’est vraiment ennuyeux et je ne sais pas pourquoi Microsoft n’a pas pris la peine de résoudre ce problème encore. Quoi qu’il en soit, c’est seulement un problème pour ceux qui ont des moniteurs haute résolution.</p>
+
+
+
+<p></p>
+
+
+
+<h2>Convertir le système d’exploitation Windows en VHD</h2>
+
+
+
+<p>Commençons par la partie facile: convertir votre version actuelle de Windows en machine virtuelle (fichier VHD ou VHDX). Pour ce faire, téléchargez l’outil Disk2VHD mentionné ci-dessus et exécutez le fichier EXE.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/disk2vhd-demarrer.jpg?resize=525%2C361" alt="Démarrer avec disk2vhd" class="wp-image-1113"/></figure></div>
+
+
+<p>Lorsque vous l’exécutez, vous verrez un écran comme celui ci-dessus. Vous devez&nbsp;choisir l’emplacement où vous voulez enregistrer le fichier VHDX et les volumes que vous souhaitez inclure.</p>
+
+
+
+<p>Si vous avez un grand disque dur, vous pouvez simplement laisser enregistrer le fichier dans la même partition que Windows. Sinon, choisissez un autre emplacement comme un deuxième disque dur ou un disque dur externe USB. Par défaut, il va sélectionner tous les volumes qu’il trouve sur votre ordinateur.</p>
+
+
+
+<p>Dans mon cas, j’ai plusieurs disques durs connectés à l’ordinateur, ainsi je veux seulement choisir le volume C: \, qui est 37.26 GB dans la taille. En outre, vous voulez vous assurer de sélectionner tous les autres volumes qui ont été créés lorsque vous avez installé Windows, probablement le volume de démarrage et le&nbsp;<strong>volume réservé du système</strong>. Ceux-ci sont généralement très petits: dans mon cas, le volume réservé au système est seulement 34 Mo et l’autre volume, qui n’a pas d’étiquette, est seulement 322,08 Mo.</p>
+
+
+
+<p>Il est très important de sélectionner ces autres volumes en plus du volume principal de Windows, car si vous ne le faites pas, le système d’exploitation ne démarrera pas lorsque vous le chargez dans Hyper-V. Au lieu de cela, vous obtiendrez un message d’<strong>échec de démarrage</strong>! En effet, ces deux volumes supplémentaires indiquent au système où se trouve Windows et comment le démarrer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/erreur-boot.png?resize=516%2C326" alt="Erreur démarrage" class="wp-image-1114"/></figure></div>
+
+
+<p>Il faudra probablement un certain temps pour&nbsp;<strong>créer le fichier VHDX</strong>&nbsp;en fonction de la taille de votre partition Windows. Une fois terminé, vous aurez un fichier vraiment grand et deux fichiers plus petits.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/vhdx-images.png?resize=665%2C149" alt="Images VHDX" class="wp-image-1115"/></figure></div>
+
+
+<h2>Installer Hyper-V sous Windows 8.1 / 10</h2>
+
+
+
+<p>Ensuite, nous devons installer les outils Hyper-V sous Windows 8.1 ou Windows 10 Pro. Si vous avez les éditions Home, vous devrez effectuer une mise à niveau vers Pro avant d’installer Hyper-V. Cliquez sur Démarrer et tapez dans&nbsp;<strong>les fonctionnalités de Windows</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/option-windows.png?resize=394%2C393" alt="Options de Windows" class="wp-image-1116"/></figure></div>
+
+
+<p>En haut, cliquez sur Activer ou&nbsp;<strong>désactiver les fonctionnalités de Windows</strong>. Une fenêtre s’affiche où vous pouvez cocher les éléments supplémentaires que vous souhaitez installer. Allez-y et cochez la case pour&nbsp;<strong>Hyper-V</strong>. Il doit également cocher les cases correspondantes aux outils de gestion Hyper-V et à la&nbsp;<strong>plate-forme Hyper-V</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/activer-hyper-v.png?resize=417%2C372" alt="Activer hyper V" class="wp-image-1117"/></figure></div>
+
+
+<p>Cliquez sur OK et laissez Windows installer les fonctionnalités. Vous devrez également redémarrer votre ordinateur. Une fois la sauvegarde démarrée, cliquez sur Démarrer, Toutes les applications, puis faites défiler jusqu’à Outils d’administration Windows. Vous devriez voir Hyper-V Manager répertorié ici. Vous pouvez également cliquer sur Démarrer et taper Hyper-V pour le rechercher.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/menu-demarrer-hyper-v.png?resize=263%2C388" alt="Hyper V dans le menu démarrer" class="wp-image-1118"/></figure></div>
+
+
+<h2>Configuration de Hyper-V</h2>
+
+
+
+<p>Maintenant pour la partie amusante! Commençons par Hyper-V. Allez-y et ouvrez le Gestionnaire Hyper-V et vous verrez un espace de travail vierge.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/hyper-v-gestionnaire.png?resize=646%2C440" alt="Le gestionnaire de hyper V" class="wp-image-1119"/></figure></div>
+
+
+<p>À l’extrême gauche se trouve le serveur, qui devrait être le nom de votre ordinateur. Dans la partie centrale se trouvent la liste des machines virtuelles et des checkpoints. Sur la droite, vous avez un menu dynamique qui change en fonction de l’élément sélectionné dans les sections de gauche. Pour commencer, sélectionnez le nom de l’ordinateur à l’extrême gauche.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouvelle-virtuel-machine.png?resize=500%2C154" alt="Nouvelle machine virtuelle" class="wp-image-1123"/></figure></div>
+
+
+<p>Maintenant à l’extrême droite, cliquez sur Nouveau et puis sur Virtual Machine. Cela ouvre l’Assistant de la nouvelle machine virtuelle. La première étape consiste à donner un nom à votre machine virtuelle.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nom-virtual-machine.png?resize=656%2C326" alt="Nom de machine virtuelle" class="wp-image-1124"/></figure></div>
+
+
+<p>Ensuite, vous devez choisir la génération de la machine virtuelle. Si vous convertissez une version 64 bits de Windows en une machine virtuelle et que votre matériel informatique prend en charge UEFI, choisissez Génération 2, car cela permet des fonctionnalités plus avancées. Utilisez la génération 1 pour les versions 32 bits de Windows ou si votre machine utilise le BIOS existant. Generation 2 prend également en charge les écrans géants lors de la virtualisation de Windows 8.1 ou Windows 10.</p>
+
+
+
+<p>Si vous n’avez aucune idée de ce que tout cela signifie, choisissez simplement Génération 1 pour être sûr. Notez que si la machine virtuelle ne démarre pas, vous pouvez facilement la supprimer et recommencer ce processus. Sélectionnez une génération différente et vérifiez si elle démarre correctement. La suppression de la machine virtuelle dans Hyper-V ne supprime pas vos fichiers VHDX d’origine.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-generation.png?resize=656%2C296" alt="Génération du machine virtuelle" class="wp-image-1125"/></figure></div>
+
+
+<p>Sur l’écran suivant, vous devez choisir la quantité de mémoire que vous souhaitez affecter à votre machine virtuelle. Je l’ai laissé à la valeur par défaut de 1024 Mo, mais vous pouvez l’augmenter si vous avez suffisamment de RAM disponible sur votre ordinateur hôte.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-memoire.png?resize=650%2C297" alt="Mémoire du machine virtuelle" class="wp-image-1126"/></figure></div>
+
+
+<p>Allez-y et sautez l’écran Configure Networking pour l’instant car nous devrons le faire plus tard. Pour l’instant, laissez-le à Not Connected. Sur l’écran Connect Virtual Hard Disk, vous devez sélectionner Utiliser un disque dur virtuel existant.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/connecter-virtual-disque-dur.png?resize=656%2C438" alt="Connecter un disque dur virtuelle" class="wp-image-1127"/></figure></div>
+
+
+<p>Cliquez sur le bouton Parcourir et sélectionnez l’image VHDX qui représente votre partition Windows réelle. Ce devrait être le très grand fichier VHDX. Nous aurons à ajouter manuellement les deux autres disques VHDX après l’assistant, que je vais montrer plus bas. À ce stade, examinez le résumé et cliquez sur Terminer.</p>
+
+
+
+<p>Maintenant, vous devriez voir un nouvel élément répertorié sous Virtual Machines. Si vous cliquez sur cela, vous verrez un tas d’autres options dans le volet de droite.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/demarrer-virutal-machine.png?resize=626%2C572" alt="Démarrer une virtuelle machine" class="wp-image-1128"/></figure></div>
+
+
+<p>Pour démarrer la machine virtuelle, sélectionnez-la, puis cliquez sur Démarrer. La colonne État se transforme en Exécution. Cliquez sur Connecter pour afficher la machine virtuelle. Si vous avez fait cela maintenant, vous verrez ce message d’erreur que j’ai mentionné au début de l’article: échec de démarrage. Nous avons encore besoin d’ajouter les autres disques durs.</p>
+
+
+
+<p>Sélectionnez la machine virtuelle, puis cliquez sur Désactiver. Cliquez ensuite sur le lien Paramètres. Sur le côté gauche, vous devriez voir IDE Controller 0 et IDE Controller 1. Cliquez sur le Controller 0 en premier. Si vous avez choisi Génération 2, vous verrez SCSI Controller uniquement.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ide-controlleur.png?resize=648%2C319" alt="contrôleur ide" class="wp-image-1130"/></figure></div>
+
+
+<p>Vous verrez que le premier fichier VHDX que nous avons ajouté dans l’assistant est déjà répertorié. Maintenant nous devons ajouter les deuxième et troisième fichiers. Assurez-vous que le disque dur est sélectionné, puis cliquez sur Ajouter.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-deuxieme-vhdx.png?resize=643%2C301" alt="" class="wp-image-1120"/></figure></div>
+
+
+<p>La case Emplacement doit automatiquement choisir 1 car le slot 0 est pris par notre premier fichier VHDX. Chaque contrôleur IDE ne dispose que de deux emplacements disponibles pour ajouter des lecteurs. Cliquez sur Disque dur virtuel et choisissez votre deuxième fichier VHDX.</p>
+
+
+
+<p>Cliquez maintenant sur IDE Controller 1, puis sur le bouton Ajouter. Faites la même chose ici, mais choisissez votre troisième fichier VHDX.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-troisieme-vhdx.png?resize=646%2C358" alt="" class="wp-image-1121"/></figure></div>
+
+
+<p>Maintenant que nous avons tous les trois fichiers VHDX attachés, nous pouvons cliquer sur OK et démarrer notre machine virtuelle. Cette fois, vous devriez obtenir un écran avec Windows chargement!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/windows-demarre-avec-hyper-v.jpg?resize=600%2C530" alt="Démarrer Windows avec hyper V" class="wp-image-1129"/></figure></div>
+
+
+<h2>Configurer la mise en réseau</h2>
+
+
+
+<p>Enfin, nous devons configurer la mise en réseau de la machine virtuelle afin que vous puissiez vous connecter au réseau local et à Internet. Pour ce faire, cliquez sur Virtual Switch Manager en haut du menu de droite.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouveau-virtual-switch.png?resize=651%2C268" alt="" class="wp-image-1122"/></figure></div>
+
+
+<p>Cliquez sur Nouveau commutateur réseau virtuel, puis sélectionnez Externe dans la zone de liste. Enfin, cliquez sur Créer un commutateur virtuel.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/externe-virtual-switch.png?resize=444%2C329" alt="externe-virtual-switch" class="wp-image-1131"/></figure></div>
+
+
+<p>Donnez à votre commutateur virtuel un nom si vous le souhaitez, puis choisissez le réseau correct dans la liste déroulante. Si vous avez plus d’une carte réseau, choisissez celle qui est connectée au réseau et à Internet. Une fois que votre commutateur a été créé, nous devons dire à la machine virtuelle de l’utiliser. Pour ce faire, cliquez sur la machine virtuelle dans le gestionnaire Hyper-V, puis cliquez sur le lien Paramètres dans le volet droit.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/configurer-network-switch.png?resize=647%2C424" alt="configurer-network-switch" class="wp-image-1132"/></figure></div>
+
+
+<p>Cliquez sur Adaptateur réseau, puis choisissez le nouveau commutateur virtuel que vous avez créé à l’étape précédente. C’est tout! Maintenant, lorsque vous démarrez votre machine virtuelle, il doit obtenir un accès réseau via l’ordinateur hôte.</p>
+
+
+
+<p>Espérons que cet article vous aide à prendre votre PC actuel et à le convertir en une machine virtuelle que vous pouvez exécuter sur le même PC ou un autre PC si vous le souhaitez. Il ya beaucoup de choses qui peuvent mal tourner dans ce processus, alors n’hésitez pas à commenter si vous rencontrez des problèmes.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

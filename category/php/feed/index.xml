@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/php/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Mon, 20 Jun 2022 03:27:27 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 03:03:08 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,6 +34,10 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:48:36 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=275</guid>
 
 					<description><![CDATA[1 &#8211; Gestion des fichiers avec php Depuis sa version 4&#160;php&#160;offre à son utilisateur la possibilité de manipuler des objets : comme création, suppression, écriture dans des fichiers, modification des images &#8230; Les principales fonctions qui manipulent les fichiers en php sont : touch()&#160; La fonction touch permet de créer des fichiers sa syntaxe est&#8230;]]></description>
@@ -540,6 +544,10 @@ echo"$res&lt;br /&gt;";
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:46:24 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=273</guid>
 
 					<description><![CDATA[1 &#8211; Création du formulaire d&#8217;upload Le langage php nous offre la possibilité d&#8217;Uploader des fichiers sur un serveur par une méthode assez simple à réaliser. Nous allons créer cela en deux étapes : On peut réaliser ceux- ci grâce à la commande : Voici le code : &#160;&#160;&#160; On crée ensuite un dossier sur&#8230;]]></description>
@@ -654,6 +662,10 @@ echo'Fichier non envoyé';
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:45:51 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=271</guid>
 
 					<description><![CDATA[1 &#8211;&#160;&#160;contrôle des données d&#8217;un formulaire simple &#160;&#160;&#160; Les valeurs saisies par un internaute en remplissant un formulaire du type POST, doivent être récupérées à l&#8217;aide d&#8217;un script php et doivent être traitées comme étant des variables php. La commande utilisée par php pour réaliser cela est : $_POST[&#8216; nom du champ&#8217;] où l&#8217;expression nom&#8230;]]></description>
@@ -916,6 +928,10 @@ message&lt;input type="text" name="message"&gt;
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:44:08 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=269</guid>
 
 					<description><![CDATA[5.1 &#8211; Tableaux numérotés Un tableau est une sorte de variable qui permet de stocker ranger d&#8217;autres variables ou informations. Supposons que l&#8217;on souhaite regrouper deux variables $var1= »élève » et $var2= »professeur » $var3= »directeur »&#160; en une seule variable, on utilise pour cela la fonction&#160;array(): Exemple : Remarque&#160;: On peut définir directement le tableau par : $tab=array(« élève » , « professeur »&#8230;]]></description>
@@ -1128,6 +1144,10 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:43:11 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=267</guid>
 
 					<description><![CDATA[Les structures de controles &#160;1 &#8211; L&#8217;instruction if &#160;&#160;&#160; C&#8217;est une instruction permettant d&#8217;exécuter un nombre d&#8217;instruction lorsqu&#8217;une condition est réalisée. La syntaxe est la suivante : Exemple : 2 &#8211; Les boucles &#160;2.1 &#8211; La boucle for La syntaxe est la suivante : for( [initialisations] ; [test sortie] ; [faire a chaque fois] )&#8230;]]></description>
@@ -1304,6 +1324,10 @@ function diveuclide($a,$b){
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:42:25 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=265</guid>
 
 					<description><![CDATA[3.1 &#8211; Variables php Exemples et définition Contrairement aux autres langages les variables en PHP ne se déclarent pas, si vous voulez utiliser une variable il suffit d&#8217;introduire son nom précédé du symbole dollar&#160;$&#160;, le premier caractère du nom de la variable doit être une lettre tandis que pour les autres elles peuvent être des&#8230;]]></description>
@@ -1789,6 +1813,10 @@ echo"$n"; // affiche mpi
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:40:18 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=263</guid>
 
 					<description><![CDATA[1&#160; &#8211; Premier script php Pour créer notre &#160;premier programme php nous allons &#160;utiliser une fonction très populaire dans ce langage : la fonction&#160;echo(); Cette dernière &#160;permet d&#8217;afficher un texte, la valeur d&#8217;une constante ou d&#8217;une variable&#8230; Un code&#160;php&#160;commence par la balise &#160;&#60;?php&#160;et se termine par &#160;?&#62;&#160;ou simplement par le&#160;symbole&#160;&#60;?&#160;et se termine par&#160;?&#62;&#160;nous avons &#160;aussi&#8230;]]></description>
@@ -1927,6 +1955,10 @@ echo "Bienvenue  ! " ;
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:37:10 +0000</pubDate>
 				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[echo]]></category>
+		<category><![CDATA[eco]]></category>
+		<category><![CDATA[pdo]]></category>
+		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=261</guid>
 
 					<description><![CDATA[Introduction Contrairement aux langages HTML, Vbscript ou Javascript qui s&#8217;exécutent du coté client, le langage PHP( Personal Home Page) est interprété et exécuté du coté Serveur, c&#8217;est à dire quand un poste client envoi une requête à un Seveur exécutant du code PHP, ce dernier compile la page ( interprète) en HTML avant de l&#8217;envoyer&#8230;]]></description>

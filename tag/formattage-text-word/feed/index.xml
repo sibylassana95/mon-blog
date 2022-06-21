@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>formattage text word &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/formattage-text-word/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 02:57:53 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
+	<title>formattage text word &#8211; SIBY INFORMATIQUE</title>
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Supprimer le formattage de text collé dans word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/supprimer-le-formattage-de-text-colle-dans-word/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 01:46:15 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[formattage text word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=706</guid>
+
+					<description><![CDATA[Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&#160;Microsoft Word, Word permet de garder la mise en forme du texte. Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&#160;gras, et ce texte resterait&#160;bleu. Pour supprimer&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word.jpg?resize=780%2C470&amp;ssl=1" alt="Microsoft Word"/></figure>
+
+
+
+<p>Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&nbsp;<strong>Microsoft Word</strong>, Word permet de garder la mise en forme du texte.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png?resize=256%2C256" alt="word-logo" class="wp-image-34"/></a></figure></div>
+
+
+<p>Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&nbsp;<strong>gras</strong>, et ce texte resterait&nbsp;<strong>bleu</strong>. Pour supprimer la mise en forme dans Microsoft Word à partir de n’importe quel texte en surbrillance le texte et appuyez sur la touche raccourci&nbsp;<strong>Ctrl + Espace</strong>. Cela mettra le texte à la police par défaut, supprimer la mise en forme, et même supprimer les liens.</p>
+
+
+
+<p>Sinon, vous pouvez utiliser l’option de Collage spécial dans Microsoft Word pour coller le texte sans formatage.</p>
+
+
+
+<p><strong>Astuce:</strong>&nbsp;Dans la plupart des versions de Windows&nbsp;<strong>Ctrl + Windows + V</strong>&nbsp;sera aussi souvent coller le texte en texte brut.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

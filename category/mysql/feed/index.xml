@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/mysql/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Mon, 20 Jun 2022 03:27:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 03:02:03 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,6 +34,13 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sun, 19 Jun 2022 14:39:47 +0000</pubDate>
 				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=534</guid>
 
 					<description><![CDATA[1 &#8211; Création d&#8217;une base de donnée MySql via l&#8217;interface phpMyAdmin Après installation du serveur Wamp, votre machine est dotée d&#8217;une interface gestion de bases de données très agréable, vous permettant la création de bases de données, des tables sql, l&#8217;importation et l&#8217;exportation des donnée mysql  sans faire recours à la moindre requête sql. Nous supposons que votre&#8230;]]></description>
@@ -96,6 +103,13 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sun, 19 Jun 2022 14:35:16 +0000</pubDate>
 				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=532</guid>
 
 					<description><![CDATA[1 &#8211; Le langage MySql MySQL est un système open source  conçu spécialement pour la  gestion de base de données relationnelle (SGBDR). Le nom MySql est une combinaison de « My » qui designe le nom de la fille du cofondateur Michael Widenius et « SQL », l&#8217;abréviation de l’expression Structured Query Language. Le projet de développement MySQL a&#8230;]]></description>
@@ -152,6 +166,13 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sun, 19 Jun 2022 14:34:22 +0000</pubDate>
 				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=530</guid>
 
 					<description><![CDATA[1 &#8211; Télécharger MySQL Pour télécharger mysql il suffit de suivre les&#160; étapes suivantes: Accédez au site officiel de MySQL http://www.mysql.com/downloads/ Choisissez le numéro de version du serveur de communauté MySQL que vous souhaitez. 2 &#8211; Installation de MySQL sous Windows Le serveur&#160; MySQL que vous venez de télécharger est&#160; emballé avec un installateur. Téléchargez&#8230;]]></description>
@@ -283,6 +304,13 @@ sudo /sbin/service mysqld start</code></pre>
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sun, 19 Jun 2022 14:32:58 +0000</pubDate>
 				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=528</guid>
 
 					<description><![CDATA[1 &#8211; Création d&#8217;une base de donné MySql ( Create Database ) Vous pouvez créer une base de données MySQL en utilisant la ligne de commande MySQL.Ouvrez alors la console MySQL et écrivez le mot de passe, si vous avez configuré un pendant l&#8217;installation. Vous obtiendrez la fenêtre suivante : Vous pouvez alors créer maintenant&#8230;]]></description>
@@ -395,6 +423,13 @@ mysql &gt;</code></pre>
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sun, 19 Jun 2022 14:31:52 +0000</pubDate>
 				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=526</guid>
 
 					<description><![CDATA[1 &#8211; Création des tables MySql à l&#8217;aide de la commande Create Table 1 &#8211; 1 &#8211; Création des tables MySql Vous pouvez créer facilement des nouvelles tables MySql dans la base de données sélectionnée, à l&#8217;aide de la&#160; commande MySQL CREATE TABLE.&#160; Une commande de création de table nécessite trois choses: Nom de la&#8230;]]></description>
@@ -591,6 +626,13 @@ After nom; </code></pre>
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sun, 19 Jun 2022 14:30:05 +0000</pubDate>
 				<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[create table]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[requette]]></category>
+		<category><![CDATA[select]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[update]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=524</guid>
 
 					<description><![CDATA[1 &#8211; Insertion de données MySql (Insert Query) La requête&#160; INSERT&#160; MySql permet d&#8217;insérer des données dans une table MySQL. Nous pouvons insérer des enregistrements uniques ou multiples en utilisant une seule requête&#160; MySQL. Syntaxe: La commande&#160;MySql INSERT INTO&#160;est utilisée pour insérer des données dans la table MySQL. Voici la syntaxe générique: Exemple Remarque Lorsqu&#8217;on&#8230;]]></description>

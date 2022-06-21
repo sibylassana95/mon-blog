@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/author/sibylassana95/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Mon, 20 Jun 2022 10:51:04 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 02:57:54 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,977 +28,1854 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>NATURE ET CULTURE</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/nature-et-culture/</link>
+		<title>Touches inversées : changer un clavier QWERTY en AZERTY sous Windows</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/touches-inversees-changer-un-clavier-qwerty-en-azerty-sous-windows/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:23:19 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=635</guid>
+		<pubDate>Tue, 21 Jun 2022 02:49:29 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=725</guid>
 
-					<description><![CDATA[Le terme ‘’nature’’ désigne les charmes paisibles de la campagne, la pureté de l’air, l’authenticité des choses, les quatre éléments, l’environnement, le milieu physique, ce que l’homme trouve sur place, le monde, l’univers, tout ce qui ne relève pas de l’activité transformatrice de l’homme. Elle peut aussi renvoyer à l’instinct, aux pulsions primitives, ce avec&#8230;]]></description>
+					<description><![CDATA[Nous avons déjà parlé des r raccourcis clavier qui sont souvent très pratiques au quotidien que cela soit pour surfer sur le web ou pour travailler. Ils peuvent parfois aussi nous jouer des tours comme pour le raccourci clavier qui permet sous Windows de basculer son clavier de l’AZERTY en QWERTY.Mon fils en s’amusant sur le clavier de mon&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Le terme ‘’nature’’ désigne les charmes paisibles de la campagne, la pureté de l’air, l’authenticité des choses, les quatre éléments, l’environnement, le milieu physique, ce que l’homme trouve sur place, le monde, l’univers, tout ce qui ne relève pas de l’activité transformatrice de l’homme. Elle peut aussi renvoyer à l’instinct, aux pulsions primitives, ce avec quoi l’on nait, l’hérédité psychobiologique, le patrimoine génétique, l’inné, tout ce qui est universel chez l’homme, tout ce qui se caractérise par la spontanéité.</p>
+<p>Nous avons déjà parlé des <a rel="noreferrer noopener" href="https://www.astuces-aide-informatique.info/198/raccourcis-clavier" target="_blank">r</a> raccourcis clavier qui sont souvent très pratiques au quotidien que cela soit pour surfer sur le web ou pour travailler. Ils peuvent parfois aussi nous jouer des tours comme pour le raccourci clavier qui permet sous Windows de basculer son clavier de <strong>l’AZERTY</strong> en <strong>QWERTY</strong>.<br>Mon fils en s’amusant sur le clavier de mon ordinateur a ainsi réussi, sans le vouloir, à inverser la disposition du clavier :  en tapant la lettre <kbd>A</kbd>, par exemple, il s’affichait sur l’écran la lettre <kbd>Q</kbd>. Il venait, sans le savoir, de changer la langue du clavier par inadvertance en basculant le clavier AZERTY en clavier QWERTY, le clavier anglophone. Quelles sont donc les <strong>différences entre ces deux claviers</strong> ? Comment <strong>remettre mon clavier  en Azerty</strong> ?</p>
 
 
 
-<span id="more-635"></span>
+<h2>Différence entre le clavier AZERTY et le clavier QWERTY</h2>
 
 
 
-<p><br>La nature peut encore se définir comme ce que Dieu nous a donné, l’âme ou l’essence ou bien Dieu lui-même. La force qui régit souverainement l’univers.<br>   La culture quant à elle peut se comprendre d’abord comme l’action de cultiver, la mise en valeur de la nature (ici le monde physique). Elle peut aussi se définir comme la civilisation, la formation du citoyen, l’éducation, l’acquis, l’ensemble des acquisitions d’un individu hors d’une société, tout ce qui dans le comportement parvient d’un apport extérieur. C’est aussi le langage articulé, le relatif, le particulier, un ensemble complexe de croyances, de coutumes, des stipulations et d’institutions que l’on désigne sous le nom de prohibition de l’inceste.<br>Existe-t-il une nature humaine ?<br>Cette clarification nous mène à nous poser la question de l’existence d’une nature humaine.<br>-sur le plan scientifique, l’homme est un ensemble de caractéristique psychobiologique. En effet, il est corps et raison. A la naissance, l’homme apparait sous une forme particulière quel que soient sa couleur et son appartenance sociale. Il est constitué d’organes, de membres, d’instincts, de pulsions et de cerveau. Celui-ci se présente comme un réceptacle et est ce qui permet à l’homme de recevoir des données extérieures, d’être formé. L’ensemble de ces dispositions naturels que l’homme apporte à la naissance est ce qu’on nomme HEREDITE et que les psychologues appellent l’équipement congénital ou l’appareil biologique.<br>Il s’agit d’un fond commun à tout les hommes qui restent immuable, c’est-à-dire ce qui ne change pas. C’est ce que LEVI-STRAUSS appelle l’«universel», ce qui «relève de l’ordre de la nature» et qui «se caractérise par la spontanéité». C’est le noyau dur, immuable, que les biologistes tels qu’ALEXIS CARREL et GOBBINEAU désignent sous l’appellation de nature humaine. <br>-sur le plan philosophique, il existe par contre une vive polémique entre les IDEALISTES et les EXISTENTIALISTES à propos de l’existence de la nature humaine. Déjà, chez PLATON, on retrouve une conception de l’homme qui fait abstraction de son apparence pour ne porter attention qu’à sa dimension spirituelle. L’homme, nous dit PLATON, est son essence, c’est-à-dire son âme. Dans LE PHEDON, il l’a considère comme l’être véritable d’autan plus que a réalité concrète est changeante. La nature humaine serait donc cet être immuable qui est chez tout homme et qui fait qu’il soit appelé homme. Ce qui reste le même chez chacun et qui ne change pas. C’est l’idée elle-même d’homme tel que nous la présente l’anthropologie philosophique. Celle à partir de laquelle la qualité est définie. Elle est non seulement immuable mais immortelle contrairement au corps.<br>Pour ce qui est des EXISTENTIALISTES, ils rejettent l’idée d’une nature humaine. En effet, pour eux, il n’existe ni essence ni nature humaine qui serait donnée d’avance. Pour JEAN PAUL SARTRE : «l’homme n’est rien d’autre que son projet, il n’existe que dans la mesure où il se réalise, il n’est donc rien d’autre que l’ensemble de ses actes, rien d’autres que sa vie». Ce qu’il faut retenir par là, c’est que, ce que l’homme est, dépend de ses choix individuels, de son engagement. Il est à lui-même son propre projet. Il n’a donc pas de destin préétabli qui prévoit ce qu’il sera ou qui dit d’avance qui il sera. S’il pourrait se définir, il se définirait selon sa liberté. «En effet, tout est permis si Dieu n’existe pas, et par conséquent l’homme est délaissé, parce qu’il ne trouve ni en lui, ni hors de lui une possibilité de s’accrocher». Son devenir est placé sous sa volonté, sous sa responsabilité. Son avenir est une page blanche, une case vide, selon LUCIEN MALSON. Il n’est donc ni connaissable à l’avance ni définissable. LUC FERRY et ANDRE COMTE SPONVILLE le considèrent comme un être indéterminé, libre de l’influence de la nature. C’est un «être d’antinature (…), son essence est de ne pas avoir d’essence».  A sa naissance, il est un ensemble de possibilité, de virtualité aussi légère qu’une transparente vapeur d’eau. L’homme est donc en devenir et, selon LUCIEN MALSON, «il n’est pas encore réalisé, il est en réalisation».<br>Le fait culturel :<br>Comme précédemment énoncé, la culture est tout ce que l’homme ajoute à la nature, qu’il s’agisse du milieu physique ou de la nature propre de l’homme.<br>Dans le cas premier, la culture est l’action transformatrice du milieu naturel. Contrairement à l’animal qui est déterminé, l’homme ne peut se contenter de suivre, d’obéir aux lois de la nature. En effet, l’animal est agit, il ne fait que suivre un plan déjà ficelé par la nature. Il est comme programmé, il répète toujours les mêmes opérations. Il subit ainsi le déterminisme naturel. L’oiseau par exemple fera toujours son nid de la même manière, l’abeille fait à chaque fois la même ruche. Par contre, l’homme a su se mettre à l’écoute de la nature pour en comprendre des lois. La maitrise de celle-ci lui a permis de la transformer et de la soumettre à sa volonté. Ainsi, si l’animal subit le déterminisme naturel, la nature, l’homme agit sur elle, il le domine et s’en libère grâce à la raison.<br>Il invente des objets, des outils qui seront le prolongement de ses mains. Ces intermédiaires qu’il fabrique lui sont indispensables car à la naissance, l’homme est nu et désarmé. De plus, selon FRANCIS BACON : «la main et l’entendement abandonnés à lui-même n’ont qu’un pouvoir très limité ; ce sont les instruments et les autres genres de secours qui font presque tout, secours et instruments non moins nécessaires à l’esprit qu’à la main».<br>Par ailleurs, en même que l’homme agit sur le milieu extérieur, il «se nie lui-même, il s’éduque, il refuse par exemple de donner à la satisfaction de ses besoins animaux ce cours libre auquel l’animal n’apportait pas de réserve», comme le dit GEORGES BATAILLE. Ce second sens du mot culture est donc étroitement inhérent au premier où cette notion signifie Travail. Ici, en effet, la culture est ce qui humanise l’homme. Elle est en quel que sorte un rempart contre la barbarie, du moins elle devrait l’être. Selon MICHEL LERIS qui cite RALPH LINTON, la culture est un «ensemble organisé de comportements appris et résultats de comportements, dont les éléments composants sont partagés et transmis par les membres d’une société particulière». Elle diffère, de ce point de vue, des instruments et outils de la technique. Il s’agit de la religion, de la morale, de la science, de la littérature, de la philosophie, de l’art, en un mot de tout ce qui entre dans l’éducation et qui est transmit par les membres d’une société. A ce niveau, il convient de noter qu’il existe une multiplicité de cultures qui varient d’une société à l’autre et d’une époque à l’autre. Donc les cultures sont différentes. En effet, les modes de vie, les coutumes, les pratiques culturelles et cultuelles, les normes de référence, les institutions sont spécifiques à chaque groupe social. On parle alors de relativité culturelle ou de multiculturalisme.  C’est ainsi que si certains peuples sont monothéistes, d’autres sont polythéistes. Par ailleurs, nous n’avons pas les mêmes modes vestimentaires et alimentaires. Du point de vue des traditions, nous notons aussi des différences. Ainsi, au Sénégal par exemple, ce sont les hommes qui donnent la dit contrairement en Inde où c’est la famille de la mariée qui s’en acquitte. Enfin, le mariage homosexuel est autorisé en Hollande alors qu’il est pratiquement interdit dans tous les pays d’Afrique. Cela a pour conséquence de créer des barrières entre les peuples et ainsi que la montée du racisme et de la xénophobie.<br>Aujourd’hui, il est possible de parler également de métissage culturel ou de dialogue entre les cultures. Il y a alors un rapprochement entre les peuples. Ceci se traduit à travers le phénomène de la mondialisation. Ainsi, le monde est devenu conne un village planétaire. Le développement des technologies de l’information et de la communication a facilité l’accès à l’information, la libre échange, la circulation des personnes et des biens. Nous assistons à une délocalisation de certaines industries. Cela permet le transfert des compétences et de technologies.<br>Cependant, l’universalité culturelle cache de graves problèmes. En effet, elle engendre chez certains un déracinement, une acculturation. Ainsi, certains renient leur culture pour épouser celle d’autres. Certaines cultures sont menacées de disparition. Il s’en suit dégradation des valeurs et une perte de repère sans précédents, comme le dit SERGES LATOUCHE. Les pays techniquement et scientifiquement avancés imposent leurs cultures aux pays les moins avancés. Cette influence extérieure est à l’origine de la dégradation des mœurs, du conflit de générations. La perversion gagne du terrain de même que le proxénétisme, la prostitution clandestin, la cybercriminalité, la pornographie. Pour faire face à de tels fléaux, certains comme SENGHOR ont proposé «l’enracinement et l’ouverture», d’autre comme CESAIRE «le retour aux sources». </p>
+<span id="more-725"></span>
 
 
 
-<p>Le travail :</p>
+<p><strong>La disposition des lettres du clavier change selon les pays</strong>&nbsp;: en France et en Belgique, le clavier est appelé&nbsp;<strong><em>AZERTY</em></strong>,&nbsp;<strong>du nom des six premières lettres de la rangée alphabétique supérieure du clavier</strong>. Il comprend bien sûr les accents et caractères spéciaux liés à la langue française<em>.</em></p>
 
 
 
-<p>Le travail peut être défini comme une activité de production d’une réalité utile. C’est aussi un exercice professionnel réglementé.<br>-Le travail comme libérateur :<br>Si l’on se place du point de vue de la religion, le travail est une source de réalisation, d’humanisation. Dans l’éthique protestante, l’homme est considère comme l’être le plus parfait de la création : il est fait a l’image de Dieu. Or, pour mériter ce statut ; il doit poursuivre et approfondir l’œuvre créatrice de Dieu. Il devra faire fructifier les ressources en germe dans la nature. On comprend d’ailleurs pourquoi chez les Mourides du Sénégal,&nbsp; la l’oisiveté est condamnée. Max Weber l’a compare d’ailleurs à une contemplation inactive qui se fait au détriment du travail producteur.<br>Par ailleurs, nous avons l’habitude d’appeler les gens par leur métier, par leur caste. Chez les «Pular» du Fouta du Sénégal, la distinction est faite entre les hommes en fonction de leur travail. De ce point de vue, ce dernier est un facteur d’intégration socioprofessionnel. De plus, non seulement le travail insert l’homme parmi ses semblables mais également il lui confère une dignité par rapport aux animaux. Il est également un moyen d’échapper à l’imminence de la mort. Pour MICHEL FAUCAULT, «c’est parce que les ressources naturelles sont insuffisantes que les hommes travaillent». Donc le travail est une activité par laquelle l’homme se libère de la nature et diffère la mort, autrement dit retarder la mort. Ceci, d’ailleurs, place le travail au centre de l’économie. Il note : «à chaque instant de son histoire, l’humanité ne travaille que sous la menace de la mort : toute population, si elle ne trouve pas de ressources, est vouée à s’éteindre», sauf que l’homme, comme nous l’avons évoqué, ne se maintient en vie en suivant la nature. Il l’a façonne et en tire des outils, des outils qu’il fabrique et qui sont une manifestation de son esprit. HEGEL écrit dans ce sens : «un instrument inventé par l’homme est plus haut qu’une chose de la nature ; car il est une production de l’esprit». L’homme est donc travailleur et technicien.<br>Dans la dialectique du maitre et de l’esclave, celui devient le maitre du maitre en travaillant et en soumettant le monde extérieur à sa propre force. Par le travail, l’homme humanise le monde. Dans la conception hégélienne, le travail opère une conversion en produisant un renversement dialectique entre le maitre qui vit dans la l’oisiveté et l’esclave travailleur. Ce dernier se libère de la nature mais aussi de la domination du maitre qui devient l’esclave de l’esclave.<br>Pourtant, toutes ces considérations ne devraient pas cacher les critiques faites du travail.<br>-Le travail comme facteur d’aliénation :<br>Même s’il est facteur d’intégration, le travail n’en est pas moins source d’inégalité socioprofessionnelle et économique.<br>-Sur le plan social, la différence des métiers a été à l’origine des castes. Et, au lieu de se traduire par une intégration, le travail est à l’origine du clivage, de la répartition de la société en classes, de la marginalisation des chômeurs. Dans nos sociétés modernes, seul les riches et ceux dont le travail est subtilement rémunéré sont respectes. Cela a pour conséquence de nombreux maux dont l’exclusion sociale, la stigmatisation et la montée en puissance de la violence.<br>-Sur le plan professionnel, cela se traduit par des grèves, des luttes syndicales pour la réclamation de meilleures conditions de vie et de travail : grèves des médecins, des professeurs par exemple.<br>-Sur le plan économique, on note un regroupement des Etats en blocs idéologiques, une répartition du monde en pays développés, émergents, sous-développés ou pauvres.<br>-Sue le plan philosophique, le travail a été critiqué par des acteurs&nbsp; comme PLATON, MARCUSE et même KARL MARX.<br>Dans la Grèce antique, le travail manuel était jugé servile. Il était réservé aux esclaves. Les hommes libres se consacraient à la méditation et à la politique. La société méprisée les artisans et les hommes qui s’adonnaient à ce que NITZSCHE appellera plutard : «les durs labeurs».<br>D’un autre côté, nous remarquons qu’à notre époque, les hommes aspirent plus aux jeux, à la distraction qu’au travail. D’ailleurs, MARCUSE prône le retour à la société des loisirs. Il pense, en effet, que les hommes ont produit suffisamment de biens et de richesses et qu’ils n’ont plus besoins de travailler. Enfin, dans sa critique du capitalisme, KARL MARX voit le travail comme un moyen d’exploitation de l’homme par l’homme ou de domination du prolétariat par la bourgeoisie. Ce qui d’ailleurs a conduit à la lutte ouvrière pour le respect des droits des travailleurs et l’amélioration de leurs conditions de vie.</p>
+<p>Le clavier AZERTY est cependant loin d’être la norme dans le monde, de nombreux pays comme les États-Unis, l’Angleterre, l’Espagne ou encore l’Europe du Nord utilisent plutôt le clavier&nbsp;<strong><em>QWERTY</em></strong>, hérité de l’époque des machines à écrire. Les lettres étaient ainsi disposées pour limiter le blocage des tiges de la machine à écrire. Les claviers Qwerty sont par conséquent les plus utilisés dans le monde.</p>
+
+
+
+<p>On se retrouve vite perdu en utilisant un clavier où les lettres, chiffres et ponctuation ne sont pas disposées comme on en a l’habitude, même sur le meilleur ordinateur de bureau.</p>
+
+
+
+<p>Voici ci-dessous la disposition des touches des deux claviers. Vous verrez que les les touches ne sont disposées de la même façon :</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/disposition-clavier-qwerty-750x267.jpg" alt="La disposition des touches d'un clavier QWERTY" class="wp-image-14332"/></figure>
+
+
+
+<p>La disposition des touches d’un clavier QWERTY</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/disposition-clavier-azerty-750x254.jpg" alt="La disposition des touches d'un clavier AZERTY" class="wp-image-14331"/></figure>
+
+
+
+<p>La disposition des touches d’un clavier AZERTY</p>
+
+
+
+<h2>Changer un clavier QWERTY en AZERTY ou basculer son clavier de l’AZERTY en QWERTY sous Windows</h2>
+
+
+
+<p>Il existe  sous windows (Windows 11, Windows 10, Windows 8, Windows 7, Windows Vista etc…) une astuce toute simple qui permet de passer son clavier QWERTY en AZERTY et inversement, du clavier français ou clavier anglais.</p>
+
+
+
+<p>Pour changer la disposition des touches, il suffit pour basculer d’un clavier à un autre d’utiliser une des combinaisons de touches suivantes :</p>
+
+
+
+<ul><li><kbd>MAJ</kbd>&nbsp;+&nbsp;<kbd>ALT</kbd></li><li><kbd>MAJ</kbd>&nbsp;+&nbsp;<kbd>ALT Gr</kbd></li><li><kbd>ALT</kbd>&nbsp;+&nbsp;<kbd>MAJ</kbd></li></ul>
+
+
+
+<p><em>Remarque suite à un commentaire : la touche&nbsp;<kbd>MAJ</kbd>&nbsp;est la touche du clavier qui permet d’écrire en majuscule. Elle est souvent représentée par une flèche vers le haut et située juste au dessus de la touche&nbsp;<kbd>Ctrl</kbd>. Cette touche se nomme également&nbsp;<kbd>SHIFT</kbd>&nbsp;sur les claviers anglophones.</em></p>
+
+
+
+<p>Si aucune de ces combinaisons ne change le mode de clavier, il vous faudra vérifier les paramètres de langue de votre Windows en utilisant par exemple la  barre de langue sous Windows 10 (cliquer sur la barre de langue et choisir son clavier).</p>
+
+
+
+<p>Je sais que certain·e·s préfèrent regarder des tutoriels en&nbsp; vidéo, en voici qui vous explique en détails comment modifier la disposition des touches de son clavier pour passer facilement son clavier en Azerty ou en Qwerty :</p>
+
+
+
+<h2>Changer le clavier et la langue par défaut de Windows 10</h2>
+
+
+
+<p>Il est également possible de modifier la langue par défaut en allant dans le panneau de configuration de Windows via le options régionales : sous&nbsp;<strong>Windows 10</strong>, cliquez sur le&nbsp;<em><strong>menu Démarrer</strong></em>&nbsp;puis sur&nbsp;<em><strong>Paramètres&nbsp;</strong></em><img loading="lazy" src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/10/parametres-windows-10.png" alt="Paramètres Windows 10" width="27" height="24">&nbsp;puis&nbsp;<em><strong>Heure et Langue</strong></em>&nbsp;puis&nbsp;<em><strong>Région et langue</strong></em>. Sélectionnez ensuite la langue souhaitée dans la section&nbsp;<em><strong>Langue</strong>.</em>&nbsp;Si elle n’est pas présente dans la liste, cliquez sur&nbsp;<em><strong>Ajouter une langue</strong></em>.</p>
+
+
+
+<p>Pour modifier un clavier, sélectionnez la langue par défaut puis cliquez sur&nbsp;<strong><em>Options</em></strong>. Dans la section&nbsp;<strong><em>Claviers</em></strong>, sélectionnez le clavier que vous voulez utilisez, peu importe le type de clavier (clavier USB ou clavier Bluetooth). S’il n’est pas disponible, cliquez sur&nbsp;<em><strong>Ajouter un clavier</strong></em>&nbsp;et choisir la disposition du clavier,&nbsp;<strong><em>Azerty</em></strong>,&nbsp;<em><strong>Qwerty</strong>&nbsp;</em>ou un autre disposition de clavier “exotique”.</p>
+
+
+
+<figure class="wp-block-image" id="attachment_1576"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/heure-langue-windows10.png" alt="Paramètre Heure et Langue de Windows 10" class="wp-image-1576"/><figcaption>Paramètre Heure et Langue de Windows 10</figcaption></figure>
+
+
+
+<figure class="wp-block-image" id="attachment_1575"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/region-langue-windows-10.png" alt="Paramètre Région et Langue (Windows 10) : changer les options régionales et linguistiques pour le clavier" class="wp-image-1575"/><figcaption>Paramètre Région et Langue (Windows 10)</figcaption></figure>
+
+
+
+<figure class="wp-block-image" id="attachment_1574"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/claviers-windows-10.png" alt="Sélection du clavier AZERTY à la place du QWERTY sous Windows 10 via les pzramètres." class="wp-image-1574"/><figcaption>Sélection du clavier AZERTY sous Windows 10 via les paramètres.</figcaption></figure>
+
+
+
+<p>Pour être complet, voici une vidéo qui vous expliquera en détail comment changer la langue de Windows :</p>
+
+
+
+<p>Dans le même genre d’astuce pratique liée au clavier d’ordinateur, sachez qu’il existe des raccourcis clavier pour mettre des accents sur les majuscules majuscules ou</p>
+
+
+
+<p>Dans le même genre d’astuce pratique liée au clavier d’ordinateur, sachez qu’il existe des raccourcis clavier pour mettre des accents sur les majuscules majuscules ou utiliser le clavier Emoji .Et bien sûr ce tutoriel est également valable pour Windows 11, la procédure n’a pas changé avec le dernier OS de Microsoft !</p>
+
+
+
+<p>  Et bien sûr ce tutoriel est également valable pour Windows 11, la procédure n’a pas changé avec le dernier OS de Microsoft !</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>BIOGRAPHIE D’AIMÉ CESAIRE</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/biographie-daime-cesaire/</link>
+		<title>Liste de toutes les commandes CMD pour Windows</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/liste-de-toutes-les-commandes-cmd-pour-windows/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:21:34 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=633</guid>
+		<pubDate>Tue, 21 Jun 2022 02:14:47 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[CMD]]></category>
+		<category><![CDATA[L’invite de command]]></category>
+		<category><![CDATA[windows]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=718</guid>
 
-					<description><![CDATA[Aimé CESAIRE est né le 26 juin 1913 au sein d’une famille nombreuse de Basse-Pointe, commune du Nord-Est de la Martinique, bordée par l’océan Atlantique dont la « lèche hystérique » viendra plus tard rythmer ses poèmes. Le père est un petit fonctionnaire. La mère est couturière.Aimé CESAIRE, élève brillant du Lycée Schoelcher de Fort-de-France,&#8230;]]></description>
+					<description><![CDATA[L’invite de commande&#160;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&#160;liste des commandes les plus utilisées dans la fenêtre CMD&#160;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows. L’invite de commande est l’un des outils les&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Aimé CESAIRE est né le 26 juin 1913 au sein d’une famille nombreuse de Basse-Pointe, commune du Nord-Est de la Martinique, bordée par l’océan Atlantique dont la « lèche hystérique » viendra plus tard rythmer ses poèmes. Le père est un petit fonctionnaire. La mère est couturière.<br>Aimé CESAIRE, élève brillant du Lycée Schoelcher de Fort-de-France, poursuit ses études secondaires en tant que boursier du Gouvernement Français au Lycée Louis Le Grand, à Paris. C’est dans les couloirs de ce grand lycée Parisien que, dès son arrivée, le jeune CESAIRE rencontre Léopold Sédar SENGHOR, son aîné de quelques années qui le prend sous son aile protectrice.<br>Au contact des jeunes Africains étudiants à Paris, Aimé CESAIRE et son ami Guyanais Léon Gontran DAMAS, qu’il connaît depuis le Lycée Schoelcher, découvrent progressivement une part refoulée de l’identité martiniquaise, la composante africaine dont ils prennent progressivement conscience au fur et à mesure qu’émerge une conscience forte de la situation coloniale. En septembre 1934, CESAIRE fonde avec d’autres étudiants Antillo-Guyanais et Africains (Léon Gontran DAMAS, les Sénégalais Léopold Sédar SENGHOR et Birago DIOP), le journal l’Etudiant noir. C’est dans les pages de cette revue qu’apparaîtra pour la première fois le terme de « Négritude ». Ce concept, forgé par Aimé CESAIRE en réaction à l’oppression culturelle du système colonial français, vise à rejeter d’une part le projet français d’assimilation culturelle et d’autre part la dévalorisation de l’Afrique et de sa culture, des références que le jeune auteur et ses camarades mettent à l’honneur. Construit contre le projet colonial français, le projet de la négritude est plus culturel que politique. Il s’agit, au-delà d’une vision partisane et raciale du monde, d’un humanisme actif et concret, à destination de tous les opprimés de la planète. CESAIRE déclare en effet : « Je suis de la race de ceux qu’on opprime ». Admis à l’Ecole Normale Supérieure en 1935, CESAIRE commence en 1936 la rédaction de son chef d’œuvre, le « Cahier d’un Retour a u Pays Natal ». Marié en 1937 à une étudiante martiniquaise, Suzanne ROUSSI, Aimé CESAIRE, agrégé de lettres, rentre en Martinique en 1939, pour enseigner, tout comme son épouse, au Lycée Schoelcher<br>En réaction contre le statu quo culturel martiniquais, le couple CESAIRE, épaulé par René MENIL et Aristide MAUGEE, fonde en 1941 la revue Tropiques, dont le projet est la ré-appropriation par les Martiniquais de leur patrimoine culturel. La seconde guerre mondiale se traduit pour la Martinique par un blocus qui coupe l’approvisionnement de l’île par la France. En plus d’une situation économique très difficile, l’Envoyé du Gouvernement de Vichy, l’Amiral ROBERT, instaure un régime répressif, dont la censure vise directement la revue Tropiques. Celle-ci paraîtra, avec difficulté, jusqu’en 1943.<br>La guerre marque aussi le passage en Martinique d’André BRETON. Le maître du surréalisme découvre avec stupéfaction la poésie de CESAIRE et le rencontre en 1941. En 1944, BRETON rédigera la préface du recueil Les Armes Miraculeuses, qui marque le ralliement de CESAIRE au surréalisme.<br>Invité à Port-au-Prince par le docteur MABILLE, attaché culturel de l’Ambassade de France, Aimé CESAIRE passera six mois en Haïti, donnant une série de conférences dont le retentissement sur les milieux intellectuels haïtiens est formidable. Ce séjour haïtien aura une forte empreinte sur l’œuvre d’Aimé CESAIRE, qui écrira un essai historique sur Toussaint LOUVERTURE et consacrera une pièce de théâtre au roi Henri CHRISTOPHE, héros de l’indépendance.<br>Alors que son engagement littéraire et culturel constitue le centre de sa vie, Aimé CESAIRE est happé par la politique dès son retour en Martinique. Pressé par les élites communistes, à la recherche d’une figure incarnant le renouveau politique après les années sombres de l’Amiral ROBERT, CESAIRE est élu Maire de Fort-de-France, la capitale de la Martinique, en 1945, à 32 ans. L’année suivante, il est élu Député de la Martinique à l’Assemblée Nationale.<br>Le Député CESAIRE sera, en 1946, le rapporteur de la Loi faisant des colonies de Guadeloupe, Guyane Française, Martinique et la Réunion, des Départements Français. Ce changement de statut correspond à une demande forte du corps social, souhaitant accéder aux moyens d’une promotion sociale et économique. Conscient du rôle de la départementalisation comme réparation des dégâts de la colonisation. Aimé CESAIRE est tout aussi conscient du danger d’aliénation culturelle qui menace les Martiniquais. La préservation et le développement de la culture martiniquaise seront dès lors ses priorités.<br>Partageant sa vie entre Fort-de-France et Paris, CESAIRE fonde, dans la Capitale française, la revue Présence Africaine, aux côtés du Sénégalais Alioune DIOP, et des Guadeloupéens Paul NIGER et Guy TIROLIEN. Cette revue deviendra ensuite une maison d’édition qui publiera plus tard, entre autres, les travaux de l’égyptologue Cheikh Anta DIOP, et les romans et nouvelles de Joseph ZOBEL.<br>En 1950, c’est dans la revue Présence Africaine que sera publié pour la fois le Discours sur le colonialisme, charge virulente et analyse implacable de l’idéologie colonialiste européenne, que CESAIRE compare avec audace au nazisme auquel l’Europe vient d’échapper. Les grands penseurs et hommes politiques français sont convoqués dans ce texte par l’auteur qui met à nu les origines du racisme et du colonialisme européen. Peu enclin au compromis, Aimé CESAIRE, révolté par la position du Parti Communiste Français face à l’invasion soviétique de la Hongrie en 1956, publie une « Lettre à Maurice THOREZ » pour expliquer les raisons de son départ du Parti. En mars 1958, il crée le Parti Progressiste Martiniquais (PPM), qui a pour ambition d’instaurer un « type de communisme martiniquais plus résolu et plus responsable dans la pensée et dans l’action ». Le mot d’ordre d’autonomie de la Martinique est situé au cœur du discours du PPM.<br>Parallèlement à une activité politique continue (il conservera son mandat de Député pendant 48 ans, et sera Maire de Fort-de-France pendant 56 ans), Aimé CESAIRE continue son œuvre littéraire et publie plusieurs recueils de poésie, toujours marqués au coin du surréalisme (Soleil Cou Coupé en 1948, Corps perdu en 1950, Ferrements en 1960). A partir de 1956, il s’oriente vers le théâtre. Avec Et les chiens se taisaient, texte fort, réputé impossible à mettre en scène, il explore les drames de la lutte de décolonisation autour du programme du Rebelle, esclave qui tue son maître puis tombe victime de la trahison. La tragédie du Roi Chistophe (1963), qui connaît un grand succès dans les capitales européennes, est l’occasion pour lui de revenir à l’expérience haïtienne, en mettant en scène les contradictions et les impasses auxquelles sont confrontés les pays décolonisés et leurs dirigeants. Une saison au Congo (1966) met en scène la tragédie de Patrice LUMUMBA, père de l’indépendance du Congo Belge. Une tempête (1969), inspiré de Shakespeare, explose les catégories de l’identité raciale et les schémas de l’aliénation coloniale. Pensant à l’origine situer l’action de cette adaptation de Shakespeare aux Etats-Unis, il choisit finalement les Antilles, gardant tout de même le projet de refléter l’expérience noire aux Amériques.<br>Au total CESAIRE a publié plus de quatorze œuvres, recueils des poésies, pièces de théâtre et essais. De nombreux colloques et conférences internationales ont été organisés sur son œuvre littéraire qui est universellement connue. Son œuvre a été traduite dans de nombreuses langues : anglais espagnol, allemand, etc.</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/commandes-cmd-description.jpg?resize=677%2C470&amp;ssl=1" alt="Liste des commandes CMD les plus utilisés"/></figure>
 
 
 
-<p>SES ŒUVRES</p>
+<p><strong>L’invite de commande</strong>&nbsp;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&nbsp;<strong>liste des commandes les plus utilisées dans la fenêtre CMD</strong>&nbsp;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows.</p>
 
 
 
-<p>ŒUVRES PRINCIPALES</p>
+<span id="more-718"></span>
 
 
 
-<p>&nbsp; Œuvres complètes. (1. Poèmes ; 2. Théâtre ; 3 Œuvre historique et poétique).<br>éd. Desormeaux, Fort- de-France 1976, éd. Seuil, Gallimard, Présence Africaine.</p>
+<p>L’invite de commande est l’un des outils les plus puissants de Windows, également connu sous le nom de CMD. CMD est l’interpréteur de ligne de commande sur les systèmes d’exploitation Windows. L’invite de commande interagit avec l’utilisateur via une interface de ligne de commande. Les choses n’étaient pas toujours comme ça; mais avec l’avènement des systèmes d’exploitation basés sur l’interface graphique, les gens ont commencé à se sentir que l’informatique par le biais d’outils basés sur les commandes était ennuyeuse.</p>
 
 
 
-<p>POESIE</p>
+<p>Cependant, l’invite de commande n’est pas inutile. En fait, cela peut être très utile. Cet article fournit d’excellents astuces, secrets et hacks qui vous feront réaliser que l’invite de commande de Windows est non seulement utile mais aussi un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd.</p>
 
 
 
-<p>&nbsp; Cahier d’un retour au pays natal. Paris : Présence Africaine, 1939, 1960.<br>&nbsp; Soleil Cou Coupé. Paris : Ed. K, 1948.<br>&nbsp; Corps perdu. (gravures de Pablo Picasso) Paris : Editions Fragance, 1950.<br>&nbsp; Ferrements, Paris : Seuil, 1960, 1961.<br>&nbsp; Cadastre. Paris : Seuil,1961.<br>&nbsp; Les Armes Miraculeuses. Paris : Gallimard, 1970.<br>&nbsp; Moi Laminaire. Paris : Seuil, 1982.<br>&nbsp; La Poésie. Paris : Seuil,1994.</p>
+<p>Pour ouvrir CMD, vous devez rechercher&nbsp;<strong>CMD</strong>&nbsp;dans la boîte de recherche ou vous pouvez simplement appuyer sur la touche&nbsp;<strong>Windows + R</strong>&nbsp;qui finira par ouvrir la fenêtre&nbsp;<strong>Exécuter</strong>, où vous devez taper CMD et appuyer sur&nbsp;<strong>Entrée</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/cmd.jpg?resize=491%2C410&amp;ssl=1" alt="cmd" class="wp-image-2615"/></figure></div>
+
+
+<p>1. Contrôles d’accessibilité – access.cpl</p>
 
 
 
-<p>ESSAIS ET DISCOURS</p>
+<p>2. Assistant d’accessibilité – accwiz</p>
 
 
 
-<p>&nbsp; Discours sur le colonialisme. Paris : Présence Africaine, 1955.<br>&nbsp; Lettre à Maurice THOREZ. Paris : Présence Africaine, 24 octobre 1956.<br>&nbsp; La poésie un moyen de connaissance et de co-naissance : propositions poétiques, publié en Haïti en 1944.<br>&nbsp; Toussaint LOUVERTURE ; La Révolution française et le problème colonial. Paris : Présence Africaine, 1961/62.<br>&nbsp; Culture et colonisation, communication faite au 1er Congrès des Ecrivains et Artistes noirs en 1956, à la Sorbonne.<br>&nbsp; L’homme de Culture et ses responsabilités, communication faite au deuxième Congrès des Ecrivains et Artistes noirs en 1959, à Rome.<br>&nbsp; Discours sur l’Art Africain au Premier Festival Mondial des Arts nègres à Dakar en 1966.<br>&nbsp; Discours sur la Négritude au colloque organisé par Carlos MOORE en 1987, à l’Université Internationale de Miami.<br>&nbsp; Discours relatif à la commémoration du centenaire de l’abolition de l’esclavage à la Sorbonne en 1948.<br>&nbsp; Discours d’accueil de François MITTERRAND, prononcé à la Mairie de Fort-de-France le 25 octobre 1974.<br>&nbsp; Discours prononcé en l’honneur de la visite de Léopold Sédar SENGHOR à la Mairie de Fort-de-France le 13 février 1976.</p>
+<p>3. Ajouter un assistant matériel – hdwwiz.cpl</p>
 
 
 
-<p>THEATRE</p>
+<p>4. Ajouter / Supprimer des programmes – appwiz.cpl</p>
 
 
 
-<p>&nbsp; Et les chiens se taisaient, publiée en 1956 (tragédie).<br>&nbsp; La Tragédie du Roi Christophe, publiée en 1963 (tragédie).<br>&nbsp; Une Saison au Congo, publiée en 1966 (tragédie).<br>&nbsp; Une Tempête, adaptation à La Tempête de Shakespeare, publiée en 1969 (une tragi-comédie ou romance).</p>
+<p>5. Outils d’administration – control admintools</p>
 
 
 
-<p>Source: <a href="http://www.hommage-cesaire.net/" target="_blank" rel="noreferrer noopener">www.hommage-cesaire.net</a></p>
+<p>6. Mises à jour automatiques – wuaucpl.cpl</p>
+
+
+
+<p>7. Assistant de transfert Bluetooth – fsquirt</p>
+
+
+
+<p>8. Calculatrice – calc</p>
+
+
+
+<p>9. Gestionnaire de certificats – certmgr.msc</p>
+
+
+
+<p>10. Carte de caractère – charmap</p>
+
+
+
+<p>11. Vérifiez l’utilitaire de disque – chkdsk</p>
+
+
+
+<p>12. Clipboard Viewer – clipbrd</p>
+
+
+
+<p>13. Invite de commandes – cmd</p>
+
+
+
+<p>14. Services de composants – dcomcnfg</p>
+
+
+
+<p>15. Gestion de l’ordinateur – compmgmt.msc</p>
+
+
+
+<p>16. Panneau de contrôle – control</p>
+
+
+
+<p>17. Propriétés de date et d’heure – timedate.cpl</p>
+
+
+
+<p>18. Actions DDE – ddeshare</p>
+
+
+
+<p>19. Gestionnaire de périphériques – devmgmt.msc</p>
+
+
+
+<p>20. Dépanneur Direct X – dxdiag</p>
+
+
+
+<p>21. Utilitaire de nettoyage de disque – cleanmgr</p>
+
+
+
+<p>22. Défragmenter le disque – dfrg.msc</p>
+
+
+
+<p>23. Gestion des disques – diskmgmt.msc</p>
+
+
+
+<p>24. Gestionnaire de partition de disque – diskpart</p>
+
+
+
+<p>25. Propriétés d’affichage – control desktop</p>
+
+
+
+<p>26. Propriétés d’affichage – desk.cpl</p>
+
+
+
+<p>27. Dr. Watson Utilitaire de dépannage du système – drwtsn32</p>
+
+
+
+<p>28. Utilitaire vérificateur de pilotes – verifier</p>
+
+
+
+<p>29. Observateur d’événements – eventvwr.msc</p>
+
+
+
+<p>30. Outil de transfert de fichiers et de paramètres – migwiz</p>
+
+
+
+<p>31. Outil de vérification de signature de fichier – sigverif</p>
+
+
+
+<p>32. Findfast – findfast.cpl</p>
+
+
+
+<p>33. Firefox – Firefox</p>
+
+
+
+<p>34. Propriétés des dossiers – control folders</p>
+
+
+
+<p>35. Polices – control fonts</p>
+
+
+
+<p>36. Dossier des Fonts – fonts</p>
+
+
+
+<p>37. Jeu de cartes gratuit – freecell</p>
+
+
+
+<p>38. Contrôleurs de jeu – joy.cpl</p>
+
+
+
+<p>39. Éditeur de stratégie de groupe (pour xp professional) – gpedit.msc</p>
+
+
+
+<p>40. Jeu de cartes coeurs – mshearts</p>
+
+
+
+<p>41. Aide et support – helpctr</p>
+
+
+
+<p>42. HyperTerminal – hypertrm</p>
+
+
+
+<p>43. Assistant Iexpress – iexpress</p>
+
+
+
+<p>44. Service d’indexation – ciadv.msc</p>
+
+
+
+<p>45. Assistant de connexion Internet – icwconn1</p>
+
+
+
+<p>46. ​​Internet Explorer – iexplore</p>
+
+
+
+<p>47. Propriétés Internet – inetcpl.cpl</p>
+
+
+
+<p>48. Propriétés du clavier – control keyboard</p>
+
+
+
+<p>49. Paramètres de sécurité locaux – secpol.msc</p>
+
+
+
+<p>50. Utilisateurs et groupes locaux – lusrmgr.msc</p>
+
+
+
+<p>51. Se déconnecter à Windows – logoff</p>
+
+
+
+<p>52. Outil de suppression de logiciels malveillants – mrt</p>
+
+
+
+<p>53. Microsoft Chat – winchat</p>
+
+
+
+<p>54. Microsoft Movie Maker – MovieMaker</p>
+
+
+
+<p>55. Microsoft Paint – mspaint</p>
+
+
+
+<p>56. Microsoft Syncronization Tool – mobsync</p>
+
+
+
+<p>57. Jeu de dragueur de mines – winmine</p>
+
+
+
+<p>58. Propriétés de la souris – control mouse</p>
+
+
+
+<p>59. Propriétés de la souris – main.cpl</p>
+
+
+
+<p>60. Netmeeting – conf</p>
+
+
+
+<p>61. Connexions réseau – control netconnections</p>
+
+
+
+<p>62. Connexions réseau – ncpa.cpl</p>
+
+
+
+<p>63. Assistant de configuration réseau – netsetup.cpl</p>
+
+
+
+<p>64. Bloc-notes – bloc-notes</p>
+
+
+
+<p>65. Object Packager – packager</p>
+
+
+
+<p>66. Administrateur de sources de données ODBC – odbccp32.cpl</p>
+
+
+
+<p>67. Clavier sur écran – osk</p>
+
+
+
+<p>68. Outlook Express – msimn</p>
+
+
+
+<p>69. Peinture – pbrush</p>
+
+
+
+<p>70. Propriétés du mot de passe – password.cpl</p>
+
+
+
+<p>71. Analyseur de performances – perfmon.msc</p>
+
+
+
+<p>72. Analyseur de performances – perfmon</p>
+
+
+
+<p>73. Options de téléphonie et modem – telephon.cpl</p>
+
+
+
+<p>74. Numéroteur téléphonique – dialer</p>
+
+
+
+<p>75. Jeu de flipper – flipper</p>
+
+
+
+<p>76. Configuration de l’alimentation – powercfg.cpl</p>
+
+
+
+<p>77. Imprimantes et télécopieurs – control printer</p>
+
+
+
+<p>78. Imprimantes – printers</p>
+
+
+
+<p>79. Paramètres régionaux – intl.cpl</p>
+
+
+
+<p>80. Éditeur du Registre – regedit</p>
+
+
+
+<p>81. Éditeur du Registre – regedit32</p>
+
+
+
+<p>82. Répertoire d’accès à distance – rasphone</p>
+
+
+
+<p>83. Bureau à distance – mstsc</p>
+
+
+
+<p>84. Stockage amovible – ntmsmgr.msc</p>
+
+
+
+<p>85. Demandes d’opérateur de stockage amovible – ntmsoprq.msc</p>
+
+
+
+<p>86. Jeu de stratégie résultant (pour xp professional) – rsop.msc</p>
+
+
+
+<p>87. Scanneurs et appareils photo – sticpl.cpl</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Sujets du domaine III : Epistémologie</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/sujets-du-domaine-iii-epistemologie/</link>
+		<title>Tutoriel shell Linux</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/tutoriel-shell-linux/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:19:09 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=631</guid>
+		<pubDate>Tue, 21 Jun 2022 02:10:11 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[cd]]></category>
+		<category><![CDATA[ligne commande]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ls]]></category>
+		<category><![CDATA[mkdir]]></category>
+		<category><![CDATA[mv]]></category>
+		<category><![CDATA[pwd]]></category>
+		<category><![CDATA[shell linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=716</guid>
 
-					<description><![CDATA[1- Le progrès scientifique constitue une menace pour la religion et la philosophie. Qu’en pensez-vous ? 2- Y a-t-il des vérités indiscutables ? 3- Opposer science et philosophie, est-ce légitime ? 4- La science peut-elle mettre fin à la philosophie ? 5- Aujourd’hui, les sciences et les techniques ont des progrès tels que la réalité&#8230;]]></description>
+					<description><![CDATA[À propos du Shell Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>1- Le progrès scientifique constitue une menace pour la religion et la philosophie. Qu’en pensez-vous ?</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/tutoriel-shell-linux.jpg?resize=743%2C415&amp;ssl=1" alt="Tutoriel Shell Linux"/></figure>
 
 
 
-<p>2- Y a-t-il des vérités indiscutables ?</p>
+<h2 id="apropos">À propos du Shell</h2>
 
 
 
-<p>3- Opposer science et philosophie, est-ce légitime ?</p>
+<p>Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le système d’exploitation et, dans de nombreux cas, vous offre un contrôle plus direct sur les processus du système.</p>
 
 
 
-<p>4- La science peut-elle mettre fin à la philosophie ?</p>
+<span id="more-716"></span>
 
 
 
-<p>5- Aujourd’hui, les sciences et les techniques ont des progrès tels que la réalité et la fiction se confondent ? Qu’en pensez-vous ?</p>
+<h2 id="aquoi">À quoi sert le Shell?</h2>
 
 
 
-<p>6- Le mythe et la magie peuvent respectivement être considérés comme la science et la technique des sociétés primitives. Que vous suggère cette pensée ?</p>
+<p>Quand il s’agit de communiquer avec votre système d’exploitation, tout ce que vous pouvez faire avec une interface graphique peut être fait sur la ligne de commande. Par exemple, prenons quelque chose que vous devez faire tout le temps; déplacer des fichiers dans votre système de fichiers. À l’aide d’une interface graphique, vous pouvez sélectionner les icônes représentant vos fichiers, les faire glisser dans un autre dossier et les déposer pour les déplacer.</p>
 
 
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/drag-and-drop.jpg?resize=690%2C540&amp;ssl=1" alt="Tutoriel Linux -glisser déposer" class="wp-image-2951"/></figure></div>
 
-<p>7- L’unanimité est-elle critère de vérité ?</p>
 
+<p>Cependant, en utilisant la ligne de commande, cette opération peut être effectuée en utilisant une seule commande:</p>
 
 
-<p>8- « Si on ferme la porte à l’erreur, la vérité restera dehors ». Qu’en pensez-vous ?</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv.jpg?resize=570%2C174&amp;ssl=1" alt="Shell, commande mv" class="wp-image-2954"/></figure></div>
 
 
+<p>La ligne de commande, une fois que vous vous y êtes habitué, vous permet de contrôler votre système avec plus d’efficacité et de précision qu’avec une interface graphique.</p>
 
-<p>9- Expliquez et discuter le propos suivant : « C’est parce qu’elle n’est sûre de rien que la science progresse ».</p>
 
 
+<h2 id="pourquoi">Pourquoi s’appelle-t-il «&nbsp;Shell&nbsp;»?</h2>
 
-<span id="more-631"></span>
 
 
+<p>L’interface utilisateur est appelée «&nbsp;shell&nbsp;» car c’est la couche externe qui vous sépare des parties les plus profondes du système d’exploitation, appelée noyau. Techniquement, l’interface graphique de votre système d’exploitation est également un «&nbsp;shell&nbsp;», mais la ligne de commande est souvent appelée «&nbsp;le shell&nbsp;».</p>
 
-<p>10- Toute connaissance autre que scientifique n’est pas connaissance mais ignorance. Qu’en pensez-vous ?</p>
 
 
+<h2 id="lignecommande">Comment accéder à la ligne de commande de Shell ?</h2>
 
-<p>11- Ce que les sciences humaines nous font connaître de l’homme suffit-il pour connaître l’homme ?</p>
 
 
+<p>La manière la plus courante d’accéder au shell de ligne de commande consiste à utiliser un émulateur de terminal.</p>
 
-<p>12- L’homme doit-il craindre que les machines travaillent pour lui ?</p>
 
 
+<p>Si vous utilisez une distribution Linux moderne, il y a des chances qu’elle démarre dans le système X-Windows , ce qui vous permet d’exécuter des programmes dans leurs propres fenêtres et d’interagir avec eux avec la souris. Il existe différentes manières de lancer un émulateur de terminal, mais voici les plus courantes:</p>
 
-<p>13- Le progrès scientifique s’accompagne-t-il de progrès moral ?</p>
 
 
+<p>De nombreuses distributions Linux utilisent un environnement de bureau similaire à Microsoft Windows, avec un «&nbsp;menu Démarrer&nbsp;». Dans ce menu, votre application de terminal se trouve généralement sous «&nbsp;Accessoires&nbsp;». Par exemple, Lubuntu est livré avec l’émulateur de terminal déjà installé et le raccourci se trouve dans le menu Accessoires.</p>
 
-<p>14- Faut-il renoncer à s’interroger sur ce qui est hors de portée de la connaissance scientifique ?</p>
 
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ubuntu-startmenu.jpg?resize=452%2C306&amp;ssl=1" alt="Shell Ubuntu Startmenu" class="wp-image-2955"/></figure></div>
 
 
-<p>15- La philosophie doit-elle laisser la science sans surveillance ?</p>
+<p>La sélection de l’élément de menu du terminal lance l’émulateur et vous place sur une ligne de commande.</p>
 
 
 
-<p>16- Notre désir de savoir est-il satisfait par la science ?</p>
+<p>Différentes versions de Linux utilisent différents types de gestionnaires de fenêtres, chacun avec une interface légèrement différente. Avec de nombreux gestionnaires de fenêtres, un clic droit sur le bureau affiche un menu contenant une option de terminal. Par exemple, le menu contextuel de Crunchbang Linux comporte une option «&nbsp;Terminal&nbsp;». Voici à quoi ressemble ce menu, après un clic droit n’importe où sur le bureau.</p>
 
 
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-crunchbang-menu.jpg?resize=390%2C432&amp;ssl=1" alt="Shell menu" class="wp-image-2956"/></figure></div>
 
-<p>Sujets du domaine IV : Esthétique</p>
 
+<p>Ici, le menu Accessoires aurait également une option pour exécuter le terminal.<br>Sur de nombreuses versions de Linux, le raccourci clavier par défaut pour lancer un terminal consiste à appuyer simultanément sur la touche&nbsp;<strong>Super</strong>&nbsp;et sur la touche «&nbsp;<strong>T</strong>«&nbsp;. (La Super clé est généralement la première clé à gauche de la barre d’espace, également appelée&nbsp;<strong>clé Windows</strong>).</p>
 
 
-<p>1- Peut-on expliquer une œuvre d’art ?</p>
 
+<p>Si vous ne savez pas comment lancer votre émulateur de terminal, consultez la documentation de votre système d’exploitation spécifique et recherchez «terminal».</p>
 
 
-<p>2- L’art est-il un luxe mensonger ?</p>
 
+<h2 id="invitecommande">L’invite de commande</h2>
 
 
-<p>3- Ce qu’il y a de commun entre l’art et la morale, c’est que dans les deux cas, il y a création et invention. Quelle réflexion vous suggère ces propos de Sartre ?</p>
 
+<p>Lorsque vous lancez l’émulateur de terminal, une invite de commande s’affiche.</p>
 
 
-<p>4- L’art peut-il être un langage ?</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-invite-commande.jpg?resize=636%2C143&amp;ssl=1" alt="shell invite commande" class="wp-image-2957"/></figure></div>
 
 
+<p><strong>Remarque</strong>&nbsp;: Ces exemples sont tous exécutés à l’aide du shell Bourne-Again (bash), qui est le shell de ligne de commande par défaut sous Linux.</p>
 
-<p>5- « L’art ne reproduit pas le visible, il le rend visible ». Expliquez et discutez cette affirmation de Paul Klee.</p>
 
 
+<p>Regardons cette invite de commande de près. L’invite peut être configurée pour être ce que vous voulez, mais par défaut, elle ressemble à ce que nous voyons ici, nous fournissant des informations utiles avant de saisir une commande.</p>
 
-<p>6- L’art vise-t-il à imprimer en nous des sentiments ou à les exprimer ?</p>
 
 
+<p>Plus précisément, il nous indique qui nous sommes (nom d’utilisateur) et où nous sommes (quel système nous utilisons et notre répertoire de travail).</p>
 
-<p>Voici quelques sujets avec lesquels vous pourriez vous exercer !</p>
 
 
+<h2 id="saisie">Saisie de commandes</h2>
 
-<p></p>
 
 
+<p>Entrons notre première commande. Nous devrions commencer par lister les fichiers dans notre répertoire personnel. Le moyen le plus simple de voir tous ces fichiers est d’utiliser la commande&nbsp;<strong>ls;</strong>&nbsp;tapez&nbsp;<strong>ls</strong>&nbsp;à l’invite de commande et appuyez sur Entrée.</p>
 
-<p></p>
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls.jpg?resize=633%2C143&amp;ssl=1" alt="Shell saisir commandes" class="wp-image-2959"/></figure></div>
+
+
+<p>Comme indiqué ci-dessus, la commande ls répertorie le contenu du répertoire et nous place à une autre invite de commandes.</p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Toutes les commandes et noms de fichiers sous Unix et Linux sont sensibles à la casse. La commande ls, par exemple, doit être saisie en lettres minuscules, comme ci-dessus.</p>
+
+
+
+<p>Pour une liste plus détaillée du contenu du répertoire, nous pouvons spécifier des options de ligne de commande, également appelées commutateurs. Ce sont des arguments supplémentaires à la commande qui modifient son fonctionnement. Ici, nous utiliserons l’option -l (utiliser le format longue liste) pour obtenir plus d’informations de notre liste:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-plus-de-commandes-l.jpg?resize=631%2C288&amp;ssl=1" alt="Shell plus de commandes" class="wp-image-2960"/></figure></div>
+
+
+<p>Comme indiqué ci-dessus, la commande ls -l nous fournit beaucoup plus d’informations sur le contenu de notre répertoire personnel. Pour le moment, les informations les plus importantes à noter sont que la première lettre des listes est un d, ce qui signifie que chacun de ces contenus de répertoire est lui-même un répertoire.</p>
+
+
+
+<h2 id="effacer">Effacer l’écran</h2>
+
+
+
+<p>Avant de faire quoi que ce soit d’autre, effacez l’écran pour supprimer l’encombrement produit par la sortie de nos commandes précédentes. Utilisez la commande&nbsp;<strong>clear</strong>&nbsp;en tapant clear à une nouvelle invite de commande et appuyez sur&nbsp;<strong>Entrée</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-rm-remove.jpg?resize=633%2C269&amp;ssl=1" alt="Shell commande rm remove" class="wp-image-2961"/></figure></div>
+
+
+<p>Après avoir appuyé sur Entrée, l’écran s’efface et vous place à une nouvelle invite de commandes en haut de l’écran de votre terminal.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-terminal.jpg?resize=633%2C140&amp;ssl=1" alt="Shell terminal" class="wp-image-2962"/></figure></div>
+
+
+<h2 id="changer">Changer de répertoire</h2>
+
+
+
+<p>Passons dans notre dossier de documents en utilisant la commande <strong>cd</strong> (« <strong>change directory</strong>« ). Pour modifier le répertoire en cours, tapez « cd » puis un espace, puis le nom du répertoire dans lequel vous souhaitez changer, puis appuyez sur Entrée.<a rel="noreferrer noopener" href="https://astuces-informatique.com/quel-difference-entre-linux-et-unix/" target="_blank"></a></p>
+
+
+
+<p>La commande cd suppose que le nom de tout répertoire que vous spécifiez est relatif à votre répertoire actuel. Par conséquent, pour changer dans le répertoire de documents, qui existe dans notre répertoire actuel, tapez «&nbsp;cd documents&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-cd.jpg?resize=629%2C97&amp;ssl=1" alt="Shell commande cd" class="wp-image-2963"/></figure></div>
+
+
+<p>L’invite de commande reflète désormais le nouveau répertoire de travail: ~ / documents, ce qui équivaut au chemin d’accès complet: /&nbsp;<strong>home / yourname / documents</strong>. Quel que soit l’utilisateur avec lequel vous êtes connecté, «&nbsp;~&nbsp;» représente toujours votre répertoire personnel. Dans l’exemple, le nouveau répertoire de travail est également visible dans la barre de titre de notre fenêtre de terminal.</p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Contrairement à MS-DOS et à Microsoft Windows, les noms de répertoires hiérarchiques sous Linux sont séparés par une barre oblique («&nbsp;<strong>/</strong>«&nbsp;) plutôt que par une barre oblique inverse («&nbsp;<strong>\</strong>«&nbsp;). Ce changement de symboles est une différence fondamentale entre ces différents systèmes d’exploitation.</p>
+
+
+
+<p>A tout moment, vous pouvez vérifier votre répertoire actuel en utilisant la commande&nbsp;<strong>pwd&nbsp;</strong>(«&nbsp;print working directory&nbsp;»).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-pwd.jpg?resize=626%2C115&amp;ssl=1" alt="Shell pwd" class="wp-image-2964"/></figure></div>
+
+
+<p>La commande imprime le nom du répertoire en cours sur le terminal, dans ce cas «&nbsp;<strong>/ home / votrenom / documents</strong>«&nbsp;. Encore une fois, avec «&nbsp;<strong>~ / documents</strong>&nbsp;» le «&nbsp;<strong>~</strong>&nbsp;» représente notre répertoire personnel, qui est&nbsp;<strong>/ home / yourname</strong>. Donc, si nous sommes dans notre répertoire personnel, taper «&nbsp;cd documents&nbsp;», «&nbsp;cd&nbsp;<strong>/ home / votrenom /</strong>&nbsp;documents&nbsp;» ou «&nbsp;<strong>cd ~ / documents</strong>&nbsp;» nous placerait tous dans le même répertoire.</p>
+
+
+
+<p>Maintenant, montons d’un répertoire dans notre répertoire personnel. Le nom de répertoire spécial «&nbsp;<strong>..</strong>&nbsp;» (le double point) signifie «&nbsp;un répertoire&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-2-points.jpg?resize=630%2C116&amp;ssl=1" alt="Shell cd.." class="wp-image-2965"/></figure></div>
+
+
+<p>Nous sommes maintenant de retour dans notre répertoire personnel.</p>
+
+
+
+<p><strong>Note</strong>&nbsp;: Si vous êtes plus familier avec MS-DOS, gardez à l’esprit qu’il doit y avoir un espace entre cd et les deux points.</p>
+
+
+
+<h2 id="deplacement">Déplacement de fichiers</h2>
+
+
+
+<p>Maintenant, familiarisons-vous avec le déplacement des fichiers.</p>
+
+
+
+<p>Disons que nous venons de télécharger deux images avec un navigateur Web, et ils ont enregistré dans notre&nbsp;<strong>dossier de téléchargements</strong>. Allons là-bas et jetons un coup d’oeil. Tout d’abord, nous changeons de répertoire dans le répertoire de téléchargements.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-downloads.jpg?resize=632%2C82&amp;ssl=1" alt="Shell cd downloads" class="wp-image-2966"/></figure></div>
+
+
+<p>Puis listez les fichiers du répertoire avec la commande ls.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-downloads.jpg?resize=623%2C107&amp;ssl=1" alt="Shell ls downloads" class="wp-image-2967"/></figure></div>
+
+
+<p>Nous voyons ici deux fichiers JPEG. Sortons-les du dossier des téléchargements et placez-les à un endroit plus approprié, comme le dossier images. Pour déplacer ces fichiers, nous utiliserons la commande mv («&nbsp;move&nbsp;»).</p>
+
+
+
+<p>La commande mv prend la forme générale suivante:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>mv [OPTIONS …] DESTINATION SOURCE</p></blockquote>
+
+
+
+<p><strong>OPTIONS</strong>&nbsp;est entre crochets car vous n’êtes pas obligé de spécifier des options pour terminer la commande. Les arguments SOURCE et DESTINATION sont tous deux requis.</p>
+
+
+
+<p><strong>SOURCE</strong>&nbsp;est le nom du ou des fichiers que vous souhaitez déplacer. DESTINATION est l’endroit où vous souhaitez les déplacer. Si DESTINATION est un nom de répertoire, le ou les fichiers sont déplacés dans ce répertoire.</p>
+
+
+
+<p>Nous sommes actuellement dans le répertoire&nbsp;<strong>/ home / votrenom / downloads</strong>&nbsp;et nous souhaitons déplacer les fichiers dans&nbsp;<strong>/ home / votrenom / images</strong>. Nous pourrions spécifier notre DESTINATION en utilisant le chemin complet («&nbsp;<strong>/ home / yourname / images</strong>«&nbsp;), ou en tant que chemin relatif à notre répertoire actuel («&nbsp;<strong>../images</strong>«&nbsp;), ou en utilisant un tilde comme abréviation pour notre répertoire personnel ( «&nbsp;<strong>~ / images</strong>«&nbsp;). Tous ces éléments sont équivalents et donnent le même résultat. Utilisons le chemin relatif de notre DESTINATION:&nbsp;<strong>../images</strong>.</p>
+
+
+
+<p>Alors, comment allons-nous spécifier notre SOURCE?</p>
+
+
+
+<p>Nous voulons déplacer les deux fichiers, et ils sont les seuls fichiers du répertoire. Donc, le moyen le plus simple de les spécifier serait de dire à&nbsp;<strong>mv</strong>&nbsp;«&nbsp;déplacer tous les fichiers de ce répertoire dans ../images&nbsp;».</p>
+
+
+
+<p>Un caractère générique est un caractère spécial qui peut représenter plus d’un nom de fichier (ou plus d’une partie du nom de fichier). Ici, nous allons utiliser le caractère générique astérisque («&nbsp;*&nbsp;»). Si nous utilisons * comme nom de fichier complet, le shell applique notre commande à chaque fichier de notre répertoire de travail.</p>
+
+
+
+<p>Donc, notre commande se lira comme suit: « <strong>mv * ../images</strong>« . Entrons le maintenant.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-star.jpg?w=628&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>On dirait que rien ne s’est passé, mais c’est la façon dont le shell nous dit qu’aucune erreur ne s’est produite. En cas de problème, il afficherait un message d’erreur ou un avertissement quelconque.</p>
+
+
+
+<p>Vérifions que les fichiers ont été déplacés. Nous pouvons répertorier le contenu d’un autre répertoire en exécutant ls et en spécifiant un chemin d’accès. Dans ce cas, notre chemin est «&nbsp;<strong>../images</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-dotdot-images.jpg?resize=634%2C53&amp;ssl=1" alt="Shell ..images" class="wp-image-2969"/></figure></div>
+
+
+<p>Les images sont à la fois là, avec un autre répertoire qui existait déjà («&nbsp;wallpapers&nbsp;»). Nous devrions créer un nouveau répertoire pour mieux organiser nos images et éviter que le répertoire principal des images ne soit encombré. Faisons cela maintenant.</p>
+
+
+
+<h2 id="mkdir">Créer des répertoires</h2>
+
+
+
+<p>Changeons dans le répertoire images où résident nos deux images pingouin.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-dotdot-images.jpg?resize=619%2C45&amp;ssl=1" alt="Shell CD ../images" class="wp-image-2970"/></figure></div>
+
+
+<p>Faisons maintenant un nouveau répertoire pour nos images pingouin. La création de nouveaux répertoires est effectuée avec la commande&nbsp;<strong>mkdir</strong>.</p>
+
+
+
+<p>La forme la plus simple de la commande&nbsp;<strong>mkdir</strong>&nbsp;est de lui donner un argument: le nom du nouveau répertoire. Nous aimerions créer un nouveau répertoire dans notre répertoire courant, nous n’avons donc pas à attribuer à mkdir un chemin complet, juste le nom du répertoire lui-même. Appelons notre nouveau répertoire pingouin-pix.</p>
+
+
+
+<p>Donc, la commande que nous allons entrer est «&nbsp;<strong>mkdir penguin-pix</strong>&nbsp;» pour créer un nouveau répertoire.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir.jpg?resize=623%2C45&amp;ssl=1" alt="Shell mkdir" class="wp-image-2971"/></figure></div>
+
+
+<p>Maintenant, vérifions que c’est là, en listant le contenu du répertoire:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-verifier-repertoire.jpg?resize=624%2C63&amp;ssl=1" alt="Shell vérifier répertoire" class="wp-image-2972"/></figure></div>
+
+
+<p>Liste des fichiers dans le répertoire images en utilisant la commande&nbsp;<strong>ls</strong></p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Vous pouvez voir que lorsque nous listons le contenu du répertoire, les noms de fichiers et les noms de répertoires sont de couleurs différentes pour vous aider à identifier les différents fichiers et répertoires. Bien que la mise en évidence des couleurs soit commune à la plupart des shells, tous les shells ne le font pas par défaut.</p>
+
+
+
+<p>Si nous ne pouvions pas dire par la couleur des noms, nous pourrions toujours vérifier lesquels de ces fichiers sont des répertoires en appelant&nbsp;<strong>ls</strong>&nbsp;avec l’option&nbsp;<strong>-l</strong>&nbsp;(longue liste).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-images-long-list.jpg?resize=630%2C124&amp;ssl=1" alt="Shell ls longue liste" class="wp-image-2973"/></figure></div>
+
+
+<p>Les informations supplémentaires incluent les autorisations (qui a accès au fichier et quel type d’accès), la propriété (qui est le propriétaire du fichier), l’auteur (qui a créé le fichier), la taille du fichier et mtime (date de la dernière modification). La première lettre sur les lignes pour pingouin-pix et <strong>wallpapers</strong> est un « d », indiquant que ce sont des répertoires. Pour plus d’informations sur les listes de fichiers, consultez la documentation de la commande chmod.<a rel="noreferrer noopener" href="https://astuces-informatique.com/unix-ligne-de-commande/" target="_blank"></a></p>
+
+
+
+<p>Nous pouvons maintenant déplacer nos images dans le nouveau répertoire. Pour dire à mv quels fichiers déplacer, nous pouvons utiliser à nouveau un caractère générique, mais cette fois, faisons en sorte qu’il sache qu’il ne doit déplacer que les fichiers image, pas les répertoires. Comme les deux fichiers image se terminent par l’extension JPEG .jpg, nous pouvons spécifier le nom de fichier «&nbsp;<strong>* .jpg</strong>«&nbsp;: cela indique au shell «&nbsp;les fichiers que je veux déplacer sont des fichiers du répertoire en cours qui se terminent par .jpg&nbsp;». Ainsi, notre commande ressemblera à ceci: «&nbsp;mv * .jpg penguin-pix&nbsp;»:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-etoile-point-jpg-penguin-pix.jpg?resize=659%2C40&amp;ssl=1" alt="Shell jpg image" class="wp-image-2974"/></figure></div>
+
+
+<p>Aucun message d’erreur n’a été donné, ce qui signifie que la commande s’est terminée correctement. Vérifions que les fichiers ont été déplacés en listant le contenu de pingouin-pix:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix.jpg?resize=670%2C56&amp;ssl=1" alt="Shell ls Linux" class="wp-image-2975"/></figure></div>
+
+
+<h2 id="supprimer">Supprimer des fichiers</h2>
+
+
+
+<p>Nous avons deux images de pingouin, mais nous avons peut-être décidé que nous n’avions besoin que de&nbsp;<strong>real-penguin.jpg</strong>, et nous n’avons plus besoin de tux-the-penguin.jpg. Nous pouvons supprimer ce fichier en utilisant la commande&nbsp;<strong>rm</strong>&nbsp;(«&nbsp;<strong>remove</strong>«&nbsp;).</p>
+
+
+
+<p>Nous devons fournir à&nbsp;<strong>rm</strong>&nbsp;le nom du fichier à supprimer. Nous sommes actuellement dans le répertoire images, mais notre image est maintenant dans le sous-répertoire penguin-pix. Nous pourrions changer notre répertoire de travail en penguin-pix, puis exécuter la commande, mais ce n’est qu’un travail supplémentaire, nous pouvons sauter cette étape en utilisant le répertoire comme partie du chemin.</p>
+
+
+
+<p>Notre commande ressemblera à ceci: «&nbsp;<strong>rm penguin-pix / tux-the-penguin.jpg</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rm.jpg?resize=653%2C41&amp;ssl=1" alt="Shell rm" class="wp-image-2976"/></figure></div>
+
+
+<p>Encore une fois, le shell exécute notre commande sans donner de retour. la commande a été exécutée avec succès, de sorte que le shell nous renvoie à l’invite de commande, nous indiquant qu’il est prêt pour une autre commande.</p>
+
+
+
+<p><strong>Avertissement</strong>&nbsp;: Contrairement au fait de faire glisser un fichier vers la corbeille ou vers la corbeille Microsoft Windows, il est impossible d’annuler la suppression d’un fichier avec rm. Retirez vos fichiers avec soin! Une fois parti, il est (pratiquement) impossible de les récupérer.</p>
+
+
+
+<p>Vérifions simplement que le fichier a vraiment disparu:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix-2.jpg?resize=640%2C61&amp;ssl=1" alt="shell ls penguin pix" class="wp-image-2977"/></figure></div>
+
+
+<h2 id="supprimer-rep">Supprimer des répertoires</h2>
+
+
+
+<p>C’est génial pour les fichiers, mais qu’en est-il des répertoires? Par défaut,&nbsp;<strong>rm</strong>&nbsp;ne supprime que les fichiers et non les répertoires.</p>
+
+
+
+<p>La commande&nbsp;<strong>rmdir</strong>&nbsp;(«&nbsp;<strong>remove directory</strong>«&nbsp;) supprime un répertoire, en supposant qu’il soit vide. Testons-le en créant un nouveau répertoire vide en utilisant la commande «&nbsp;<strong>mkdir test-directory</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir-test-repertoire.jpg?resize=676%2C33&amp;ssl=1" alt="Shell mkdir test repertoire" class="wp-image-2978"/></figure></div>
+
+
+<p>Vérifions qu’il existe avec la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-l-test-repertoire.jpg?resize=645%2C102&amp;ssl=1" alt="Shell ls-l test répertoire" class="wp-image-2979"/></figure></div>
+
+
+<p>Nous pouvons maintenant supprimer notre tout nouveau répertoire en utilisant la commande «&nbsp;<strong>rmdir test-directory</strong>&nbsp;» et vérifier qu’il est parti en exécutant à nouveau la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-test-repertoire.jpg?resize=631%2C101&amp;ssl=1" alt="Shell rmdir test répertoire" class="wp-image-2981"/></figure></div>
+
+
+<p>Oui, c’est parti.</p>
+
+
+
+<p>Cependant, que se passerait-il si nous essayions de «&nbsp;<strong>rmdir penguin-pix</strong>«&nbsp;?</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-penguin-pix-echec.jpg?resize=630%2C50&amp;ssl=1" alt="Shell echec de rmdir" class="wp-image-2983"/></figure></div>
+
+
+<p>Obtenir une erreur indiquant que&nbsp;<strong>rmdir</strong>&nbsp;n’a pas réussi à supprimer un répertoire</p>
+
+
+
+<p>Nous ne pouvons pas&nbsp;<strong>rmdir</strong>&nbsp;ce répertoire car il n’est pas vide.</p>
+
+
+
+<p>Si vous êtes sûr de vouloir supprimer&nbsp;<strong>penguin-pix</strong>&nbsp;et tout ce qu’il contient (y compris tous les fichiers et répertoires qu’il contient), vous pouvez utiliser la commande&nbsp;<strong>rm</strong>&nbsp;avec l’option&nbsp;<strong>-r</strong>.</p>
+
+
+
+<p>Normalement,&nbsp;<strong>rm</strong>&nbsp;ne fonctionnera pas sur un répertoire. Cependant, si elle est appelée avec l’option -r, rm supprime récursivement un répertoire, ce qui signifie qu’il se déplace dans le répertoire et dans tous les sous-répertoires, en supprimant tout ce qui inclut le répertoire. Donc, si nous exécutons la commande «&nbsp;<strong>rm -r penguin-pix</strong>«&nbsp;, cela supprime le répertoire et le fichier qui se trouvait à l’intérieur. S’il y avait des répertoires à l’intérieur, ils auraient également été supprimés.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-tutoriel-rm.jpg?resize=646%2C43&amp;ssl=1" alt="Tutoriel Shell commande rm" class="wp-image-2984"/></figure></div>
+
+
+<p><strong>Attention!</strong>&nbsp;Encore une fois, il n’y a pas d’annulation pour cette commande. Lorsque vous&nbsp;<strong>rm -r</strong>&nbsp;un répertoire, ce répertoire et tout ce qu’il contient sont supprimés pour toujours! Comme la plupart des commandes Linux,&nbsp;<strong>rm</strong>&nbsp;est très puissant et doit être utilisé avec précaution.</p>
+
+
+
+<h2 id="copier">Copier des fichiers</h2>
+
+
+
+<p>Pour copier un fichier, utilisez la commande&nbsp;<strong>cp</strong>. La forme la plus simple de cp est:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>cp SOURCE DESTINATION</p></blockquote>
+
+
+
+<p><strong>SOURCE</strong>&nbsp;est le nom du fichier que vous souhaitez copier et&nbsp;<strong>DESTINATION</strong>&nbsp;est le chemin spécifiant la destination du nouveau fichier. La destination peut être un nouveau nom de fichier ou le nom du répertoire dans lequel vous souhaitez trouver une copie.</p>
+
+
+
+<p>Disons que nous avons un fichier texte dans notre dossier de documents appelé&nbsp;<strong>orig.txt</strong>, et nous voulons en faire une copie appelée&nbsp;<strong>copy.txt</strong>. La commande à utiliser est «&nbsp;<strong>cp orig.txt copy.txt</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-exemple.jpg?resize=649%2C104&amp;ssl=1" alt="Shell exemple commande cp" class="wp-image-2985"/></figure></div>
+
+
+<p>Si, par contre, nous spécifions un répertoire comme destination de la commande cp, il en crée une copie avec le même nom que l’original dans le répertoire de destination. Dans l’exemple suivant, nous faisons six choses:</p>
+
+
+
+<ol><li>Répertorie le contenu du répertoire de travail;</li><li>Créez un nouveau répertoire, appelé&nbsp;<strong>copies</strong>;</li><li>Lister le contenu du répertoire de travail, qui inclut maintenant le répertoire des&nbsp;<strong>copies</strong>;</li><li>Répertorie le contenu du répertoire des copies (il n’y en a pas. Il est&nbsp;<strong>vide</strong>);</li><li>Copier&nbsp;<strong>copy.txt</strong>&nbsp;dans le répertoire des copies;</li><li>Répertorie le contenu du répertoire des copies, qui contient désormais une copie de copy.txt.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-repertoire.jpg?resize=662%2C161&amp;ssl=1" alt="Shell cp répertoire" class="wp-image-2986"/></figure></div>
+
+
+<h2 id="renommer-file">Renommer un fichier</h2>
+
+
+
+<p>La commande mv peut également être utilisée pour modifier le nom d’un fichier. Par exemple, la commande «&nbsp;<strong>mv orig.txt original.txt</strong>&nbsp;» renommera le fichier&nbsp;<strong>orig.txt</strong>&nbsp;en&nbsp;<strong>original.txt</strong>:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename.jpg?resize=659%2C104&amp;ssl=1" alt="Shell mv rename" class="wp-image-2987"/></figure></div>
+
+
+<h2 id="renommer-dir">Renommer un répertoire</h2>
+
+
+
+<p>Renommer des répertoires fonctionne exactement comme renommer des fichiers, avec la commande&nbsp;<strong>mv</strong>. Ici, nous créons un répertoire nommé «&nbsp;<strong>copy</strong>«&nbsp;, mais nous le renommons «&nbsp;copies&nbsp;» en utilisant la commande «&nbsp;<strong>mv copy copies</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename-directory.jpg?resize=653%2C117&amp;ssl=1" alt="Shell mv rename directory" class="wp-image-2988"/></figure></div>
+
+
+<p>Si le répertoire de copie contenait des fichiers ou des répertoires, ils resteraient inchangés. La seule chose qui changerait serait le nom du répertoire qui les contenait.</p>
+
+
+
+<h2 id="exit">Quitter Shell</h2>
+
+
+
+<p>Si vous tapez la commande&nbsp;<strong>exit</strong>, vous quittez le Shell de commande et fermez la fenêtre du terminal ou préparez la fenêtre du terminal pour qu’elle soit fermée manuellement.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Sujets du domaine II : La vie sociale</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/sujets-du-domaine-ii-la-vie-sociale/</link>
+		<title>Guide complet de Linux pour débutant</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/guide-complet-de-linux-pour-debutant/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:18:09 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=629</guid>
+		<pubDate>Tue, 21 Jun 2022 02:02:26 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[ligne commande]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=714</guid>
 
-					<description><![CDATA[1- Pour une culture, s’ouvrir est-ce se perdre ? 2- La diversité culturelle est-elle un obstacle à l’unité de l’humanité ? 3- L’homme est à la fois producteur et produit de la culture ? 4- Dominer la nature, peut-il être pour l’homme un idéal suffisant ? 5- Les devoirs de l’homme varient-ils selon les cultures&#8230;]]></description>
+					<description><![CDATA[Le système Linux&#160;est la depuis le milieu des années 90, et a depuis atteint une base d’utilisateurs qui s’étend sur les industries et les continents. Pour ceux qui le savent, vous comprenez que Linux est en fait partout. C’est dans vos téléphones, dans vos voitures, dans vos réfrigérateurs, vos appareils Roku. Il fonctionne la plupart&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>1- Pour une culture, s’ouvrir est-ce se perdre ?</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/01/guide-linux.jpg?resize=780%2C470&amp;ssl=1" alt="Guide Linux"/></figure>
 
 
 
-<p>2- La diversité culturelle est-elle un obstacle à l’unité de l’humanité ?</p>
+<p>Le système Linux&nbsp;est la depuis le milieu des années 90, et a depuis atteint une base d’utilisateurs qui s’étend sur les industries et les continents. Pour ceux qui le savent, vous comprenez que Linux est en fait partout. C’est dans vos téléphones, dans vos voitures, dans vos réfrigérateurs, vos appareils Roku. Il fonctionne la plupart avec&nbsp;l’Internet, les supercalculateurs faisant des percées scientifiques, et les bourses mondiales. Mais avant que Linux ne devienne une plate-forme pour s’exécuter sur les ordinateurs de bureau, les serveurs et les systèmes embarqués à travers le monde, c’était (et est toujours) l’un des systèmes d’exploitation les plus fiables, sécurisés et sans soucis disponibles.</p>
 
 
 
-<p>3- L’homme est à la fois producteur et produit de la culture ?</p>
+<span id="more-714"></span>
 
 
 
-<p>4- Dominer la nature, peut-il être pour l’homme un idéal suffisant ?</p>
+<p>Pour ceux qui ne le savent pas, ne vous inquiétez pas – voici toutes les informations dont vous avez besoin pour vous&nbsp;<strong>familiariser avec la plate-forme Linux</strong>.</p>
 
 
 
-<p>5- Les devoirs de l’homme varient-ils selon les cultures ?</p>
+<h2>Qu’est-ce que Linux?</h2>
 
 
 
-<p>6- L’homme est-il libre ou tient-il à le devenir ?</p>
+<p>Tout comme Windows XP, Windows 7, Windows 8 et Mac OS X, Linux est un système d’exploitation. Un système d’exploitation est un logiciel qui gère toutes les ressources matérielles associées à votre ordinateur de bureau ou ordinateur portable. Pour le dire simplement – le système d’exploitation gère la communication entre votre logiciel et votre matériel. Sans le système d’exploitation (souvent appelé «OS»), le logiciel ne fonctionnerait pas.</p>
 
 
 
-<p>7- Le travail est-il nécessaire pour être libre ?</p>
+<p>L’OS est composé d’un certain nombre de pièces:</p>
 
 
 
-<span id="more-629"></span>
-
-
-
-<p>8- Le travail est-il une obligation, une contrainte ou une nécessité ?</p>
-
-
-
-<p>9- Est-ce pour se reposer que l’homme travaille ?</p>
-
-
-
-<p>10- Peut-on agir moralement en étant inconscient ?</p>
-
-
-
-<p>11- Peut-on être libre sans être heureux ?</p>
-
-
-
-<p>12- Vivre en société, est-ce vivre par et pour la société ?</p>
-
-
-
-<p>13- La liberté de l’Etat pour ou contre l’Etat ?</p>
-
-
-
-<p>14- L’Etat est-il un mal nécessaire ?</p>
-
-
-
-<p>15- La mondialisation ne fait que détruire les Etats et nier la souveraineté des nations. Qu’en pensez-vous ?</p>
-
-
-
-<p>16- La violence peut-elle avoir raison ?</p>
-
-
-
-<p>17- Une société sans conflit, est-elle possible ? Est-ce souhaitable ?</p>
-
-
-
-<p>18- Peut-on tout attendre de l’Etat ?</p>
-
-
-
-<p>19- Bien informés, nous sommes des citoyens. Mal informés, nous sommes des sujets. Qu’en pensez-vous ?</p>
-
-
-
-<p>20- Peut-on refuser d’obéir à la politique par respect à la loi morale ?</p>
-
-
-
-<p>21- Ethique et politique<br>22- Par le langage, peut-on agir sur la réalité ?</p>
-
-
-
-<p>23- Est-il légitime d’assimiler notre temps de travail à notre temps de liberté ?</p>
-
-
-
-<p>24- L’exigence d’autonomie individuelle exclut-elle la conformité aux nomes ?</p>
-
-
-
-<p>25- « L’homme se distingue de l’animal par le fait qu’il naît prématuré ». Qu’en pensez-vous ?</p>
-
-
-
-<p>26- Les techniques libèrent-elles l’homme plus qu’elles ne le déshumanisent ?</p>
-
-
-
-<p>27- L’homme doit-il craindre que les machines travaillent pour lui ?</p>
-
-
-
-<p>28- Peut-on se servir de la violence à des fins morales ?</p>
-
-
-
-<p>29- « Langage et travail sont des manifestations dans lesquelles l’individu ne se conserve plus et ne se possède plus, mais par lesquelles il laisse son intimité sortir tout à fait de soi et la livre à autrui ». Que pensez-vous de cette affirmation de Hegel ?</p>
-
-
-
-<p>30- Langage et pensée sont-ils dissociables ?</p>
-
-
-
-<p>31- Le langage et le travail sont-ils spécifiques à l’homme ?</p>
-
-
-
-<p>32- Peut-on penser à ce que l’on veut dire sans dire ce que l’on&nbsp; pense ?</p>
-
-
-
-<p>33- Est-on d’autant plus libre qu’on est conscient ?</p>
-
-
-
-<p>34- L’idée d’inconscient exclut-elle l’idée de liberté ?</p>
-
-
-
-<p>35- L’idée de liberté est-elle compatible avec le concept d’inconscient ?</p>
-
-
-
-<p>36- La notion d’inconscient introduit-elle la fatalité dans la vie de l’homme ?</p>
-
-
-
-<p>37- Le recours à l’inconscient autorise-t-il l’alibi de l’inconscience ?</p>
-
-
-
-<p>38- Sur quelles raisons pouvons-nous nous appuyer pour admettre l’existence d’un inconscient ?</p>
-
-
-
-<p>39- L’inconscient permet-il autant que la conscience de définir l’homme ?</p>
-
-
-
-<p>40- La connaissance de l’inconscient apporte-t-elle quelque chose d’essentiel à la connaissance de l’homme ?</p>
-
-
-
-<p>41- Obéir, est-ce renoncer à la liberté ?</p>
-
-
-
-<p>42- Exiger l’obéissance est-ce nécessairement porter atteinte à la liberté ?</p>
-
-
-
-<p>43- La contrainte annihile-t-elle la liberté ?</p>
-
-
-
-<p>44- La contrainte est-elle le contraire de la liberté ?</p>
-
-
-
-<p>45- Y a-t-il contradiction entre être libre et être soumis aux lois ?</p>
-
-
-
-<p>46- Etre libre, est-ce être autonome ?</p>
-
-
-
-<p>47- Peut-on restreindre la liberté sans la nier ?</p>
-
-
-
-<p>48- La liberté peut-elle se définir comme l’obéissance à la raison ?</p>
-
-
-
-<p>49- Est-il facile d’être libre ?</p>
-
-
-
-<p>50- Est-il pertinent de revendiquer une liberté à laquelle nous sommes condamné ?</p>
-
-
-
-<p>51- « Entre le fort et le faible, c’est la liberté qui opprime et c’est la loi qui&nbsp; affranchit ». Qu’en pensez-vous ?</p>
-
-
-
-<p>52- Y a-t-il des guerres justes ?</p>
-
-
-
-<p>53- Peut-on dire que l’homme occupe une place particulière dans le monde ?</p>
-
-
-
-<p>54- Les différences entre les hommes ont-elles seulement un fondement biologique ?</p>
-
-
-
-<p>55- Etre conscient de soi, est-ce être maître de soi ?</p>
-
-
-
-<p></p>
+<ul><li><strong>Bootloader</strong>: Le logiciel qui gère le processus de démarrage de votre ordinateur. Pour la plupart des utilisateurs, ce sera simplement un écran de démarrage qui apparaît et finalement disparaît pour démarrer dans le système d’exploitation.</li><li><strong>Le noyau</strong>: C’est le morceau unique de l’ensemble qui est réellement appelé « Linux ». Le noyau est le cœur du système et gère le processeur, la mémoire et les périphériques. Le noyau est le niveau le plus bas du système d’exploitation.</li><li>Daemons: ce sont des services en arrière-plan (impression, son, planification, etc.) qui démarrent pendant le démarrage ou après vous connecter au bureau.</li><li><strong>Le Shell</strong>: Vous avez probablement entendu parler de la ligne de <strong>commande Linux</strong>. C’est le shell – un processus de commande qui vous permet de contrôler l’ordinateur via des commandes tapées dans une interface de texte. C’est ce qui, à un moment donné, a effrayé les gens de Linux le plus (en supposant qu’ils ont dû apprendre une structure de ligne de commande apparemment archaïque pour faire fonctionner Linux). Ce n’est plus le cas. Avec Linux de bureau moderne, il n’est pas nécessaire de toucher la ligne de commande.</li><li><strong>Serveur graphique</strong>: il s’agit du sous-système qui affiche les graphiques sur votre moniteur. Il est communément appelé le serveur X ou simplement «X».</li><li><strong>Environnement de bureau</strong>: C’est le morceau du puzzle avec lequel les utilisateurs interagissent réellement. Il existe de nombreux environnements de bureau à choisir (<strong>Unity</strong>, <strong>GNOME</strong>, Cannelle, Enlightenment, KDE, XFCE, etc.). Chaque environnement de bureau comprend des applications intégrées (telles que des gestionnaires de fichiers, des outils de configuration, des navigateurs Web, des jeux, etc.).</li><li><strong>Applications</strong>: Les environnements de bureau n’offrent pas toute la gamme d’applications. Tout comme Windows et Mac, Linux offre des milliers et des milliers de titres logiciels de haute qualité qui peuvent être facilement trouvés et installés. La plupart des distributions Linux modernes (plus à ce sujet dans un instant) incluent des outils similaires à App Store qui centralisent et simplifient l’installation des applications. Par exemple: Ubuntu Linux dispose du Ubuntu Software Center (Figure 1) qui vous permet de rechercher rapidement parmi les milliers d’applications et de les installer à partir d’un emplacement centralisé.</li></ul>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Sujets du domaine I : La réflexion philosophique</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/sujets-du-domaine-i-la-reflexion-philosophique/</link>
+		<title>Convertir un PC Windows en Machine Virtuelle à l’aide d’Hyper-V</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/convertir-un-pc-windows-en-machine-virtuelle-a-laide-dhyper-v/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:17:24 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=627</guid>
+		<pubDate>Tue, 21 Jun 2022 02:00:37 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[hyper-v]]></category>
+		<category><![CDATA[machine]]></category>
+		<category><![CDATA[virtuel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=712</guid>
 
-					<description><![CDATA[Sujets du domaine I : La réflexion philosophique 1- La réflexion philosophique nous détache-t-elle du monde ? 2- Peut-on douter de tout ? 3- « La philosophie, écrit un philosophe, boîte ». Est-ce à dire qu’elle va tomber ?Peut-on tout dire ? 4- L’engagement politique et la réflexion philosophique sont-elles compatibles ? 5- La tâche&#8230;]]></description>
+					<description><![CDATA[Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Sujets du domaine I : La réflexion philosophique</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/Hyper-V-et-machine-Virtuelle.png?resize=500%2C300&amp;ssl=1" alt="Hyper V et machine Virtuelle"/></figure>
 
 
 
-<p>1- La réflexion philosophique nous détache-t-elle du monde ?</p>
+<p>Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.</p>
 
 
 
-<p>2- Peut-on douter de tout ?</p>
+<span id="more-712"></span>
 
 
 
-<p>3- « La philosophie, écrit un philosophe, boîte ». Est-ce à dire qu’elle va tomber ?<br>Peut-on tout dire ?</p>
+<p>La version virtuelle de Windows est juste un gros fichier et un logiciel spécial exécuté sur votre ordinateur Windows (logiciel de virtualisation) agit comme un faux ordinateur pour que Windows puisse s’exécuter. Tout ce que vous faites dans la machine virtuelle n’affectera pas votre système d’exploitation hôte. Ainsi, vous pouvez télécharger des&nbsp;virus sur la machine virtuelle et votre système d’exploitation principal serait en sécurité.</p>
 
 
 
-<span id="more-627"></span>
+<p>Ce qui est bien sur les machines virtuelles, c’est que vous pouvez les réinitialiser. Donc, si vous obtenez un virus lors de la navigation sur la machine virtuelle, vous pouvez simplement réinitialiser la machine virtuelle à son état par défaut lorsque vous l’avez installé et recommencer. C’est aussi un excellent moyen d’augmenter votre vie privée, car vous pouvez simplement effacer tout ce que vous avez fait dans une machine virtuelle.</p>
 
 
 
-<p>4- L’engagement politique et la réflexion philosophique sont-elles compatibles ?</p>
+<p>Avant de commencer, parlons des exigences. Il existe de nombreux outils de virtualisation de logiciels comme&nbsp;<strong>VMWare</strong>,&nbsp;<strong>Parallels</strong>,&nbsp;<strong>VirtualBox</strong>, pour&nbsp;les logiciels Microsoft vous avez besoin de deux choses:</p>
 
 
 
-<p>5- La tâche de la philosophie est-elle de nous débarrasser de nos illutions et préjugés ?</p>
+<p><a href="https://technet.microsoft.com/fr-fr/library/ee656415.aspx">Disk2VHD</a>&nbsp;– Un outil gratuit de Microsoft qui sera utilisé pour convertir n’importe quel système d’exploitation Windows à partir de Windows XP en un fichier de machine virtuelle.</p>
 
 
 
-<p>6- La philosophie est la science qui met fin au règne des certitudes. Cette définition de la philosophie vous paraît-elle recevable ?</p>
+<p><strong>Windows 8.1 Pro ou Windows 10 Pro</strong>&nbsp;– Vous aurez besoin des versions Pro de Windows 8.1 ou Windows 10 pour compléter ce processus. Les deux systèmes d’exploitation ont un outil appelé&nbsp;<strong>Hyper-V</strong>&nbsp;qui peut être utilisé pour accéder au fichier virtuel créé par Disk2VHD.</p>
 
 
 
-<p>7- Philosopher, est-ce nier le savoir ?</p>
-
-
-
-<p>8- Faire de la philosophie, ce n’est pas poser un savoir, c’est contredire un passé, ruiner des certitudes. Qu’en pensez-vous ?</p>
-
-
-
-<p>9- La certitude est le signe d’une pensée morte. Qu’en pensez-vous ?</p>
-
-
-
-<p>10- La philosophie est-elle une entreprise de remise en cause de toutes les certitudes ?</p>
-
-
-
-<p>11- « La philosophie ne nous paraît pas recherche de savoir. Au contraire, elle nous paraît dissolution de tout savoir acquis ». Quelle réflexion vous suggère ce propos ?</p>
-
-
-
-<p>12- Douter est-ce renoncer à la vérité ?</p>
-
-
-
-<p>13- Le philosophe est-il nécessairement l’homme de son temps ?</p>
-
-
-
-<p>14- La raison a-t-elle toujours raison ?</p>
-
-
-
-<p>15- « Malheur au penseur qui n’est pas le jardiner mais le terrain de ses plantes ». Que vous suggère cette affirmation ?</p>
-
-
-
-<p>16- La philosophie se nourrit-elle essentiellement de ce qui n’est pas elle ?</p>
-
-
-
-<p>17- La philosophie n’est pas seulement une réflexion libre, elle est aussi une « discipline de libération ». Qu’en pensez-vous ?</p>
-
-
-
-<p>18- Suffit-il de prendre la vie avec philosophie pour philosopher ?</p>
-
-
-
-<p>19- Le plus grand bien dans un Etat consiste-t-il à avoir de vrais philosophes à sa tête ?</p>
-
-
-
-<p>20- La philosophie est une aventure de la raison qui naît de l’insatisfaction et s’achève dans la déception. Qu’en pensez-vous ?</p>
-
-
-
-<p>21- Croire et savoir.</p>
-
-
-
-<p>22- Deux excès : exclure la raison, n’admettre que la raison. Que vous suggère cette pensée ?</p>
-
-
-
-<p>23- Le fait que la philosophie revendique son droit d’être inutile est-il suffisant pour la récuser ?</p>
-
-
-
-<p>24- L’inutilité de la philosophie nous autorise-t-elle à la rejeter ?</p>
-
-
-
-<p>25- Les hommes actuels peuvent-ils dialoguer avec les philosophes du passé ?</p>
-
-
-
-<p>26- L’idée d’une philosophie locale ne vous semble-t-elle pas paradoxale ?</p>
-
-
-
-<p>27- Existe-t-il une philosophie africaine ?</p>
-
-
-
-<p>28- L’avenir est-il comme une page blanche ?</p>
-
-
-
-<p>29- Y a-t-il des vérités indiscutables ?</p>
-
-
-
-<p>30- Il n’y a pas de vérité sacrée, c&rsquo;est-à-dire interdite à la pleine investigation de l’homme. Qu’en pensez-vous ?</p>
-
-
-
-<p>31- Si quelqu’un pense et voit clair en tout, c’est qu’il a cessé de philosopher. Qu’en pensez-vous ?</p>
-
-
-
-<p>32- La sagesse est-elle périmée dans ce monde actuel ?</p>
-
-
-
-<p>33- La métaphysique comme œuvre de la raison n’est-elle qu’une illusion ?</p>
-
-
-
-<p>34- La certitude que nous offrent les sciences nous autorise-t-elle à renoncer à la métaphysique ?</p>
-
-
-
-<p>35- La métaphysique est dépassée a-t-on dit. Qu’en pensez-vous ?</p>
-
-
-
-<p>36- Faut-il rejeter la métaphysique ?</p>
-
-
-
-<p>37- C’est l’insuffisance des donnés sensibles qui fait naître la métaphysique. Qu’en pensez-vous ?</p>
-
-
-
-<p>38- Peut-on concevoir un homme sans valeur ?</p>
-
-
-
-<p>39- Le réel se réduit-il à ce qu’on perçoit ?</p>
-
-
-
-<p>40- Suffit-il de percevoir les objets pour les connaître ?</p>
-
-
-
-<p>41- Suffit-il de voir pour savoir ?</p>
-
-
-
-<p>42- La philosophie peut-elle aider à mieux vivre ?</p>
-
-
-
-<p>43- La philosophie est plutôt une façon d’être qu’un savoir. Qu’en pensez-vous ?</p>
-
-
-
-<p>44- La religion peut-elle avoir la même fonction que la philosophie ?</p>
-
-
-
-<p>45- La religion est-elle aliénation ?</p>
-
-
-
-<p>46- La philosophie a-t-elle quelque chose à apporter au savant ?</p>
-
-
-
-<p>47- La philosophie promet-elle le bonheur ?</p>
-
-
-
-<p>48- Ce que les sciences humaines nous font connaître de l’homme suffit-il pour connaître l’homme ?</p>
+<p>Il est également intéressant de noter que même si vous pouvez utiliser Windows XP, Vista et 7 comme machine virtuelle, il est préférable de convertir une machine Windows 8.1 ou Windows 10 parce que la plus haute résolution prise en charge par Hyper-V pour les anciens systèmes d’exploitation est 1600 × 1200. C’est vraiment ennuyeux et je ne sais pas pourquoi Microsoft n’a pas pris la peine de résoudre ce problème encore. Quoi qu’il en soit, c’est seulement un problème pour ceux qui ont des moniteurs haute résolution.</p>
 
 
 
 <p></p>
+
+
+
+<h2>Convertir le système d’exploitation Windows en VHD</h2>
+
+
+
+<p>Commençons par la partie facile: convertir votre version actuelle de Windows en machine virtuelle (fichier VHD ou VHDX). Pour ce faire, téléchargez l’outil Disk2VHD mentionné ci-dessus et exécutez le fichier EXE.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/disk2vhd-demarrer.jpg?resize=525%2C361" alt="Démarrer avec disk2vhd" class="wp-image-1113"/></figure></div>
+
+
+<p>Lorsque vous l’exécutez, vous verrez un écran comme celui ci-dessus. Vous devez&nbsp;choisir l’emplacement où vous voulez enregistrer le fichier VHDX et les volumes que vous souhaitez inclure.</p>
+
+
+
+<p>Si vous avez un grand disque dur, vous pouvez simplement laisser enregistrer le fichier dans la même partition que Windows. Sinon, choisissez un autre emplacement comme un deuxième disque dur ou un disque dur externe USB. Par défaut, il va sélectionner tous les volumes qu’il trouve sur votre ordinateur.</p>
+
+
+
+<p>Dans mon cas, j’ai plusieurs disques durs connectés à l’ordinateur, ainsi je veux seulement choisir le volume C: \, qui est 37.26 GB dans la taille. En outre, vous voulez vous assurer de sélectionner tous les autres volumes qui ont été créés lorsque vous avez installé Windows, probablement le volume de démarrage et le&nbsp;<strong>volume réservé du système</strong>. Ceux-ci sont généralement très petits: dans mon cas, le volume réservé au système est seulement 34 Mo et l’autre volume, qui n’a pas d’étiquette, est seulement 322,08 Mo.</p>
+
+
+
+<p>Il est très important de sélectionner ces autres volumes en plus du volume principal de Windows, car si vous ne le faites pas, le système d’exploitation ne démarrera pas lorsque vous le chargez dans Hyper-V. Au lieu de cela, vous obtiendrez un message d’<strong>échec de démarrage</strong>! En effet, ces deux volumes supplémentaires indiquent au système où se trouve Windows et comment le démarrer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/erreur-boot.png?resize=516%2C326" alt="Erreur démarrage" class="wp-image-1114"/></figure></div>
+
+
+<p>Il faudra probablement un certain temps pour&nbsp;<strong>créer le fichier VHDX</strong>&nbsp;en fonction de la taille de votre partition Windows. Une fois terminé, vous aurez un fichier vraiment grand et deux fichiers plus petits.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/vhdx-images.png?resize=665%2C149" alt="Images VHDX" class="wp-image-1115"/></figure></div>
+
+
+<h2>Installer Hyper-V sous Windows 8.1 / 10</h2>
+
+
+
+<p>Ensuite, nous devons installer les outils Hyper-V sous Windows 8.1 ou Windows 10 Pro. Si vous avez les éditions Home, vous devrez effectuer une mise à niveau vers Pro avant d’installer Hyper-V. Cliquez sur Démarrer et tapez dans&nbsp;<strong>les fonctionnalités de Windows</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/option-windows.png?resize=394%2C393" alt="Options de Windows" class="wp-image-1116"/></figure></div>
+
+
+<p>En haut, cliquez sur Activer ou&nbsp;<strong>désactiver les fonctionnalités de Windows</strong>. Une fenêtre s’affiche où vous pouvez cocher les éléments supplémentaires que vous souhaitez installer. Allez-y et cochez la case pour&nbsp;<strong>Hyper-V</strong>. Il doit également cocher les cases correspondantes aux outils de gestion Hyper-V et à la&nbsp;<strong>plate-forme Hyper-V</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/activer-hyper-v.png?resize=417%2C372" alt="Activer hyper V" class="wp-image-1117"/></figure></div>
+
+
+<p>Cliquez sur OK et laissez Windows installer les fonctionnalités. Vous devrez également redémarrer votre ordinateur. Une fois la sauvegarde démarrée, cliquez sur Démarrer, Toutes les applications, puis faites défiler jusqu’à Outils d’administration Windows. Vous devriez voir Hyper-V Manager répertorié ici. Vous pouvez également cliquer sur Démarrer et taper Hyper-V pour le rechercher.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/menu-demarrer-hyper-v.png?resize=263%2C388" alt="Hyper V dans le menu démarrer" class="wp-image-1118"/></figure></div>
+
+
+<h2>Configuration de Hyper-V</h2>
+
+
+
+<p>Maintenant pour la partie amusante! Commençons par Hyper-V. Allez-y et ouvrez le Gestionnaire Hyper-V et vous verrez un espace de travail vierge.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/hyper-v-gestionnaire.png?resize=646%2C440" alt="Le gestionnaire de hyper V" class="wp-image-1119"/></figure></div>
+
+
+<p>À l’extrême gauche se trouve le serveur, qui devrait être le nom de votre ordinateur. Dans la partie centrale se trouvent la liste des machines virtuelles et des checkpoints. Sur la droite, vous avez un menu dynamique qui change en fonction de l’élément sélectionné dans les sections de gauche. Pour commencer, sélectionnez le nom de l’ordinateur à l’extrême gauche.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouvelle-virtuel-machine.png?resize=500%2C154" alt="Nouvelle machine virtuelle" class="wp-image-1123"/></figure></div>
+
+
+<p>Maintenant à l’extrême droite, cliquez sur Nouveau et puis sur Virtual Machine. Cela ouvre l’Assistant de la nouvelle machine virtuelle. La première étape consiste à donner un nom à votre machine virtuelle.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nom-virtual-machine.png?resize=656%2C326" alt="Nom de machine virtuelle" class="wp-image-1124"/></figure></div>
+
+
+<p>Ensuite, vous devez choisir la génération de la machine virtuelle. Si vous convertissez une version 64 bits de Windows en une machine virtuelle et que votre matériel informatique prend en charge UEFI, choisissez Génération 2, car cela permet des fonctionnalités plus avancées. Utilisez la génération 1 pour les versions 32 bits de Windows ou si votre machine utilise le BIOS existant. Generation 2 prend également en charge les écrans géants lors de la virtualisation de Windows 8.1 ou Windows 10.</p>
+
+
+
+<p>Si vous n’avez aucune idée de ce que tout cela signifie, choisissez simplement Génération 1 pour être sûr. Notez que si la machine virtuelle ne démarre pas, vous pouvez facilement la supprimer et recommencer ce processus. Sélectionnez une génération différente et vérifiez si elle démarre correctement. La suppression de la machine virtuelle dans Hyper-V ne supprime pas vos fichiers VHDX d’origine.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-generation.png?resize=656%2C296" alt="Génération du machine virtuelle" class="wp-image-1125"/></figure></div>
+
+
+<p>Sur l’écran suivant, vous devez choisir la quantité de mémoire que vous souhaitez affecter à votre machine virtuelle. Je l’ai laissé à la valeur par défaut de 1024 Mo, mais vous pouvez l’augmenter si vous avez suffisamment de RAM disponible sur votre ordinateur hôte.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-memoire.png?resize=650%2C297" alt="Mémoire du machine virtuelle" class="wp-image-1126"/></figure></div>
+
+
+<p>Allez-y et sautez l’écran Configure Networking pour l’instant car nous devrons le faire plus tard. Pour l’instant, laissez-le à Not Connected. Sur l’écran Connect Virtual Hard Disk, vous devez sélectionner Utiliser un disque dur virtuel existant.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/connecter-virtual-disque-dur.png?resize=656%2C438" alt="Connecter un disque dur virtuelle" class="wp-image-1127"/></figure></div>
+
+
+<p>Cliquez sur le bouton Parcourir et sélectionnez l’image VHDX qui représente votre partition Windows réelle. Ce devrait être le très grand fichier VHDX. Nous aurons à ajouter manuellement les deux autres disques VHDX après l’assistant, que je vais montrer plus bas. À ce stade, examinez le résumé et cliquez sur Terminer.</p>
+
+
+
+<p>Maintenant, vous devriez voir un nouvel élément répertorié sous Virtual Machines. Si vous cliquez sur cela, vous verrez un tas d’autres options dans le volet de droite.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/demarrer-virutal-machine.png?resize=626%2C572" alt="Démarrer une virtuelle machine" class="wp-image-1128"/></figure></div>
+
+
+<p>Pour démarrer la machine virtuelle, sélectionnez-la, puis cliquez sur Démarrer. La colonne État se transforme en Exécution. Cliquez sur Connecter pour afficher la machine virtuelle. Si vous avez fait cela maintenant, vous verrez ce message d’erreur que j’ai mentionné au début de l’article: échec de démarrage. Nous avons encore besoin d’ajouter les autres disques durs.</p>
+
+
+
+<p>Sélectionnez la machine virtuelle, puis cliquez sur Désactiver. Cliquez ensuite sur le lien Paramètres. Sur le côté gauche, vous devriez voir IDE Controller 0 et IDE Controller 1. Cliquez sur le Controller 0 en premier. Si vous avez choisi Génération 2, vous verrez SCSI Controller uniquement.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ide-controlleur.png?resize=648%2C319" alt="contrôleur ide" class="wp-image-1130"/></figure></div>
+
+
+<p>Vous verrez que le premier fichier VHDX que nous avons ajouté dans l’assistant est déjà répertorié. Maintenant nous devons ajouter les deuxième et troisième fichiers. Assurez-vous que le disque dur est sélectionné, puis cliquez sur Ajouter.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-deuxieme-vhdx.png?resize=643%2C301" alt="" class="wp-image-1120"/></figure></div>
+
+
+<p>La case Emplacement doit automatiquement choisir 1 car le slot 0 est pris par notre premier fichier VHDX. Chaque contrôleur IDE ne dispose que de deux emplacements disponibles pour ajouter des lecteurs. Cliquez sur Disque dur virtuel et choisissez votre deuxième fichier VHDX.</p>
+
+
+
+<p>Cliquez maintenant sur IDE Controller 1, puis sur le bouton Ajouter. Faites la même chose ici, mais choisissez votre troisième fichier VHDX.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-troisieme-vhdx.png?resize=646%2C358" alt="" class="wp-image-1121"/></figure></div>
+
+
+<p>Maintenant que nous avons tous les trois fichiers VHDX attachés, nous pouvons cliquer sur OK et démarrer notre machine virtuelle. Cette fois, vous devriez obtenir un écran avec Windows chargement!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/windows-demarre-avec-hyper-v.jpg?resize=600%2C530" alt="Démarrer Windows avec hyper V" class="wp-image-1129"/></figure></div>
+
+
+<h2>Configurer la mise en réseau</h2>
+
+
+
+<p>Enfin, nous devons configurer la mise en réseau de la machine virtuelle afin que vous puissiez vous connecter au réseau local et à Internet. Pour ce faire, cliquez sur Virtual Switch Manager en haut du menu de droite.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouveau-virtual-switch.png?resize=651%2C268" alt="" class="wp-image-1122"/></figure></div>
+
+
+<p>Cliquez sur Nouveau commutateur réseau virtuel, puis sélectionnez Externe dans la zone de liste. Enfin, cliquez sur Créer un commutateur virtuel.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/externe-virtual-switch.png?resize=444%2C329" alt="externe-virtual-switch" class="wp-image-1131"/></figure></div>
+
+
+<p>Donnez à votre commutateur virtuel un nom si vous le souhaitez, puis choisissez le réseau correct dans la liste déroulante. Si vous avez plus d’une carte réseau, choisissez celle qui est connectée au réseau et à Internet. Une fois que votre commutateur a été créé, nous devons dire à la machine virtuelle de l’utiliser. Pour ce faire, cliquez sur la machine virtuelle dans le gestionnaire Hyper-V, puis cliquez sur le lien Paramètres dans le volet droit.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/configurer-network-switch.png?resize=647%2C424" alt="configurer-network-switch" class="wp-image-1132"/></figure></div>
+
+
+<p>Cliquez sur Adaptateur réseau, puis choisissez le nouveau commutateur virtuel que vous avez créé à l’étape précédente. C’est tout! Maintenant, lorsque vous démarrez votre machine virtuelle, il doit obtenir un accès réseau via l’ordinateur hôte.</p>
+
+
+
+<p>Espérons que cet article vous aide à prendre votre PC actuel et à le convertir en une machine virtuelle que vous pouvez exécuter sur le même PC ou un autre PC si vous le souhaitez. Il ya beaucoup de choses qui peuvent mal tourner dans ce processus, alors n’hésitez pas à commenter si vous rencontrez des problèmes.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Dogmatisme, Dogme et Doute.</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/dogmatisme-dogme-et-doute/</link>
+		<title>5 façons de contrôler à distance un appareil Android</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/5-facons-de-controler-a-distance-un-appareil-android/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:14:35 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=623</guid>
+		<pubDate>Tue, 21 Jun 2022 01:52:25 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=710</guid>
 
-					<description><![CDATA[Les étymologies&#8230;Nous allons nous intéresser aux mots : Dogmatisme, Dogme et Doute. DOGMATISME : Le terme vient du grec et latin « dogma » qui veut dire opinion ou doctrine.&#8211; Sens ordinaire : c&#8217;est une rigidité intellectuelle des adeptes d&#8217;une doctrine, lorsque ceux-ci refusent d&#8217;envisager la discussion ou la remise en cause de ses fondements.&#8211; En philosophie&#8230;]]></description>
+					<description><![CDATA[Vous avez parfois ressenti le besoin d’accéder à distance à un appareil Android dans différentes situations. Vous avez alors besoin d’un mécanisme robuste, facile à utiliser et fiable pour obtenir un contrôle total de l’appareil ou un moyen d’obtenir un contrôle partiel de certaines fonctionnalités importantes. Heureusement, il existe plusieurs applications, outils et services qui&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Les étymologies&#8230;<br>Nous allons nous intéresser aux mots : Dogmatisme, Dogme et Doute.</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/teamviewer-pour-android.jpg?resize=780%2C433&amp;ssl=1" alt="Team viewer pour Android"/></figure>
 
 
 
-<p>DOGMATISME :</p>
+<p>Vous avez parfois ressenti le besoin d’accéder à distance à un appareil Android dans différentes situations. Vous avez alors besoin d’un mécanisme robuste, facile à utiliser et fiable pour obtenir un contrôle total de l’appareil ou un moyen d’obtenir un contrôle partiel de certaines fonctionnalités importantes. Heureusement, il existe plusieurs applications, outils et services qui permettent de contrôler à distance un appareil Android de manière simple et transparente. Nous allons examiner certaines des&nbsp;<strong>meilleures outils d’accès à distance</strong>&nbsp;disponibles pour les appareils Android. Tous ces outils fonctionnent de manière transparente avec presque toutes les variantes populaires d’Android. Ces applications sont idéales pour les professionnels et les voyageurs fréquents qui ont souvent besoin d’accéder à des appareils Android à distance. Alors, commençons et découvrons ces applications utiles et puissantes pour gérer nos appareils Android à distance depuis notre PC ou Mac.</p>
 
 
 
-<p>Le terme vient du grec et latin « dogma » qui veut dire opinion ou doctrine.<br>&#8211; Sens ordinaire : c&rsquo;est une rigidité intellectuelle des adeptes d&rsquo;une doctrine, lorsque ceux-ci refusent d&rsquo;envisager la discussion ou la remise en cause de ses fondements.<br>&#8211; En philosophie : c&rsquo;est une position philosophique consistant a admettre que l&rsquo;on peut atteindre puis démontrer des vérités certaines ou même absolues, notamment dans le domaine métaphysique.</p>
+<span id="more-710"></span>
 
 
 
-<span id="more-623"></span>
+<p>1. Prise en charge des appareils mobiles TeamViewer</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/teamviewer-controler-a-distance-une-appareil-android.jpg?resize=650%2C270&amp;ssl=1" alt="TeamViewer - contrôler à distance une appareil Android" class="wp-image-11140"/></figure></div>
+
+
+<p>Cette application extrêmement populaire peut être utilisée sur les ordinateurs Windows, Mac ou Linux pour accéder à distance aux appareils Android en quelques étapes faciles. C’est simple, facile à installer et prêt à l’emploi. Les professionnels peuvent l’utiliser pour&nbsp;<strong>gérer les téléphones Android à distance</strong>.</p>
 
 
 
-<p>Termes voisins : scepticisme.<br>Termes opposés : certitude, conviction, critique, doute, fanatisme, fideisme, préjugé.</p>
+<p>Le périphérique cible a dû installer une petite application&nbsp;<strong>QuickSupport</strong>&nbsp;pour permettre le contrôle à distance depuis un emplacement distant. Il donne un contrôle complet de l’appareil comme si on le tenait dans la main. Il prend également en charge le&nbsp;<strong>transfert de fichiers sécurisé</strong>&nbsp;ainsi que la prise en charge du chat pour communiquer rapidement avec le propriétaire de l’appareil pendant la session active. On peut également capturer des captures d’écran en couleurs vraies à partir de l’appareil Android distant pour une analyse hors ligne.</p>
 
 
 
-<p>DOGME :</p>
+<p><a href="https://astuces-informatique.com/meilleurs-langages-developpement-mobiles/" target="_blank" rel="noreferrer noopener"></a></p>
 
 
 
-<p>Toujours du grec et latin « dogma », opinion, doctrine.<br>&#8211; Sens Théologique : c&rsquo;est l&rsquo;ensemble des positions caractéristiques d&rsquo;une religion.<br>&#8211; Sens ordinaire : point de doctrine établi et considéré comme intangible et indiscutable dans une école philosophique ou religieuse, dans un courant politique, etc.</p>
+<h2>2. AirDroid</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="" alt="AirDrop - contrôler à distance une appareil Android" class="wp-image-11141"/></figure></div>
+
+
+<p>C’est encore une autre solution d’accès à distance extrêmement populaire pour les téléphones et tablettes Android. Il fournit une interface agréable et facile à utiliser pour gérer l’appareil Android directement depuis votre bureau. Outre l’utilisation d’une application de bureau, vous pouvez également utiliser une application Web dans le navigateur Google Chrome.</p>
 
 
 
-<p>DOUTE :</p>
+<p>Ses grandes notifications d’applications sur l’écran du bureau vous permettent de rester connecté et d’être informé des événements sur l’appareil Android distant. Sa version premium comprend des transferts illimités de fichiers et de dossiers entiers. Il peut également être utilisé pour surveiller un emplacement distant via la caméra de l’appareil en temps réel. Si vous cherchez à&nbsp;<strong>transférer des fichiers très volumineux</strong>&nbsp;à partir de l’appareil distant,&nbsp;<strong>AirDroid</strong>&nbsp;le prend en charge immédiatement.</p>
 
 
 
-<p>Du latin « dubitare », qui veut dire balancer.<br>&#8211; Sens ordinaire : état d&rsquo;esprit provenant d&rsquo;une absence de certitude.<br>&#8211; En philosophie : c&rsquo;est une attitude réfléchie, volontaire et critique ; suspension du jugement devant ce qui se présente comme une vérité, afin de l&rsquo;examiner et d&rsquo;en mettre a l&rsquo;épreuve le bien-fondé.<br>&#8211; En Epistemologie : selon Claude Bernard, c&rsquo;est la qualité fondamentale de l&rsquo;investigation scientifique, qui vise a ne pas prendre des conclusions momentanée des vérités absolues.</p>
+<h2>3. ISL Light pour Android</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/ISL-light-for-android-controler-a-distance-une-appareil-android.jpg?resize=653%2C337&amp;ssl=1" alt="ISL Light for Android - contrôler à distance une appareil Android" class="wp-image-11142"/></figure></div>
+
+
+<p>Cette application puissante permet un contrôle total sur les appareils Android distants avec toutes les fonctionnalités pour dépanner et gérer les problèmes avec facilité. Les tablettes et les smartphones classiques peuvent être contrôlés via cette application flexible. Il est disponible pour les plates-formes Windows, Mac et Linux.</p>
 
 
 
-<p>Termes voisins : embarras, hésitation, incertitude.<br>Termes opposés : certitude.</p>
+<p>Comme d’autres applications compétentes, celle-ci prend également en charge les captures d’écran en temps réel de l’appareil Android distant avec prise en charge de la messagerie instantanée pour échanger des informations avec la personne à l’autre bout. Il est spécialement conçu pour les téléphones Samsung, vous donnant un véritable contrôle de l’appareil distant. Au cours d’une session à distance, on peut facilement installer ou désinstaller des applications via des commandes pointer-cliquer avec un effet immédiat.</p>
 
 
 
-<p></p>
+<h2>4. Mobizen</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/Mobizen-controler-a-distance-une-appareil-android.jpg?resize=593%2C291&amp;ssl=1" alt="Mobizen - contrôler à distance une appareil Android" class="wp-image-11143"/></figure></div>
+
+
+<p>C’est l’une de mes applications préférées pour <strong>apprivoiser un appareil Android à distance</strong>. Il possède plusieurs fonctionnalités uniques et intuitives qui le rendent très populaire parmi la base d’utilisateurs. Utilisez cette solution robuste si vous souhaitez diffuser rapidement des vidéos et des photos stockées sur un appareil Android distant.<a rel="noreferrer noopener" href="https://astuces-informatique.com/codes-secrets-de-telephones-android-et-nokia/" target="_blank"></a></p>
 
 
 
-<p>Le doute libérateur :</p>
+<p>Il prend également en charge le transfert de fichiers par glisser-déposer entre le bureau et le téléphone. Si l’écran de votre bureau est tactile, vous pouvez utiliser les mêmes actions de glisser-déplacer pour l’écran de l’appareil Android en miroir au lieu d’utiliser les commandes pointer-cliquer classiques. Vous pouvez également enregistrer une vidéo et enregistrer les captures d’écran de l’appareil distant en un clic. Une connexion peut être établie à partir d’un navigateur ou d’une application.</p>
 
 
 
-<p>La valeur de la philosophie doit, en réalité, surtout résider dans son caractère incertain même. Celui qui n’a aucune teinture de philosophie traverse l’existence, prisonnier des préjugés dérivés du sens commun, des croyances habituelles à son temps ou à son pays et de conviction qui ont grandi en lui sans la coopération ni le consentement de la raison.<br>Pour un tel individu, le monde tend à devenir défini, fini, évident : les objets ordinaires ne font pas naître des questions et les possibilités peu familières sont rejetées avec mépris. Dès que nous commençons à penser conformément à la philosophie, au contraire, nous voyons, que mêmes les choses les plus ordinaires de la vie quotidienne posent des problèmes auxquels on ne trouve que des réponses très incomplètes.<br>La philosophie, bien qu’elle ne soit pas en mesure de nous donner avec certitude la réponse aux doutes qui nous assiègent, peut tout de même suggérer des possibilités qui élargissent le champ de notre pensée et délivre celle-ci de la tyrannie de l’habitude. Tout en ébranlant notre certitude concernant la nature de ce qui nous entoure, elle accroît énormément notre connaissance d’une réalité possible et différente ; elle fait disparaître le dogmatisme quelque peu arrogant de ceux qui n’ont jamais parcouru la région du doute libérateur, et elle garde intact notre sentiment d’émerveillement en nous faisant voir les choses familières sous un aspect nouveau.<br>Bernard Russel, Problèmes de philosophie.</p>
+<h2>5. LogMeIn Rescue</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/log-me-in-rescue-controler-a-distance-une-appareil-android.jpg?resize=614%2C275&amp;ssl=1" alt="Log me in Rescue - contrôler à distance une appareil Android" class="wp-image-11144"/></figure></div>
+
+
+<p>Les équipes d’assistance professionnelles peuvent utiliser cette solution de contrôle à distance riche en fonctionnalités pour les appareils Android. C’est une option fiable et facile à utiliser pour&nbsp;<strong>accéder aux téléphones Android depuis un emplacement distant</strong>. Il prend en charge presque toutes les marques de téléphones Android populaires, y compris la plupart des versions Android personnalisées.</p>
 
 
 
-<p></p>
-
-
-
-<p></p>
+<p>Il dispose d’une fonction&nbsp;<strong>Click2Fix</strong>&nbsp;dédiée pour obtenir rapidement des informations vitales sur les appareils distants. Cela aide à identifier rapidement les problèmes dans l’appareil Android. Il dispose également d’un puissant&nbsp;<strong>SDK</strong>&nbsp;pour configurer facilement les paramètres du périphérique système à partir d’un emplacement distant. J’ai aimé son interface d’application de contrôle à distance qui regorge de nombreuses fonctionnalités pour obtenir un contrôle complet sur l’appareil Android distant.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>ANTIGONE de Jean ANOUILH.</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/antigone-de-jean-anouilh/</link>
+		<title>Comment créer une table des matières à un document Word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-creer-une-table-des-matieres-a-un-document-word/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:13:10 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=621</guid>
+		<pubDate>Tue, 21 Jun 2022 01:49:05 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=708</guid>
 
-					<description><![CDATA[INTRODUCTION.S&#8217;il faut dresser une liste des dramaturges les plus en vue au XIX ème siècle, nous ne pouvons pas manquer d&#8217;y faire figurer Jean Anouilh en bonne place. En effet, ce talentueux dramaturge a marqué son temps de son empreinte par la diversité de ses pièces et la nouveauté de son style. Pour cerner cette&#8230;]]></description>
+					<description><![CDATA[Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école. L’une de ces fonctionnalités&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>INTRODUCTION.<br>S&rsquo;il faut dresser une liste des dramaturges les plus en vue au XIX ème siècle, nous ne pouvons pas manquer d&rsquo;y faire figurer Jean Anouilh en bonne place. En effet, ce talentueux dramaturge a marqué son temps de son empreinte par la diversité de ses pièces et la nouveauté de son style. Pour cerner cette étude faite sur lui, nous l&rsquo;articulerons autour de quatre points : la vie et l&rsquo;oeuvre d&rsquo;abord, le résumé de la pièce ensuite et, avant de parler de la portée significative de l&rsquo;oeuvre enfin, nous ne manquerons pas de faire le portrait des personnages les plus influents.</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/sommaire-automatique.png?resize=780%2C470&amp;ssl=1" alt="Comment créer un sommaire automatique"/></figure>
 
 
 
-<span id="more-621"></span>
+<p>Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école.</p>
 
 
 
-<p>I. LA VIE ET L&rsquo;OEUVRE.<br>1. La biographie (vie de l&rsquo;auteur).<br>Jean Anouilh est un auteur dramatique en même temps que metteur en scène français dont le répertoire riche et varié mêle le classicisme des sentiments à la nouveauté de la forme théâtrale. Né à Bordeaux en 1910, il fit des études de droit à Paris puis travailla dans la publicité, avant de devenir le secrétaire de Louis Jouvet en 1928. Cette rencontre avec ce grand metteur en scène fut décisive dans sa volonté de se consacrer au théâtre où ses premières pièces suscitèrent l&rsquo;adhésion d&rsquo;un vaste public. Il mourut à l&rsquo;âge de soixante-dix-sept ans, en 1987.</p>
+<span id="more-708"></span>
 
 
 
-<p>2. La bibliographie (oeuvres de l&rsquo;auteur).<br>Ses premières pièces sont L&rsquo;Hermine (1932), Le Voyageur sans bagages (1937) et La Sauvage (1938). Anouilh se révéla également doué pour la comédie grâce notamment au Bal des voleurs (1938). Sous l&rsquo;Occupation, il donna deux adaptations modernes de la tragédie grecque (Eurydice, 1942 et Antigone, 1944) qui eurent un succès retentissant. Bien qu&rsquo;il soit d&rsquo;apparence classique, son théâtre comprend quelques-unes des oeuvres les plus modernistes du XX ème siècle : L&rsquo;Alouette (1953), une adaptation de la légende de Jeanne d&rsquo;Arc, Beckett ou l&rsquo;Honneur de Dieu (1959) où, là encore, l&rsquo;histoire est prétexte à une création originale. En outre, il est parfois considéré comme l&rsquo;auteur d&rsquo;un théâtre de distraction ; il donna effectivement des pièces de pur divertissement comme La Culotte (1978) ou encore Le Nombril (1981). Dénonçant sans cesse le mensonge social, il développa un vaste réquisitoire contre la famille, l&rsquo;amour, l&rsquo;amitié et tout ce qu&rsquo;il considérait comme des idéaux naïfs, avant de se tourner vers un théâtre plus autobiographique où se réaffirmait cependant sa nostalgie d&rsquo;une pureté inaccessible : Le Boulanger, la Boulangère et le petit mitron (1968), Les Poissons rouges (1970), Ne réveillez pas Madame (1970)&#8230;</p>
+<p>L’une de ces fonctionnalités est&nbsp;<strong>la Table des matières</strong>. Word a une grande fonctionnalité qui vous permet de créer une table de contenu automatique ou bien on l’appel aussi&nbsp;<strong>sommaire automatique</strong>. La grande chose est que même si vous avez déjà un document Word avec beaucoup de contenu, il est très facile de le modifier afin que vous puissiez générer la table des matières automatiquement.</p>
 
 
 
-<p>II. LE RÉSUMÉ DE L&rsquo;OEUVRE.<br>1. L&rsquo;exposition.<br>L&rsquo;exposition encadre d&rsquo;habitude l&rsquo;ensemble des premières scènes où règne la tranquillité. C&rsquo;est aussi l&rsquo;occasion, pour l&rsquo;auteur, d&rsquo;exposer la naissance du conflit qui servira de trame aux événements qui surviendront .<br>Dans Antigone, l&rsquo;histoire commence à six heures du matin. Tout est tranquille mais la nourrice est inquiète parce qu&rsquo;Antigone, la jeune fille dont elle a la charge, n&rsquo;a pas passé la nuit dans sa chambre. Celle-ci apparaît pieds nus, salie par un peu de terre sur sa vilaine figure et ses petites mains. La nourrice la gronde. Elle se défend en disant qu&rsquo;elle vient d&rsquo;accomplir son devoir moral : enterrer son frère Polynice. Sa soeur Ismène, elle, avoue son manque de courage et son envie de vivre car on a interdit à quiconque (sous peine d&rsquo;être enterré vivant) d&rsquo;accorder une sépulture au cadavre de Polynice jeté sous le chaud soleil pour s&rsquo;être battu à mort contre son frère aîné Étéocle.</p>
+<p>Dans cet article, je vais vous guider dans le processus de la mise en place de votre document Word avec les en-têtes corrects et ensuite parler de comment créer la table des matières. Je vais également parler de la façon dont vous pouvez personnaliser la table des matières à votre goût.</p>
 
 
 
-<p>2. Le noeud.<br>Le noeud correspond à une période de crise pendant laquelle la tension est tellement vive, la solution si invisible, les relations si tendues, qu&rsquo;on ne sait plus quelle issue, quelle trajectoire la suite de la pièce va épouser.<br>Dans l&rsquo;oeuvre, Antigone récidive en retournant auprès du corps de Polynice pour tenter à nouveau de lui offrir la sépulture qui sied à tout cadavre respectable. Cette fois, les gardes la surprennent, la mettent aux arrêts et la conduisent manu militari auprès du roi Créon. Celui-ci veut la sauver car elle est avant tout une citoyenne, qui plus est sa nièce et, mieux encore, sa future belle-fille, étant donné qu&rsquo;elle est fiancée à son fils Hémon. Il lui promet de supprimer les gardes qui sont des témoins gênants, à condition qu&rsquo;elle ne refasse plus la même bêtise.</p>
+<h2>Configuration et affichage des en-têtes dans Word</h2>
 
 
 
-<p>3. Le dénouement.<br>Le dénouement regroupe l&rsquo;ensemble des scènes où une issue au blocage commence à apparaître, qu&rsquo;elle soit heureuse ou malheureuse.<br>C&rsquo;est cette dernière trajectoire que la fatalité choisit pour Antigone. En effet, elle est obstinée dans sa ferme volonté d&rsquo;enterrer son frère. La sentence sera exécutée après cette troisième tentative car elle sera enterrée vivante tel que l&rsquo;a décidé le conseil des sages du royaume. Ismène aura du courage pour la première fois de sa vie puisqu&rsquo;elle se suicidera, suivant sa soeur en enfer par cet acte fraternel. Incapable de supporter une vie sans sa bien-aimée, Hémon lui aussi décide de se donner la mort. C&rsquo;est donc un triple deuil pour Créon qui se sent seul, très seul, à la fin de la pièce. Il quitte la scène en affirmant avoir l&rsquo;impression d&rsquo;être subitement vieilli par l&rsquo;exercice du pouvoir.</p>
+<p>La première chose que vous voulez faire avant de pouvoir créer une table des matières est de configurer vos en-têtes. Par défaut, les en-têtes autorisés que vous pouvez utiliser sont&nbsp;<strong>H1 (titre 1), H2 (titre 2) et H3 (titre 3)</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/1.png?resize=556%2C204" alt="header format dans word" class="wp-image-1095"/></figure></div>
+
+
+<p>Vous pouvez les trouver dans la boîte Styles de l’onglet Accueil principal du ruban. Ce sont les trois seules que vous pouvez utiliser pour un TOC par défaut. Si vous ajoutez un TOC personnalisé, vous pouvez également utiliser&nbsp;<strong>H4 (titre 4), H5 (titre 5), H6 (titre 6), sous-titre, titre et titre de tableur</strong>.</p>
 
 
 
-<p>III. PERSONNAGES PRINCIPAUX.<br>1. Antigone et Ismène.<br>Ce sont deux soeurs aux traits et tempéraments opposés, bien qu&rsquo;étant très attachées l&rsquo;une à l&rsquo;autre. Antigone est laide tandis qu&rsquo;Ismène est belle à ravir. L&rsquo;une n&rsquo;a qu&rsquo;une idée fixe (enterrer son frère) alors que l&rsquo;autre rêve d&rsquo;amour et songe à sa toilette, au bal et à la belle vie. Antigone est brave et Ismène est peureuse. La nourrice aurait aimé échanger ces traits physiques et moraux pour avoir la paix.</p>
+<p>Lorsque vous parcourez votre document pour ajouter les différentes rubriques, n’hésitez pas à choisir parmi les titres susmentionnés si H1, H2 et H3 se sentent trop restreints. Vous aurez juste à insérer un TOC personnalisé et modifier quelques paramètres, que je vais également mentionner.</p>
 
 
 
-<p>2. La nourrice.<br>Après la mort de leur père et mère (Oedipe et Jocaste), c&rsquo;est elle qui a assuré la garde de ces deux filles. Elle veille sur elles mais ne pourra empêcher le destin de se produire, malgré tous ses efforts et toute son autorité.</p>
+<p>Il est très facile d’appliquer des en-têtes au texte dans Word. Cliquez simplement sur la ligne avec le texte, puis cliquez sur le style de titre que vous souhaitez appliquer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/applique-header-dans-word.png?resize=498%2C201" alt="Appliquer header dans Word" class="wp-image-1096"/></figure></div>
+
+
+<p>Passez par le document et ajoutez autant de titres que vous le souhaitez. Notez que lorsque vous ajoutez des en-têtes, il sera difficile de voir les en-têtes, même si vous avez des marques de paragraphe visibles. Pour afficher rapidement tous les en-têtes d’un document Word, cliquez sur l’onglet&nbsp;<strong>Affichage</strong>&nbsp;puis cochez la case sous&nbsp;<strong>Volet&nbsp;de navigation</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/navigation-volet-word.png?resize=555%2C201" alt="Volet de navigation dans Word" class="wp-image-1097"/></figure></div>
+
+
+<p>Lorsque vous faites cela, un volet apparaîtra sur le côté gauche du document et vous pourrez voir les différentes rubriques, sous-titres, etc.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/afficher-heading-word.png?resize=270%2C403" alt="Afficher heading dans Word" class="wp-image-1098"/></figure></div>
+
+
+<p>En cliquant sur l’un des éléments de la liste, vous accédez à cette rubrique dans le document Word. C’est une excellente façon de voir rapidement votre structure de titre avant de créer votre TOC final.</p>
 
 
 
-<p>3. Créon.<br>C&rsquo;est lui qui a été porté à la tête du pouvoir après la mort de son grand frère Oedipe. Il est donc l&rsquo;oncle de ces deux filles (Antigone et Ismène) et des deux garçons (Polynice et Étéocle). Chose plus plus complexe encore : ce roi de Thèbes qui prétend exercer son pouvoir par une main de fer est aussi faible qu&rsquo;un roseau. Lors de plusieurs tête-à-tête, il tente en vain de sauver sa nièce ou sa future belle-fille. Il promet même de tuer les gardes qui ont surpris Antigone dans son entreprise audacieuse.</p>
+<h2>Ajout d’une table des matières dans Word</h2>
 
 
 
-<p>4. Hémon.<br>C&rsquo;est le prince, futur roi et futur époux d&rsquo;Antigone qu&rsquo;il aime passionnément. Malheureusement, il se révèle incapable de sauver sa bien-aimée. Le dernier acte symbolique ou sa plus grande preuve d&rsquo;amour qu&rsquo;il lui voue sera de la suivre dans la tombe où elle a été enterrée vivante.</p>
+<p>Maintenant que nous avons tous nos en-têtes correctement configurés, allons-y et insérez une table des matières. Tout d’abord, nous allons commencer avec la configuration TOC par défaut dans Word. Avant de commencer, il peut être judicieux d’ajouter une page blanche au début de votre document.</p>
 
 
 
-<p>5. Les gardes.<br>Ils sont les forces de l&rsquo;ordre, les représentants de la loi. Leur rôle est donc d&rsquo;exécuter les ordres du chef, même s&rsquo;il faut, pour cela, être brutal. Ils apparaissent sur scène toutes les fois qu&rsquo;Antigone récidive.</p>
+<p>Pour ce faire, allez au sommet de votre première page actuelle, puis cliquez sur Insérer et page blanche.</p>
 
 
 
-<p>IV. PORTÉE ET SIGNIFICATION DE LA PIÈCE.<br>1. L&rsquo;actualisation du mythe.<br>Cette histoire a déjà été écrite par Sophocle, un grand tragédien grec du XVI ème siècle. Anouilh a renouvelé ce mythe dans un tout autre objectif ; en effet, la France vivait pendant la seconde guerre mondiale sous l&rsquo;occupation allemande. Deux choix s&rsquo;étaient alors opposés. Les uns acceptaient de cohabiter avec l&rsquo;ennemi tandis que les autres choisirent la résistance. Justement, A. N. T. I. G. O. N. E est l&rsquo;incarnation de cette résistance. Rien que l&rsquo;anagramme de son prénom la définit comme la « N. E. G. A. T. I. O. N » d&rsquo;une loi humiliante à laquelle elle était incapable de se soumettre. Le dramaturge a préféré un personnage féminin comme la France et l&rsquo;a vêtue de toutes les qualités requises dans un univers de violence absurde qui rappelle au spectateur le chaos dans lequel l&rsquo;Europe se trouvait au moment de la création de la pièce.</p>
+<p>Cliquez maintenant sur&nbsp;<strong>Références</strong>,&nbsp;<strong>Table des matières</strong>&nbsp;et choisissez parmi les choix&nbsp;<strong>automatiques</strong>&nbsp;en haut.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/inserrer-table-de-matiere-word.png?resize=406%2C619" alt="Insérrer un table de matière dans Word" class="wp-image-1099"/></figure></div>
+
+
+<p>Une table manuelle ne sera que du texte de remplissage au format d’une table des matières, mais vous devrez effectuer manuellement toutes les modifications. Lorsque vous insérez la table des matières automatique, vous devriez voir quelque chose comme ceci:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-contenu-word.png?resize=677%2C359" alt="Table de contenu dans Word" class="wp-image-1100"/></figure></div>
+
+
+<p>Impressionnant! Maintenant, vous avez un TOC joliment formaté dans votre document Word! Une fois que vous avez inséré le TOC, vous pouvez toujours modifier les en-têtes de votre document, mais les modifications ne seront pas automatiquement reflétées dans le TOC.</p>
 
 
 
-<p>2. Le style employé.<br>Anouilh a véritablement révolutionné le théâtre traditionnel en travestissant les règles qui le codifient. Il mêle avec aisance les genres dramatiques à tel point qu&rsquo;on n&rsquo;ose plus appeler la pièce une tragédie (car il y a tellement de scènes comiques), ni une comédie (étant donné que les personnages sont de sang royal), ni une tragicomédie (puisque l&rsquo;histoire se termine par un bain de sang), mais plutôt un drame. En outre, le langage est retravaillé, modernisé à telle enseigne que les personnages, bien que d&rsquo;origine antique, semblent très proches de nous. C&rsquo;est pour cette raison que la nourrice est un personnage créé de toute pièce. Enfin, quand les gardes ou Ismène parlent par exemple, ils emploient un langage familier truffé du vocabulaire du XX ème siècle. Le décor, les costumes et les objets bénéficient à leur tour du même traitement (souliers, robes de soie, nounours, rouge à lèvres&#8230;)</p>
+<p>Afin de mettre à jour la table des matières, il vous suffit de cliquer à l’intérieur de celle-ci, puis de cliquer sur Mettre à jour la table en haut.</p>
 
 
 
-<p>CONCLUSION.<br>En conclusion, nous pouvons dire que la pièce est étonnamment moderne, dans le style comme dans le thème ,même si le sujet est emprunté à un dramaturge antique tel que Sophocle. Antigone fait partie de ces oeuvres qu&rsquo;on lit et dont on a envie d&rsquo;assister à la représentation ; tellement le langage est travaillé avec simplicité, tellement l&rsquo;action théâtrale est bien enchaînée et tellement les personnages nous séduisent et nous émeuvent, qu&rsquo;on finit par se demander pourquoi l&rsquo;auteur n&rsquo;a pas emporté un prix Nobel de littérature&#8230;</p>
+<p>Il vous demandera si vous voulez mettre à jour uniquement les numéros de page ou la&nbsp;<strong>table entière</strong>. Si vous avez modifié, inséré ou supprimé des en-têtes, vous devez choisir la table entière. Si vous venez d’ajouter plus de contenu à votre document, mais que vous n’avez pas ajouté ou supprimé d’en-têtes, vous pouvez choisir uniquement&nbsp;<strong>les numéros de page</strong>.</p>
 
 
 
-<p></p>
+<h2>Personnaliser la table des matières</h2>
+
+
+
+<p>Si vous avez utilisé des titres autres que H1, H2 et H3, vous remarquerez qu’ils n’apparaîtront pas dans le TOC. Pour utiliser ces en-têtes supplémentaires, vous devez choisir&nbsp;<strong>Table des matières personnalisée</strong>&nbsp;lors de l’insertion de la table des matières.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/options-table-de-matiere.png?resize=517%2C463" alt="Option table de contenu dans Word" class="wp-image-1101"/></figure></div>
+
+
+<p>Cela ouvre la boîte de dialogue des options pour le TOC. Vous pouvez modifier certains paramètres de base, comme pour afficher les numéros de page et pour aligner ou non les numéros de droite. Sous&nbsp;<strong>Général</strong>, vous pouvez choisir parmi plusieurs styles et vous pouvez également choisir d’afficher plus de niveaux au-delà de trois, qui est le titre H3.</p>
+
+
+
+<p>Si vous cliquez sur&nbsp;<strong>Options</strong>, vous pouvez choisir des éléments supplémentaires pour construire la table des matières avec. Si vous faites défiler vers le bas, vous pourrez sélectionner l’en-tête des&nbsp;<strong>sous-titres</strong>&nbsp;et de&nbsp;<strong>la table des matières</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/toc-options-word.png?resize=369%2C319" alt="Option table de matiére" class="wp-image-1102"/></figure></div>
+
+
+<p>Pour personnaliser l’apparence de la table des matières, vous devez cliquer sur le bouton&nbsp;<strong>Modifier</strong>. Si vous cliquez simplement sur la table des matières et choisissez&nbsp;<strong>Police</strong>&nbsp;ou&nbsp;<strong>Paragraphe</strong>, il ne formate pas la table des matières.</p>
+
+
+
+<p>Lorsque vous cliquez sur Modifier, vous obtenez une autre boîte de dialogue où vous pouvez modifier chaque niveau de COT. TOC 1 représente H1, TOC 2 représente un groupe H2, etc.</p>
+
+
+
+<p>Cliquez sur le deuxième bouton&nbsp;<strong>Modifier</strong>&nbsp;et vous serez en mesure de modifier la mise en forme pour ce titre particulier. Donc, si vous voulez, vous pouvez faire toutes les rubriques H1 gras et une taille de police différente.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/modifier-style-toc.png?resize=526%2C539" alt="Modifier le style du table de matiére" class="wp-image-1103"/></figure></div>
+
+
+<p>Si vous cliquez sur le bouton&nbsp;<strong>Format</strong>&nbsp;en bas, vous pouvez personnaliser encore plus de paramètres comme le paragraphe, onglets, bordure, cadre, numérotation, etc Voici mon TOC avec H1 en gras et avec une taille de police plus grande.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-matiere-modifiee.png?resize=669%2C361" alt="Table de matière modifié" class="wp-image-1104"/></figure></div>
+
+
+<p>Enfin, si vous appuyez sur la touche CTRL et puis cliquez sur quoi que ce soit dans la table des matières, vous serez amené à cette page.</p>
+
+
+
+<p>Toutefois, si vous trouvez ennuyeux d’avoir à appuyer sur la touche CTRL, vous pouvez changer cela en allant à&nbsp;<strong>Fichier – Options</strong>&nbsp;et puis en cliquant sur Avancé.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ctrl-click-hyperlink.png?resize=559%2C316" alt="ctrl-click-hyperlink" class="wp-image-1105"/></figure></div>
+
+
+<p>Allez-y et décochez la case&nbsp;<strong>Utiliser CTRL + Cliquer pour suivre l’hyperlien</strong>. Maintenant, vous pouvez simplement cliquer sur les éléments de la table des matières comme des liens sans tenir la touche CTRL enfoncée. Malheureusement, cela ne fonctionne que sur votre copie locale de Word.</p>
+
+
+
+<p>Lorsque vous envoyez un courrier électronique à quelqu’un et si elles n’ont pas ce paramètre modifié, ils devront CTRL + clic. C’est à ce sujet quand il s’agit de la table des matières dans Word. Prendre plaisir!</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>LE ROMANTISME</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/le-romantisme/</link>
+		<title>Supprimer le formattage de text collé dans word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/supprimer-le-formattage-de-text-colle-dans-word/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:12:25 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=619</guid>
+		<pubDate>Tue, 21 Jun 2022 01:46:15 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[formattage text word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=706</guid>
 
-					<description><![CDATA[Premier mouvement artistique apparu au XIX ème siècle (peinture, musique et littérature), le romantisme est un courant entretenant des rapports étroits avec ceux qui l&#8217;ont précédé dans le temps : le préromantisme (XVIII ème siècle) et le classicisme (XVII ème siècle). Une relation de ressemblance avec le premier au point qu&#8217;un lien de sympathie unit&#8230;]]></description>
+					<description><![CDATA[Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&#160;Microsoft Word, Word permet de garder la mise en forme du texte. Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&#160;gras, et ce texte resterait&#160;bleu. Pour supprimer&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p><br>Premier mouvement artistique apparu au XIX ème siècle (peinture, musique et littérature), le romantisme est un courant entretenant des rapports étroits avec ceux qui l&rsquo;ont précédé dans le temps : le préromantisme (XVIII ème siècle) et le classicisme (XVII ème siècle). Une relation de ressemblance avec le premier au point qu&rsquo;un lien de sympathie unit le romantique aux devanciers. (Ils partagent les mêmes thèmes et le même style). Une relation d&rsquo;opposition à l&rsquo;encontre du second puisque le romantique juge les règles d&rsquo;écriture classique trop contraignantes qui bloquent, étouffent, anéantissent le génie  le talent, l&rsquo;inspiration de l&rsquo;écrivain. Et celui qui s&rsquo;est le plus érigé contre ces règles, celui qui a produit le plus d&rsquo;oeuvres, celui qui a traversé tout son siècle (surnommé pour cela  »l&rsquo;homme-océan ») a été incontestablement considéré comme chef de file : Victor Hugo. On peut citer d&rsquo;autres écrivains romantiques tels que Lamartine, Chateaubriand, Madame de Staël, George Sand, Musset, Vigny, Nerval, Michelet&#8230;</p>
-
-
-
 <p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word.jpg?resize=780%2C470&amp;ssl=1" alt="Microsoft Word"/></figure>
+
+
+
+<p>Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&nbsp;<strong>Microsoft Word</strong>, Word permet de garder la mise en forme du texte.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png?resize=256%2C256" alt="word-logo" class="wp-image-34"/></a></figure></div>
+
+
+<p>Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&nbsp;<strong>gras</strong>, et ce texte resterait&nbsp;<strong>bleu</strong>. Pour supprimer la mise en forme dans Microsoft Word à partir de n’importe quel texte en surbrillance le texte et appuyez sur la touche raccourci&nbsp;<strong>Ctrl + Espace</strong>. Cela mettra le texte à la police par défaut, supprimer la mise en forme, et même supprimer les liens.</p>
+
+
+
+<p>Sinon, vous pouvez utiliser l’option de Collage spécial dans Microsoft Word pour coller le texte sans formatage.</p>
+
+
+
+<p><strong>Astuce:</strong>&nbsp;Dans la plupart des versions de Windows&nbsp;<strong>Ctrl + Windows + V</strong>&nbsp;sera aussi souvent coller le texte en texte brut.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>LE SYMBOLISME.</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/le-symbolisme/</link>
+		<title>Comment ajouter ou supprimer une bordure de page dans Microsoft Word ?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-ajouter-ou-supprimer-une-bordure-de-page-dans-microsoft-word/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:11:41 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=617</guid>
+		<pubDate>Tue, 21 Jun 2022 01:44:50 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=704</guid>
 
-					<description><![CDATA[Bien après la seconde moitié du XIX ème siècle français, un courant littéraire est né pour succéder au Parnasse : le symbolisme.Ce nom de baptême nécessite un petit commentaire pour en comprendre le sens. Étymologiquement parlant, durant la Grèce antique, pour former ou matérialiser une relation (amicale, amoureuse, matrimoniale, parentale, nationale&#8230;), les gens avaient le&#8230;]]></description>
+					<description><![CDATA[Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D. Ajouter une bordure dans Microsoft Word Ouvrez Microsoft Word. Cliquez sur l’onglet&#160;Mise en page. Dans Word 2013 et 2016, cliquez&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Bien après la seconde moitié du XIX ème siècle français, un courant littéraire est né pour succéder au Parnasse : le symbolisme.<br>Ce nom de baptême nécessite un petit commentaire pour en comprendre le sens. Étymologiquement parlant, durant la Grèce antique, pour former ou matérialiser une relation (amicale, amoureuse, matrimoniale, parentale, nationale&#8230;), les gens avaient le pli (l&rsquo;habitude) de s&rsquo;échanger une poterie brisée (le  »symbôlon ») dont chacun gardait une partie.<br>Charles Baudelaire, Paul Verlaine, Arthur Rimbaud, Stéphane Mallarmé&#8230; en sont les auteurs incontournables. Trois principes fondamentaux sous-tendent ce mouvement littéraire.</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-bordure.jpg?resize=608%2C470&amp;ssl=1" alt=""/></figure>
 
 
 
-<p>PRINCIPE 1 : UNE ENTREPRISE DE SIGNIFICATION.<br>Le réel qui environne l&rsquo;humanité est peuplé de signes qui nous parlent dans un langage codé mais, hélas, inaudible, imperceptible pour le commun des mortels. Seul un oeil averti, un esprit observateur, une attention particulière portée sur les objets, en un mot un illuminé comme l&rsquo;artiste, le poète, est capable d&rsquo;en comprendre le sens profond sous la structure de surface. Combien de fois le sens commun observe-t-il les étapes d&rsquo;évolution d&rsquo;un arbre fruitier par exemple (semaille, germination, arborescence, bourgeonnement, défeuillaison, fin)? S&rsquo;est-on toujours demandé à quoi ces étapes successives ressemblent-elles ? N&rsquo;est-ce pas pareil à l&rsquo;évolution de l&rsquo;homme (spermatozoïde, naissance, jeunesse, reproduction, vieillesse, mort)?<br>Les symbolistes sont alors absolument convaincus que le rôle de l&rsquo;artiste consiste à découvrir (au sens propre comme au figuré), au grand bonheur des hommes, le sens caché des objets qui nous entourent. Voilà pourquoi ils utilisent les figures de substitution telles que la comparaison, la métaphore, la périphrase, l&rsquo;allégorie&#8230; pour représenter les lignes arrière, montrer les arbres que cache la forêt. C&rsquo;est aussi pour toutes ces raisons que Baudelaire disait dans un de ses poèmes des Fleurs du Mal (1857) intitulé  »Correspondances » :</p>
+<p>Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D.</p>
 
 
 
-<p> »La nature est un temple où de vivants piliers<br>Laissent parfois sortir de confuses paroles ;<br>L&rsquo;homme y passe à travers des forêts de symboles<br>Qui l&rsquo;observent avec des regards familiers ».</p>
+<span id="more-704"></span>
 
 
 
-<p>PRINCIPE 2 : UN COCKTAIL DE COURANTS<br>J&rsquo;ai une fois vu la publication d&rsquo;un internaute à propos de la différence physique entre les femmes. L&rsquo;internaute disait que ces dernières ont l&rsquo;apparence de la diversité des fruits : il y en a, en effet, qui sont vertes, jaunes, oranges, rouges&#8230; Le plus drôle, c&rsquo;est quand, après avoir juré qu&rsquo;elles sont toutes merveilleuses, il a regretté le comportement de certains hommes infidèles qui préfèrent, malgré tout, le cocktail, la salade de fruits. (Mdr !)<br>Justement, le symbolisme est un cocktail, par rapport aux écrivains&nbsp; français qui les ont précédés dans le temps et dont j&rsquo;avais énoncé les principes (les classiques, les romantiques, les réalistes et les naturalistes, les parnassiens).<br>Ainsi, en comparaison avec les premiers, les symbolistes partagent le souci du texte bien écrit, mais l&rsquo;inspiration n&rsquo;est pas forcément antique. Ces écrivains sont également sentimentaux comme les deuxièmes ; toutefois, leur projet d&rsquo;écriture ne consiste à s&rsquo;épancher. Les symbolistes sympathisent avec les troisièmes en s&rsquo;inspirant certes du réel (beau ou laid) mais le choix du roman exclusif est contestable. Enfin, les écrivains acclament la pureté du style prônée par les quatrièmes ; en revanche, ce culte du beau ne doit pas être seulement perçu par rapport à l&rsquo;objet ou à l&rsquo;objectif de l&rsquo;activité créatrice.</p>
+<h2>Ajouter une bordure dans Microsoft Word</h2>
 
 
 
-<p>PRINCIPE 3 : DIFFÉRENCES DE CONCEPTION ENTRE SYMBOLISTES.<br>Voici une génération d&rsquo;écrivains avec des différences de conception du texte littéraire. En d&rsquo;autres termes, ils ambitionnent tous de passer par la représentation des objets pour aboutir à l&rsquo;idée mais même si l&rsquo;approche est assez identique, la conception du texte diffère quelque peu.<br>Ainsi, la poésie des uns est assez explicite. L&rsquo;objet représenté de long en large, de sa structure de surface à sa structure profonde, aboutit à une signification exprimée par l&rsquo;auteur généralement à la chute (à la fin du poème). C&rsquo;est bien ce que nous remarquons dans  »L&rsquo;Albatros » de Baudelaire ou encore dans  »Le dormeur du val » de Rimbaud. Dans le premier poème, l&rsquo;auteur révèle que  »le poète est semblable au prince des nuées » (l&rsquo;oiseau) ; dans le second, l&rsquo;artiste montre combien le sommeil et la mort sont apparentés, à l&rsquo;instar de ce soldat qui a  »deux trous rouges au côté droit ».<br>Néanmoins, la poésie des autres reste hermétique parce que, pour eux, pour qu&rsquo;un signe conserve toute sa splendeur, il doit le demeurer. Il appartient donc au lecteur de faire un effort d&rsquo;interprétation pour saisir tout le sens de l&rsquo;objet représenté de façon implicite. C&rsquo;est pour cette raison que Mallarmé disait :  »toute chose sacrée qui veut demeurer sacrée s&rsquo;enveloppe de mystères ».</p>
+<ol><li>Ouvrez Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Encadré</strong>&nbsp;si vous souhaitez une bordure carrée autour de votre page.</li><li>Sélectionnez le style de bordure souhaité sur la page, qui peut être plein, pointillé. Sélectionnez la couleur et la largeur de la bordure. Cliquez sur la flèche vers le bas pour le menu déroulant&nbsp;<strong>Motif</strong>. Dans l’exemple ci-dessous, nous utilisons l’art des coeurs comme bordure.</li><li>Une fois que vous avez sélectionné toutes les options de bordure que vous souhaitez utiliser dans votre document, cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour appliquer la bordure.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-word.jpg?resize=563%2C427&amp;ssl=1" alt="microsoft-word-ajouter-supprimer-word" class="wp-image-6501"/></figure></div>
+
+
+<p><strong>Remarque</strong>&nbsp;: Par défaut, les bordures sont appliquées à l’ensemble du document, ce qui signifie que chaque page a la même bordure. En cliquant sur la flèche vers le bas sur Appliquer à, vous avez la possibilité de sélectionner uniquement la première page, la page sélectionnée, toutes les pages sauf la première page et d’autres options.</p>
 
 
 
-<p>LE MOT DE LA FIN.<br>Somme toute, le symbolisme est le courant littéraire qui a réussi à synthétiser tous les modèles de pensées et d&rsquo;écriture des générations précédentes.<br>En revanche, il a fait l&rsquo;objet de critiques car certains qualifiaient les écrivains qui s&rsquo;adonnaient à&nbsp; cette forme de littérature comme des gens qui encouragent la jeunesse au vice (drogue, sexualité, fugue, déviances, alcoolisme dont les mérites sont souvent vantés). Pour preuve, interprétons le titre du recueil poétique de Baudelaire (Les Fleurs du Mal).<br>Pourtant, ces écrivains restent persuadés qu&rsquo;ils promettent au monde une délivrance prométhéenne à la limite, en sortant l&rsquo;humanité des ténèbres pour la mener vers la lumière. D&rsquo;ailleurs, des écrivains du siècle suivant porteront encore ce flambeau : les surréalistes.</p>
+<h2>Supprimer une bordure dans Microsoft Word</h2>
 
 
 
-<p></p>
+<ol><li><strong>Ouvrez</strong>&nbsp;Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Aucun</strong>&nbsp;pour supprimer toute bordure sur la page.</li><li>Supprimer la bordure de page dans Microsoft Word</li><li>Cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour supprimer la bordure.</li></ol>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>LE RÉALISME ET LE NATURALISME.</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/20/le-realisme-et-le-naturalisme/</link>
+		<title>Comment utiliser Microsoft Office gratuitement sur le Web ?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-utiliser-microsoft-office-gratuitement-sur-le-web/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Mon, 20 Jun 2022 02:10:58 +0000</pubDate>
-				<category><![CDATA[EDUCATION]]></category>
-		<category><![CDATA[expose]]></category>
-		<category><![CDATA[philo]]></category>
-		<category><![CDATA[philosophie]]></category>
-		<category><![CDATA[roman]]></category>
-		<category><![CDATA[theatre]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=615</guid>
+		<pubDate>Tue, 21 Jun 2022 01:43:47 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=702</guid>
 
-					<description><![CDATA[Formule introductive : la révolution industrielle a connu son apogée au XIX ème siècle. Les découvertes scientifiques et techniques avaient vraiment secoué et préoccupé le monde européen dans tous les domaines d&#8217;activité (agriculture, transport, médecine&#8230;). Nonobstant, celles-ci avaient aussi l&#8217;air d&#8217;un couteau à double tranchant. En effet, autant elles ont sensiblement amélioré les conditions de&#8230;]]></description>
+					<description><![CDATA[Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web. Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&#160;Office gratuit pour les applications Web. Anciennement connu&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Formule introductive : la révolution industrielle a connu son apogée au XIX ème siècle. Les découvertes scientifiques et techniques avaient vraiment secoué et préoccupé le monde européen dans tous les domaines d&rsquo;activité (agriculture, transport, médecine&#8230;). Nonobstant, celles-ci avaient aussi l&rsquo;air d&rsquo;un couteau à double tranchant. En effet, autant elles ont sensiblement amélioré les conditions de vie (le travail était devenu moins fatigant et la production intensifiée et accélérée, on se déplaçait plus vite et plus confortablement, on ne mourait plus de certaines maladies&#8230;), autant elles ont également donné naissance aux classes sociales dont les forces sont inégales : la  bourgeoisie (moins nombreuse et plus riche) et le prolétariat (plus populeuse et plus pauvre).<br>Divorçant avec la littérature romantique (égoïste avec son lyrisme et imaginative avec ses fictions), une nouvelle génération d&rsquo;artistes préfère attacher plus de prix à la fidèle peinture du réel, à cette représentation de ce conflit de classes et de passions qui offre un sujet d&rsquo;inspiration inépuisable et qui lui semble plus utilitaire. C&rsquo;est ainsi que le réalisme est né, un mouvement artistique qui se prolongera dans le temps pour s&rsquo;appeler naturalisme. Parmi les plus grands auteurs de ce courant littéraire, on doit citer Honoré de BALZAC, Henri BEYLE (Stendhal), Gustave FLAUBERT, les frères GONCOURT (Jules et Edmond), Guy de MAUPASSANT, Émile ZOLA&#8230;<br>Voici, très brièvement résumés, quatre principes fondamentaux du réalisme et du naturalisme.</p>
-
-
-
-<p>PRINCIPE 1 : LA REPRÉSENTATION DU RÉEL.<br>Au tribunal, quand on attrait un témoin à la barre, avant tout, on lui fait jurer, la main sur le texte sacré, de dire la vérité, toute la vérité, rien que la vérité (comme dans  »rirou tribunal »<img alt="&#x1f602;" src="https://fonts.gstatic.com/s/e/notoemoji/14.0/1f602/32.png">). C&rsquo;est à peu près cela aussi, le projet de départ de l&rsquo;écrivain réaliste : la volonté de représenter le plus fidèlement possible la réalité, rien que la réalité, toute la réalité. Pour y parvenir, il puise son sujet, sa source d&rsquo;inspiration, dans les faits divers, le vécu quotidien, les bas-fonds. Pour ce faire, il s&rsquo;adonne à une patiente et obsédante documentation (en notant tout, en lisant tout, en interrogeant tout&#8230;). Ce n&rsquo;est qu&rsquo;après ce travail souterrain qu&rsquo;il commence véritablement la rédaction de l&rsquo;oeuvre qui sort de sa plume comme un enfant du ventre de sa mère ! Gustave Flaubert est passé maître dans la patience de mettre par écrit ses oeuvres d&rsquo;art, surtout lorsqu&rsquo;on lit ses fameuses Correspondances où il en parle.</p>
-
-
-
-<p>PRINCIPE 2 : LA LITTÉRATURE DE L&rsquo;HORREUR.<br>Beaucoup de contemporains du réalisme ne partageaient pas tellement cette nouvelle tendance de l&rsquo;artiste qui n&rsquo;éprouve aucun scrupule à restituer si crûment, si indifféremment, la réalité cruelle. En effet, ces écrivains affectionnaient particulièrement la représentation de scènes liées à la saleté, la sexualité, au manque de morale, à la violence&#8230; Ils étaient alors qualifiés de malpropres (comme chez les pauvres), d&rsquo;obscènes (comme chez les arrivistes coureurs de jupons), d&rsquo;immoraux (comme chez les chefs d&rsquo;entreprise), de sadiques (comme chez les grévistes ou les hommes de tenue)&#8230; Mais nous en comprenons la raison : c&rsquo;est parce que ces écrivains ne veulent point trahir leur projet de départ, en particulier la représentation de toute la réalité, adhérant par la même occasion à la conception du monde tel que l&rsquo;entend la philosophie chinoise du yin et du yang ; ce bas-monde tient son équilibre d&rsquo;une chose et de son contraire, à l&rsquo;instar de la beauté qui cohabite avec la laideur, à cette  »horreur », synonyme du mal observé sous tous les angles, même sentimentaux. Il suffit de lire L&rsquo;Assommoir de Émile Zola pour s&rsquo;en convaincre.</p>
-
-
-
-<p>PRINCIPE 3 : L&rsquo;IMPERSONNALITÉ.<br>On dit d&rsquo;un écrivain qu&rsquo;il est impersonnel lorsqu&rsquo;il se garde de toute apparition dans son texte (physique, avisée, visionnaire). Les réalistes et les naturalistes sont comme des photographes de leur époque, et un photographe n&rsquo;est intéressé que par son objectif. Toutefois, ils sont très engagés même s&rsquo;ils adoptent une posture d&rsquo;objectivité, de neutralité absolue. Pour preuve, Émile ZOLA disait : « j&rsquo;aurais voulu aplatir le monde, d&rsquo;un coup de ma plume, en forgeant des fictions utiles ». Quand le romantique est engagé avec un  »je », le réalisme s&rsquo;en défend et fait juste voir les injustices dont les bourgeois sont les responsables et les prolétaires les victimes. Cet engagement objectif se perçoit aussi dans cette citation des frères GONCOURT qui affirment : « l&rsquo;écrivain doit être dans son livre comme la police dans une ville, partout et nulle part ». Gustave FLAUBERT ira beaucoup plus loin lorsqu&rsquo;il ordonne : « l&rsquo;artiste doit être dans son oeuvre comme Dieu dans la création ; présent partout et visible nulle part, qu&rsquo;on le sente mais qu&rsquo;on ne le voie pas ». J&rsquo;ai exploité avec mes élèves un passage textuel de Germinal (1885) qui représente la scène de rencontre d&rsquo;Étienne (personnage principal) et Bonnemort (doyen des ouvriers mineurs). En le subdivisant en trois mouvements (les présentations, le portrait du vieil homme et la carrière de celui-ci), on s&rsquo;est rendu compte que le premier est effectué par les deux personnages ; le deuxième s&rsquo;échafaude sous le regard médusé d&rsquo;Étienne ; le troisième est parcouru, retracé par Bonnemort. Nulle part Émile Zola n&rsquo;apparaît, grâce à l&rsquo;usage exclusif de la focalisation interne.</p>
-
-
-
-<p>PRINCIPE 4 : LE CHOIX DU ROMAN.<br>C&rsquo;est devenu comme un pléonasme (une répétition inutile) quand on emploie l&rsquo;expression  »romancier réaliste » parce que l&rsquo;écrasante majorité des réalistes et naturalistes fait usage des romans. Pourquoi le choix exclusif de ce genre littéraire au détriment des autres ? C&rsquo;est parce que la poésie est trop réglementaire et ceux qui l&#8217;emploient l&rsquo;utilisent généralement pour la description. C&rsquo;est parce que le théâtre se consacre essentiellement à la représentation des scènes de dialogue. C&rsquo;est plutôt le roman qui permet le mieux, et plus aisément, de restituer fidèlement le réel sous tous ses angles, selon les nécessités esthétiques, en harmonisant toutes ces formes textuelles conjuguées. En effet, là, l&rsquo;écrivain est capable de produire des passages descriptifs, des séquences narratives, des scènes de dialogue, selon l&rsquo;exigence stylistique qui s&rsquo;impose dans l&rsquo;oeuvre et surtout son lien avec le projet de départ : la réalité, rien que la réalité, toute la réalité. Pour preuve, toujours dans le même passage textuel de Germinal cité plus haut <img alt="&#x1f446;" src="https://fonts.gstatic.com/s/e/notoemoji/14.0/1f446/32.png">, les présentations se déroulent sous forme de DIALOGUE, le portrait n&rsquo;est qu&rsquo;une variante de la DESCRIPTION et la carrière est parcourue sous forme de NARRATION.</p>
-
-
-
-<p>Le mot de la fin :<br>Jusqu&rsquo;à la fin du siècle, le réalisme et le naturalisme n&rsquo;étaient pas démodés. Mieux encore, au XX ème siècle, une nouvelle génération les propulse beaux plus en avant : les surréalistes . Que dire de ces deux noms de baptême ? Existe-t-il une différence entre eux ? À la place de différence, il faut préférer le terme  »prolongation ». Si le réalisme était très enclin à la description du réel, le naturalisme le prolonge dans cette voie jusqu&rsquo;à donner à cette littérature une portée, un procédé presque scientifique à la limite. Quoi qu&rsquo;il en soit, la différence est bien maigre.</p>
-
-
-
 <p></p>
 
 
 
-<p></p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=727%2C404&amp;ssl=1" alt="microsoft-office-en-ligne"/></figure>
 
 
 
-<p></p>
-]]></content:encoded>
+<p>Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web.</p>
+
+
+
+<span id="more-702"></span>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=708%2C393&amp;ssl=1" alt="microsoft-office-en-ligne" class="wp-image-6508"/></figure></div>
+
+
+<p>Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&nbsp;<strong>Office gratuit pour les applications Web</strong>.</p>
+
+
+
+<p>Anciennement connu sous le nom d’<strong>Office Online</strong>&nbsp;et maintenant simplement appelé Office, les applications Web résident en ligne, accessibles via votre navigateur. Au lieu d’installer Word, Excel et PowerPoint sur votre ordinateur, vous utilisez des variétés basées sur le cloud des différents programmes – similaires à Google Docs – et tout ce dont vous avez besoin est un navigateur Web tel que Chrome, Firefox, Edge, Internet Explorer ou un programme similaire.</p>
+
+
+
+<p>Au lieu de stocker vos fichiers et documents sur votre ordinateur, vous les enregistrez sur&nbsp;<strong>Microsoft OneDrive</strong>, le service de stockage en nuage de l’entreprise. Le seul inconvénient est que Office pour les applications Web n’est pas aussi riche en fonctionnalités que leurs homologues de bureau. Vous trouverez des commandes d’édition et de formatage de base, mais pas beaucoup plus. Cependant, si tout ce dont vous avez besoin sont les bases, c’est une option qui mérite d’être essayée.</p>
+
+
+
+<p>Office pour le Web propose les quatre programmes principaux: Word, Excel, PowerPoint et OneNote. Mais vous pouvez également accéder à d’autres applications, notamment Outlook, Calendar, People, Skype et OneDrive. Une autre application appelée Sway vous permet de créer des rapports et des présentations interactifs.</p>
+
+
+
+<p>Passons en revue les étapes d’accès et d’utilisation d’<strong>Office pour les applications Web</strong> pour créer, modifier et enregistrer vos documents.</p>
+
+
+
+<h2>Comment utiliser Microsoft Office gratuitement</h2>
+
+
+
+<p>Tout d’abord, vous aurez besoin d’un compte Microsoft. Si vous n’en avez pas déjà un, configurez-le sur le site Web du compte Microsoft. Un compte Microsoft est livré avec 5 Go de stockage OneDrive gratuit; si vous en avez besoin de plus, vous pouvez récupérer 100 Go pour 1,99 $ par mois.</p>
+
+
+
+<p>Accédez au&nbsp;<a href="https://products.office.com/fr-FR/free-office-online-for-the-web" target="_blank" rel="noreferrer noopener">site Web Office</a>&nbsp;et cliquez sur&nbsp;<strong>Utiliser l’application gratuitement sur Office.com</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/utiliser-microsoft-office-en-ligne.jpg?resize=664%2C383&amp;ssl=1" alt="utiliser-microsoft-office-en-ligne" class="wp-image-6509"/></figure></div>
+
+
+<p>Connectez-vous avec votre compte Microsoft et vous serez redirigé vers le site Web d’Office.</p>
+
+
+
+<p>En haut, vous verrez des applications comme Word, Excel, PowerPoint et Outlook. Une fois que vous avez commencé à créer et à enregistrer des fichiers Office, ceux-ci apparaîtront en bas de la page sous forme de documents récents afin que vous puissiez y accéder plus facilement et plus rapidement.</p>
+
+
+
+<h2>Créer un document Word</h2>
+
+
+
+<p>Nous utiliserons Word comme sujet de test ici. Cliquez dessus et une page s’ouvre où vous pouvez sélectionner un modèle pour créer votre document ou fichier. Par exemple, Word propose des modèles de curriculum vitae, lettres de motivation, dépliants et calendriers. Si vous n’avez pas besoin d’un modèle spécial, cliquez simplement sur Nouveau document vierge.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne.jpg?resize=694%2C343&amp;ssl=1" alt="microsoft-word-en-ligne" class="wp-image-6510"/></figure></div>
+
+
+<p>Word s’ouvre pour que vous puissiez commencer à créer votre document; vous trouverez toutes les options d’édition de base via la barre d’outils. Par exemple, vous pouvez: définir la police, la taille en points et d’autres attributs de votre texte ainsi qu’appliquer certains styles; insérer des tableaux, des images, des numéros de page et des en-têtes et pieds de page; ajustez la taille de la page, les marges et l’orientation; effectuer un zoom avant et arrière sur votre document; et lancez une vérification d’orthographe.</p>
+
+
+
+<p><a rel="noreferrer noopener" href="https://astuces-informatique.com/supprimer-un-mot-a-la-fois-dans-microsoft-word/" target="_blank"></a></p>
+
+
+
+<p>Votre document prend le nom par défaut Document 1, Document 2, etc. Pour modifier le nom, cliquez dans le nom de fichier en haut du document et saisissez-en un nouveau. Votre document est automatiquement enregistré périodiquement, mais vous souhaiterez peut-être l’enregistrer manuellement à un emplacement spécifique dans OneDrive.</p>
+
+
+
+<p>Cliquez sur le menu&nbsp;<strong>Fichier</strong>, sélectionnez la commande&nbsp;<strong>Enregistrer sous</strong>, puis sélectionnez Enregistrer sous et choisissez l’emplacement dans lequel vous souhaitez enregistrer le fichier. Vous pouvez également télécharger le fichier sur votre PC, sous forme de document Word ou PDF. Le menu Fichier vous donne également la possibilité d’imprimer le document ou de le partager avec d’autres personnes en leur envoyant un lien par e-mail.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/word-en-ligne-enregistrer-sous.jpg?resize=685%2C340&amp;ssl=1" alt="word-en-ligne-enregistrer-sous" class="wp-image-6511"/></figure></div>
+
+
+<h2>Ouvrez un fichier que vous avez créé précédemment</h2>
+
+
+
+<p>Pour ouvrir un fichier que vous avez déjà créé, cliquez sur la commande&nbsp;<strong>Ouvrir</strong>&nbsp;et choisissez parmi les documents récents.</p>
+
+
+
+<p>Les versions en ligne d’Excel, PowerPoint et OneNote fonctionnent de manière similaire à Word en ce qu’elles offrent toutes les commandes et fonctionnalités de base. Vous pouvez accéder à une autre application Office sans fermer votre application actuelle.</p>
+
+
+
+<p>Pour ce faire, cliquez sur le bouton «&nbsp;Liste des services Microsoft&nbsp;» dans le coin supérieur gauche (c’est celui qui contient neuf petits carrés) puis sélectionnez l’application que vous souhaitez ouvrir. Étant donné que les programmes et vos fichiers sont tous en ligne, vous pouvez y accéder depuis n’importe quel ordinateur ou appareil connecté.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne-ouvrir-document.jpg?resize=630%2C371&amp;ssl=1" alt="microsoft-word-en-ligne-ouvrir-document" class="wp-image-6512"/></figure></div>]]></content:encoded>
 					
 		
 		

@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/html/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Mon, 20 Jun 2022 03:27:30 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 03:06:22 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,6 +34,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:03:10 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=213</guid>
 
 					<description><![CDATA[En HTML certains caractères ne sont pas visualisés correctement comme par exemple : ô, ï &#8230; Afin de pallier au problème, ce dernier est doté d&#8217;un code spécifique pour chaque caractère spécial, par exemple : &#38;eacute;&#160;&#160;designe&#160; le code du caractère : &#160;&#160;&#160;é &#38;eagrave;&#160; designe le code du caractère&#160; : &#160;&#160;è Ainsi pour écrire le code HTML&#8230;]]></description>
@@ -87,6 +88,7 @@
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:01:56 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=211</guid>
 
 					<description><![CDATA[En HTML un formulaire a pour principale objectif l&#8217;envoie des informations d&#8217;un poste client vers un serveur web. &#8211; Un formulaire est déclaré à l&#8217;aide du balisage : A l&#8217;intérieur d&#8217;un formulaire on trouve généralement des&#160;champs de textes, des textarea et des boutons&#160;pour envoyer ou annuler l&#8217;envoie des informations &#8211; Un&#160;champ de texte&#160;se déclare à&#8230;]]></description>
@@ -180,6 +182,7 @@ Message: &lt;textarea name="message"&gt;&lt;/textarea&gt;&lt;br /&gt;
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 17:01:04 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=209</guid>
 
 					<description><![CDATA[Afin de pouvoir bien organiser l&#8217;affichage des pages web, le langage HTML est doté d&#8217;un nombre de balises permettant d&#8217;organiser et et présenter le contenu sous forme d&#8217;une liste. 1 &#8211; Les listes ordonnées Pour organiser un contenu web sous forme d&#8217;une liste ordonnée, on utilise la balise&#160;&#60;ol&#62;&#160;( ordered list ), et ensuite chaque élément&#8230;]]></description>
@@ -430,6 +433,7 @@ ou provisoire à chaque appareil connecté
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:56:21 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=203</guid>
 
 					<description><![CDATA[1 &#8211; La balise &#60;table&#62; Un tableau est déclaré en langage HTML à l&#8217;aide des balises &#60;TABLE&#62; et &#60;/TABLE&#62; On peut ajouter des caractéristique à la balise &#60;TABLE&#62; afin de spécifier la hauteur, largeur, bordure, couleur , … Exemple Définit un tableau avec la bordure 1 largeur 500 hauteur 300 couleur jaune 2 &#8211; Insertion&#8230;]]></description>
@@ -618,6 +622,7 @@ ou provisoire à chaque appareil connecté
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:53:08 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=200</guid>
 
 					<description><![CDATA[1 &#8211; Les attributs de la balise body Grâces aux attributs de la balise &#60;body&#62; vous pouvez mettre une couleur ou une image en arrière plan, établire un style sur vos liens hypertextes&#8230;Voici les principaux attributs et leurs effets : Arrière plan avec la couleur spécifiée On peut spécifier la couleur d&#8217;arrière plan d&#8217;une page&#8230;]]></description>
@@ -731,6 +736,7 @@ ou provisoire à chaque appareil connecté
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:49:19 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=196</guid>
 
 					<description><![CDATA[1 &#8211; La balise&#160; d&#8217;insertion d&#8217;images &#60;img&#62; La balise &#60;IMG&#62; indique au browser qu&#8217;il faut afficher une image. Cette balise s&#8217;utilise toujours avec l&#8217;attribut SRC (source) qui permet de donner l&#8217;adresse de l&#8217;image à lire. Cette adresse aura le même format qu&#8217;une adresse A HREF= » » et pourra donc être soit relative, soit fixe. En principe,&#8230;]]></description>
@@ -847,6 +853,7 @@ ou provisoire à chaque appareil connecté
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:48:02 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=194</guid>
 
 					<description><![CDATA[Dans le but&#160; de facilité la navigation de page en page sur le web, le langage HTML nous offre la possibilité de créer des liens&#160; qu&#8217;on appelle liens hypertextes 1 &#8211; Lien vers une adresse URL Un lien hypertexte est définie par les balises La syntaxe est : Exemple&#160;: lien externe vers Yahoo: Ce qui&#8230;]]></description>
@@ -970,6 +977,7 @@ ou provisoire à chaque appareil connecté
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:45:04 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=192</guid>
 
 					<description><![CDATA[1 &#8211; Les principales balises HTML&#160; de mise en forme d&#8217;un texte HTML est doté de nombreuses balises pour agir sur la mise en forme d&#8217;un texte, nous n&#8217;allons citer ici que les balises les plus utilisées : Balise Effet Résultat &#60;b&#62;Texte&#60;/b&#62; Ecrire en gras Texte &#60;i&#62;Texte&#60;/i&#62; Texte en italique Texte &#60;u&#62;Texte&#60;/u&#62; Texte souligné Texte&#8230;]]></description>
@@ -1110,6 +1118,7 @@ Si vous avez une &lt;u&gt; question &lt;/u&gt; posez la dans le &lt;font color="
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:36:26 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=184</guid>
 
 					<description><![CDATA[1 &#8211; Les balises d&#8217;un document HTML 2 &#8211; Structure d&#8217;un document HTML Structure d&#8217;un document HTML 3 &#8211; Visualisation d&#8217;une page HTML Pour visualiser une page HTML, plusieurs solutions s&#8217;offrent à vous, nous allons vous donner la plus simple! Lancez l&#8217;editeur de page web Dreamweaver CS6: Cliquez ensuite sur le bouton&#160;HTML&#160;en haut afin de&#8230;]]></description>
@@ -1192,6 +1201,7 @@ Voici un exemple de page HTML
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2022 16:32:37 +0000</pubDate>
 				<category><![CDATA[HTML]]></category>
+		<category><![CDATA[html]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=182</guid>
 
 					<description><![CDATA[1 &#8211; Introduction HTML est le sigle de hypertext Markup language : langage utilisé pour coder des fichiers textes en vue d&#8217;une utilisation sur des systèmes hypertext (technique créant des liens entre données de types différents tel que : texte ↔ image , texte ↔ fichier multimédia . . .Pour créer une page web, au&#8230;]]></description>

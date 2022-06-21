@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Informatiques &#8211; SIBY INFORMATIQUE</title>
+	<title>Astuces ,Trucs &#8211; SIBY INFORMATIQUE</title>
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/informatiques/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Mon, 20 Jun 2022 10:48:21 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 02:57:54 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,1175 +22,1860 @@
 
 <image>
 	<url>https://sibylassana95.github.io/mon-blog/wp-content/uploads/2022/06/cropped-sibyglobal-32x32.jpg</url>
-	<title>Informatiques &#8211; SIBY INFORMATIQUE</title>
+	<title>Astuces ,Trucs &#8211; SIBY INFORMATIQUE</title>
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>Conversion de nombres</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/conversion-de-nombres/</link>
+		<title>Touches inversées : changer un clavier QWERTY en AZERTY sous Windows</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/touches-inversees-changer-un-clavier-qwerty-en-azerty-sous-windows/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:29:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 02:49:29 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=725</guid>
 
-					<description><![CDATA[Décimal à un autre système de base Autre système de base en décimal Autre système de base non décimal Méthode de raccourci &#8211; Binaire vers Octal Méthode de raccourci &#8211; Octal vers binaire Méthode de raccourci &#8211; Binaire à hexadécimal Méthode de raccourci &#8211; Hexadécimal à binaire     Décimal à un autre système de&#8230;]]></description>
+					<description><![CDATA[Nous avons déjà parlé des r raccourcis clavier qui sont souvent très pratiques au quotidien que cela soit pour surfer sur le web ou pour travailler. Ils peuvent parfois aussi nous jouer des tours comme pour le raccourci clavier qui permet sous Windows de basculer son clavier de l’AZERTY en QWERTY.Mon fils en s’amusant sur le clavier de mon&#8230;]]></description>
 										<content:encoded><![CDATA[
-<ul><li>Décimal à un autre système de base</li><li>Autre système de base en décimal</li><li>Autre système de base non décimal</li><li>Méthode de raccourci &#8211; Binaire vers Octal</li><li>Méthode de raccourci &#8211; Octal vers binaire</li><li>Méthode de raccourci &#8211; Binaire à hexadécimal</li><li>Méthode de raccourci &#8211; Hexadécimal à binaire</li></ul>
+<p>Nous avons déjà parlé des <a rel="noreferrer noopener" href="https://www.astuces-aide-informatique.info/198/raccourcis-clavier" target="_blank">r</a> raccourcis clavier qui sont souvent très pratiques au quotidien que cela soit pour surfer sur le web ou pour travailler. Ils peuvent parfois aussi nous jouer des tours comme pour le raccourci clavier qui permet sous Windows de basculer son clavier de <strong>l’AZERTY</strong> en <strong>QWERTY</strong>.<br>Mon fils en s’amusant sur le clavier de mon ordinateur a ainsi réussi, sans le vouloir, à inverser la disposition du clavier :  en tapant la lettre <kbd>A</kbd>, par exemple, il s’affichait sur l’écran la lettre <kbd>Q</kbd>. Il venait, sans le savoir, de changer la langue du clavier par inadvertance en basculant le clavier AZERTY en clavier QWERTY, le clavier anglophone. Quelles sont donc les <strong>différences entre ces deux claviers</strong> ? Comment <strong>remettre mon clavier  en Azerty</strong> ?</p>
 
 
-<div dir="auto">
-<h1 style="text-align: center;"> </h1>
-</div>
-<p><span id="more-31"></span></p>
-<p> </p>
-<div dir="auto">
-<h2>Décimal à un autre système de base</h2>
-<p style="font-size: medium;"><b>Étape 1</b> &#8211; Divisez le nombre décimal à convertir par la valeur de la nouvelle base.</p>
-<p style="font-size: medium;"><b>Étape 2</b> &#8211; Obtenez le reste de l&rsquo;étape 1 comme le chiffre le plus à droite (chiffre le moins significatif) du nouveau numéro de base.</p>
-<p style="font-size: medium;"><b>Étape 3</b> &#8211; Divisez le quotient de la division précédente par la nouvelle base.</p>
-<p style="font-size: medium;"><b>Étape 4</b> &#8211; Enregistrez le reste de l&rsquo;étape 3 comme chiffre suivant (à gauche) du nouveau numéro de base.</p>
-<p style="font-size: medium;">Répétez les étapes 3 et 4, en obtenant les restes de droite à gauche, jusqu&rsquo;à ce que le quotient devienne zéro à l&rsquo;étape 3.</p>
-<p style="font-size: medium;">Le dernier reste ainsi obtenu sera le chiffre le plus significatif (MSD) du nouveau numéro de base.</p>
-<p> </p>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Nombre décimal: 29 <sub>10</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 133px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Opération</th>
-<th>Résultat</th>
-<th>Reste</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>29/2</td>
-<td>14</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>14/2</td>
-<td>sept</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>7/2</td>
-<td>3</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Étape 4</td>
-<td>3/2</td>
-<td>1</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Étape 5</td>
-<td>1/2</td>
-<td>0</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Comme mentionné aux étapes 2 et 4, les restes doivent être disposés dans l&rsquo;ordre inverse de sorte que le premier reste devienne le chiffre le moins significatif (LSD) et le dernier reste le chiffre le plus significatif (MSD).</p>
-<p style="font-size: medium;">Nombre décimal: 29 <sub>10</sub> = Nombre binaire: 11101 <sub>2.</sub></p>
-<h2>Autre système de base au système décimal</h2>
-<p style="font-size: medium;"><b>Étape 1</b> &#8211; Déterminez la valeur de colonne (positionnelle) de chaque chiffre (cela dépend de la position du chiffre et de la base du système numérique).</p>
-<p style="font-size: medium;"><b>Étape 2</b> &#8211; Multipliez les valeurs de colonne obtenues (à l&rsquo;étape 1) par les chiffres des colonnes correspondantes.</p>
-<p style="font-size: medium;"><b>Étape 3</b> &#8211; Additionnez les produits calculés à l&rsquo;étape 2. Le total est la valeur équivalente en décimal.</p>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Nombre binaire: 11101 <sub>2</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 197.18px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Nombre binaire</th>
-<th>Nombre décimal</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>11101 <sub>2</sub></td>
-<td>((1 x 2 <sup>4</sup> ) + (1 x 2 <sup>3</sup> ) + (1 x 2 <sup>2</sup> ) + (0 x 2 <sup>1</sup> ) + (1 x 2 <sup>0</sup> )) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>11101 <sub>2</sub></td>
-<td>(16 + 8 + 4 + 0 + 1) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>11101 <sub>2</sub></td>
-<td>29 <sub>10</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Nombre binaire: 11101 <sub>2</sub> = Nombre décimal: 29 <sub>10</sub></p>
-<h2>Autre système de base au système non décimal</h2>
-<p style="font-size: medium;"><b>Étape 1</b> &#8211; Convertissez le nombre d&rsquo;origine en nombre décimal (base 10).</p>
-<p style="font-size: medium;"><b>Étape 2</b> &#8211; Convertissez le nombre décimal ainsi obtenu en nouveau nombre de base.</p>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
-<h3>Étape 1 &#8211; Convertir en décimal</h3>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 101.914px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Numéro octal</th>
-<th>Nombre décimal</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>25 <sub>8</sub></td>
-<td>((2 x 8 <sup>1</sup> ) + (5 x 8 <sup>0</sup> )) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>25 <sub>8</sub></td>
-<td>(16 + 5) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>25 <sub>8</sub></td>
-<td>21 <sub>10</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Nombre octal: 25 <sub>8</sub> = Nombre décimal: 21 <sub>10</sub></p>
-<h3>Étape 2 &#8211; Conversion décimale en binaire</h3>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 133px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Opération</th>
-<th>Résultat</th>
-<th>Reste</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>21/2</td>
-<td>dix</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>10/2</td>
-<td>5</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>5/2</td>
-<td>2</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Étape 4</td>
-<td>2/2</td>
-<td>1</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Étape 5</td>
-<td>1/2</td>
-<td>0</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Nombre décimal: 21 <sub>10</sub> = Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
-<h2>Méthode de raccourci ─ Binaire en octal</h2>
-<p style="font-size: medium;"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de trois (en commençant par la droite).</p>
-<p style="font-size: medium;"><b>Étape 2</b> &#8211; Convertissez chaque groupe de trois chiffres binaires en un chiffre octal.</p>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent octal &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Nombre binaire</th>
-<th>Numéro octal</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>10101 <sub>2</sub></td>
-<td>010 101</td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>10101 <sub>2</sub></td>
-<td>2 <sub>8</sub> 5 <sub>8</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>10101 <sub>2</sub></td>
-<td>25 <sub>8</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub> = Nombre octal: 25 <sub>8</sub></p>
-<h2>Méthode de raccourci ─ Octal vers binaire</h2>
-<p style="font-size: medium;"><b>Étape 1</b> &#8211; Convertissez chaque chiffre octal en un nombre binaire à 3 chiffres (les chiffres octaux peuvent être traités comme des nombres décimaux pour cette conversion).</p>
-<p style="font-size: medium;"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 3 chiffres chacun) en un seul nombre binaire.</p>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Numéro octal</th>
-<th>Nombre binaire</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>25 <sub>8</sub></td>
-<td>2 <sub>10</sub> 5 <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>25 <sub>8</sub></td>
-<td>010 <sub>2</sub> 101 <sub>2</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>25 <sub>8</sub></td>
-<td>010101 <sub>2</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Numéro octal: 25 <sub>8</sub> = Nombre binaire: 10101 <sub>2</sub></p>
-<h2>Méthode de raccourci ─ Binaire à Hexadécimal</h2>
-<p style="font-size: medium;"><b>Étape 1</b> &#8211; Divisez les chiffres binaires en groupes de quatre (en commençant par la droite).</p>
-<p style="font-size: medium;"><b>Étape 2</b> &#8211; Convertissez chaque groupe de quatre chiffres binaires en un symbole hexadécimal.</p>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent hexadécimal &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Nombre binaire</th>
-<th>Nombre hexadécimal</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>10101 <sub>2</sub></td>
-<td>0001 0101</td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>10101 <sub>2</sub></td>
-<td>1 <sub>10</sub> 5 <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>10101 <sub>2</sub></td>
-<td>15 <sub>16</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub> = Nombre hexadécimal: 15 <sub>16</sub></p>
-<h2>Méthode de raccourci &#8211; Hexadécimal à binaire</h2>
-<p style="font-size: medium;"><b>Étape 1</b> &#8211; Convertissez chaque chiffre hexadécimal en un nombre binaire à 4 chiffres (les chiffres hexadécimaux peuvent être traités comme décimaux pour cette conversion).</p>
-<p style="font-size: medium;"><b>Étape 2</b> &#8211; Combinez tous les groupes binaires résultants (de 4 chiffres chacun) en un seul nombre binaire.</p>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Nombre hexadécimal: 15 <sub>16</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent binaire &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 98.5859px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Nombre hexadécimal</th>
-<th>Nombre binaire</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>15 <sub>16</sub></td>
-<td>1 <sub>10</sub> 5 <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>15 <sub>16</sub></td>
-<td>0001 <sub>2</sub> 0101 <sub>2</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>15 <sub>16</sub></td>
-<td>00010101 <sub>2</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;">Nombre hexadécimal: 15 <sub>16</sub> = Nombre binaire: 10101 <sub>2</sub></p>
-</div>
-<p><!--more--></p>
+
+<h2>Différence entre le clavier AZERTY et le clavier QWERTY</h2>
 
 
-<p>Il existe de nombreuses méthodes ou techniques qui peuvent être utilisées pour convertir des nombres d&rsquo;une base à une autre.&nbsp;Dans ce chapitre, nous allons démontrer ce qui suit &#8211;</p>
+
+<span id="more-725"></span>
+
+
+
+<p><strong>La disposition des lettres du clavier change selon les pays</strong>&nbsp;: en France et en Belgique, le clavier est appelé&nbsp;<strong><em>AZERTY</em></strong>,&nbsp;<strong>du nom des six premières lettres de la rangée alphabétique supérieure du clavier</strong>. Il comprend bien sûr les accents et caractères spéciaux liés à la langue française<em>.</em></p>
+
+
+
+<p>Le clavier AZERTY est cependant loin d’être la norme dans le monde, de nombreux pays comme les États-Unis, l’Angleterre, l’Espagne ou encore l’Europe du Nord utilisent plutôt le clavier&nbsp;<strong><em>QWERTY</em></strong>, hérité de l’époque des machines à écrire. Les lettres étaient ainsi disposées pour limiter le blocage des tiges de la machine à écrire. Les claviers Qwerty sont par conséquent les plus utilisés dans le monde.</p>
+
+
+
+<p>On se retrouve vite perdu en utilisant un clavier où les lettres, chiffres et ponctuation ne sont pas disposées comme on en a l’habitude, même sur le meilleur ordinateur de bureau.</p>
+
+
+
+<p>Voici ci-dessous la disposition des touches des deux claviers. Vous verrez que les les touches ne sont disposées de la même façon :</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/disposition-clavier-qwerty-750x267.jpg" alt="La disposition des touches d'un clavier QWERTY" class="wp-image-14332"/></figure>
+
+
+
+<p>La disposition des touches d’un clavier QWERTY</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/disposition-clavier-azerty-750x254.jpg" alt="La disposition des touches d'un clavier AZERTY" class="wp-image-14331"/></figure>
+
+
+
+<p>La disposition des touches d’un clavier AZERTY</p>
+
+
+
+<h2>Changer un clavier QWERTY en AZERTY ou basculer son clavier de l’AZERTY en QWERTY sous Windows</h2>
+
+
+
+<p>Il existe  sous windows (Windows 11, Windows 10, Windows 8, Windows 7, Windows Vista etc…) une astuce toute simple qui permet de passer son clavier QWERTY en AZERTY et inversement, du clavier français ou clavier anglais.</p>
+
+
+
+<p>Pour changer la disposition des touches, il suffit pour basculer d’un clavier à un autre d’utiliser une des combinaisons de touches suivantes :</p>
+
+
+
+<ul><li><kbd>MAJ</kbd>&nbsp;+&nbsp;<kbd>ALT</kbd></li><li><kbd>MAJ</kbd>&nbsp;+&nbsp;<kbd>ALT Gr</kbd></li><li><kbd>ALT</kbd>&nbsp;+&nbsp;<kbd>MAJ</kbd></li></ul>
+
+
+
+<p><em>Remarque suite à un commentaire : la touche&nbsp;<kbd>MAJ</kbd>&nbsp;est la touche du clavier qui permet d’écrire en majuscule. Elle est souvent représentée par une flèche vers le haut et située juste au dessus de la touche&nbsp;<kbd>Ctrl</kbd>. Cette touche se nomme également&nbsp;<kbd>SHIFT</kbd>&nbsp;sur les claviers anglophones.</em></p>
+
+
+
+<p>Si aucune de ces combinaisons ne change le mode de clavier, il vous faudra vérifier les paramètres de langue de votre Windows en utilisant par exemple la  barre de langue sous Windows 10 (cliquer sur la barre de langue et choisir son clavier).</p>
+
+
+
+<p>Je sais que certain·e·s préfèrent regarder des tutoriels en&nbsp; vidéo, en voici qui vous explique en détails comment modifier la disposition des touches de son clavier pour passer facilement son clavier en Azerty ou en Qwerty :</p>
+
+
+
+<h2>Changer le clavier et la langue par défaut de Windows 10</h2>
+
+
+
+<p>Il est également possible de modifier la langue par défaut en allant dans le panneau de configuration de Windows via le options régionales : sous&nbsp;<strong>Windows 10</strong>, cliquez sur le&nbsp;<em><strong>menu Démarrer</strong></em>&nbsp;puis sur&nbsp;<em><strong>Paramètres&nbsp;</strong></em><img loading="lazy" src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/10/parametres-windows-10.png" alt="Paramètres Windows 10" width="27" height="24">&nbsp;puis&nbsp;<em><strong>Heure et Langue</strong></em>&nbsp;puis&nbsp;<em><strong>Région et langue</strong></em>. Sélectionnez ensuite la langue souhaitée dans la section&nbsp;<em><strong>Langue</strong>.</em>&nbsp;Si elle n’est pas présente dans la liste, cliquez sur&nbsp;<em><strong>Ajouter une langue</strong></em>.</p>
+
+
+
+<p>Pour modifier un clavier, sélectionnez la langue par défaut puis cliquez sur&nbsp;<strong><em>Options</em></strong>. Dans la section&nbsp;<strong><em>Claviers</em></strong>, sélectionnez le clavier que vous voulez utilisez, peu importe le type de clavier (clavier USB ou clavier Bluetooth). S’il n’est pas disponible, cliquez sur&nbsp;<em><strong>Ajouter un clavier</strong></em>&nbsp;et choisir la disposition du clavier,&nbsp;<strong><em>Azerty</em></strong>,&nbsp;<em><strong>Qwerty</strong>&nbsp;</em>ou un autre disposition de clavier “exotique”.</p>
+
+
+
+<figure class="wp-block-image" id="attachment_1576"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/heure-langue-windows10.png" alt="Paramètre Heure et Langue de Windows 10" class="wp-image-1576"/><figcaption>Paramètre Heure et Langue de Windows 10</figcaption></figure>
+
+
+
+<figure class="wp-block-image" id="attachment_1575"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/region-langue-windows-10.png" alt="Paramètre Région et Langue (Windows 10) : changer les options régionales et linguistiques pour le clavier" class="wp-image-1575"/><figcaption>Paramètre Région et Langue (Windows 10)</figcaption></figure>
+
+
+
+<figure class="wp-block-image" id="attachment_1574"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/claviers-windows-10.png" alt="Sélection du clavier AZERTY à la place du QWERTY sous Windows 10 via les pzramètres." class="wp-image-1574"/><figcaption>Sélection du clavier AZERTY sous Windows 10 via les paramètres.</figcaption></figure>
+
+
+
+<p>Pour être complet, voici une vidéo qui vous expliquera en détail comment changer la langue de Windows :</p>
+
+
+
+<p>Dans le même genre d’astuce pratique liée au clavier d’ordinateur, sachez qu’il existe des raccourcis clavier pour mettre des accents sur les majuscules majuscules ou</p>
+
+
+
+<p>Dans le même genre d’astuce pratique liée au clavier d’ordinateur, sachez qu’il existe des raccourcis clavier pour mettre des accents sur les majuscules majuscules ou utiliser le clavier Emoji .Et bien sûr ce tutoriel est également valable pour Windows 11, la procédure n’a pas changé avec le dernier OS de Microsoft !</p>
+
+
+
+<p>  Et bien sûr ce tutoriel est également valable pour Windows 11, la procédure n’a pas changé avec le dernier OS de Microsoft !</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Système de numérotation</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/systeme-de-numerotation/</link>
+		<title>Liste de toutes les commandes CMD pour Windows</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/liste-de-toutes-les-commandes-cmd-pour-windows/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:28:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 02:14:47 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[CMD]]></category>
+		<category><![CDATA[L’invite de command]]></category>
+		<category><![CDATA[windows]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=718</guid>
 
-					<description><![CDATA[Le système numérique que nous utilisons dans notre vie de tous les jours est le système numérique décimal. Le système de nombres décimaux a la base 10 car il utilise 10 chiffres de 0 à 9. Dans le système de nombres décimaux, les positions successives à gauche du point décimal représentent des unités, des dizaines, des&#8230;]]></description>
+					<description><![CDATA[L’invite de commande&#160;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&#160;liste des commandes les plus utilisées dans la fenêtre CMD&#160;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows. L’invite de commande est l’un des outils les&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Le système numérique que nous utilisons dans notre vie de tous les jours est le système numérique décimal. Le système de nombres décimaux a la base 10 car il utilise 10 chiffres de 0 à 9. Dans le système de nombres décimaux, les positions successives à gauche du point décimal représentent des unités, des dizaines, des centaines, des milliers, etc.</p>
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/commandes-cmd-description.jpg?resize=677%2C470&amp;ssl=1" alt="Liste des commandes CMD les plus utilisés"/></figure>
 
 
 
-<span id="more-32"></span>
-
-
-<div dir="auto">
-<h1 style="text-align: center;"> </h1>
-<p style="font-size: medium;"> </p>
-<p style="font-size: medium;">Chaque position représente une puissance spécifique de la base (10). Par exemple, le nombre décimal 1234 se compose du chiffre 4 dans la position des unités, 3 dans la position des dizaines, 2 dans la position des centaines et 1 dans la position des milliers. Sa valeur peut s&rsquo;écrire</p>
-<pre>(1 x 1000)+ (2 x 100)+ (3 x 10)+ (4 x l)  (1 x 10<sup>3</sup>)+ (2 x 10<sup>2</sup>)+ (3 x 10<sup>1</sup>)+ (4 x l0<sup>0</sup>)  1000 + 200 + 30 + 4  1234  </pre>
-<p style="font-size: medium;">En tant que programmeur informatique ou professionnel de l&rsquo;informatique, vous devez comprendre les systèmes numériques suivants qui sont fréquemment utilisés dans les ordinateurs.</p>
-<table style="font-size: medium;">
-<tbody>
-<tr>
-<th>S.No.</th>
-<th>Système de numérotation et description</th>
-</tr>
-<tr>
-<td>1</td>
-<td>
-<p><b>Système de numération binaire</b></p>
-<p>Base 2. Chiffres utilisés: 0, 1</p>
-</td>
-</tr>
-<tr>
-<td>2</td>
-<td>
-<p><b>Système de nombre octal</b></p>
-<p>Base 8. Chiffres utilisés: 0 à 7</p>
-</td>
-</tr>
-<tr>
-<td>3</td>
-<td>
-<p><b>Système de nombres décimaux hexadécimaux</b></p>
-<p>Base 16. Chiffres utilisés: 0 à 9, Lettres utilisées: A- F</p>
-</td>
-</tr>
-</tbody>
-</table>
-<h2>Système de numération binaire</h2>
-<p style="font-size: medium;">Les caractéristiques du système de nombres binaires sont les suivantes &#8211;</p>
-<ul style="font-size: medium;">
-<li>
-<p>Utilise deux chiffres, 0 et 1</p>
-</li>
-<li>
-<p>Aussi appelé système numérique de base 2</p>
-</li>
-<li>
-<p>Chaque position dans un nombre binaire représente une puissance <b>0</b> de la base (2). Exemple 2 <sup>0</sup></p>
-</li>
-<li>
-<p>La dernière position dans un nombre binaire représente une puissance <b>x</b> de la base (2). Exemple 2 <sup>x</sup> où <b>x</b> représente la dernière position &#8211; 1.</p>
-</li>
-</ul>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Nombre binaire: 10101 <sub>2</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 197.18px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Nombre binaire</th>
-<th>Nombre décimal</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>10101 <sub>2</sub></td>
-<td>((1 x 2 <sup>4</sup> ) + (0 x 2 <sup>3</sup> ) + (1 x 2 <sup>2</sup> ) + (0 x 2 <sup>1</sup> ) + (1 x 2 <sup>0</sup> )) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>10101 <sub>2</sub></td>
-<td>(16 + 0 + 4 + 0 + 1) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>10101 <sub>2</sub></td>
-<td>21 <sub>10</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;"><b>Remarque</b> &#8211; 10101 <sub>2</sub> s&rsquo;écrit normalement 10101.</p>
-<h2>Système de nombre octal</h2>
-<p style="font-size: medium;">Les caractéristiques du système de nombres octaux sont les suivantes &#8211;</p>
-<ul style="font-size: medium;">
-<li>
-<p>Utilise huit chiffres, 0,1,2,3,4,5,6,7</p>
-</li>
-<li>
-<p>Aussi appelé système numérique de base 8</p>
-</li>
-<li>
-<p>Chaque position dans un nombre octal représente une puissance <b>0</b> de la base (8). Exemple 8 <sup>0</sup></p>
-</li>
-<li>
-<p>La dernière position dans un nombre octal représente une puissance <b>x</b> de la base (8). Exemple 8 <sup>x</sup> où <b>x</b> représente la dernière position &#8211; 1</p>
-</li>
-</ul>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Numéro octal: 12570 <sub>8</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 178.047px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Numéro octal</th>
-<th>Nombre décimal</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>12570 <sub>8</sub></td>
-<td>((1 x 8 <sup>4</sup> ) + (2 x 8 <sup>3</sup> ) + (5 x 8 <sup>2</sup> ) + (7 x 8 <sup>1</sup> ) + (0 x 8 <sup>0</sup> )) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>12570 <sub>8</sub></td>
-<td>(4096 + 1024 + 320 + 56 + 0) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>12570 <sub>8</sub></td>
-<td>5496 <sub>10</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;"><b>Remarque</b> &#8211; 12570 <sub>8</sub> s&rsquo;écrit normalement 12570.</p>
-<h2>Système de nombres hexadécimaux</h2>
-<p style="font-size: medium;">Les caractéristiques du système de nombres hexadécimaux sont les suivantes &#8211;</p>
-<ul style="font-size: medium;">
-<li>
-<p>Utilise 10 chiffres et 6 lettres, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</p>
-</li>
-<li>
-<p>Les lettres représentent les nombres commençant à 10. A = 10. B = 11, C = 12, D = 13, E = 14, F = 15</p>
-</li>
-<li>
-<p>Aussi appelé système numérique de base 16</p>
-</li>
-<li>
-<p>Chaque position dans un nombre hexadécimal représente une puissance <b>0</b> de la base (16). Exemple, 16 <sup>0</sup></p>
-</li>
-<li>
-<p>La dernière position dans un nombre hexadécimal représente une puissance <b>x</b> de la base (16). Exemple 16 <sup>x</sup> où <b>x</b> représente la dernière position &#8211; 1</p>
-</li>
-</ul>
-<h3>Exemple</h3>
-<p style="font-size: medium;">Nombre hexadécimal: 19FDE <sub>16</sub></p>
-<p style="font-size: medium;">Calcul de l&rsquo;équivalent décimal &#8211;</p>
-<table style="font-size: medium; border-collapse: collapse; width: 344px; height: 273.555px;" border="1">
-<tbody>
-<tr>
-<th>Étape</th>
-<th>Nombre binaire</th>
-<th>Nombre décimal</th>
-</tr>
-<tr>
-<td>Étape 1</td>
-<td>19FDE <sub>16</sub></td>
-<td>((1 x 16 <sup>4</sup> ) + (9 x 16 <sup>3</sup> ) + (F x 16 <sup>2</sup> ) + (D x 16 <sup>1</sup> ) + (E x 16 <sup>0</sup> )) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 2</td>
-<td>19FDE <sub>16</sub></td>
-<td>((1 x 16 <sup>4</sup> ) + (9 x 16 <sup>3</sup> ) + (15 x 16 <sup>2</sup> ) + (13 x 16 <sup>1</sup> ) + (14 x 16 <sup>0</sup> )) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 3</td>
-<td>19FDE <sub>16</sub></td>
-<td>(65536+ 36864 + 3840 + 208 + 14) <sub>10</sub></td>
-</tr>
-<tr>
-<td>Étape 4</td>
-<td>19FDE <sub>16</sub></td>
-<td>106462 <sub>10</sub></td>
-</tr>
-</tbody>
-</table>
-<p style="font-size: medium;"><b>Remarque</b> &#8211; 19FDE <sub>16</sub> s&rsquo;écrit normalement 19FDE.</p>
-<p style="font-size: medium;"><span style="color: #fc4353;"> </span></p>
-</div>
-<p><!--more--></p>
-<p><!--more--></p>
-<p><!--more--></p>
-
-
-<p>Lorsque nous tapons des lettres ou des mots, l&rsquo;ordinateur les traduit en nombres car les ordinateurs ne peuvent comprendre que des nombres.&nbsp;Un ordinateur peut comprendre le système de numération positionnelle où il n&rsquo;y a que quelques symboles appelés chiffres et ces symboles représentent des valeurs différentes en fonction de la position qu&rsquo;ils occupent dans le nombre.</p>
+<p><strong>L’invite de commande</strong>&nbsp;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&nbsp;<strong>liste des commandes les plus utilisées dans la fenêtre CMD</strong>&nbsp;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows.</p>
 
 
 
-<p>La valeur de chaque chiffre d&rsquo;un nombre peut être déterminée en utilisant &#8211;</p>
+<span id="more-718"></span>
 
 
 
-<ul><li>Le chiffre</li><li>La position du chiffre dans le nombre</li><li>La base du système numérique (où la base est définie comme le nombre total de chiffres disponibles dans le système numérique)</li></ul>
+<p>L’invite de commande est l’un des outils les plus puissants de Windows, également connu sous le nom de CMD. CMD est l’interpréteur de ligne de commande sur les systèmes d’exploitation Windows. L’invite de commande interagit avec l’utilisateur via une interface de ligne de commande. Les choses n’étaient pas toujours comme ça; mais avec l’avènement des systèmes d’exploitation basés sur l’interface graphique, les gens ont commencé à se sentir que l’informatique par le biais d’outils basés sur les commandes était ennuyeuse.</p>
 
 
 
-<h2>Système de nombres décimaux</h2>
+<p>Cependant, l’invite de commande n’est pas inutile. En fait, cela peut être très utile. Cet article fournit d’excellents astuces, secrets et hacks qui vous feront réaliser que l’invite de commande de Windows est non seulement utile mais aussi un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd.</p>
+
+
+
+<p>Pour ouvrir CMD, vous devez rechercher&nbsp;<strong>CMD</strong>&nbsp;dans la boîte de recherche ou vous pouvez simplement appuyer sur la touche&nbsp;<strong>Windows + R</strong>&nbsp;qui finira par ouvrir la fenêtre&nbsp;<strong>Exécuter</strong>, où vous devez taper CMD et appuyer sur&nbsp;<strong>Entrée</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/cmd.jpg?resize=491%2C410&amp;ssl=1" alt="cmd" class="wp-image-2615"/></figure></div>
+
+
+<p>1. Contrôles d’accessibilité – access.cpl</p>
+
+
+
+<p>2. Assistant d’accessibilité – accwiz</p>
+
+
+
+<p>3. Ajouter un assistant matériel – hdwwiz.cpl</p>
+
+
+
+<p>4. Ajouter / Supprimer des programmes – appwiz.cpl</p>
+
+
+
+<p>5. Outils d’administration – control admintools</p>
+
+
+
+<p>6. Mises à jour automatiques – wuaucpl.cpl</p>
+
+
+
+<p>7. Assistant de transfert Bluetooth – fsquirt</p>
+
+
+
+<p>8. Calculatrice – calc</p>
+
+
+
+<p>9. Gestionnaire de certificats – certmgr.msc</p>
+
+
+
+<p>10. Carte de caractère – charmap</p>
+
+
+
+<p>11. Vérifiez l’utilitaire de disque – chkdsk</p>
+
+
+
+<p>12. Clipboard Viewer – clipbrd</p>
+
+
+
+<p>13. Invite de commandes – cmd</p>
+
+
+
+<p>14. Services de composants – dcomcnfg</p>
+
+
+
+<p>15. Gestion de l’ordinateur – compmgmt.msc</p>
+
+
+
+<p>16. Panneau de contrôle – control</p>
+
+
+
+<p>17. Propriétés de date et d’heure – timedate.cpl</p>
+
+
+
+<p>18. Actions DDE – ddeshare</p>
+
+
+
+<p>19. Gestionnaire de périphériques – devmgmt.msc</p>
+
+
+
+<p>20. Dépanneur Direct X – dxdiag</p>
+
+
+
+<p>21. Utilitaire de nettoyage de disque – cleanmgr</p>
+
+
+
+<p>22. Défragmenter le disque – dfrg.msc</p>
+
+
+
+<p>23. Gestion des disques – diskmgmt.msc</p>
+
+
+
+<p>24. Gestionnaire de partition de disque – diskpart</p>
+
+
+
+<p>25. Propriétés d’affichage – control desktop</p>
+
+
+
+<p>26. Propriétés d’affichage – desk.cpl</p>
+
+
+
+<p>27. Dr. Watson Utilitaire de dépannage du système – drwtsn32</p>
+
+
+
+<p>28. Utilitaire vérificateur de pilotes – verifier</p>
+
+
+
+<p>29. Observateur d’événements – eventvwr.msc</p>
+
+
+
+<p>30. Outil de transfert de fichiers et de paramètres – migwiz</p>
+
+
+
+<p>31. Outil de vérification de signature de fichier – sigverif</p>
+
+
+
+<p>32. Findfast – findfast.cpl</p>
+
+
+
+<p>33. Firefox – Firefox</p>
+
+
+
+<p>34. Propriétés des dossiers – control folders</p>
+
+
+
+<p>35. Polices – control fonts</p>
+
+
+
+<p>36. Dossier des Fonts – fonts</p>
+
+
+
+<p>37. Jeu de cartes gratuit – freecell</p>
+
+
+
+<p>38. Contrôleurs de jeu – joy.cpl</p>
+
+
+
+<p>39. Éditeur de stratégie de groupe (pour xp professional) – gpedit.msc</p>
+
+
+
+<p>40. Jeu de cartes coeurs – mshearts</p>
+
+
+
+<p>41. Aide et support – helpctr</p>
+
+
+
+<p>42. HyperTerminal – hypertrm</p>
+
+
+
+<p>43. Assistant Iexpress – iexpress</p>
+
+
+
+<p>44. Service d’indexation – ciadv.msc</p>
+
+
+
+<p>45. Assistant de connexion Internet – icwconn1</p>
+
+
+
+<p>46. ​​Internet Explorer – iexplore</p>
+
+
+
+<p>47. Propriétés Internet – inetcpl.cpl</p>
+
+
+
+<p>48. Propriétés du clavier – control keyboard</p>
+
+
+
+<p>49. Paramètres de sécurité locaux – secpol.msc</p>
+
+
+
+<p>50. Utilisateurs et groupes locaux – lusrmgr.msc</p>
+
+
+
+<p>51. Se déconnecter à Windows – logoff</p>
+
+
+
+<p>52. Outil de suppression de logiciels malveillants – mrt</p>
+
+
+
+<p>53. Microsoft Chat – winchat</p>
+
+
+
+<p>54. Microsoft Movie Maker – MovieMaker</p>
+
+
+
+<p>55. Microsoft Paint – mspaint</p>
+
+
+
+<p>56. Microsoft Syncronization Tool – mobsync</p>
+
+
+
+<p>57. Jeu de dragueur de mines – winmine</p>
+
+
+
+<p>58. Propriétés de la souris – control mouse</p>
+
+
+
+<p>59. Propriétés de la souris – main.cpl</p>
+
+
+
+<p>60. Netmeeting – conf</p>
+
+
+
+<p>61. Connexions réseau – control netconnections</p>
+
+
+
+<p>62. Connexions réseau – ncpa.cpl</p>
+
+
+
+<p>63. Assistant de configuration réseau – netsetup.cpl</p>
+
+
+
+<p>64. Bloc-notes – bloc-notes</p>
+
+
+
+<p>65. Object Packager – packager</p>
+
+
+
+<p>66. Administrateur de sources de données ODBC – odbccp32.cpl</p>
+
+
+
+<p>67. Clavier sur écran – osk</p>
+
+
+
+<p>68. Outlook Express – msimn</p>
+
+
+
+<p>69. Peinture – pbrush</p>
+
+
+
+<p>70. Propriétés du mot de passe – password.cpl</p>
+
+
+
+<p>71. Analyseur de performances – perfmon.msc</p>
+
+
+
+<p>72. Analyseur de performances – perfmon</p>
+
+
+
+<p>73. Options de téléphonie et modem – telephon.cpl</p>
+
+
+
+<p>74. Numéroteur téléphonique – dialer</p>
+
+
+
+<p>75. Jeu de flipper – flipper</p>
+
+
+
+<p>76. Configuration de l’alimentation – powercfg.cpl</p>
+
+
+
+<p>77. Imprimantes et télécopieurs – control printer</p>
+
+
+
+<p>78. Imprimantes – printers</p>
+
+
+
+<p>79. Paramètres régionaux – intl.cpl</p>
+
+
+
+<p>80. Éditeur du Registre – regedit</p>
+
+
+
+<p>81. Éditeur du Registre – regedit32</p>
+
+
+
+<p>82. Répertoire d’accès à distance – rasphone</p>
+
+
+
+<p>83. Bureau à distance – mstsc</p>
+
+
+
+<p>84. Stockage amovible – ntmsmgr.msc</p>
+
+
+
+<p>85. Demandes d’opérateur de stockage amovible – ntmsoprq.msc</p>
+
+
+
+<p>86. Jeu de stratégie résultant (pour xp professional) – rsop.msc</p>
+
+
+
+<p>87. Scanneurs et appareils photo – sticpl.cpl</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Logiciel</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/logiciel/</link>
+		<title>Tutoriel shell Linux</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/tutoriel-shell-linux/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:28:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 02:10:11 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[cd]]></category>
+		<category><![CDATA[ligne commande]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ls]]></category>
+		<category><![CDATA[mkdir]]></category>
+		<category><![CDATA[mv]]></category>
+		<category><![CDATA[pwd]]></category>
+		<category><![CDATA[shell linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=716</guid>
 
-					<description><![CDATA[Un logiciel est un ensemble de programmes conçus pour exécuter une fonction bien définie. Un programme est une séquence d&#39;instructions écrites pour résoudre un problème particulier. Il existe deux types de logiciels &#8211; Logiciel système Logiciel d&#39;application Logiciel système Le logiciel système est un ensemble de programmes conçus pour faire fonctionner, contrôler et étendre les capacités&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">Un logiciel est un ensemble de programmes conçus pour exécuter une fonction bien définie. Un programme est une séquence d&#39;instructions écrites pour résoudre un problème particulier.</p>
-<p style="font-size:medium">Il existe deux types de logiciels &#8211;</p>
-<ul style="font-size:medium">
-<li>Logiciel système</li>
-<li>Logiciel d&#39;application</li>
-</ul>
-<h2>Logiciel système</h2>
-<p style="font-size:medium">Le logiciel système est un ensemble de programmes conçus pour faire fonctionner, contrôler et étendre les capacités de traitement de l&#39;ordinateur lui-même. Le logiciel système est généralement préparé par les fabricants d&#39;ordinateurs. Ces produits logiciels comprennent des programmes écrits dans des langages de bas niveau, qui interagissent avec le matériel à un niveau très basique. Le logiciel système sert d&#39;interface entre le matériel et les utilisateurs finaux.</p>
-<p style="font-size:medium">Quelques exemples de logiciels système sont le système d&#39;exploitation, les compilateurs, l&#39;interprète, les assembleurs, etc.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/system_software.jpg" alt="Logiciel d&#39;application" width="100%"></span></p>
-<p style="font-size:medium">Voici une liste de certaines des fonctionnalités les plus importantes d&#39;un logiciel système &#8211;</p>
-<ul style="font-size:medium">
-<li>Proche du système</li>
-<li>Rapide en vitesse</li>
-<li>Difficile à concevoir</li>
-<li>Difficile à comprendre</li>
-<li>Moins interactif</li>
-<li>De plus petite taille</li>
-<li>Difficile à manipuler</li>
-<li>Généralement rédigé dans un langage de bas niveau</li>
-</ul>
-<h2>Logiciel d&#39;application</h2>
-<p style="font-size:medium">Les produits logiciels d&#39;application sont conçus pour répondre à un besoin particulier d&#39;un environnement particulier. Toutes les applications logicielles préparées dans le laboratoire informatique peuvent entrer dans la catégorie des logiciels d&#39;application.</p>
-<p style="font-size:medium">Le logiciel d&#39;application peut être constitué d&#39;un seul programme, tel que le bloc-notes de Microsoft pour écrire et éditer un texte simple. Il peut également consister en un ensemble de programmes, souvent appelés progiciels, qui travaillent ensemble pour accomplir une tâche, comme un tableur.</p>
-<p style="font-size:medium">Des exemples de logiciels d&#39;application sont les suivants:</p>
-<ul style="font-size:medium">
-<li>Logiciel de paie</li>
-<li>Logiciel de dossier étudiant</li>
-<li>Logiciel de gestion des stocks</li>
-<li>Logiciel d&#39;impôt sur le revenu</li>
-<li>Logiciel de réservation de chemins de fer</li>
-<li>Logiciel de la suite Microsoft Office</li>
-<li>Microsoft Word</li>
-<li>Microsoft Excel</li>
-<li>Microsoft Powerpoint</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img loading="lazy" src="https://www.tutorialspoint.com/computer_fundamentals/images/application_software.jpg" alt="Logiciel d&#39;application" width="100%" height="100%"></span></p>
-<p style="font-size:medium">Les caractéristiques du logiciel d&#39;application sont les suivantes &#8211;</p>
-<ul style="font-size:medium">
-<li>Proche de l&#39;utilisateur</li>
-<li>Conception simple</li>
-<li>Plus interactif</li>
-<li>Vitesse lente</li>
-<li>Généralement rédigé dans un langage de haut niveau</li>
-<li>Facile à comprendre</li>
-<li>Facile à manipuler et à utiliser</li>
-<li>Plus grande et nécessite un grand espace de stockage</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
+					<description><![CDATA[À propos du Shell Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/tutoriel-shell-linux.jpg?resize=743%2C415&amp;ssl=1" alt="Tutoriel Shell Linux"/></figure>
+
+
+
+<h2 id="apropos">À propos du Shell</h2>
+
+
+
+<p>Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le système d’exploitation et, dans de nombreux cas, vous offre un contrôle plus direct sur les processus du système.</p>
+
+
+
+<span id="more-716"></span>
+
+
+
+<h2 id="aquoi">À quoi sert le Shell?</h2>
+
+
+
+<p>Quand il s’agit de communiquer avec votre système d’exploitation, tout ce que vous pouvez faire avec une interface graphique peut être fait sur la ligne de commande. Par exemple, prenons quelque chose que vous devez faire tout le temps; déplacer des fichiers dans votre système de fichiers. À l’aide d’une interface graphique, vous pouvez sélectionner les icônes représentant vos fichiers, les faire glisser dans un autre dossier et les déposer pour les déplacer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/drag-and-drop.jpg?resize=690%2C540&amp;ssl=1" alt="Tutoriel Linux -glisser déposer" class="wp-image-2951"/></figure></div>
+
+
+<p>Cependant, en utilisant la ligne de commande, cette opération peut être effectuée en utilisant une seule commande:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv.jpg?resize=570%2C174&amp;ssl=1" alt="Shell, commande mv" class="wp-image-2954"/></figure></div>
+
+
+<p>La ligne de commande, une fois que vous vous y êtes habitué, vous permet de contrôler votre système avec plus d’efficacité et de précision qu’avec une interface graphique.</p>
+
+
+
+<h2 id="pourquoi">Pourquoi s’appelle-t-il «&nbsp;Shell&nbsp;»?</h2>
+
+
+
+<p>L’interface utilisateur est appelée «&nbsp;shell&nbsp;» car c’est la couche externe qui vous sépare des parties les plus profondes du système d’exploitation, appelée noyau. Techniquement, l’interface graphique de votre système d’exploitation est également un «&nbsp;shell&nbsp;», mais la ligne de commande est souvent appelée «&nbsp;le shell&nbsp;».</p>
+
+
+
+<h2 id="lignecommande">Comment accéder à la ligne de commande de Shell ?</h2>
+
+
+
+<p>La manière la plus courante d’accéder au shell de ligne de commande consiste à utiliser un émulateur de terminal.</p>
+
+
+
+<p>Si vous utilisez une distribution Linux moderne, il y a des chances qu’elle démarre dans le système X-Windows , ce qui vous permet d’exécuter des programmes dans leurs propres fenêtres et d’interagir avec eux avec la souris. Il existe différentes manières de lancer un émulateur de terminal, mais voici les plus courantes:</p>
+
+
+
+<p>De nombreuses distributions Linux utilisent un environnement de bureau similaire à Microsoft Windows, avec un «&nbsp;menu Démarrer&nbsp;». Dans ce menu, votre application de terminal se trouve généralement sous «&nbsp;Accessoires&nbsp;». Par exemple, Lubuntu est livré avec l’émulateur de terminal déjà installé et le raccourci se trouve dans le menu Accessoires.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ubuntu-startmenu.jpg?resize=452%2C306&amp;ssl=1" alt="Shell Ubuntu Startmenu" class="wp-image-2955"/></figure></div>
+
+
+<p>La sélection de l’élément de menu du terminal lance l’émulateur et vous place sur une ligne de commande.</p>
+
+
+
+<p>Différentes versions de Linux utilisent différents types de gestionnaires de fenêtres, chacun avec une interface légèrement différente. Avec de nombreux gestionnaires de fenêtres, un clic droit sur le bureau affiche un menu contenant une option de terminal. Par exemple, le menu contextuel de Crunchbang Linux comporte une option «&nbsp;Terminal&nbsp;». Voici à quoi ressemble ce menu, après un clic droit n’importe où sur le bureau.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-crunchbang-menu.jpg?resize=390%2C432&amp;ssl=1" alt="Shell menu" class="wp-image-2956"/></figure></div>
+
+
+<p>Ici, le menu Accessoires aurait également une option pour exécuter le terminal.<br>Sur de nombreuses versions de Linux, le raccourci clavier par défaut pour lancer un terminal consiste à appuyer simultanément sur la touche&nbsp;<strong>Super</strong>&nbsp;et sur la touche «&nbsp;<strong>T</strong>«&nbsp;. (La Super clé est généralement la première clé à gauche de la barre d’espace, également appelée&nbsp;<strong>clé Windows</strong>).</p>
+
+
+
+<p>Si vous ne savez pas comment lancer votre émulateur de terminal, consultez la documentation de votre système d’exploitation spécifique et recherchez «terminal».</p>
+
+
+
+<h2 id="invitecommande">L’invite de commande</h2>
+
+
+
+<p>Lorsque vous lancez l’émulateur de terminal, une invite de commande s’affiche.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-invite-commande.jpg?resize=636%2C143&amp;ssl=1" alt="shell invite commande" class="wp-image-2957"/></figure></div>
+
+
+<p><strong>Remarque</strong>&nbsp;: Ces exemples sont tous exécutés à l’aide du shell Bourne-Again (bash), qui est le shell de ligne de commande par défaut sous Linux.</p>
+
+
+
+<p>Regardons cette invite de commande de près. L’invite peut être configurée pour être ce que vous voulez, mais par défaut, elle ressemble à ce que nous voyons ici, nous fournissant des informations utiles avant de saisir une commande.</p>
+
+
+
+<p>Plus précisément, il nous indique qui nous sommes (nom d’utilisateur) et où nous sommes (quel système nous utilisons et notre répertoire de travail).</p>
+
+
+
+<h2 id="saisie">Saisie de commandes</h2>
+
+
+
+<p>Entrons notre première commande. Nous devrions commencer par lister les fichiers dans notre répertoire personnel. Le moyen le plus simple de voir tous ces fichiers est d’utiliser la commande&nbsp;<strong>ls;</strong>&nbsp;tapez&nbsp;<strong>ls</strong>&nbsp;à l’invite de commande et appuyez sur Entrée.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls.jpg?resize=633%2C143&amp;ssl=1" alt="Shell saisir commandes" class="wp-image-2959"/></figure></div>
+
+
+<p>Comme indiqué ci-dessus, la commande ls répertorie le contenu du répertoire et nous place à une autre invite de commandes.</p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Toutes les commandes et noms de fichiers sous Unix et Linux sont sensibles à la casse. La commande ls, par exemple, doit être saisie en lettres minuscules, comme ci-dessus.</p>
+
+
+
+<p>Pour une liste plus détaillée du contenu du répertoire, nous pouvons spécifier des options de ligne de commande, également appelées commutateurs. Ce sont des arguments supplémentaires à la commande qui modifient son fonctionnement. Ici, nous utiliserons l’option -l (utiliser le format longue liste) pour obtenir plus d’informations de notre liste:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-plus-de-commandes-l.jpg?resize=631%2C288&amp;ssl=1" alt="Shell plus de commandes" class="wp-image-2960"/></figure></div>
+
+
+<p>Comme indiqué ci-dessus, la commande ls -l nous fournit beaucoup plus d’informations sur le contenu de notre répertoire personnel. Pour le moment, les informations les plus importantes à noter sont que la première lettre des listes est un d, ce qui signifie que chacun de ces contenus de répertoire est lui-même un répertoire.</p>
+
+
+
+<h2 id="effacer">Effacer l’écran</h2>
+
+
+
+<p>Avant de faire quoi que ce soit d’autre, effacez l’écran pour supprimer l’encombrement produit par la sortie de nos commandes précédentes. Utilisez la commande&nbsp;<strong>clear</strong>&nbsp;en tapant clear à une nouvelle invite de commande et appuyez sur&nbsp;<strong>Entrée</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-rm-remove.jpg?resize=633%2C269&amp;ssl=1" alt="Shell commande rm remove" class="wp-image-2961"/></figure></div>
+
+
+<p>Après avoir appuyé sur Entrée, l’écran s’efface et vous place à une nouvelle invite de commandes en haut de l’écran de votre terminal.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-terminal.jpg?resize=633%2C140&amp;ssl=1" alt="Shell terminal" class="wp-image-2962"/></figure></div>
+
+
+<h2 id="changer">Changer de répertoire</h2>
+
+
+
+<p>Passons dans notre dossier de documents en utilisant la commande <strong>cd</strong> (« <strong>change directory</strong>« ). Pour modifier le répertoire en cours, tapez « cd » puis un espace, puis le nom du répertoire dans lequel vous souhaitez changer, puis appuyez sur Entrée.<a rel="noreferrer noopener" href="https://astuces-informatique.com/quel-difference-entre-linux-et-unix/" target="_blank"></a></p>
+
+
+
+<p>La commande cd suppose que le nom de tout répertoire que vous spécifiez est relatif à votre répertoire actuel. Par conséquent, pour changer dans le répertoire de documents, qui existe dans notre répertoire actuel, tapez «&nbsp;cd documents&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-cd.jpg?resize=629%2C97&amp;ssl=1" alt="Shell commande cd" class="wp-image-2963"/></figure></div>
+
+
+<p>L’invite de commande reflète désormais le nouveau répertoire de travail: ~ / documents, ce qui équivaut au chemin d’accès complet: /&nbsp;<strong>home / yourname / documents</strong>. Quel que soit l’utilisateur avec lequel vous êtes connecté, «&nbsp;~&nbsp;» représente toujours votre répertoire personnel. Dans l’exemple, le nouveau répertoire de travail est également visible dans la barre de titre de notre fenêtre de terminal.</p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Contrairement à MS-DOS et à Microsoft Windows, les noms de répertoires hiérarchiques sous Linux sont séparés par une barre oblique («&nbsp;<strong>/</strong>«&nbsp;) plutôt que par une barre oblique inverse («&nbsp;<strong>\</strong>«&nbsp;). Ce changement de symboles est une différence fondamentale entre ces différents systèmes d’exploitation.</p>
+
+
+
+<p>A tout moment, vous pouvez vérifier votre répertoire actuel en utilisant la commande&nbsp;<strong>pwd&nbsp;</strong>(«&nbsp;print working directory&nbsp;»).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-pwd.jpg?resize=626%2C115&amp;ssl=1" alt="Shell pwd" class="wp-image-2964"/></figure></div>
+
+
+<p>La commande imprime le nom du répertoire en cours sur le terminal, dans ce cas «&nbsp;<strong>/ home / votrenom / documents</strong>«&nbsp;. Encore une fois, avec «&nbsp;<strong>~ / documents</strong>&nbsp;» le «&nbsp;<strong>~</strong>&nbsp;» représente notre répertoire personnel, qui est&nbsp;<strong>/ home / yourname</strong>. Donc, si nous sommes dans notre répertoire personnel, taper «&nbsp;cd documents&nbsp;», «&nbsp;cd&nbsp;<strong>/ home / votrenom /</strong>&nbsp;documents&nbsp;» ou «&nbsp;<strong>cd ~ / documents</strong>&nbsp;» nous placerait tous dans le même répertoire.</p>
+
+
+
+<p>Maintenant, montons d’un répertoire dans notre répertoire personnel. Le nom de répertoire spécial «&nbsp;<strong>..</strong>&nbsp;» (le double point) signifie «&nbsp;un répertoire&nbsp;».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-2-points.jpg?resize=630%2C116&amp;ssl=1" alt="Shell cd.." class="wp-image-2965"/></figure></div>
+
+
+<p>Nous sommes maintenant de retour dans notre répertoire personnel.</p>
+
+
+
+<p><strong>Note</strong>&nbsp;: Si vous êtes plus familier avec MS-DOS, gardez à l’esprit qu’il doit y avoir un espace entre cd et les deux points.</p>
+
+
+
+<h2 id="deplacement">Déplacement de fichiers</h2>
+
+
+
+<p>Maintenant, familiarisons-vous avec le déplacement des fichiers.</p>
+
+
+
+<p>Disons que nous venons de télécharger deux images avec un navigateur Web, et ils ont enregistré dans notre&nbsp;<strong>dossier de téléchargements</strong>. Allons là-bas et jetons un coup d’oeil. Tout d’abord, nous changeons de répertoire dans le répertoire de téléchargements.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-downloads.jpg?resize=632%2C82&amp;ssl=1" alt="Shell cd downloads" class="wp-image-2966"/></figure></div>
+
+
+<p>Puis listez les fichiers du répertoire avec la commande ls.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-downloads.jpg?resize=623%2C107&amp;ssl=1" alt="Shell ls downloads" class="wp-image-2967"/></figure></div>
+
+
+<p>Nous voyons ici deux fichiers JPEG. Sortons-les du dossier des téléchargements et placez-les à un endroit plus approprié, comme le dossier images. Pour déplacer ces fichiers, nous utiliserons la commande mv («&nbsp;move&nbsp;»).</p>
+
+
+
+<p>La commande mv prend la forme générale suivante:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>mv [OPTIONS …] DESTINATION SOURCE</p></blockquote>
+
+
+
+<p><strong>OPTIONS</strong>&nbsp;est entre crochets car vous n’êtes pas obligé de spécifier des options pour terminer la commande. Les arguments SOURCE et DESTINATION sont tous deux requis.</p>
+
+
+
+<p><strong>SOURCE</strong>&nbsp;est le nom du ou des fichiers que vous souhaitez déplacer. DESTINATION est l’endroit où vous souhaitez les déplacer. Si DESTINATION est un nom de répertoire, le ou les fichiers sont déplacés dans ce répertoire.</p>
+
+
+
+<p>Nous sommes actuellement dans le répertoire&nbsp;<strong>/ home / votrenom / downloads</strong>&nbsp;et nous souhaitons déplacer les fichiers dans&nbsp;<strong>/ home / votrenom / images</strong>. Nous pourrions spécifier notre DESTINATION en utilisant le chemin complet («&nbsp;<strong>/ home / yourname / images</strong>«&nbsp;), ou en tant que chemin relatif à notre répertoire actuel («&nbsp;<strong>../images</strong>«&nbsp;), ou en utilisant un tilde comme abréviation pour notre répertoire personnel ( «&nbsp;<strong>~ / images</strong>«&nbsp;). Tous ces éléments sont équivalents et donnent le même résultat. Utilisons le chemin relatif de notre DESTINATION:&nbsp;<strong>../images</strong>.</p>
+
+
+
+<p>Alors, comment allons-nous spécifier notre SOURCE?</p>
+
+
+
+<p>Nous voulons déplacer les deux fichiers, et ils sont les seuls fichiers du répertoire. Donc, le moyen le plus simple de les spécifier serait de dire à&nbsp;<strong>mv</strong>&nbsp;«&nbsp;déplacer tous les fichiers de ce répertoire dans ../images&nbsp;».</p>
+
+
+
+<p>Un caractère générique est un caractère spécial qui peut représenter plus d’un nom de fichier (ou plus d’une partie du nom de fichier). Ici, nous allons utiliser le caractère générique astérisque («&nbsp;*&nbsp;»). Si nous utilisons * comme nom de fichier complet, le shell applique notre commande à chaque fichier de notre répertoire de travail.</p>
+
+
+
+<p>Donc, notre commande se lira comme suit: « <strong>mv * ../images</strong>« . Entrons le maintenant.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-star.jpg?w=628&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>On dirait que rien ne s’est passé, mais c’est la façon dont le shell nous dit qu’aucune erreur ne s’est produite. En cas de problème, il afficherait un message d’erreur ou un avertissement quelconque.</p>
+
+
+
+<p>Vérifions que les fichiers ont été déplacés. Nous pouvons répertorier le contenu d’un autre répertoire en exécutant ls et en spécifiant un chemin d’accès. Dans ce cas, notre chemin est «&nbsp;<strong>../images</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-dotdot-images.jpg?resize=634%2C53&amp;ssl=1" alt="Shell ..images" class="wp-image-2969"/></figure></div>
+
+
+<p>Les images sont à la fois là, avec un autre répertoire qui existait déjà («&nbsp;wallpapers&nbsp;»). Nous devrions créer un nouveau répertoire pour mieux organiser nos images et éviter que le répertoire principal des images ne soit encombré. Faisons cela maintenant.</p>
+
+
+
+<h2 id="mkdir">Créer des répertoires</h2>
+
+
+
+<p>Changeons dans le répertoire images où résident nos deux images pingouin.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-dotdot-images.jpg?resize=619%2C45&amp;ssl=1" alt="Shell CD ../images" class="wp-image-2970"/></figure></div>
+
+
+<p>Faisons maintenant un nouveau répertoire pour nos images pingouin. La création de nouveaux répertoires est effectuée avec la commande&nbsp;<strong>mkdir</strong>.</p>
+
+
+
+<p>La forme la plus simple de la commande&nbsp;<strong>mkdir</strong>&nbsp;est de lui donner un argument: le nom du nouveau répertoire. Nous aimerions créer un nouveau répertoire dans notre répertoire courant, nous n’avons donc pas à attribuer à mkdir un chemin complet, juste le nom du répertoire lui-même. Appelons notre nouveau répertoire pingouin-pix.</p>
+
+
+
+<p>Donc, la commande que nous allons entrer est «&nbsp;<strong>mkdir penguin-pix</strong>&nbsp;» pour créer un nouveau répertoire.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir.jpg?resize=623%2C45&amp;ssl=1" alt="Shell mkdir" class="wp-image-2971"/></figure></div>
+
+
+<p>Maintenant, vérifions que c’est là, en listant le contenu du répertoire:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-verifier-repertoire.jpg?resize=624%2C63&amp;ssl=1" alt="Shell vérifier répertoire" class="wp-image-2972"/></figure></div>
+
+
+<p>Liste des fichiers dans le répertoire images en utilisant la commande&nbsp;<strong>ls</strong></p>
+
+
+
+<p><strong>Remarque</strong>&nbsp;: Vous pouvez voir que lorsque nous listons le contenu du répertoire, les noms de fichiers et les noms de répertoires sont de couleurs différentes pour vous aider à identifier les différents fichiers et répertoires. Bien que la mise en évidence des couleurs soit commune à la plupart des shells, tous les shells ne le font pas par défaut.</p>
+
+
+
+<p>Si nous ne pouvions pas dire par la couleur des noms, nous pourrions toujours vérifier lesquels de ces fichiers sont des répertoires en appelant&nbsp;<strong>ls</strong>&nbsp;avec l’option&nbsp;<strong>-l</strong>&nbsp;(longue liste).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-images-long-list.jpg?resize=630%2C124&amp;ssl=1" alt="Shell ls longue liste" class="wp-image-2973"/></figure></div>
+
+
+<p>Les informations supplémentaires incluent les autorisations (qui a accès au fichier et quel type d’accès), la propriété (qui est le propriétaire du fichier), l’auteur (qui a créé le fichier), la taille du fichier et mtime (date de la dernière modification). La première lettre sur les lignes pour pingouin-pix et <strong>wallpapers</strong> est un « d », indiquant que ce sont des répertoires. Pour plus d’informations sur les listes de fichiers, consultez la documentation de la commande chmod.<a rel="noreferrer noopener" href="https://astuces-informatique.com/unix-ligne-de-commande/" target="_blank"></a></p>
+
+
+
+<p>Nous pouvons maintenant déplacer nos images dans le nouveau répertoire. Pour dire à mv quels fichiers déplacer, nous pouvons utiliser à nouveau un caractère générique, mais cette fois, faisons en sorte qu’il sache qu’il ne doit déplacer que les fichiers image, pas les répertoires. Comme les deux fichiers image se terminent par l’extension JPEG .jpg, nous pouvons spécifier le nom de fichier «&nbsp;<strong>* .jpg</strong>«&nbsp;: cela indique au shell «&nbsp;les fichiers que je veux déplacer sont des fichiers du répertoire en cours qui se terminent par .jpg&nbsp;». Ainsi, notre commande ressemblera à ceci: «&nbsp;mv * .jpg penguin-pix&nbsp;»:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-etoile-point-jpg-penguin-pix.jpg?resize=659%2C40&amp;ssl=1" alt="Shell jpg image" class="wp-image-2974"/></figure></div>
+
+
+<p>Aucun message d’erreur n’a été donné, ce qui signifie que la commande s’est terminée correctement. Vérifions que les fichiers ont été déplacés en listant le contenu de pingouin-pix:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix.jpg?resize=670%2C56&amp;ssl=1" alt="Shell ls Linux" class="wp-image-2975"/></figure></div>
+
+
+<h2 id="supprimer">Supprimer des fichiers</h2>
+
+
+
+<p>Nous avons deux images de pingouin, mais nous avons peut-être décidé que nous n’avions besoin que de&nbsp;<strong>real-penguin.jpg</strong>, et nous n’avons plus besoin de tux-the-penguin.jpg. Nous pouvons supprimer ce fichier en utilisant la commande&nbsp;<strong>rm</strong>&nbsp;(«&nbsp;<strong>remove</strong>«&nbsp;).</p>
+
+
+
+<p>Nous devons fournir à&nbsp;<strong>rm</strong>&nbsp;le nom du fichier à supprimer. Nous sommes actuellement dans le répertoire images, mais notre image est maintenant dans le sous-répertoire penguin-pix. Nous pourrions changer notre répertoire de travail en penguin-pix, puis exécuter la commande, mais ce n’est qu’un travail supplémentaire, nous pouvons sauter cette étape en utilisant le répertoire comme partie du chemin.</p>
+
+
+
+<p>Notre commande ressemblera à ceci: «&nbsp;<strong>rm penguin-pix / tux-the-penguin.jpg</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rm.jpg?resize=653%2C41&amp;ssl=1" alt="Shell rm" class="wp-image-2976"/></figure></div>
+
+
+<p>Encore une fois, le shell exécute notre commande sans donner de retour. la commande a été exécutée avec succès, de sorte que le shell nous renvoie à l’invite de commande, nous indiquant qu’il est prêt pour une autre commande.</p>
+
+
+
+<p><strong>Avertissement</strong>&nbsp;: Contrairement au fait de faire glisser un fichier vers la corbeille ou vers la corbeille Microsoft Windows, il est impossible d’annuler la suppression d’un fichier avec rm. Retirez vos fichiers avec soin! Une fois parti, il est (pratiquement) impossible de les récupérer.</p>
+
+
+
+<p>Vérifions simplement que le fichier a vraiment disparu:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix-2.jpg?resize=640%2C61&amp;ssl=1" alt="shell ls penguin pix" class="wp-image-2977"/></figure></div>
+
+
+<h2 id="supprimer-rep">Supprimer des répertoires</h2>
+
+
+
+<p>C’est génial pour les fichiers, mais qu’en est-il des répertoires? Par défaut,&nbsp;<strong>rm</strong>&nbsp;ne supprime que les fichiers et non les répertoires.</p>
+
+
+
+<p>La commande&nbsp;<strong>rmdir</strong>&nbsp;(«&nbsp;<strong>remove directory</strong>«&nbsp;) supprime un répertoire, en supposant qu’il soit vide. Testons-le en créant un nouveau répertoire vide en utilisant la commande «&nbsp;<strong>mkdir test-directory</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir-test-repertoire.jpg?resize=676%2C33&amp;ssl=1" alt="Shell mkdir test repertoire" class="wp-image-2978"/></figure></div>
+
+
+<p>Vérifions qu’il existe avec la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-l-test-repertoire.jpg?resize=645%2C102&amp;ssl=1" alt="Shell ls-l test répertoire" class="wp-image-2979"/></figure></div>
+
+
+<p>Nous pouvons maintenant supprimer notre tout nouveau répertoire en utilisant la commande «&nbsp;<strong>rmdir test-directory</strong>&nbsp;» et vérifier qu’il est parti en exécutant à nouveau la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-test-repertoire.jpg?resize=631%2C101&amp;ssl=1" alt="Shell rmdir test répertoire" class="wp-image-2981"/></figure></div>
+
+
+<p>Oui, c’est parti.</p>
+
+
+
+<p>Cependant, que se passerait-il si nous essayions de «&nbsp;<strong>rmdir penguin-pix</strong>«&nbsp;?</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-penguin-pix-echec.jpg?resize=630%2C50&amp;ssl=1" alt="Shell echec de rmdir" class="wp-image-2983"/></figure></div>
+
+
+<p>Obtenir une erreur indiquant que&nbsp;<strong>rmdir</strong>&nbsp;n’a pas réussi à supprimer un répertoire</p>
+
+
+
+<p>Nous ne pouvons pas&nbsp;<strong>rmdir</strong>&nbsp;ce répertoire car il n’est pas vide.</p>
+
+
+
+<p>Si vous êtes sûr de vouloir supprimer&nbsp;<strong>penguin-pix</strong>&nbsp;et tout ce qu’il contient (y compris tous les fichiers et répertoires qu’il contient), vous pouvez utiliser la commande&nbsp;<strong>rm</strong>&nbsp;avec l’option&nbsp;<strong>-r</strong>.</p>
+
+
+
+<p>Normalement,&nbsp;<strong>rm</strong>&nbsp;ne fonctionnera pas sur un répertoire. Cependant, si elle est appelée avec l’option -r, rm supprime récursivement un répertoire, ce qui signifie qu’il se déplace dans le répertoire et dans tous les sous-répertoires, en supprimant tout ce qui inclut le répertoire. Donc, si nous exécutons la commande «&nbsp;<strong>rm -r penguin-pix</strong>«&nbsp;, cela supprime le répertoire et le fichier qui se trouvait à l’intérieur. S’il y avait des répertoires à l’intérieur, ils auraient également été supprimés.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-tutoriel-rm.jpg?resize=646%2C43&amp;ssl=1" alt="Tutoriel Shell commande rm" class="wp-image-2984"/></figure></div>
+
+
+<p><strong>Attention!</strong>&nbsp;Encore une fois, il n’y a pas d’annulation pour cette commande. Lorsque vous&nbsp;<strong>rm -r</strong>&nbsp;un répertoire, ce répertoire et tout ce qu’il contient sont supprimés pour toujours! Comme la plupart des commandes Linux,&nbsp;<strong>rm</strong>&nbsp;est très puissant et doit être utilisé avec précaution.</p>
+
+
+
+<h2 id="copier">Copier des fichiers</h2>
+
+
+
+<p>Pour copier un fichier, utilisez la commande&nbsp;<strong>cp</strong>. La forme la plus simple de cp est:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>cp SOURCE DESTINATION</p></blockquote>
+
+
+
+<p><strong>SOURCE</strong>&nbsp;est le nom du fichier que vous souhaitez copier et&nbsp;<strong>DESTINATION</strong>&nbsp;est le chemin spécifiant la destination du nouveau fichier. La destination peut être un nouveau nom de fichier ou le nom du répertoire dans lequel vous souhaitez trouver une copie.</p>
+
+
+
+<p>Disons que nous avons un fichier texte dans notre dossier de documents appelé&nbsp;<strong>orig.txt</strong>, et nous voulons en faire une copie appelée&nbsp;<strong>copy.txt</strong>. La commande à utiliser est «&nbsp;<strong>cp orig.txt copy.txt</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-exemple.jpg?resize=649%2C104&amp;ssl=1" alt="Shell exemple commande cp" class="wp-image-2985"/></figure></div>
+
+
+<p>Si, par contre, nous spécifions un répertoire comme destination de la commande cp, il en crée une copie avec le même nom que l’original dans le répertoire de destination. Dans l’exemple suivant, nous faisons six choses:</p>
+
+
+
+<ol><li>Répertorie le contenu du répertoire de travail;</li><li>Créez un nouveau répertoire, appelé&nbsp;<strong>copies</strong>;</li><li>Lister le contenu du répertoire de travail, qui inclut maintenant le répertoire des&nbsp;<strong>copies</strong>;</li><li>Répertorie le contenu du répertoire des copies (il n’y en a pas. Il est&nbsp;<strong>vide</strong>);</li><li>Copier&nbsp;<strong>copy.txt</strong>&nbsp;dans le répertoire des copies;</li><li>Répertorie le contenu du répertoire des copies, qui contient désormais une copie de copy.txt.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-repertoire.jpg?resize=662%2C161&amp;ssl=1" alt="Shell cp répertoire" class="wp-image-2986"/></figure></div>
+
+
+<h2 id="renommer-file">Renommer un fichier</h2>
+
+
+
+<p>La commande mv peut également être utilisée pour modifier le nom d’un fichier. Par exemple, la commande «&nbsp;<strong>mv orig.txt original.txt</strong>&nbsp;» renommera le fichier&nbsp;<strong>orig.txt</strong>&nbsp;en&nbsp;<strong>original.txt</strong>:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename.jpg?resize=659%2C104&amp;ssl=1" alt="Shell mv rename" class="wp-image-2987"/></figure></div>
+
+
+<h2 id="renommer-dir">Renommer un répertoire</h2>
+
+
+
+<p>Renommer des répertoires fonctionne exactement comme renommer des fichiers, avec la commande&nbsp;<strong>mv</strong>. Ici, nous créons un répertoire nommé «&nbsp;<strong>copy</strong>«&nbsp;, mais nous le renommons «&nbsp;copies&nbsp;» en utilisant la commande «&nbsp;<strong>mv copy copies</strong>«&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename-directory.jpg?resize=653%2C117&amp;ssl=1" alt="Shell mv rename directory" class="wp-image-2988"/></figure></div>
+
+
+<p>Si le répertoire de copie contenait des fichiers ou des répertoires, ils resteraient inchangés. La seule chose qui changerait serait le nom du répertoire qui les contenait.</p>
+
+
+
+<h2 id="exit">Quitter Shell</h2>
+
+
+
+<p>Si vous tapez la commande&nbsp;<strong>exit</strong>, vous quittez le Shell de commande et fermez la fenêtre du terminal ou préparez la fenêtre du terminal pour qu’elle soit fermée manuellement.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Matériel informatique</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/materiel-informatique/</link>
+		<title>Guide complet de Linux pour débutant</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/guide-complet-de-linux-pour-debutant/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:27:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 02:02:26 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[ligne commande]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=714</guid>
 
-					<description><![CDATA[Le matériel représente les composants physiques et tangibles d&#39;un ordinateur, c&#39;est-à-dire les composants qui peuvent être vus et touchés. Des exemples de matériel sont les suivants &#8211; Périphériques d&#39;entrée &#8211; clavier, souris, etc. Périphériques de sortie &#8211; imprimante, moniteur, etc. Périphériques de stockage secondaires &#8211; Disque dur, CD, DVD, etc. Composants internes &#8211; CPU, carte mère, RAM, etc. Relation&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">Le matériel représente les composants physiques et tangibles d&#39;un ordinateur, c&#39;est-à-dire les composants qui peuvent être vus et touchés.</p>
-<p style="font-size:medium">Des exemples de matériel sont les suivants &#8211;</p>
-<ul style="font-size:medium">
-<li>
-<p><b>Périphériques d&#39;entrée</b> &#8211; clavier, souris, etc.</p>
-</li>
-<li>
-<p><b>Périphériques de sortie</b> &#8211; imprimante, moniteur, etc.</p>
-</li>
-<li>
-<p><b>Périphériques de stockage secondaires</b> &#8211; Disque dur, CD, DVD, etc.</p>
-</li>
-<li>
-<p><b>Composants internes</b> &#8211; CPU, carte mère, RAM, etc.</p>
-</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/computer_hardware.jpg" alt="Matériel informatique" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<h2>Relation entre le matériel et le logiciel</h2>
-<ul style="font-size:medium">
-<li>
-<p>Le matériel et le logiciel dépendent l&#39;un de l&#39;autre. Les deux doivent travailler ensemble pour qu&#39;un ordinateur produise une sortie utile.</p>
-</li>
-<li>
-<p>Le logiciel ne peut pas être utilisé sans matériel de support.</p>
-</li>
-<li>
-<p>Le matériel sans un ensemble de programmes sur lesquels opérer ne peut pas être utilisé et est inutile.</p>
-</li>
-<li>
-<p>Pour effectuer un travail particulier sur l&#39;ordinateur, le logiciel approprié doit être chargé dans le matériel.</p>
-</li>
-<li>
-<p>Le matériel est une dépense ponctuelle.</p>
-</li>
-<li>
-<p>Le développement de logiciels est très coûteux et constitue une dépense permanente.</p>
-</li>
-<li>
-<p>Différentes applications logicielles peuvent être chargées sur un matériel pour exécuter différents travaux.</p>
-</li>
-<li>
-<p>Un logiciel agit comme une interface entre l&#39;utilisateur et le matériel.</p>
-</li>
-<li>
-<p>Si le matériel est le «cœur» d&#39;un système informatique, alors le logiciel est son «âme». Les deux sont complémentaires.</p>
-</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
+					<description><![CDATA[Le système Linux&#160;est la depuis le milieu des années 90, et a depuis atteint une base d’utilisateurs qui s’étend sur les industries et les continents. Pour ceux qui le savent, vous comprenez que Linux est en fait partout. C’est dans vos téléphones, dans vos voitures, dans vos réfrigérateurs, vos appareils Roku. Il fonctionne la plupart&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/01/guide-linux.jpg?resize=780%2C470&amp;ssl=1" alt="Guide Linux"/></figure>
+
+
+
+<p>Le système Linux&nbsp;est la depuis le milieu des années 90, et a depuis atteint une base d’utilisateurs qui s’étend sur les industries et les continents. Pour ceux qui le savent, vous comprenez que Linux est en fait partout. C’est dans vos téléphones, dans vos voitures, dans vos réfrigérateurs, vos appareils Roku. Il fonctionne la plupart avec&nbsp;l’Internet, les supercalculateurs faisant des percées scientifiques, et les bourses mondiales. Mais avant que Linux ne devienne une plate-forme pour s’exécuter sur les ordinateurs de bureau, les serveurs et les systèmes embarqués à travers le monde, c’était (et est toujours) l’un des systèmes d’exploitation les plus fiables, sécurisés et sans soucis disponibles.</p>
+
+
+
+<span id="more-714"></span>
+
+
+
+<p>Pour ceux qui ne le savent pas, ne vous inquiétez pas – voici toutes les informations dont vous avez besoin pour vous&nbsp;<strong>familiariser avec la plate-forme Linux</strong>.</p>
+
+
+
+<h2>Qu’est-ce que Linux?</h2>
+
+
+
+<p>Tout comme Windows XP, Windows 7, Windows 8 et Mac OS X, Linux est un système d’exploitation. Un système d’exploitation est un logiciel qui gère toutes les ressources matérielles associées à votre ordinateur de bureau ou ordinateur portable. Pour le dire simplement – le système d’exploitation gère la communication entre votre logiciel et votre matériel. Sans le système d’exploitation (souvent appelé «OS»), le logiciel ne fonctionnerait pas.</p>
+
+
+
+<p>L’OS est composé d’un certain nombre de pièces:</p>
+
+
+
+<ul><li><strong>Bootloader</strong>: Le logiciel qui gère le processus de démarrage de votre ordinateur. Pour la plupart des utilisateurs, ce sera simplement un écran de démarrage qui apparaît et finalement disparaît pour démarrer dans le système d’exploitation.</li><li><strong>Le noyau</strong>: C’est le morceau unique de l’ensemble qui est réellement appelé « Linux ». Le noyau est le cœur du système et gère le processeur, la mémoire et les périphériques. Le noyau est le niveau le plus bas du système d’exploitation.</li><li>Daemons: ce sont des services en arrière-plan (impression, son, planification, etc.) qui démarrent pendant le démarrage ou après vous connecter au bureau.</li><li><strong>Le Shell</strong>: Vous avez probablement entendu parler de la ligne de <strong>commande Linux</strong>. C’est le shell – un processus de commande qui vous permet de contrôler l’ordinateur via des commandes tapées dans une interface de texte. C’est ce qui, à un moment donné, a effrayé les gens de Linux le plus (en supposant qu’ils ont dû apprendre une structure de ligne de commande apparemment archaïque pour faire fonctionner Linux). Ce n’est plus le cas. Avec Linux de bureau moderne, il n’est pas nécessaire de toucher la ligne de commande.</li><li><strong>Serveur graphique</strong>: il s’agit du sous-système qui affiche les graphiques sur votre moniteur. Il est communément appelé le serveur X ou simplement «X».</li><li><strong>Environnement de bureau</strong>: C’est le morceau du puzzle avec lequel les utilisateurs interagissent réellement. Il existe de nombreux environnements de bureau à choisir (<strong>Unity</strong>, <strong>GNOME</strong>, Cannelle, Enlightenment, KDE, XFCE, etc.). Chaque environnement de bureau comprend des applications intégrées (telles que des gestionnaires de fichiers, des outils de configuration, des navigateurs Web, des jeux, etc.).</li><li><strong>Applications</strong>: Les environnements de bureau n’offrent pas toute la gamme d’applications. Tout comme Windows et Mac, Linux offre des milliers et des milliers de titres logiciels de haute qualité qui peuvent être facilement trouvés et installés. La plupart des distributions Linux modernes (plus à ce sujet dans un instant) incluent des outils similaires à App Store qui centralisent et simplifient l’installation des applications. Par exemple: Ubuntu Linux dispose du Ubuntu Software Center (Figure 1) qui vous permet de rechercher rapidement parmi les milliers d’applications et de les installer à partir d’un emplacement centralisé.</li></ul>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Ports</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/ports/</link>
+		<title>Convertir un PC Windows en Machine Virtuelle à l’aide d’Hyper-V</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/convertir-un-pc-windows-en-machine-virtuelle-a-laide-dhyper-v/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:26:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 02:00:37 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<category><![CDATA[hyper-v]]></category>
+		<category><![CDATA[machine]]></category>
+		<category><![CDATA[virtuel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=712</guid>
 
-					<description><![CDATA[Un port est un point d&#39;ancrage physique à l&#39;aide duquel un périphérique externe peut être connecté à l&#39;ordinateur. Il peut également s&#39;agir d&#39;un point d&#39;ancrage programmatique par lequel les informations circulent d&#39;un programme à l&#39;ordinateur ou via Internet. Caractéristiques des ports Un port a les caractéristiques suivantes &#8211; Les périphériques externes sont connectés à un ordinateur&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">Un port est un point d&#39;ancrage physique à l&#39;aide duquel un périphérique externe peut être connecté à l&#39;ordinateur. Il peut également s&#39;agir d&#39;un point d&#39;ancrage programmatique par lequel les informations circulent d&#39;un programme à l&#39;ordinateur ou via Internet.</p>
-<h2>Caractéristiques des ports</h2>
-<p style="font-size:medium">Un port a les caractéristiques suivantes &#8211;</p>
-<ul style="font-size:medium">
-<li>
-<p>Les périphériques externes sont connectés à un ordinateur à l&#39;aide de câbles et de ports.</p>
-</li>
-<li>
-<p>Les ports sont des emplacements sur la carte mère dans lesquels un câble de périphérique externe est branché.</p>
-</li>
-<li>
-<p>Des exemples de périphériques externes connectés via des ports sont la souris, le clavier, le moniteur, le microphone, les haut-parleurs, etc.</p>
-</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/computer_ports.jpg" alt="Ports informatiques" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<p style="font-size:medium">Parlons maintenant de quelques types importants de ports &#8211;</p>
-<h2>Port série</h2>
-<ul style="font-size:medium">
-<li>
-<p>Utilisé pour les modems externes et les anciennes souris d&#39;ordinateur</p>
-</li>
-<li>
-<p>Deux versions: modèle 9 broches, 25 broches</p>
-</li>
-<li>
-<p>Les données voyagent à 115 kilobits par seconde</p>
-</li>
-</ul>
-<h2>Port parallèle</h2>
-<ul style="font-size:medium">
-<li>
-<p>Utilisé pour les scanners et les imprimantes</p>
-</li>
-<li>
-<p>Aussi appelé port d&#39;imprimante</p>
-</li>
-<li>
-<p>Modèle à 25 broches</p>
-</li>
-<li>
-<p>Port Centronics conforme IEEE 1284</p>
-</li>
-</ul>
-<h2>Port PS / 2</h2>
-<ul style="font-size:medium">
-<li>
-<p>Utilisé pour l&#39;ancien clavier et souris d&#39;ordinateur</p>
-</li>
-<li>
-<p>Aussi appelé port souris</p>
-</li>
-<li>
-<p>La plupart des anciens ordinateurs fournissent deux ports PS / 2, chacun pour la souris et le clavier</p>
-</li>
-<li>
-<p>Port Centronics conforme IEEE 1284</p>
-</li>
-</ul>
-<h2>Port de bus série universel (ou USB)</h2>
-<ul style="font-size:medium">
-<li>
-<p>Il peut connecter toutes sortes de périphériques USB externes tels que disque dur externe, imprimante, scanner, souris, clavier, etc.</p>
-</li>
-<li>
-<p>Il a été introduit en 1997.</p>
-</li>
-<li>
-<p>La plupart des ordinateurs fournissent au minimum deux ports USB.</p>
-</li>
-<li>
-<p>Les données voyagent à 12 mégabits par seconde.</p>
-</li>
-<li>
-<p>Les appareils compatibles USB peuvent être alimentés par un port USB.</p>
-</li>
-</ul>
-<h2>Port VGA</h2>
-<ul style="font-size:medium">
-<li>
-<p>Connecte le moniteur à la carte vidéo d&#39;un ordinateur.</p>
-</li>
-<li>
-<p>Il a 15 trous.</p>
-</li>
-<li>
-<p>Similaire au connecteur de port série. Cependant, le connecteur du port série a des broches, le port VGA a des trous.</p>
-</li>
-</ul>
-<h2>Câble d&#39;alimentation</h2>
-<ul style="font-size:medium">
-<li>
-<p>Fiche à trois broches.</p>
-</li>
-<li>
-<p>Se connecte au câble d&#39;alimentation de l&#39;ordinateur qui se branche sur une barre d&#39;alimentation ou une prise murale.</p>
-</li>
-</ul>
-<h2>Port Firewire</h2>
-<ul style="font-size:medium">
-<li>
-<p>Transfère une grande quantité de données à une vitesse très rapide.</p>
-</li>
-<li>
-<p>Connecte les caméscopes et l&#39;équipement vidéo à l&#39;ordinateur.</p>
-</li>
-<li>
-<p>Les données voyagent de 400 à 800 mégabits par seconde.</p>
-</li>
-<li>
-<p>Inventé par Apple.</p>
-</li>
-<li>
-<p>Il existe trois variantes: connecteur FireWire 400 à 4 broches, connecteur FireWire 400 à 6 broches et connecteur FireWire 800 à 9 broches.</p>
-</li>
-</ul>
-<h2>Port du modem</h2>
-<ul style="font-size:medium">
-<li>Connecte le modem d&#39;un PC au réseau téléphonique.</li>
-</ul>
-<h2>Port Ethernet</h2>
-<ul style="font-size:medium">
-<li>
-<p>Se connecte à un réseau et à Internet haute vitesse.</p>
-</li>
-<li>
-<p>Connecte le câble réseau à un ordinateur.</p>
-</li>
-<li>
-<p>Ce port réside sur une carte Ethernet.</p>
-</li>
-<li>
-<p>Les données se déplacent de 10 mégabits à 1000 mégabits par seconde en fonction de la bande passante du réseau.</p>
-</li>
-</ul>
-<h2>Port de jeu</h2>
-<ul style="font-size:medium">
-<li>
-<p>Connectez un joystick à un PC</p>
-</li>
-<li>
-<p>Maintenant remplacé par USB</p>
-</li>
-</ul>
-<h2>Interface vidéo numérique, port DVI</h2>
-<ul style="font-size:medium">
-<li>
-<p>Connecte le moniteur LCD à écran plat aux cartes graphiques vidéo haut de gamme de l&#39;ordinateur.</p>
-</li>
-<li>
-<p>Très populaire parmi les fabricants de cartes vidéo.</p>
-</li>
-</ul>
-<h2>Douilles</h2>
-<ul style="font-size:medium">
-<li>
-<p>Les prises permettent de connecter le microphone et les haut-parleurs à la carte son de l&#39;ordinateur.</p>
-</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
+					<description><![CDATA[Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/Hyper-V-et-machine-Virtuelle.png?resize=500%2C300&amp;ssl=1" alt="Hyper V et machine Virtuelle"/></figure>
+
+
+
+<p>Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.</p>
+
+
+
+<span id="more-712"></span>
+
+
+
+<p>La version virtuelle de Windows est juste un gros fichier et un logiciel spécial exécuté sur votre ordinateur Windows (logiciel de virtualisation) agit comme un faux ordinateur pour que Windows puisse s’exécuter. Tout ce que vous faites dans la machine virtuelle n’affectera pas votre système d’exploitation hôte. Ainsi, vous pouvez télécharger des&nbsp;virus sur la machine virtuelle et votre système d’exploitation principal serait en sécurité.</p>
+
+
+
+<p>Ce qui est bien sur les machines virtuelles, c’est que vous pouvez les réinitialiser. Donc, si vous obtenez un virus lors de la navigation sur la machine virtuelle, vous pouvez simplement réinitialiser la machine virtuelle à son état par défaut lorsque vous l’avez installé et recommencer. C’est aussi un excellent moyen d’augmenter votre vie privée, car vous pouvez simplement effacer tout ce que vous avez fait dans une machine virtuelle.</p>
+
+
+
+<p>Avant de commencer, parlons des exigences. Il existe de nombreux outils de virtualisation de logiciels comme&nbsp;<strong>VMWare</strong>,&nbsp;<strong>Parallels</strong>,&nbsp;<strong>VirtualBox</strong>, pour&nbsp;les logiciels Microsoft vous avez besoin de deux choses:</p>
+
+
+
+<p><a href="https://technet.microsoft.com/fr-fr/library/ee656415.aspx">Disk2VHD</a>&nbsp;– Un outil gratuit de Microsoft qui sera utilisé pour convertir n’importe quel système d’exploitation Windows à partir de Windows XP en un fichier de machine virtuelle.</p>
+
+
+
+<p><strong>Windows 8.1 Pro ou Windows 10 Pro</strong>&nbsp;– Vous aurez besoin des versions Pro de Windows 8.1 ou Windows 10 pour compléter ce processus. Les deux systèmes d’exploitation ont un outil appelé&nbsp;<strong>Hyper-V</strong>&nbsp;qui peut être utilisé pour accéder au fichier virtuel créé par Disk2VHD.</p>
+
+
+
+<p>Il est également intéressant de noter que même si vous pouvez utiliser Windows XP, Vista et 7 comme machine virtuelle, il est préférable de convertir une machine Windows 8.1 ou Windows 10 parce que la plus haute résolution prise en charge par Hyper-V pour les anciens systèmes d’exploitation est 1600 × 1200. C’est vraiment ennuyeux et je ne sais pas pourquoi Microsoft n’a pas pris la peine de résoudre ce problème encore. Quoi qu’il en soit, c’est seulement un problème pour ceux qui ont des moniteurs haute résolution.</p>
+
+
+
+<p></p>
+
+
+
+<h2>Convertir le système d’exploitation Windows en VHD</h2>
+
+
+
+<p>Commençons par la partie facile: convertir votre version actuelle de Windows en machine virtuelle (fichier VHD ou VHDX). Pour ce faire, téléchargez l’outil Disk2VHD mentionné ci-dessus et exécutez le fichier EXE.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/disk2vhd-demarrer.jpg?resize=525%2C361" alt="Démarrer avec disk2vhd" class="wp-image-1113"/></figure></div>
+
+
+<p>Lorsque vous l’exécutez, vous verrez un écran comme celui ci-dessus. Vous devez&nbsp;choisir l’emplacement où vous voulez enregistrer le fichier VHDX et les volumes que vous souhaitez inclure.</p>
+
+
+
+<p>Si vous avez un grand disque dur, vous pouvez simplement laisser enregistrer le fichier dans la même partition que Windows. Sinon, choisissez un autre emplacement comme un deuxième disque dur ou un disque dur externe USB. Par défaut, il va sélectionner tous les volumes qu’il trouve sur votre ordinateur.</p>
+
+
+
+<p>Dans mon cas, j’ai plusieurs disques durs connectés à l’ordinateur, ainsi je veux seulement choisir le volume C: \, qui est 37.26 GB dans la taille. En outre, vous voulez vous assurer de sélectionner tous les autres volumes qui ont été créés lorsque vous avez installé Windows, probablement le volume de démarrage et le&nbsp;<strong>volume réservé du système</strong>. Ceux-ci sont généralement très petits: dans mon cas, le volume réservé au système est seulement 34 Mo et l’autre volume, qui n’a pas d’étiquette, est seulement 322,08 Mo.</p>
+
+
+
+<p>Il est très important de sélectionner ces autres volumes en plus du volume principal de Windows, car si vous ne le faites pas, le système d’exploitation ne démarrera pas lorsque vous le chargez dans Hyper-V. Au lieu de cela, vous obtiendrez un message d’<strong>échec de démarrage</strong>! En effet, ces deux volumes supplémentaires indiquent au système où se trouve Windows et comment le démarrer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/erreur-boot.png?resize=516%2C326" alt="Erreur démarrage" class="wp-image-1114"/></figure></div>
+
+
+<p>Il faudra probablement un certain temps pour&nbsp;<strong>créer le fichier VHDX</strong>&nbsp;en fonction de la taille de votre partition Windows. Une fois terminé, vous aurez un fichier vraiment grand et deux fichiers plus petits.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/vhdx-images.png?resize=665%2C149" alt="Images VHDX" class="wp-image-1115"/></figure></div>
+
+
+<h2>Installer Hyper-V sous Windows 8.1 / 10</h2>
+
+
+
+<p>Ensuite, nous devons installer les outils Hyper-V sous Windows 8.1 ou Windows 10 Pro. Si vous avez les éditions Home, vous devrez effectuer une mise à niveau vers Pro avant d’installer Hyper-V. Cliquez sur Démarrer et tapez dans&nbsp;<strong>les fonctionnalités de Windows</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/option-windows.png?resize=394%2C393" alt="Options de Windows" class="wp-image-1116"/></figure></div>
+
+
+<p>En haut, cliquez sur Activer ou&nbsp;<strong>désactiver les fonctionnalités de Windows</strong>. Une fenêtre s’affiche où vous pouvez cocher les éléments supplémentaires que vous souhaitez installer. Allez-y et cochez la case pour&nbsp;<strong>Hyper-V</strong>. Il doit également cocher les cases correspondantes aux outils de gestion Hyper-V et à la&nbsp;<strong>plate-forme Hyper-V</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/activer-hyper-v.png?resize=417%2C372" alt="Activer hyper V" class="wp-image-1117"/></figure></div>
+
+
+<p>Cliquez sur OK et laissez Windows installer les fonctionnalités. Vous devrez également redémarrer votre ordinateur. Une fois la sauvegarde démarrée, cliquez sur Démarrer, Toutes les applications, puis faites défiler jusqu’à Outils d’administration Windows. Vous devriez voir Hyper-V Manager répertorié ici. Vous pouvez également cliquer sur Démarrer et taper Hyper-V pour le rechercher.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/menu-demarrer-hyper-v.png?resize=263%2C388" alt="Hyper V dans le menu démarrer" class="wp-image-1118"/></figure></div>
+
+
+<h2>Configuration de Hyper-V</h2>
+
+
+
+<p>Maintenant pour la partie amusante! Commençons par Hyper-V. Allez-y et ouvrez le Gestionnaire Hyper-V et vous verrez un espace de travail vierge.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/hyper-v-gestionnaire.png?resize=646%2C440" alt="Le gestionnaire de hyper V" class="wp-image-1119"/></figure></div>
+
+
+<p>À l’extrême gauche se trouve le serveur, qui devrait être le nom de votre ordinateur. Dans la partie centrale se trouvent la liste des machines virtuelles et des checkpoints. Sur la droite, vous avez un menu dynamique qui change en fonction de l’élément sélectionné dans les sections de gauche. Pour commencer, sélectionnez le nom de l’ordinateur à l’extrême gauche.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouvelle-virtuel-machine.png?resize=500%2C154" alt="Nouvelle machine virtuelle" class="wp-image-1123"/></figure></div>
+
+
+<p>Maintenant à l’extrême droite, cliquez sur Nouveau et puis sur Virtual Machine. Cela ouvre l’Assistant de la nouvelle machine virtuelle. La première étape consiste à donner un nom à votre machine virtuelle.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nom-virtual-machine.png?resize=656%2C326" alt="Nom de machine virtuelle" class="wp-image-1124"/></figure></div>
+
+
+<p>Ensuite, vous devez choisir la génération de la machine virtuelle. Si vous convertissez une version 64 bits de Windows en une machine virtuelle et que votre matériel informatique prend en charge UEFI, choisissez Génération 2, car cela permet des fonctionnalités plus avancées. Utilisez la génération 1 pour les versions 32 bits de Windows ou si votre machine utilise le BIOS existant. Generation 2 prend également en charge les écrans géants lors de la virtualisation de Windows 8.1 ou Windows 10.</p>
+
+
+
+<p>Si vous n’avez aucune idée de ce que tout cela signifie, choisissez simplement Génération 1 pour être sûr. Notez que si la machine virtuelle ne démarre pas, vous pouvez facilement la supprimer et recommencer ce processus. Sélectionnez une génération différente et vérifiez si elle démarre correctement. La suppression de la machine virtuelle dans Hyper-V ne supprime pas vos fichiers VHDX d’origine.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-generation.png?resize=656%2C296" alt="Génération du machine virtuelle" class="wp-image-1125"/></figure></div>
+
+
+<p>Sur l’écran suivant, vous devez choisir la quantité de mémoire que vous souhaitez affecter à votre machine virtuelle. Je l’ai laissé à la valeur par défaut de 1024 Mo, mais vous pouvez l’augmenter si vous avez suffisamment de RAM disponible sur votre ordinateur hôte.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-memoire.png?resize=650%2C297" alt="Mémoire du machine virtuelle" class="wp-image-1126"/></figure></div>
+
+
+<p>Allez-y et sautez l’écran Configure Networking pour l’instant car nous devrons le faire plus tard. Pour l’instant, laissez-le à Not Connected. Sur l’écran Connect Virtual Hard Disk, vous devez sélectionner Utiliser un disque dur virtuel existant.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/connecter-virtual-disque-dur.png?resize=656%2C438" alt="Connecter un disque dur virtuelle" class="wp-image-1127"/></figure></div>
+
+
+<p>Cliquez sur le bouton Parcourir et sélectionnez l’image VHDX qui représente votre partition Windows réelle. Ce devrait être le très grand fichier VHDX. Nous aurons à ajouter manuellement les deux autres disques VHDX après l’assistant, que je vais montrer plus bas. À ce stade, examinez le résumé et cliquez sur Terminer.</p>
+
+
+
+<p>Maintenant, vous devriez voir un nouvel élément répertorié sous Virtual Machines. Si vous cliquez sur cela, vous verrez un tas d’autres options dans le volet de droite.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/demarrer-virutal-machine.png?resize=626%2C572" alt="Démarrer une virtuelle machine" class="wp-image-1128"/></figure></div>
+
+
+<p>Pour démarrer la machine virtuelle, sélectionnez-la, puis cliquez sur Démarrer. La colonne État se transforme en Exécution. Cliquez sur Connecter pour afficher la machine virtuelle. Si vous avez fait cela maintenant, vous verrez ce message d’erreur que j’ai mentionné au début de l’article: échec de démarrage. Nous avons encore besoin d’ajouter les autres disques durs.</p>
+
+
+
+<p>Sélectionnez la machine virtuelle, puis cliquez sur Désactiver. Cliquez ensuite sur le lien Paramètres. Sur le côté gauche, vous devriez voir IDE Controller 0 et IDE Controller 1. Cliquez sur le Controller 0 en premier. Si vous avez choisi Génération 2, vous verrez SCSI Controller uniquement.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ide-controlleur.png?resize=648%2C319" alt="contrôleur ide" class="wp-image-1130"/></figure></div>
+
+
+<p>Vous verrez que le premier fichier VHDX que nous avons ajouté dans l’assistant est déjà répertorié. Maintenant nous devons ajouter les deuxième et troisième fichiers. Assurez-vous que le disque dur est sélectionné, puis cliquez sur Ajouter.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-deuxieme-vhdx.png?resize=643%2C301" alt="" class="wp-image-1120"/></figure></div>
+
+
+<p>La case Emplacement doit automatiquement choisir 1 car le slot 0 est pris par notre premier fichier VHDX. Chaque contrôleur IDE ne dispose que de deux emplacements disponibles pour ajouter des lecteurs. Cliquez sur Disque dur virtuel et choisissez votre deuxième fichier VHDX.</p>
+
+
+
+<p>Cliquez maintenant sur IDE Controller 1, puis sur le bouton Ajouter. Faites la même chose ici, mais choisissez votre troisième fichier VHDX.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-troisieme-vhdx.png?resize=646%2C358" alt="" class="wp-image-1121"/></figure></div>
+
+
+<p>Maintenant que nous avons tous les trois fichiers VHDX attachés, nous pouvons cliquer sur OK et démarrer notre machine virtuelle. Cette fois, vous devriez obtenir un écran avec Windows chargement!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/windows-demarre-avec-hyper-v.jpg?resize=600%2C530" alt="Démarrer Windows avec hyper V" class="wp-image-1129"/></figure></div>
+
+
+<h2>Configurer la mise en réseau</h2>
+
+
+
+<p>Enfin, nous devons configurer la mise en réseau de la machine virtuelle afin que vous puissiez vous connecter au réseau local et à Internet. Pour ce faire, cliquez sur Virtual Switch Manager en haut du menu de droite.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouveau-virtual-switch.png?resize=651%2C268" alt="" class="wp-image-1122"/></figure></div>
+
+
+<p>Cliquez sur Nouveau commutateur réseau virtuel, puis sélectionnez Externe dans la zone de liste. Enfin, cliquez sur Créer un commutateur virtuel.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/externe-virtual-switch.png?resize=444%2C329" alt="externe-virtual-switch" class="wp-image-1131"/></figure></div>
+
+
+<p>Donnez à votre commutateur virtuel un nom si vous le souhaitez, puis choisissez le réseau correct dans la liste déroulante. Si vous avez plus d’une carte réseau, choisissez celle qui est connectée au réseau et à Internet. Une fois que votre commutateur a été créé, nous devons dire à la machine virtuelle de l’utiliser. Pour ce faire, cliquez sur la machine virtuelle dans le gestionnaire Hyper-V, puis cliquez sur le lien Paramètres dans le volet droit.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/configurer-network-switch.png?resize=647%2C424" alt="configurer-network-switch" class="wp-image-1132"/></figure></div>
+
+
+<p>Cliquez sur Adaptateur réseau, puis choisissez le nouveau commutateur virtuel que vous avez créé à l’étape précédente. C’est tout! Maintenant, lorsque vous démarrez votre machine virtuelle, il doit obtenir un accès réseau via l’ordinateur hôte.</p>
+
+
+
+<p>Espérons que cet article vous aide à prendre votre PC actuel et à le convertir en une machine virtuelle que vous pouvez exécuter sur le même PC ou un autre PC si vous le souhaitez. Il ya beaucoup de choses qui peuvent mal tourner dans ce processus, alors n’hésitez pas à commenter si vous rencontrez des problèmes.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Unités de mémoire</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/unites-de-memoire/</link>
+		<title>5 façons de contrôler à distance un appareil Android</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/5-facons-de-controler-a-distance-un-appareil-android/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:25:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 01:52:25 +0000</pubDate>
+				<category><![CDATA[Astuces ,Trucs]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=710</guid>
 
-					<description><![CDATA[L&#39;unité de mémoire est la quantité de données qui peut être stockée dans l&#39;unité de stockage. Cette capacité de stockage est exprimée en octets. Le tableau suivant explique les principales unités de stockage de la mémoire &#8211; S.No. Unité et description 1 Bit (chiffre binaire) Un chiffre binaire est un 0 logique et un 1 représentant&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">L&#39;unité de mémoire est la quantité de données qui peut être stockée dans l&#39;unité de stockage. Cette capacité de stockage est exprimée en octets.</p>
-<p style="font-size:medium">Le tableau suivant explique les principales unités de stockage de la mémoire &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:699px">
-<tbody>
-<tr>
-<th>S.No.</th>
-<th>Unité et description</th>
-</tr>
-<tr>
-<td>1</td>
-<td>
-<p><b>Bit (chiffre binaire)</b></p>
-<p>Un chiffre binaire est un 0 logique et un 1 représentant un état passif ou actif d&#39;un composant dans un circuit électrique.</p>
-</td>
-</tr>
-<tr>
-<td>2</td>
-<td>
-<p><b>Grignoter</b></p>
-<p>Un groupe de 4 bits est appelé grignotage.</p>
-</td>
-</tr>
-<tr>
-<td>3</td>
-<td>
-<p><b>Octet</b></p>
-<p>Un groupe de 8 bits est appelé octet. Un octet est la plus petite unité, qui peut représenter un élément de données ou un caractère.</p>
-</td>
-</tr>
-<tr>
-<td>4</td>
-<td>
-<p><b>Mot</b></p>
-<p>Un mot d&#39;ordinateur, comme un octet, est un groupe de nombre fixe de bits traités comme une unité, qui varie d&#39;un ordinateur à l&#39;autre mais est fixe pour chaque ordinateur.</p>
-<p>La longueur d&#39;un mot informatique est appelée taille de mot ou longueur de mot. Il peut être aussi petit que 8 bits ou peut être aussi long que 96 bits. Un ordinateur stocke les informations sous forme de mots informatiques.</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p style="font-size:medium">Le tableau suivant répertorie certaines unités de stockage supérieures &#8211;</p>
-<table border="1" style="font-size:medium;border-collapse:collapse;width:344px;height:468px">
-<tbody>
-<tr>
-<th style="width:71.2109px">S.No.</th>
-<th style="width:265.789px">Unité et description</th>
-</tr>
-<tr>
-<td style="width:71.2109px">1</td>
-<td style="width:265.789px">
-<p><b>Kilo-octets (Ko)</b></p>
-<p>1 Ko = 1024 octets</p>
-</td>
-</tr>
-<tr>
-<td style="width:71.2109px">2</td>
-<td style="width:265.789px">
-<p><b>Mégaoctet (Mo)</b></p>
-<p>1 Mo = 1024 Ko</p>
-</td>
-</tr>
-<tr>
-<td style="width:71.2109px">3</td>
-<td style="width:265.789px">
-<p><b>GigaByte (Go)</b></p>
-<p>1 Go = 1024 Mo</p>
-</td>
-</tr>
-<tr>
-<td style="width:71.2109px">4</td>
-<td style="width:265.789px">
-<p><b>TeraByte (To)</b></p>
-<p>1 To = 1024 Go</p>
-</td>
-</tr>
-<tr>
-<td style="width:71.2109px">5</td>
-<td style="width:265.789px">
-<p><b>PetaByte (PB)</b></p>
-<p>1 Po = 1024 To</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
+					<description><![CDATA[Vous avez parfois ressenti le besoin d’accéder à distance à un appareil Android dans différentes situations. Vous avez alors besoin d’un mécanisme robuste, facile à utiliser et fiable pour obtenir un contrôle total de l’appareil ou un moyen d’obtenir un contrôle partiel de certaines fonctionnalités importantes. Heureusement, il existe plusieurs applications, outils et services qui&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/teamviewer-pour-android.jpg?resize=780%2C433&amp;ssl=1" alt="Team viewer pour Android"/></figure>
+
+
+
+<p>Vous avez parfois ressenti le besoin d’accéder à distance à un appareil Android dans différentes situations. Vous avez alors besoin d’un mécanisme robuste, facile à utiliser et fiable pour obtenir un contrôle total de l’appareil ou un moyen d’obtenir un contrôle partiel de certaines fonctionnalités importantes. Heureusement, il existe plusieurs applications, outils et services qui permettent de contrôler à distance un appareil Android de manière simple et transparente. Nous allons examiner certaines des&nbsp;<strong>meilleures outils d’accès à distance</strong>&nbsp;disponibles pour les appareils Android. Tous ces outils fonctionnent de manière transparente avec presque toutes les variantes populaires d’Android. Ces applications sont idéales pour les professionnels et les voyageurs fréquents qui ont souvent besoin d’accéder à des appareils Android à distance. Alors, commençons et découvrons ces applications utiles et puissantes pour gérer nos appareils Android à distance depuis notre PC ou Mac.</p>
+
+
+
+<span id="more-710"></span>
+
+
+
+<p>1. Prise en charge des appareils mobiles TeamViewer</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/teamviewer-controler-a-distance-une-appareil-android.jpg?resize=650%2C270&amp;ssl=1" alt="TeamViewer - contrôler à distance une appareil Android" class="wp-image-11140"/></figure></div>
+
+
+<p>Cette application extrêmement populaire peut être utilisée sur les ordinateurs Windows, Mac ou Linux pour accéder à distance aux appareils Android en quelques étapes faciles. C’est simple, facile à installer et prêt à l’emploi. Les professionnels peuvent l’utiliser pour&nbsp;<strong>gérer les téléphones Android à distance</strong>.</p>
+
+
+
+<p>Le périphérique cible a dû installer une petite application&nbsp;<strong>QuickSupport</strong>&nbsp;pour permettre le contrôle à distance depuis un emplacement distant. Il donne un contrôle complet de l’appareil comme si on le tenait dans la main. Il prend également en charge le&nbsp;<strong>transfert de fichiers sécurisé</strong>&nbsp;ainsi que la prise en charge du chat pour communiquer rapidement avec le propriétaire de l’appareil pendant la session active. On peut également capturer des captures d’écran en couleurs vraies à partir de l’appareil Android distant pour une analyse hors ligne.</p>
+
+
+
+<p><a href="https://astuces-informatique.com/meilleurs-langages-developpement-mobiles/" target="_blank" rel="noreferrer noopener"></a></p>
+
+
+
+<h2>2. AirDroid</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="" alt="AirDrop - contrôler à distance une appareil Android" class="wp-image-11141"/></figure></div>
+
+
+<p>C’est encore une autre solution d’accès à distance extrêmement populaire pour les téléphones et tablettes Android. Il fournit une interface agréable et facile à utiliser pour gérer l’appareil Android directement depuis votre bureau. Outre l’utilisation d’une application de bureau, vous pouvez également utiliser une application Web dans le navigateur Google Chrome.</p>
+
+
+
+<p>Ses grandes notifications d’applications sur l’écran du bureau vous permettent de rester connecté et d’être informé des événements sur l’appareil Android distant. Sa version premium comprend des transferts illimités de fichiers et de dossiers entiers. Il peut également être utilisé pour surveiller un emplacement distant via la caméra de l’appareil en temps réel. Si vous cherchez à&nbsp;<strong>transférer des fichiers très volumineux</strong>&nbsp;à partir de l’appareil distant,&nbsp;<strong>AirDroid</strong>&nbsp;le prend en charge immédiatement.</p>
+
+
+
+<h2>3. ISL Light pour Android</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/ISL-light-for-android-controler-a-distance-une-appareil-android.jpg?resize=653%2C337&amp;ssl=1" alt="ISL Light for Android - contrôler à distance une appareil Android" class="wp-image-11142"/></figure></div>
+
+
+<p>Cette application puissante permet un contrôle total sur les appareils Android distants avec toutes les fonctionnalités pour dépanner et gérer les problèmes avec facilité. Les tablettes et les smartphones classiques peuvent être contrôlés via cette application flexible. Il est disponible pour les plates-formes Windows, Mac et Linux.</p>
+
+
+
+<p>Comme d’autres applications compétentes, celle-ci prend également en charge les captures d’écran en temps réel de l’appareil Android distant avec prise en charge de la messagerie instantanée pour échanger des informations avec la personne à l’autre bout. Il est spécialement conçu pour les téléphones Samsung, vous donnant un véritable contrôle de l’appareil distant. Au cours d’une session à distance, on peut facilement installer ou désinstaller des applications via des commandes pointer-cliquer avec un effet immédiat.</p>
+
+
+
+<h2>4. Mobizen</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/Mobizen-controler-a-distance-une-appareil-android.jpg?resize=593%2C291&amp;ssl=1" alt="Mobizen - contrôler à distance une appareil Android" class="wp-image-11143"/></figure></div>
+
+
+<p>C’est l’une de mes applications préférées pour <strong>apprivoiser un appareil Android à distance</strong>. Il possède plusieurs fonctionnalités uniques et intuitives qui le rendent très populaire parmi la base d’utilisateurs. Utilisez cette solution robuste si vous souhaitez diffuser rapidement des vidéos et des photos stockées sur un appareil Android distant.<a rel="noreferrer noopener" href="https://astuces-informatique.com/codes-secrets-de-telephones-android-et-nokia/" target="_blank"></a></p>
+
+
+
+<p>Il prend également en charge le transfert de fichiers par glisser-déposer entre le bureau et le téléphone. Si l’écran de votre bureau est tactile, vous pouvez utiliser les mêmes actions de glisser-déplacer pour l’écran de l’appareil Android en miroir au lieu d’utiliser les commandes pointer-cliquer classiques. Vous pouvez également enregistrer une vidéo et enregistrer les captures d’écran de l’appareil distant en un clic. Une connexion peut être établie à partir d’un navigateur ou d’une application.</p>
+
+
+
+<h2>5. LogMeIn Rescue</h2>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/log-me-in-rescue-controler-a-distance-une-appareil-android.jpg?resize=614%2C275&amp;ssl=1" alt="Log me in Rescue - contrôler à distance une appareil Android" class="wp-image-11144"/></figure></div>
+
+
+<p>Les équipes d’assistance professionnelles peuvent utiliser cette solution de contrôle à distance riche en fonctionnalités pour les appareils Android. C’est une option fiable et facile à utiliser pour&nbsp;<strong>accéder aux téléphones Android depuis un emplacement distant</strong>. Il prend en charge presque toutes les marques de téléphones Android populaires, y compris la plupart des versions Android personnalisées.</p>
+
+
+
+<p>Il dispose d’une fonction&nbsp;<strong>Click2Fix</strong>&nbsp;dédiée pour obtenir rapidement des informations vitales sur les appareils distants. Cela aide à identifier rapidement les problèmes dans l’appareil Android. Il dispose également d’un puissant&nbsp;<strong>SDK</strong>&nbsp;pour configurer facilement les paramètres du périphérique système à partir d’un emplacement distant. J’ai aimé son interface d’application de contrôle à distance qui regorge de nombreuses fonctionnalités pour obtenir un contrôle complet sur l’appareil Android distant.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Carte mère</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/carte-mere/</link>
+		<title>Comment créer une table des matières à un document Word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-creer-une-table-des-matieres-a-un-document-word/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:25:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 01:49:05 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=708</guid>
 
-					<description><![CDATA[La carte mère sert de plate-forme unique pour connecter toutes les parties d&#39;un ordinateur entre elles. Il connecte le processeur, la mémoire, les disques durs, les lecteurs optiques, la carte vidéo, la carte son et d&#39;autres ports et cartes d&#39;extension directement ou via des câbles. Il peut être considéré comme l&#39;épine dorsale d&#39;un ordinateur. Caractéristiques de la&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">La carte mère sert de plate-forme unique pour connecter toutes les parties d&#39;un ordinateur entre elles. Il connecte le processeur, la mémoire, les disques durs, les lecteurs optiques, la carte vidéo, la carte son et d&#39;autres ports et cartes d&#39;extension directement ou via des câbles. Il peut être considéré comme l&#39;épine dorsale d&#39;un ordinateur.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/mother_board.jpg" alt="Carte mère" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<h2>Caractéristiques de la carte mère</h2>
-<p style="font-size:medium">Une carte mère est dotée des fonctionnalités suivantes &#8211;</p>
-<ul style="font-size:medium">
-<li>
-<p>La carte mère varie considérablement dans la prise en charge de divers types de composants.</p>
-</li>
-<li>
-<p>La carte mère prend en charge un seul type de processeur et quelques types de mémoires.</p>
-</li>
-<li>
-<p>Les cartes vidéo, les disques durs, les cartes son doivent être compatibles avec la carte mère pour fonctionner correctement.</p>
-</li>
-<li>
-<p>Les cartes mères, les boîtiers et les blocs d&#39;alimentation doivent être compatibles pour fonctionner correctement ensemble.</p>
-</li>
-</ul>
-<h2>Fabricants populaires</h2>
-<p style="font-size:medium">Voici les fabricants populaires de la carte mère.</p>
-<ul style="font-size:medium">
-<li>Intel</li>
-<li>ASUS</li>
-<li>AOuvrir</li>
-<li>UN PEU</li>
-<li>Biostar</li>
-<li>Gigaoctet</li>
-<li>MSI</li>
-</ul>
-<h2>Description de la carte mère</h2>
-<p style="font-size:medium">La carte mère est montée à l&#39;intérieur du boîtier et est solidement fixée via de petites vis à travers des trous pré-percés. La carte mère contient des ports pour connecter tous les composants internes. Il fournit un seul socket pour le processeur, alors que pour la mémoire, un ou plusieurs emplacements sont normalement disponibles. Les cartes mères fournissent des ports pour connecter le lecteur de disquette, le disque dur et les lecteurs optiques via des câbles plats. La carte mère porte des ventilateurs et un port spécial conçu pour l&#39;alimentation.</p>
-<p style="font-size:medium">Il y a un emplacement pour carte périphérique devant la carte mère qui permet de connecter les cartes vidéo, les cartes son et les autres cartes d&#39;extension à la carte mère.</p>
-<p style="font-size:medium">Sur le côté gauche, les cartes mères comportent un certain nombre de ports pour connecter le moniteur, l&#39;imprimante, la souris, le clavier, le haut-parleur et les câbles réseau. Les cartes mères fournissent également des ports USB, qui permettent aux appareils compatibles d&#39;être connectés en mode plug-in / plug-out. Par exemple, clé USB, appareils photo numériques, etc.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
+					<description><![CDATA[Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école. L’une de ces fonctionnalités&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/sommaire-automatique.png?resize=780%2C470&amp;ssl=1" alt="Comment créer un sommaire automatique"/></figure>
+
+
+
+<p>Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école.</p>
+
+
+
+<span id="more-708"></span>
+
+
+
+<p>L’une de ces fonctionnalités est&nbsp;<strong>la Table des matières</strong>. Word a une grande fonctionnalité qui vous permet de créer une table de contenu automatique ou bien on l’appel aussi&nbsp;<strong>sommaire automatique</strong>. La grande chose est que même si vous avez déjà un document Word avec beaucoup de contenu, il est très facile de le modifier afin que vous puissiez générer la table des matières automatiquement.</p>
+
+
+
+<p>Dans cet article, je vais vous guider dans le processus de la mise en place de votre document Word avec les en-têtes corrects et ensuite parler de comment créer la table des matières. Je vais également parler de la façon dont vous pouvez personnaliser la table des matières à votre goût.</p>
+
+
+
+<h2>Configuration et affichage des en-têtes dans Word</h2>
+
+
+
+<p>La première chose que vous voulez faire avant de pouvoir créer une table des matières est de configurer vos en-têtes. Par défaut, les en-têtes autorisés que vous pouvez utiliser sont&nbsp;<strong>H1 (titre 1), H2 (titre 2) et H3 (titre 3)</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/1.png?resize=556%2C204" alt="header format dans word" class="wp-image-1095"/></figure></div>
+
+
+<p>Vous pouvez les trouver dans la boîte Styles de l’onglet Accueil principal du ruban. Ce sont les trois seules que vous pouvez utiliser pour un TOC par défaut. Si vous ajoutez un TOC personnalisé, vous pouvez également utiliser&nbsp;<strong>H4 (titre 4), H5 (titre 5), H6 (titre 6), sous-titre, titre et titre de tableur</strong>.</p>
+
+
+
+<p>Lorsque vous parcourez votre document pour ajouter les différentes rubriques, n’hésitez pas à choisir parmi les titres susmentionnés si H1, H2 et H3 se sentent trop restreints. Vous aurez juste à insérer un TOC personnalisé et modifier quelques paramètres, que je vais également mentionner.</p>
+
+
+
+<p>Il est très facile d’appliquer des en-têtes au texte dans Word. Cliquez simplement sur la ligne avec le texte, puis cliquez sur le style de titre que vous souhaitez appliquer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/applique-header-dans-word.png?resize=498%2C201" alt="Appliquer header dans Word" class="wp-image-1096"/></figure></div>
+
+
+<p>Passez par le document et ajoutez autant de titres que vous le souhaitez. Notez que lorsque vous ajoutez des en-têtes, il sera difficile de voir les en-têtes, même si vous avez des marques de paragraphe visibles. Pour afficher rapidement tous les en-têtes d’un document Word, cliquez sur l’onglet&nbsp;<strong>Affichage</strong>&nbsp;puis cochez la case sous&nbsp;<strong>Volet&nbsp;de navigation</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/navigation-volet-word.png?resize=555%2C201" alt="Volet de navigation dans Word" class="wp-image-1097"/></figure></div>
+
+
+<p>Lorsque vous faites cela, un volet apparaîtra sur le côté gauche du document et vous pourrez voir les différentes rubriques, sous-titres, etc.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/afficher-heading-word.png?resize=270%2C403" alt="Afficher heading dans Word" class="wp-image-1098"/></figure></div>
+
+
+<p>En cliquant sur l’un des éléments de la liste, vous accédez à cette rubrique dans le document Word. C’est une excellente façon de voir rapidement votre structure de titre avant de créer votre TOC final.</p>
+
+
+
+<h2>Ajout d’une table des matières dans Word</h2>
+
+
+
+<p>Maintenant que nous avons tous nos en-têtes correctement configurés, allons-y et insérez une table des matières. Tout d’abord, nous allons commencer avec la configuration TOC par défaut dans Word. Avant de commencer, il peut être judicieux d’ajouter une page blanche au début de votre document.</p>
+
+
+
+<p>Pour ce faire, allez au sommet de votre première page actuelle, puis cliquez sur Insérer et page blanche.</p>
+
+
+
+<p>Cliquez maintenant sur&nbsp;<strong>Références</strong>,&nbsp;<strong>Table des matières</strong>&nbsp;et choisissez parmi les choix&nbsp;<strong>automatiques</strong>&nbsp;en haut.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/inserrer-table-de-matiere-word.png?resize=406%2C619" alt="Insérrer un table de matière dans Word" class="wp-image-1099"/></figure></div>
+
+
+<p>Une table manuelle ne sera que du texte de remplissage au format d’une table des matières, mais vous devrez effectuer manuellement toutes les modifications. Lorsque vous insérez la table des matières automatique, vous devriez voir quelque chose comme ceci:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-contenu-word.png?resize=677%2C359" alt="Table de contenu dans Word" class="wp-image-1100"/></figure></div>
+
+
+<p>Impressionnant! Maintenant, vous avez un TOC joliment formaté dans votre document Word! Une fois que vous avez inséré le TOC, vous pouvez toujours modifier les en-têtes de votre document, mais les modifications ne seront pas automatiquement reflétées dans le TOC.</p>
+
+
+
+<p>Afin de mettre à jour la table des matières, il vous suffit de cliquer à l’intérieur de celle-ci, puis de cliquer sur Mettre à jour la table en haut.</p>
+
+
+
+<p>Il vous demandera si vous voulez mettre à jour uniquement les numéros de page ou la&nbsp;<strong>table entière</strong>. Si vous avez modifié, inséré ou supprimé des en-têtes, vous devez choisir la table entière. Si vous venez d’ajouter plus de contenu à votre document, mais que vous n’avez pas ajouté ou supprimé d’en-têtes, vous pouvez choisir uniquement&nbsp;<strong>les numéros de page</strong>.</p>
+
+
+
+<h2>Personnaliser la table des matières</h2>
+
+
+
+<p>Si vous avez utilisé des titres autres que H1, H2 et H3, vous remarquerez qu’ils n’apparaîtront pas dans le TOC. Pour utiliser ces en-têtes supplémentaires, vous devez choisir&nbsp;<strong>Table des matières personnalisée</strong>&nbsp;lors de l’insertion de la table des matières.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/options-table-de-matiere.png?resize=517%2C463" alt="Option table de contenu dans Word" class="wp-image-1101"/></figure></div>
+
+
+<p>Cela ouvre la boîte de dialogue des options pour le TOC. Vous pouvez modifier certains paramètres de base, comme pour afficher les numéros de page et pour aligner ou non les numéros de droite. Sous&nbsp;<strong>Général</strong>, vous pouvez choisir parmi plusieurs styles et vous pouvez également choisir d’afficher plus de niveaux au-delà de trois, qui est le titre H3.</p>
+
+
+
+<p>Si vous cliquez sur&nbsp;<strong>Options</strong>, vous pouvez choisir des éléments supplémentaires pour construire la table des matières avec. Si vous faites défiler vers le bas, vous pourrez sélectionner l’en-tête des&nbsp;<strong>sous-titres</strong>&nbsp;et de&nbsp;<strong>la table des matières</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/toc-options-word.png?resize=369%2C319" alt="Option table de matiére" class="wp-image-1102"/></figure></div>
+
+
+<p>Pour personnaliser l’apparence de la table des matières, vous devez cliquer sur le bouton&nbsp;<strong>Modifier</strong>. Si vous cliquez simplement sur la table des matières et choisissez&nbsp;<strong>Police</strong>&nbsp;ou&nbsp;<strong>Paragraphe</strong>, il ne formate pas la table des matières.</p>
+
+
+
+<p>Lorsque vous cliquez sur Modifier, vous obtenez une autre boîte de dialogue où vous pouvez modifier chaque niveau de COT. TOC 1 représente H1, TOC 2 représente un groupe H2, etc.</p>
+
+
+
+<p>Cliquez sur le deuxième bouton&nbsp;<strong>Modifier</strong>&nbsp;et vous serez en mesure de modifier la mise en forme pour ce titre particulier. Donc, si vous voulez, vous pouvez faire toutes les rubriques H1 gras et une taille de police différente.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/modifier-style-toc.png?resize=526%2C539" alt="Modifier le style du table de matiére" class="wp-image-1103"/></figure></div>
+
+
+<p>Si vous cliquez sur le bouton&nbsp;<strong>Format</strong>&nbsp;en bas, vous pouvez personnaliser encore plus de paramètres comme le paragraphe, onglets, bordure, cadre, numérotation, etc Voici mon TOC avec H1 en gras et avec une taille de police plus grande.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-matiere-modifiee.png?resize=669%2C361" alt="Table de matière modifié" class="wp-image-1104"/></figure></div>
+
+
+<p>Enfin, si vous appuyez sur la touche CTRL et puis cliquez sur quoi que ce soit dans la table des matières, vous serez amené à cette page.</p>
+
+
+
+<p>Toutefois, si vous trouvez ennuyeux d’avoir à appuyer sur la touche CTRL, vous pouvez changer cela en allant à&nbsp;<strong>Fichier – Options</strong>&nbsp;et puis en cliquant sur Avancé.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ctrl-click-hyperlink.png?resize=559%2C316" alt="ctrl-click-hyperlink" class="wp-image-1105"/></figure></div>
+
+
+<p>Allez-y et décochez la case&nbsp;<strong>Utiliser CTRL + Cliquer pour suivre l’hyperlien</strong>. Maintenant, vous pouvez simplement cliquer sur les éléments de la table des matières comme des liens sans tenir la touche CTRL enfoncée. Malheureusement, cela ne fonctionne que sur votre copie locale de Word.</p>
+
+
+
+<p>Lorsque vous envoyez un courrier électronique à quelqu’un et si elles n’ont pas ce paramètre modifié, ils devront CTRL + clic. C’est à ce sujet quand il s’agit de la table des matières dans Word. Prendre plaisir!</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Mémoire en lecture seule</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-en-lecture-seule/</link>
+		<title>Supprimer le formattage de text collé dans word</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/supprimer-le-formattage-de-text-colle-dans-word/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:24:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 01:46:15 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[formattage text word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=706</guid>
 
-					<description><![CDATA[ROM signifie Read Only Memory . La mémoire à partir de laquelle nous ne pouvons que lire mais pas écrire dessus. Ce type de mémoire est non volatile. Les informations sont stockées en permanence dans ces mémoires lors de la fabrication. Une ROM stocke les instructions nécessaires pour démarrer un ordinateur. Cette opération est appelée bootstrap . Les puces ROM ne sont pas seulement utilisées&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">ROM signifie <b>Read Only Memory</b> . La mémoire à partir de laquelle nous ne pouvons que lire mais pas écrire dessus. Ce type de mémoire est non volatile. Les informations sont stockées en permanence dans ces mémoires lors de la fabrication. Une ROM stocke les instructions nécessaires pour démarrer un ordinateur. Cette opération est appelée <b>bootstrap</b> . Les puces ROM ne sont pas seulement utilisées dans l&#39;ordinateur, mais également dans d&#39;autres articles électroniques comme la machine à laver et le four à micro-ondes.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/rom.jpg" alt="ROM" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<p style="font-size:medium">Voyons maintenant les différents types de ROM et leurs caractéristiques.</p>
-<h2>MROM (ROM masquée)</h2>
-<p style="font-size:medium">Les toutes premières ROM étaient des dispositifs câblés contenant un ensemble préprogrammé de données ou d&#39;instructions. Ces types de ROM sont connus sous le nom de ROM masquées, qui sont peu coûteuses.</p>
-<h2>PROM (mémoire morte programmable)</h2>
-<p style="font-size:medium">La PROM est une mémoire en lecture seule qui ne peut être modifiée qu&#39;une seule fois par un utilisateur. L&#39;utilisateur achète une PROM vierge et entre le contenu souhaité à l&#39;aide d&#39;un programme PROM. À l&#39;intérieur de la puce PROM, il y a de petits fusibles qui sont brûlés pendant la programmation. Il ne peut être programmé qu&#39;une seule fois et n&#39;est pas effaçable.</p>
-<h2>EPROM (mémoire morte effaçable et programmable)</h2>
-<p style="font-size:medium">L&#39;EPROM peut être effacée en l&#39;exposant à la lumière ultraviolette pendant une durée allant jusqu&#39;à 40 minutes. En général, une gomme à effacer EPROM remplit cette fonction. Pendant la programmation, une charge électrique est piégée dans une zone de grille isolée. La charge est conservée pendant plus de 10 ans car la charge n&#39;a pas de chemin de fuite. Pour effacer cette charge, la lumière ultraviolette passe à travers une fenêtre en cristal de quartz (couvercle). Cette exposition à la lumière ultraviolette dissipe la charge. Lors d&#39;une utilisation normale, le couvercle en quartz est scellé avec un autocollant.</p>
-<h2>EEPROM (mémoire morte effaçable électriquement et programmable)</h2>
-<p style="font-size:medium">L&#39;EEPROM est programmée et effacée électriquement. Il peut être effacé et reprogrammé environ dix mille fois. L&#39;effacement et la programmation prennent environ 4 à 10 ms (millisecondes). En EEPROM, n&#39;importe quel emplacement peut être effacé et programmé de manière sélective. Les EEPROM peuvent être effacées un octet à la fois, plutôt que d&#39;effacer toute la puce. Par conséquent, le processus de reprogrammation est flexible mais lent.</p>
-<h2>Avantages de la ROM</h2>
-<p style="font-size:medium">Les avantages de la ROM sont les suivants &#8211;</p>
-<ul style="font-size:medium">
-<li>Non volatile par nature</li>
-<li>Ne peut pas être modifié accidentellement</li>
-<li>Moins cher que les RAM</li>
-<li>Facile à tester</li>
-<li>Plus fiable que les RAM</li>
-<li>Statique et ne nécessite pas de rafraîchissement</li>
-<li>Le contenu est toujours connu et peut être vérifié</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
+					<description><![CDATA[Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&#160;Microsoft Word, Word permet de garder la mise en forme du texte. Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&#160;gras, et ce texte resterait&#160;bleu. Pour supprimer&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word.jpg?resize=780%2C470&amp;ssl=1" alt="Microsoft Word"/></figure>
+
+
+
+<p>Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&nbsp;<strong>Microsoft Word</strong>, Word permet de garder la mise en forme du texte.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png?resize=256%2C256" alt="word-logo" class="wp-image-34"/></a></figure></div>
+
+
+<p>Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&nbsp;<strong>gras</strong>, et ce texte resterait&nbsp;<strong>bleu</strong>. Pour supprimer la mise en forme dans Microsoft Word à partir de n’importe quel texte en surbrillance le texte et appuyez sur la touche raccourci&nbsp;<strong>Ctrl + Espace</strong>. Cela mettra le texte à la police par défaut, supprimer la mise en forme, et même supprimer les liens.</p>
+
+
+
+<p>Sinon, vous pouvez utiliser l’option de Collage spécial dans Microsoft Word pour coller le texte sans formatage.</p>
+
+
+
+<p><strong>Astuce:</strong>&nbsp;Dans la plupart des versions de Windows&nbsp;<strong>Ctrl + Windows + V</strong>&nbsp;sera aussi souvent coller le texte en texte brut.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Mémoire vive</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-vive/</link>
+		<title>Comment ajouter ou supprimer une bordure de page dans Microsoft Word ?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-ajouter-ou-supprimer-une-bordure-de-page-dans-microsoft-word/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:23:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 01:44:50 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=704</guid>
 
-					<description><![CDATA[La RAM (Random Access Memory) est la mémoire interne du CPU pour stocker les données, le programme et le résultat du programme. C&#39;est une mémoire de lecture / écriture qui stocke les données jusqu&#39;à ce que la machine fonctionne. Dès que la machine est éteinte, les données sont effacées. Le temps d&#39;accès dans la RAM est indépendant&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<div dir="auto">
-<h1 style="text-align:center"></h1>
-<p style="font-size:medium">La RAM (Random Access Memory) est la mémoire interne du CPU pour stocker les données, le programme et le résultat du programme. C&#39;est une mémoire de lecture / écriture qui stocke les données jusqu&#39;à ce que la machine fonctionne. Dès que la machine est éteinte, les données sont effacées.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/primary_memory.jpg" alt="Mémoire primaire" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<p style="font-size:medium">Le temps d&#39;accès dans la RAM est indépendant de l&#39;adresse, c&#39;est-à-dire que chaque emplacement de stockage à l&#39;intérieur de la mémoire est aussi facile à atteindre que les autres emplacements et prend le même temps. Les données de la RAM sont accessibles de manière aléatoire mais cela coûte très cher.</p>
-<p style="font-size:medium">La RAM est volatile, c&#39;est-à-dire que les données qui y sont stockées sont perdues lorsque nous éteignons l&#39;ordinateur ou en cas de panne de courant. Par conséquent, un système d&#39;alimentation sans interruption (UPS) de secours est souvent utilisé avec les ordinateurs. La RAM est petite, à la fois en termes de taille physique et de quantité de données qu&#39;elle peut contenir.</p>
-<p style="font-size:medium">La RAM est de deux types &#8211;</p>
-<ul style="font-size:medium">
-<li>RAM statique (SRAM)</li>
-<li>RAM dynamique (DRAM)</li>
-</ul>
-<h2>RAM statique (SRAM)</h2>
-<p style="font-size:medium">Le mot <b>statique</b> indique que la mémoire conserve son contenu tant que l&#39;alimentation est fournie. Cependant, les données sont perdues lorsque l&#39;alimentation est coupée en raison de la nature volatile. Les puces SRAM utilisent une matrice de 6 transistors et aucun condensateur. Les transistors ne nécessitent pas d&#39;alimentation pour éviter les fuites, la SRAM n&#39;a donc pas besoin d&#39;être rafraîchie régulièrement.</p>
-<p style="font-size:medium">Il y a de l&#39;espace supplémentaire dans la matrice, par conséquent, la SRAM utilise plus de puces que la DRAM pour la même quantité d&#39;espace de stockage, ce qui augmente les coûts de fabrication. La SRAM sert donc de mémoire cache et a un accès très rapide.</p>
-<h3>Caractéristique de la RAM statique</h3>
-<ul style="font-size:medium">
-<li>Longue vie</li>
-<li>Pas besoin de rafraîchir</li>
-<li>plus rapide</li>
-<li>Utilisé comme mémoire cache</li>
-<li>Grande taille</li>
-<li>Coûteux</li>
-<li>Consommation d&#39;énergie élevée</li>
-</ul>
-<h2>RAM dynamique (DRAM)</h2>
-<p style="font-size:medium">La DRAM, contrairement à la SRAM, doit être continuellement <b>actualisée</b> afin de conserver les données. Cela se fait en plaçant la mémoire sur un circuit de rafraîchissement qui réécrit les données plusieurs centaines de fois par seconde. La DRAM est utilisée pour la plupart de la mémoire système car elle est peu coûteuse et petite. Toutes les DRAM sont constituées de cellules de mémoire, qui sont composées d&#39;un condensateur et d&#39;un transistor.</p>
-<h3>Caractéristiques de la RAM dynamique</h3>
-<ul style="font-size:medium">
-<li>Durée de vie courte des données</li>
-<li>A besoin d&#39;être rafraîchi en permanence</li>
-<li>Plus lent que SRAM</li>
-<li>Utilisé comme RAM</li>
-<li>De plus petite taille</li>
-<li>Moins cher</li>
-<li>Moins de consommation d&#39;énergie</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
-</div>
+					<description><![CDATA[Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D. Ajouter une bordure dans Microsoft Word Ouvrez Microsoft Word. Cliquez sur l’onglet&#160;Mise en page. Dans Word 2013 et 2016, cliquez&#8230;]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-bordure.jpg?resize=608%2C470&amp;ssl=1" alt=""/></figure>
+
+
+
+<p>Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D.</p>
+
+
+
+<span id="more-704"></span>
+
+
+
+<h2>Ajouter une bordure dans Microsoft Word</h2>
+
+
+
+<ol><li>Ouvrez Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Encadré</strong>&nbsp;si vous souhaitez une bordure carrée autour de votre page.</li><li>Sélectionnez le style de bordure souhaité sur la page, qui peut être plein, pointillé. Sélectionnez la couleur et la largeur de la bordure. Cliquez sur la flèche vers le bas pour le menu déroulant&nbsp;<strong>Motif</strong>. Dans l’exemple ci-dessous, nous utilisons l’art des coeurs comme bordure.</li><li>Une fois que vous avez sélectionné toutes les options de bordure que vous souhaitez utiliser dans votre document, cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour appliquer la bordure.</li></ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-word.jpg?resize=563%2C427&amp;ssl=1" alt="microsoft-word-ajouter-supprimer-word" class="wp-image-6501"/></figure></div>
+
+
+<p><strong>Remarque</strong>&nbsp;: Par défaut, les bordures sont appliquées à l’ensemble du document, ce qui signifie que chaque page a la même bordure. En cliquant sur la flèche vers le bas sur Appliquer à, vous avez la possibilité de sélectionner uniquement la première page, la page sélectionnée, toutes les pages sauf la première page et d’autres options.</p>
+
+
+
+<h2>Supprimer une bordure dans Microsoft Word</h2>
+
+
+
+<ol><li><strong>Ouvrez</strong>&nbsp;Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Aucun</strong>&nbsp;pour supprimer toute bordure sur la page.</li><li>Supprimer la bordure de page dans Microsoft Word</li><li>Cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour supprimer la bordure.</li></ol>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Mémoire d&#8217;ordinateur</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/02/15/memoire-dordinateur/</link>
+		<title>Comment utiliser Microsoft Office gratuitement sur le Web ?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-utiliser-microsoft-office-gratuitement-sur-le-web/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 15 Feb 2022 10:22:00 +0000</pubDate>
-				<category><![CDATA[Informatiques]]></category>
-		<guid isPermaLink="false"></guid>
+		<pubDate>Tue, 21 Jun 2022 01:43:47 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<category><![CDATA[astuce word]]></category>
+		<category><![CDATA[word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=702</guid>
 
-					<description><![CDATA[Un souvenir est comme un cerveau humain. Il est utilisé pour stocker des données et des instructions. La mémoire de l&#39;ordinateur est l&#39;espace de stockage dans l&#39;ordinateur, où les données doivent être traitées et les instructions nécessaires au traitement sont stockées. La mémoire est divisée en un grand nombre de petites parties appelées cellules. Chaque emplacement ou cellule a&#8230;]]></description>
-										<content:encoded><![CDATA[<div dir="auto">
-<h1 style="text-align:center"></h1>
-<hr style="font-size:medium">
-<p style="font-size:medium">Un souvenir est comme un cerveau humain. Il est utilisé pour stocker des données et des instructions. La mémoire de l&#39;ordinateur est l&#39;espace de stockage dans l&#39;ordinateur, où les données doivent être traitées et les instructions nécessaires au traitement sont stockées. La mémoire est divisée en un grand nombre de petites parties appelées cellules. Chaque emplacement ou cellule a une adresse unique, qui varie de zéro à la taille de la mémoire moins un. Par exemple, si l&#39;ordinateur a 64k mots, alors cette unité de mémoire a 64 * 1024 = 65536 emplacements de mémoire. L&#39;adresse de ces emplacements varie de 0 à 65535.</p>
-<p style="font-size:medium">La mémoire est principalement de trois types &#8211;</p>
-<ul style="font-size:medium">
-<li>Mémoire cache</li>
-<li>Mémoire primaire / mémoire principale</li>
-<li>Mémoire secondaire</li>
-</ul>
-<h2>Mémoire cache</h2>
-<p style="font-size:medium">La mémoire cache est une mémoire à semi-conducteurs très rapide qui peut accélérer le processeur. Il agit comme un tampon entre le CPU et la mémoire principale. Il est utilisé pour contenir les parties de données et de programme les plus fréquemment utilisées par la CPU. Les parties de données et de programmes sont transférées du disque vers la mémoire cache par le système d&#39;exploitation, d&#39;où le CPU peut y accéder.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/cache_memory.jpg" alt="Mémoire cache" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<h3>Avantages</h3>
-<p style="font-size:medium">Les avantages de la mémoire cache sont les suivants &#8211;</p>
-<ul style="font-size:medium">
-<li>La mémoire cache est plus rapide que la mémoire principale.</li>
-<li>Il consomme moins de temps d&#39;accès par rapport à la mémoire principale.</li>
-<li>Il stocke le programme qui peut être exécuté dans un court laps de temps.</li>
-<li>Il stocke les données pour une utilisation temporaire.</li>
-</ul>
-<h3>Désavantages</h3>
-<p style="font-size:medium">Les inconvénients de la mémoire cache sont les suivants &#8211;</p>
-<ul style="font-size:medium">
-<li>La mémoire cache a une capacité limitée.</li>
-<li>C&#39;est très cher.</li>
-</ul>
-<h2>Mémoire primaire (mémoire principale)</h2>
-<p style="font-size:medium">La mémoire principale ne contient que les données et les instructions sur lesquelles l&#39;ordinateur travaille actuellement. Il a une capacité limitée et des données sont perdues lorsque l&#39;alimentation est coupée. Il est généralement constitué d&#39;un dispositif semi-conducteur. Ces mémoires ne sont pas aussi rapides que les registres. Les données et les instructions à traiter résident dans la mémoire principale. Il est divisé en deux sous-catégories RAM et ROM.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/primary_memory.jpg" alt="Mémoire primaire" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<h3>Caractéristiques de la mémoire principale</h3>
-<ul style="font-size:medium">
-<li>Ce sont des mémoires à semi-conducteurs.</li>
-<li>Il est connu comme la mémoire principale.</li>
-<li>Mémoire généralement volatile.</li>
-<li>Les données sont perdues en cas de mise hors tension.</li>
-<li>C&#39;est la mémoire de travail de l&#39;ordinateur.</li>
-<li>Plus rapide que les souvenirs secondaires.</li>
-<li>Un ordinateur ne peut pas fonctionner sans la mémoire principale.</li>
-</ul>
-<h2>Mémoire secondaire</h2>
-<p style="font-size:medium">Ce type de mémoire est également appelé mémoire externe ou non volatile. Il est plus lent que la mémoire principale. Ceux-ci sont utilisés pour stocker des données / informations en permanence. La CPU n&#39;accède pas directement à ces mémoires, mais au contraire, elles sont accessibles via des routines d&#39;entrée-sortie. Le contenu des mémoires secondaires est d&#39;abord transféré vers la mémoire principale, puis la CPU peut y accéder. Par exemple, disque, CD-ROM, DVD, etc.</p>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"><img src="https://www.tutorialspoint.com/computer_fundamentals/images/secondary_memory.jpg" alt="Mémoire secondaire" style="display:block;margin-left:auto;margin-right:auto"></span></p>
-<h3>Caractéristiques de la mémoire secondaire</h3>
-<ul style="font-size:medium">
-<li>Ce sont des mémoires magnétiques et optiques.</li>
-<li>C&#39;est ce qu&#39;on appelle la mémoire de sauvegarde.</li>
-<li>C&#39;est une mémoire non volatile.</li>
-<li>Les données sont stockées en permanence même si l&#39;alimentation est coupée.</li>
-<li>Il est utilisé pour le stockage de données dans un ordinateur.</li>
-<li>L&#39;ordinateur peut fonctionner sans la mémoire secondaire.</li>
-<li>Plus lent que les souvenirs primaires.</li>
-</ul>
-<p style="font-size:medium"><span style="color:rgb(252,67,83)"> </span></p>
-</div>
-]]></content:encoded>
+					<description><![CDATA[Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web. Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&#160;Office gratuit pour les applications Web. Anciennement connu&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=727%2C404&amp;ssl=1" alt="microsoft-office-en-ligne"/></figure>
+
+
+
+<p>Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web.</p>
+
+
+
+<span id="more-702"></span>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=708%2C393&amp;ssl=1" alt="microsoft-office-en-ligne" class="wp-image-6508"/></figure></div>
+
+
+<p>Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&nbsp;<strong>Office gratuit pour les applications Web</strong>.</p>
+
+
+
+<p>Anciennement connu sous le nom d’<strong>Office Online</strong>&nbsp;et maintenant simplement appelé Office, les applications Web résident en ligne, accessibles via votre navigateur. Au lieu d’installer Word, Excel et PowerPoint sur votre ordinateur, vous utilisez des variétés basées sur le cloud des différents programmes – similaires à Google Docs – et tout ce dont vous avez besoin est un navigateur Web tel que Chrome, Firefox, Edge, Internet Explorer ou un programme similaire.</p>
+
+
+
+<p>Au lieu de stocker vos fichiers et documents sur votre ordinateur, vous les enregistrez sur&nbsp;<strong>Microsoft OneDrive</strong>, le service de stockage en nuage de l’entreprise. Le seul inconvénient est que Office pour les applications Web n’est pas aussi riche en fonctionnalités que leurs homologues de bureau. Vous trouverez des commandes d’édition et de formatage de base, mais pas beaucoup plus. Cependant, si tout ce dont vous avez besoin sont les bases, c’est une option qui mérite d’être essayée.</p>
+
+
+
+<p>Office pour le Web propose les quatre programmes principaux: Word, Excel, PowerPoint et OneNote. Mais vous pouvez également accéder à d’autres applications, notamment Outlook, Calendar, People, Skype et OneDrive. Une autre application appelée Sway vous permet de créer des rapports et des présentations interactifs.</p>
+
+
+
+<p>Passons en revue les étapes d’accès et d’utilisation d’<strong>Office pour les applications Web</strong> pour créer, modifier et enregistrer vos documents.</p>
+
+
+
+<h2>Comment utiliser Microsoft Office gratuitement</h2>
+
+
+
+<p>Tout d’abord, vous aurez besoin d’un compte Microsoft. Si vous n’en avez pas déjà un, configurez-le sur le site Web du compte Microsoft. Un compte Microsoft est livré avec 5 Go de stockage OneDrive gratuit; si vous en avez besoin de plus, vous pouvez récupérer 100 Go pour 1,99 $ par mois.</p>
+
+
+
+<p>Accédez au&nbsp;<a href="https://products.office.com/fr-FR/free-office-online-for-the-web" target="_blank" rel="noreferrer noopener">site Web Office</a>&nbsp;et cliquez sur&nbsp;<strong>Utiliser l’application gratuitement sur Office.com</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/utiliser-microsoft-office-en-ligne.jpg?resize=664%2C383&amp;ssl=1" alt="utiliser-microsoft-office-en-ligne" class="wp-image-6509"/></figure></div>
+
+
+<p>Connectez-vous avec votre compte Microsoft et vous serez redirigé vers le site Web d’Office.</p>
+
+
+
+<p>En haut, vous verrez des applications comme Word, Excel, PowerPoint et Outlook. Une fois que vous avez commencé à créer et à enregistrer des fichiers Office, ceux-ci apparaîtront en bas de la page sous forme de documents récents afin que vous puissiez y accéder plus facilement et plus rapidement.</p>
+
+
+
+<h2>Créer un document Word</h2>
+
+
+
+<p>Nous utiliserons Word comme sujet de test ici. Cliquez dessus et une page s’ouvre où vous pouvez sélectionner un modèle pour créer votre document ou fichier. Par exemple, Word propose des modèles de curriculum vitae, lettres de motivation, dépliants et calendriers. Si vous n’avez pas besoin d’un modèle spécial, cliquez simplement sur Nouveau document vierge.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne.jpg?resize=694%2C343&amp;ssl=1" alt="microsoft-word-en-ligne" class="wp-image-6510"/></figure></div>
+
+
+<p>Word s’ouvre pour que vous puissiez commencer à créer votre document; vous trouverez toutes les options d’édition de base via la barre d’outils. Par exemple, vous pouvez: définir la police, la taille en points et d’autres attributs de votre texte ainsi qu’appliquer certains styles; insérer des tableaux, des images, des numéros de page et des en-têtes et pieds de page; ajustez la taille de la page, les marges et l’orientation; effectuer un zoom avant et arrière sur votre document; et lancez une vérification d’orthographe.</p>
+
+
+
+<p><a rel="noreferrer noopener" href="https://astuces-informatique.com/supprimer-un-mot-a-la-fois-dans-microsoft-word/" target="_blank"></a></p>
+
+
+
+<p>Votre document prend le nom par défaut Document 1, Document 2, etc. Pour modifier le nom, cliquez dans le nom de fichier en haut du document et saisissez-en un nouveau. Votre document est automatiquement enregistré périodiquement, mais vous souhaiterez peut-être l’enregistrer manuellement à un emplacement spécifique dans OneDrive.</p>
+
+
+
+<p>Cliquez sur le menu&nbsp;<strong>Fichier</strong>, sélectionnez la commande&nbsp;<strong>Enregistrer sous</strong>, puis sélectionnez Enregistrer sous et choisissez l’emplacement dans lequel vous souhaitez enregistrer le fichier. Vous pouvez également télécharger le fichier sur votre PC, sous forme de document Word ou PDF. Le menu Fichier vous donne également la possibilité d’imprimer le document ou de le partager avec d’autres personnes en leur envoyant un lien par e-mail.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/word-en-ligne-enregistrer-sous.jpg?resize=685%2C340&amp;ssl=1" alt="word-en-ligne-enregistrer-sous" class="wp-image-6511"/></figure></div>
+
+
+<h2>Ouvrez un fichier que vous avez créé précédemment</h2>
+
+
+
+<p>Pour ouvrir un fichier que vous avez déjà créé, cliquez sur la commande&nbsp;<strong>Ouvrir</strong>&nbsp;et choisissez parmi les documents récents.</p>
+
+
+
+<p>Les versions en ligne d’Excel, PowerPoint et OneNote fonctionnent de manière similaire à Word en ce qu’elles offrent toutes les commandes et fonctionnalités de base. Vous pouvez accéder à une autre application Office sans fermer votre application actuelle.</p>
+
+
+
+<p>Pour ce faire, cliquez sur le bouton «&nbsp;Liste des services Microsoft&nbsp;» dans le coin supérieur gauche (c’est celui qui contient neuf petits carrés) puis sélectionnez l’application que vous souhaitez ouvrir. Étant donné que les programmes et vos fichiers sont tous en ligne, vous pouvez y accéder depuis n’importe quel ordinateur ou appareil connecté.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne-ouvrir-document.jpg?resize=630%2C371&amp;ssl=1" alt="microsoft-word-en-ligne-ouvrir-document" class="wp-image-6512"/></figure></div>]]></content:encoded>
 					
 		
 		
