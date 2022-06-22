@@ -34,7 +34,7 @@
 <figure class="aligncenter"><img src="https://www.tresfacile.net/wp-content/uploads/2020/04/gestionnaire-packages-pip-package-management-pip-utilitie.png" alt="" class="wp-image-6866"/></figure></div>
 
 
-<h2>1 &#8211; A propos de l&rsquo;utilitaire pip</h2>
+<h2>1 &#8211; A propos de l&#8217;utilitaire pip</h2>
 
 
 
@@ -46,7 +46,7 @@
 
 
 
-<p>Un avantage majeur de pip est la facilité de son interface de ligne de commande, ce qui rend l&rsquo;installation des packages logiciels Python aussi simple que l&rsquo;émission d&rsquo;une commande:</p>
+<p>Un avantage majeur de pip est la facilité de son interface de ligne de commande, ce qui rend l&#8217;installation des packages logiciels Python aussi simple que l&#8217;émission d&#8217;une commande:</p>
 
 
 
@@ -81,7 +81,7 @@
 
 
 
-<p>Plus important encore, pip a une fonctionnalité pour gérer les listes complètes des packages et les numéros de version correspondants, possible via un fichier « requirements ». Cela permet la recréation efficace d&rsquo;un groupe entier de packages dans un environnement séparé (par exemple un autre ordinateur) ou un environnement virtuel. Ceci peut être réalisé avec un fichier correctement formaté et la commande suivante, où requirements.txt est le nom du fichier:</p>
+<p>Plus important encore, pip a une fonctionnalité pour gérer les listes complètes des packages et les numéros de version correspondants, possible via un fichier &#8220;requirements&#8221;. Cela permet la recréation efficace d&#8217;un groupe entier de packages dans un environnement séparé (par exemple un autre ordinateur) ou un environnement virtuel. Ceci peut être réalisé avec un fichier correctement formaté et la commande suivante, où requirements.txt est le nom du fichier:</p>
 
 
 
@@ -89,11 +89,11 @@
 
 
 
-<h2>2 &#8211; Principales commandes de l&rsquo;utilitaire pip</h2>
+<h2>2 &#8211; Principales commandes de l&#8217;utilitaire pip</h2>
 
 
 
-<h3>2.1 &#8211; Obtenir de l&rsquo;aide sur l&rsquo;utilitaire pip</h3>
+<h3>2.1 &#8211; Obtenir de l&#8217;aide sur l&#8217;utilitaire pip</h3>
 
 
 
@@ -109,7 +109,7 @@
 
 
 
-<h3>2.3 &#8211; Mettre à jour l&rsquo;utilitaire pip</h3>
+<h3>2.3 &#8211; Mettre à jour l&#8217;utilitaire pip</h3>
 
 
 
@@ -155,7 +155,7 @@
 
 					<description><![CDATA[1 Étude d&#8217;un exemple Considérons le code suivant qui permet de calculer le quotient de deux nombres a et b: Si vous exécutez le code ci-dessus en donnant&#160;a = 6&#160;et&#160;b = 3, le programme renvoie : Le quotient de a par b est : a/b = 2.0 L&#8217;exécution ne rencontre aucun problème!&#160; Mais si l&#8217;utilisateur&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>1 Étude d&rsquo;un exemple</h2>
+<h2>1 Étude d&#8217;un exemple</h2>
 
 
 
@@ -181,7 +181,7 @@ print("Le quotient de a par b est : a/b = " , a/b)</code></pre>
 
 
 
-<p>L&rsquo;exécution ne rencontre aucun problème!&nbsp; Mais si l&rsquo;utilisateur donne&nbsp;<strong>a = 6&nbsp;</strong>et<strong>&nbsp;b = 0</strong>&nbsp;le programme renvoie le message d&rsquo;erreur :</p>
+<p>L&#8217;exécution ne rencontre aucun problème!&nbsp; Mais si l&#8217;utilisateur donne&nbsp;<strong>a = 6&nbsp;</strong>et<strong>&nbsp;b = 0</strong>&nbsp;le programme renvoie le message d&#8217;erreur :</p>
 
 
 
@@ -189,15 +189,15 @@ print("Le quotient de a par b est : a/b = " , a/b)</code></pre>
 
 
 
-<p>En plus l’interpréteur python arrête l&rsquo;exécution du code !</p>
+<p>En plus l’interpréteur python arrête l&#8217;exécution du code !</p>
 
 
 
-<p>Afin d’éviter ce message d&rsquo;erreur, et continuez à exécuter la suite du code, on utilise la<strong>&nbsp;structure Try &#8230; except</strong></p>
+<p>Afin d’éviter ce message d&#8217;erreur, et continuez à exécuter la suite du code, on utilise la<strong>&nbsp;structure Try &#8230; except</strong></p>
 
 
 
-<ol><li><strong>Le bloc try</strong>&nbsp;permet de tester un bloc de code s&rsquo;il contient des erreurs ou non et ne l&rsquo;exécute que s&rsquo;il ne contient aucune erreur! Dans le cas contraire le programme ignore la totalité du code dans ce bloc et passe au bloc suivant except.</li><li><strong>Le bloc except</strong>, vous permet de gérer l&rsquo;erreur.</li><li><strong>Le bloc finally</strong>, vous permet d&rsquo;exécuter du code, quel que soit le résultat des blocs&nbsp;<strong>try&nbsp;</strong>et<strong>&nbsp;except.</strong></li></ol>
+<ol><li><strong>Le bloc try</strong>&nbsp;permet de tester un bloc de code s&#8217;il contient des erreurs ou non et ne l&#8217;exécute que s&#8217;il ne contient aucune erreur! Dans le cas contraire le programme ignore la totalité du code dans ce bloc et passe au bloc suivant except.</li><li><strong>Le bloc except</strong>, vous permet de gérer l&#8217;erreur.</li><li><strong>Le bloc finally</strong>, vous permet d&#8217;exécuter du code, quel que soit le résultat des blocs&nbsp;<strong>try&nbsp;</strong>et<strong>&nbsp;except.</strong></li></ol>
 
 
 
@@ -205,11 +205,11 @@ print("Le quotient de a par b est : a/b = " , a/b)</code></pre>
 
 
 
-<p>Lorsqu&rsquo;une erreur se produit, ou exception comme nous l&rsquo;appelons, Python s&rsquo;arrête normalement et génère un message d&rsquo;erreur.</p>
+<p>Lorsqu&#8217;une erreur se produit, ou exception comme nous l&#8217;appelons, Python s&#8217;arrête normalement et génère un message d&#8217;erreur.</p>
 
 
 
-<p>Ces exceptions peuvent être gérées à l&rsquo;aide de l&rsquo;<strong>instruction try:</strong></p>
+<p>Ces exceptions peuvent être gérées à l&#8217;aide de l&#8217;<strong>instruction try:</strong></p>
 
 
 
@@ -230,7 +230,7 @@ except:
 
 
 
-<h2>3 &#8211; Exception utilisant l&rsquo;instruction raise</h2>
+<h2>3 &#8211; Exception utilisant l&#8217;instruction raise</h2>
 
 
 
@@ -245,11 +245,11 @@ except :
 
 
 
-<h2>4 &#8211; L&rsquo;instruction finally</h2>
+<h2>4 &#8211; L&#8217;instruction finally</h2>
 
 
 
-<p>L&rsquo;instruction&nbsp;<strong>finally</strong>&nbsp;est utilisée pour exécuter des instructions quelque soit les erreurs générées ou non. Dans tous les cas (présence d&rsquo;erreurs ou non ! ) l&rsquo;instruction déclarée dans le block finally sera executée.</p>
+<p>L&#8217;instruction&nbsp;<strong>finally</strong>&nbsp;est utilisée pour exécuter des instructions quelque soit les erreurs générées ou non. Dans tous les cas (présence d&#8217;erreurs ou non ! ) l&#8217;instruction déclarée dans le block finally sera executée.</p>
 
 
 
@@ -278,11 +278,11 @@ finally:
 
 					<description><![CDATA[1 &#8211; Notion d&#8217;héritage et classe parent Pour éviter de recopier le code d&#8217;une classe, on utilise la méthode d&#8217;héritage. La méthode d&#8217;héritage consiste à créer à partir d&#8217;une&#160;classe parent&#160;ou&#160;(classe mère)&#160;une autre classe appelé&#160;classe fille&#160;ou&#160;(classe enfant)&#160;qui&#160;hérite toutes les méthodes et propriétés de la classe mère. Pour simplifier l&#8217;acquisition pour les apprenants débutant, nous allons traiter&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>1 &#8211; Notion d&rsquo;héritage et classe parent</h2>
+<h2>1 &#8211; Notion d&#8217;héritage et classe parent</h2>
 
 
 
-<p>Pour éviter de recopier le code d&rsquo;une classe, on utilise la méthode d&rsquo;<strong>héritage</strong>. La méthode d&rsquo;héritage consiste à créer à partir d&rsquo;une&nbsp;<strong>classe parent&nbsp;</strong>ou<strong>&nbsp;(classe mère)</strong>&nbsp;une autre classe appelé&nbsp;<strong>classe fille&nbsp;</strong>ou<strong>&nbsp;(classe enfant)</strong>&nbsp;qui<em>&nbsp;hérite toutes les méthodes et propriétés de la classe mère</em>. Pour simplifier l&rsquo;acquisition pour les apprenants débutant, nous allons traiter ce concept sur des exemples simples:</p>
+<p>Pour éviter de recopier le code d&#8217;une classe, on utilise la méthode d&#8217;<strong>héritage</strong>. La méthode d&#8217;héritage consiste à créer à partir d&#8217;une&nbsp;<strong>classe parent&nbsp;</strong>ou<strong>&nbsp;(classe mère)</strong>&nbsp;une autre classe appelé&nbsp;<strong>classe fille&nbsp;</strong>ou<strong>&nbsp;(classe enfant)</strong>&nbsp;qui<em>&nbsp;hérite toutes les méthodes et propriétés de la classe mère</em>. Pour simplifier l&#8217;acquisition pour les apprenants débutant, nous allons traiter ce concept sur des exemples simples:</p>
 
 
 
@@ -290,7 +290,7 @@ finally:
 
 
 
-<h2>2 &#8211; Exemples d&rsquo;héritages en Python</h2>
+<h2>2 &#8211; Exemples d&#8217;héritages en Python</h2>
 
 
 
@@ -322,7 +322,7 @@ class Personne:
 
 
 
-<p>L&rsquo;<strong>héritage</strong>&nbsp;des&nbsp;<strong>attributs nom</strong>&nbsp;et<strong>&nbsp;age</strong>&nbsp;se fait via la commande:</p>
+<p>L&#8217;<strong>héritage</strong>&nbsp;des&nbsp;<strong>attributs nom</strong>&nbsp;et<strong>&nbsp;age</strong>&nbsp;se fait via la commande:</p>
 
 
 
@@ -373,7 +373,7 @@ print("La filière de l'étudiant  est : " ,Stud.filiere)</code></pre>
 
 
 
-<p><em>Le nom de l&rsquo;étudiant est :<strong>&nbsp;Albert</strong></em><br><em>L&rsquo;age de l&rsquo;étudiant est :<strong>&nbsp;27</strong></em><br><em>La filière de l&rsquo;étudiant est :&nbsp;<strong>math</strong></em></p>
+<p><em>Le nom de l&#8217;étudiant est :<strong>&nbsp;Albert</strong></em><br><em>L&#8217;age de l&#8217;étudiant est :<strong>&nbsp;27</strong></em><br><em>La filière de l&#8217;étudiant est :&nbsp;<strong>math</strong></em></p>
 ]]></content:encoded>
 					
 		
@@ -403,7 +403,7 @@ print("La filière de l'étudiant  est : " ,Stud.filiere)</code></pre>
 
 
 
-<p>En d&rsquo;autres termes, la programmation orientée objet est une approche permettant de modéliser des éléments concrets du monde réel tels que les voitures, ainsi que des relations entre des entités telles que les entreprises et les employés, les étudiants et les enseignants, etc. La modélisation POO modélise des entités réelles sous la forme d&rsquo;objets logiciels certaines données qui leur sont associées et peuvent remplir certaines fonctions.</p>
+<p>En d&#8217;autres termes, la programmation orientée objet est une approche permettant de modéliser des éléments concrets du monde réel tels que les voitures, ainsi que des relations entre des entités telles que les entreprises et les employés, les étudiants et les enseignants, etc. La modélisation POO modélise des entités réelles sous la forme d&#8217;objets logiciels certaines données qui leur sont associées et peuvent remplir certaines fonctions.</p>
 
 
 
@@ -411,7 +411,7 @@ print("La filière de l'étudiant  est : " ,Stud.filiere)</code></pre>
 
 
 
-<p>La programmation orienté objet est un type de programmation basée sur la création des classes et des objets via une méthode appelée instanciation. Une classe est un prototype (modèle) codé en un langage de programmation dont le but de créer des objets dotés d&rsquo;un ensemble de méthodes et attributs qui caractérisent n&rsquo;importe quel objet de la classe. Les attributs sont des types de données (variables de classe et variables d&rsquo;instance) et des méthodes, accessibles via la concaténation par points.En programmation orientée objet, la déclaration d&rsquo;une classe regroupe des méthodes et propriétés (attributs) communs à un ensemble d&rsquo;objets. Ainsi on pourrait dire qu&rsquo;une classe représente une catégorie d&rsquo;objets. Elle apparaît aussi comme une usine permettant de créer des objets ayant un ensemble d&rsquo;atributs et méthodes communes.</p>
+<p>La programmation orienté objet est un type de programmation basée sur la création des classes et des objets via une méthode appelée instanciation. Une classe est un prototype (modèle) codé en un langage de programmation dont le but de créer des objets dotés d&#8217;un ensemble de méthodes et attributs qui caractérisent n&#8217;importe quel objet de la classe. Les attributs sont des types de données (variables de classe et variables d&#8217;instance) et des méthodes, accessibles via la concaténation par points.En programmation orientée objet, la déclaration d&#8217;une classe regroupe des méthodes et propriétés (attributs) communs à un ensemble d&#8217;objets. Ainsi on pourrait dire qu&#8217;une classe représente une catégorie d&#8217;objets. Elle apparaît aussi comme une usine permettant de créer des objets ayant un ensemble d&#8217;atributs et méthodes communes.</p>
 
 
 
@@ -419,7 +419,7 @@ print("La filière de l'étudiant  est : " ,Stud.filiere)</code></pre>
 
 
 
-<p>Pour créer une classe en Python, on utilise l&rsquo;instruction :</p>
+<p>Pour créer une classe en Python, on utilise l&#8217;instruction :</p>
 
 
 
@@ -427,7 +427,7 @@ print("La filière de l'étudiant  est : " ,Stud.filiere)</code></pre>
 
 
 
-<p>On crée ensuite une méthode qui permet de construire les objets, appelé constructeur via l&rsquo;instruction :</p>
+<p>On crée ensuite une méthode qui permet de construire les objets, appelé constructeur via l&#8217;instruction :</p>
 
 
 
@@ -465,7 +465,7 @@ print("La largeur de mon rectangle est : ",monRectangle.Largeur)</code></pre>
 
 
 
-<p><strong>Ce qui affiche à l&rsquo;exécution :</strong></p>
+<p><strong>Ce qui affiche à l&#8217;exécution :</strong></p>
 
 
 
@@ -473,15 +473,15 @@ print("La largeur de mon rectangle est : ",monRectangle.Largeur)</code></pre>
 
 
 
-<p>On peut aussi améliorer la classe en ajoutant des méthodes permettant d&rsquo;effectuer différentes tâches.</p>
+<p>On peut aussi améliorer la classe en ajoutant des méthodes permettant d&#8217;effectuer différentes tâches.</p>
 
 
 
-<h2>3 &#8211; Les méthodes d&rsquo;instance en Python</h2>
+<h2>3 &#8211; Les méthodes d&#8217;instance en Python</h2>
 
 
 
-<p>Une&nbsp;<strong>méthode d&rsquo;instance</strong>&nbsp;est une&nbsp;<strong>fonction</strong>&nbsp;ou&nbsp;<strong>procédure</strong>&nbsp;nommée au sein de la classe, permettant de définir des propriétés ou comportements des objets d&rsquo;instances.</p>
+<p>Une&nbsp;<strong>méthode d&#8217;instance</strong>&nbsp;est une&nbsp;<strong>fonction</strong>&nbsp;ou&nbsp;<strong>procédure</strong>&nbsp;nommée au sein de la classe, permettant de définir des propriétés ou comportements des objets d&#8217;instances.</p>
 
 
 
@@ -516,7 +516,7 @@ print("La surface de mon rectangle est : ", monRectangle.surface())</code></pre>
 
 
 
-<p>Une méthode statique est une méthode de classe ayant la propriété d&rsquo;être exécutée sans passer par l&rsquo;instanciation. Une méthode statique est déclarée en ajoutant l&rsquo;annotation :&nbsp;<strong>@staticmethod</strong></p>
+<p>Une méthode statique est une méthode de classe ayant la propriété d&#8217;être exécutée sans passer par l&#8217;instanciation. Une méthode statique est déclarée en ajoutant l&#8217;annotation :&nbsp;<strong>@staticmethod</strong></p>
 
 
 
@@ -577,15 +577,15 @@ print(mySet)
 
 
 
-<h2>2 &#8211; Accès aux éléments d&rsquo;un ensemble Python</h2>
+<h2>2 &#8211; Accès aux éléments d&#8217;un ensemble Python</h2>
 
 
 
-<p>Vous ne pouvez pas accéder aux éléments d&rsquo;un ensemble en faisant référence à un index, car les ensembles ne sont pas ordonnés, les éléments n&rsquo;ont pas d&rsquo;index. Mais vous pouvez parcourir les éléments de l&rsquo;ensemble à l&rsquo;aide d&rsquo;une boucle for ou demander si une valeur spécifiée est présente dans un ensemble à l&rsquo;aide du<strong>&nbsp;mot clé in</strong>.</p>
+<p>Vous ne pouvez pas accéder aux éléments d&#8217;un ensemble en faisant référence à un index, car les ensembles ne sont pas ordonnés, les éléments n&#8217;ont pas d&#8217;index. Mais vous pouvez parcourir les éléments de l&#8217;ensemble à l&#8217;aide d&#8217;une boucle for ou demander si une valeur spécifiée est présente dans un ensemble à l&#8217;aide du<strong>&nbsp;mot clé in</strong>.</p>
 
 
 
-<h3>Exemple: affichage des éléments d&rsquo;un ensemble</h3>
+<h3>Exemple: affichage des éléments d&#8217;un ensemble</h3>
 
 
 
@@ -599,11 +599,11 @@ for x in mySet:
 
 
 
-<p>Vous remarquez que chaque fois que vous faite une nouvelle exécution du programme, il y a un ordre d&rsquo;affichage différent. Ce qui veut dire que l&rsquo;ordre dans les ensembles Python n&rsquo;a aucune importance !</p>
+<p>Vous remarquez que chaque fois que vous faite une nouvelle exécution du programme, il y a un ordre d&#8217;affichage différent. Ce qui veut dire que l&#8217;ordre dans les ensembles Python n&#8217;a aucune importance !</p>
 
 
 
-<h3>Exemple: vérification d&rsquo;appartenance d&rsquo;un élément</h3>
+<h3>Exemple: vérification d&#8217;appartenance d&#8217;un élément</h3>
 
 
 
@@ -613,15 +613,15 @@ print("Cahier" in mySet) # affiche : False</code></pre>
 
 
 
-<h2>3 &#8211; Longueur ou cardinal d&rsquo;un ensemble Python</h2>
+<h2>3 &#8211; Longueur ou cardinal d&#8217;un ensemble Python</h2>
 
 
 
-<p>Pour connaitre la&nbsp;<strong>longueur (cardinal)</strong>&nbsp;d&rsquo;un ensemble Python, on utilise la<strong>&nbsp;méthode len()</strong></p>
+<p>Pour connaitre la&nbsp;<strong>longueur (cardinal)</strong>&nbsp;d&#8217;un ensemble Python, on utilise la<strong>&nbsp;méthode len()</strong></p>
 
 
 
-<h3>Exemple: longueur d&rsquo;un ensemble python</h3>
+<h3>Exemple: longueur d&#8217;un ensemble python</h3>
 
 
 
@@ -644,7 +644,7 @@ print("card(mySet) = ", cardinal)
 
 
 
-<h3>Exemple: ajout d&rsquo;un élément à un ensemble</h3>
+<h3>Exemple: ajout d&#8217;un élément à un ensemble</h3>
 
 
 
@@ -668,15 +668,15 @@ print(mySet)</code></pre>
 
 
 
-<h3>4.2 Supprimer un élément d&rsquo;un ensemble Python</h3>
+<h3>4.2 Supprimer un élément d&#8217;un ensemble Python</h3>
 
 
 
-<p>Pour supprimer un élément d&rsquo;un ensemble Python, deux choix s&rsquo;offrent à vous la méthode<strong>&nbsp;remove()</strong>&nbsp;ou la méthode&nbsp;<strong>discard()</strong></p>
+<p>Pour supprimer un élément d&#8217;un ensemble Python, deux choix s&#8217;offrent à vous la méthode<strong>&nbsp;remove()</strong>&nbsp;ou la méthode&nbsp;<strong>discard()</strong></p>
 
 
 
-<h3>Exemple: supprimer&nbsp;<strong>« Crayon »</strong>&nbsp;par la méthode&nbsp;<strong>remove()</strong></h3>
+<h3>Exemple: supprimer&nbsp;<strong>&#8220;Crayon&#8221;</strong>&nbsp;par la méthode&nbsp;<strong>remove()</strong></h3>
 
 
 
@@ -686,11 +686,11 @@ print(mySet) # affiche {'Gomme', 'Stylo'}</code></pre>
 
 
 
-<p><strong>Remarque:</strong>&nbsp;Si l&rsquo;élément à supprimer n&rsquo;existe pas,<em>&nbsp;remove() générera une erreur.</em></p>
+<p><strong>Remarque:</strong>&nbsp;Si l&#8217;élément à supprimer n&#8217;existe pas,<em>&nbsp;remove() générera une erreur.</em></p>
 
 
 
-<h3>Exemple: supprimer « Crayon » par la méthode discard():</h3>
+<h3>Exemple: supprimer &#8220;Crayon&#8221; par la méthode discard():</h3>
 
 
 
@@ -700,7 +700,7 @@ print(mySet) # affiche {'Gomme', 'Stylo'}</code></pre>
 
 
 
-<p><strong>Remarque:</strong>&nbsp;Contrairement à la méthode&nbsp;<strong>remove()</strong>, la méthode&nbsp;<strong>discard()</strong>&nbsp;ne génère aucune erreur lorsque l&rsquo;élément à supprimer n&rsquo;existe pas! L&rsquo;instruction de suppression sera simplement ignorée !</p>
+<p><strong>Remarque:</strong>&nbsp;Contrairement à la méthode&nbsp;<strong>remove()</strong>, la méthode&nbsp;<strong>discard()</strong>&nbsp;ne génère aucune erreur lorsque l&#8217;élément à supprimer n&#8217;existe pas! L&#8217;instruction de suppression sera simplement ignorée !</p>
 
 
 
@@ -749,7 +749,7 @@ print(mySet)
 
 
 
-<ol id="magicparlabel-947"><li><strong>add() :&nbsp;</strong>ajoute un élément à l&rsquo;ensemble</li><li><strong>clear()</strong>&nbsp;: supprime tous les éléments de l&rsquo;ensemble</li><li><strong>copy()</strong>&nbsp;: retourne une copie de l&rsquo;ensemble</li><li><strong>difference ()</strong>&nbsp;: retourne un ensemble contenant la différence entre deux ensembles ou plus.</li><li><strong>difference_update() :&nbsp;</strong>supprime les éléments de cet ensemble qui sont également inclus dans un autre ensemble spécifié</li><li><strong>discard() :</strong>&nbsp;supprimer l&rsquo;élément spécifié</li><li><strong>intersection() :</strong>&nbsp;retourne un ensemble, qui est l&rsquo;intersection de deux autres ensembles.</li><li><strong>intersection_update() :</strong>&nbsp;supprime les éléments de cet ensemble qui ne sont pas présents dans d&rsquo;autres ensembles spécifiés.</li><li><strong>isdisjoint() :</strong>&nbsp;indique si deux ensembles ont une intersection ou non.</li><li><strong>issubset() :</strong>&nbsp;indique si un autre jeu contient ce jeu ou non.</li><li><strong>issuperset() :</strong>&nbsp;indique si cet ensemble contient un autre ensemble ou non.</li><li><strong>pop() :&nbsp;</strong>supprime un élément de l&rsquo;ensemble</li><li><strong>remove() :</strong>&nbsp;supprime l&rsquo;élément spécifié</li><li><strong>symmetric_difference() :</strong>&nbsp;retourne un ensemble avec les différences symétriques de deux ensembles</li><li><strong>symmetric_difference_update() :</strong>&nbsp;insère les différences symétriques de cet ensemble et d&rsquo;un autre</li><li><strong>union() :&nbsp;</strong>retourne un ensemble contenant l&rsquo;union des ensembles</li><li><strong>update() :</strong>&nbsp;met à jour l&rsquo;ensemble avec l&rsquo;union de cet ensemble et d&rsquo;autres</li></ol>
+<ol id="magicparlabel-947"><li><strong>add() :&nbsp;</strong>ajoute un élément à l&#8217;ensemble</li><li><strong>clear()</strong>&nbsp;: supprime tous les éléments de l&#8217;ensemble</li><li><strong>copy()</strong>&nbsp;: retourne une copie de l&#8217;ensemble</li><li><strong>difference ()</strong>&nbsp;: retourne un ensemble contenant la différence entre deux ensembles ou plus.</li><li><strong>difference_update() :&nbsp;</strong>supprime les éléments de cet ensemble qui sont également inclus dans un autre ensemble spécifié</li><li><strong>discard() :</strong>&nbsp;supprimer l&#8217;élément spécifié</li><li><strong>intersection() :</strong>&nbsp;retourne un ensemble, qui est l&#8217;intersection de deux autres ensembles.</li><li><strong>intersection_update() :</strong>&nbsp;supprime les éléments de cet ensemble qui ne sont pas présents dans d&#8217;autres ensembles spécifiés.</li><li><strong>isdisjoint() :</strong>&nbsp;indique si deux ensembles ont une intersection ou non.</li><li><strong>issubset() :</strong>&nbsp;indique si un autre jeu contient ce jeu ou non.</li><li><strong>issuperset() :</strong>&nbsp;indique si cet ensemble contient un autre ensemble ou non.</li><li><strong>pop() :&nbsp;</strong>supprime un élément de l&#8217;ensemble</li><li><strong>remove() :</strong>&nbsp;supprime l&#8217;élément spécifié</li><li><strong>symmetric_difference() :</strong>&nbsp;retourne un ensemble avec les différences symétriques de deux ensembles</li><li><strong>symmetric_difference_update() :</strong>&nbsp;insère les différences symétriques de cet ensemble et d&#8217;un autre</li><li><strong>union() :&nbsp;</strong>retourne un ensemble contenant l&#8217;union des ensembles</li><li><strong>update() :</strong>&nbsp;met à jour l&#8217;ensemble avec l&#8217;union de cet ensemble et d&#8217;autres</li></ol>
 ]]></content:encoded>
 					
 		
@@ -809,15 +809,15 @@ print(phoneBook&#91;"Majid"]) # affiche 0556683531</code></pre>
 
 
 
-<h2>2 &#8211; Parcourir les valeurs et les clés d&rsquo;un dictionnaire Python</h2>
+<h2>2 &#8211; Parcourir les valeurs et les clés d&#8217;un dictionnaire Python</h2>
 
 
 
-<p>Un dictionnaire en Python est doté d&rsquo;une&nbsp;<strong>méthode</strong>&nbsp;nommée&nbsp;<strong>values()</strong>&nbsp;qui permet de parcourir&nbsp;<strong>ses valeurs</strong>, et d&rsquo;une autre nommée<strong>&nbsp;keys()</strong>&nbsp;permettant de parcourir&nbsp;<strong>ses clés</strong>.</p>
+<p>Un dictionnaire en Python est doté d&#8217;une&nbsp;<strong>méthode</strong>&nbsp;nommée&nbsp;<strong>values()</strong>&nbsp;qui permet de parcourir&nbsp;<strong>ses valeurs</strong>, et d&#8217;une autre nommée<strong>&nbsp;keys()</strong>&nbsp;permettant de parcourir&nbsp;<strong>ses clés</strong>.</p>
 
 
 
-<h3>Exemple : parcourt des valeurs d&rsquo;un dictionnaire</h3>
+<h3>Exemple : parcourt des valeurs d&#8217;un dictionnaire</h3>
 
 
 
@@ -827,7 +827,7 @@ for valeur in phoneBook.values():
 
 
 
-<h3>Exemple : parcourt des clés d&rsquo;un dictionnaire</h3>
+<h3>Exemple : parcourt des clés d&#8217;un dictionnaire</h3>
 
 
 
@@ -855,7 +855,7 @@ for key , valeur in phoneBook.items():
 
 
 
-<h2>3 &#8211; Mettre à jour, ajouter ou supprimer des éléments d&rsquo;un dictionnaire</h2>
+<h2>3 &#8211; Mettre à jour, ajouter ou supprimer des éléments d&#8217;un dictionnaire</h2>
 
 
 
@@ -867,7 +867,7 @@ for key , valeur in phoneBook.items():
 
 
 
-<h3>Exemple: gestionnaire d&rsquo;un stock</h3>
+<h3>Exemple: gestionnaire d&#8217;un stock</h3>
 
 
 
@@ -884,7 +884,7 @@ print(stock)
 
 
 
-<p>Dans le cas d&rsquo;une clé inexistante, la même méthode cité ci-dessus, permet d&rsquo;ajouter des éléments au dictionnaire:</p>
+<p>Dans le cas d&#8217;une clé inexistante, la même méthode cité ci-dessus, permet d&#8217;ajouter des éléments au dictionnaire:</p>
 
 
 
@@ -909,7 +909,7 @@ print(stock)
 
 
 
-<h3>Exemple: suppression d&rsquo;un élément du dictionnaire</h3>
+<h3>Exemple: suppression d&#8217;un élément du dictionnaire</h3>
 
 
 
@@ -922,7 +922,7 @@ print(stock)
 
 
 
-<p>Un dictionnaire est doté d&rsquo;une autre méthode :&nbsp;<strong>popitem()</strong>&nbsp;qui permet de supprimer le dernier élément</p>
+<p>Un dictionnaire est doté d&#8217;une autre méthode :&nbsp;<strong>popitem()</strong>&nbsp;qui permet de supprimer le dernier élément</p>
 
 
 
@@ -943,7 +943,7 @@ print(stock)
 
 
 
-<p>Un dictionnaire Python peut être vider à l&rsquo;aide de la méthode<strong>&nbsp;clear()</strong></p>
+<p>Un dictionnaire Python peut être vider à l&#8217;aide de la méthode<strong>&nbsp;clear()</strong></p>
 
 
 
@@ -968,7 +968,7 @@ print(stock)
 
 
 
-<ol><li><strong>clear() :</strong>&nbsp;supprime tous les éléments du dictionnaire.</li><li><strong>copy() :</strong>&nbsp;retourne une copie superficielle du dictionnaire.</li><li><strong>fromkeys(seq [, v]) :</strong>&nbsp;retourne un nouveau dictionnaire avec les clés de seq et une valeur égale à v (la valeur par défaut est None).</li><li><strong>get(key [, d]) :</strong>&nbsp;retourne la valeur de key. Si la clé ne quitte pas, retourne d (la valeur par défaut est Aucune).</li><li><strong>items() :</strong>&nbsp;retourne une nouvelle vue des éléments du dictionnaire (clé, valeur).</li><li><strong>keys() :</strong>&nbsp;retourne une nouvelle vue des clés du dictionnaire.</li><li><strong>pop(key [, d]) :</strong>&nbsp;supprime l&rsquo;élément avec key et renvoie sa valeur ou d si key n&rsquo;est pas trouvé. Si d n&rsquo;est pas fourni et que la clé est introuvable, soulève KeyError.</li><li><strong>popitem() :</strong>&nbsp;supprimer et retourner un élément arbitraire (clé, valeur). Lève KeyError si le dictionnaire est vide.</li><li><strong>setdefault(key [, d]) :</strong>&nbsp;si key est dans le dictionnaire, retourne sa valeur. Sinon, insérez la clé avec la valeur d et renvoyez d (la valeur par défaut est Aucune).</li><li><strong>update([other]) :</strong>&nbsp;met à jour le dictionnaire avec les paires clé / valeur des autres clés existantes.</li><li><strong>values() :</strong>&nbsp;retourne une nouvelle vue des valeurs du dictionnaire</li></ol>
+<ol><li><strong>clear() :</strong>&nbsp;supprime tous les éléments du dictionnaire.</li><li><strong>copy() :</strong>&nbsp;retourne une copie superficielle du dictionnaire.</li><li><strong>fromkeys(seq [, v]) :</strong>&nbsp;retourne un nouveau dictionnaire avec les clés de seq et une valeur égale à v (la valeur par défaut est None).</li><li><strong>get(key [, d]) :</strong>&nbsp;retourne la valeur de key. Si la clé ne quitte pas, retourne d (la valeur par défaut est Aucune).</li><li><strong>items() :</strong>&nbsp;retourne une nouvelle vue des éléments du dictionnaire (clé, valeur).</li><li><strong>keys() :</strong>&nbsp;retourne une nouvelle vue des clés du dictionnaire.</li><li><strong>pop(key [, d]) :</strong>&nbsp;supprime l&#8217;élément avec key et renvoie sa valeur ou d si key n&#8217;est pas trouvé. Si d n&#8217;est pas fourni et que la clé est introuvable, soulève KeyError.</li><li><strong>popitem() :</strong>&nbsp;supprimer et retourner un élément arbitraire (clé, valeur). Lève KeyError si le dictionnaire est vide.</li><li><strong>setdefault(key [, d]) :</strong>&nbsp;si key est dans le dictionnaire, retourne sa valeur. Sinon, insérez la clé avec la valeur d et renvoyez d (la valeur par défaut est Aucune).</li><li><strong>update([other]) :</strong>&nbsp;met à jour le dictionnaire avec les paires clé / valeur des autres clés existantes.</li><li><strong>values() :</strong>&nbsp;retourne une nouvelle vue des valeurs du dictionnaire</li></ol>
 ]]></content:encoded>
 					
 		
@@ -994,7 +994,7 @@ print(stock)
 
 
 
-<h3>Exemple. Création d&rsquo;un tuple:</h3>
+<h3>Exemple. Création d&#8217;un tuple:</h3>
 
 
 
@@ -1004,11 +1004,11 @@ print(myTuple)
 
 
 
-<h2>2 &#8211; Accéder aux élément d&rsquo;un tuple</h2>
+<h2>2 &#8211; Accéder aux élément d&#8217;un tuple</h2>
 
 
 
-<p>Vous pouvez accéder aux éléments d&rsquo;un tuple en vous référant au numéro d’index, entre crochets:</p>
+<p>Vous pouvez accéder aux éléments d&#8217;un tuple en vous référant au numéro d’index, entre crochets:</p>
 
 
 
@@ -1016,7 +1016,7 @@ print(myTuple)
 
 
 
-<h3>Exemple. Accéder à l&rsquo;élément qui se trouve en position 1:</h3>
+<h3>Exemple. Accéder à l&#8217;élément qui se trouve en position 1:</h3>
 
 
 
@@ -1038,7 +1038,7 @@ print(myTuple&#91;1])
 
 
 
-<p>Vous pouvez parcourir les éléments d&rsquo;un tuple en utilisant une boucle for.</p>
+<p>Vous pouvez parcourir les éléments d&#8217;un tuple en utilisant une boucle for.</p>
 
 
 
@@ -1061,7 +1061,7 @@ print (x)
 
 
 
-<p>Exemple. Vérifiez si « cartable » est présent dans le tuple:</p>
+<p>Exemple. Vérifiez si &#8220;cartable&#8221; est présent dans le tuple:</p>
 
 
 
@@ -1071,15 +1071,15 @@ if("cartable" in myTuple):
 
 
 
-<h2>5 &#8211; Longueur d&rsquo;un tuple</h2>
+<h2>5 &#8211; Longueur d&#8217;un tuple</h2>
 
 
 
-<p>La longueur d&rsquo;un tuple désigne le nombre d&rsquo;éléments qui le compose. Pour déterminer la longueur d&rsquo;un tuple en Python, on utilise la méthode len():</p>
+<p>La longueur d&#8217;un tuple désigne le nombre d&#8217;éléments qui le compose. Pour déterminer la longueur d&#8217;un tuple en Python, on utilise la méthode len():</p>
 
 
 
-<h3>Exemple. nombre d&rsquo;éléments d&rsquo;un tuple:</h3>
+<h3>Exemple. nombre d&#8217;éléments d&#8217;un tuple:</h3>
 
 
 
@@ -1089,7 +1089,7 @@ print(len(myTuple))
 
 
 
-<h2>6 &#8211; Ajout ou suppression d&rsquo;éléments impossible à un tuple</h2>
+<h2>6 &#8211; Ajout ou suppression d&#8217;éléments impossible à un tuple</h2>
 
 
 
@@ -1097,11 +1097,11 @@ print(len(myTuple))
 
 
 
-<p>Une fois qu&rsquo;un tuple est créé, on ne peut lui ajouter d&rsquo;éléments. Les tuples sont immuables.</p>
+<p>Une fois qu&#8217;un tuple est créé, on ne peut lui ajouter d&#8217;éléments. Les tuples sont immuables.</p>
 
 
 
-<h3>Exemple. Ajout d&rsquo;éléments impossible à un tuple:</h3>
+<h3>Exemple. Ajout d&#8217;éléments impossible à un tuple:</h3>
 
 
 
@@ -1110,11 +1110,11 @@ myTuple &#91;3] = "Stylo" # Ceci provoquera une erreur !</code></pre>
 
 
 
-<h2>7 &#8211; Suppression d&rsquo;un tuple</h2>
+<h2>7 &#8211; Suppression d&#8217;un tuple</h2>
 
 
 
-<p>Les tuples ne sont pas modifiables, vous ne pouvez donc pas en supprimer d&rsquo;éléments, mais vous pouvez supprimer complètement le tuple à l&rsquo;aide du mot clé del:</p>
+<p>Les tuples ne sont pas modifiables, vous ne pouvez donc pas en supprimer d&#8217;éléments, mais vous pouvez supprimer complètement le tuple à l&#8217;aide du mot clé del:</p>
 
 
 
@@ -1128,7 +1128,7 @@ print(myTuple) #cela générera une erreur car le tuple n'existe plus</code></pr
 
 
 
-<h2>8 &#8211; Création d&rsquo;un tuple en utilisant le constructeur tuple()</h2>
+<h2>8 &#8211; Création d&#8217;un tuple en utilisant le constructeur tuple()</h2>
 
 
 
@@ -1136,7 +1136,7 @@ print(myTuple) #cela générera une erreur car le tuple n'existe plus</code></pr
 
 
 
-<h3>Exemple. Création d&rsquo;un tuple en utilisant le constructeur tuple() :</h3>
+<h3>Exemple. Création d&#8217;un tuple en utilisant le constructeur tuple() :</h3>
 
 
 
@@ -1150,7 +1150,7 @@ print(myTuple)</code></pre>
 
 
 
-<ol><li><strong>count ()&nbsp; :</strong>&nbsp;retourne le nombre de fois qu&rsquo;une valeur spécifiée apparaît dans un tuple.</li><li><strong>index ()&nbsp; :</strong>&nbsp;recherche dans le tuple une valeur spécifiée et renvoie la position de l&rsquo;endroit où il a été trouvé.</li></ol>
+<ol><li><strong>count ()&nbsp; :</strong>&nbsp;retourne le nombre de fois qu&#8217;une valeur spécifiée apparaît dans un tuple.</li><li><strong>index ()&nbsp; :</strong>&nbsp;recherche dans le tuple une valeur spécifiée et renvoie la position de l&#8217;endroit où il a été trouvé.</li></ol>
 ]]></content:encoded>
 					
 		
@@ -1168,7 +1168,7 @@ print(myTuple)</code></pre>
 
 					<description><![CDATA[1 &#8211; Création d&#8217;une liste en Python Une liste&#160; en Python est&#160; un type de données&#160; ordonnée et modifiable qui fait partie des collections . En Python, les listes sont écrites entre crochets. Exemple 2 &#8211; Accès aux éléments d&#8217;une liste. Vous accédez aux éléments d&#8217;une liste Python,&#160; en vous référant au numéro d&#8217;index: Exemple&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>1 &#8211; Création d&rsquo;une liste en Python</h2>
+<h2>1 &#8211; Création d&#8217;une liste en Python</h2>
 
 
 
@@ -1187,11 +1187,11 @@ print (myList)</code></pre>
 
 
 
-<h2>2 &#8211; Accès aux éléments d&rsquo;une liste.</h2>
+<h2>2 &#8211; Accès aux éléments d&#8217;une liste.</h2>
 
 
 
-<p>Vous accédez aux éléments d&rsquo;une liste Python,&nbsp; en vous référant au numéro d&rsquo;index:</p>
+<p>Vous accédez aux éléments d&#8217;une liste Python,&nbsp; en vous référant au numéro d&#8217;index:</p>
 
 
 
@@ -1209,11 +1209,11 @@ print(myList&#91;2]) # Affiche 'PHP'</code></pre>
 
 
 
-<h2>3 &#8211; Changer la valeur d&rsquo;un élément de la liste</h2>
+<h2>3 &#8211; Changer la valeur d&#8217;un élément de la liste</h2>
 
 
 
-<p>Pour modifier la valeur d&rsquo;un élément spécifique, reportez-vous au numéro d&rsquo;index:</p>
+<p>Pour modifier la valeur d&#8217;un élément spécifique, reportez-vous au numéro d&#8217;index:</p>
 
 
 
@@ -1231,11 +1231,11 @@ print(myList) #Affiche : &#91;'Python','Oracle','PHP']</code></pre>
 
 
 
-<h2>4 &#8211; Parcourir les éléments d&rsquo;une liste Python</h2>
+<h2>4 &#8211; Parcourir les éléments d&#8217;une liste Python</h2>
 
 
 
-<p>Vous pouvez parcourir les éléments d&rsquo;une liste en Python, en utilisant une boucle for:</p>
+<p>Vous pouvez parcourir les éléments d&#8217;une liste en Python, en utilisant une boucle for:</p>
 
 
 
@@ -1250,11 +1250,11 @@ for x in myList:
 
 
 
-<h2>5 &#8211; Longueur d&rsquo;une liste Python</h2>
+<h2>5 &#8211; Longueur d&#8217;une liste Python</h2>
 
 
 
-<p>Pour déterminer le nombre d&rsquo;éléments d&rsquo;une liste, utilisez la méthode len():</p>
+<p>Pour déterminer le nombre d&#8217;éléments d&#8217;une liste, utilisez la méthode len():</p>
 
 
 
@@ -1291,7 +1291,7 @@ print (myList) #Affiche : &#91;"Python", "Java", "PHP", "Oracle"]</code></pre>
 
 
 
-<p>Pour ajouter un élément à l&rsquo;index spécifié, utilisez la méthode&nbsp;<strong>insert():</strong></p>
+<p>Pour ajouter un élément à l&#8217;index spécifié, utilisez la méthode&nbsp;<strong>insert():</strong></p>
 
 
 
@@ -1306,7 +1306,7 @@ print (myList) # Affiche : &#91;"Python", "C++" "Java", "PHP"]</code></pre>
 
 
 
-<ul><li>Il existe plusieurs méthodes pour supprimer des éléments d&rsquo;une liste:</li><li>La méthode&nbsp;<strong>remove()</strong>&nbsp;supprime un élément spécifié.</li><li>La méthode&nbsp;<strong>pop()</strong>&nbsp;supprime un élément en spécifiant son index (ou le dernier élément si aucun index n&rsquo;est spécifié)</li><li>Le mot clé&nbsp;<strong>del</strong>&nbsp; supprime l&rsquo;élément à l&rsquo;index spécifié( del permet également de supprimer complètement&nbsp; la liste)</li><li>La méthode<strong>&nbsp;clear()</strong>&nbsp;vide la liste:</li></ul>
+<ul><li>Il existe plusieurs méthodes pour supprimer des éléments d&#8217;une liste:</li><li>La méthode&nbsp;<strong>remove()</strong>&nbsp;supprime un élément spécifié.</li><li>La méthode&nbsp;<strong>pop()</strong>&nbsp;supprime un élément en spécifiant son index (ou le dernier élément si aucun index n&#8217;est spécifié)</li><li>Le mot clé&nbsp;<strong>del</strong>&nbsp; supprime l&#8217;élément à l&#8217;index spécifié( del permet également de supprimer complètement&nbsp; la liste)</li><li>La méthode<strong>&nbsp;clear()</strong>&nbsp;vide la liste:</li></ul>
 
 
 
@@ -1375,7 +1375,7 @@ print (myList) #cela causera une erreur car "myList" n'existe plus.</code></pre>
 
 
 
-<p><strong>append()</strong>&nbsp; &nbsp;Ajoute un élément à la fin de la liste<br><strong>clear()</strong>&nbsp; &nbsp;Supprime tous les éléments de la liste<br><strong>copy()</strong>&nbsp; &nbsp;Retourne une copie de la liste<br><strong>count()</strong>&nbsp; &nbsp;Retourne le nombre d&rsquo;éléments avec la valeur spécifiée<br><strong>extend()</strong>&nbsp; &nbsp;Ajoute les éléments d&rsquo;une liste (ou de tout élément itérable) à la fin de la liste actuelle<br><strong>index()</strong>&nbsp; &nbsp;Retourne l&rsquo;index du premier élément avec la valeur spécifiée.<br><strong>insert()</strong>&nbsp; &nbsp;Ajoute un élément à la position spécifiée<br><strong>pop()</strong>&nbsp; &nbsp;Supprime l&rsquo;élément à la position spécifiée<br><strong>remove()</strong>&nbsp; &nbsp;Supprime l&rsquo;élément avec la valeur spécifiée<br><strong>reverse()</strong>&nbsp; &nbsp;Inverse l&rsquo;ordre de la liste<br><strong>sort()</strong>&nbsp; &nbsp;Trie la liste</p>
+<p><strong>append()</strong>&nbsp; &nbsp;Ajoute un élément à la fin de la liste<br><strong>clear()</strong>&nbsp; &nbsp;Supprime tous les éléments de la liste<br><strong>copy()</strong>&nbsp; &nbsp;Retourne une copie de la liste<br><strong>count()</strong>&nbsp; &nbsp;Retourne le nombre d&#8217;éléments avec la valeur spécifiée<br><strong>extend()</strong>&nbsp; &nbsp;Ajoute les éléments d&#8217;une liste (ou de tout élément itérable) à la fin de la liste actuelle<br><strong>index()</strong>&nbsp; &nbsp;Retourne l&#8217;index du premier élément avec la valeur spécifiée.<br><strong>insert()</strong>&nbsp; &nbsp;Ajoute un élément à la position spécifiée<br><strong>pop()</strong>&nbsp; &nbsp;Supprime l&#8217;élément à la position spécifiée<br><strong>remove()</strong>&nbsp; &nbsp;Supprime l&#8217;élément avec la valeur spécifiée<br><strong>reverse()</strong>&nbsp; &nbsp;Inverse l&#8217;ordre de la liste<br><strong>sort()</strong>&nbsp; &nbsp;Trie la liste</p>
 ]]></content:encoded>
 					
 		
@@ -1400,7 +1400,7 @@ print (myList) #cela causera une erreur car "myList" n'existe plus.</code></pre>
 
 
 
-<p>Un exemple de méthode de formatage simple qui formate la chaîne à l&rsquo;aide d&rsquo;un délimiteur de position.</p>
+<p>Un exemple de méthode de formatage simple qui formate la chaîne à l&#8217;aide d&#8217;un délimiteur de position.</p>
 
 
 
@@ -1415,7 +1415,7 @@ print(s)</code></pre>
 
 
 
-<p>Ce qui affiche après exécution:<br><em>Je m&rsquo;appelle Albert je suis enseignant de mathématiques</em></p>
+<p>Ce qui affiche après exécution:<br><em>Je m&#8217;appelle Albert je suis enseignant de mathématiques</em></p>
 
 
 
@@ -1423,7 +1423,7 @@ print(s)</code></pre>
 
 
 
-<p>on peux changer l&rsquo;ordre à condition de mettre des indices.</p>
+<p>on peux changer l&#8217;ordre à condition de mettre des indices.</p>
 
 
 
@@ -1431,7 +1431,7 @@ print(s)</code></pre>
 
 
 
-<h4>Exemple: échanger d&rsquo;ordre</h4>
+<h4>Exemple: échanger d&#8217;ordre</h4>
 
 
 
@@ -1447,7 +1447,7 @@ print(s)</code></pre>
 
 
 
-<p>La méthode&nbsp;<strong>format</strong>() peut jouer aussi le rôle d&rsquo;un&nbsp;<strong>convertisseur&nbsp;</strong>de<strong>&nbsp;données</strong>&nbsp;d&rsquo;un type à un autre à. Il suffit pour cela de choisir le type auquel on veux convertir et le mettre au sein des accolades:</p>
+<p>La méthode&nbsp;<strong>format</strong>() peut jouer aussi le rôle d&#8217;un&nbsp;<strong>convertisseur&nbsp;</strong>de<strong>&nbsp;données</strong>&nbsp;d&#8217;un type à un autre à. Il suffit pour cela de choisir le type auquel on veux convertir et le mettre au sein des accolades:</p>
 
 
 
@@ -1468,11 +1468,11 @@ print("La valeur binaire est : {0:b}".format(var))</code></pre>
 
 
 
-<h2>3 &#8211; Formatage à l&rsquo;aide du symbole %</h2>
+<h2>3 &#8211; Formatage à l&#8217;aide du symbole %</h2>
 
 
 
-<p>Exemple: formatage à l&rsquo;aide du symbole %</p>
+<p>Exemple: formatage à l&#8217;aide du symbole %</p>
 
 
 
@@ -1483,7 +1483,7 @@ job = "enseignant"
 
 
 
-<p>Ce qui affiche à l&rsquo;exécution:<br><em>Je m&rsquo;appelle Albert je suis enseignant de mathématiques</em></p>
+<p>Ce qui affiche à l&#8217;exécution:<br><em>Je m&#8217;appelle Albert je suis enseignant de mathématiques</em></p>
 
 
 
@@ -1491,7 +1491,7 @@ job = "enseignant"
 
 
 
-<p><strong>%s</strong>&nbsp;veut dire &lsquo;la&nbsp;<strong>conversion</strong>&nbsp;de la&nbsp;<strong>variable</strong>&nbsp;en<strong>&nbsp;string</strong>&lsquo;. Ainsi, il y a d’autres syntaxe pour les différents types de variables:</p>
+<p><strong>%s</strong>&nbsp;veut dire &#8216;la&nbsp;<strong>conversion</strong>&nbsp;de la&nbsp;<strong>variable</strong>&nbsp;en<strong>&nbsp;string</strong>&#8216;. Ainsi, il y a d’autres syntaxe pour les différents types de variables:</p>
 
 
 
@@ -1512,7 +1512,7 @@ print(s)</code></pre>
 
 
 
-<p>Cette fois-ci à l&rsquo;exécution, on constate réellement la conversion de la variable <strong>age</strong> en<strong> flot</strong>:<br><em>Je m&rsquo;appelle Albert je suis enseignant de mathématiques. J&rsquo;ai 30.000000 an</em>s</p>
+<p>Cette fois-ci à l&#8217;exécution, on constate réellement la conversion de la variable <strong>age</strong> en<strong> flot</strong>:<br><em>Je m&#8217;appelle Albert je suis enseignant de mathématiques. J&#8217;ai 30.000000 an</em>s</p>
 ]]></content:encoded>
 					
 		
@@ -1559,7 +1559,7 @@ for i in range(1,11):
 
 
 
-<p><strong>Remarque</strong>&nbsp;. Noter que dans la&nbsp;<strong>boucle for&nbsp;i&nbsp;in range(1,n)</strong>&nbsp;le dernier qui est&nbsp;<strong>n</strong>&nbsp;n&rsquo;est pas inclus ! Cela veut dire que la boucle s&rsquo;arrête à l&rsquo;ordre&nbsp;<strong>n-1</strong>.</p>
+<p><strong>Remarque</strong>&nbsp;. Noter que dans la&nbsp;<strong>boucle for&nbsp;i&nbsp;in range(1,n)</strong>&nbsp;le dernier qui est&nbsp;<strong>n</strong>&nbsp;n&#8217;est pas inclus ! Cela veut dire que la boucle s&#8217;arrête à l&#8217;ordre&nbsp;<strong>n-1</strong>.</p>
 
 
 
@@ -1567,7 +1567,7 @@ for i in range(1,11):
 
 
 
-<p><br><br><br><br>La structure while permet d&rsquo;exécuter un ensemble d&rsquo;instructions tant qu&rsquo;une condition est réalisée et que l&rsquo;exécution s&rsquo;arrête lorsque la condition n&rsquo;est plus satisfaite.</p>
+<p><br><br><br><br>La structure while permet d&#8217;exécuter un ensemble d&#8217;instructions tant qu&#8217;une condition est réalisée et que l&#8217;exécution s&#8217;arrête lorsque la condition n&#8217;est plus satisfaite.</p>
 
 
 

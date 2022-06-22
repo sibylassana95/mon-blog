@@ -31,15 +31,15 @@
 
 					<description><![CDATA[WordPress est doté d&#8217;une page par défaut nommée&#160;sample page ou page d&#8217;exemple,&#160;mais vous pouvez modifier cette page, l&#8217;éditer ou même la supprimer et créer vos propres pages : 1 &#8211; Création d&#8217;une page WordPress Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&#8217;aide de votre&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>WordPress est doté d&rsquo;une page par défaut nommée&nbsp;<strong>sample page ou page d&rsquo;exemple,&nbsp;</strong>mais vous pouvez modifier cette page, l&rsquo;éditer ou même la supprimer et créer vos propres pages :</p>
+<p>WordPress est doté d&#8217;une page par défaut nommée&nbsp;<strong>sample page ou page d&#8217;exemple,&nbsp;</strong>mais vous pouvez modifier cette page, l&#8217;éditer ou même la supprimer et créer vos propres pages :</p>
 
 
 
-<h2>1 &#8211; Création d&rsquo;une page WordPress</h2>
+<h2>1 &#8211; Création d&#8217;une page WordPress</h2>
 
 
 
-<p>Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&rsquo;aide de votre sourie sur le menu&nbsp;<strong>Pages,&nbsp;</strong>comme le montre la figure ci-dessous :</p>
+<p>Pour créer une page wordpress, rendez vous dans votre dashboard ( votre zone admin ) et pointez à l&#8217;aide de votre sourie sur le menu&nbsp;<strong>Pages,&nbsp;</strong>comme le montre la figure ci-dessous :</p>
 
 
 
@@ -67,7 +67,7 @@
 
 
 
-<p>Pour créer un lien sur le menu pointant vers votre page, deux solutions s&rsquo;offrent à vous :</p>
+<p>Pour créer un lien sur le menu pointant vers votre page, deux solutions s&#8217;offrent à vous :</p>
 
 
 
@@ -133,11 +133,11 @@
 
 
 
-<h2>1 &#8211; Menus d&rsquo;en-tête et pied de page</h2>
+<h2>1 &#8211; Menus d&#8217;en-tête et pied de page</h2>
 
 
 
-<p><br>La plupart des systèmes CMS&nbsp; possèdent&nbsp; des thèmes ayant un menu d&rsquo;en-tête.&nbsp;Certains ont également un menu de bas de page.&nbsp;Vous pouvez gérer vos liens de menu en exécutant :</p>
+<p><br>La plupart des systèmes CMS&nbsp; possèdent&nbsp; des thèmes ayant un menu d&#8217;en-tête.&nbsp;Certains ont également un menu de bas de page.&nbsp;Vous pouvez gérer vos liens de menu en exécutant :</p>
 
 
 
@@ -156,14 +156,14 @@
 
 
 
-<ul><li><strong>Apparence&gt; Menus,</strong></li><li><strong>puis sélectionnez &#8211;&gt; un menu à modifier</strong>. Le côté gauche montre les liens qui sont disponibles.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Allez dans&nbsp; &#8211;&gt; Options d&rsquo;écran</strong>&nbsp;en haut à droite pour afficher plus d&rsquo;options pour les liens.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Choisissez les liens</strong>&nbsp;que vous souhaitez ajouter au menu,</li><li><strong>Cliquez ensuite sur Ajouter au menu.</strong></li></ul>
+<ul><li><strong>Apparence&gt; Menus,</strong></li><li><strong>puis sélectionnez &#8211;&gt; un menu à modifier</strong>. Le côté gauche montre les liens qui sont disponibles.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Allez dans&nbsp; &#8211;&gt; Options d&#8217;écran</strong>&nbsp;en haut à droite pour afficher plus d&#8217;options pour les liens.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><strong>Choisissez les liens</strong>&nbsp;que vous souhaitez ajouter au menu,</li><li><strong>Cliquez ensuite sur Ajouter au menu.</strong></li></ul>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/gestion-des-menus-wordpress.png" alt="gestion des menus wordpress" class="wp-image-4136"/></figure></div>
 
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Une fois que vous avez des liens dans un menu, vous pouvez les faire glisser pour modifier leur commande.&nbsp;Vous pouvez également faire glisser un lien sous un autre vers les éléments de menu imbriqués créés (menus déroulants).<br>Cliquez enfin sur&nbsp;<strong>&nbsp;Enregistrer le menu</strong>&nbsp;lorsque vous avez terminé l&rsquo;édition.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Une fois que vous avez des liens dans un menu, vous pouvez les faire glisser pour modifier leur commande.&nbsp;Vous pouvez également faire glisser un lien sous un autre vers les éléments de menu imbriqués créés (menus déroulants).<br>Cliquez enfin sur&nbsp;<strong>&nbsp;Enregistrer le menu</strong>&nbsp;lorsque vous avez terminé l&#8217;édition.</p>
 ]]></content:encoded>
 					
 		
@@ -181,11 +181,11 @@
 
 					<description><![CDATA[Si possédez du contenu il n&#8217;y a pas plus simple que d&#8217;ajouter des&#160; articles&#160; WordPress,&#160; il suffit que vous soyer connecté en tant qu&#8217;admin et suivre les étapes suivantes : 1 &#8211; Depuis votre zone admin, pointez à l&#8217;aide de votre sourie sur le menu&#160;Articles&#160;et cliquez ensuite sur le sous menu&#160;Ajoutez : 2 &#8211; Rédigez&#160;&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Si possédez du contenu il n&rsquo;y a pas plus simple que d&rsquo;ajouter des&nbsp; articles&nbsp; WordPress,&nbsp; il suffit que vous soyer connecté en tant qu&rsquo;admin et suivre les étapes suivantes :</p>
+<p>Si possédez du contenu il n&#8217;y a pas plus simple que d&#8217;ajouter des&nbsp; articles&nbsp; WordPress,&nbsp; il suffit que vous soyer connecté en tant qu&#8217;admin et suivre les étapes suivantes :</p>
 
 
 
-<p>1 &#8211; Depuis votre zone admin, pointez à l&rsquo;aide de votre sourie sur le menu&nbsp;<strong>Articles</strong>&nbsp;et cliquez ensuite sur le sous menu&nbsp;<strong>Ajoutez :</strong></p>
+<p>1 &#8211; Depuis votre zone admin, pointez à l&#8217;aide de votre sourie sur le menu&nbsp;<strong>Articles</strong>&nbsp;et cliquez ensuite sur le sous menu&nbsp;<strong>Ajoutez :</strong></p>
 
 
 
@@ -229,7 +229,7 @@
 
 
 
-<p>Cliquez alors sur le bouton&nbsp;<strong>Sélectionner des fichiers, et après avoir sélectionner l&rsquo;image de votre choix, vous obtenez la fenêtre suivante :&nbsp;</strong></p>
+<p>Cliquez alors sur le bouton&nbsp;<strong>Sélectionner des fichiers, et après avoir sélectionner l&#8217;image de votre choix, vous obtenez la fenêtre suivante :&nbsp;</strong></p>
 
 
 
@@ -275,7 +275,7 @@
 
 
 
-<p>Afin de classifier et organiser nos articles nous devons les classer par catégories, pour cela WordPress nous offre la possibilité de créer autant de catégories et sous catégories. Pour clarifier les choses prenons un exemple simple d&rsquo;un site qui traite le développement web ! nous devons dans ce cas créer les catégories suivantes :&nbsp;<strong>html, css, javascript, php, mysql, web design&#8230;</strong></p>
+<p>Afin de classifier et organiser nos articles nous devons les classer par catégories, pour cela WordPress nous offre la possibilité de créer autant de catégories et sous catégories. Pour clarifier les choses prenons un exemple simple d&#8217;un site qui traite le développement web ! nous devons dans ce cas créer les catégories suivantes :&nbsp;<strong>html, css, javascript, php, mysql, web design&#8230;</strong></p>
 
 
 
@@ -326,7 +326,7 @@
 
 
 
-<p>Maintenant que vous avez créer une catégorie pour le langage html, vous allez créer de la même façon des catégories pour les langages :&nbsp;<strong>css, javascript, php, mysql.&nbsp;</strong>Vous avez envie sans doute de créer des articles traitant du cours html et d&rsquo;autres traitant des travaux dirigés d&rsquo;html !&nbsp;Comment allez vous faire pour filtrer ceux du cours et ceux des travaux dirigés ?<strong></strong></p>
+<p>Maintenant que vous avez créer une catégorie pour le langage html, vous allez créer de la même façon des catégories pour les langages :&nbsp;<strong>css, javascript, php, mysql.&nbsp;</strong>Vous avez envie sans doute de créer des articles traitant du cours html et d&#8217;autres traitant des travaux dirigés d&#8217;html !&nbsp;Comment allez vous faire pour filtrer ceux du cours et ceux des travaux dirigés ?<strong></strong></p>
 
 
 
@@ -364,7 +364,7 @@
 
 
 
-<p>WordPress est doté de milliers de plugins permettant à l&rsquo;utilisateur d&rsquo;ajouter d&rsquo;utres fonctionalités afin qu&rsquo;ils puissent ameliorer leurs sites. Les plugins sont disponibles via le site&nbsp;<a href="http://wordpress.org/plugins/">WordPress Plugins Directory</a>&nbsp;sont conçus par des bénévoles et sont généralement gratuits pour le public.&nbsp;WordPress Plugins hébergés dans le répertoire WordPress Plugins sont considérés comme minutieusement testés et « sûr ».&nbsp;Rappelez-vous, les Plugins WordPress&nbsp; sont la responsabilité de l&rsquo;auteur et l&rsquo;utilisateur, et ils sont généralement en cours de développement au fur et à mesure que WordPress se développe.</p>
+<p>WordPress est doté de milliers de plugins permettant à l&#8217;utilisateur d&#8217;ajouter d&#8217;utres fonctionalités afin qu&#8217;ils puissent ameliorer leurs sites. Les plugins sont disponibles via le site&nbsp;<a href="http://wordpress.org/plugins/">WordPress Plugins Directory</a>&nbsp;sont conçus par des bénévoles et sont généralement gratuits pour le public.&nbsp;WordPress Plugins hébergés dans le répertoire WordPress Plugins sont considérés comme minutieusement testés et &#8220;sûr&#8221;.&nbsp;Rappelez-vous, les Plugins WordPress&nbsp; sont la responsabilité de l&#8217;auteur et l&#8217;utilisateur, et ils sont généralement en cours de développement au fur et à mesure que WordPress se développe.</p>
 
 
 
@@ -372,11 +372,11 @@
 
 
 
-<h2>2 &#8211; Installation d&rsquo;un plugin ( extension)</h2>
+<h2>2 &#8211; Installation d&#8217;un plugin ( extension)</h2>
 
 
 
-<p>Pour ajouter un Plugin WordPress à l&rsquo;aide du plugin intégré, il suffit d&rsquo;effectuer les manipulations suivantes :</p>
+<p>Pour ajouter un Plugin WordPress à l&#8217;aide du plugin intégré, il suffit d&#8217;effectuer les manipulations suivantes :</p>
 
 
 
@@ -387,25 +387,25 @@
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/install-plugin.png" alt="install-plugin" class="wp-image-4145"/></figure></div>
 
 
-<ul><li>Tapez le nom du Plugin WordPress ou le mot-clé descriptif, l&rsquo;auteur ou la balise dans la boîte de dialogue Plugins de recherche ou cliquez sur un lien d&rsquo;étiquette sous l&rsquo;écran.</li></ul>
+<ul><li>Tapez le nom du Plugin WordPress ou le mot-clé descriptif, l&#8217;auteur ou la balise dans la boîte de dialogue Plugins de recherche ou cliquez sur un lien d&#8217;étiquette sous l&#8217;écran.</li></ul>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/search-plugin.png" alt="search-plugin" class="wp-image-4146"/></figure></div>
 
 
-<ul><li>Trouvez le plugin WordPress que vous souhaitez installer.</li><li>Cliquez sur Détails pour plus d&rsquo;informations sur le Plugin et sur les instructions que vous souhaitez imprimer ou enregistrer pour vous aider à configurer le Plugin.</li><li>Cliquez sur Installer maintenant pour installer le plugin WordPress.</li></ul>
+<ul><li>Trouvez le plugin WordPress que vous souhaitez installer.</li><li>Cliquez sur Détails pour plus d&#8217;informations sur le Plugin et sur les instructions que vous souhaitez imprimer ou enregistrer pour vous aider à configurer le Plugin.</li><li>Cliquez sur Installer maintenant pour installer le plugin WordPress.</li></ul>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/01/instaal-plugin.png" alt="instaal-plugin" class="wp-image-4147"/></figure></div>
 
 
-<p><br>Si l&rsquo;installation est effectuée avec succès :</p>
+<p><br>Si l&#8217;installation est effectuée avec succès :</p>
 
 
 
-<ul><li>Cliquez sur Activer le plugin pour l&rsquo;activer ou Retournez au programme d&rsquo;installation du plugin pour d&rsquo;autres actions.</li></ul>
+<ul><li>Cliquez sur Activer le plugin pour l&#8217;activer ou Retournez au programme d&#8217;installation du plugin pour d&#8217;autres actions.</li></ul>
 ]]></content:encoded>
 					
 		
@@ -423,7 +423,7 @@
 
 					<description><![CDATA[1 &#8211;&#160; Installation d&#8217;un theme WordPress Pour installer un thème WordPress, rendez vous dans votre zone admin WordPress&#160; (http://www.votre-site/wp-admin/) Après être logé, pointez à l&#8217;aide de votre sourie sur le menu gauche&#160;Apparence,&#160;puis cliquez sur&#160;Thèmes&#160;: Vous obtenez la fenêtre suivante : Cliquez ensuite sur le lien&#160;Ajouter un thème&#160;,&#160; vous obtenez alors la fenêtre suivante : Cliquez&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>1 &#8211;&nbsp; Installation d&rsquo;un theme WordPress</h2>
+<h2>1 &#8211;&nbsp; Installation d&#8217;un theme WordPress</h2>
 
 
 
@@ -431,7 +431,7 @@
 
 
 
-<p>Après être logé, pointez à l&rsquo;aide de votre sourie sur le menu gauche&nbsp;<strong>Apparence,</strong>&nbsp;puis cliquez sur&nbsp;<strong>Thèmes</strong>&nbsp;:</p>
+<p>Après être logé, pointez à l&#8217;aide de votre sourie sur le menu gauche&nbsp;<strong>Apparence,</strong>&nbsp;puis cliquez sur&nbsp;<strong>Thèmes</strong>&nbsp;:</p>
 
 
 <div class="wp-block-image">
@@ -458,7 +458,7 @@
 
 
 
-<p>Cliquez ensuite sur le bouton en bas&nbsp;<strong>Trouver des thèmes</strong>&nbsp;vous obtenez alors une page contenant des milliers de thèmes Wordress, quelques un sont payants, mais la pluspart d&rsquo;entre eux sont&nbsp; gratuits ! Choisissez un&nbsp; et cliquez sur le lien&nbsp;<strong>Installer maintenant</strong>&nbsp;en bas du thème choisie :</p>
+<p>Cliquez ensuite sur le bouton en bas&nbsp;<strong>Trouver des thèmes</strong>&nbsp;vous obtenez alors une page contenant des milliers de thèmes Wordress, quelques un sont payants, mais la pluspart d&#8217;entre eux sont&nbsp; gratuits ! Choisissez un&nbsp; et cliquez sur le lien&nbsp;<strong>Installer maintenant</strong>&nbsp;en bas du thème choisie :</p>
 
 
 <div class="wp-block-image">
@@ -477,11 +477,11 @@
 
 
 
-<p>avec des liens en bas :&nbsp;<strong>Prévisualiser, Activer, Retournez à l&rsquo;installateur.&nbsp;</strong>Cliquez alors sur le lien Activer et visualiser la page d&rsquo;accueil WordPress pour s&rsquo;assurer que le thème a été changé !</p>
+<p>avec des liens en bas :&nbsp;<strong>Prévisualiser, Activer, Retournez à l&#8217;installateur.&nbsp;</strong>Cliquez alors sur le lien Activer et visualiser la page d&#8217;accueil WordPress pour s&#8217;assurer que le thème a été changé !</p>
 
 
 
-<p>Installation d&rsquo;un theme WordPress en vidéo</p>
+<p>Installation d&#8217;un theme WordPress en vidéo</p>
 
 
 
@@ -513,7 +513,7 @@
 
 
 
-<p>L&rsquo;installation de WordPress est aussi simple que vous ne le croyez, pour ce faire il suffit de suivre les étapes suivantes&nbsp; :</p>
+<p>L&#8217;installation de WordPress est aussi simple que vous ne le croyez, pour ce faire il suffit de suivre les étapes suivantes&nbsp; :</p>
 
 
 
@@ -521,11 +521,11 @@
 
 
 
-<p>Choisissez la version qui correspond à votre système d&rsquo;exploitation : Windows 64 bits, Windows 32 bits, Linux&#8230;</p>
+<p>Choisissez la version qui correspond à votre système d&#8217;exploitation : Windows 64 bits, Windows 32 bits, Linux&#8230;</p>
 
 
 
-<p>Démarrez votre serveur&nbsp;<strong>Wamp</strong>&nbsp;depuis le menu démarrer, et assurez vous qu&rsquo;il fonctionne correctement ( vous devez obtenir une icône&nbsp;&nbsp;<strong>verte&nbsp;</strong>dans la barre des tâches<strong>&nbsp;)</strong></p>
+<p>Démarrez votre serveur&nbsp;<strong>Wamp</strong>&nbsp;depuis le menu démarrer, et assurez vous qu&#8217;il fonctionne correctement ( vous devez obtenir une icône&nbsp;&nbsp;<strong>verte&nbsp;</strong>dans la barre des tâches<strong>&nbsp;)</strong></p>
 
 
 
@@ -545,7 +545,7 @@
 
 
 
-<p>Pour créer cette dernière il suffit de se rendre sur&nbsp;<strong>phpmyadmin</strong>&nbsp;du&nbsp;<strong>serveur wamp</strong>&nbsp;à l&rsquo;adresse :</p>
+<p>Pour créer cette dernière il suffit de se rendre sur&nbsp;<strong>phpmyadmin</strong>&nbsp;du&nbsp;<strong>serveur wamp</strong>&nbsp;à l&#8217;adresse :</p>
 
 
 
@@ -568,19 +568,19 @@
 
 
 
-<h2>3 &#8211; Télécharger l&rsquo;archive du système WordPress du site :&nbsp;<a href="http://fr.wordpress.org/">http://fr.wordpress.org/</a></h2>
+<h2>3 &#8211; Télécharger l&#8217;archive du système WordPress du site :&nbsp;<a href="http://fr.wordpress.org/">http://fr.wordpress.org/</a></h2>
 
 
 
-<p>Décompressez l&rsquo;archive et mettez son contenu dans un dossier, nommez&nbsp; le par exemple&nbsp;<strong>wordpress,&nbsp;</strong>mettez ensuite ce dossier à la racine du serveur ( dans le cas de Wamp sous Windows le chemin est<strong>&nbsp;&nbsp; C:\wamp\www\wordpress\ )</strong></p>
+<p>Décompressez l&#8217;archive et mettez son contenu dans un dossier, nommez&nbsp; le par exemple&nbsp;<strong>wordpress,&nbsp;</strong>mettez ensuite ce dossier à la racine du serveur ( dans le cas de Wamp sous Windows le chemin est<strong>&nbsp;&nbsp; C:\wamp\www\wordpress\ )</strong></p>
 
 
 
-<h2>&nbsp;4 &#8211; Lancer l&rsquo;installation du système wordpress :</h2>
+<h2>&nbsp;4 &#8211; Lancer l&#8217;installation du système wordpress :</h2>
 
 
 
-<p>Maintenant que vous avez tout préparé, vous pouvez lancer l&rsquo;installation du système wordpress depuis votre navigateur en tapant l&rsquo;adresse url :&nbsp;<a href="http://localhost/wordpress/">http://localhost/wordpress/&nbsp;</a></p>
+<p>Maintenant que vous avez tout préparé, vous pouvez lancer l&#8217;installation du système wordpress depuis votre navigateur en tapant l&#8217;adresse url :&nbsp;<a href="http://localhost/wordpress/">http://localhost/wordpress/&nbsp;</a></p>
 
 
 
@@ -600,11 +600,11 @@
 
 
 
-<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/installation-wordpress-creez-c-est-parti.png" alt="installation-wordpress-creez-c-est-parti.png"/><figcaption>installation-wordpress c&rsquo;est parti</figcaption></figure>
+<figure class="wp-block-image"><img src="http://www.tresfacile.net/images/wordpress/installation-wordpress-creez-c-est-parti.png" alt="installation-wordpress-creez-c-est-parti.png"/><figcaption>installation-wordpress c&#8217;est parti</figcaption></figure>
 
 
 
-<p>Vous voyez sans doute un bouton en bas intitulé :&nbsp;<strong>C&rsquo;est parti !</strong>&nbsp; Cliquez sur ce dernier&nbsp; pour obtenir la fenêtre suivante :</p>
+<p>Vous voyez sans doute un bouton en bas intitulé :&nbsp;<strong>C&#8217;est parti !</strong>&nbsp; Cliquez sur ce dernier&nbsp; pour obtenir la fenêtre suivante :</p>
 
 
 
@@ -620,15 +620,15 @@
 
 
 
-<p><strong>Identifiant</strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : &nbsp;&nbsp; vous mettez&nbsp;<strong>root</strong>&nbsp;( en localhost c&rsquo;est toujours root )</p>
+<p><strong>Identifiant</strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : &nbsp;&nbsp; vous mettez&nbsp;<strong>root</strong>&nbsp;( en localhost c&#8217;est toujours root )</p>
 
 
 
-<p><strong>Mot de passe&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; Vous laissez vide ( en localhost c&rsquo;est toujours vide ! )</p>
+<p><strong>Mot de passe&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; Vous laissez vide ( en localhost c&#8217;est toujours vide ! )</p>
 
 
 
-<p><strong>Adresse de la base de donnée&nbsp;</strong>&nbsp;&nbsp;:&nbsp; mettez&nbsp;<strong>localhost</strong>&nbsp;( en serveur local c&rsquo;est toujours localhost )</p>
+<p><strong>Adresse de la base de donnée&nbsp;</strong>&nbsp;&nbsp;:&nbsp; mettez&nbsp;<strong>localhost</strong>&nbsp;( en serveur local c&#8217;est toujours localhost )</p>
 
 
 
@@ -643,7 +643,7 @@
 <figure class="aligncenter"><img src="http://www.tresfacile.net/images/wordpress/lancer-installation-wordpress.png" alt="lancer l'installation de wordpress" title="lancer-installation-wordpress.png"/></figure></div>
 
 
-<p>A ce niveau, une fenêtre s&rsquo;affiche et vous demande de remplir quelque informations qui sont utiles pour continuez l&rsquo;installation du système wordpress :</p>
+<p>A ce niveau, une fenêtre s&#8217;affiche et vous demande de remplir quelque informations qui sont utiles pour continuez l&#8217;installation du système wordpress :</p>
 
 
 
@@ -655,11 +655,11 @@
 
 
 
-<figure class="wp-block-table"><table><tbody><tr><th scope="row">Titre du site</th><th scope="row">mettez ici un titre pour votre site</th></tr><tr><th scope="row">Identifiant</th><th scope="row">choisissez un identifiant pour accéder à la zone d&rsquo;administration de wordpress</th></tr><tr><th scope="row">Mot de passe, deux fois</th><th scope="row">choisissez un mot de passe et tapez le deux fois</th></tr><tr><th scope="row">Votre adresse de messagerie</th><th scope="row">mettez ici votre adresse de messagerie électronique</th></tr><tr><th scope="row">Vie privée</th><th scope="row">cochez cette case pour que votre site wordpress soit indexé par les moteurs de recherche</th></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><th scope="row">Titre du site</th><th scope="row">mettez ici un titre pour votre site</th></tr><tr><th scope="row">Identifiant</th><th scope="row">choisissez un identifiant pour accéder à la zone d&#8217;administration de wordpress</th></tr><tr><th scope="row">Mot de passe, deux fois</th><th scope="row">choisissez un mot de passe et tapez le deux fois</th></tr><tr><th scope="row">Votre adresse de messagerie</th><th scope="row">mettez ici votre adresse de messagerie électronique</th></tr><tr><th scope="row">Vie privée</th><th scope="row">cochez cette case pour que votre site wordpress soit indexé par les moteurs de recherche</th></tr></tbody></table></figure>
 
 
 
-<p>Cliquez ensuite sur le bouton en bas intitulé Installer WordPress pour obtenir la fenêtre suivante qui vous indique la fin d&rsquo;installation du système WordPress&nbsp; :</p>
+<p>Cliquez ensuite sur le bouton en bas intitulé Installer WordPress pour obtenir la fenêtre suivante qui vous indique la fin d&#8217;installation du système WordPress&nbsp; :</p>
 
 
 
@@ -675,11 +675,11 @@
 
 
 
-<p>C&rsquo;est votre zone admin WordPress, elle vous permet de gérer la totalité de votre site WordPress :&nbsp; Articles, Médias, Pages, Commentaires &#8230;</p>
+<p>C&#8217;est votre zone admin WordPress, elle vous permet de gérer la totalité de votre site WordPress :&nbsp; Articles, Médias, Pages, Commentaires &#8230;</p>
 
 
 
-<p>Pour accéder à votre site WordPress depuis votre zone admin, pointez sur le nom de votre site à l&rsquo;aide&nbsp; de votre sourie sur le coin supérieur gauche, vous allez constater l&rsquo;affichage&nbsp; d&rsquo;un menu intitulé&nbsp;&nbsp; :&nbsp;<strong>Aller sur le site :</strong></p>
+<p>Pour accéder à votre site WordPress depuis votre zone admin, pointez sur le nom de votre site à l&#8217;aide&nbsp; de votre sourie sur le coin supérieur gauche, vous allez constater l&#8217;affichage&nbsp; d&#8217;un menu intitulé&nbsp;&nbsp; :&nbsp;<strong>Aller sur le site :</strong></p>
 
 
 <div class="wp-block-image">
@@ -705,7 +705,7 @@
 
 
 
-<p>Dans ce premier tutoriel de WordPress vous allez apprendre comment installer le système WordPress ainsi que toutes les étapes d&rsquo;installation du CMS WordPress : téléchargement, décompression de l&rsquo;archive wordpress, création d&rsquo;une base de donnée en localhost sur Wamp et finalement l&rsquo;installation du système wordpress.</p>
+<p>Dans ce premier tutoriel de WordPress vous allez apprendre comment installer le système WordPress ainsi que toutes les étapes d&#8217;installation du CMS WordPress : téléchargement, décompression de l&#8217;archive wordpress, création d&#8217;une base de donnée en localhost sur Wamp et finalement l&#8217;installation du système wordpress.</p>
 ]]></content:encoded>
 					
 		

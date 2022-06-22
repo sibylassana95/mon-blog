@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/category/informatiques/word/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Tue, 21 Jun 2022 02:57:55 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 22 Jun 2022 17:21:22 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,67 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
+		<title>Différence entre JFrame et JPanel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/difference-entre-jframe-et-jpanel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Wed, 22 Jun 2022 17:21:22 +0000</pubDate>
+				<category><![CDATA[Word]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=759</guid>
+
+					<description><![CDATA[JPanel&#160;et&#160;JFrame&#160;sont des classes du langage de programmation Java. Elles ressemblent à des fenêtres lorsqu’elles sont « exécutées », mais ont des utilisations ou des objectifs différents.&#160;&#160; Différence principale entre JFrame et JPanel On peut ajouter un JPanel dans un JFrame, mais pas l’inverse. Une interface graphique Swing ne peut pas exister sans un conteneur de&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p><strong>J</strong><strong>Panel</strong>&nbsp;et&nbsp;<strong>JFrame</strong>&nbsp;sont des classes du langage de programmation Java. Elles ressemblent à des fenêtres lorsqu’elles sont « exécutées », mais ont des utilisations ou des objectifs différents.<br>&nbsp;<br>&nbsp;<br><img src="https://1.bp.blogspot.com/-9jlMvT3ZwCk/XrK8-PMdk7I/AAAAAAAAItI/qa6QDWaGYTk3Fb4U-qfnnB-euuyRFwy4wCNcBGAsYHQ/s1600/jframe-jpanel.png"></p>
+
+
+
+<span id="more-759"></span>
+
+
+
+<h6>Différence principale entre JFrame et JPanel</h6>
+
+
+
+<ul><li>On peut ajouter un JPanel dans un JFrame, mais pas l’inverse.</li><li>Une interface graphique Swing ne peut pas exister sans un conteneur de niveau supérieur comme (JWindow, JFrame ou Applet), alors qu’elle peut exister sans JPanel.</li></ul>
+
+
+
+<h3>JPanel</h3>
+
+
+
+<p><strong>JPanel</strong>&nbsp;sert en fait de conteneur à usage général. C’est là que des opérations plus complexes ou plus importantes sont généralement mises en place. Vous pouvez placer de nombreuses opérations dans un même panneau.</p>
+
+
+
+<p><strong>JPanel</strong>&nbsp;est une sous-classe de JComponent, et JComponent est une sous-classe de Container, par conséquent,&nbsp;<strong>JPanel</strong>&nbsp;est également un conteneur. Il y a tellement de méthodes qui peuvent être utilisées pour&nbsp;<strong>JPanel</strong>, qu’il a héritées de ses super classes. L’accessibilité, les alignements, etc. sont quelques exemples. Dans&nbsp;<strong>JPanel</strong>, vous pouvez également mettre des champs, des labels, des boutons, des cases à cocher et même des images, et de nombreuses autres fonctions. Il représente simplement une zone où vous pouvez mettre&nbsp;<a href="https://waytolearnx.com/2020/05/creation-interface-graphique-avec-swing-les-bases.html">des composant de Swing (Jlabel, JTable, JButton, JMenu, etc.)</a>.<br>&nbsp;<br>&nbsp;<br>En programmation Java, pour créer un panneau, vous devez appeler un constructeur&nbsp;<strong>JPanel()</strong>&nbsp;(cela crée un panneau vide). Il est opaque par défaut, mais vous pouvez changer sa couleur d’arrière-plan. Vous pouvez également personnaliser ses composants à l’aide d’un gestionnaire de disposition. Les gestionnaires de disposition tels que la disposition de flux, la disposition de grille, la disposition de bordure, etc., vous aident à contrôler les tailles, les positions et l’alignement de vos composants dans&nbsp;<strong>JPanel</strong>. Les couleurs des composants peuvent également être personnalisées à l’aide des constructeurs&nbsp;<strong>setColor()</strong>,&nbsp;<strong>setForeGround()</strong>&nbsp;et&nbsp;<strong>setBackgroundColor()</strong>.<br>&nbsp;</p>
+
+
+
+<h3>JFrame</h3>
+
+
+
+<p>Il s’agit d’un conteneur de niveau supérieur utilisé pour représenter les exigences minimales pour une fenêtre. Cela inclut les bordures, le redimensionnement (le JFrame est-il redimensionnable?), La barre de titre, les contrôles (Réduire / Agrandir sont autorisés?) Et les gestionnaires d’événements pour divers événements comme windowClose, windowOpened, etc.</p>
+
+
+
+<p>JFrame, tout comme JPanel, est également une sous-classe de JComponent et JContainer. C’est une fenêtre avec ses propres caractéristiques. Il a une bordure, une barre de titre et des composants comment label, bouton, etc. Ses attributs physiques, comme la taille, la couleur, les polices, etc., peuvent tous être personnalisés. Il existe une syntaxe appropriée héritée pour chaque attribut que vous souhaitez modifier. JFrame a essentiellement deux sous-zones, la zone de contenu et la barre de menus, mais la plupart des contrôles se trouvent dans la zone de contenu. Dans JFrame, vous pouvez également placer des boutons, des labels et des cases à cocher.<br>&nbsp;</p>
+
+
+
+<h3>Conclusion</h3>
+
+
+
+<p><strong>JFrame</strong>&nbsp;est la fenêtre; il peut contenir une ou plusieurs instances du&nbsp;<strong>JPanel</strong>.&nbsp;<strong>JPanel</strong>&nbsp;n’est pas une fenêtre.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Comment créer une table des matières à un document Word</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-creer-une-table-des-matieres-a-un-document-word/</link>
 		

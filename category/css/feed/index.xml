@@ -35,15 +35,15 @@
 
 
 
-<p>On a besoin parfois d&rsquo;affecter un ensemble de&nbsp; styles à chaque fois qu&rsquo;on a besoin ! Pour répondre à cette nécessité&nbsp; on utilise ce qu&rsquo;on appelle les classes. Le rôle d&rsquo;une classe est de stocker&nbsp; une quantité de codes&nbsp;<strong>CSS</strong>&nbsp;pour être réutilisée par la suite.</p>
+<p>On a besoin parfois d&#8217;affecter un ensemble de&nbsp; styles à chaque fois qu&#8217;on a besoin ! Pour répondre à cette nécessité&nbsp; on utilise ce qu&#8217;on appelle les classes. Le rôle d&#8217;une classe est de stocker&nbsp; une quantité de codes&nbsp;<strong>CSS</strong>&nbsp;pour être réutilisée par la suite.</p>
 
 
 
-<h3>Déclaration d&rsquo;une classe css</h3>
+<h3>Déclaration d&#8217;une classe css</h3>
 
 
 
-<p>Une classe est déclarée à l&rsquo;aide de son&nbsp;<strong>nom</strong>&nbsp;précédé d&rsquo;un point&nbsp; « . »</p>
+<p>Une classe est déclarée à l&#8217;aide de son&nbsp;<strong>nom</strong>&nbsp;précédé d&#8217;un point&nbsp; &#8220;.&#8221;</p>
 
 
 
@@ -67,19 +67,19 @@ color:red ;
 
 
 
-<p>C&rsquo;est une classe permettant d&rsquo;ecrire avec la police arial, en gras taille=18 et en couleur rouge. Mais comment peut &#8211; on appliquer cette classe ? Le problème est simple : il suffit d&rsquo;ajouter à l&rsquo;interieur de la balise à laquelle on veut appliquer la classe :</p>
+<p>C&#8217;est une classe permettant d&#8217;ecrire avec la police arial, en gras taille=18 et en couleur rouge. Mais comment peut &#8211; on appliquer cette classe ? Le problème est simple : il suffit d&#8217;ajouter à l&#8217;interieur de la balise à laquelle on veut appliquer la classe :</p>
 
 
 
-<h3>&nbsp;class= »nom de la classe »</h3>
+<h3>&nbsp;class=&#8221;nom de la classe&#8221;</h3>
 
 
 
-<p>dans notre cas c&rsquo;est :</p>
+<p>dans notre cas c&#8217;est :</p>
 
 
 
-<h3>class= »maClasse »</h3>
+<h3>class=&#8221;maClasse&#8221;</h3>
 
 
 
@@ -107,7 +107,7 @@ color:red ;
 
 
 
-<p>Les ID en CSS sont semblables aux class CSS, la seule différence c&rsquo;est que les class sont utilisable autant de fois qu&rsquo;on en a besoin, tandis que les ID ne sont utilisable qu&rsquo;une seule fois. La déclaration d&rsquo;un ID en CSS se fait à l&rsquo;aide de son nom précédé du symbole&nbsp;<strong>&nbsp; » # « </strong></p>
+<p>Les ID en CSS sont semblables aux class CSS, la seule différence c&#8217;est que les class sont utilisable autant de fois qu&#8217;on en a besoin, tandis que les ID ne sont utilisable qu&#8217;une seule fois. La déclaration d&#8217;un ID en CSS se fait à l&#8217;aide de son nom précédé du symbole&nbsp;<strong>&nbsp;&#8221; # &#8220;</strong></p>
 
 
 
@@ -124,7 +124,7 @@ border-color: red ;
 
 
 
-<p>Pour appliquer cet ID CSS à une balise il suffit d&rsquo;introduire l&rsquo;expression id= »myID » à l&rsquo;intérieur de la balise en question</p>
+<p>Pour appliquer cet ID CSS à une balise il suffit d&#8217;introduire l&#8217;expression id=&#8221;myID&#8221; à l&#8217;intérieur de la balise en question</p>
 
 
 
@@ -169,7 +169,7 @@ dont la mise en forme est gérée  &lt;br /&gt;
 
 
 
-<p>Les propriétés height et width permettent de définir la hauteur et la largeur d&rsquo;un élément en CSS.</p>
+<p>Les propriétés height et width permettent de définir la hauteur et la largeur d&#8217;un élément en CSS.</p>
 
 
 
@@ -198,19 +198,19 @@ dont la mise en forme est gérée  &lt;br /&gt;
 
 
 
-<p>La propriété max-width est utilisée pour définir la largeur maximale d&rsquo;un élément.</p>
+<p>La propriété max-width est utilisée pour définir la largeur maximale d&#8217;un élément.</p>
 
 
 
-<p>La largeur maximale peut être spécifiée en valeurs de longueur, telles que px, cm, etc., ou en pourcentage (%) du bloc conteneur, ou définie sur aucune (valeur par défaut. Indique qu&rsquo;il n&rsquo;y a pas de largeur maximale).</p>
+<p>La largeur maximale peut être spécifiée en valeurs de longueur, telles que px, cm, etc., ou en pourcentage (%) du bloc conteneur, ou définie sur aucune (valeur par défaut. Indique qu&#8217;il n&#8217;y a pas de largeur maximale).</p>
 
 
 
-<p>Le problème avec la balise&nbsp;<strong>div</strong>&nbsp;ci-dessus se produit lorsque la fenêtre du navigateur est inférieure à la largeur de l&rsquo;élément (450px). Le navigateur ajoute ensuite une barre de défilement horizontale à la page.</p>
+<p>Le problème avec la balise&nbsp;<strong>div</strong>&nbsp;ci-dessus se produit lorsque la fenêtre du navigateur est inférieure à la largeur de l&#8217;élément (450px). Le navigateur ajoute ensuite une barre de défilement horizontale à la page.</p>
 
 
 
-<p>Dans ce cas, l&rsquo;utilisation de&nbsp;<strong>max-width</strong>&nbsp;améliorera la gestion des petites fenêtres par le navigateur.</p>
+<p>Dans ce cas, l&#8217;utilisation de&nbsp;<strong>max-width</strong>&nbsp;améliorera la gestion des petites fenêtres par le navigateur.</p>
 
 
 
@@ -218,7 +218,7 @@ dont la mise en forme est gérée  &lt;br /&gt;
 
 
 
-<p>L&rsquo;exemple suivant introduit un élément &lt;div&gt; avec une hauteur de 120 pixels et une largeur maximale de 450 pixels:</p>
+<p>L&#8217;exemple suivant introduit un élément &lt;div&gt; avec une hauteur de 120 pixels et une largeur maximale de 450 pixels:</p>
 
 
 
@@ -238,7 +238,7 @@ dont la mise en forme est gérée  &lt;br /&gt;
 
 
 
-<ol><li><strong>height&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:</strong>&nbsp;Définit la hauteur d&rsquo;un élément</li><li><strong>max-height&nbsp; :</strong>&nbsp;Définit la hauteur maximale d&rsquo;un élément</li><li><strong>max-width&nbsp; &nbsp;:</strong>&nbsp;Définit la largeur maximale d&rsquo;un élément</li><li><strong>min-height&nbsp; :</strong>&nbsp;Définit la hauteur minimale d&rsquo;un élément</li><li><strong>min-width&nbsp; &nbsp;:</strong>&nbsp;Définit la largeur minimale d&rsquo;un élément</li><li><strong>width&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</strong>&nbsp;Définit la largeur d&rsquo;un élément</li></ol>
+<ol><li><strong>height&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:</strong>&nbsp;Définit la hauteur d&#8217;un élément</li><li><strong>max-height&nbsp; :</strong>&nbsp;Définit la hauteur maximale d&#8217;un élément</li><li><strong>max-width&nbsp; &nbsp;:</strong>&nbsp;Définit la largeur maximale d&#8217;un élément</li><li><strong>min-height&nbsp; :</strong>&nbsp;Définit la hauteur minimale d&#8217;un élément</li><li><strong>min-width&nbsp; &nbsp;:</strong>&nbsp;Définit la largeur minimale d&#8217;un élément</li><li><strong>width&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</strong>&nbsp;Définit la largeur d&#8217;un élément</li></ol>
 ]]></content:encoded>
 					
 		
@@ -260,7 +260,7 @@ dont la mise en forme est gérée  &lt;br /&gt;
 
 
 
-<p>Margin represente la marge externe d&rsquo;un élément, elle est doté des propriétés :</p>
+<p>Margin represente la marge externe d&#8217;un élément, elle est doté des propriétés :</p>
 
 
 
@@ -306,7 +306,7 @@ margin-left : 150px ;
 
 
 
-<p>Voici un exemple de marge à l&rsquo;interieur des bordures</p>
+<p>Voici un exemple de marge à l&#8217;interieur des bordures</p>
 
 
 
@@ -395,7 +395,7 @@ border-color: red ; }</code></pre>
 
 
 
-<p>Il s&rsquo;agit&nbsp; d&rsquo;un type de bordure continue en rouge :</p>
+<p>Il s&#8217;agit&nbsp; d&#8217;un type de bordure continue en rouge :</p>
 
 
 
@@ -461,7 +461,7 @@ Voici un exemple simple
 
 
 
-<p>Ce qui va afficher à l&rsquo;exécution :</p>
+<p>Ce qui va afficher à l&#8217;exécution :</p>
 
 
 <div class="wp-block-image">
@@ -486,7 +486,7 @@ Voici un exemple simple
 
 
 
-<p>Cette propriété permet de determiner le type de police d&rsquo;un sélécteur</p>
+<p>Cette propriété permet de determiner le type de police d&#8217;un sélécteur</p>
 
 
 
@@ -522,7 +522,7 @@ font-family: Arial , Verdana, Tahoma ;
 
 
 
-<p>le paragraphe sera afficher avec la police arial si cette dernière n&rsquo;est pas disponible, le paragraphe sera afficher à l&rsquo;aide de la police Verdana &#8230;</p>
+<p>le paragraphe sera afficher avec la police arial si cette dernière n&#8217;est pas disponible, le paragraphe sera afficher à l&#8217;aide de la police Verdana &#8230;</p>
 
 
 
@@ -589,7 +589,7 @@ p { font-style: normal ; } (paragraphe normal )</code></pre>
 
 					<description><![CDATA[La propriété background comme son nom l&#8217;indique, nous permet de modifier l&#8217;arrière plan de notre page web: on peut mettre une couleur de notre choix , on peut mettre aussi une belle image comme arrière plan&#8230; 1 &#8211; background-color Cette propriété s&#8217;utilise pour modifier la couleur de l&#8217;arrière plan d&#8217;un élément. Exemple&#160;: coloration de l&#8217;arrière&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>La propriété background comme son nom l&rsquo;indique, nous permet de modifier l&rsquo;arrière plan de notre page web: on peut mettre une couleur de notre choix , on peut mettre aussi une belle image comme arrière plan&#8230;</p>
+<p>La propriété background comme son nom l&#8217;indique, nous permet de modifier l&#8217;arrière plan de notre page web: on peut mettre une couleur de notre choix , on peut mettre aussi une belle image comme arrière plan&#8230;</p>
 
 
 
@@ -597,11 +597,11 @@ p { font-style: normal ; } (paragraphe normal )</code></pre>
 
 
 
-<p>Cette propriété s&rsquo;utilise pour modifier la couleur de l&rsquo;arrière plan d&rsquo;un élément.</p>
+<p>Cette propriété s&#8217;utilise pour modifier la couleur de l&#8217;arrière plan d&#8217;un élément.</p>
 
 
 
-<h3><strong>Exemple</strong>&nbsp;: coloration de l&rsquo;arrière plan en rouge :</h3>
+<h3><strong>Exemple</strong>&nbsp;: coloration de l&#8217;arrière plan en rouge :</h3>
 
 
 
@@ -617,7 +617,7 @@ p { font-style: normal ; } (paragraphe normal )</code></pre>
 
 
 
-<p>Cette propriété est utilisé pour mettre une image en arrière plan d&rsquo;un élément. L&rsquo;image est automatiquement répété pour recouvrir la totalité de l&rsquo;élément en question.</p>
+<p>Cette propriété est utilisé pour mettre une image en arrière plan d&#8217;un élément. L&#8217;image est automatiquement répété pour recouvrir la totalité de l&#8217;élément en question.</p>
 
 
 
@@ -633,11 +633,11 @@ p { font-style: normal ; } (paragraphe normal )</code></pre>
 
 
 
-<p>Cette proprièté définit la façon suivant laquelle l&rsquo;image doit se répéter.</p>
+<p>Cette proprièté définit la façon suivant laquelle l&#8217;image doit se répéter.</p>
 
 
 
-<h3>Exemple : background sans répétition de l&rsquo;image<strong></strong></h3>
+<h3>Exemple : background sans répétition de l&#8217;image<strong></strong></h3>
 
 
 
@@ -645,7 +645,7 @@ p { font-style: normal ; } (paragraphe normal )</code></pre>
 
 
 
-<h3>Exemple : background avec répétition horizontale de l&rsquo;image ( repeat-x)<strong></strong></h3>
+<h3>Exemple : background avec répétition horizontale de l&#8217;image ( repeat-x)<strong></strong></h3>
 
 
 
@@ -653,7 +653,7 @@ p { font-style: normal ; } (paragraphe normal )</code></pre>
 
 
 
-<h3>Exemple : background avec répétition verticale de l&rsquo;image ( repeat-y)</h3>
+<h3>Exemple : background avec répétition verticale de l&#8217;image ( repeat-y)</h3>
 
 
 
@@ -665,7 +665,7 @@ p { font-style: normal ; } (paragraphe normal )</code></pre>
 
 
 
-<p>Cette propriété est utilisé pour détérminer la position de l&rsquo;image sur l&rsquo;arrière plan en utilisant Les mots-clés suivants :</p>
+<p>Cette propriété est utilisé pour détérminer la position de l&#8217;image sur l&#8217;arrière plan en utilisant Les mots-clés suivants :</p>
 
 
 
@@ -684,11 +684,11 @@ background-position: left top ; }
 
 
 
-<h3><strong>Remarque</strong>&nbsp;: On porra aussi utiliser le % pour le positionnement de l&rsquo;image</h3>
+<h3><strong>Remarque</strong>&nbsp;: On porra aussi utiliser le % pour le positionnement de l&#8217;image</h3>
 
 
 
-<h3><strong>Exemple :</strong>&nbsp;Pour positionner l&rsquo;image en haut à droite on utilise le code :</h3>
+<h3><strong>Exemple :</strong>&nbsp;Pour positionner l&#8217;image en haut à droite on utilise le code :</h3>
 
 
 
@@ -698,7 +698,7 @@ background-position: 100% 0% ; } </code></pre>
 
 
 
-<h3><strong>Exemple :</strong>&nbsp;Pour positionner l&rsquo;image au milieu de la page on utilise le code :</h3>
+<h3><strong>Exemple :</strong>&nbsp;Pour positionner l&#8217;image au milieu de la page on utilise le code :</h3>
 
 
 
@@ -736,7 +736,7 @@ background-position: 50% 50% ; }</code></pre>
 
 
 
-<p>Cette propriété permet de définir l&rsquo;aligement d&rsquo;un texte</p>
+<p>Cette propriété permet de définir l&#8217;aligement d&#8217;un texte</p>
 
 
 
@@ -754,7 +754,7 @@ p { text-align:right ; } </code></pre>
 
 
 
-<p>C&rsquo;est une propriété qui sert à personnaliser la couleur du texte</p>
+<p>C&#8217;est une propriété qui sert à personnaliser la couleur du texte</p>
 
 
 
@@ -795,7 +795,7 @@ h1 { color : blue ; }  </code></pre>
 
 
 
-<p>C&rsquo;est une propriété permettant de spécifier le décalage de la première ligne de chaque paragraphe.</p>
+<p>C&#8217;est une propriété permettant de spécifier le décalage de la première ligne de chaque paragraphe.</p>
 
 
 
@@ -811,7 +811,7 @@ h1 { color : blue ; }  </code></pre>
 
 
 
-<p>Cette propriété permet de spécifier l&rsquo;espacement entre les caractères.</p>
+<p>Cette propriété permet de spécifier l&#8217;espacement entre les caractères.</p>
 
 
 
@@ -843,7 +843,7 @@ letter-spacing: 3px ;
 
 
 
-<p>Cette propriété permet de définir l&rsquo;espace entre les lignes d&rsquo;un paragraphe</p>
+<p>Cette propriété permet de définir l&#8217;espace entre les lignes d&#8217;un paragraphe</p>
 
 
 
@@ -873,7 +873,7 @@ text-shadow: valeur1 valeur2 valeur3 couleur;
 
 
 
-<ul><li>valeur1 :&nbsp; mesure le décalage&nbsp; de l&rsquo;ombre horizontalement à droite en pixels</li><li>valeur2 : mesure le décalage&nbsp; de l&rsquo;ombre en bas verticalement en pixels</li><li>valeur3 : mesure l&rsquo;épaisseur de l&rsquo;ombre</li><li>couleur : couleur de l&rsquo;ombre</li></ul>
+<ul><li>valeur1 :&nbsp; mesure le décalage&nbsp; de l&#8217;ombre horizontalement à droite en pixels</li><li>valeur2 : mesure le décalage&nbsp; de l&#8217;ombre en bas verticalement en pixels</li><li>valeur3 : mesure l&#8217;épaisseur de l&#8217;ombre</li><li>couleur : couleur de l&#8217;ombre</li></ul>
 
 
 
@@ -887,7 +887,7 @@ text-shadow:7px 5px 3px black;
 
 
 
-<p>Ce qui affiche à l&rsquo;execution :</p>
+<p>Ce qui affiche à l&#8217;execution :</p>
 
 
 <div class="wp-block-image">
@@ -898,7 +898,7 @@ text-shadow:7px 5px 3px black;
 
 
 
-<p>Cette commande permet de modifier la casse d&rsquo;un texte elle a pour valeurs :</p>
+<p>Cette commande permet de modifier la casse d&#8217;un texte elle a pour valeurs :</p>
 
 
 
@@ -931,7 +931,7 @@ Voici un exemple de texte transformé en majuscule
 
 
 
-<p>Ce qui affiche à l&rsquo;exécution :</p>
+<p>Ce qui affiche à l&#8217;exécution :</p>
 
 
 <div class="wp-block-image">
@@ -962,11 +962,11 @@ Voici un exemple de texte transformé en majuscule
 
 					<description><![CDATA[1 &#8211; Sélecteur de balise &#38; syntaxe générale d&#8217;un code CSS Avant de de parler des propriétés d&#8217;un sélecteur,&#160; prenons un exemple simple : Exemple&#160;pour mettre les balise de titre &#60;h1&#62; en rouge on utilise le code&#160; : Ici dans cet exemple : &#8211;&#160;h1&#160;s&#8217;appelle le&#160;sélécteur&#160;de balise ( il sélectionne ici la balise titre&#160;h1)&#160;, &#8211;&#160;color&#160;designe ici&#160;&#160;la&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>1 &#8211; Sélecteur de balise &amp; syntaxe générale d&rsquo;un code CSS</h2>
+<h2>1 &#8211; Sélecteur de balise &amp; syntaxe générale d&#8217;un code CSS</h2>
 
 
 
-<p>Avant de de parler des propriétés d&rsquo;un sélecteur,&nbsp; prenons un exemple simple :</p>
+<p>Avant de de parler des propriétés d&#8217;un sélecteur,&nbsp; prenons un exemple simple :</p>
 
 
 
@@ -982,7 +982,7 @@ Voici un exemple de texte transformé en majuscule
 
 
 
-<p><strong>&#8211;&nbsp;h1</strong>&nbsp;s&rsquo;appelle le<strong>&nbsp;sélécteur</strong>&nbsp;de balise ( il sélectionne ici la balise titre&nbsp;<strong>h1</strong>)&nbsp;<strong>,</strong></p>
+<p><strong>&#8211;&nbsp;h1</strong>&nbsp;s&#8217;appelle le<strong>&nbsp;sélécteur</strong>&nbsp;de balise ( il sélectionne ici la balise titre&nbsp;<strong>h1</strong>)&nbsp;<strong>,</strong></p>
 
 
 
@@ -990,7 +990,7 @@ Voici un exemple de texte transformé en majuscule
 
 
 
-<p>à partir de cet exemple, on peut déduire la syntaxe générale d&rsquo;un code CSS :</p>
+<p>à partir de cet exemple, on peut déduire la syntaxe générale d&#8217;un code CSS :</p>
 
 
 
@@ -1044,7 +1044,7 @@ h1{color:red;
 
 
 
-<p>Et voici maintenant l&rsquo;aperçu de la page :</p>
+<p>Et voici maintenant l&#8217;aperçu de la page :</p>
 
 
 
@@ -1070,7 +1070,7 @@ h1{color:red;
 
 
 
-<p>Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web. CSS (Cascading Style Sheets : feuilles de style en cascade) est un langage qui consiste à regrouper dans un même document des caractéristiques de mise en forme associées à des groupes d&rsquo;éléments. Il suffit de définir par un nom un ensemble de définitions et de caractéristiques de mise en forme, et de l&rsquo;appeler pour l&rsquo;appliquer à un texte. Un codes css est inséré entre les balises &lt;head&gt; et &lt;/head&gt; tandis que son effet s&rsquo;applique à toute la page web en question.</p>
+<p>Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web. CSS (Cascading Style Sheets : feuilles de style en cascade) est un langage qui consiste à regrouper dans un même document des caractéristiques de mise en forme associées à des groupes d&#8217;éléments. Il suffit de définir par un nom un ensemble de définitions et de caractéristiques de mise en forme, et de l&#8217;appeler pour l&#8217;appliquer à un texte. Un codes css est inséré entre les balises &lt;head&gt; et &lt;/head&gt; tandis que son effet s&#8217;applique à toute la page web en question.</p>
 
 
 
@@ -1078,11 +1078,11 @@ h1{color:red;
 
 
 
-<h2>2 &#8211; Syntaxe générale d&rsquo;un code css</h2>
+<h2>2 &#8211; Syntaxe générale d&#8217;un code css</h2>
 
 
 
-<p>La syntaxe d&rsquo;un code css se declare de la manière suivante :</p>
+<p>La syntaxe d&#8217;un code css se declare de la manière suivante :</p>
 
 
 
@@ -1090,11 +1090,11 @@ h1{color:red;
 
 
 
-<p><strong>Le sélécteur :</strong>&nbsp;C&rsquo;est généralement l&rsquo;élément ou la balise html auquelle on veut appliquer le style.</p>
+<p><strong>Le sélécteur :</strong>&nbsp;C&#8217;est généralement l&#8217;élément ou la balise html auquelle on veut appliquer le style.</p>
 
 
 
-<p><strong>La propriété&nbsp; :</strong>&nbsp;est l&rsquo;attribut qu&rsquo;on souhaite modifier en introduisant une valeur.</p>
+<p><strong>La propriété&nbsp; :</strong>&nbsp;est l&#8217;attribut qu&#8217;on souhaite modifier en introduisant une valeur.</p>
 
 
 
@@ -1118,7 +1118,7 @@ h1{color:red;
 
 
 
-<p>Cette méthode encadre le code css entre les balises &lt;style&gt; et &lt;/style&gt; et l&rsquo;integre directement entre les balise &lt;head&gt; et &lt;/head&gt;</p>
+<p>Cette méthode encadre le code css entre les balises &lt;style&gt; et &lt;/style&gt; et l&#8217;integre directement entre les balise &lt;head&gt; et &lt;/head&gt;</p>
 
 
 
@@ -1126,7 +1126,7 @@ h1{color:red;
 
 
 
-<p>Cette méthode emagazine le code css dans un fichier dont l&rsquo;extension est .css par exemple style.css et introduit dans les pages html entre les balises&nbsp;<strong>&lt;head&gt; et &lt;/head&gt;</strong>&nbsp;un lien du type :</p>
+<p>Cette méthode emagazine le code css dans un fichier dont l&#8217;extension est .css par exemple style.css et introduit dans les pages html entre les balises&nbsp;<strong>&lt;head&gt; et &lt;/head&gt;</strong>&nbsp;un lien du type :</p>
 
 
 

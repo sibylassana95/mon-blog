@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/author/sibylassana95/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Tue, 21 Jun 2022 03:46:17 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 22 Jun 2022 17:39:40 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,1854 +20,1384 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
-		<title>Touches inversées : changer un clavier QWERTY en AZERTY sous Windows</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/touches-inversees-changer-un-clavier-qwerty-en-azerty-sous-windows/</link>
+		<title>Récupérer la valeur sélectionné d’un JComboBox – Java</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/recuperer-la-valeur-selectionne-dun-jcombobox-java/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 02:49:29 +0000</pubDate>
-				<category><![CDATA[Astuces ,Trucs]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=725</guid>
+		<pubDate>Wed, 22 Jun 2022 17:39:40 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=776</guid>
 
-					<description><![CDATA[Nous avons déjà parlé des r raccourcis clavier qui sont souvent très pratiques au quotidien que cela soit pour surfer sur le web ou pour travailler. Ils peuvent parfois aussi nous jouer des tours comme pour le raccourci clavier qui permet sous Windows de basculer son clavier de l’AZERTY en QWERTY.Mon fils en s’amusant sur le clavier de mon&#8230;]]></description>
+					<description><![CDATA[JComboBox fait partie du package Java Swing. JComboBox hérite de la classe JComponent. JComboBox affiche un menu contextuel sous forme d’une liste, qui permet à l’utilisateur de sélectionner une option dans cette liste spécifiée. JComboBox peut générer une interface ActionListener lorsque l’utilisateur sélectionne une option. Lors de la sélection d’une option, la méthode actionPerformed() de&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>Nous avons déjà parlé des <a rel="noreferrer noopener" href="https://www.astuces-aide-informatique.info/198/raccourcis-clavier" target="_blank">r</a> raccourcis clavier qui sont souvent très pratiques au quotidien que cela soit pour surfer sur le web ou pour travailler. Ils peuvent parfois aussi nous jouer des tours comme pour le raccourci clavier qui permet sous Windows de basculer son clavier de <strong>l’AZERTY</strong> en <strong>QWERTY</strong>.<br>Mon fils en s’amusant sur le clavier de mon ordinateur a ainsi réussi, sans le vouloir, à inverser la disposition du clavier :  en tapant la lettre <kbd>A</kbd>, par exemple, il s’affichait sur l’écran la lettre <kbd>Q</kbd>. Il venait, sans le savoir, de changer la langue du clavier par inadvertance en basculant le clavier AZERTY en clavier QWERTY, le clavier anglophone. Quelles sont donc les <strong>différences entre ces deux claviers</strong> ? Comment <strong>remettre mon clavier  en Azerty</strong> ?</p>
+<p>JComboBox fait partie du package Java Swing. JComboBox hérite de la classe JComponent. JComboBox affiche un menu contextuel sous forme d’une liste, qui permet à l’utilisateur de sélectionner une option dans cette liste spécifiée.</p>
 
 
 
-<h2>Différence entre le clavier AZERTY et le clavier QWERTY</h2>
+<p>JComboBox peut générer une interface ActionListener lorsque l’utilisateur sélectionne une option. Lors de la sélection d’une option, la méthode actionPerformed() de l’interface ActionListener est appelée et récupérera la valeur sélectionné du JComboBox à l’aide de la méthode getSelectedItem() de la classe JComboBox.</p>
 
 
 
-<span id="more-725"></span>
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-1 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;  
 
+public class Main extends JFrame
+{
+ public static void main(String[] argv)
+ {  
+   JFrame frame = new JFrame("frame"); 
+   frame.setLayout(new FlowLayout()); 
+  
+   String[] items = { "item1", "item2", "item3" };
+   JComboBox cb = new JComboBox(items);
 
+   cb.addActionListener(new ActionListener() {     
+     @Override
+     public void actionPerformed(ActionEvent e) {
+        System.out.println("Valeur: " + cb.getSelectedItem().toString());      
+     }
+   });
+  
+   frame.add(cb); 
+   frame.setSize(250, 250); 
+   frame.show();
+ }
+}</pre>
+</div></div>
+</div></div>
 
-<p><strong>La disposition des lettres du clavier change selon les pays</strong>&nbsp;: en France et en Belgique, le clavier est appelé&nbsp;<strong><em>AZERTY</em></strong>,&nbsp;<strong>du nom des six premières lettres de la rangée alphabétique supérieure du clavier</strong>. Il comprend bien sûr les accents et caractères spéciaux liés à la langue française<em>.</em></p>
 
 
-
-<p>Le clavier AZERTY est cependant loin d’être la norme dans le monde, de nombreux pays comme les États-Unis, l’Angleterre, l’Espagne ou encore l’Europe du Nord utilisent plutôt le clavier&nbsp;<strong><em>QWERTY</em></strong>, hérité de l’époque des machines à écrire. Les lettres étaient ainsi disposées pour limiter le blocage des tiges de la machine à écrire. Les claviers Qwerty sont par conséquent les plus utilisés dans le monde.</p>
-
-
-
-<p>On se retrouve vite perdu en utilisant un clavier où les lettres, chiffres et ponctuation ne sont pas disposées comme on en a l’habitude, même sur le meilleur ordinateur de bureau.</p>
-
-
-
-<p>Voici ci-dessous la disposition des touches des deux claviers. Vous verrez que les les touches ne sont disposées de la même façon :</p>
-
-
-
-<figure class="wp-block-image"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/disposition-clavier-qwerty-750x267.jpg" alt="La disposition des touches d'un clavier QWERTY" class="wp-image-14332"/></figure>
-
-
-
-<p>La disposition des touches d’un clavier QWERTY</p>
-
-
-
-<figure class="wp-block-image"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/disposition-clavier-azerty-750x254.jpg" alt="La disposition des touches d'un clavier AZERTY" class="wp-image-14331"/></figure>
-
-
-
-<p>La disposition des touches d’un clavier AZERTY</p>
-
-
-
-<h2>Changer un clavier QWERTY en AZERTY ou basculer son clavier de l’AZERTY en QWERTY sous Windows</h2>
-
-
-
-<p>Il existe  sous windows (Windows 11, Windows 10, Windows 8, Windows 7, Windows Vista etc…) une astuce toute simple qui permet de passer son clavier QWERTY en AZERTY et inversement, du clavier français ou clavier anglais.</p>
-
-
-
-<p>Pour changer la disposition des touches, il suffit pour basculer d’un clavier à un autre d’utiliser une des combinaisons de touches suivantes :</p>
-
-
-
-<ul><li><kbd>MAJ</kbd>&nbsp;+&nbsp;<kbd>ALT</kbd></li><li><kbd>MAJ</kbd>&nbsp;+&nbsp;<kbd>ALT Gr</kbd></li><li><kbd>ALT</kbd>&nbsp;+&nbsp;<kbd>MAJ</kbd></li></ul>
-
-
-
-<p><em>Remarque suite à un commentaire : la touche&nbsp;<kbd>MAJ</kbd>&nbsp;est la touche du clavier qui permet d’écrire en majuscule. Elle est souvent représentée par une flèche vers le haut et située juste au dessus de la touche&nbsp;<kbd>Ctrl</kbd>. Cette touche se nomme également&nbsp;<kbd>SHIFT</kbd>&nbsp;sur les claviers anglophones.</em></p>
-
-
-
-<p>Si aucune de ces combinaisons ne change le mode de clavier, il vous faudra vérifier les paramètres de langue de votre Windows en utilisant par exemple la  barre de langue sous Windows 10 (cliquer sur la barre de langue et choisir son clavier).</p>
-
-
-
-<p>Je sais que certain·e·s préfèrent regarder des tutoriels en&nbsp; vidéo, en voici qui vous explique en détails comment modifier la disposition des touches de son clavier pour passer facilement son clavier en Azerty ou en Qwerty :</p>
-
-
-
-<h2>Changer le clavier et la langue par défaut de Windows 10</h2>
-
-
-
-<p>Il est également possible de modifier la langue par défaut en allant dans le panneau de configuration de Windows via le options régionales : sous&nbsp;<strong>Windows 10</strong>, cliquez sur le&nbsp;<em><strong>menu Démarrer</strong></em>&nbsp;puis sur&nbsp;<em><strong>Paramètres&nbsp;</strong></em><img loading="lazy" src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/10/parametres-windows-10.png" alt="Paramètres Windows 10" width="27" height="24">&nbsp;puis&nbsp;<em><strong>Heure et Langue</strong></em>&nbsp;puis&nbsp;<em><strong>Région et langue</strong></em>. Sélectionnez ensuite la langue souhaitée dans la section&nbsp;<em><strong>Langue</strong>.</em>&nbsp;Si elle n’est pas présente dans la liste, cliquez sur&nbsp;<em><strong>Ajouter une langue</strong></em>.</p>
-
-
-
-<p>Pour modifier un clavier, sélectionnez la langue par défaut puis cliquez sur&nbsp;<strong><em>Options</em></strong>. Dans la section&nbsp;<strong><em>Claviers</em></strong>, sélectionnez le clavier que vous voulez utilisez, peu importe le type de clavier (clavier USB ou clavier Bluetooth). S’il n’est pas disponible, cliquez sur&nbsp;<em><strong>Ajouter un clavier</strong></em>&nbsp;et choisir la disposition du clavier,&nbsp;<strong><em>Azerty</em></strong>,&nbsp;<em><strong>Qwerty</strong>&nbsp;</em>ou un autre disposition de clavier “exotique”.</p>
-
-
-
-<figure class="wp-block-image" id="attachment_1576"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/heure-langue-windows10.png" alt="Paramètre Heure et Langue de Windows 10" class="wp-image-1576"/><figcaption>Paramètre Heure et Langue de Windows 10</figcaption></figure>
-
-
-
-<figure class="wp-block-image" id="attachment_1575"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/region-langue-windows-10.png" alt="Paramètre Région et Langue (Windows 10) : changer les options régionales et linguistiques pour le clavier" class="wp-image-1575"/><figcaption>Paramètre Région et Langue (Windows 10)</figcaption></figure>
-
-
-
-<figure class="wp-block-image" id="attachment_1574"><img src="https://www.astuces-aide-informatique.info/wp-content/uploads/2016/11/claviers-windows-10.png" alt="Sélection du clavier AZERTY à la place du QWERTY sous Windows 10 via les pzramètres." class="wp-image-1574"/><figcaption>Sélection du clavier AZERTY sous Windows 10 via les paramètres.</figcaption></figure>
-
-
-
-<p>Pour être complet, voici une vidéo qui vous expliquera en détail comment changer la langue de Windows :</p>
-
-
-
-<p>Dans le même genre d’astuce pratique liée au clavier d’ordinateur, sachez qu’il existe des raccourcis clavier pour mettre des accents sur les majuscules majuscules ou</p>
-
-
-
-<p>Dans le même genre d’astuce pratique liée au clavier d’ordinateur, sachez qu’il existe des raccourcis clavier pour mettre des accents sur les majuscules majuscules ou utiliser le clavier Emoji .Et bien sûr ce tutoriel est également valable pour Windows 11, la procédure n’a pas changé avec le dernier OS de Microsoft !</p>
-
-
-
-<p>  Et bien sûr ce tutoriel est également valable pour Windows 11, la procédure n’a pas changé avec le dernier OS de Microsoft !</p>
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-z5KT9zATk24/XsvrSJscBpI/AAAAAAAAJBE/T95g1kcsx7Uya5XkhLUvzYe5UnyLsZ1LQCNcBGAsYHQ/s1600/R%25C3%25A9cup%25C3%25A9rer-la-valeur-s%25C3%25A9lectionn%25C3%25A9-dun-JComboBox.gif" alt=""/></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Liste de toutes les commandes CMD pour Windows</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/liste-de-toutes-les-commandes-cmd-pour-windows/</link>
+		<title>Récupérer la valeur d’un JRadioButton – Swing Java</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/recuperer-la-valeur-dun-jradiobutton-swing-java/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 02:14:47 +0000</pubDate>
-				<category><![CDATA[Astuces ,Trucs]]></category>
-		<category><![CDATA[CMD]]></category>
-		<category><![CDATA[L’invite de command]]></category>
-		<category><![CDATA[windows]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=718</guid>
+		<pubDate>Wed, 22 Jun 2022 17:38:16 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=774</guid>
 
-					<description><![CDATA[L’invite de commande&#160;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&#160;liste des commandes les plus utilisées dans la fenêtre CMD&#160;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows. L’invite de commande est l’un des outils les&#8230;]]></description>
+					<description><![CDATA[Nous utilisons la classe JRadioButton pour créer un bouton radio. Le bouton radio est utilisé pour sélectionner une option parmi plusieurs options. Il est utilisé pour remplir des formulaires, des documents en ligne et des QCMs. Nous ajoutons des boutons radio dans un groupe afin de pouvoir sélectionner un seul bouton radio à la fois.&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/commandes-cmd-description.jpg?resize=677%2C470&amp;ssl=1" alt="Liste des commandes CMD les plus utilisés"/></figure>
-
-
-
-<p><strong>L’invite de commande</strong>&nbsp;Windows est non seulement utile, mais également un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd. Voici une&nbsp;<strong>liste des commandes les plus utilisées dans la fenêtre CMD</strong>&nbsp;ou les commandes d’invite que vous pouvez taper pour effectuer certaines tâches dans Windows.</p>
-
-
-
-<span id="more-718"></span>
-
-
-
-<p>L’invite de commande est l’un des outils les plus puissants de Windows, également connu sous le nom de CMD. CMD est l’interpréteur de ligne de commande sur les systèmes d’exploitation Windows. L’invite de commande interagit avec l’utilisateur via une interface de ligne de commande. Les choses n’étaient pas toujours comme ça; mais avec l’avènement des systèmes d’exploitation basés sur l’interface graphique, les gens ont commencé à se sentir que l’informatique par le biais d’outils basés sur les commandes était ennuyeuse.</p>
-
-
-
-<p>Cependant, l’invite de commande n’est pas inutile. En fait, cela peut être très utile. Cet article fournit d’excellents astuces, secrets et hacks qui vous feront réaliser que l’invite de commande de Windows est non seulement utile mais aussi un outil que vous devriez certainement respecter davantage en connaissant ces commandes de cmd.</p>
-
-
-
-<p>Pour ouvrir CMD, vous devez rechercher&nbsp;<strong>CMD</strong>&nbsp;dans la boîte de recherche ou vous pouvez simplement appuyer sur la touche&nbsp;<strong>Windows + R</strong>&nbsp;qui finira par ouvrir la fenêtre&nbsp;<strong>Exécuter</strong>, où vous devez taper CMD et appuyer sur&nbsp;<strong>Entrée</strong>.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/04/cmd.jpg?resize=491%2C410&amp;ssl=1" alt="cmd" class="wp-image-2615"/></figure></div>
-
-
-<p>1. Contrôles d’accessibilité – access.cpl</p>
-
-
-
-<p>2. Assistant d’accessibilité – accwiz</p>
-
-
-
-<p>3. Ajouter un assistant matériel – hdwwiz.cpl</p>
-
-
-
-<p>4. Ajouter / Supprimer des programmes – appwiz.cpl</p>
-
-
-
-<p>5. Outils d’administration – control admintools</p>
-
-
-
-<p>6. Mises à jour automatiques – wuaucpl.cpl</p>
-
-
-
-<p>7. Assistant de transfert Bluetooth – fsquirt</p>
-
-
-
-<p>8. Calculatrice – calc</p>
-
-
-
-<p>9. Gestionnaire de certificats – certmgr.msc</p>
-
-
-
-<p>10. Carte de caractère – charmap</p>
-
-
-
-<p>11. Vérifiez l’utilitaire de disque – chkdsk</p>
-
-
-
-<p>12. Clipboard Viewer – clipbrd</p>
-
-
-
-<p>13. Invite de commandes – cmd</p>
-
-
-
-<p>14. Services de composants – dcomcnfg</p>
-
-
-
-<p>15. Gestion de l’ordinateur – compmgmt.msc</p>
-
-
-
-<p>16. Panneau de contrôle – control</p>
-
-
-
-<p>17. Propriétés de date et d’heure – timedate.cpl</p>
-
-
-
-<p>18. Actions DDE – ddeshare</p>
-
-
-
-<p>19. Gestionnaire de périphériques – devmgmt.msc</p>
-
-
-
-<p>20. Dépanneur Direct X – dxdiag</p>
-
-
-
-<p>21. Utilitaire de nettoyage de disque – cleanmgr</p>
-
-
-
-<p>22. Défragmenter le disque – dfrg.msc</p>
-
-
-
-<p>23. Gestion des disques – diskmgmt.msc</p>
-
-
-
-<p>24. Gestionnaire de partition de disque – diskpart</p>
-
-
-
-<p>25. Propriétés d’affichage – control desktop</p>
-
-
-
-<p>26. Propriétés d’affichage – desk.cpl</p>
-
-
-
-<p>27. Dr. Watson Utilitaire de dépannage du système – drwtsn32</p>
-
-
-
-<p>28. Utilitaire vérificateur de pilotes – verifier</p>
-
-
-
-<p>29. Observateur d’événements – eventvwr.msc</p>
-
-
-
-<p>30. Outil de transfert de fichiers et de paramètres – migwiz</p>
-
-
-
-<p>31. Outil de vérification de signature de fichier – sigverif</p>
-
-
-
-<p>32. Findfast – findfast.cpl</p>
-
-
-
-<p>33. Firefox – Firefox</p>
-
-
-
-<p>34. Propriétés des dossiers – control folders</p>
-
-
-
-<p>35. Polices – control fonts</p>
-
-
-
-<p>36. Dossier des Fonts – fonts</p>
-
-
-
-<p>37. Jeu de cartes gratuit – freecell</p>
-
-
-
-<p>38. Contrôleurs de jeu – joy.cpl</p>
-
-
-
-<p>39. Éditeur de stratégie de groupe (pour xp professional) – gpedit.msc</p>
-
-
-
-<p>40. Jeu de cartes coeurs – mshearts</p>
-
-
-
-<p>41. Aide et support – helpctr</p>
-
-
-
-<p>42. HyperTerminal – hypertrm</p>
-
-
-
-<p>43. Assistant Iexpress – iexpress</p>
-
-
-
-<p>44. Service d’indexation – ciadv.msc</p>
-
-
-
-<p>45. Assistant de connexion Internet – icwconn1</p>
-
-
-
-<p>46. ​​Internet Explorer – iexplore</p>
-
-
-
-<p>47. Propriétés Internet – inetcpl.cpl</p>
-
-
-
-<p>48. Propriétés du clavier – control keyboard</p>
-
-
-
-<p>49. Paramètres de sécurité locaux – secpol.msc</p>
-
-
-
-<p>50. Utilisateurs et groupes locaux – lusrmgr.msc</p>
-
-
-
-<p>51. Se déconnecter à Windows – logoff</p>
-
-
-
-<p>52. Outil de suppression de logiciels malveillants – mrt</p>
-
-
-
-<p>53. Microsoft Chat – winchat</p>
-
-
-
-<p>54. Microsoft Movie Maker – MovieMaker</p>
-
-
-
-<p>55. Microsoft Paint – mspaint</p>
-
-
-
-<p>56. Microsoft Syncronization Tool – mobsync</p>
-
-
-
-<p>57. Jeu de dragueur de mines – winmine</p>
-
-
-
-<p>58. Propriétés de la souris – control mouse</p>
-
-
-
-<p>59. Propriétés de la souris – main.cpl</p>
-
-
-
-<p>60. Netmeeting – conf</p>
-
-
-
-<p>61. Connexions réseau – control netconnections</p>
-
-
-
-<p>62. Connexions réseau – ncpa.cpl</p>
-
-
-
-<p>63. Assistant de configuration réseau – netsetup.cpl</p>
-
-
-
-<p>64. Bloc-notes – bloc-notes</p>
-
-
-
-<p>65. Object Packager – packager</p>
-
-
-
-<p>66. Administrateur de sources de données ODBC – odbccp32.cpl</p>
-
-
-
-<p>67. Clavier sur écran – osk</p>
-
-
-
-<p>68. Outlook Express – msimn</p>
-
-
-
-<p>69. Peinture – pbrush</p>
-
-
-
-<p>70. Propriétés du mot de passe – password.cpl</p>
-
-
-
-<p>71. Analyseur de performances – perfmon.msc</p>
-
-
-
-<p>72. Analyseur de performances – perfmon</p>
-
-
-
-<p>73. Options de téléphonie et modem – telephon.cpl</p>
-
-
-
-<p>74. Numéroteur téléphonique – dialer</p>
-
-
-
-<p>75. Jeu de flipper – flipper</p>
-
-
-
-<p>76. Configuration de l’alimentation – powercfg.cpl</p>
-
-
-
-<p>77. Imprimantes et télécopieurs – control printer</p>
-
-
-
-<p>78. Imprimantes – printers</p>
-
-
-
-<p>79. Paramètres régionaux – intl.cpl</p>
-
-
-
-<p>80. Éditeur du Registre – regedit</p>
-
-
-
-<p>81. Éditeur du Registre – regedit32</p>
-
-
-
-<p>82. Répertoire d’accès à distance – rasphone</p>
-
-
-
-<p>83. Bureau à distance – mstsc</p>
-
-
-
-<p>84. Stockage amovible – ntmsmgr.msc</p>
-
-
-
-<p>85. Demandes d’opérateur de stockage amovible – ntmsoprq.msc</p>
-
-
-
-<p>86. Jeu de stratégie résultant (pour xp professional) – rsop.msc</p>
-
-
-
-<p>87. Scanneurs et appareils photo – sticpl.cpl</p>
+<p>Nous utilisons la classe JRadioButton pour créer un bouton radio. Le bouton radio est utilisé pour sélectionner une option parmi plusieurs options. Il est utilisé pour remplir des formulaires, des documents en ligne et des QCMs.</p>
+
+
+
+<p>Nous ajoutons des boutons radio dans un groupe afin de pouvoir sélectionner un seul bouton radio à la fois. Nous utilisons la classe « ButtonGroup » pour créer un groupe de boutons et ajouter un bouton radio dans un groupe.</p>
+
+
+
+<p>JRadioButton peut générer une interface ActionListener. Lorsque nous cliquons sur le bouton radio, la méthode actionPerformed() est appelée.</p>
+
+
+
+<p>Utilisez ButtonGroup.getSelection().getActionCommand() pour obtenir la valeur sélectionné par l’utilisateur.</p>
+
+
+
+<p>Dans ce tutoriel nous allons découvrir comment récupérer la valeur d’un JRadioButton en Java.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-2 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+ 
+public class RadioButtonValue extends JFrame implements ActionListener 
+{  
+   private ButtonGroup group;
+
+   private static void init() 
+   {
+      //créer un frame
+      JFrame frame = new RadioButtonValue();
+ 
+      //Affichez le frame.
+      frame.pack();
+      frame.setVisible(true);
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   }
+ 
+   public static void main(String[] args) {
+      //créer et afficher l'interface graphique
+      javax.swing.SwingUtilities.invokeLater(new Runnable() {
+         public void run() {
+            init();
+         }
+      });
+   }
+   
+   public RadioButtonValue() 
+   {
+      // définir la disposition du flux pour le frame
+      this.getContentPane().setLayout(new FlowLayout());
+ 
+      JRadioButton bleu = new JRadioButton("Bleu");
+      bleu.setActionCommand("Bleu");
+ 
+      JRadioButton rouge = new JRadioButton("Rouge");
+      rouge.setActionCommand("Rouge");
+ 
+      JRadioButton vert = new JRadioButton("Vert");
+      vert.setActionCommand("Vert");
+    
+      bleu.setSelected(true);
+    
+      JButton btn = new JButton("Cliquez ici");
+      btn.addActionListener(this);
+      group = new ButtonGroup();
+ 
+      //ajouter des boutons radio
+      group.add(bleu);
+      group.add(rouge);
+      group.add(vert);
+ 
+      add(bleu);
+      add(rouge);
+      add(vert);
+      add(btn);
+   }
+ 
+   @Override
+   public void actionPerformed(ActionEvent e) {
+      if (e.getActionCommand().equals("Cliquez ici")) {
+         System.out.println("Le radio bouton sélectionné est: " + 
+                  group.getSelection().getActionCommand());
+      }
+   }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-zJ6cYMeFT5k/Xs0j01mIEjI/AAAAAAAAJBk/p9a2wUc58XggZ_32KrdWpSqEVLYjssSOQCNcBGAsYHQ/s1600/r%25C3%25A9cup%25C3%25A9rer-la-valeur-JRadioButton-swing-java.gif" alt=""/></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Tutoriel shell Linux</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/tutoriel-shell-linux/</link>
+		<title>Afficher une image dans un JFrame , dans une interface et en arrière-plan</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/afficher-une-image-dans-un-jframe-dans-une-interface-et-en-arriere-plan/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 02:10:11 +0000</pubDate>
-				<category><![CDATA[Astuces ,Trucs]]></category>
-		<category><![CDATA[cd]]></category>
-		<category><![CDATA[ligne commande]]></category>
-		<category><![CDATA[linux]]></category>
-		<category><![CDATA[ls]]></category>
-		<category><![CDATA[mkdir]]></category>
-		<category><![CDATA[mv]]></category>
-		<category><![CDATA[pwd]]></category>
-		<category><![CDATA[shell linux]]></category>
-		<category><![CDATA[ubuntu]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=716</guid>
+		<pubDate>Wed, 22 Jun 2022 17:36:31 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=772</guid>
 
-					<description><![CDATA[À propos du Shell Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le&#8230;]]></description>
+					<description><![CDATA[Dans ce tutoriel nous allons découvrir comment afficher une image dans un JFrame. Si vous utilisez JFrame, vous travaillez probablement avec Swing. Dans l’exemple suivant nous avons utiliser cette image, vous pouvez la télécharger dans votre projet. Exemple: Ajouter une image dans une interface java Comment afficher une image en arrière-plan d’un composant Swing? En&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/tutoriel-shell-linux.jpg?resize=743%2C415&amp;ssl=1" alt="Tutoriel Shell Linux"/></figure>
+<p>Dans ce tutoriel nous allons découvrir comment afficher une image dans un JFrame. Si vous utilisez JFrame, vous travaillez probablement avec Swing.</p>
 
 
 
-<h2 id="apropos">À propos du Shell</h2>
+<p>Dans l’exemple suivant nous avons utiliser cette image, vous pouvez la télécharger dans votre projet.</p>
 
 
 
-<p>Le Shell de ligne de commande est une interface utilisateur textuelle pour votre système d’exploitation. Contrairement à un shell GUI, qui utilise une représentation graphique des services et des ressources du système, le shell de ligne de commande utilise uniquement du texte. Il s’agit de l’interface fondamentale entre vous et le système d’exploitation et, dans de nombreux cas, vous offre un contrôle plus direct sur les processus du système.</p>
+<p>Exemple:</p>
 
 
 
-<span id="more-716"></span>
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-3 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
 
+public class ImageJFrame
+{
+  ImageJFrame() 
+  {
+    JFrame f = new JFrame("Ajouter une image dans JFrame");
+    ImageIcon icon = new ImageIcon("test.png");
+    f.add(new JLabel(icon));
+    f.pack();
+    f.setVisible(true);
+  }
+  public static void main(String args[]) 
+  {
+    new ImageJFrame();
+  }
+}</pre>
+</div></div>
+</div></div>
 
 
-<h2 id="aquoi">À quoi sert le Shell?</h2>
 
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-NdfWD8_5yRI/XsSy0Eaj82I/AAAAAAAAI6g/YXI-TlNbat8bZKmJ-4nvwIJQ7Dc2niGWwCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
 
 
-<p>Quand il s’agit de communiquer avec votre système d’exploitation, tout ce que vous pouvez faire avec une interface graphique peut être fait sur la ligne de commande. Par exemple, prenons quelque chose que vous devez faire tout le temps; déplacer des fichiers dans votre système de fichiers. À l’aide d’une interface graphique, vous pouvez sélectionner les icônes représentant vos fichiers, les faire glisser dans un autre dossier et les déposer pour les déplacer.</p>
 
+<h2>Ajouter une image dans une interface java</h2>
 
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/drag-and-drop.jpg?resize=690%2C540&amp;ssl=1" alt="Tutoriel Linux -glisser déposer" class="wp-image-2951"/></figure></div>
 
 
-<p>Cependant, en utilisant la ligne de commande, cette opération peut être effectuée en utilisant une seule commande:</p>
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-4 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import java.awt.*;
+import javax.swing.*;
+import java.io.*;
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
 
 
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv.jpg?resize=570%2C174&amp;ssl=1" alt="Shell, commande mv" class="wp-image-2954"/></figure></div>
+public class ImagePanel 
+{
+ ImagePanel() 
+ {
+  try 
+  {
+   JFrame f = new JFrame("Ajouter une image dans JPanel");
+   JPanel panel = new JPanel();
+   panel.setBounds(50, 50, 250, 250);
 
+   BufferedImage img = ImageIO.read(new File("test.png"));
+   JLabel pic = new JLabel(new ImageIcon(img));
+   panel.add(pic);
 
-<p>La ligne de commande, une fois que vous vous y êtes habitué, vous permet de contrôler votre système avec plus d’efficacité et de précision qu’avec une interface graphique.</p>
+   f.add(panel);
+   f.setSize(400, 400);
+   f.setLayout(null);
+   f.setVisible(true);
+  } 
+  catch (IOException e) {}
+ }
+ public static void main(String args[]) 
+ {
+  new ImagePanel();
+ }
+}</pre>
+</div></div>
+</div></div>
 
 
 
-<h2 id="pourquoi">Pourquoi s’appelle-t-il «&nbsp;Shell&nbsp;»?</h2>
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-RJ4roDZtGiY/Xq6uOmKaoAI/AAAAAAAAIqA/qOV3sMdvnH8CsTq8sdVnQybX1ynZi6wcQCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
 
 
 
-<p>L’interface utilisateur est appelée «&nbsp;shell&nbsp;» car c’est la couche externe qui vous sépare des parties les plus profondes du système d’exploitation, appelée noyau. Techniquement, l’interface graphique de votre système d’exploitation est également un «&nbsp;shell&nbsp;», mais la ligne de commande est souvent appelée «&nbsp;le shell&nbsp;».</p>
+<h2>Comment afficher une image en arrière-plan d’un composant Swing?</h2>
 
 
 
-<h2 id="lignecommande">Comment accéder à la ligne de commande de Shell ?</h2>
+<p>En effet il n’existe pas de concept « Image en arrière-plan » dans un JPanel, il faudrait écrire sa propre façon de mettre en œuvre une telle fonctionnalité.</p>
 
 
 
-<p>La manière la plus courante d’accéder au shell de ligne de commande consiste à utiliser un émulateur de terminal.</p>
+<p>Une façon d’y parvenir consiste à redéfinir la méthode paintComponent() pour dessiner une image d’arrière-plan à chaque fois que le JPanel est actualisé.</p>
 
 
 
-<p>Si vous utilisez une distribution Linux moderne, il y a des chances qu’elle démarre dans le système X-Windows , ce qui vous permet d’exécuter des programmes dans leurs propres fenêtres et d’interagir avec eux avec la souris. Il existe différentes manières de lancer un émulateur de terminal, mais voici les plus courantes:</p>
+<p>Vous devrez définir le comportement du composant, vous assurer qu’il n’est pas opaque et redéfinir la méthode paintComponent() de sorte que l’image soit dessinée avant l’appel de la méthode paintComponent() de la superclasse.</p>
 
 
 
-<p>De nombreuses distributions Linux utilisent un environnement de bureau similaire à Microsoft Windows, avec un «&nbsp;menu Démarrer&nbsp;». Dans ce menu, votre application de terminal se trouve généralement sous «&nbsp;Accessoires&nbsp;». Par exemple, Lubuntu est livré avec l’émulateur de terminal déjà installé et le raccourci se trouve dans le menu Accessoires.</p>
+<p>Dans l’exemple suivant nous avons utiliser cette image, vous pouvez la télécharger dans votre projet.</p>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ubuntu-startmenu.jpg?resize=452%2C306&amp;ssl=1" alt="Shell Ubuntu Startmenu" class="wp-image-2955"/></figure></div>
 
+<p>Exemple:</p>
 
-<p>La sélection de l’élément de menu du terminal lance l’émulateur et vous place sur une ligne de commande.</p>
 
 
+<div class="wp-block-cover is-light" style="min-height:902px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-5 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
 
-<p>Différentes versions de Linux utilisent différents types de gestionnaires de fenêtres, chacun avec une interface légèrement différente. Avec de nombreux gestionnaires de fenêtres, un clic droit sur le bureau affiche un menu contenant une option de terminal. Par exemple, le menu contextuel de Crunchbang Linux comporte une option «&nbsp;Terminal&nbsp;». Voici à quoi ressemble ce menu, après un clic droit n’importe où sur le bureau.</p>
+public class ImageBackground 
+{
+  public static void main(String args[]) 
+  {
+    JFrame frame = new JFrame("Afficher une image en arrière-plan");
+    final ImageIcon icon = new ImageIcon("background.png");
+    JTextArea text = new JTextArea() 
+    {
+      Image img = icon.getImage();
+      // initialiseur d'instance
+      {setOpaque(false);}
+      public void paintComponent(Graphics graphics) 
+      {
+        graphics.drawImage(img, 0, 0, this);
+        super.paintComponent(graphics);
+      }
+    };
+    JScrollPane pane = new JScrollPane(text);
+    Container content = frame.getContentPane();
+    content.add(pane, BorderLayout.CENTER);
+    frame.setDefaultCloseOperation(3);
+    frame.setSize(400, 300);
+    frame.setVisible(true);
+  }
+}</pre>
+</div></div>
+</div></div>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-crunchbang-menu.jpg?resize=390%2C432&amp;ssl=1" alt="Shell menu" class="wp-image-2956"/></figure></div>
 
-
-<p>Ici, le menu Accessoires aurait également une option pour exécuter le terminal.<br>Sur de nombreuses versions de Linux, le raccourci clavier par défaut pour lancer un terminal consiste à appuyer simultanément sur la touche&nbsp;<strong>Super</strong>&nbsp;et sur la touche «&nbsp;<strong>T</strong>«&nbsp;. (La Super clé est généralement la première clé à gauche de la barre d’espace, également appelée&nbsp;<strong>clé Windows</strong>).</p>
-
-
-
-<p>Si vous ne savez pas comment lancer votre émulateur de terminal, consultez la documentation de votre système d’exploitation spécifique et recherchez «terminal».</p>
-
-
-
-<h2 id="invitecommande">L’invite de commande</h2>
-
-
-
-<p>Lorsque vous lancez l’émulateur de terminal, une invite de commande s’affiche.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-invite-commande.jpg?resize=636%2C143&amp;ssl=1" alt="shell invite commande" class="wp-image-2957"/></figure></div>
-
-
-<p><strong>Remarque</strong>&nbsp;: Ces exemples sont tous exécutés à l’aide du shell Bourne-Again (bash), qui est le shell de ligne de commande par défaut sous Linux.</p>
-
-
-
-<p>Regardons cette invite de commande de près. L’invite peut être configurée pour être ce que vous voulez, mais par défaut, elle ressemble à ce que nous voyons ici, nous fournissant des informations utiles avant de saisir une commande.</p>
-
-
-
-<p>Plus précisément, il nous indique qui nous sommes (nom d’utilisateur) et où nous sommes (quel système nous utilisons et notre répertoire de travail).</p>
-
-
-
-<h2 id="saisie">Saisie de commandes</h2>
-
-
-
-<p>Entrons notre première commande. Nous devrions commencer par lister les fichiers dans notre répertoire personnel. Le moyen le plus simple de voir tous ces fichiers est d’utiliser la commande&nbsp;<strong>ls;</strong>&nbsp;tapez&nbsp;<strong>ls</strong>&nbsp;à l’invite de commande et appuyez sur Entrée.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls.jpg?resize=633%2C143&amp;ssl=1" alt="Shell saisir commandes" class="wp-image-2959"/></figure></div>
-
-
-<p>Comme indiqué ci-dessus, la commande ls répertorie le contenu du répertoire et nous place à une autre invite de commandes.</p>
-
-
-
-<p><strong>Remarque</strong>&nbsp;: Toutes les commandes et noms de fichiers sous Unix et Linux sont sensibles à la casse. La commande ls, par exemple, doit être saisie en lettres minuscules, comme ci-dessus.</p>
-
-
-
-<p>Pour une liste plus détaillée du contenu du répertoire, nous pouvons spécifier des options de ligne de commande, également appelées commutateurs. Ce sont des arguments supplémentaires à la commande qui modifient son fonctionnement. Ici, nous utiliserons l’option -l (utiliser le format longue liste) pour obtenir plus d’informations de notre liste:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-plus-de-commandes-l.jpg?resize=631%2C288&amp;ssl=1" alt="Shell plus de commandes" class="wp-image-2960"/></figure></div>
-
-
-<p>Comme indiqué ci-dessus, la commande ls -l nous fournit beaucoup plus d’informations sur le contenu de notre répertoire personnel. Pour le moment, les informations les plus importantes à noter sont que la première lettre des listes est un d, ce qui signifie que chacun de ces contenus de répertoire est lui-même un répertoire.</p>
-
-
-
-<h2 id="effacer">Effacer l’écran</h2>
-
-
-
-<p>Avant de faire quoi que ce soit d’autre, effacez l’écran pour supprimer l’encombrement produit par la sortie de nos commandes précédentes. Utilisez la commande&nbsp;<strong>clear</strong>&nbsp;en tapant clear à une nouvelle invite de commande et appuyez sur&nbsp;<strong>Entrée</strong>.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-rm-remove.jpg?resize=633%2C269&amp;ssl=1" alt="Shell commande rm remove" class="wp-image-2961"/></figure></div>
-
-
-<p>Après avoir appuyé sur Entrée, l’écran s’efface et vous place à une nouvelle invite de commandes en haut de l’écran de votre terminal.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-terminal.jpg?resize=633%2C140&amp;ssl=1" alt="Shell terminal" class="wp-image-2962"/></figure></div>
-
-
-<h2 id="changer">Changer de répertoire</h2>
-
-
-
-<p>Passons dans notre dossier de documents en utilisant la commande <strong>cd</strong> (« <strong>change directory</strong>« ). Pour modifier le répertoire en cours, tapez « cd » puis un espace, puis le nom du répertoire dans lequel vous souhaitez changer, puis appuyez sur Entrée.<a rel="noreferrer noopener" href="https://astuces-informatique.com/quel-difference-entre-linux-et-unix/" target="_blank"></a></p>
-
-
-
-<p>La commande cd suppose que le nom de tout répertoire que vous spécifiez est relatif à votre répertoire actuel. Par conséquent, pour changer dans le répertoire de documents, qui existe dans notre répertoire actuel, tapez «&nbsp;cd documents&nbsp;».</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-commande-cd.jpg?resize=629%2C97&amp;ssl=1" alt="Shell commande cd" class="wp-image-2963"/></figure></div>
-
-
-<p>L’invite de commande reflète désormais le nouveau répertoire de travail: ~ / documents, ce qui équivaut au chemin d’accès complet: /&nbsp;<strong>home / yourname / documents</strong>. Quel que soit l’utilisateur avec lequel vous êtes connecté, «&nbsp;~&nbsp;» représente toujours votre répertoire personnel. Dans l’exemple, le nouveau répertoire de travail est également visible dans la barre de titre de notre fenêtre de terminal.</p>
-
-
-
-<p><strong>Remarque</strong>&nbsp;: Contrairement à MS-DOS et à Microsoft Windows, les noms de répertoires hiérarchiques sous Linux sont séparés par une barre oblique («&nbsp;<strong>/</strong>«&nbsp;) plutôt que par une barre oblique inverse («&nbsp;<strong>\</strong>«&nbsp;). Ce changement de symboles est une différence fondamentale entre ces différents systèmes d’exploitation.</p>
-
-
-
-<p>A tout moment, vous pouvez vérifier votre répertoire actuel en utilisant la commande&nbsp;<strong>pwd&nbsp;</strong>(«&nbsp;print working directory&nbsp;»).</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-pwd.jpg?resize=626%2C115&amp;ssl=1" alt="Shell pwd" class="wp-image-2964"/></figure></div>
-
-
-<p>La commande imprime le nom du répertoire en cours sur le terminal, dans ce cas «&nbsp;<strong>/ home / votrenom / documents</strong>«&nbsp;. Encore une fois, avec «&nbsp;<strong>~ / documents</strong>&nbsp;» le «&nbsp;<strong>~</strong>&nbsp;» représente notre répertoire personnel, qui est&nbsp;<strong>/ home / yourname</strong>. Donc, si nous sommes dans notre répertoire personnel, taper «&nbsp;cd documents&nbsp;», «&nbsp;cd&nbsp;<strong>/ home / votrenom /</strong>&nbsp;documents&nbsp;» ou «&nbsp;<strong>cd ~ / documents</strong>&nbsp;» nous placerait tous dans le même répertoire.</p>
-
-
-
-<p>Maintenant, montons d’un répertoire dans notre répertoire personnel. Le nom de répertoire spécial «&nbsp;<strong>..</strong>&nbsp;» (le double point) signifie «&nbsp;un répertoire&nbsp;».</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-2-points.jpg?resize=630%2C116&amp;ssl=1" alt="Shell cd.." class="wp-image-2965"/></figure></div>
-
-
-<p>Nous sommes maintenant de retour dans notre répertoire personnel.</p>
-
-
-
-<p><strong>Note</strong>&nbsp;: Si vous êtes plus familier avec MS-DOS, gardez à l’esprit qu’il doit y avoir un espace entre cd et les deux points.</p>
-
-
-
-<h2 id="deplacement">Déplacement de fichiers</h2>
-
-
-
-<p>Maintenant, familiarisons-vous avec le déplacement des fichiers.</p>
-
-
-
-<p>Disons que nous venons de télécharger deux images avec un navigateur Web, et ils ont enregistré dans notre&nbsp;<strong>dossier de téléchargements</strong>. Allons là-bas et jetons un coup d’oeil. Tout d’abord, nous changeons de répertoire dans le répertoire de téléchargements.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-downloads.jpg?resize=632%2C82&amp;ssl=1" alt="Shell cd downloads" class="wp-image-2966"/></figure></div>
-
-
-<p>Puis listez les fichiers du répertoire avec la commande ls.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-downloads.jpg?resize=623%2C107&amp;ssl=1" alt="Shell ls downloads" class="wp-image-2967"/></figure></div>
-
-
-<p>Nous voyons ici deux fichiers JPEG. Sortons-les du dossier des téléchargements et placez-les à un endroit plus approprié, comme le dossier images. Pour déplacer ces fichiers, nous utiliserons la commande mv («&nbsp;move&nbsp;»).</p>
-
-
-
-<p>La commande mv prend la forme générale suivante:</p>
-
-
-
-<blockquote class="wp-block-quote"><p>mv [OPTIONS …] DESTINATION SOURCE</p></blockquote>
-
-
-
-<p><strong>OPTIONS</strong>&nbsp;est entre crochets car vous n’êtes pas obligé de spécifier des options pour terminer la commande. Les arguments SOURCE et DESTINATION sont tous deux requis.</p>
-
-
-
-<p><strong>SOURCE</strong>&nbsp;est le nom du ou des fichiers que vous souhaitez déplacer. DESTINATION est l’endroit où vous souhaitez les déplacer. Si DESTINATION est un nom de répertoire, le ou les fichiers sont déplacés dans ce répertoire.</p>
-
-
-
-<p>Nous sommes actuellement dans le répertoire&nbsp;<strong>/ home / votrenom / downloads</strong>&nbsp;et nous souhaitons déplacer les fichiers dans&nbsp;<strong>/ home / votrenom / images</strong>. Nous pourrions spécifier notre DESTINATION en utilisant le chemin complet («&nbsp;<strong>/ home / yourname / images</strong>«&nbsp;), ou en tant que chemin relatif à notre répertoire actuel («&nbsp;<strong>../images</strong>«&nbsp;), ou en utilisant un tilde comme abréviation pour notre répertoire personnel ( «&nbsp;<strong>~ / images</strong>«&nbsp;). Tous ces éléments sont équivalents et donnent le même résultat. Utilisons le chemin relatif de notre DESTINATION:&nbsp;<strong>../images</strong>.</p>
-
-
-
-<p>Alors, comment allons-nous spécifier notre SOURCE?</p>
-
-
-
-<p>Nous voulons déplacer les deux fichiers, et ils sont les seuls fichiers du répertoire. Donc, le moyen le plus simple de les spécifier serait de dire à&nbsp;<strong>mv</strong>&nbsp;«&nbsp;déplacer tous les fichiers de ce répertoire dans ../images&nbsp;».</p>
-
-
-
-<p>Un caractère générique est un caractère spécial qui peut représenter plus d’un nom de fichier (ou plus d’une partie du nom de fichier). Ici, nous allons utiliser le caractère générique astérisque («&nbsp;*&nbsp;»). Si nous utilisons * comme nom de fichier complet, le shell applique notre commande à chaque fichier de notre répertoire de travail.</p>
-
-
-
-<p>Donc, notre commande se lira comme suit: « <strong>mv * ../images</strong>« . Entrons le maintenant.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-star.jpg?w=628&amp;ssl=1" alt=""/></figure>
-
-
-
-<p>On dirait que rien ne s’est passé, mais c’est la façon dont le shell nous dit qu’aucune erreur ne s’est produite. En cas de problème, il afficherait un message d’erreur ou un avertissement quelconque.</p>
-
-
-
-<p>Vérifions que les fichiers ont été déplacés. Nous pouvons répertorier le contenu d’un autre répertoire en exécutant ls et en spécifiant un chemin d’accès. Dans ce cas, notre chemin est «&nbsp;<strong>../images</strong>«&nbsp;:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-dotdot-images.jpg?resize=634%2C53&amp;ssl=1" alt="Shell ..images" class="wp-image-2969"/></figure></div>
-
-
-<p>Les images sont à la fois là, avec un autre répertoire qui existait déjà («&nbsp;wallpapers&nbsp;»). Nous devrions créer un nouveau répertoire pour mieux organiser nos images et éviter que le répertoire principal des images ne soit encombré. Faisons cela maintenant.</p>
-
-
-
-<h2 id="mkdir">Créer des répertoires</h2>
-
-
-
-<p>Changeons dans le répertoire images où résident nos deux images pingouin.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cd-dotdot-images.jpg?resize=619%2C45&amp;ssl=1" alt="Shell CD ../images" class="wp-image-2970"/></figure></div>
-
-
-<p>Faisons maintenant un nouveau répertoire pour nos images pingouin. La création de nouveaux répertoires est effectuée avec la commande&nbsp;<strong>mkdir</strong>.</p>
-
-
-
-<p>La forme la plus simple de la commande&nbsp;<strong>mkdir</strong>&nbsp;est de lui donner un argument: le nom du nouveau répertoire. Nous aimerions créer un nouveau répertoire dans notre répertoire courant, nous n’avons donc pas à attribuer à mkdir un chemin complet, juste le nom du répertoire lui-même. Appelons notre nouveau répertoire pingouin-pix.</p>
-
-
-
-<p>Donc, la commande que nous allons entrer est «&nbsp;<strong>mkdir penguin-pix</strong>&nbsp;» pour créer un nouveau répertoire.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir.jpg?resize=623%2C45&amp;ssl=1" alt="Shell mkdir" class="wp-image-2971"/></figure></div>
-
-
-<p>Maintenant, vérifions que c’est là, en listant le contenu du répertoire:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-verifier-repertoire.jpg?resize=624%2C63&amp;ssl=1" alt="Shell vérifier répertoire" class="wp-image-2972"/></figure></div>
-
-
-<p>Liste des fichiers dans le répertoire images en utilisant la commande&nbsp;<strong>ls</strong></p>
-
-
-
-<p><strong>Remarque</strong>&nbsp;: Vous pouvez voir que lorsque nous listons le contenu du répertoire, les noms de fichiers et les noms de répertoires sont de couleurs différentes pour vous aider à identifier les différents fichiers et répertoires. Bien que la mise en évidence des couleurs soit commune à la plupart des shells, tous les shells ne le font pas par défaut.</p>
-
-
-
-<p>Si nous ne pouvions pas dire par la couleur des noms, nous pourrions toujours vérifier lesquels de ces fichiers sont des répertoires en appelant&nbsp;<strong>ls</strong>&nbsp;avec l’option&nbsp;<strong>-l</strong>&nbsp;(longue liste).</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-images-long-list.jpg?resize=630%2C124&amp;ssl=1" alt="Shell ls longue liste" class="wp-image-2973"/></figure></div>
-
-
-<p>Les informations supplémentaires incluent les autorisations (qui a accès au fichier et quel type d’accès), la propriété (qui est le propriétaire du fichier), l’auteur (qui a créé le fichier), la taille du fichier et mtime (date de la dernière modification). La première lettre sur les lignes pour pingouin-pix et <strong>wallpapers</strong> est un « d », indiquant que ce sont des répertoires. Pour plus d’informations sur les listes de fichiers, consultez la documentation de la commande chmod.<a rel="noreferrer noopener" href="https://astuces-informatique.com/unix-ligne-de-commande/" target="_blank"></a></p>
-
-
-
-<p>Nous pouvons maintenant déplacer nos images dans le nouveau répertoire. Pour dire à mv quels fichiers déplacer, nous pouvons utiliser à nouveau un caractère générique, mais cette fois, faisons en sorte qu’il sache qu’il ne doit déplacer que les fichiers image, pas les répertoires. Comme les deux fichiers image se terminent par l’extension JPEG .jpg, nous pouvons spécifier le nom de fichier «&nbsp;<strong>* .jpg</strong>«&nbsp;: cela indique au shell «&nbsp;les fichiers que je veux déplacer sont des fichiers du répertoire en cours qui se terminent par .jpg&nbsp;». Ainsi, notre commande ressemblera à ceci: «&nbsp;mv * .jpg penguin-pix&nbsp;»:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-etoile-point-jpg-penguin-pix.jpg?resize=659%2C40&amp;ssl=1" alt="Shell jpg image" class="wp-image-2974"/></figure></div>
-
-
-<p>Aucun message d’erreur n’a été donné, ce qui signifie que la commande s’est terminée correctement. Vérifions que les fichiers ont été déplacés en listant le contenu de pingouin-pix:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix.jpg?resize=670%2C56&amp;ssl=1" alt="Shell ls Linux" class="wp-image-2975"/></figure></div>
-
-
-<h2 id="supprimer">Supprimer des fichiers</h2>
-
-
-
-<p>Nous avons deux images de pingouin, mais nous avons peut-être décidé que nous n’avions besoin que de&nbsp;<strong>real-penguin.jpg</strong>, et nous n’avons plus besoin de tux-the-penguin.jpg. Nous pouvons supprimer ce fichier en utilisant la commande&nbsp;<strong>rm</strong>&nbsp;(«&nbsp;<strong>remove</strong>«&nbsp;).</p>
-
-
-
-<p>Nous devons fournir à&nbsp;<strong>rm</strong>&nbsp;le nom du fichier à supprimer. Nous sommes actuellement dans le répertoire images, mais notre image est maintenant dans le sous-répertoire penguin-pix. Nous pourrions changer notre répertoire de travail en penguin-pix, puis exécuter la commande, mais ce n’est qu’un travail supplémentaire, nous pouvons sauter cette étape en utilisant le répertoire comme partie du chemin.</p>
-
-
-
-<p>Notre commande ressemblera à ceci: «&nbsp;<strong>rm penguin-pix / tux-the-penguin.jpg</strong>«&nbsp;:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rm.jpg?resize=653%2C41&amp;ssl=1" alt="Shell rm" class="wp-image-2976"/></figure></div>
-
-
-<p>Encore une fois, le shell exécute notre commande sans donner de retour. la commande a été exécutée avec succès, de sorte que le shell nous renvoie à l’invite de commande, nous indiquant qu’il est prêt pour une autre commande.</p>
-
-
-
-<p><strong>Avertissement</strong>&nbsp;: Contrairement au fait de faire glisser un fichier vers la corbeille ou vers la corbeille Microsoft Windows, il est impossible d’annuler la suppression d’un fichier avec rm. Retirez vos fichiers avec soin! Une fois parti, il est (pratiquement) impossible de les récupérer.</p>
-
-
-
-<p>Vérifions simplement que le fichier a vraiment disparu:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-penguin-pix-2.jpg?resize=640%2C61&amp;ssl=1" alt="shell ls penguin pix" class="wp-image-2977"/></figure></div>
-
-
-<h2 id="supprimer-rep">Supprimer des répertoires</h2>
-
-
-
-<p>C’est génial pour les fichiers, mais qu’en est-il des répertoires? Par défaut,&nbsp;<strong>rm</strong>&nbsp;ne supprime que les fichiers et non les répertoires.</p>
-
-
-
-<p>La commande&nbsp;<strong>rmdir</strong>&nbsp;(«&nbsp;<strong>remove directory</strong>«&nbsp;) supprime un répertoire, en supposant qu’il soit vide. Testons-le en créant un nouveau répertoire vide en utilisant la commande «&nbsp;<strong>mkdir test-directory</strong>«&nbsp;.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mkdir-test-repertoire.jpg?resize=676%2C33&amp;ssl=1" alt="Shell mkdir test repertoire" class="wp-image-2978"/></figure></div>
-
-
-<p>Vérifions qu’il existe avec la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-ls-l-test-repertoire.jpg?resize=645%2C102&amp;ssl=1" alt="Shell ls-l test répertoire" class="wp-image-2979"/></figure></div>
-
-
-<p>Nous pouvons maintenant supprimer notre tout nouveau répertoire en utilisant la commande «&nbsp;<strong>rmdir test-directory</strong>&nbsp;» et vérifier qu’il est parti en exécutant à nouveau la commande «&nbsp;<strong>ls -l</strong>«&nbsp;.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-test-repertoire.jpg?resize=631%2C101&amp;ssl=1" alt="Shell rmdir test répertoire" class="wp-image-2981"/></figure></div>
-
-
-<p>Oui, c’est parti.</p>
-
-
-
-<p>Cependant, que se passerait-il si nous essayions de «&nbsp;<strong>rmdir penguin-pix</strong>«&nbsp;?</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-rmdir-penguin-pix-echec.jpg?resize=630%2C50&amp;ssl=1" alt="Shell echec de rmdir" class="wp-image-2983"/></figure></div>
-
-
-<p>Obtenir une erreur indiquant que&nbsp;<strong>rmdir</strong>&nbsp;n’a pas réussi à supprimer un répertoire</p>
-
-
-
-<p>Nous ne pouvons pas&nbsp;<strong>rmdir</strong>&nbsp;ce répertoire car il n’est pas vide.</p>
-
-
-
-<p>Si vous êtes sûr de vouloir supprimer&nbsp;<strong>penguin-pix</strong>&nbsp;et tout ce qu’il contient (y compris tous les fichiers et répertoires qu’il contient), vous pouvez utiliser la commande&nbsp;<strong>rm</strong>&nbsp;avec l’option&nbsp;<strong>-r</strong>.</p>
-
-
-
-<p>Normalement,&nbsp;<strong>rm</strong>&nbsp;ne fonctionnera pas sur un répertoire. Cependant, si elle est appelée avec l’option -r, rm supprime récursivement un répertoire, ce qui signifie qu’il se déplace dans le répertoire et dans tous les sous-répertoires, en supprimant tout ce qui inclut le répertoire. Donc, si nous exécutons la commande «&nbsp;<strong>rm -r penguin-pix</strong>«&nbsp;, cela supprime le répertoire et le fichier qui se trouvait à l’intérieur. S’il y avait des répertoires à l’intérieur, ils auraient également été supprimés.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-tutoriel-rm.jpg?resize=646%2C43&amp;ssl=1" alt="Tutoriel Shell commande rm" class="wp-image-2984"/></figure></div>
-
-
-<p><strong>Attention!</strong>&nbsp;Encore une fois, il n’y a pas d’annulation pour cette commande. Lorsque vous&nbsp;<strong>rm -r</strong>&nbsp;un répertoire, ce répertoire et tout ce qu’il contient sont supprimés pour toujours! Comme la plupart des commandes Linux,&nbsp;<strong>rm</strong>&nbsp;est très puissant et doit être utilisé avec précaution.</p>
-
-
-
-<h2 id="copier">Copier des fichiers</h2>
-
-
-
-<p>Pour copier un fichier, utilisez la commande&nbsp;<strong>cp</strong>. La forme la plus simple de cp est:</p>
-
-
-
-<blockquote class="wp-block-quote"><p>cp SOURCE DESTINATION</p></blockquote>
-
-
-
-<p><strong>SOURCE</strong>&nbsp;est le nom du fichier que vous souhaitez copier et&nbsp;<strong>DESTINATION</strong>&nbsp;est le chemin spécifiant la destination du nouveau fichier. La destination peut être un nouveau nom de fichier ou le nom du répertoire dans lequel vous souhaitez trouver une copie.</p>
-
-
-
-<p>Disons que nous avons un fichier texte dans notre dossier de documents appelé&nbsp;<strong>orig.txt</strong>, et nous voulons en faire une copie appelée&nbsp;<strong>copy.txt</strong>. La commande à utiliser est «&nbsp;<strong>cp orig.txt copy.txt</strong>«&nbsp;:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-exemple.jpg?resize=649%2C104&amp;ssl=1" alt="Shell exemple commande cp" class="wp-image-2985"/></figure></div>
-
-
-<p>Si, par contre, nous spécifions un répertoire comme destination de la commande cp, il en crée une copie avec le même nom que l’original dans le répertoire de destination. Dans l’exemple suivant, nous faisons six choses:</p>
-
-
-
-<ol><li>Répertorie le contenu du répertoire de travail;</li><li>Créez un nouveau répertoire, appelé&nbsp;<strong>copies</strong>;</li><li>Lister le contenu du répertoire de travail, qui inclut maintenant le répertoire des&nbsp;<strong>copies</strong>;</li><li>Répertorie le contenu du répertoire des copies (il n’y en a pas. Il est&nbsp;<strong>vide</strong>);</li><li>Copier&nbsp;<strong>copy.txt</strong>&nbsp;dans le répertoire des copies;</li><li>Répertorie le contenu du répertoire des copies, qui contient désormais une copie de copy.txt.</li></ol>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-cp-repertoire.jpg?resize=662%2C161&amp;ssl=1" alt="Shell cp répertoire" class="wp-image-2986"/></figure></div>
-
-
-<h2 id="renommer-file">Renommer un fichier</h2>
-
-
-
-<p>La commande mv peut également être utilisée pour modifier le nom d’un fichier. Par exemple, la commande «&nbsp;<strong>mv orig.txt original.txt</strong>&nbsp;» renommera le fichier&nbsp;<strong>orig.txt</strong>&nbsp;en&nbsp;<strong>original.txt</strong>:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename.jpg?resize=659%2C104&amp;ssl=1" alt="Shell mv rename" class="wp-image-2987"/></figure></div>
-
-
-<h2 id="renommer-dir">Renommer un répertoire</h2>
-
-
-
-<p>Renommer des répertoires fonctionne exactement comme renommer des fichiers, avec la commande&nbsp;<strong>mv</strong>. Ici, nous créons un répertoire nommé «&nbsp;<strong>copy</strong>«&nbsp;, mais nous le renommons «&nbsp;copies&nbsp;» en utilisant la commande «&nbsp;<strong>mv copy copies</strong>«&nbsp;:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2018/08/shell-mv-rename-directory.jpg?resize=653%2C117&amp;ssl=1" alt="Shell mv rename directory" class="wp-image-2988"/></figure></div>
-
-
-<p>Si le répertoire de copie contenait des fichiers ou des répertoires, ils resteraient inchangés. La seule chose qui changerait serait le nom du répertoire qui les contenait.</p>
-
-
-
-<h2 id="exit">Quitter Shell</h2>
-
-
-
-<p>Si vous tapez la commande&nbsp;<strong>exit</strong>, vous quittez le Shell de commande et fermez la fenêtre du terminal ou préparez la fenêtre du terminal pour qu’elle soit fermée manuellement.</p>
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-YSCDbk5NkGw/Xq1j7kdXqQI/AAAAAAAAIpc/wGdYMOoE6WIevfhOHDri159jBkl_U8kjQCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Guide complet de Linux pour débutant</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/guide-complet-de-linux-pour-debutant/</link>
+		<title>Comment afficher des données dans JTable?</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/comment-afficher-des-donnees-dans-jtable/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 02:02:26 +0000</pubDate>
-				<category><![CDATA[Astuces ,Trucs]]></category>
-		<category><![CDATA[ligne commande]]></category>
-		<category><![CDATA[linux]]></category>
-		<category><![CDATA[ubuntu]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=714</guid>
+		<pubDate>Wed, 22 Jun 2022 17:31:36 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=770</guid>
 
-					<description><![CDATA[Le système Linux&#160;est la depuis le milieu des années 90, et a depuis atteint une base d’utilisateurs qui s’étend sur les industries et les continents. Pour ceux qui le savent, vous comprenez que Linux est en fait partout. C’est dans vos téléphones, dans vos voitures, dans vos réfrigérateurs, vos appareils Roku. Il fonctionne la plupart&#8230;]]></description>
+					<description><![CDATA[Dans ce tutoriel nous allons découvrir comment afficher des données dans JTable. Le composant JTable fourni dans l’API Swing de Java est utilisé pour afficher / modifier des données bidimensionnelles. Ceci est équivalent à une feuille de calcul. JTable fournit des fonctionnalités riches pour gérer l’apparence et le comportement du composant de JTable. JTable hérite&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/01/guide-linux.jpg?resize=780%2C470&amp;ssl=1" alt="Guide Linux"/></figure>
+<p><strong>D</strong>ans ce tutoriel nous allons découvrir comment afficher des données dans JTable. Le composant JTable fourni dans l’API Swing de Java est utilisé pour afficher / modifier des données bidimensionnelles. Ceci est équivalent à une feuille de calcul.</p>
 
 
 
-<p>Le système Linux&nbsp;est la depuis le milieu des années 90, et a depuis atteint une base d’utilisateurs qui s’étend sur les industries et les continents. Pour ceux qui le savent, vous comprenez que Linux est en fait partout. C’est dans vos téléphones, dans vos voitures, dans vos réfrigérateurs, vos appareils Roku. Il fonctionne la plupart avec&nbsp;l’Internet, les supercalculateurs faisant des percées scientifiques, et les bourses mondiales. Mais avant que Linux ne devienne une plate-forme pour s’exécuter sur les ordinateurs de bureau, les serveurs et les systèmes embarqués à travers le monde, c’était (et est toujours) l’un des systèmes d’exploitation les plus fiables, sécurisés et sans soucis disponibles.</p>
+<p>JTable fournit des fonctionnalités riches pour gérer l’apparence et le comportement du composant de JTable. JTable hérite directement de JComponent et implémente plusieurs interfaces listener telles que TableModelListener, TableColumnModelListener, ListSelectionListener… etc.</p>
 
 
 
-<span id="more-714"></span>
+<span id="more-770"></span>
 
 
 
-<p>Pour ceux qui ne le savent pas, ne vous inquiétez pas – voici toutes les informations dont vous avez besoin pour vous&nbsp;<strong>familiariser avec la plate-forme Linux</strong>.</p>
+<p>Chaque JTable a trois modèles <strong>TableModel</strong>, <strong>TableColumnModel</strong> et <strong>ListSelectionModel</strong>.</p>
 
 
 
-<h2>Qu’est-ce que Linux?</h2>
+<ul><li><strong>TableModel</strong>&nbsp;est utilisé pour spécifier la façon dont les données de la table sont stockées et la récupération de ces données. Les données de JTable sont souvent dans une structure à deux dimensions, comme un tableau à deux dimensions ou un vecteur de vecteurs. TableModel est également utilisé pour spécifier comment les données peuvent être modifiables dans le tableau.</li><li><strong>TableColumnModel</strong>&nbsp;est utilisé pour gérer tous les TableColumn en termes de sélection de colonne, l’ordre des colonnes et la taille de la marge.</li><li><strong>ListSelectionModel</strong>&nbsp;permet à la table d’avoir différents modes de sélection tels que des sélections par intervalle et intervalle multiple.</li></ul>
 
 
 
-<p>Tout comme Windows XP, Windows 7, Windows 8 et Mac OS X, Linux est un système d’exploitation. Un système d’exploitation est un logiciel qui gère toutes les ressources matérielles associées à votre ordinateur de bureau ou ordinateur portable. Pour le dire simplement – le système d’exploitation gère la communication entre votre logiciel et votre matériel. Sans le système d’exploitation (souvent appelé «OS»), le logiciel ne fonctionnerait pas.</p>
+<p>&nbsp;<br>Nous pouvons créer un JTable en utilisant ses constructeurs comme suit:</p>
 
 
 
-<p>L’OS est composé d’un certain nombre de pièces:</p>
+<figure class="wp-block-table"><table><thead><tr><th>Constructeurs JTable</th><th>Description</th></tr></thead><tbody><tr><td><strong>JTable()</strong></td><td>Créer une table vide</td></tr><tr><td><strong>JTable(int rows, int columns)</strong></td><td>Créez une table avec des cellules et des lignes vides.</td></tr><tr><td><strong>JTable(Object[][] data, Object[] heading)</strong></td><td>Créer une table avec des données spécifiées dans un tableau à deux dimensions et un tableau d’en-tête.</td></tr><tr><td><strong>JTable(TableModel dm)</strong></td><td>Créer une table avec un TableModel donné.</td></tr><tr><td><strong>JTable(TableModel dm, TableColumnModel cm)</strong></td><td>Créez une table avec un TableModel et TableColumnModel donnés.</td></tr><tr><td><strong>JTable(TableModel dm,TableColumnModel cm, ListSelectionModel sm)</strong></td><td>Créez une table avec un TableModel, TableColumnModel et ListSelectionModel donné.</td></tr><tr><td><strong>JTable(Vector data, Vector heading)</strong></td><td>Créez une table avec des données du vecteur et un vecteur d’en-têtes.</td></tr></tbody></table></figure>
 
 
 
-<ul><li><strong>Bootloader</strong>: Le logiciel qui gère le processus de démarrage de votre ordinateur. Pour la plupart des utilisateurs, ce sera simplement un écran de démarrage qui apparaît et finalement disparaît pour démarrer dans le système d’exploitation.</li><li><strong>Le noyau</strong>: C’est le morceau unique de l’ensemble qui est réellement appelé « Linux ». Le noyau est le cœur du système et gère le processeur, la mémoire et les périphériques. Le noyau est le niveau le plus bas du système d’exploitation.</li><li>Daemons: ce sont des services en arrière-plan (impression, son, planification, etc.) qui démarrent pendant le démarrage ou après vous connecter au bureau.</li><li><strong>Le Shell</strong>: Vous avez probablement entendu parler de la ligne de <strong>commande Linux</strong>. C’est le shell – un processus de commande qui vous permet de contrôler l’ordinateur via des commandes tapées dans une interface de texte. C’est ce qui, à un moment donné, a effrayé les gens de Linux le plus (en supposant qu’ils ont dû apprendre une structure de ligne de commande apparemment archaïque pour faire fonctionner Linux). Ce n’est plus le cas. Avec Linux de bureau moderne, il n’est pas nécessaire de toucher la ligne de commande.</li><li><strong>Serveur graphique</strong>: il s’agit du sous-système qui affiche les graphiques sur votre moniteur. Il est communément appelé le serveur X ou simplement «X».</li><li><strong>Environnement de bureau</strong>: C’est le morceau du puzzle avec lequel les utilisateurs interagissent réellement. Il existe de nombreux environnements de bureau à choisir (<strong>Unity</strong>, <strong>GNOME</strong>, Cannelle, Enlightenment, KDE, XFCE, etc.). Chaque environnement de bureau comprend des applications intégrées (telles que des gestionnaires de fichiers, des outils de configuration, des navigateurs Web, des jeux, etc.).</li><li><strong>Applications</strong>: Les environnements de bureau n’offrent pas toute la gamme d’applications. Tout comme Windows et Mac, Linux offre des milliers et des milliers de titres logiciels de haute qualité qui peuvent être facilement trouvés et installés. La plupart des distributions Linux modernes (plus à ce sujet dans un instant) incluent des outils similaires à App Store qui centralisent et simplifient l’installation des applications. Par exemple: Ubuntu Linux dispose du Ubuntu Software Center (Figure 1) qui vous permet de rechercher rapidement parmi les milliers d’applications et de les installer à partir d’un emplacement centralisé.</li></ul>
+<p>Exemple:<br>Prenons quelques exemples. Supposons que vous souhaitiez afficher une liste des employés appartenant à une organisation. Cela devrait afficher les différents attributs des employés. Par exemple, l’ID de l’employé, le nom, l’adresse, le taux horaire, etc. L’affichage ressemblera davantage à une table de base de données affichant des lignes et des colonnes. Dans ce cas, l’id, le nom, l’adresse, le taux horaire sont des colonnes. Le nombre de lignes peut différer en fonction du nombre d’employés dans l’organisation.</p>
+
+
+
+<p>Regardons comment afficher de telles données avec JTable avec un minimum de code. L’idée est d’afficher uniquement les détails dans le tableau. L’utilisateur ne doit pas être autorisé à modifier des données.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-6 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+ 
+public class Main {
+ 
+    public static void main(String[] args) {
+        //crée un frame
+        final JFrame frame = new JFrame("Exemple de JTable");
+ 
+        //En-têtes pour JTable 
+        String[] columns = new String[] {
+            "Id", "Nom", "Adresse", "Taux horaire", "A temps partiel"
+        };
+         
+        //données pour JTable dans un tableau 2D
+        Object[][] data = new Object[][] {
+            {1, "Thomas", "Paris", 20.0, true },
+            {2, "Jean", "Marseille", 50.0, false },
+            {3, "Yohan", "Lyon", 30.0, true },
+            {4, "Emily", "Toulouse", 60.0, false },
+            {5, "Alex", "Nice", 10.0, false },
+        };
+ 
+        //crée un JTable avec des données
+        JTable table = new JTable(data, columns);
+    
+        JScrollPane scroll = new JScrollPane(table);
+        table.setFillsViewportHeight(true);
+ 
+        JLabel labelHead = new JLabel("Liste des employes");
+        labelHead.setFont(new Font("Arial",Font.TRUETYPE_FONT,20));
+ 
+        frame.getContentPane().add(labelHead,BorderLayout.PAGE_START);
+        //ajouter la table au frame
+        frame.getContentPane().add(scroll,BorderLayout.CENTER);
+ 
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(500, 200);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-zVazsKsFg8Y/XsKLM-MaAzI/AAAAAAAAI34/fnPnW5LPAzw62W878uwGd3snK8wSxWO8ACNcBGAsYHQ/s1600/out.png" alt=""/></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Convertir un PC Windows en Machine Virtuelle à l’aide d’Hyper-V</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/convertir-un-pc-windows-en-machine-virtuelle-a-laide-dhyper-v/</link>
+		<title>Comment changer l’icône d’une JFrame – AWT/Swing Java</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/comment-changer-licone-dune-jframe-awt-swing-java/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 02:00:37 +0000</pubDate>
-				<category><![CDATA[Astuces ,Trucs]]></category>
-		<category><![CDATA[hyper-v]]></category>
-		<category><![CDATA[machine]]></category>
-		<category><![CDATA[virtuel]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=712</guid>
+		<pubDate>Wed, 22 Jun 2022 17:28:48 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=767</guid>
 
-					<description><![CDATA[Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.&#8230;]]></description>
+					<description><![CDATA[La méthode&#160;setIconImage()&#160;de la classe JFrame est utilisée pour changer l’icône de JFrame ou JWindow. Il change l’icône qui s’affiche sur le côté gauche de la fenêtre. La classe Toolkit est utilisée pour obtenir une instance de la classe Image dans AWT et Swing. La classe Toolkit est la super classe abstraite de chaque implémentation dans&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/Hyper-V-et-machine-Virtuelle.png?resize=500%2C300&amp;ssl=1" alt="Hyper V et machine Virtuelle"/></figure>
+<p><strong>L</strong>a méthode&nbsp;<strong>setIconImage()</strong>&nbsp;de la classe JFrame est utilisée pour changer l’icône de JFrame ou JWindow. Il change l’icône qui s’affiche sur le côté gauche de la fenêtre.</p>
 
 
 
-<p>Une excellente façon de vous protéger contre les virus, les logiciels malveillants et les logiciels espions est d’utiliser une machine virtuelle pour naviguer sur Internet plutôt que sur votre PC Windows régulier. Qu’est-ce qu’une machine virtuelle? Il s’agit essentiellement d’une copie complète de Windows qui s’exécute à l’intérieur d’une autre copie de Windows appelé l’hôte.</p>
+<p>La classe Toolkit est utilisée pour obtenir une instance de la classe Image dans AWT et Swing.</p>
 
 
 
-<span id="more-712"></span>
+<p>La classe Toolkit est la super classe abstraite de chaque implémentation dans le Abstract Window Toolkit (AWT). Des sous-classes de Toolkit sont utilisées pour lier divers composants.<br>Exemple:</p>
 
 
 
-<p>La version virtuelle de Windows est juste un gros fichier et un logiciel spécial exécuté sur votre ordinateur Windows (logiciel de virtualisation) agit comme un faux ordinateur pour que Windows puisse s’exécuter. Tout ce que vous faites dans la machine virtuelle n’affectera pas votre système d’exploitation hôte. Ainsi, vous pouvez télécharger des&nbsp;virus sur la machine virtuelle et votre système d’exploitation principal serait en sécurité.</p>
+<span id="more-767"></span>
 
 
 
-<p>Ce qui est bien sur les machines virtuelles, c’est que vous pouvez les réinitialiser. Donc, si vous obtenez un virus lors de la navigation sur la machine virtuelle, vous pouvez simplement réinitialiser la machine virtuelle à son état par défaut lorsque vous l’avez installé et recommencer. C’est aussi un excellent moyen d’augmenter votre vie privée, car vous pouvez simplement effacer tout ce que vous avez fait dans une machine virtuelle.</p>
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-10 wp-block-group"><div class="wp-block-group__inner-container">
+<div class="wp-container-9 wp-block-columns">
+<div class="wp-container-8 wp-block-column" style="flex-basis:100%">
+<div class="wp-container-7 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;  
+import java.awt.*;  
 
+class MyIcon 
+{   
+  MyIcon()
+  {
+    JFrame frame = new JFrame();
+    Image icon = Toolkit.getDefaultToolkit().getImage("test.png");  
+    frame.setIconImage(icon);  
+    frame.setLayout(null);   
+    frame.setSize(200,200);   
+    frame.setVisible(true);   
+  }   
+  public static void main(String args[]){   
+    new MyIcon();   
+  }   
+}</pre>
+</div></div>
+</div>
+</div>
+</div></div>
+</div></div>
 
 
-<p>Avant de commencer, parlons des exigences. Il existe de nombreux outils de virtualisation de logiciels comme&nbsp;<strong>VMWare</strong>,&nbsp;<strong>Parallels</strong>,&nbsp;<strong>VirtualBox</strong>, pour&nbsp;les logiciels Microsoft vous avez besoin de deux choses:</p>
 
+<p><strong>Sortie:</strong></p>
 
 
-<p><a href="https://technet.microsoft.com/fr-fr/library/ee656415.aspx">Disk2VHD</a>&nbsp;– Un outil gratuit de Microsoft qui sera utilisé pour convertir n’importe quel système d’exploitation Windows à partir de Windows XP en un fichier de machine virtuelle.</p>
 
-
-
-<p><strong>Windows 8.1 Pro ou Windows 10 Pro</strong>&nbsp;– Vous aurez besoin des versions Pro de Windows 8.1 ou Windows 10 pour compléter ce processus. Les deux systèmes d’exploitation ont un outil appelé&nbsp;<strong>Hyper-V</strong>&nbsp;qui peut être utilisé pour accéder au fichier virtuel créé par Disk2VHD.</p>
-
-
-
-<p>Il est également intéressant de noter que même si vous pouvez utiliser Windows XP, Vista et 7 comme machine virtuelle, il est préférable de convertir une machine Windows 8.1 ou Windows 10 parce que la plus haute résolution prise en charge par Hyper-V pour les anciens systèmes d’exploitation est 1600 × 1200. C’est vraiment ennuyeux et je ne sais pas pourquoi Microsoft n’a pas pris la peine de résoudre ce problème encore. Quoi qu’il en soit, c’est seulement un problème pour ceux qui ont des moniteurs haute résolution.</p>
-
-
-
-<p></p>
-
-
-
-<h2>Convertir le système d’exploitation Windows en VHD</h2>
-
-
-
-<p>Commençons par la partie facile: convertir votre version actuelle de Windows en machine virtuelle (fichier VHD ou VHDX). Pour ce faire, téléchargez l’outil Disk2VHD mentionné ci-dessus et exécutez le fichier EXE.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/disk2vhd-demarrer.jpg?resize=525%2C361" alt="Démarrer avec disk2vhd" class="wp-image-1113"/></figure></div>
-
-
-<p>Lorsque vous l’exécutez, vous verrez un écran comme celui ci-dessus. Vous devez&nbsp;choisir l’emplacement où vous voulez enregistrer le fichier VHDX et les volumes que vous souhaitez inclure.</p>
-
-
-
-<p>Si vous avez un grand disque dur, vous pouvez simplement laisser enregistrer le fichier dans la même partition que Windows. Sinon, choisissez un autre emplacement comme un deuxième disque dur ou un disque dur externe USB. Par défaut, il va sélectionner tous les volumes qu’il trouve sur votre ordinateur.</p>
-
-
-
-<p>Dans mon cas, j’ai plusieurs disques durs connectés à l’ordinateur, ainsi je veux seulement choisir le volume C: \, qui est 37.26 GB dans la taille. En outre, vous voulez vous assurer de sélectionner tous les autres volumes qui ont été créés lorsque vous avez installé Windows, probablement le volume de démarrage et le&nbsp;<strong>volume réservé du système</strong>. Ceux-ci sont généralement très petits: dans mon cas, le volume réservé au système est seulement 34 Mo et l’autre volume, qui n’a pas d’étiquette, est seulement 322,08 Mo.</p>
-
-
-
-<p>Il est très important de sélectionner ces autres volumes en plus du volume principal de Windows, car si vous ne le faites pas, le système d’exploitation ne démarrera pas lorsque vous le chargez dans Hyper-V. Au lieu de cela, vous obtiendrez un message d’<strong>échec de démarrage</strong>! En effet, ces deux volumes supplémentaires indiquent au système où se trouve Windows et comment le démarrer.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/erreur-boot.png?resize=516%2C326" alt="Erreur démarrage" class="wp-image-1114"/></figure></div>
-
-
-<p>Il faudra probablement un certain temps pour&nbsp;<strong>créer le fichier VHDX</strong>&nbsp;en fonction de la taille de votre partition Windows. Une fois terminé, vous aurez un fichier vraiment grand et deux fichiers plus petits.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/vhdx-images.png?resize=665%2C149" alt="Images VHDX" class="wp-image-1115"/></figure></div>
-
-
-<h2>Installer Hyper-V sous Windows 8.1 / 10</h2>
-
-
-
-<p>Ensuite, nous devons installer les outils Hyper-V sous Windows 8.1 ou Windows 10 Pro. Si vous avez les éditions Home, vous devrez effectuer une mise à niveau vers Pro avant d’installer Hyper-V. Cliquez sur Démarrer et tapez dans&nbsp;<strong>les fonctionnalités de Windows</strong>.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/option-windows.png?resize=394%2C393" alt="Options de Windows" class="wp-image-1116"/></figure></div>
-
-
-<p>En haut, cliquez sur Activer ou&nbsp;<strong>désactiver les fonctionnalités de Windows</strong>. Une fenêtre s’affiche où vous pouvez cocher les éléments supplémentaires que vous souhaitez installer. Allez-y et cochez la case pour&nbsp;<strong>Hyper-V</strong>. Il doit également cocher les cases correspondantes aux outils de gestion Hyper-V et à la&nbsp;<strong>plate-forme Hyper-V</strong>.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/activer-hyper-v.png?resize=417%2C372" alt="Activer hyper V" class="wp-image-1117"/></figure></div>
-
-
-<p>Cliquez sur OK et laissez Windows installer les fonctionnalités. Vous devrez également redémarrer votre ordinateur. Une fois la sauvegarde démarrée, cliquez sur Démarrer, Toutes les applications, puis faites défiler jusqu’à Outils d’administration Windows. Vous devriez voir Hyper-V Manager répertorié ici. Vous pouvez également cliquer sur Démarrer et taper Hyper-V pour le rechercher.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/menu-demarrer-hyper-v.png?resize=263%2C388" alt="Hyper V dans le menu démarrer" class="wp-image-1118"/></figure></div>
-
-
-<h2>Configuration de Hyper-V</h2>
-
-
-
-<p>Maintenant pour la partie amusante! Commençons par Hyper-V. Allez-y et ouvrez le Gestionnaire Hyper-V et vous verrez un espace de travail vierge.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/hyper-v-gestionnaire.png?resize=646%2C440" alt="Le gestionnaire de hyper V" class="wp-image-1119"/></figure></div>
-
-
-<p>À l’extrême gauche se trouve le serveur, qui devrait être le nom de votre ordinateur. Dans la partie centrale se trouvent la liste des machines virtuelles et des checkpoints. Sur la droite, vous avez un menu dynamique qui change en fonction de l’élément sélectionné dans les sections de gauche. Pour commencer, sélectionnez le nom de l’ordinateur à l’extrême gauche.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouvelle-virtuel-machine.png?resize=500%2C154" alt="Nouvelle machine virtuelle" class="wp-image-1123"/></figure></div>
-
-
-<p>Maintenant à l’extrême droite, cliquez sur Nouveau et puis sur Virtual Machine. Cela ouvre l’Assistant de la nouvelle machine virtuelle. La première étape consiste à donner un nom à votre machine virtuelle.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nom-virtual-machine.png?resize=656%2C326" alt="Nom de machine virtuelle" class="wp-image-1124"/></figure></div>
-
-
-<p>Ensuite, vous devez choisir la génération de la machine virtuelle. Si vous convertissez une version 64 bits de Windows en une machine virtuelle et que votre matériel informatique prend en charge UEFI, choisissez Génération 2, car cela permet des fonctionnalités plus avancées. Utilisez la génération 1 pour les versions 32 bits de Windows ou si votre machine utilise le BIOS existant. Generation 2 prend également en charge les écrans géants lors de la virtualisation de Windows 8.1 ou Windows 10.</p>
-
-
-
-<p>Si vous n’avez aucune idée de ce que tout cela signifie, choisissez simplement Génération 1 pour être sûr. Notez que si la machine virtuelle ne démarre pas, vous pouvez facilement la supprimer et recommencer ce processus. Sélectionnez une génération différente et vérifiez si elle démarre correctement. La suppression de la machine virtuelle dans Hyper-V ne supprime pas vos fichiers VHDX d’origine.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-generation.png?resize=656%2C296" alt="Génération du machine virtuelle" class="wp-image-1125"/></figure></div>
-
-
-<p>Sur l’écran suivant, vous devez choisir la quantité de mémoire que vous souhaitez affecter à votre machine virtuelle. Je l’ai laissé à la valeur par défaut de 1024 Mo, mais vous pouvez l’augmenter si vous avez suffisamment de RAM disponible sur votre ordinateur hôte.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/virtual-machine-memoire.png?resize=650%2C297" alt="Mémoire du machine virtuelle" class="wp-image-1126"/></figure></div>
-
-
-<p>Allez-y et sautez l’écran Configure Networking pour l’instant car nous devrons le faire plus tard. Pour l’instant, laissez-le à Not Connected. Sur l’écran Connect Virtual Hard Disk, vous devez sélectionner Utiliser un disque dur virtuel existant.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/connecter-virtual-disque-dur.png?resize=656%2C438" alt="Connecter un disque dur virtuelle" class="wp-image-1127"/></figure></div>
-
-
-<p>Cliquez sur le bouton Parcourir et sélectionnez l’image VHDX qui représente votre partition Windows réelle. Ce devrait être le très grand fichier VHDX. Nous aurons à ajouter manuellement les deux autres disques VHDX après l’assistant, que je vais montrer plus bas. À ce stade, examinez le résumé et cliquez sur Terminer.</p>
-
-
-
-<p>Maintenant, vous devriez voir un nouvel élément répertorié sous Virtual Machines. Si vous cliquez sur cela, vous verrez un tas d’autres options dans le volet de droite.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/demarrer-virutal-machine.png?resize=626%2C572" alt="Démarrer une virtuelle machine" class="wp-image-1128"/></figure></div>
-
-
-<p>Pour démarrer la machine virtuelle, sélectionnez-la, puis cliquez sur Démarrer. La colonne État se transforme en Exécution. Cliquez sur Connecter pour afficher la machine virtuelle. Si vous avez fait cela maintenant, vous verrez ce message d’erreur que j’ai mentionné au début de l’article: échec de démarrage. Nous avons encore besoin d’ajouter les autres disques durs.</p>
-
-
-
-<p>Sélectionnez la machine virtuelle, puis cliquez sur Désactiver. Cliquez ensuite sur le lien Paramètres. Sur le côté gauche, vous devriez voir IDE Controller 0 et IDE Controller 1. Cliquez sur le Controller 0 en premier. Si vous avez choisi Génération 2, vous verrez SCSI Controller uniquement.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ide-controlleur.png?resize=648%2C319" alt="contrôleur ide" class="wp-image-1130"/></figure></div>
-
-
-<p>Vous verrez que le premier fichier VHDX que nous avons ajouté dans l’assistant est déjà répertorié. Maintenant nous devons ajouter les deuxième et troisième fichiers. Assurez-vous que le disque dur est sélectionné, puis cliquez sur Ajouter.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-deuxieme-vhdx.png?resize=643%2C301" alt="" class="wp-image-1120"/></figure></div>
-
-
-<p>La case Emplacement doit automatiquement choisir 1 car le slot 0 est pris par notre premier fichier VHDX. Chaque contrôleur IDE ne dispose que de deux emplacements disponibles pour ajouter des lecteurs. Cliquez sur Disque dur virtuel et choisissez votre deuxième fichier VHDX.</p>
-
-
-
-<p>Cliquez maintenant sur IDE Controller 1, puis sur le bouton Ajouter. Faites la même chose ici, mais choisissez votre troisième fichier VHDX.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ajouter-troisieme-vhdx.png?resize=646%2C358" alt="" class="wp-image-1121"/></figure></div>
-
-
-<p>Maintenant que nous avons tous les trois fichiers VHDX attachés, nous pouvons cliquer sur OK et démarrer notre machine virtuelle. Cette fois, vous devriez obtenir un écran avec Windows chargement!</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/windows-demarre-avec-hyper-v.jpg?resize=600%2C530" alt="Démarrer Windows avec hyper V" class="wp-image-1129"/></figure></div>
-
-
-<h2>Configurer la mise en réseau</h2>
-
-
-
-<p>Enfin, nous devons configurer la mise en réseau de la machine virtuelle afin que vous puissiez vous connecter au réseau local et à Internet. Pour ce faire, cliquez sur Virtual Switch Manager en haut du menu de droite.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/nouveau-virtual-switch.png?resize=651%2C268" alt="" class="wp-image-1122"/></figure></div>
-
-
-<p>Cliquez sur Nouveau commutateur réseau virtuel, puis sélectionnez Externe dans la zone de liste. Enfin, cliquez sur Créer un commutateur virtuel.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/externe-virtual-switch.png?resize=444%2C329" alt="externe-virtual-switch" class="wp-image-1131"/></figure></div>
-
-
-<p>Donnez à votre commutateur virtuel un nom si vous le souhaitez, puis choisissez le réseau correct dans la liste déroulante. Si vous avez plus d’une carte réseau, choisissez celle qui est connectée au réseau et à Internet. Une fois que votre commutateur a été créé, nous devons dire à la machine virtuelle de l’utiliser. Pour ce faire, cliquez sur la machine virtuelle dans le gestionnaire Hyper-V, puis cliquez sur le lien Paramètres dans le volet droit.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/configurer-network-switch.png?resize=647%2C424" alt="configurer-network-switch" class="wp-image-1132"/></figure></div>
-
-
-<p>Cliquez sur Adaptateur réseau, puis choisissez le nouveau commutateur virtuel que vous avez créé à l’étape précédente. C’est tout! Maintenant, lorsque vous démarrez votre machine virtuelle, il doit obtenir un accès réseau via l’ordinateur hôte.</p>
-
-
-
-<p>Espérons que cet article vous aide à prendre votre PC actuel et à le convertir en une machine virtuelle que vous pouvez exécuter sur le même PC ou un autre PC si vous le souhaitez. Il ya beaucoup de choses qui peuvent mal tourner dans ce processus, alors n’hésitez pas à commenter si vous rencontrez des problèmes.</p>
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-0z__JE0SagM/XsFOHoh40XI/AAAAAAAAI24/DanesH7y7i4OKNInp1CE-lyTv3_hs-lKQCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>5 façons de contrôler à distance un appareil Android</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/5-facons-de-controler-a-distance-un-appareil-android/</link>
+		<title>ActionListener Java JButton</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/actionlistener-java-jbutton/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 01:52:25 +0000</pubDate>
-				<category><![CDATA[Astuces ,Trucs]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=710</guid>
+		<pubDate>Wed, 22 Jun 2022 17:26:59 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=765</guid>
 
-					<description><![CDATA[Vous avez parfois ressenti le besoin d’accéder à distance à un appareil Android dans différentes situations. Vous avez alors besoin d’un mécanisme robuste, facile à utiliser et fiable pour obtenir un contrôle total de l’appareil ou un moyen d’obtenir un contrôle partiel de certaines fonctionnalités importantes. Heureusement, il existe plusieurs applications, outils et services qui&#8230;]]></description>
+					<description><![CDATA[Java ActionListener est notifie à chaque fois que vous cliquez sur le bouton. Il est notifié contre ActionEvent. L’interface ActionListener se trouve dans le package java.awt.event. Il n’a qu’une seule méthode actionPerformed(). La méthode actionPerformed() est invoquée automatiquement chaque fois que vous cliquez sur le bouton. Comment écrire ActionListener L’approche consiste à implémenter l’interface ActionListener. Si vous implémentez l’interface ActionListener, vous devez suivre&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/teamviewer-pour-android.jpg?resize=780%2C433&amp;ssl=1" alt="Team viewer pour Android"/></figure>
+<p><strong>J</strong>ava ActionListener est notifie à chaque fois que vous cliquez sur le bouton. Il est notifié contre ActionEvent. L’interface <strong>ActionListener</strong> se trouve dans le package <strong>java.awt.event</strong>. Il n’a qu’une seule méthode <strong>actionPerformed()</strong>. La méthode <strong>actionPerformed()</strong> est invoquée automatiquement chaque fois que vous cliquez sur le bouton.</p>
 
 
 
-<p>Vous avez parfois ressenti le besoin d’accéder à distance à un appareil Android dans différentes situations. Vous avez alors besoin d’un mécanisme robuste, facile à utiliser et fiable pour obtenir un contrôle total de l’appareil ou un moyen d’obtenir un contrôle partiel de certaines fonctionnalités importantes. Heureusement, il existe plusieurs applications, outils et services qui permettent de contrôler à distance un appareil Android de manière simple et transparente. Nous allons examiner certaines des&nbsp;<strong>meilleures outils d’accès à distance</strong>&nbsp;disponibles pour les appareils Android. Tous ces outils fonctionnent de manière transparente avec presque toutes les variantes populaires d’Android. Ces applications sont idéales pour les professionnels et les voyageurs fréquents qui ont souvent besoin d’accéder à des appareils Android à distance. Alors, commençons et découvrons ces applications utiles et puissantes pour gérer nos appareils Android à distance depuis notre PC ou Mac.</p>
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-M3soRSfzPQU/XskHrZOxaJI/AAAAAAAAI9A/V34shRjMDRANxCtKiavcUJ3l20E6M9UaACNcBGAsYHQ/s1600/action-button.gif" alt=""/></figure>
 
 
 
-<span id="more-710"></span>
+<h6>Comment écrire ActionListener</h6>
 
 
 
-<p>1. Prise en charge des appareils mobiles TeamViewer</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/teamviewer-controler-a-distance-une-appareil-android.jpg?resize=650%2C270&amp;ssl=1" alt="TeamViewer - contrôler à distance une appareil Android" class="wp-image-11140"/></figure></div>
-
-
-<p>Cette application extrêmement populaire peut être utilisée sur les ordinateurs Windows, Mac ou Linux pour accéder à distance aux appareils Android en quelques étapes faciles. C’est simple, facile à installer et prêt à l’emploi. Les professionnels peuvent l’utiliser pour&nbsp;<strong>gérer les téléphones Android à distance</strong>.</p>
+<p>L’approche consiste à implémenter l’interface <strong>ActionListener</strong>. Si vous implémentez l’interface <strong>ActionListener</strong>, vous devez suivre 3 étapes:</p>
 
 
 
-<p>Le périphérique cible a dû installer une petite application&nbsp;<strong>QuickSupport</strong>&nbsp;pour permettre le contrôle à distance depuis un emplacement distant. Il donne un contrôle complet de l’appareil comme si on le tenait dans la main. Il prend également en charge le&nbsp;<strong>transfert de fichiers sécurisé</strong>&nbsp;ainsi que la prise en charge du chat pour communiquer rapidement avec le propriétaire de l’appareil pendant la session active. On peut également capturer des captures d’écran en couleurs vraies à partir de l’appareil Android distant pour une analyse hors ligne.</p>
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-11 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import javax.swing.event.*;
+import java.awt.event.*;
 
+//1ère étape
+public class MyJButtonActionListener implements ActionListener
+{
+  private static JTextField text;
+  
+  public static void main(String[] args) 
+  {
+    JFrame frame = new JFrame("Exemple ActionListener");
+    text = new JTextField();
+    text.setBounds(45,50,150,20);
+    JButton btn = new JButton("Cliquez ici");
+    btn.setBounds(70,100,100,30);
+    MyJButtonActionListener instance = new MyJButtonActionListener();
+    //2ème étape
+    btn.addActionListener(instance);
+    frame.add(btn);
+    frame.add(text);
+    frame.setSize(250,250);
+    frame.setLayout(null);
+    frame.setVisible(true);  
+  }
 
-
-<p><a href="https://astuces-informatique.com/meilleurs-langages-developpement-mobiles/" target="_blank" rel="noreferrer noopener"></a></p>
-
-
-
-<h2>2. AirDroid</h2>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="" alt="AirDrop - contrôler à distance une appareil Android" class="wp-image-11141"/></figure></div>
-
-
-<p>C’est encore une autre solution d’accès à distance extrêmement populaire pour les téléphones et tablettes Android. Il fournit une interface agréable et facile à utiliser pour gérer l’appareil Android directement depuis votre bureau. Outre l’utilisation d’une application de bureau, vous pouvez également utiliser une application Web dans le navigateur Google Chrome.</p>
-
-
-
-<p>Ses grandes notifications d’applications sur l’écran du bureau vous permettent de rester connecté et d’être informé des événements sur l’appareil Android distant. Sa version premium comprend des transferts illimités de fichiers et de dossiers entiers. Il peut également être utilisé pour surveiller un emplacement distant via la caméra de l’appareil en temps réel. Si vous cherchez à&nbsp;<strong>transférer des fichiers très volumineux</strong>&nbsp;à partir de l’appareil distant,&nbsp;<strong>AirDroid</strong>&nbsp;le prend en charge immédiatement.</p>
-
-
-
-<h2>3. ISL Light pour Android</h2>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/ISL-light-for-android-controler-a-distance-une-appareil-android.jpg?resize=653%2C337&amp;ssl=1" alt="ISL Light for Android - contrôler à distance une appareil Android" class="wp-image-11142"/></figure></div>
-
-
-<p>Cette application puissante permet un contrôle total sur les appareils Android distants avec toutes les fonctionnalités pour dépanner et gérer les problèmes avec facilité. Les tablettes et les smartphones classiques peuvent être contrôlés via cette application flexible. Il est disponible pour les plates-formes Windows, Mac et Linux.</p>
-
-
-
-<p>Comme d’autres applications compétentes, celle-ci prend également en charge les captures d’écran en temps réel de l’appareil Android distant avec prise en charge de la messagerie instantanée pour échanger des informations avec la personne à l’autre bout. Il est spécialement conçu pour les téléphones Samsung, vous donnant un véritable contrôle de l’appareil distant. Au cours d’une session à distance, on peut facilement installer ou désinstaller des applications via des commandes pointer-cliquer avec un effet immédiat.</p>
-
-
-
-<h2>4. Mobizen</h2>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/Mobizen-controler-a-distance-une-appareil-android.jpg?resize=593%2C291&amp;ssl=1" alt="Mobizen - contrôler à distance une appareil Android" class="wp-image-11143"/></figure></div>
-
-
-<p>C’est l’une de mes applications préférées pour <strong>apprivoiser un appareil Android à distance</strong>. Il possède plusieurs fonctionnalités uniques et intuitives qui le rendent très populaire parmi la base d’utilisateurs. Utilisez cette solution robuste si vous souhaitez diffuser rapidement des vidéos et des photos stockées sur un appareil Android distant.<a rel="noreferrer noopener" href="https://astuces-informatique.com/codes-secrets-de-telephones-android-et-nokia/" target="_blank"></a></p>
-
-
-
-<p>Il prend également en charge le transfert de fichiers par glisser-déposer entre le bureau et le téléphone. Si l’écran de votre bureau est tactile, vous pouvez utiliser les mêmes actions de glisser-déplacer pour l’écran de l’appareil Android en miroir au lieu d’utiliser les commandes pointer-cliquer classiques. Vous pouvez également enregistrer une vidéo et enregistrer les captures d’écran de l’appareil distant en un clic. Une connexion peut être établie à partir d’un navigateur ou d’une application.</p>
-
-
-
-<h2>5. LogMeIn Rescue</h2>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2020/11/log-me-in-rescue-controler-a-distance-une-appareil-android.jpg?resize=614%2C275&amp;ssl=1" alt="Log me in Rescue - contrôler à distance une appareil Android" class="wp-image-11144"/></figure></div>
-
-
-<p>Les équipes d’assistance professionnelles peuvent utiliser cette solution de contrôle à distance riche en fonctionnalités pour les appareils Android. C’est une option fiable et facile à utiliser pour&nbsp;<strong>accéder aux téléphones Android depuis un emplacement distant</strong>. Il prend en charge presque toutes les marques de téléphones Android populaires, y compris la plupart des versions Android personnalisées.</p>
-
-
-
-<p>Il dispose d’une fonction&nbsp;<strong>Click2Fix</strong>&nbsp;dédiée pour obtenir rapidement des informations vitales sur les appareils distants. Cela aide à identifier rapidement les problèmes dans l’appareil Android. Il dispose également d’un puissant&nbsp;<strong>SDK</strong>&nbsp;pour configurer facilement les paramètres du périphérique système à partir d’un emplacement distant. J’ai aimé son interface d’application de contrôle à distance qui regorge de nombreuses fonctionnalités pour obtenir un contrôle complet sur l’appareil Android distant.</p>
+  //3ème étape
+  public void actionPerformed(ActionEvent e){
+    text.setText("Welcome to WayToLearnX");
+  }
+}</pre>
+</div></div>
+</div></div>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Comment créer une table des matières à un document Word</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-creer-une-table-des-matieres-a-un-document-word/</link>
+		<title>JPasswordField &#124; Java Swing</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/jpasswordfield-java-swing/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 01:49:05 +0000</pubDate>
+		<pubDate>Wed, 22 Jun 2022 17:24:27 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=763</guid>
+
+					<description><![CDATA[PasswordField fait partie du package javax.swing. La classe JPasswordField est un composant texte spécialisé pour la saisie de mot de passe. Il permet l’édition d’une seule ligne de texte. JPasswordField hérite de la classe JTextField dans le package javax.swing. Les constructeurs de la classe JPasswordField sont:Constructeurs de JPasswordFieldDescriptionJPasswordField() Constructeur qui crée un nouveau champ Password.JPasswordField(int&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>PasswordField fait partie du package javax.swing. La classe JPasswordField est un composant texte spécialisé pour la saisie de mot de passe. Il permet l’édition d’une seule ligne de texte. JPasswordField hérite de la classe JTextField dans le package javax.swing.</p>
+
+
+
+<p>Les constructeurs de la classe JPasswordField sont:<br>Constructeurs de JPasswordField<br>Description<br>JPasswordField() Constructeur qui crée un nouveau champ Password.<br>JPasswordField(int n) Constructeur qui crée un nouveau champ Password vide avec un nombre spécifié de colonnes.<br>JPasswordField(String Password) Constructeur qui crée un nouveau champ Password vide initialisé avec la chaîne donnée.<br>JPasswordField(String Password, int n) Constructeur qui crée un nouveau champ Password vide avec la chaîne donnée et un nombre spécifié de colonnes.<br>JPasswordField(Document d, String Password, int n) Constructeur qui crée un champ Password qui utilise le modèle de stockage de texte donné et le nombre de colonnes donné.</p>
+
+
+
+<span id="more-763"></span>
+
+
+
+<p>Les méthodes couramment utilisées sont:<br>getPassword(): renvoie le texte contenu dans JPasswordField.<br>getText(): retourne le texte contenu dans JPasswordField.<br>getEchoChar(): retourne le caractère utilisé pour Echo dans JPasswordField.<br>setEchoChar(char c): définissez le caractère Echo pour JPasswordField.</p>
+
+
+
+<p>Exemple:</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-12 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;  
+import java.awt.event.*;
+
+public class Main
+{
+  public static void main(String[] args) 
+  {  
+    JFrame frame = new JFrame();  
+    
+    final JPasswordField password = new JPasswordField(); 
+    password.setBounds(120, 70, 150, 30); 
+    
+    JLabel label1 = new JLabel("Nom utilisateur:");  
+    label1.setBounds(15, 20, 100, 30);  
+    
+    JLabel label2 = new JLabel("Mot de passe:");  
+    label2.setBounds(15, 70, 100, 30);  
+    
+    JButton btn = new JButton("Se connecter");
+    btn.setBounds(100, 130, 110, 30);  
+    
+    final JTextField tf = new JTextField();
+    tf.setBounds(120, 20, 150, 30); 
+    
+    frame.add(password); 
+    frame.add(label1); 
+    frame.add(label2); 
+    frame.add(btn); 
+    frame.add(tf);
+        
+    frame.setSize(300,230);  
+    frame.setLayout(null);  
+    frame.setVisible(true);   
+    
+    btn.addActionListener(new ActionListener()
+    {
+      public void actionPerformed(ActionEvent e) 
+      {
+        System.out.println("Nom utilisateur : "+ tf.getText());
+        System.out.println("Mot de passe: "+ new String(password.getPassword()));    
+      }
+    });
+  }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-tl6oQ4bqzU8/XrcDMtoKs2I/AAAAAAAAIwo/ybrwO4UkC8wqsdkSGCCrI-EW2_gsCxLmQCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Différence entre JFrame et JPanel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/difference-entre-jframe-et-jpanel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Wed, 22 Jun 2022 17:21:22 +0000</pubDate>
 				<category><![CDATA[Word]]></category>
-		<category><![CDATA[astuce word]]></category>
-		<category><![CDATA[word]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=708</guid>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=759</guid>
 
-					<description><![CDATA[Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école. L’une de ces fonctionnalités&#8230;]]></description>
+					<description><![CDATA[JPanel&#160;et&#160;JFrame&#160;sont des classes du langage de programmation Java. Elles ressemblent à des fenêtres lorsqu’elles sont « exécutées », mais ont des utilisations ou des objectifs différents.&#160;&#160; Différence principale entre JFrame et JPanel On peut ajouter un JPanel dans un JFrame, mais pas l’inverse. Une interface graphique Swing ne peut pas exister sans un conteneur de&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/sommaire-automatique.png?resize=780%2C470&amp;ssl=1" alt="Comment créer un sommaire automatique"/></figure>
+<p><strong>J</strong><strong>Panel</strong>&nbsp;et&nbsp;<strong>JFrame</strong>&nbsp;sont des classes du langage de programmation Java. Elles ressemblent à des fenêtres lorsqu’elles sont « exécutées », mais ont des utilisations ou des objectifs différents.<br>&nbsp;<br>&nbsp;<br><img src="https://1.bp.blogspot.com/-9jlMvT3ZwCk/XrK8-PMdk7I/AAAAAAAAItI/qa6QDWaGYTk3Fb4U-qfnnB-euuyRFwy4wCNcBGAsYHQ/s1600/jframe-jpanel.png"></p>
 
 
 
-<p>Maintenant que je suis de retour à l’école après une longue période, je suis également de retour à avoir à créer des différents présentations PowerPoint et écrire des rapports dans Word. Il ya beaucoup de fonctionnalités dans Word que la plupart des gens n’utilisent jamais à moins qu’ils soient à l’école.</p>
+<span id="more-759"></span>
 
 
 
-<span id="more-708"></span>
+<h6>Différence principale entre JFrame et JPanel</h6>
 
 
 
-<p>L’une de ces fonctionnalités est&nbsp;<strong>la Table des matières</strong>. Word a une grande fonctionnalité qui vous permet de créer une table de contenu automatique ou bien on l’appel aussi&nbsp;<strong>sommaire automatique</strong>. La grande chose est que même si vous avez déjà un document Word avec beaucoup de contenu, il est très facile de le modifier afin que vous puissiez générer la table des matières automatiquement.</p>
+<ul><li>On peut ajouter un JPanel dans un JFrame, mais pas l’inverse.</li><li>Une interface graphique Swing ne peut pas exister sans un conteneur de niveau supérieur comme (JWindow, JFrame ou Applet), alors qu’elle peut exister sans JPanel.</li></ul>
 
 
 
-<p>Dans cet article, je vais vous guider dans le processus de la mise en place de votre document Word avec les en-têtes corrects et ensuite parler de comment créer la table des matières. Je vais également parler de la façon dont vous pouvez personnaliser la table des matières à votre goût.</p>
+<h3>JPanel</h3>
 
 
 
-<h2>Configuration et affichage des en-têtes dans Word</h2>
+<p><strong>JPanel</strong>&nbsp;sert en fait de conteneur à usage général. C’est là que des opérations plus complexes ou plus importantes sont généralement mises en place. Vous pouvez placer de nombreuses opérations dans un même panneau.</p>
 
 
 
-<p>La première chose que vous voulez faire avant de pouvoir créer une table des matières est de configurer vos en-têtes. Par défaut, les en-têtes autorisés que vous pouvez utiliser sont&nbsp;<strong>H1 (titre 1), H2 (titre 2) et H3 (titre 3)</strong>.</p>
+<p><strong>JPanel</strong>&nbsp;est une sous-classe de JComponent, et JComponent est une sous-classe de Container, par conséquent,&nbsp;<strong>JPanel</strong>&nbsp;est également un conteneur. Il y a tellement de méthodes qui peuvent être utilisées pour&nbsp;<strong>JPanel</strong>, qu’il a héritées de ses super classes. L’accessibilité, les alignements, etc. sont quelques exemples. Dans&nbsp;<strong>JPanel</strong>, vous pouvez également mettre des champs, des labels, des boutons, des cases à cocher et même des images, et de nombreuses autres fonctions. Il représente simplement une zone où vous pouvez mettre&nbsp;<a href="https://waytolearnx.com/2020/05/creation-interface-graphique-avec-swing-les-bases.html">des composant de Swing (Jlabel, JTable, JButton, JMenu, etc.)</a>.<br>&nbsp;<br>&nbsp;<br>En programmation Java, pour créer un panneau, vous devez appeler un constructeur&nbsp;<strong>JPanel()</strong>&nbsp;(cela crée un panneau vide). Il est opaque par défaut, mais vous pouvez changer sa couleur d’arrière-plan. Vous pouvez également personnaliser ses composants à l’aide d’un gestionnaire de disposition. Les gestionnaires de disposition tels que la disposition de flux, la disposition de grille, la disposition de bordure, etc., vous aident à contrôler les tailles, les positions et l’alignement de vos composants dans&nbsp;<strong>JPanel</strong>. Les couleurs des composants peuvent également être personnalisées à l’aide des constructeurs&nbsp;<strong>setColor()</strong>,&nbsp;<strong>setForeGround()</strong>&nbsp;et&nbsp;<strong>setBackgroundColor()</strong>.<br>&nbsp;</p>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/1.png?resize=556%2C204" alt="header format dans word" class="wp-image-1095"/></figure></div>
 
+<h3>JFrame</h3>
 
-<p>Vous pouvez les trouver dans la boîte Styles de l’onglet Accueil principal du ruban. Ce sont les trois seules que vous pouvez utiliser pour un TOC par défaut. Si vous ajoutez un TOC personnalisé, vous pouvez également utiliser&nbsp;<strong>H4 (titre 4), H5 (titre 5), H6 (titre 6), sous-titre, titre et titre de tableur</strong>.</p>
 
 
+<p>Il s’agit d’un conteneur de niveau supérieur utilisé pour représenter les exigences minimales pour une fenêtre. Cela inclut les bordures, le redimensionnement (le JFrame est-il redimensionnable?), La barre de titre, les contrôles (Réduire / Agrandir sont autorisés?) Et les gestionnaires d’événements pour divers événements comme windowClose, windowOpened, etc.</p>
 
-<p>Lorsque vous parcourez votre document pour ajouter les différentes rubriques, n’hésitez pas à choisir parmi les titres susmentionnés si H1, H2 et H3 se sentent trop restreints. Vous aurez juste à insérer un TOC personnalisé et modifier quelques paramètres, que je vais également mentionner.</p>
 
 
+<p>JFrame, tout comme JPanel, est également une sous-classe de JComponent et JContainer. C’est une fenêtre avec ses propres caractéristiques. Il a une bordure, une barre de titre et des composants comment label, bouton, etc. Ses attributs physiques, comme la taille, la couleur, les polices, etc., peuvent tous être personnalisés. Il existe une syntaxe appropriée héritée pour chaque attribut que vous souhaitez modifier. JFrame a essentiellement deux sous-zones, la zone de contenu et la barre de menus, mais la plupart des contrôles se trouvent dans la zone de contenu. Dans JFrame, vous pouvez également placer des boutons, des labels et des cases à cocher.<br>&nbsp;</p>
 
-<p>Il est très facile d’appliquer des en-têtes au texte dans Word. Cliquez simplement sur la ligne avec le texte, puis cliquez sur le style de titre que vous souhaitez appliquer.</p>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/applique-header-dans-word.png?resize=498%2C201" alt="Appliquer header dans Word" class="wp-image-1096"/></figure></div>
+<h3>Conclusion</h3>
 
 
-<p>Passez par le document et ajoutez autant de titres que vous le souhaitez. Notez que lorsque vous ajoutez des en-têtes, il sera difficile de voir les en-têtes, même si vous avez des marques de paragraphe visibles. Pour afficher rapidement tous les en-têtes d’un document Word, cliquez sur l’onglet&nbsp;<strong>Affichage</strong>&nbsp;puis cochez la case sous&nbsp;<strong>Volet&nbsp;de navigation</strong>.</p>
 
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/navigation-volet-word.png?resize=555%2C201" alt="Volet de navigation dans Word" class="wp-image-1097"/></figure></div>
-
-
-<p>Lorsque vous faites cela, un volet apparaîtra sur le côté gauche du document et vous pourrez voir les différentes rubriques, sous-titres, etc.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/afficher-heading-word.png?resize=270%2C403" alt="Afficher heading dans Word" class="wp-image-1098"/></figure></div>
-
-
-<p>En cliquant sur l’un des éléments de la liste, vous accédez à cette rubrique dans le document Word. C’est une excellente façon de voir rapidement votre structure de titre avant de créer votre TOC final.</p>
-
-
-
-<h2>Ajout d’une table des matières dans Word</h2>
-
-
-
-<p>Maintenant que nous avons tous nos en-têtes correctement configurés, allons-y et insérez une table des matières. Tout d’abord, nous allons commencer avec la configuration TOC par défaut dans Word. Avant de commencer, il peut être judicieux d’ajouter une page blanche au début de votre document.</p>
-
-
-
-<p>Pour ce faire, allez au sommet de votre première page actuelle, puis cliquez sur Insérer et page blanche.</p>
-
-
-
-<p>Cliquez maintenant sur&nbsp;<strong>Références</strong>,&nbsp;<strong>Table des matières</strong>&nbsp;et choisissez parmi les choix&nbsp;<strong>automatiques</strong>&nbsp;en haut.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/inserrer-table-de-matiere-word.png?resize=406%2C619" alt="Insérrer un table de matière dans Word" class="wp-image-1099"/></figure></div>
-
-
-<p>Une table manuelle ne sera que du texte de remplissage au format d’une table des matières, mais vous devrez effectuer manuellement toutes les modifications. Lorsque vous insérez la table des matières automatique, vous devriez voir quelque chose comme ceci:</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-contenu-word.png?resize=677%2C359" alt="Table de contenu dans Word" class="wp-image-1100"/></figure></div>
-
-
-<p>Impressionnant! Maintenant, vous avez un TOC joliment formaté dans votre document Word! Une fois que vous avez inséré le TOC, vous pouvez toujours modifier les en-têtes de votre document, mais les modifications ne seront pas automatiquement reflétées dans le TOC.</p>
-
-
-
-<p>Afin de mettre à jour la table des matières, il vous suffit de cliquer à l’intérieur de celle-ci, puis de cliquer sur Mettre à jour la table en haut.</p>
-
-
-
-<p>Il vous demandera si vous voulez mettre à jour uniquement les numéros de page ou la&nbsp;<strong>table entière</strong>. Si vous avez modifié, inséré ou supprimé des en-têtes, vous devez choisir la table entière. Si vous venez d’ajouter plus de contenu à votre document, mais que vous n’avez pas ajouté ou supprimé d’en-têtes, vous pouvez choisir uniquement&nbsp;<strong>les numéros de page</strong>.</p>
-
-
-
-<h2>Personnaliser la table des matières</h2>
-
-
-
-<p>Si vous avez utilisé des titres autres que H1, H2 et H3, vous remarquerez qu’ils n’apparaîtront pas dans le TOC. Pour utiliser ces en-têtes supplémentaires, vous devez choisir&nbsp;<strong>Table des matières personnalisée</strong>&nbsp;lors de l’insertion de la table des matières.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/options-table-de-matiere.png?resize=517%2C463" alt="Option table de contenu dans Word" class="wp-image-1101"/></figure></div>
-
-
-<p>Cela ouvre la boîte de dialogue des options pour le TOC. Vous pouvez modifier certains paramètres de base, comme pour afficher les numéros de page et pour aligner ou non les numéros de droite. Sous&nbsp;<strong>Général</strong>, vous pouvez choisir parmi plusieurs styles et vous pouvez également choisir d’afficher plus de niveaux au-delà de trois, qui est le titre H3.</p>
-
-
-
-<p>Si vous cliquez sur&nbsp;<strong>Options</strong>, vous pouvez choisir des éléments supplémentaires pour construire la table des matières avec. Si vous faites défiler vers le bas, vous pourrez sélectionner l’en-tête des&nbsp;<strong>sous-titres</strong>&nbsp;et de&nbsp;<strong>la table des matières</strong>.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/toc-options-word.png?resize=369%2C319" alt="Option table de matiére" class="wp-image-1102"/></figure></div>
-
-
-<p>Pour personnaliser l’apparence de la table des matières, vous devez cliquer sur le bouton&nbsp;<strong>Modifier</strong>. Si vous cliquez simplement sur la table des matières et choisissez&nbsp;<strong>Police</strong>&nbsp;ou&nbsp;<strong>Paragraphe</strong>, il ne formate pas la table des matières.</p>
-
-
-
-<p>Lorsque vous cliquez sur Modifier, vous obtenez une autre boîte de dialogue où vous pouvez modifier chaque niveau de COT. TOC 1 représente H1, TOC 2 représente un groupe H2, etc.</p>
-
-
-
-<p>Cliquez sur le deuxième bouton&nbsp;<strong>Modifier</strong>&nbsp;et vous serez en mesure de modifier la mise en forme pour ce titre particulier. Donc, si vous voulez, vous pouvez faire toutes les rubriques H1 gras et une taille de police différente.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/modifier-style-toc.png?resize=526%2C539" alt="Modifier le style du table de matiére" class="wp-image-1103"/></figure></div>
-
-
-<p>Si vous cliquez sur le bouton&nbsp;<strong>Format</strong>&nbsp;en bas, vous pouvez personnaliser encore plus de paramètres comme le paragraphe, onglets, bordure, cadre, numérotation, etc Voici mon TOC avec H1 en gras et avec une taille de police plus grande.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/table-de-matiere-modifiee.png?resize=669%2C361" alt="Table de matière modifié" class="wp-image-1104"/></figure></div>
-
-
-<p>Enfin, si vous appuyez sur la touche CTRL et puis cliquez sur quoi que ce soit dans la table des matières, vous serez amené à cette page.</p>
-
-
-
-<p>Toutefois, si vous trouvez ennuyeux d’avoir à appuyer sur la touche CTRL, vous pouvez changer cela en allant à&nbsp;<strong>Fichier – Options</strong>&nbsp;et puis en cliquant sur Avancé.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2017/02/ctrl-click-hyperlink.png?resize=559%2C316" alt="ctrl-click-hyperlink" class="wp-image-1105"/></figure></div>
-
-
-<p>Allez-y et décochez la case&nbsp;<strong>Utiliser CTRL + Cliquer pour suivre l’hyperlien</strong>. Maintenant, vous pouvez simplement cliquer sur les éléments de la table des matières comme des liens sans tenir la touche CTRL enfoncée. Malheureusement, cela ne fonctionne que sur votre copie locale de Word.</p>
-
-
-
-<p>Lorsque vous envoyez un courrier électronique à quelqu’un et si elles n’ont pas ce paramètre modifié, ils devront CTRL + clic. C’est à ce sujet quand il s’agit de la table des matières dans Word. Prendre plaisir!</p>
+<p><strong>JFrame</strong>&nbsp;est la fenêtre; il peut contenir une ou plusieurs instances du&nbsp;<strong>JPanel</strong>.&nbsp;<strong>JPanel</strong>&nbsp;n’est pas une fenêtre.</p>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Supprimer le formattage de text collé dans word</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/supprimer-le-formattage-de-text-colle-dans-word/</link>
+		<title>JTextField &#124; Java Swing</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/jtextfield-java-swing/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 01:46:15 +0000</pubDate>
-				<category><![CDATA[Word]]></category>
-		<category><![CDATA[astuce word]]></category>
-		<category><![CDATA[formattage text word]]></category>
-		<category><![CDATA[word]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=706</guid>
+		<pubDate>Wed, 22 Jun 2022 17:19:50 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=757</guid>
 
-					<description><![CDATA[Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&#160;Microsoft Word, Word permet de garder la mise en forme du texte. Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&#160;gras, et ce texte resterait&#160;bleu. Pour supprimer&#8230;]]></description>
+					<description><![CDATA[JTextField fait partie du package javax.swing. La classe JTextField est un composant qui permet de modifier une seule ligne de texte. JTextField hérite de la classe JTextComponent et utilise l’interface SwingConstants. Les constructeurs de la classe JTextField sont : Constructeurs de JTextField Description JTextField() Constructeur qui crée un nouveau TextField JTextField(int columns) Constructeur qui crée un nouveau TextField vide avec un nombre&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p></p>
+<p><strong>J</strong>TextField fait partie du package javax.swing. La classe <strong>JTextField</strong> est un composant qui permet de modifier une seule ligne de texte. <strong>JTextField</strong> hérite de la classe JTextComponent et utilise l’interface SwingConstants.<br> <br>Les constructeurs de la classe <strong>JTextField</strong> sont :</p>
 
 
 
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/microsoft-word.jpg?resize=780%2C470&amp;ssl=1" alt="Microsoft Word"/></figure>
+<figure class="wp-block-table"><table><thead><tr><th>Constructeurs de JTextField</th><th>Description</th></tr></thead><tbody><tr><td><strong>JTextField()</strong></td><td>Constructeur qui crée un nouveau TextField</td></tr><tr><td><strong>JTextField(int columns)</strong></td><td>Constructeur qui crée un nouveau TextField vide avec un nombre spécifié de colonnes.</td></tr><tr><td><strong>JTextField(String text)</strong></td><td>Constructeur qui crée un nouveau champ de texte vide initialisé avec la chaîne donnée.</td></tr><tr><td><strong>JTextField(String text, int columns)</strong></td><td>Constructeur qui crée un nouveau champ de texte vide avec la chaîne donnée et un nombre spécifié de colonnes.</td></tr><tr><td><strong>JTextField(Document doc, String text, int columns)</strong></td><td>Constructeur qui crée un champ de texte qui utilise le modèle de stockage donné et le nombre de colonnes donné.</td></tr></tbody></table></figure>
 
 
 
-<p>Lorsque vous copiez du texte à partir d’un autre document ou une page web d’Internet et de le coller dans&nbsp;<strong>Microsoft Word</strong>, Word permet de garder la mise en forme du texte.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><a href="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2014/09/word-logo.png?resize=256%2C256" alt="word-logo" class="wp-image-34"/></a></figure></div>
-
-
-<p>Par exemple, si vous deviez copier le texte sur cette page pour un fichier Word, le texte resterait&nbsp;<strong>gras</strong>, et ce texte resterait&nbsp;<strong>bleu</strong>. Pour supprimer la mise en forme dans Microsoft Word à partir de n’importe quel texte en surbrillance le texte et appuyez sur la touche raccourci&nbsp;<strong>Ctrl + Espace</strong>. Cela mettra le texte à la police par défaut, supprimer la mise en forme, et même supprimer les liens.</p>
+<p>Les méthodes couramment utilisée de JTextField sont les suivantes:</p>
 
 
 
-<p>Sinon, vous pouvez utiliser l’option de Collage spécial dans Microsoft Word pour coller le texte sans formatage.</p>
+<ul><li><strong>setColumns(int n)</strong> : définissez le nombre de colonnes du champ de texte.</li><li><strong>setFont(Font f)</strong> : définissez la police du texte affiché dans le champ texte.</li><li><strong>addActionListener(ActionListener l)</strong> : définissez un ActionListener sur le champ de texte.</li><li><strong>int getColumns()</strong> : récupère le nombre de colonnes dans le champ texte.</li></ul>
 
 
 
-<p><strong>Astuce:</strong>&nbsp;Dans la plupart des versions de Windows&nbsp;<strong>Ctrl + Windows + V</strong>&nbsp;sera aussi souvent coller le texte en texte brut.</p>
+<span id="more-757"></span>
+
+
+
+<h3>Exemple: JTextField</h3>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-13 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.event.*;
+
+public class TextFieldTest implements ActionListener
+{
+  JTextField text1,text2;
+  JButton btn;
+  
+  TextFieldTest()
+  {
+    JFrame f = new JFrame();
+    text1 = new JTextField();
+    text1.setBounds(20,50,280,30);
+    text2 = new JTextField();
+    text2.setBounds(20,90,280,30);
+    text2.setEditable(false);
+    btn = new JButton("Cliquez ici!");
+    btn.setBounds(100,140,100,40);
+    btn.addActionListener(this);
+    f.add(text1);
+    f.add(text2);
+    f.add(btn);
+    f.setSize(340,250);
+    f.setLayout(null);
+    f.setVisible(true);
+  }
+  public void actionPerformed(ActionEvent e) 
+  {
+    String name = text1.getText();
+    String result = "";
+    if(e.getSource() == btn){
+      result = "Hello "+name+", Welcome to WayToLearnX!";
+    }
+    text2.setText(result);
+  }
+  public static void main(String[] args) {
+    new TextFieldTest();
+  } 
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-lpWtFhW8cjo/XrQRYV8GfDI/AAAAAAAAIuw/ojeAoNjLH04Vk1RSKtUipOvgt-W7rlXnACNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<p><br>Exemple: JTextField avec ActionListener</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-14 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.event.*;
+
+public class TextFieldTest implements ActionListener
+{
+  JTextField text1,text2;
+  JButton btn;
+  
+  TextFieldTest()
+  {
+    JFrame f = new JFrame();
+    text1 = new JTextField();
+    text1.setBounds(20,50,280,30);
+    text2 = new JTextField();
+    text2.setBounds(20,90,280,30);
+    text2.setEditable(false);
+    btn = new JButton("Cliquez ici!");
+    btn.setBounds(100,140,100,40);
+    btn.addActionListener(this);
+    f.add(text1);
+    f.add(text2);
+    f.add(btn);
+    f.setSize(340,250);
+    f.setLayout(null);
+    f.setVisible(true);
+  }
+  public void actionPerformed(ActionEvent e) 
+  {
+    String name = text1.getText();
+    String result = "";
+    if(e.getSource() == btn){
+      result = "Hello "+name+", Welcome to WayToLearnX!";
+    }
+    text2.setText(result);
+  }
+  public static void main(String[] args) {
+    new TextFieldTest();
+  } 
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-rNKdTVJfV6o/XrQiv6dyzoI/AAAAAAAAIu4/_XbllG7LxFMlwXXVpAexDs-9VHHtnZqUgCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
 ]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
-		<title>Comment ajouter ou supprimer une bordure de page dans Microsoft Word ?</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-ajouter-ou-supprimer-une-bordure-de-page-dans-microsoft-word/</link>
+		<title>Création interface graphique avec Swing – les bases</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/22/java-swing/</link>
 		
 		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 01:44:50 +0000</pubDate>
-				<category><![CDATA[Word]]></category>
-		<category><![CDATA[astuce word]]></category>
-		<category><![CDATA[word]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=704</guid>
+		<pubDate>Wed, 22 Jun 2022 16:36:43 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=746</guid>
 
-					<description><![CDATA[Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D. Ajouter une bordure dans Microsoft Word Ouvrez Microsoft Word. Cliquez sur l’onglet&#160;Mise en page. Dans Word 2013 et 2016, cliquez&#8230;]]></description>
+					<description><![CDATA[Ce tutoriel Java est conçu pour les débutants ayant besoin de comprendre l’api Swing de Java à partir de zéro. En Java, Swing fournit un ensemble de bibliothèques pour créer une interface graphique (GUI), pour le faire fonctionner indépendamment sur différentes plates-formes. Swing est certainement celui qui est le plus utilisé, car ses propriétés de&#8230;]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-bordure.jpg?resize=608%2C470&amp;ssl=1" alt=""/></figure>
+<p><strong>C</strong>e tutoriel Java est conçu pour les débutants ayant besoin de comprendre l’api Swing de Java à partir de zéro.</p>
 
 
 
-<p>Microsoft Word vous offre des centaines d’options de bordure de page, vous permettant d’entourer une page d’une bordure propre et fantastique. Vous pouvez également définir une bordure pour fournir une ombre ou un effet 3D.</p>
+<p>En Java, Swing fournit un ensemble de bibliothèques pour créer une interface graphique (GUI), pour le faire fonctionner indépendamment sur différentes plates-formes. Swing est certainement celui qui est le plus utilisé, car ses propriétés de légèreté, contrôle et de personnalisation facile.</p>
 
 
 
-<span id="more-704"></span>
+<p>Avant Swing, AWT(Abstract Windowing Toolkit) est celui qui permet de créer différentes interfaces graphiques. Cependant, en raison de ses inconvénients sur la plate-forme, lourd et peu de composants, il a été remplacé par Java Swing, qui est intégré au package AWT. Notez que certains composants AWT restent en Java et dans certaines situations, il doit être utilisé. Dans la partie suivante, vous verrez un package AWT à importer par nos exemples.</p>
 
 
 
-<h2>Ajouter une bordure dans Microsoft Word</h2>
+<span id="more-746"></span>
 
 
 
-<ol><li>Ouvrez Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Encadré</strong>&nbsp;si vous souhaitez une bordure carrée autour de votre page.</li><li>Sélectionnez le style de bordure souhaité sur la page, qui peut être plein, pointillé. Sélectionnez la couleur et la largeur de la bordure. Cliquez sur la flèche vers le bas pour le menu déroulant&nbsp;<strong>Motif</strong>. Dans l’exemple ci-dessous, nous utilisons l’art des coeurs comme bordure.</li><li>Une fois que vous avez sélectionné toutes les options de bordure que vous souhaitez utiliser dans votre document, cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour appliquer la bordure.</li></ol>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-ajouter-supprimer-word.jpg?resize=563%2C427&amp;ssl=1" alt="microsoft-word-ajouter-supprimer-word" class="wp-image-6501"/></figure></div>
-
-
-<p><strong>Remarque</strong>&nbsp;: Par défaut, les bordures sont appliquées à l’ensemble du document, ce qui signifie que chaque page a la même bordure. En cliquant sur la flèche vers le bas sur Appliquer à, vous avez la possibilité de sélectionner uniquement la première page, la page sélectionnée, toutes les pages sauf la première page et d’autres options.</p>
+<p>Dans ce tutoriel, nous nous concentrons sur Java Swing, qui possède un large éventail de composants, tels que JFrame, JTable, JButton, JMenu, etc.</p>
 
 
 
-<h2>Supprimer une bordure dans Microsoft Word</h2>
+<h1>Les composants Swing de Java</h1>
 
 
 
-<ol><li><strong>Ouvrez</strong>&nbsp;Microsoft Word.</li><li>Cliquez sur l’onglet&nbsp;<strong>Mise en page</strong>. Dans Word 2013 et 2016, cliquez sur l’onglet Conception à la place.</li><li>Dans le groupe&nbsp;<strong>Arrière-plan</strong>&nbsp;de la page, cliquez sur l’option&nbsp;<strong>Bordures de page</strong>.</li><li>Dans la fenêtre Bordures et trame (illustrée ci-dessous), si elle n’est pas déjà sélectionnée, cliquez sur l’onglet Bordure de page.</li><li>Sélectionnez&nbsp;<strong>Aucun</strong>&nbsp;pour supprimer toute bordure sur la page.</li><li>Supprimer la bordure de page dans Microsoft Word</li><li>Cliquez sur le bouton&nbsp;<strong>OK</strong>&nbsp;pour supprimer la bordure.</li></ol>
+<h2 class="has-vivid-red-color has-text-color">JFrame</h2>
+
+
+
+<p>Dans Java Swing, la plupart des applications seront construites à l’intérieur d’un composant de base appelé&nbsp;<strong>JFrame</strong>, qui crée une fenêtre pour contenir d’autres composants.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-15 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+ 
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        JFrame frame = new JFrame("Hello World");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(250, 250);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p>Notez que nous pouvons initialiser le frame avec la chaîne «&nbsp;Hello World&nbsp;», ce qui crée un frame vide avec le titre «&nbsp;Hello World&nbsp;». La fonction&nbsp;<strong>setDefaultCloseOperation</strong>&nbsp;indique au frame quoi faire lorsque l’utilisateur ferme le frame et&nbsp;<strong>JFrame.EXIT_ON_CLOSE</strong>; sortir quant l’utilisateur ferme le frame. La taille du frame peut être définie par&nbsp;<strong>setSize</strong>&nbsp;avec les paramètres (largeur et hauteur). Notez que sans la fonction&nbsp;<strong>setVisible</strong>&nbsp;avec le paramètre «&nbsp;true&nbsp;», vous ne verrez rien à l’écran. Pour voir la partie GUI, nous avons besoin de cette fonction.<br>&nbsp;<br><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-wnAAmmcaeM4/XrGAr_AtPoI/AAAAAAAAIro/poRKNbPBrn0Sbra50eKNkfOKyv24xN1DACNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JLabel</h2>
+
+
+
+<p>JLabel est une zone pour afficher une chaîne courte ou une image ou les deux. Normalement, nous pouvons ajouter le JLabel dans le JFrame que nous avons construit dans la partie précédente et afficher différents textes. Avec le code java suivant ajouté après la création de JFrame, une label avec le texte «&nbsp;Je suis un JLabel&nbsp;» est créée.</p>
+
+
+
+<div class="wp-block-cover is-light" style="min-height:209px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-16 wp-block-group"><div class="wp-block-group__inner-container">
+<p>JLabel label = new JLabel<strong>(</strong>&#8220;Je suis un JLabel&#8221;, JLabel.CENTER<strong>)</strong>;</p>
+
+
+
+<p>frame.add<strong>(</strong>label<strong>)</strong>;</p>
+</div></div>
+</div></div>
+
+
+
+<p>Pour la position du label, elle pourrait être spécifiée par&nbsp;<strong>JLabel.LEFT</strong>&nbsp;(gauche),&nbsp;<strong>JLabel.CENTER</strong>&nbsp;(centre),&nbsp;<strong>JLabel.RIGHT</strong>&nbsp;(droite).<br>&nbsp;<br><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-gnrPLmNB0v8/XrGNIWXtVUI/AAAAAAAAIrw/IfIgF8nXf_4Q97ogHQoMCCX5ZJ2iXkVlgCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JPanel</h2>
+
+
+
+<p>JPanel est un conteneur populaire pour contenir différents composants. Il peut être défini et ajouté à l’aide du code suivant:</p>
+
+
+
+<div class="wp-block-cover is-light" style="min-height:142px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-17 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">JPanel panel = new JPanel();
+frame.add(panel);</pre>
+</div></div>
+</div></div>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JButton</h2>
+
+
+
+<p>JButton est un composant de Java Swing. Il peut être configuré pour avoir différentes actions, en utilisant event listener. Pour cette partie, nous en discuterons dans un autre tutoriel. Dans le code suivant, nous avons ajouté deux boutons dans le panel avec un nom différent Bouton 1, Bouton 2</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-18 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Définissez le frame
+        JFrame frame = new JFrame("Hello World");
+    
+        JLabel label = new JLabel("Je suis un JLabel", JLabel.CENTER);
+        frame.add(label);
+    
+        // Définissez le panel
+        JPanel panel = new JPanel();
+
+        // Définir les boutons
+        JButton btn1 = new JButton("Bouton 1");
+        JButton btn2 = new JButton("Bouton 2");      
+
+        // Ajouter les boutons au frame
+        panel.add(btn1); 
+        panel.add(btn2);
+         
+        // Ajouter label et panel au frame
+        frame.setLayout(new GridLayout(2, 1));
+        frame.add(label);
+        frame.add(panel);
+         
+        frame.pack();
+        frame.setSize(250, 250);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p>Dans l’exemple ci-dessus, nous avons défini un label sur le côté supérieur et un panel contenant deux boutons en bas.<br>&nbsp;<strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-s8G9WJFRjm4/XrGgQtmjddI/AAAAAAAAIr4/zKY-uQ2r2Yc-72RzDn7aLf0whdfRZN4fACNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JRadioButton</h2>
+
+
+
+<p>Ici, JRadioButton est assez différent de JButton. Il s’agit d’un bouton radio qui peut être sélectionné ou désélectionné. À utiliser avec l’objet ButtonGroup pour créer un groupe de boutons, dans lequel un seul bouton peut être sélectionné à la fois.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-19 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Définissez le frame
+        JFrame frame = new JFrame("Hello World");
+    
+        JLabel label = new JLabel("Je suis un JLabel", JLabel.CENTER);
+        frame.add(label);
+    
+        // Définissez le panel
+        JPanel panel = new JPanel();
+
+        // Créer des boutons radio
+        ButtonGroup group = new ButtonGroup();     
+        JRadioButton radio1 = new JRadioButton("ON", true);
+        JRadioButton radio2 = new JRadioButton("OFF", false);
+
+        // Ajouter les boutons radio au groupe
+        group.add(radio1);
+        group.add(radio2);
+    
+        // Ajouter les boutons au frame
+        panel.add(radio1); 
+        panel.add(radio2);
+         
+        // Ajouter label et panel au frame
+        frame.setLayout(new GridLayout(2, 1));
+        frame.add(label);
+        frame.add(panel);
+         
+        frame.pack();
+        frame.setSize(250, 250);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong><br></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-ZExj1voZqKM/XrGjAsLWDkI/AAAAAAAAIsA/sEFWFoC5vMMsWnjo8yD79r1t_ejamcRCgCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JCheckBox</h2>
+
+
+
+<p>JCheckBox est utilisé pour créer une case à cocher, dont plusieurs cases à cocher peuvent être sélectionnées en même temps. C’est la principale différence entre JRadioButton.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-20 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Définissez le frame
+        JFrame frame = new JFrame("Hello World");
+
+        JLabel label = new JLabel("Je suis un JLabel", JLabel.CENTER);
+        frame.add(label);
+
+        // Définissez le panel
+        JPanel panel = new JPanel();
+
+        // Créer des cases à cocher    
+        JCheckBox checkBox1 = new JCheckBox("Java", true);
+        JCheckBox checkBox2 = new JCheckBox("PHP");
+        JCheckBox checkBox3 = new JCheckBox("Python", true);
+
+        // Ajouter les cases à cocher au frame
+        panel.add(checkBox1); 
+        panel.add(checkBox2);
+        panel.add(checkBox3);
+
+        // Ajouter label et panel au frame
+        frame.setLayout(new GridLayout(2, 1));
+        frame.add(label);
+        frame.add(panel);
+
+        frame.pack();
+        frame.setSize(250, 250);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-shy_juhTFGQ/XrGnQWwyQaI/AAAAAAAAIsI/8_V096PmrdkRknf2X3xBK0a9Ui1yG0OcACNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JComboBox</h2>
+
+
+
+<p>JComboBox est un composant permettant de sélectionner une valeur dans une liste déroulante. Vous pouvez choisir un et un seul élément dans la liste. L’exemple suivant montre comment créer une liste déroulante, à partir de laquelle différents langages peuvent être choisis: « PHP », « Java », « Python », « C++ », « Ruby ».</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-21 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Définissez le frame
+        JFrame frame = new JFrame("Hello World");
+
+        // Set data in the drop-down list
+        String[] langs = {"PHP", "Java", "Python", "C++", "Ruby"};
+
+        // Créer une liste déroulante
+        JComboBox cb = new JComboBox(langs);
+    
+        frame.setLayout(new GridLayout(6, 1));
+        frame.add(cb);
+
+        frame.pack();
+        frame.setSize(250, 250);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-GB9HlAcOEhM/XrGq5emN2dI/AAAAAAAAIsQ/HY6gQMorycknMq4k42Lu9AFlgVMWnKB_wCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JTable</h2>
+
+
+
+<p>JTable est utilisé pour créer des tables bidimensionnelles. La table peut afficher des données à l’intérieur. En plus, l’utilisateur peut également modifier les données. L’exemple suivant montre que nous avons créé quatre colonnes: ID, Nom, Age, Adresse. Dans chaque colonne, nous avons mis les données / informations à l’intérieur.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-22 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Définissez le frame
+        JFrame frame = new JFrame("Hello World");
+
+        //L'en-têtes du JTable
+        String[] column = {"ID", "Nom", "Age", "Adresse"};
+    
+        //Les lignes du JTable
+        String[][] data = {
+                {"01", "Thomas", "55", "Paris"}, 
+                {"02", "Emily", "45", "Marseille"}, 
+                {"03", "Yohan", "12", "Lyon"}, 
+                {"04", "Jean", "29", "Toulouse"},
+                {"05", "Bob", "30", "Nice"}
+        };
+        
+        // Créer le JTable
+        JTable table = new JTable(data, column);
+        JScrollPane scroll = new JScrollPane(table); 
+        frame.add(scroll);
+
+        frame.pack();
+        frame.setSize(300, 200);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-brfdBF1uflo/XrGu-fbNcnI/AAAAAAAAIsY/gZ6J_pC6mLMLU83wjWLNW8pp3I7V5fVzACNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JMenu</h2>
+
+
+
+<p>La classe JMenu permet de créer un menu déroulant. Dans cet exemple, nous avons différents paramètres sur le menu. Nous avons le menu Fichier, qui comprend le sous-menu Nouveau, Ouvrir, Enregistrer et le menu Édition et en fin le menu Aide.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-23 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Définissez le frame
+        JFrame frame = new JFrame("Hello World");
+
+        JPanel panel = new JPanel();
+         
+        // Définir le menu principal
+        JMenuBar menu = new JMenuBar();
+        JMenu file = new JMenu("Fichier");
+        JMenu edit = new JMenu("Edition");
+        JMenu help = new JMenu("Aide");
+         
+        // Définir le sous-menu pour Fichier
+        JMenuItem newf = new JMenuItem("Nouveau");
+        JMenuItem quit = new JMenuItem("Ouvrir");
+        JMenuItem save = new JMenuItem("Enregistrer");
+ 
+        file.add(newf);
+        file.add(save);
+        file.add(quit);
+         
+        menu.add(file);
+        menu.add(edit);
+        menu.add(help);
+         
+        frame.setLayout(new GridLayout(5, 1));
+    
+        frame.add(menu);
+        frame.add(panel);
+        frame.pack();
+        frame.setSize(300, 200);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-xFSfOMQYKHA/XrG3-YJj4II/AAAAAAAAIsg/gZ3DEJ2uTQElq3AaB4mZBxacyqlOT-d-QCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
+
+
+
+<h2 class="has-vivid-red-color has-text-color">JSlider</h2>
+
+
+
+<p>JSlider est un composant qui permet aux utilisateurs de sélectionner une valeur en faisant glisser un bouton dans un intervalle spécifié. Le bouton, il pointe toujours vers le point qui correspond aux valeurs entières dans l’intervalle.</p>
+
+
+
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container">
+<div class="wp-container-24 wp-block-group"><div class="wp-block-group__inner-container">
+<pre class="wp-block-preformatted">import javax.swing.*;
+import java.awt.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        // Définissez le frame
+        JFrame frame = new JFrame("Hello World");
+
+        JPanel panel = new JPanel();
+         
+        // Définissez le slider
+        JSlider slider = new JSlider();
+        slider.setMajorTickSpacing(20);
+        slider.setMinorTickSpacing(5);
+        slider.setPaintTicks(true);
+        slider.setPaintLabels(true);
+    
+        frame.setLayout(new GridLayout(2, 1));
+        frame.add(slider);
+        frame.pack();
+        frame.setSize(400, 200);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</pre>
+</div></div>
+</div></div>
+
+
+
+<p><strong>Sortie:</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://1.bp.blogspot.com/-SB1jI2-0qFs/XrG575B6o1I/AAAAAAAAIso/IqyfhFM87-4Cdwndg6_9JeHrmcgmsc1iwCNcBGAsYHQ/s1600/out.png" alt=""/></figure>
 ]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Comment utiliser Microsoft Office gratuitement sur le Web ?</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-utiliser-microsoft-office-gratuitement-sur-le-web/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 01:43:47 +0000</pubDate>
-				<category><![CDATA[Word]]></category>
-		<category><![CDATA[astuce word]]></category>
-		<category><![CDATA[word]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=702</guid>
-
-					<description><![CDATA[Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web. Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&#160;Office gratuit pour les applications Web. Anciennement connu&#8230;]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=727%2C404&amp;ssl=1" alt="microsoft-office-en-ligne"/></figure>
-
-
-
-<p>Si vous n’avez pas besoin de toute la puissance de la version de bureau de Microsoft Office, vous pouvez utiliser la version en ligne gratuite à la place. Voici comment accéder à Office sur le Web.</p>
-
-
-
-<span id="more-702"></span>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-office-en-ligne.jpg?resize=708%2C393&amp;ssl=1" alt="microsoft-office-en-ligne" class="wp-image-6508"/></figure></div>
-
-
-<p>Voulez-vous utiliser Microsoft Office mais ne voulez pas payer pour cela? Essayez&nbsp;<strong>Office gratuit pour les applications Web</strong>.</p>
-
-
-
-<p>Anciennement connu sous le nom d’<strong>Office Online</strong>&nbsp;et maintenant simplement appelé Office, les applications Web résident en ligne, accessibles via votre navigateur. Au lieu d’installer Word, Excel et PowerPoint sur votre ordinateur, vous utilisez des variétés basées sur le cloud des différents programmes – similaires à Google Docs – et tout ce dont vous avez besoin est un navigateur Web tel que Chrome, Firefox, Edge, Internet Explorer ou un programme similaire.</p>
-
-
-
-<p>Au lieu de stocker vos fichiers et documents sur votre ordinateur, vous les enregistrez sur&nbsp;<strong>Microsoft OneDrive</strong>, le service de stockage en nuage de l’entreprise. Le seul inconvénient est que Office pour les applications Web n’est pas aussi riche en fonctionnalités que leurs homologues de bureau. Vous trouverez des commandes d’édition et de formatage de base, mais pas beaucoup plus. Cependant, si tout ce dont vous avez besoin sont les bases, c’est une option qui mérite d’être essayée.</p>
-
-
-
-<p>Office pour le Web propose les quatre programmes principaux: Word, Excel, PowerPoint et OneNote. Mais vous pouvez également accéder à d’autres applications, notamment Outlook, Calendar, People, Skype et OneDrive. Une autre application appelée Sway vous permet de créer des rapports et des présentations interactifs.</p>
-
-
-
-<p>Passons en revue les étapes d’accès et d’utilisation d’<strong>Office pour les applications Web</strong> pour créer, modifier et enregistrer vos documents.</p>
-
-
-
-<h2>Comment utiliser Microsoft Office gratuitement</h2>
-
-
-
-<p>Tout d’abord, vous aurez besoin d’un compte Microsoft. Si vous n’en avez pas déjà un, configurez-le sur le site Web du compte Microsoft. Un compte Microsoft est livré avec 5 Go de stockage OneDrive gratuit; si vous en avez besoin de plus, vous pouvez récupérer 100 Go pour 1,99 $ par mois.</p>
-
-
-
-<p>Accédez au&nbsp;<a href="https://products.office.com/fr-FR/free-office-online-for-the-web" target="_blank" rel="noreferrer noopener">site Web Office</a>&nbsp;et cliquez sur&nbsp;<strong>Utiliser l’application gratuitement sur Office.com</strong>.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/utiliser-microsoft-office-en-ligne.jpg?resize=664%2C383&amp;ssl=1" alt="utiliser-microsoft-office-en-ligne" class="wp-image-6509"/></figure></div>
-
-
-<p>Connectez-vous avec votre compte Microsoft et vous serez redirigé vers le site Web d’Office.</p>
-
-
-
-<p>En haut, vous verrez des applications comme Word, Excel, PowerPoint et Outlook. Une fois que vous avez commencé à créer et à enregistrer des fichiers Office, ceux-ci apparaîtront en bas de la page sous forme de documents récents afin que vous puissiez y accéder plus facilement et plus rapidement.</p>
-
-
-
-<h2>Créer un document Word</h2>
-
-
-
-<p>Nous utiliserons Word comme sujet de test ici. Cliquez dessus et une page s’ouvre où vous pouvez sélectionner un modèle pour créer votre document ou fichier. Par exemple, Word propose des modèles de curriculum vitae, lettres de motivation, dépliants et calendriers. Si vous n’avez pas besoin d’un modèle spécial, cliquez simplement sur Nouveau document vierge.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne.jpg?resize=694%2C343&amp;ssl=1" alt="microsoft-word-en-ligne" class="wp-image-6510"/></figure></div>
-
-
-<p>Word s’ouvre pour que vous puissiez commencer à créer votre document; vous trouverez toutes les options d’édition de base via la barre d’outils. Par exemple, vous pouvez: définir la police, la taille en points et d’autres attributs de votre texte ainsi qu’appliquer certains styles; insérer des tableaux, des images, des numéros de page et des en-têtes et pieds de page; ajustez la taille de la page, les marges et l’orientation; effectuer un zoom avant et arrière sur votre document; et lancez une vérification d’orthographe.</p>
-
-
-
-<p><a rel="noreferrer noopener" href="https://astuces-informatique.com/supprimer-un-mot-a-la-fois-dans-microsoft-word/" target="_blank"></a></p>
-
-
-
-<p>Votre document prend le nom par défaut Document 1, Document 2, etc. Pour modifier le nom, cliquez dans le nom de fichier en haut du document et saisissez-en un nouveau. Votre document est automatiquement enregistré périodiquement, mais vous souhaiterez peut-être l’enregistrer manuellement à un emplacement spécifique dans OneDrive.</p>
-
-
-
-<p>Cliquez sur le menu&nbsp;<strong>Fichier</strong>, sélectionnez la commande&nbsp;<strong>Enregistrer sous</strong>, puis sélectionnez Enregistrer sous et choisissez l’emplacement dans lequel vous souhaitez enregistrer le fichier. Vous pouvez également télécharger le fichier sur votre PC, sous forme de document Word ou PDF. Le menu Fichier vous donne également la possibilité d’imprimer le document ou de le partager avec d’autres personnes en leur envoyant un lien par e-mail.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/word-en-ligne-enregistrer-sous.jpg?resize=685%2C340&amp;ssl=1" alt="word-en-ligne-enregistrer-sous" class="wp-image-6511"/></figure></div>
-
-
-<h2>Ouvrez un fichier que vous avez créé précédemment</h2>
-
-
-
-<p>Pour ouvrir un fichier que vous avez déjà créé, cliquez sur la commande&nbsp;<strong>Ouvrir</strong>&nbsp;et choisissez parmi les documents récents.</p>
-
-
-
-<p>Les versions en ligne d’Excel, PowerPoint et OneNote fonctionnent de manière similaire à Word en ce qu’elles offrent toutes les commandes et fonctionnalités de base. Vous pouvez accéder à une autre application Office sans fermer votre application actuelle.</p>
-
-
-
-<p>Pour ce faire, cliquez sur le bouton «&nbsp;Liste des services Microsoft&nbsp;» dans le coin supérieur gauche (c’est celui qui contient neuf petits carrés) puis sélectionnez l’application que vous souhaitez ouvrir. Étant donné que les programmes et vos fichiers sont tous en ligne, vous pouvez y accéder depuis n’importe quel ordinateur ou appareil connecté.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2019/12/microsoft-word-en-ligne-ouvrir-document.jpg?resize=630%2C371&amp;ssl=1" alt="microsoft-word-en-ligne-ouvrir-document" class="wp-image-6512"/></figure></div>]]></content:encoded>
 					
 		
 		

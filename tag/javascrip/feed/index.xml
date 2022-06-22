@@ -30,17 +30,17 @@
 		<category><![CDATA[js]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=259</guid>
 
-					<description><![CDATA[1 &#8211; Syntaxe d&#8217;un sélecteur jQuery Les sélecteurs jQuery sont l&#8217;une des parties les plus importantes de la bibliothèque jQuery.Les sélecteurs jQuery vous permettent de sélectionner et de manipuler les éléments HTML, XHTM et CSS.Les sélecteurs jQuery sont utilisés pour « trouver » (ou sélectionner) des éléments HTML / CSS en fonction de leur nom, identifiant, classes,&#8230;]]></description>
+					<description><![CDATA[1 &#8211; Syntaxe d&#8217;un sélecteur jQuery Les sélecteurs jQuery sont l&#8217;une des parties les plus importantes de la bibliothèque jQuery.Les sélecteurs jQuery vous permettent de sélectionner et de manipuler les éléments HTML, XHTM et CSS.Les sélecteurs jQuery sont utilisés pour &#8220;trouver&#8221; (ou sélectionner) des éléments HTML / CSS en fonction de leur nom, identifiant, classes,&#8230;]]></description>
 										<content:encoded><![CDATA[
 <figure class="wp-block-image"><img src="https://www.tresfacile.net/wp-content/uploads/2017/11/javascript-avec-jquery-debutant.png" alt=""/></figure>
 
 
 
-<h2>1 &#8211; Syntaxe d&rsquo;un sélecteur jQuery</h2>
+<h2>1 &#8211; Syntaxe d&#8217;un sélecteur jQuery</h2>
 
 
 
-<p>Les sélecteurs jQuery sont l&rsquo;une des parties les plus importantes de la bibliothèque jQuery.<br>Les sélecteurs jQuery vous permettent de sélectionner et de manipuler les éléments HTML, XHTM et CSS.<br>Les sélecteurs jQuery sont utilisés pour « trouver » (ou sélectionner) des éléments HTML / CSS en fonction de leur nom, identifiant, classes, types, attributs, valeurs d&rsquo;attributs et bien plus encore. Il est basé sur les sélecteurs CSS existants, et en plus, il possède ses propres sélecteurs personnalisés.</p>
+<p>Les sélecteurs jQuery sont l&#8217;une des parties les plus importantes de la bibliothèque jQuery.<br>Les sélecteurs jQuery vous permettent de sélectionner et de manipuler les éléments HTML, XHTM et CSS.<br>Les sélecteurs jQuery sont utilisés pour &#8220;trouver&#8221; (ou sélectionner) des éléments HTML / CSS en fonction de leur nom, identifiant, classes, types, attributs, valeurs d&#8217;attributs et bien plus encore. Il est basé sur les sélecteurs CSS existants, et en plus, il possède ses propres sélecteurs personnalisés.</p>
 
 
 
@@ -52,7 +52,7 @@
 
 
 
-<p>Le sélecteur d&rsquo;élément jQuery sélectionne les éléments en fonction du nom de l&rsquo;élément via la syntaxe :</p>
+<p>Le sélecteur d&#8217;élément jQuery sélectionne les éléments en fonction du nom de l&#8217;élément via la syntaxe :</p>
 
 
 
@@ -60,7 +60,7 @@
 
 
 
-<p>Vous pouvez à titre d&rsquo;exemple sélectionner tous les éléments &lt;p&gt; sur une page de la façon suivante:</p>
+<p>Vous pouvez à titre d&#8217;exemple sélectionner tous les éléments &lt;p&gt; sur une page de la façon suivante:</p>
 
 
 
@@ -114,15 +114,15 @@ $(document).ready(function(){
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/11/hide-selector-jQuery.png" alt="" class="wp-image-5149"/></figure></div>
 
 
-<p>Vous avez bien remarquer que le paragraphe :&nbsp;<em><strong>« Ce contenu sera caché à l&rsquo;exécution ! »&nbsp;</strong></em>&nbsp;a été caché à l’exécution</p>
+<p>Vous avez bien remarquer que le paragraphe :&nbsp;<em><strong>&#8220;Ce contenu sera caché à l&#8217;exécution !&#8221;&nbsp;</strong></em>&nbsp;a été caché à l’exécution</p>
 
 
 
-<h2>2 &#8211; Les différents types d&rsquo;un&nbsp; sélecteur&nbsp; jQuery</h2>
+<h2>2 &#8211; Les différents types d&#8217;un&nbsp; sélecteur&nbsp; jQuery</h2>
 
 
 
-<p>On peut classifier les sélecteurs jQuery selon l&rsquo;élément qu&rsquo;ils sélectionnent :</p>
+<p>On peut classifier les sélecteurs jQuery selon l&#8217;élément qu&#8217;ils sélectionnent :</p>
 
 
 
@@ -138,7 +138,7 @@ $(document).ready(function(){
 
 
 
-<p>Imaginons maintenant une page web qui contient plusieurs paragraphe et qu&rsquo;on souhaite sélectionner un seul paragraphe bien déterminé la méthode&nbsp;&nbsp;<strong>$(« p »)</strong>&nbsp;ne peut être appliquer dans ce cas puisqu&rsquo;elle sélectionne tous les paragraphes. Nous auron donc besoin des paramètres supplémentaires :</p>
+<p>Imaginons maintenant une page web qui contient plusieurs paragraphe et qu&#8217;on souhaite sélectionner un seul paragraphe bien déterminé la méthode&nbsp;&nbsp;<strong>$(&#8220;p&#8221;)</strong>&nbsp;ne peut être appliquer dans ce cas puisqu&#8217;elle sélectionne tous les paragraphes. Nous auron donc besoin des paramètres supplémentaires :</p>
 
 
 
@@ -164,7 +164,7 @@ $("p:eq(1)").hide();
 
 
 
-<p>L&rsquo;exemple ci dessus permet de cacher le paragraphe à la position 1 qui est donc le 2ème paragraphe puisque le compteur commence à 0. Il va donc afficher après exécution au navigateur :</p>
+<p>L&#8217;exemple ci dessus permet de cacher le paragraphe à la position 1 qui est donc le 2ème paragraphe puisque le compteur commence à 0. Il va donc afficher après exécution au navigateur :</p>
 
 
 
@@ -176,7 +176,7 @@ $("p:eq(1)").hide();
 
 
 
-<p>Les sélecteur&nbsp; jQuery peuvent aussi s&rsquo;appliquer aux classes CSS en utilisant la syntaxe :</p>
+<p>Les sélecteur&nbsp; jQuery peuvent aussi s&#8217;appliquer aux classes CSS en utilisant la syntaxe :</p>
 
 
 
@@ -201,7 +201,7 @@ color:red ;
 
 
 
-<p>Essayons d&rsquo;applique cette classe CSS à une balise div :</p>
+<p>Essayons d&#8217;applique cette classe CSS à une balise div :</p>
 
 
 
@@ -327,7 +327,7 @@ $(".myClass").hide();
 
 
 
-<p>Pour développer des applications ou scripts web à l&rsquo;aide du framework jQuery deux choix s&rsquo;offrent à vous :</p>
+<p>Pour développer des applications ou scripts web à l&#8217;aide du framework jQuery deux choix s&#8217;offrent à vous :</p>
 
 
 
@@ -349,7 +349,7 @@ $(".myClass").hide();
 
 
 
-<p>Afin de ne pas décourager un débutant, nous allons commencer par exemple simple permettant de remplacer un contenu sélectionné dans une page web à l&rsquo;aide de la fonction append();</p>
+<p>Afin de ne pas décourager un débutant, nous allons commencer par exemple simple permettant de remplacer un contenu sélectionné dans une page web à l&#8217;aide de la fonction append();</p>
 
 
 
@@ -361,7 +361,7 @@ $("div").text("Chargement du DOM...");
 
 
 
-<p>C&rsquo;est exactement le contenu qui se trouve au niveau de la balise &lt;div&gt; qui va être remplacé par le nouveau</p>
+<p>C&#8217;est exactement le contenu qui se trouve au niveau de la balise &lt;div&gt; qui va être remplacé par le nouveau</p>
 
 
 
@@ -434,7 +434,7 @@ $("div").append("&lt;h3&gt; Exemple jQuery avec la fonction append() &lt;/h3&gt;
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/11/javascript-avec-jquery-debutant-1.png" alt="jQuery fournit également un paradigme pour la gestion des événements qui va au-delà de la sélection et de la manipulation élémentaires des éléments DOM. L'affectation d'événement et la définition de la fonction de rappel d'événement sont effectuées en une seule étape dans un seul emplacement du code. jQuery vise également à incorporer d'autres fonctionnalités JavaScript très utilisées (par exemple, fondus enchaînés et fondus masqués lorsque vous masquez des éléments, des animations en manipulant les propriétés CSS)." class="wp-image-5133"/></figure></div>
 
 
-<p><strong>jQuery est une bibliothèque JavaScript</strong> multiplateforme conçue pour simplifier les scripts côté client de HTML, &amp; Javascript. C&rsquo;est un script libre et open-source. Si vous faite une analyse des pages Web vous allez constater qu&rsquo;il s&rsquo;agit de  la bibliothèque JavaScript la plus répandu et la plus utilisée. La syntaxe de<strong> jQuery</strong> est conçue pour faciliter la navigation dans un document, </p>
+<p><strong>jQuery est une bibliothèque JavaScript</strong> multiplateforme conçue pour simplifier les scripts côté client de HTML, &amp; Javascript. C&#8217;est un script libre et open-source. Si vous faite une analyse des pages Web vous allez constater qu&#8217;il s&#8217;agit de  la bibliothèque JavaScript la plus répandu et la plus utilisée. La syntaxe de<strong> jQuery</strong> est conçue pour faciliter la navigation dans un document, </p>
 
 
 
@@ -442,11 +442,11 @@ $("div").append("&lt;h3&gt; Exemple jQuery avec la fonction append() &lt;/h3&gt;
 
 
 
-<p>sélectionner des éléments <strong>DOM</strong>, créer des animations, gérer des événements et développer des <strong>applications Ajax</strong>. <strong>jQuery</strong> offre également aux développeurs la possibilité de créer des plug-ins via sa bibliothèque JavaScript. Cela permet aux développeurs de créer des abstractions pour l&rsquo;interaction et l&rsquo;animation de bas niveau, des effets avancés et des widgets thématiques de haut niveau. L&rsquo;approche modulaire de la bibliothèque jQuery permet la création de puissantes pages Web dynamiques et d&rsquo;applications Web rapidement.</p>
+<p>sélectionner des éléments <strong>DOM</strong>, créer des animations, gérer des événements et développer des <strong>applications Ajax</strong>. <strong>jQuery</strong> offre également aux développeurs la possibilité de créer des plug-ins via sa bibliothèque JavaScript. Cela permet aux développeurs de créer des abstractions pour l&#8217;interaction et l&#8217;animation de bas niveau, des effets avancés et des widgets thématiques de haut niveau. L&#8217;approche modulaire de la bibliothèque jQuery permet la création de puissantes pages Web dynamiques et d&#8217;applications Web rapidement.</p>
 
 
 
-<p>L&rsquo;ensemble des fonctionnalités de base de jQuery, sélections d&rsquo;éléments DOM, traversées et manipulations activées par son moteur de sélection nommé « Sizzle » , a créé un nouveau « style de programmation », algorithmes de fusion et structures de données DOM. Ce style a influencé l&rsquo;architecture d&rsquo;autres frameworks JavaScript comme YUI v3 et Dojo, stimulant plus tard la création de l&rsquo;API Selectors standard.<br>De nombeuses sociétés intègre actuellement le framework jQuery dans leurs produits, comme Microsoft, Google, Facebook, Nokia&#8230;<br>Vous pouvez télécharger gratuitement jQuery via :&nbsp;<a href="https://jquery.com/download/" target="_blank" rel="noreferrer noopener">https://jquery.com/download/</a><br>NB : Vous pouvez utiliser jQuery sans le télécharger, il suffit alors d&rsquo;inserer une balise indiquant le chemin de la librairie entre les balises Head et /Head :</p>
+<p>L&#8217;ensemble des fonctionnalités de base de jQuery, sélections d&#8217;éléments DOM, traversées et manipulations activées par son moteur de sélection nommé &#8220;Sizzle&#8221; , a créé un nouveau &#8220;style de programmation&#8221;, algorithmes de fusion et structures de données DOM. Ce style a influencé l&#8217;architecture d&#8217;autres frameworks JavaScript comme YUI v3 et Dojo, stimulant plus tard la création de l&#8217;API Selectors standard.<br>De nombeuses sociétés intègre actuellement le framework jQuery dans leurs produits, comme Microsoft, Google, Facebook, Nokia&#8230;<br>Vous pouvez télécharger gratuitement jQuery via :&nbsp;<a href="https://jquery.com/download/" target="_blank" rel="noreferrer noopener">https://jquery.com/download/</a><br>NB : Vous pouvez utiliser jQuery sans le télécharger, il suffit alors d&#8217;inserer une balise indiquant le chemin de la librairie entre les balises Head et /Head :</p>
 
 
 
@@ -474,11 +474,11 @@ $("div").append("&lt;h3&gt; Exemple jQuery avec la fonction append() &lt;/h3&gt;
 <figure class="aligncenter"><img src="https://www.tresfacile.net/wp-content/uploads/2020/04/array-javascript-object-1.png" alt="" class="wp-image-7136"/></figure></div>
 
 
-<h2>1 &#8211; A propos de l&rsquo;objet javascript array</h2>
+<h2>1 &#8211; A propos de l&#8217;objet javascript array</h2>
 
 
 
-<p>L&rsquo;<strong>objet Array</strong>&nbsp;vous permet de&nbsp;<strong>stocker</strong>&nbsp;plusieurs valeurs dans une<strong>&nbsp;seule variable</strong>. Il stocke une collection séquentielle de taille fixe d&rsquo;éléments du même type. Un tableau est utilisé pour stocker une collection de données, mais il est souvent plus utile de considérer un tableau comme une collection de variables du même type.</p>
+<p>L&#8217;<strong>objet Array</strong>&nbsp;vous permet de&nbsp;<strong>stocker</strong>&nbsp;plusieurs valeurs dans une<strong>&nbsp;seule variable</strong>. Il stocke une collection séquentielle de taille fixe d&#8217;éléments du même type. Un tableau est utilisé pour stocker une collection de données, mais il est souvent plus utile de considérer un tableau comme une collection de variables du même type.</p>
 
 
 
@@ -498,7 +498,7 @@ $("div").append("&lt;h3&gt; Exemple jQuery avec la fonction append() &lt;/h3&gt;
 
 
 
-<p>Le<strong>&nbsp;paramètre Array</strong>&nbsp;est une liste de chaînes ou d&rsquo;entiers. Lorsque vous spécifiez un seul paramètre numérique avec le constructeur Array, vous spécifiez la longueur initiale du tableau. La longueur maximale autorisée pour un tableau est de 4 294 967 295.</p>
+<p>Le<strong>&nbsp;paramètre Array</strong>&nbsp;est une liste de chaînes ou d&#8217;entiers. Lorsque vous spécifiez un seul paramètre numérique avec le constructeur Array, vous spécifiez la longueur initiale du tableau. La longueur maximale autorisée pour un tableau est de 4 294 967 295.</p>
 
 
 
@@ -520,29 +520,29 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<h2>3 &#8211; Propriétés d&rsquo;un objet array</h2>
+<h2>3 &#8211; Propriétés d&#8217;un objet array</h2>
 
 
 
-<p>Voici une liste des<strong>&nbsp;propriétés</strong>&nbsp;de l&rsquo;<strong>objet Array</strong>&nbsp;ainsi que leur descriptions:</p>
+<p>Voici une liste des<strong>&nbsp;propriétés</strong>&nbsp;de l&#8217;<strong>objet Array</strong>&nbsp;ainsi que leur descriptions:</p>
 
 
 
-<ol><li><strong>Constructor :</strong>&nbsp;renvoie une référence à la fonction de tableau qui a créé l&rsquo;objet.</li><li><strong>index:</strong>&nbsp; propriété qui représente l&rsquo;index de base zéro de la correspondance dans la chaîne</li><li><strong>input :</strong>&nbsp;cette propriété n&rsquo;est présente que dans les tableaux créés par des correspondances d&rsquo;expressions régulières.</li><li><strong>length :</strong>&nbsp; reflète le nombre d&rsquo;éléments dans un tableau.</li><li><strong>prototype :</strong>&nbsp; la propriété prototype vous permet d&rsquo;ajouter des propriétés et des méthodes à un objet.</li></ol>
+<ol><li><strong>Constructor :</strong>&nbsp;renvoie une référence à la fonction de tableau qui a créé l&#8217;objet.</li><li><strong>index:</strong>&nbsp; propriété qui représente l&#8217;index de base zéro de la correspondance dans la chaîne</li><li><strong>input :</strong>&nbsp;cette propriété n&#8217;est présente que dans les tableaux créés par des correspondances d&#8217;expressions régulières.</li><li><strong>length :</strong>&nbsp; reflète le nombre d&#8217;éléments dans un tableau.</li><li><strong>prototype :</strong>&nbsp; la propriété prototype vous permet d&#8217;ajouter des propriétés et des méthodes à un objet.</li></ol>
 
 
 
-<h2>4 &#8211; Les méthodes associées à l&rsquo;objet array</h2>
+<h2>4 &#8211; Les méthodes associées à l&#8217;objet array</h2>
 
 
 
-<p>Voici une liste des<strong>&nbsp;méthodes&nbsp;</strong>de<strong>&nbsp;l&rsquo;objet Array</strong>&nbsp;ainsi que leur description:</p>
+<p>Voici une liste des<strong>&nbsp;méthodes&nbsp;</strong>de<strong>&nbsp;l&#8217;objet Array</strong>&nbsp;ainsi que leur description:</p>
 
 
 
 <div class="wp-container-2 wp-block-columns">
 <div class="wp-container-1 wp-block-column" style="flex-basis:100%">
-<ol><li><strong>concat () :&nbsp;</strong>&nbsp;renvoie un nouveau tableau composé de ce tableau joint à d&rsquo;autres tableaux et / ou valeurs.</li><li><strong>every() :</strong>&nbsp;renvoie true si chaque élément de ce tableau satisfait la fonction de test fournie.</li><li><strong>filer() :</strong>&nbsp;crée un nouveau tableau avec tous les éléments de ce tableau pour lesquels la fonction de filtrage fournie renvoie true.</li><li><strong>forEach() :</strong>&nbsp;appelle une fonction pour chaque élément du tableau.</li><li><strong>indexOf ()</strong>&nbsp;: renvoie le premier (le moins) index d&rsquo;un élément dans le tableau égal à la valeur spécifiée, ou -1 si aucun n&rsquo;est trouvé.</li><li><strong>join() :</strong>&nbsp;joint tous les éléments d&rsquo;un tableau en une chaîne.</li><li><strong>lastIndexOf () :</strong>&nbsp;renvoie le dernier (le plus grand) index d&rsquo;un élément dans le tableau égal à la valeur spécifiée, ou -1 si aucun n&rsquo;est trouvé.</li><li><strong>map() :&nbsp;</strong>&nbsp;crée un nouveau tableau avec les résultats de l&rsquo;appel d&rsquo;une fonction fournie sur chaque élément de ce tableau.</li><li><strong>pop () :</strong>&nbsp;supprime le dernier élément d&rsquo;un tableau et renvoie cet élément.</li><li><strong>push() :</strong>&nbsp;ajoute un ou plusieurs éléments à la fin d&rsquo;un tableau et renvoie la nouvelle longueur du tableau.</li><li><strong>reduce() :</strong>&nbsp;appliquez une fonction simultanément contre deux valeurs du tableau (de gauche à droite) afin de la réduire à une seule valeur.</li><li><strong>reduceRight() :</strong>&nbsp;ppliquez une fonction simultanément contre deux valeurs du tableau (de droite à gauche) afin de la réduire à une seule valeur.</li><li><strong>reverse()</strong>&nbsp;: inverse l&rsquo;ordre des éléments d&rsquo;un tableau &#8211; le premier devient le dernier et le dernier devient le premier.</li><li><strong>shift() :</strong>&nbsp;supprime le premier élément d&rsquo;un tableau et renvoie cet élément.</li><li><strong>slice() :</strong>&nbsp;extrait une section d&rsquo;un tableau et renvoie un nouveau tableau.</li><li><strong>some() :</strong>&nbsp;renvoie true si au moins un élément de ce tableau satisfait la fonction de test fournie.</li><li><strong>toSource () :</strong>&nbsp;représente le code source d&rsquo;un objet</li><li><strong>sort() :</strong>&nbsp;trie les éléments d&rsquo;un tableau</li><li><strong>splice() :</strong>&nbsp;ajoute et / ou supprime des éléments d&rsquo;un tableau.</li><li><strong>toString () :</strong>&nbsp;renvoie une chaîne représentant le tableau et ses éléments.</li><li><strong>unshift () :</strong>&nbsp;ajoute un ou plusieurs éléments à l&rsquo;avant d&rsquo;un tableau et renvoie la nouvelle longueur du tableau.</li></ol>
+<ol><li><strong>concat () :&nbsp;</strong>&nbsp;renvoie un nouveau tableau composé de ce tableau joint à d&#8217;autres tableaux et / ou valeurs.</li><li><strong>every() :</strong>&nbsp;renvoie true si chaque élément de ce tableau satisfait la fonction de test fournie.</li><li><strong>filer() :</strong>&nbsp;crée un nouveau tableau avec tous les éléments de ce tableau pour lesquels la fonction de filtrage fournie renvoie true.</li><li><strong>forEach() :</strong>&nbsp;appelle une fonction pour chaque élément du tableau.</li><li><strong>indexOf ()</strong>&nbsp;: renvoie le premier (le moins) index d&#8217;un élément dans le tableau égal à la valeur spécifiée, ou -1 si aucun n&#8217;est trouvé.</li><li><strong>join() :</strong>&nbsp;joint tous les éléments d&#8217;un tableau en une chaîne.</li><li><strong>lastIndexOf () :</strong>&nbsp;renvoie le dernier (le plus grand) index d&#8217;un élément dans le tableau égal à la valeur spécifiée, ou -1 si aucun n&#8217;est trouvé.</li><li><strong>map() :&nbsp;</strong>&nbsp;crée un nouveau tableau avec les résultats de l&#8217;appel d&#8217;une fonction fournie sur chaque élément de ce tableau.</li><li><strong>pop () :</strong>&nbsp;supprime le dernier élément d&#8217;un tableau et renvoie cet élément.</li><li><strong>push() :</strong>&nbsp;ajoute un ou plusieurs éléments à la fin d&#8217;un tableau et renvoie la nouvelle longueur du tableau.</li><li><strong>reduce() :</strong>&nbsp;appliquez une fonction simultanément contre deux valeurs du tableau (de gauche à droite) afin de la réduire à une seule valeur.</li><li><strong>reduceRight() :</strong>&nbsp;ppliquez une fonction simultanément contre deux valeurs du tableau (de droite à gauche) afin de la réduire à une seule valeur.</li><li><strong>reverse()</strong>&nbsp;: inverse l&#8217;ordre des éléments d&#8217;un tableau &#8211; le premier devient le dernier et le dernier devient le premier.</li><li><strong>shift() :</strong>&nbsp;supprime le premier élément d&#8217;un tableau et renvoie cet élément.</li><li><strong>slice() :</strong>&nbsp;extrait une section d&#8217;un tableau et renvoie un nouveau tableau.</li><li><strong>some() :</strong>&nbsp;renvoie true si au moins un élément de ce tableau satisfait la fonction de test fournie.</li><li><strong>toSource () :</strong>&nbsp;représente le code source d&#8217;un objet</li><li><strong>sort() :</strong>&nbsp;trie les éléments d&#8217;un tableau</li><li><strong>splice() :</strong>&nbsp;ajoute et / ou supprime des éléments d&#8217;un tableau.</li><li><strong>toString () :</strong>&nbsp;renvoie une chaîne représentant le tableau et ses éléments.</li><li><strong>unshift () :</strong>&nbsp;ajoute un ou plusieurs éléments à l&#8217;avant d&#8217;un tableau et renvoie la nouvelle longueur du tableau.</li></ol>
 </div>
 </div>
 ]]></content:encoded>
@@ -583,7 +583,7 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<h2>2.1 &#8211; L&rsquo;objet window</h2>
+<h2>2.1 &#8211; L&#8217;objet window</h2>
 
 
 
@@ -595,7 +595,7 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<h3>Propriétés et méthodes de l&rsquo;objet window</h3>
+<h3>Propriétés et méthodes de l&#8217;objet window</h3>
 
 
 
@@ -611,15 +611,15 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<p>Si on veut&nbsp; à titre d&rsquo;exemple examiner l&rsquo;objet String, de nombreuses méthodes sont associées à ce dernier :</p>
+<p>Si on veut&nbsp; à titre d&#8217;exemple examiner l&#8217;objet String, de nombreuses méthodes sont associées à ce dernier :</p>
 
 
 
-<p><strong>charAt ()</strong>&nbsp;&nbsp;&nbsp;Retourne le caractère à l&rsquo;index spécifié (position)</p>
+<p><strong>charAt ()</strong>&nbsp;&nbsp;&nbsp;Retourne le caractère à l&#8217;index spécifié (position)</p>
 
 
 
-<p><strong>charCodeAt ()</strong>&nbsp;&nbsp;&nbsp;Retourne l&rsquo;Unicode du caractère à l&rsquo;index spécifié</p>
+<p><strong>charCodeAt ()</strong>&nbsp;&nbsp;&nbsp;Retourne l&#8217;Unicode du caractère à l&#8217;index spécifié</p>
 
 
 
@@ -639,11 +639,11 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<p><strong>indexOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la position de la première occurrence trouvée d&rsquo;une valeur spécifiée dans une chaîne</p>
+<p><strong>indexOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la position de la première occurrence trouvée d&#8217;une valeur spécifiée dans une chaîne</p>
 
 
 
-<p><strong>lastIndexOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la position de la dernière occurrence trouvée d&rsquo;une valeur spécifiée dans une chaîne</p>
+<p><strong>lastIndexOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la position de la dernière occurrence trouvée d&#8217;une valeur spécifiée dans une chaîne</p>
 
 
 
@@ -655,7 +655,7 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<p><strong>repeat ()</strong>&nbsp;&nbsp;&nbsp;Retourne une nouvelle chaîne avec un nombre spécifié de copies d&rsquo;une chaîne existante</p>
+<p><strong>repeat ()</strong>&nbsp;&nbsp;&nbsp;Retourne une nouvelle chaîne avec un nombre spécifié de copies d&#8217;une chaîne existante</p>
 
 
 
@@ -667,7 +667,7 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<p><strong>slice ()</strong>&nbsp;&nbsp;&nbsp;Extrait une partie d&rsquo;une chaîne et retourne une nouvelle chaîne</p>
+<p><strong>slice ()</strong>&nbsp;&nbsp;&nbsp;Extrait une partie d&#8217;une chaîne et retourne une nouvelle chaîne</p>
 
 
 
@@ -679,19 +679,19 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<p><strong>substr ()</strong>&nbsp; &nbsp;Extrait les caractères d&rsquo;une chaîne, en commençant à une position de départ spécifiée, et à travers le nombre de caractères spécifié</p>
+<p><strong>substr ()</strong>&nbsp; &nbsp;Extrait les caractères d&#8217;une chaîne, en commençant à une position de départ spécifiée, et à travers le nombre de caractères spécifié</p>
 
 
 
-<p><strong>substring ()</strong>&nbsp;&nbsp;&nbsp;Extrait les caractères d&rsquo;une chaîne, entre deux index spécifiés</p>
+<p><strong>substring ()</strong>&nbsp;&nbsp;&nbsp;Extrait les caractères d&#8217;une chaîne, entre deux index spécifiés</p>
 
 
 
-<p><strong>toLocaleLowerCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en minuscules, en fonction des paramètres régionaux de l&rsquo;hôte</p>
+<p><strong>toLocaleLowerCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en minuscules, en fonction des paramètres régionaux de l&#8217;hôte</p>
 
 
 
-<p><strong>toLocaleUpperCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en majuscules, en fonction des paramètres régionaux de l&rsquo;hôte</p>
+<p><strong>toLocaleUpperCase ()</strong>&nbsp;&nbsp;&nbsp;Convertit une chaîne en majuscules, en fonction des paramètres régionaux de l&#8217;hôte</p>
 
 
 
@@ -699,7 +699,7 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<p><strong>toString ()</strong>&nbsp; &nbsp;Retourne la valeur d&rsquo;un objet String</p>
+<p><strong>toString ()</strong>&nbsp; &nbsp;Retourne la valeur d&#8217;un objet String</p>
 
 
 
@@ -707,15 +707,15 @@ laptop &#91;2]  //est le troisième élément</code></pre>
 
 
 
-<p><strong>trim ()</strong>&nbsp;&nbsp;&nbsp;Supprime les espaces des deux extrémités d&rsquo;une chaîne</p>
+<p><strong>trim ()</strong>&nbsp;&nbsp;&nbsp;Supprime les espaces des deux extrémités d&#8217;une chaîne</p>
 
 
 
-<p><strong>valueOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la valeur primitive d&rsquo;un objet String</p>
+<p><strong>valueOf ()</strong>&nbsp;&nbsp;&nbsp;Renvoie la valeur primitive d&#8217;un objet String</p>
 
 
 
-<p>Nous n&rsquo;allons pas pouvoir traiter toutes ces méthodes ici, mais amusons nous à faire un petit exemple simple pour la première&nbsp;<strong>charAt()</strong>.Le lecteur curieux peux consulter ces méthodes en détails chacune avec un exemple bien expliqué&nbsp;&nbsp;<a href="https://www.w3schools.com/jsref/jsref_obj_string.asp">ici</a></p>
+<p>Nous n&#8217;allons pas pouvoir traiter toutes ces méthodes ici, mais amusons nous à faire un petit exemple simple pour la première&nbsp;<strong>charAt()</strong>.Le lecteur curieux peux consulter ces méthodes en détails chacune avec un exemple bien expliqué&nbsp;&nbsp;<a href="https://www.w3schools.com/jsref/jsref_obj_string.asp">ici</a></p>
 
 
 
@@ -741,11 +741,11 @@ alert("Le premier caractère de la chaine 'bonjour' est  " + s.charAt(0));
 
 
 
-<p>JavaScript utilise des prototypes où de nombreux autres langages orientés objet utilisent des classes pour l&rsquo;héritage.&nbsp; Il est possible de simuler de nombreuses fonctionnalités basées sur des classes avec des prototypes en JavaScript.</p>
+<p>JavaScript utilise des prototypes où de nombreux autres langages orientés objet utilisent des classes pour l&#8217;héritage.&nbsp; Il est possible de simuler de nombreuses fonctionnalités basées sur des classes avec des prototypes en JavaScript.</p>
 
 
 
-<h2>3.1 &#8211; Fonctions en tant que constructeurs d&rsquo;objets</h2>
+<h2>3.1 &#8211; Fonctions en tant que constructeurs d&#8217;objets</h2>
 
 
 
@@ -766,7 +766,7 @@ this.system=system;
 
 
 
-<p>Cet exemple permet de créer un objet nommé :&nbsp;<strong>mobile</strong>&nbsp;doté des deux&nbsp;<strong>paramètres</strong>&nbsp;:&nbsp;<strong>marque</strong>&nbsp;et&nbsp;<strong>system</strong>. Si on veut par exemple faire une instanciation pour créer un objet téléphone de marque&nbsp; :&nbsp;<strong>Galaxy</strong>&nbsp; dont le système est&nbsp;<strong>Android</strong>, il suffit d&rsquo;ajouter le code :</p>
+<p>Cet exemple permet de créer un objet nommé :&nbsp;<strong>mobile</strong>&nbsp;doté des deux&nbsp;<strong>paramètres</strong>&nbsp;:&nbsp;<strong>marque</strong>&nbsp;et&nbsp;<strong>system</strong>. Si on veut par exemple faire une instanciation pour créer un objet téléphone de marque&nbsp; :&nbsp;<strong>Galaxy</strong>&nbsp; dont le système est&nbsp;<strong>Android</strong>, il suffit d&#8217;ajouter le code :</p>
 
 
 
@@ -780,7 +780,7 @@ alert("Mon mobile est  " + mymobile.marque + " Son system est  " + mymobile.syst
 
 
 
-<p>Javascript&nbsp; est doté de l&rsquo;instruction&nbsp;<strong>class</strong>&nbsp;qui permet à l&rsquo;utilisateur de créer ses propres classes, de faire l&rsquo;instanciation pour créer des objets&#8230;</p>
+<p>Javascript&nbsp; est doté de l&#8217;instruction&nbsp;<strong>class</strong>&nbsp;qui permet à l&#8217;utilisateur de créer ses propres classes, de faire l&#8217;instanciation pour créer des objets&#8230;</p>
 
 
 
@@ -810,7 +810,7 @@ class Rectangle {
 
 
 
-<p>Cet exemple permet de construire une classe nommée rectangle dotée d&rsquo;un constructeur ayant deux paramètres hauteur et largeur. Pour faire une instanciation sur cette classe et créer un objet rectangle il suffit d&rsquo;ajouter le code :</p>
+<p>Cet exemple permet de construire une classe nommée rectangle dotée d&#8217;un constructeur ayant deux paramètres hauteur et largeur. Pour faire une instanciation sur cette classe et créer un objet rectangle il suffit d&#8217;ajouter le code :</p>
 
 
 
@@ -831,7 +831,7 @@ alert("la hauteur du rectangle est : "+R.hauteur + " La largeur du rectangle est
 
 
 
-<p>On peut aussi ajouter d&rsquo;autres méthodes à la classes, par exemple une méthode qui calcul la surface, une autre qui calcul le périmètre&#8230;</p>
+<p>On peut aussi ajouter d&#8217;autres méthodes à la classes, par exemple une méthode qui calcul la surface, une autre qui calcul le périmètre&#8230;</p>
 
 
 
@@ -876,7 +876,7 @@ alert("la surface du rectangle est : "+R.surface() + " Le périmètre du rectang
 
 
 
-<p>Le click de la sourie, le passage de la sourie … sont dit événements. Javascript peut associer des méthodes ou procédures à ces derniers à l&rsquo;aide de la syntaxe :</p>
+<p>Le click de la sourie, le passage de la sourie … sont dit événements. Javascript peut associer des méthodes ou procédures à ces derniers à l&#8217;aide de la syntaxe :</p>
 
 
 
@@ -884,7 +884,7 @@ alert("la surface du rectangle est : "+R.surface() + " Le périmètre du rectang
 
 
 
-<p>Grâce au Javascript de nombreuses opérations sont susceptible d&rsquo;être déclenchés dès que le visiteur effectue une opération sur la page à titre d&rsquo;exemple :<br>&#8211; En cliquant sur un lien ou un bouton, un événement onClick se déclenche<br>&#8211; En passant la sourie sur un texte, un événement onMouseover se produit<br>&#8211; En modifiant le contenu d&rsquo;un champ de texte, un événement onChange se déclenche<br>&#8230;</p>
+<p>Grâce au Javascript de nombreuses opérations sont susceptible d&#8217;être déclenchés dès que le visiteur effectue une opération sur la page à titre d&#8217;exemple :<br>&#8211; En cliquant sur un lien ou un bouton, un événement onClick se déclenche<br>&#8211; En passant la sourie sur un texte, un événement onMouseover se produit<br>&#8211; En modifiant le contenu d&#8217;un champ de texte, un événement onChange se déclenche<br>&#8230;</p>
 
 
 
@@ -896,15 +896,15 @@ alert("la surface du rectangle est : "+R.surface() + " Le périmètre du rectang
 
 
 
-<figure class="wp-block-table"><table><tbody><tr><td><strong>Evénement Javascript</strong></td><td><strong>&nbsp;Effet produit</strong></td></tr><tr><td><strong>onClick</strong></td><td>Se produit lorsque l&rsquo;utilisateur clique sur l&rsquo;élément associé à l&rsquo;événement</td></tr><tr><td><strong>onLoad</strong></td><td>Se produit lorsque le navigateur de l&rsquo;utilisateur charge la page en cours</td></tr><tr><td><strong>onUnload</strong></td><td>Se produit lorsque le navigateur de l&rsquo;utilisateur quitte la page en cours</td></tr><tr><td><strong>onMouseOver</strong></td><td>Se produit lorsque l&rsquo;utilisateur positionne le curseur de la souris au-dessus d&rsquo;un élément</td></tr><tr><td><strong>onMouseOut</strong></td><td>Se produit lorsque le curseur de la souris quitte un élément</td></tr><tr><td><strong>onMouseDown</strong></td><td>quand le bouton de la sourie est appuyé</td></tr><tr><td><strong>onMouseMove</strong></td><td>quand le curseur bouge</td></tr><tr><td><strong>onMouseUp</strong></td><td>quand le bouton de la sourie est relâché</td></tr><tr><td><strong>onFocus</strong></td><td>Se produit lorsque l&rsquo;utilisateur donne le focus à un élément, c.a.d&nbsp; élément est sélectionné comme étant actif</td></tr><tr><td><strong>onBlur</strong></td><td>Se produit lorsque l&rsquo;élément perd le focus, c.a.d élément non sélectionné ( désactivé )</td></tr><tr><td><strong>onChange</strong></td><td>&nbsp;Se produit lorsque l&rsquo;utilisateur modifie le contenu d&rsquo;un champ de données</td></tr><tr><td><strong>onSelect</strong></td><td>&nbsp;Se produit lorsque l&rsquo;utilisateur sélectionne un texte dans un champ de type « text » ou « textarea » ou un objet</td></tr><tr><td><strong>onSubmit</strong></td><td>&nbsp;Se produit lorsque l&rsquo;utilisateur clique sur le bouton de soumission d&rsquo;un formulaire</td></tr><tr><td><strong>onabort</strong></td><td>lorsque l&rsquo;utilisateur a stoppé le chargement de l&rsquo;image</td></tr><tr><td><strong>ondlclick</strong></td><td>quand on fait un double clique</td></tr><tr><td><strong>ondragdrop</strong></td><td>quand on déplace un objet dans une fenêtre</td></tr><tr><td><strong>onerror</strong></td><td>lorsqu&rsquo;il se produit une erreur de script</td></tr><tr><td><strong>onkeydown</strong></td><td>quand une touche du clavier est enfoncée</td></tr><tr><td><strong>onkeypress</strong></td><td>quand on appuie sur une touche</td></tr><tr><td><strong>onkeyup</strong></td><td>quand on lâche une touche du clavier</td></tr><tr><td><strong>onMove</strong></td><td>quand on déplace la fenêtre</td></tr><tr><td><strong>onReset &nbsp;</strong></td><td>quand on réinitialise</td></tr><tr><td><strong>onResize</strong></td><td>quand on redimensionne</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>Evénement Javascript</strong></td><td><strong>&nbsp;Effet produit</strong></td></tr><tr><td><strong>onClick</strong></td><td>Se produit lorsque l&#8217;utilisateur clique sur l&#8217;élément associé à l&#8217;événement</td></tr><tr><td><strong>onLoad</strong></td><td>Se produit lorsque le navigateur de l&#8217;utilisateur charge la page en cours</td></tr><tr><td><strong>onUnload</strong></td><td>Se produit lorsque le navigateur de l&#8217;utilisateur quitte la page en cours</td></tr><tr><td><strong>onMouseOver</strong></td><td>Se produit lorsque l&#8217;utilisateur positionne le curseur de la souris au-dessus d&#8217;un élément</td></tr><tr><td><strong>onMouseOut</strong></td><td>Se produit lorsque le curseur de la souris quitte un élément</td></tr><tr><td><strong>onMouseDown</strong></td><td>quand le bouton de la sourie est appuyé</td></tr><tr><td><strong>onMouseMove</strong></td><td>quand le curseur bouge</td></tr><tr><td><strong>onMouseUp</strong></td><td>quand le bouton de la sourie est relâché</td></tr><tr><td><strong>onFocus</strong></td><td>Se produit lorsque l&#8217;utilisateur donne le focus à un élément, c.a.d&nbsp; élément est sélectionné comme étant actif</td></tr><tr><td><strong>onBlur</strong></td><td>Se produit lorsque l&#8217;élément perd le focus, c.a.d élément non sélectionné ( désactivé )</td></tr><tr><td><strong>onChange</strong></td><td>&nbsp;Se produit lorsque l&#8217;utilisateur modifie le contenu d&#8217;un champ de données</td></tr><tr><td><strong>onSelect</strong></td><td>&nbsp;Se produit lorsque l&#8217;utilisateur sélectionne un texte dans un champ de type &#8220;text&#8221; ou &#8220;textarea&#8221; ou un objet</td></tr><tr><td><strong>onSubmit</strong></td><td>&nbsp;Se produit lorsque l&#8217;utilisateur clique sur le bouton de soumission d&#8217;un formulaire</td></tr><tr><td><strong>onabort</strong></td><td>lorsque l&#8217;utilisateur a stoppé le chargement de l&#8217;image</td></tr><tr><td><strong>ondlclick</strong></td><td>quand on fait un double clique</td></tr><tr><td><strong>ondragdrop</strong></td><td>quand on déplace un objet dans une fenêtre</td></tr><tr><td><strong>onerror</strong></td><td>lorsqu&#8217;il se produit une erreur de script</td></tr><tr><td><strong>onkeydown</strong></td><td>quand une touche du clavier est enfoncée</td></tr><tr><td><strong>onkeypress</strong></td><td>quand on appuie sur une touche</td></tr><tr><td><strong>onkeyup</strong></td><td>quand on lâche une touche du clavier</td></tr><tr><td><strong>onMove</strong></td><td>quand on déplace la fenêtre</td></tr><tr><td><strong>onReset &nbsp;</strong></td><td>quand on réinitialise</td></tr><tr><td><strong>onResize</strong></td><td>quand on redimensionne</td></tr></tbody></table></figure>
 
 
 
-<h2>&nbsp;3. Exemples d&rsquo;événement Javascript</h2>
+<h2>&nbsp;3. Exemples d&#8217;événement Javascript</h2>
 
 
 
-<h3>Exemple 1 ( l&rsquo;événement onLoad )</h3>
+<h3>Exemple 1 ( l&#8217;événement onLoad )</h3>
 
 
 
@@ -914,14 +914,14 @@ alert("la surface du rectangle est : "+R.surface() + " Le périmètre du rectang
 
 
 
-<p>Cet exemple affiche le message « Bienvenue sur le site » dès le chargement de la page :</p>
+<p>Cet exemple affiche le message &#8220;Bienvenue sur le site&#8221; dès le chargement de la page :</p>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2016/01/onload-javascript.png"><img src="http://www.tresfacile.net/wp-content/uploads/2016/01/onload-javascript.png" alt="onload-javascript" class="wp-image-3186"/></a></figure></div>
 
 
-<h3>Exemple 2 ( l&rsquo;événement onBlur )</h3>
+<h3>Exemple 2 ( l&#8217;événement onBlur )</h3>
 
 
 
@@ -967,7 +967,7 @@ alert("la surface du rectangle est : "+R.surface() + " Le périmètre du rectang
 <figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2016/01/onmousout-javascript.png"><img src="http://www.tresfacile.net/wp-content/uploads/2016/01/onmousout-javascript-300x175.png" alt="onmousout-javascript" class="wp-image-3192"/></a></figure></div>
 
 
-<h3>Exemple 4 ( changement d&rsquo;image avec onMousOver et onMouseOut )</h3>
+<h3>Exemple 4 ( changement d&#8217;image avec onMousOver et onMouseOut )</h3>
 
 
 
@@ -983,11 +983,11 @@ alert("la surface du rectangle est : "+R.surface() + " Le périmètre du rectang
 
 
 
-<p>Enregistrez ce fichier sur un dossier de votre machine, avec deux images :&nbsp;&nbsp;<strong>rouge.jpg</strong>&nbsp;et&nbsp;<strong>blanche.jpg</strong>&nbsp;que vous pouvez télécharger via google images. Vous pouvez aussi télécharger&nbsp;l&rsquo;application via&nbsp;<a href="http://www.tresfacile.net/download/test.rar">&nbsp;ce lien</a></p>
+<p>Enregistrez ce fichier sur un dossier de votre machine, avec deux images :&nbsp;&nbsp;<strong>rouge.jpg</strong>&nbsp;et&nbsp;<strong>blanche.jpg</strong>&nbsp;que vous pouvez télécharger via google images. Vous pouvez aussi télécharger&nbsp;l&#8217;application via&nbsp;<a href="http://www.tresfacile.net/download/test.rar">&nbsp;ce lien</a></p>
 
 
 
-<p>Dans cet exemple quand vous faite passer la sourie sur l&rsquo;image elle change, c&rsquo;est l&rsquo;événement&nbsp;<strong>onmouseOver= »lightUp(); »</strong>&nbsp;qui se produit et fais afficher l&rsquo;image&nbsp;<strong>rouge.jpg</strong>&nbsp;qui est programmée dans la fonction&nbsp;<strong>lightUp()</strong>&nbsp;:</p>
+<p>Dans cet exemple quand vous faite passer la sourie sur l&#8217;image elle change, c&#8217;est l&#8217;événement&nbsp;<strong>onmouseOver=&#8221;lightUp();&#8221;</strong>&nbsp;qui se produit et fais afficher l&#8217;image&nbsp;<strong>rouge.jpg</strong>&nbsp;qui est programmée dans la fonction&nbsp;<strong>lightUp()</strong>&nbsp;:</p>
 
 
 
@@ -997,7 +997,7 @@ document.images&#91;"voiture"].src="rouge.jpg"
 
 
 
-<p>Et quand vous quittez l&rsquo;image elle reprend sa forme c.a.d&nbsp; l&rsquo;image&nbsp;<strong>blanche.jpg</strong>&nbsp;s&rsquo;affiche qui est programmée dans la fonction&nbsp;<strong>dimDown()</strong>&nbsp;:</p>
+<p>Et quand vous quittez l&#8217;image elle reprend sa forme c.a.d&nbsp; l&#8217;image&nbsp;<strong>blanche.jpg</strong>&nbsp;s&#8217;affiche qui est programmée dans la fonction&nbsp;<strong>dimDown()</strong>&nbsp;:</p>
 
 
 
@@ -1035,7 +1035,7 @@ https://youtube.com/watch?v=FCQuU5tTQak%3Ffeature%3Doembed
 
 
 
-<p>Les structures conditionnelles permettent l&rsquo;exécution d&rsquo;un groupe d&rsquo;instructions lorsqu&rsquo;une condition est réalisée. La plus répandu est la structure If , la syntaxe est la suivante :</p>
+<p>Les structures conditionnelles permettent l&#8217;exécution d&#8217;un groupe d&#8217;instructions lorsqu&#8217;une condition est réalisée. La plus répandu est la structure If , la syntaxe est la suivante :</p>
 
 
 
@@ -1060,7 +1060,7 @@ https://youtube.com/watch?v=FCQuU5tTQak%3Ffeature%3Doembed
 
 
 
-<p>Nous allons créer maintenant un exemple à l&rsquo;aide de la fonction&nbsp;<strong><a href="http://www.tresfacile.net/javascript-2eme-partie-variables-operateurs-et-fonction-javascript/">prompt()</a>&nbsp;(&nbsp;</strong>rappelons qu&rsquo;il&nbsp;&nbsp; s&rsquo;agit&nbsp; d&rsquo;une méthode qui invite l&rsquo;internaute&nbsp; à saisir une donnée à l&rsquo;aide du clavier, une fois la donnée saisie elle sera récupéré dans une<strong>&nbsp;variable javascript )</strong></p>
+<p>Nous allons créer maintenant un exemple à l&#8217;aide de la fonction&nbsp;<strong><a href="http://www.tresfacile.net/javascript-2eme-partie-variables-operateurs-et-fonction-javascript/">prompt()</a>&nbsp;(&nbsp;</strong>rappelons qu&#8217;il&nbsp;&nbsp; s&#8217;agit&nbsp; d&#8217;une méthode qui invite l&#8217;internaute&nbsp; à saisir une donnée à l&#8217;aide du clavier, une fois la donnée saisie elle sera récupéré dans une<strong>&nbsp;variable javascript )</strong></p>
 
 
 
@@ -1075,7 +1075,7 @@ https://youtube.com/watch?v=FCQuU5tTQak%3Ffeature%3Doembed
 <figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/prompt-javascript.PNG" alt=""/></figure></div>
 
 
-<p>C&rsquo;est une fenêtre contenant un champ de texte et vous invitant à tapez votre age, votre age sera récupéré dans une variable javascript et analysé : si votre age est &lt; 18 ans elle vous affiche le message&nbsp;<strong>« vous êtes mineur »</strong>&nbsp;dans le cas contraire, elle vous affiche le message :&nbsp;<strong>« vous êtes majeur »</strong></p>
+<p>C&#8217;est une fenêtre contenant un champ de texte et vous invitant à tapez votre age, votre age sera récupéré dans une variable javascript et analysé : si votre age est &lt; 18 ans elle vous affiche le message&nbsp;<strong>&#8220;vous êtes mineur&#8221;</strong>&nbsp;dans le cas contraire, elle vous affiche le message :&nbsp;<strong>&#8220;vous êtes majeur&#8221;</strong></p>
 
 
 
@@ -1094,7 +1094,7 @@ https://youtube.com/watch?v=FCQuU5tTQak%3Ffeature%3Doembed
 
 
 
-<p>Les boucles permettent de répéter une séquence du programme un nombre spécifique de fois.<br>La boucle for est constituée de trois paramètres :<br>&#8211; La valeur initiale du compteur<br>&#8211; La condition d&rsquo;arrêt du passage dans la boucle<br>&#8211; La valeur d&rsquo;incrémentation du compteur </p>
+<p>Les boucles permettent de répéter une séquence du programme un nombre spécifique de fois.<br>La boucle for est constituée de trois paramètres :<br>&#8211; La valeur initiale du compteur<br>&#8211; La condition d&#8217;arrêt du passage dans la boucle<br>&#8211; La valeur d&#8217;incrémentation du compteur </p>
 
 
 
@@ -1112,7 +1112,7 @@ Liste d'instructions ;
 
 
 
-<h4>(Cet exemple permet d&rsquo;afficher le message bienvenue 10 fois)</h4>
+<h4>(Cet exemple permet d&#8217;afficher le message bienvenue 10 fois)</h4>
 
 
 <div class="wp-block-image">
@@ -1127,15 +1127,15 @@ Liste d'instructions ;
 
 
 
-<p><strong>1ère partie ( Calcul de factorielle d&rsquo;un entier donné exemple n = 5 )</strong></p>
+<p><strong>1ère partie ( Calcul de factorielle d&#8217;un entier donné exemple n = 5 )</strong></p>
 
 
 
-<p><strong>2ème partie ( Calcul de factorielle n! pour un entier donné saisi par l&rsquo;utilisateur )</strong></p>
+<p><strong>2ème partie ( Calcul de factorielle n! pour un entier donné saisi par l&#8217;utilisateur )</strong></p>
 
 
 
-<p>Il suffit d&rsquo;introduire n à l&rsquo;aide de la fonction prompt</p>
+<p>Il suffit d&#8217;introduire n à l&#8217;aide de la fonction prompt</p>
 
 
 
@@ -1143,11 +1143,11 @@ Liste d'instructions ;
 
 
 
-<p>et d&rsquo;utiliser l&rsquo;algorithme précédent</p>
+<p>et d&#8217;utiliser l&#8217;algorithme précédent</p>
 
 
 
-<p>On peut introduire la valeur de n à l&rsquo;aide d&rsquo;un bouton de commande et afficher les valeur sur champ de texte</p>
+<p>On peut introduire la valeur de n à l&#8217;aide d&#8217;un bouton de commande et afficher les valeur sur champ de texte</p>
 
 
 
@@ -1155,7 +1155,7 @@ Liste d'instructions ;
 
 
 
-<p>La boucle while permet de répeter une plusieurs instruction autant qu&rsquo;une condition soit réalisée</p>
+<p>La boucle while permet de répeter une plusieurs instruction autant qu&#8217;une condition soit réalisée</p>
 
 
 
@@ -1190,7 +1190,7 @@ Liste d'instructions ;
 
 
 
-<p>Une variable Javascript est&nbsp; un conteneur, c&rsquo;est à dire elle est introduite pour&nbsp; représenter ou schématiser une zone mémoire ou autrement dit&nbsp; un lieu de stockage d&rsquo;informations.</p>
+<p>Une variable Javascript est&nbsp; un conteneur, c&#8217;est à dire elle est introduite pour&nbsp; représenter ou schématiser une zone mémoire ou autrement dit&nbsp; un lieu de stockage d&#8217;informations.</p>
 
 
 
@@ -1206,7 +1206,7 @@ Liste d'instructions ;
 
 
 
-<p><strong>&#8211; chaîne de caractères (string )</strong>&nbsp;( comme&nbsp; « voiture » , « maison », « arbre » &#8230;)</p>
+<p><strong>&#8211; chaîne de caractères (string )</strong>&nbsp;( comme&nbsp; &#8220;voiture&#8221; , &#8220;maison&#8221;, &#8220;arbre&#8221; &#8230;)</p>
 
 
 
@@ -1214,7 +1214,7 @@ Liste d'instructions ;
 
 
 
-<p>Pour déclarer une variable il suffit de mettre l&rsquo;instruction var suivie du nom de la variable</p>
+<p>Pour déclarer une variable il suffit de mettre l&#8217;instruction var suivie du nom de la variable</p>
 
 
 
@@ -1227,7 +1227,7 @@ Liste d'instructions ;
 
 
 
-<p>Javascript est un langage à typage dynamique, ce qui veut dire&nbsp; qu&rsquo;on est pas obligé à déclarer le type de la variable. prenons l&rsquo;exemple suivant pour bien éclaircir le truc :</p>
+<p>Javascript est un langage à typage dynamique, ce qui veut dire&nbsp; qu&#8217;on est pas obligé à déclarer le type de la variable. prenons l&#8217;exemple suivant pour bien éclaircir le truc :</p>
 
 
 
@@ -1242,7 +1242,7 @@ x="voiture";
 
 
 
-<p>Le terme&nbsp;<strong>concaténation</strong>&nbsp;signifie :&nbsp;<strong>juxtaposition</strong>&nbsp;ou&nbsp;&nbsp;<strong>enchaînement,&nbsp;</strong>et ici en javascript le terme veut dire mettre une variable juste à coté de l&rsquo;autre, pour concaténer deux variables on utilise le symbol&nbsp; « + » :</p>
+<p>Le terme&nbsp;<strong>concaténation</strong>&nbsp;signifie :&nbsp;<strong>juxtaposition</strong>&nbsp;ou&nbsp;&nbsp;<strong>enchaînement,&nbsp;</strong>et ici en javascript le terme veut dire mettre une variable juste à coté de l&#8217;autre, pour concaténer deux variables on utilise le symbol&nbsp; &#8220;+&#8221; :</p>
 
 
 
@@ -1265,15 +1265,15 @@ window.document.write("la valeur de x est " + x);
 
 
 
-<p>Ce qui va afficher après exécution :&nbsp;<strong>la valeur de x est : 5</strong>&nbsp;( c&rsquo;est une concaténation entre une variable de type numérique&nbsp;&nbsp;<em><strong>x=5</strong></em>&nbsp; et une variable de type string<strong>&nbsp; « <em><strong>la valeur de x est :  » )</strong></em></strong></p>
+<p>Ce qui va afficher après exécution :&nbsp;<strong>la valeur de x est : 5</strong>&nbsp;( c&#8217;est une concaténation entre une variable de type numérique&nbsp;&nbsp;<em><strong>x=5</strong></em>&nbsp; et une variable de type string<strong>&nbsp; &#8220;<em><strong>la valeur de x est : &#8221; )</strong></em></strong></p>
 
 
 
-<h3>1 &#8211; 4 Récupération d&rsquo;une saisie clavier dans une variable Javascript</h3>
+<h3>1 &#8211; 4 Récupération d&#8217;une saisie clavier dans une variable Javascript</h3>
 
 
 
-<p>On a besoin parfois de demander à l&rsquo;internaute de saisir à l&rsquo;aide du clavier des données et de les récupérer sous forme de variable javascript, pour cela le langage javascript est doté d&rsquo;une méthode nommée<strong>&nbsp;prompt()&nbsp;</strong></p>
+<p>On a besoin parfois de demander à l&#8217;internaute de saisir à l&#8217;aide du clavier des données et de les récupérer sous forme de variable javascript, pour cela le langage javascript est doté d&#8217;une méthode nommée<strong>&nbsp;prompt()&nbsp;</strong></p>
 
 
 
@@ -1306,7 +1306,7 @@ window.document.write("la valeur de x est " + x);
 
 
 
-<p>Les opérateurs sont des symboles qui permettent de manipuler des variables, c&rsquo;est-à-dire effectuer des opérations, les évaluer, &#8230;On distingue plusieurs types d&rsquo;opérateurs: les opérateurs de calcul les opérateurs d&rsquo;assignation, les opérateurs de comparaison, les opérateurs logiques,…</p>
+<p>Les opérateurs sont des symboles qui permettent de manipuler des variables, c&#8217;est-à-dire effectuer des opérations, les évaluer, &#8230;On distingue plusieurs types d&#8217;opérateurs: les opérateurs de calcul les opérateurs d&#8217;assignation, les opérateurs de comparaison, les opérateurs logiques,…</p>
 
 
 
@@ -1314,11 +1314,11 @@ window.document.write("la valeur de x est " + x);
 
 
 
-<p>Les opérateurs de calcul permettent de modifier mathématiquement la valeur d&rsquo;une variable<br>+ opérateur d&rsquo;addition Ajoute deux valeurs<br>&#8211; opérateur de soustraction Soustrait deux valeurs<br>* opérateur de multiplication Multiplie deux valeurs<br>/ opérateur de division Divise deux valeurs<br>= opérateur d&rsquo;affectation Affecte une valeur à une variable x=3 Met la valeur 3 dans la variable x</p>
+<p>Les opérateurs de calcul permettent de modifier mathématiquement la valeur d&#8217;une variable<br>+ opérateur d&#8217;addition Ajoute deux valeurs<br>&#8211; opérateur de soustraction Soustrait deux valeurs<br>* opérateur de multiplication Multiplie deux valeurs<br>/ opérateur de division Divise deux valeurs<br>= opérateur d&#8217;affectation Affecte une valeur à une variable x=3 Met la valeur 3 dans la variable x</p>
 
 
 
-<h3>2 &#8211; 2 Les opérateurs d&rsquo;assignation</h3>
+<h3>2 &#8211; 2 Les opérateurs d&#8217;assignation</h3>
 
 
 
@@ -1326,7 +1326,7 @@ window.document.write("la valeur de x est " + x);
 
 
 
-<p>Avec les opérateurs d&rsquo;assignation il est possible d&rsquo;écrire cette opération sous la forme suivante: x+=2. C&rsquo;est à dire si x= 3 elle devient après l&rsquo;opération 5.</p>
+<p>Avec les opérateurs d&#8217;assignation il est possible d&#8217;écrire cette opération sous la forme suivante: x+=2. C&#8217;est à dire si x= 3 elle devient après l&#8217;opération 5.</p>
 
 
 
@@ -1338,15 +1338,15 @@ window.document.write("la valeur de x est " + x);
 
 
 
-<p>Le langage Javascript est doté d&rsquo;un grand nombre de fonctions, mais en essayant de répondre aux exigences et besoins de l&rsquo;utilisateur ce langage nous offre la possibilité de construire ses propres fonction. La syntaxe est la suivante :</p>
+<p>Le langage Javascript est doté d&#8217;un grand nombre de fonctions, mais en essayant de répondre aux exigences et besoins de l&#8217;utilisateur ce langage nous offre la possibilité de construire ses propres fonction. La syntaxe est la suivante :</p>
 
 
 
-<p>&nbsp;&nbsp;<strong>&nbsp; function nom_de_la_fonction(arguments) {<br>&#8230; code des instructions &#8230;<br>}</strong><br>Le code d&rsquo;une fonction peut être introduit dans une page HTML de deux façons différentes : ou bien :</p>
+<p>&nbsp;&nbsp;<strong>&nbsp; function nom_de_la_fonction(arguments) {<br>&#8230; code des instructions &#8230;<br>}</strong><br>Le code d&#8217;une fonction peut être introduit dans une page HTML de deux façons différentes : ou bien :</p>
 
 
 
-<p><strong>1 &#8211;</strong>&nbsp; entre les balises<strong>&nbsp;Head</strong>&nbsp; et&nbsp;<strong>/Head</strong>&nbsp; dans ce cas elle ne sera pas exécuté directement au chargement de la page pour qu&rsquo;il en soit ainsi il faut donner un ordre d&rsquo;exécution sur la balise&nbsp;<strong>Body</strong>&nbsp; à l&rsquo;aid de l&rsquo;instruction&nbsp;<strong>Body onload</strong></p>
+<p><strong>1 &#8211;</strong>&nbsp; entre les balises<strong>&nbsp;Head</strong>&nbsp; et&nbsp;<strong>/Head</strong>&nbsp; dans ce cas elle ne sera pas exécuté directement au chargement de la page pour qu&#8217;il en soit ainsi il faut donner un ordre d&#8217;exécution sur la balise&nbsp;<strong>Body</strong>&nbsp; à l&#8217;aid de l&#8217;instruction&nbsp;<strong>Body onload</strong></p>
 
 
 
@@ -1354,7 +1354,7 @@ window.document.write("la valeur de x est " + x);
 
 
 
-<h4>En utilisant la première méthode, voici un exemple d&rsquo;une fonction affichant ule message :&nbsp;&nbsp;<em>bienvenue au CRMEF OUJDA</em></h4>
+<h4>En utilisant la première méthode, voici un exemple d&#8217;une fonction affichant ule message :&nbsp;&nbsp;<em>bienvenue au CRMEF OUJDA</em></h4>
 
 
 
@@ -1386,7 +1386,7 @@ document.write("La somme de 5 et de 4 est " + z);
 
 
 
-<p>Ce qui affiche après exécution :&nbsp; « <em><strong>La somme de 5 et de 4 est 9&Prime;</strong></em></p>
+<p>Ce qui affiche après exécution :&nbsp; &#8220;<em><strong>La somme de 5 et de 4 est 9&#8243;</strong></em></p>
 
 
 
@@ -1394,11 +1394,11 @@ document.write("La somme de 5 et de 4 est " + z);
 
 
 
-<p>On appelle événement toute action comme : click de la sourie,&nbsp; passage de la sourie, mettre le curseur dans une zone de saisie …&nbsp; Javascript peut associer des méthodes ou procédures à ces derniers à l&rsquo;aide de la syntaxe :</p>
+<p>On appelle événement toute action comme : click de la sourie,&nbsp; passage de la sourie, mettre le curseur dans une zone de saisie …&nbsp; Javascript peut associer des méthodes ou procédures à ces derniers à l&#8217;aide de la syntaxe :</p>
 
 
 
-<p><strong>&nbsp;onEvenement= »Action_Javascript_ou_Fonction(); »</strong></p>
+<p><strong>&nbsp;onEvenement=&#8221;Action_Javascript_ou_Fonction();&#8221;</strong></p>
 
 
 
@@ -1406,19 +1406,19 @@ document.write("La somme de 5 et de 4 est " + z);
 
 
 
-<p><strong>Click (onClick)</strong><br>Se produit lorsque l&rsquo;utilisateur clique sur l&rsquo;élément associé à l&rsquo;événement</p>
+<p><strong>Click (onClick)</strong><br>Se produit lorsque l&#8217;utilisateur clique sur l&#8217;élément associé à l&#8217;événement</p>
 
 
 
-<p><strong>Load (onLoad)</strong><br>Se produit lorsque le navigateur de l&rsquo;utilisateur charge la page en cours</p>
+<p><strong>Load (onLoad)</strong><br>Se produit lorsque le navigateur de l&#8217;utilisateur charge la page en cours</p>
 
 
 
-<p><strong>Unload (onUnload)&nbsp;&nbsp;</strong><br>Se produit lorsque le navigateur de l&rsquo;utilisateur quitte la page en cours</p>
+<p><strong>Unload (onUnload)&nbsp;&nbsp;</strong><br>Se produit lorsque le navigateur de l&#8217;utilisateur quitte la page en cours</p>
 
 
 
-<p><strong>MouseOver (onMouseOver)</strong><br>Se produit lorsque l&rsquo;utilisateur positionne le curseur de la souris au-dessus d&rsquo;un élément</p>
+<p><strong>MouseOver (onMouseOver)</strong><br>Se produit lorsque l&#8217;utilisateur positionne le curseur de la souris au-dessus d&#8217;un élément</p>
 
 
 
@@ -1426,23 +1426,23 @@ document.write("La somme de 5 et de 4 est " + z);
 
 
 
-<p><strong>Focus (onFocus)</strong><br>Se produit lorsque l&rsquo;utilisateur donne le focus à un élément, c&rsquo;est-à-dire que cet élément est sélectionné comme étant l&rsquo;élément actif</p>
+<p><strong>Focus (onFocus)</strong><br>Se produit lorsque l&#8217;utilisateur donne le focus à un élément, c&#8217;est-à-dire que cet élément est sélectionné comme étant l&#8217;élément actif</p>
 
 
 
-<p><strong>Blur (onBlur)</strong><br>Se produit lorsque l&rsquo;élément perd le focus, c&rsquo;est-à-dire que l&rsquo;utilisateur clique hors de cet élément, celui-ci n&rsquo;est alors plus sélectionné comme étant l&rsquo;élément actif</p>
+<p><strong>Blur (onBlur)</strong><br>Se produit lorsque l&#8217;élément perd le focus, c&#8217;est-à-dire que l&#8217;utilisateur clique hors de cet élément, celui-ci n&#8217;est alors plus sélectionné comme étant l&#8217;élément actif</p>
 
 
 
-<p><strong>Change (onChange)</strong><br>Se produit lorsque l&rsquo;utilisateur modifie le contenu d&rsquo;un champ de données</p>
+<p><strong>Change (onChange)</strong><br>Se produit lorsque l&#8217;utilisateur modifie le contenu d&#8217;un champ de données</p>
 
 
 
-<p><strong>Select (onSelect)</strong><br>Se produit lorsque l&rsquo;utilisateur sélectionne un texte (ou une partie d&rsquo;un texte) dans un champ de type « text » ou « textarea »</p>
+<p><strong>Select (onSelect)</strong><br>Se produit lorsque l&#8217;utilisateur sélectionne un texte (ou une partie d&#8217;un texte) dans un champ de type &#8220;text&#8221; ou &#8220;textarea&#8221;</p>
 
 
 
-<p><strong>Submit (onSubmit)</strong><br>Se produit lorsque l&rsquo;utilisateur clique sur le bouton de soumission d&rsquo;un formulaire (le bouton qui permet d&rsquo;envoyer le formulaire)</p>
+<p><strong>Submit (onSubmit)</strong><br>Se produit lorsque l&#8217;utilisateur clique sur le bouton de soumission d&#8217;un formulaire (le bouton qui permet d&#8217;envoyer le formulaire)</p>
 
 
 
@@ -1450,7 +1450,7 @@ document.write("La somme de 5 et de 4 est " + z);
 
 
 
-<p>Nous allons créer une fonction&nbsp;&nbsp;<strong>exemple()</strong>&nbsp;dont la fonction est l&rsquo;affichage du message<strong>&nbsp; » Vous avez cliqué sur le bouton »</strong>&nbsp;et lui associer un bouton lié à l’événement<strong>&nbsp;onclick&nbsp;</strong></p>
+<p>Nous allons créer une fonction&nbsp;&nbsp;<strong>exemple()</strong>&nbsp;dont la fonction est l&#8217;affichage du message<strong>&nbsp;&#8221; Vous avez cliqué sur le bouton&#8221;</strong>&nbsp;et lui associer un bouton lié à l’événement<strong>&nbsp;onclick&nbsp;</strong></p>
 
 
 
@@ -1476,14 +1476,14 @@ document.write("La somme de 5 et de 4 est " + z);
 <figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/onclick-javascript.png" alt="onclick-javascript"/></figure></div>
 
 
-<p>En cliquant sur ce bouton il se produit l’événement exemple() qui&nbsp; est une fonction permettant d&rsquo;afficher le message&nbsp;<strong> » Vous avez cliqué sur le bouton » :</strong></p>
+<p>En cliquant sur ce bouton il se produit l’événement exemple() qui&nbsp; est une fonction permettant d&#8217;afficher le message&nbsp;<strong>&#8221; Vous avez cliqué sur le bouton&#8221; :</strong></p>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><img src="https://www.tresfacile.net/images/javascript/executer-evenement-javascript.png" alt="executer-evenement-javascript"/></figure></div>
 
 
-<p>J&rsquo;espère que vous avez bien compris les événement Javascript, si vous avez des questions et que vous avez besoin d&rsquo;un soutien merci de le poster sur notre&nbsp;&nbsp;<a href="https://plus.google.com/u/0/communities/108500242892278298417/stream/889c19bb-625f-4b52-91e4-628247463375" target="_blank" rel="noreferrer noopener">page&nbsp; communauté de Google plus</a></p>
+<p>J&#8217;espère que vous avez bien compris les événement Javascript, si vous avez des questions et que vous avez besoin d&#8217;un soutien merci de le poster sur notre&nbsp;&nbsp;<a href="https://plus.google.com/u/0/communities/108500242892278298417/stream/889c19bb-625f-4b52-91e4-628247463375" target="_blank" rel="noreferrer noopener">page&nbsp; communauté de Google plus</a></p>
 ]]></content:encoded>
 					
 		

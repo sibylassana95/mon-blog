@@ -12,7 +12,7 @@
 	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/asruce-excel/feed/" rel="self" type="application/rss+xml" />
 	<link>https://sibylassana95.github.io/mon-blog</link>
 	<description>Astuce - Cours - Actualité</description>
-	<lastBuildDate>Tue, 21 Jun 2022 03:07:07 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 20:47:31 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,48 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
+		<title>Calculer l&#8217;Age dans Excel</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/calculer-lage-dans-excel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 20:47:31 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[asruce excel]]></category>
+		<category><![CDATA[astuce excel]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=744</guid>
+
+					<description><![CDATA[Lorsque l&#8217;on veut donc&#160;calculer l&#8217;âge dans une Feuille Excel, il suffit de combiner la fonction&#160;DATEDIF&#160;avec la fonction&#160;AUJOURDHUI&#160;(qui renvoie la date du jour). La fonction&#160;DATEDIF&#160;fait alors la&#160;comparaison entre la date de naissance et la date actuelle. Le résultat de cette formule sera donc toujours correct dans votre fichier Excel – pas besoin de modifier quoi que&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Lorsque l&#8217;on veut donc&nbsp;<strong>calculer l&#8217;âge dans une Feuille Excel</strong>, il suffit de combiner la fonction&nbsp;DATEDIF&nbsp;avec la fonction&nbsp;AUJOURDHUI&nbsp;(qui renvoie la date du jour). La fonction&nbsp;DATEDIF&nbsp;fait alors la&nbsp;<strong>comparaison entre la date de naissance et la date actuelle</strong>. Le résultat de cette formule sera donc toujours correct dans votre fichier Excel – pas besoin de modifier quoi que ce soit pour que la formule soit à jour.</p>
+
+
+
+<p>La date de naissance doit être dans le format approprié (date), voici donc deux possibilités de formules…</p>
+
+
+
+<h2>Calculer l&#8217;âge avec la date de naissance dans une cellule</h2>
+
+
+
+<p>Si la date de naissance se trouve dans la cellule &#8220;A1&#8221; alors la formule sera la suivante:</p>
+
+
+
+<p><strong>=DATEDIF(A1;AUJOURDHUI();&#8221;Y&#8221;)</strong><br>Le paramètre &#8220;Y&#8221; de la fonction DATEDIF indique que le résultat sera affiché en années complètes.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-tiktok wp-block-embed-tiktok"><div class="wp-block-embed__wrapper">
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@siby_global/video/7034512978187767046" data-video-id="7034512978187767046" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@siby_global" href="https://www.tiktok.com/@siby_global?refer=embed">@siby_global</a> <p>Tuto 6</p> <a target="_blank" title="♬ son original - SIBYGLOBAL" href="https://www.tiktok.com/music/son-original-7034512798566615814?refer=embed">♬ son original &#8211; SIBYGLOBAL</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Comment puis-je créer et modifier un commentaire dans Microsoft Excel ?</title>
 		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-puis-je-creer-et-modifier-un-commentaire-dans-microsoft-excel/</link>
 		
@@ -994,87 +1036,6 @@
 
 
 <p>Avec&nbsp;RECHERCHEV non seulement vous pouvez rechercher des valeurs individuelles, mais aussi combiner deux feuilles de calcul en une seule. Par exemple, si vous avez une feuille de calcul avec les noms et les numéros de téléphone et une autre feuille avec les noms et adresses e-mail, vous pouvez mettre les adresses e-mail à côté des noms et des numéros de téléphone en utilisant RECHERCHEV.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Comment ajouter une Mise en forme conditionnelle dans Excel 2013</title>
-		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/comment-ajouter-une-mise-en-forme-conditionnelle-dans-excel-2013/</link>
-		
-		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
-		<pubDate>Tue, 21 Jun 2022 01:05:16 +0000</pubDate>
-				<category><![CDATA[Astuces ,Trucs]]></category>
-		<category><![CDATA[Excel]]></category>
-		<category><![CDATA[asruce excel]]></category>
-		<category><![CDATA[excel]]></category>
-		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=675</guid>
-
-					<description><![CDATA[Microsoft Excel 2013&#160;introduit une nouvelle fonctionnalité qui vous permet de différencier les données,elle s’appelle&#160;Mise en forme conditionnelle. Cet outil pratique va appliquer des couleurs à la police et modifier le fond d’une cellule en fonction des conditions que vous avez définies – si vous voulez mettre en évidence toute cellule qui comporte un nom ou&#8230;]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<figure class="wp-block-image"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/trucs-astuces-excel-2013.jpg?resize=622%2C360&amp;ssl=1" alt="Microsoft Excel 2013"/></figure>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-1.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-1" class="wp-image-802"/></figure></div>
-
-
-<span id="more-675"></span>
-
-
-
-<p><strong>Microsoft Excel 2013</strong>&nbsp;introduit une nouvelle fonctionnalité qui vous permet de différencier les données,elle s’appelle&nbsp;<strong>Mise en forme conditionnelle</strong>. Cet outil pratique va appliquer des couleurs à la police et modifier le fond d’une cellule en fonction des conditions que vous avez définies – si vous voulez mettre en évidence toute cellule qui comporte un nom ou une date spécifique, par exemple, ou de différencier les valeurs numériques élevées, moyennes et basses. Suivez ces instructions pour configurer votre propre mise en forme conditionnelle en quelques&nbsp;<strong>étapes simples</strong>.</p>
-
-
-
-<p>1. Sélectionnez les cellules que vous souhaitez formater.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-2.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-2" class="wp-image-803"/></figure></div>
-
-
-<p><br>2. Cliquez sur «&nbsp;Mise en forme conditionnelle&nbsp;» sur le ruban.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-3.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-3" class="wp-image-804"/></figure></div>
-
-
-<p><br>3. Placez le curseur sur «&nbsp;<strong>Highlight Cleels Rules</strong>&nbsp;» dans le menu déroulant.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-4.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-4" class="wp-image-805"/></figure></div>
-
-
-<p><br>4. Cliquez sur «&nbsp;<strong>texte qui contient</strong>&nbsp;» dans le menu déroulant.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-5.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-5" class="wp-image-806"/></figure></div>
-
-
-<p><br>5. Sélectionnez le texte que vous souhaitez formaté dans la fenêtre&nbsp;«&nbsp;texte qui contient&nbsp;» .</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-6.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-6" class="wp-image-807"/></figure></div>
-
-
-<p><br>6. Choisissez le format dans la fenêtre&nbsp;«&nbsp;texte qui contient&nbsp;» .</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter"><img src="https://i0.wp.com/astuces-informatique.com/wp-content/uploads/2016/05/excel-2013-formattage-conditionnelle-7.jpg?resize=675%2C403" alt="excel-2013-formattage-conditionnelle-7" class="wp-image-808"/></figure></div>
-
-
-<p></p>
 ]]></content:encoded>
 					
 		

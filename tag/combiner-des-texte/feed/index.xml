@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>combiner des texte &#8211; SIBY INFORMATIQUE</title>
+	<atom:link href="https://sibylassana95.github.io/mon-blog/tag/combiner-des-texte/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sibylassana95.github.io/mon-blog</link>
+	<description>Astuce - Cours - Actualité</description>
+	<lastBuildDate>Tue, 21 Jun 2022 20:42:53 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>Combiner des textes avec EXCEL</title>
+		<link>https://sibylassana95.github.io/mon-blog/2022/06/21/combiner-des-textes-avec-excel/</link>
+		
+		<dc:creator><![CDATA[sibylassana95]]></dc:creator>
+		<pubDate>Tue, 21 Jun 2022 20:42:53 +0000</pubDate>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[astuce excel]]></category>
+		<category><![CDATA[combiner des texte]]></category>
+		<category><![CDATA[excel]]></category>
+		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=742</guid>
+
+					<description><![CDATA[Vous pouvez combiner les données de plusieurs cellules au sein d’une seule cellule à l’aide du symbole Esperluette (&#38;) Sélectionnez la cellule dans laquelle vous voulez insérer les données combinées. Entrez&#160;=, puis sélectionnez la première cellule que vous voulez combiner. Entrez ensuite&#160;&#38;&#160;et utilisez des guillemets entourant un espace. Sélectionnez la cellule suivante que vous voulez&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Vous pouvez combiner les données de plusieurs cellules au sein d’une seule cellule à l’aide du symbole Esperluette (&amp;)</p>
+
+
+
+<ol type="1"><li>Sélectionnez la cellule dans laquelle vous voulez insérer les données combinées.</li><li>Entrez&nbsp;=, puis sélectionnez la première cellule que vous voulez combiner.</li><li>Entrez ensuite&nbsp;<strong>&amp;</strong>&nbsp;et utilisez des guillemets entourant un espace.</li><li>Sélectionnez la cellule suivante que vous voulez combiner, puis appuyez sur Entrée.&nbsp;<strong>=A2&amp;&#8221; &#8220;&amp;B2</strong>&nbsp;est un exemple de formule.</li></ol>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-tiktok wp-block-embed-tiktok"><div class="wp-block-embed__wrapper">
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@siby_global/video/7034861628961197318" data-video-id="7034861628961197318" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@siby_global" href="https://www.tiktok.com/@siby_global?refer=embed">@siby_global</a> <p>Tuto 7</p> <a target="_blank" title="♬ son original - SIBYGLOBAL" href="https://www.tiktok.com/music/son-original-7034861428045515525?refer=embed">♬ son original &#8211; SIBYGLOBAL</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

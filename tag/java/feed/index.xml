@@ -46,11 +46,11 @@
 
 
 
-<p>Dans ce tutoriel, nous verrons comment créer un fichier en Java à l&rsquo;aide de&nbsp; la classe<em><strong>&nbsp;File</strong></em>&nbsp;et la méthode&nbsp;&nbsp;<em><strong>createNewFile()</strong></em>. Cette méthode crée un fichier vide, s’il n’existe pas à l’emplacement spécifié et renvoie&nbsp;<strong>true</strong>. Si le fichier est déjà présent, cette méthode renvoie<strong>&nbsp;false</strong>.</p>
+<p>Dans ce tutoriel, nous verrons comment créer un fichier en Java à l&#8217;aide de&nbsp; la classe<em><strong>&nbsp;File</strong></em>&nbsp;et la méthode&nbsp;&nbsp;<em><strong>createNewFile()</strong></em>. Cette méthode crée un fichier vide, s’il n’existe pas à l’emplacement spécifié et renvoie&nbsp;<strong>true</strong>. Si le fichier est déjà présent, cette méthode renvoie<strong>&nbsp;false</strong>.</p>
 
 
 
-<p><strong>IOException</strong>&nbsp;: Si une erreur d&rsquo;entrée / sortie survient lors de la création du fichier.<br><strong>SecurityException</strong>&nbsp;: Si un gestionnaire de sécurité existe et que sa méthode&nbsp;<em>SecurityManager.checkWrite (java.lang.String)</em>&nbsp;refuse l&rsquo;accès en écriture au fichier.</p>
+<p><strong>IOException</strong>&nbsp;: Si une erreur d&#8217;entrée / sortie survient lors de la création du fichier.<br><strong>SecurityException</strong>&nbsp;: Si un gestionnaire de sécurité existe et que sa méthode&nbsp;<em>SecurityManager.checkWrite (java.lang.String)</em>&nbsp;refuse l&#8217;accès en écriture au fichier.</p>
 
 
 
@@ -62,11 +62,11 @@
 
 
 
-<h2>2 &#8211; Création d&rsquo;un fichier avec la classe File Java</h2>
+<h2>2 &#8211; Création d&#8217;un fichier avec la classe File Java</h2>
 
 
 
-<p>Le code ci-dessous créerait un fichier txt nommé&nbsp;&nbsp;<strong>newfile.txt</strong>&nbsp;dans le<strong>&nbsp;bureau</strong>&nbsp;de l&rsquo;<strong>utilisateur acer</strong>. Vous pouvez modifier le chemin dans le code ci-dessous afin de créer le fichier dans un répertoire ou un lecteur différent.</p>
+<p>Le code ci-dessous créerait un fichier txt nommé&nbsp;&nbsp;<strong>newfile.txt</strong>&nbsp;dans le<strong>&nbsp;bureau</strong>&nbsp;de l&#8217;<strong>utilisateur acer</strong>. Vous pouvez modifier le chemin dans le code ci-dessous afin de créer le fichier dans un répertoire ou un lecteur différent.</p>
 
 
 
@@ -99,11 +99,11 @@ public class NewFile
 
 
 
-<h2>3 &#8211; Ecrire dans un fichier existant à l&rsquo;aide de la classe&nbsp; FileWriter</h2>
+<h2>3 &#8211; Ecrire dans un fichier existant à l&#8217;aide de la classe&nbsp; FileWriter</h2>
 
 
 
-<p>La classe FileWriter permet d&rsquo;ouvrir un flux d&rsquo;écriture sur un fichier via son constructeur&nbsp; :</p>
+<p>La classe FileWriter permet d&#8217;ouvrir un flux d&#8217;écriture sur un fichier via son constructeur&nbsp; :</p>
 
 
 
@@ -111,7 +111,7 @@ public class NewFile
 
 
 
-<ol><li>Si la valeur du boolean append est mis à false, le contenu du fichier sera écrasé par le nouveau contenu</li><li>Si la valeur du boolean append est mis à true, le nouveau contenu sera ajouté à l&rsquo;ancien</li></ol>
+<ol><li>Si la valeur du boolean append est mis à false, le contenu du fichier sera écrasé par le nouveau contenu</li><li>Si la valeur du boolean append est mis à true, le nouveau contenu sera ajouté à l&#8217;ancien</li></ol>
 
 
 
@@ -139,7 +139,7 @@ public class NewFile
 
 
 
-<p>Pour supprimer un fichier existant en Java, il suffit d&rsquo;instancier la classe&nbsp;<strong>FileWriter</strong>&nbsp;et pointer vers le fichier, et appliquer ensuite la méthode&nbsp;<strong>delete()</strong>&nbsp;à l&rsquo;objet :</p>
+<p>Pour supprimer un fichier existant en Java, il suffit d&#8217;instancier la classe&nbsp;<strong>FileWriter</strong>&nbsp;et pointer vers le fichier, et appliquer ensuite la méthode&nbsp;<strong>delete()</strong>&nbsp;à l&#8217;objet :</p>
 
 
 
@@ -171,7 +171,7 @@ myFile.delete();</code></pre>
 
 
 
-<p>Nous allons vous présenter un guide complet&nbsp; étape par étape pour créer une connexion Java avec une base de donnée MySql en utilisant l&rsquo;IDE Eclipse et le driver JBDC pour MySql.</p>
+<p>Nous allons vous présenter un guide complet&nbsp; étape par étape pour créer une connexion Java avec une base de donnée MySql en utilisant l&#8217;IDE Eclipse et le driver JBDC pour MySql.</p>
 
 
 
@@ -242,7 +242,7 @@ myFile.delete();</code></pre>
 
 
 
-<p>Pour pouvoir connecter Java avec mysql, il nécessaire, télécharger et installer mysql connector for Java. Ce dernier est téléchargeable depuis l&rsquo;adesse:&nbsp;&nbsp;<a href="https://dev.mysql.com/downloads/file/?id=480091">https://dev.mysql.com/downloads/file/?id=480091</a></p>
+<p>Pour pouvoir connecter Java avec mysql, il nécessaire, télécharger et installer mysql connector for Java. Ce dernier est téléchargeable depuis l&#8217;adesse:&nbsp;&nbsp;<a href="https://dev.mysql.com/downloads/file/?id=480091">https://dev.mysql.com/downloads/file/?id=480091</a></p>
 
 
 <div class="wp-block-image">
@@ -257,7 +257,7 @@ myFile.delete();</code></pre>
 
 
 
-<p>Après avoir télécharger l&rsquo;archive, décompressez la et vous allez trouver à l&rsquo;intérieur un fichier jar nommé :&nbsp;<em><strong>mysql-connector-java-5.1.47-bin.jar :</strong></em></p>
+<p>Après avoir télécharger l&#8217;archive, décompressez la et vous allez trouver à l&#8217;intérieur un fichier jar nommé :&nbsp;<em><strong>mysql-connector-java-5.1.47-bin.jar :</strong></em></p>
 
 
 <div class="wp-block-image">
@@ -271,7 +271,7 @@ myFile.delete();</code></pre>
 <figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-jar-file-bin-lib-folder.png"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-jar-file-bin-lib-folder-300x144.png" alt="mysql-connector-jar-file-bin-lib-folder" class="wp-image-5638"/></a></figure></div>
 
 
-<p>Maintenant à l&rsquo;aide de la sourie, faite un&nbsp;<em><strong>click droit sur le dossier lib</strong></em>&nbsp;et pointez sur&nbsp;<em><strong>le menu import:</strong></em></p>
+<p>Maintenant à l&#8217;aide de la sourie, faite un&nbsp;<em><strong>click droit sur le dossier lib</strong></em>&nbsp;et pointez sur&nbsp;<em><strong>le menu import:</strong></em></p>
 
 
 <div class="wp-block-image">
@@ -285,14 +285,14 @@ myFile.delete();</code></pre>
 <figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-for-java-import-general-system-files.png"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-for-java-import-general-system-files-300x238.png" alt="mysql-connector-for-java-import-general-system-files" class="wp-image-5643"/></a></figure></div>
 
 
-<p>Continuez ensuite votre navigation jusqu&rsquo;à ce que vous trouviez le fichier&nbsp;&nbsp;<em><strong>mysql-connector-java-5.1.47-bin.jar</strong></em>&nbsp; , séléctionnez le et cliquez sur le bouton&nbsp;<em><strong>Finish:</strong></em></p>
+<p>Continuez ensuite votre navigation jusqu&#8217;à ce que vous trouviez le fichier&nbsp;&nbsp;<em><strong>mysql-connector-java-5.1.47-bin.jar</strong></em>&nbsp; , séléctionnez le et cliquez sur le bouton&nbsp;<em><strong>Finish:</strong></em></p>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-java-jar-select.png"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-java-jar-select-300x236.png" alt="mysql-connector-java-jar-select" class="wp-image-5645"/></a></figure></div>
 
 
-<p>Le fichier est maintenant visible sur l&rsquo;explorateur de fichier d&rsquo;Eclipse :</p>
+<p>Le fichier est maintenant visible sur l&#8217;explorateur de fichier d&#8217;Eclipse :</p>
 
 
 <div class="wp-block-image">
@@ -303,21 +303,21 @@ myFile.delete();</code></pre>
 
 
 
-<p>A l&rsquo;aide du bouton droit de la sourie sur le&nbsp;<em><strong>dossier lib</strong></em>&nbsp;de votre projet Eclipse, cliquez sur&nbsp;<em><strong>Properties&nbsp;&nbsp;</strong></em>et choisissez ensuite le menu&nbsp;<em><strong>Java Build Path:</strong></em></p>
+<p>A l&#8217;aide du bouton droit de la sourie sur le&nbsp;<em><strong>dossier lib</strong></em>&nbsp;de votre projet Eclipse, cliquez sur&nbsp;<em><strong>Properties&nbsp;&nbsp;</strong></em>et choisissez ensuite le menu&nbsp;<em><strong>Java Build Path:</strong></em></p>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-for-java-library-add-jar.png"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-for-java-library-add-jar-300x186.png" alt="mysql-connector-for-java-library-add-jar" class="wp-image-5650"/></a></figure></div>
 
 
-<p>Sélectionnez ensuite l&rsquo;archive jar qui se trouve dans le dossier&nbsp; lib du projet Eclipse :</p>
+<p>Sélectionnez ensuite l&#8217;archive jar qui se trouve dans le dossier&nbsp; lib du projet Eclipse :</p>
 
 
 <div class="wp-block-image">
 <figure class="aligncenter"><a href="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-java-jar-selection.png"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/mysql-connector-java-jar-selection-300x229.png" alt="mysql-connector-java-jar-selection" class="wp-image-5652"/></a></figure></div>
 
 
-<p>Si les étapes sont correctement exécutés vous devriez voir l&rsquo;archive jar dans&nbsp;<em><strong>Referenced Librairies:</strong></em></p>
+<p>Si les étapes sont correctement exécutés vous devriez voir l&#8217;archive jar dans&nbsp;<em><strong>Referenced Librairies:</strong></em></p>
 
 
 <div class="wp-block-image">
@@ -332,7 +332,7 @@ myFile.delete();</code></pre>
 
 
 
-<p>Afin de pouvoir créer un test de connexion&nbsp; de Java avec MySql, il va falloir installer un serveur MySql. Plusieurs choix s&rsquo;offrent à vous WampServer , xampp, EasyPHP&#8230;Nous vous recommandons pour cela d&rsquo;utiliser&nbsp;<a href="http://www.wampserver.com/">WampServer.</a></p>
+<p>Afin de pouvoir créer un test de connexion&nbsp; de Java avec MySql, il va falloir installer un serveur MySql. Plusieurs choix s&#8217;offrent à vous WampServer , xampp, EasyPHP&#8230;Nous vous recommandons pour cela d&#8217;utiliser&nbsp;<a href="http://www.wampserver.com/">WampServer.</a></p>
 
 
 
@@ -383,7 +383,7 @@ myFile.delete();</code></pre>
 
 
 
-<p>Les données sont maintenant récupérées sur l&rsquo;objet&nbsp;<em><strong>res</strong></em>&nbsp;pour accéder à la valeur d&rsquo;un champ on utilise les méthodes&nbsp;<strong>getInt(numéro de la colonne), getDouble(numéro de la colonne), getString(&nbsp;numéro de la colonne)&#8230;&nbsp;</strong>selon le type du champ de la table<strong>&nbsp;( int, double, String&#8230;).</strong></p>
+<p>Les données sont maintenant récupérées sur l&#8217;objet&nbsp;<em><strong>res</strong></em>&nbsp;pour accéder à la valeur d&#8217;un champ on utilise les méthodes&nbsp;<strong>getInt(numéro de la colonne), getDouble(numéro de la colonne), getString(&nbsp;numéro de la colonne)&#8230;&nbsp;</strong>selon le type du champ de la table<strong>&nbsp;( int, double, String&#8230;).</strong></p>
 
 
 
@@ -395,7 +395,7 @@ myFile.delete();</code></pre>
 
 
 
-<p>Et afin de parcourir les données successivement une après l&rsquo;autre du début de la sélection jusqu&rsquo;à la fin de la sélection, on utilise la boucle while :</p>
+<p>Et afin de parcourir les données successivement une après l&#8217;autre du début de la sélection jusqu&#8217;à la fin de la sélection, on utilise la boucle while :</p>
 
 
 
@@ -464,7 +464,7 @@ public class DemoJdbc {
 
 
 
-<p>Pour insérer des données mysql avec Java, on procède de la même manière que précédemment avec une toute petite modification, oon remplace juste le code de sélection de la table par une requête d&rsquo;insertion des données:</p>
+<p>Pour insérer des données mysql avec Java, on procède de la même manière que précédemment avec une toute petite modification, oon remplace juste le code de sélection de la table par une requête d&#8217;insertion des données:</p>
 
 
 
@@ -530,7 +530,7 @@ public class AddStudents {
 
 
 
-<p>Le plugin Eclipse WindowBuilder est un concepteur Java GUI visuel, puissant et facile à utiliser permettant la création d&rsquo;applications GUI Java sans vous casser la tête à écrire du code pour afficher des objets graphiques&nbsp; simples comme fenêtres, bouton de commandes, champs de textes&#8230; Avec WindowBuilder, vous pouvez créer des fenêtres compliquées en quelques minutes, il suffit d’utiliser le concepteur visuel et le code Java sera automatiquement&nbsp; généré pour vous. Vous pouvez facilement ajouter des contrôles à l&rsquo;aide de glisser-déposer,&nbsp; gérer les événements de vos contrôles, modifier diverses propriétés des contrôles à l&rsquo;aide d&rsquo;un éditeur de propriétés et bien plus encore. Le code généré ne nécessite aucune bibliothèque personnalisée supplémentaire pour compiler et exécuter: l&rsquo;ensemble du code généré peut être utilisé sans installer WindowBuilder.&nbsp;&nbsp;.</p>
+<p>Le plugin Eclipse WindowBuilder est un concepteur Java GUI visuel, puissant et facile à utiliser permettant la création d&#8217;applications GUI Java sans vous casser la tête à écrire du code pour afficher des objets graphiques&nbsp; simples comme fenêtres, bouton de commandes, champs de textes&#8230; Avec WindowBuilder, vous pouvez créer des fenêtres compliquées en quelques minutes, il suffit d’utiliser le concepteur visuel et le code Java sera automatiquement&nbsp; généré pour vous. Vous pouvez facilement ajouter des contrôles à l&#8217;aide de glisser-déposer,&nbsp; gérer les événements de vos contrôles, modifier diverses propriétés des contrôles à l&#8217;aide d&#8217;un éditeur de propriétés et bien plus encore. Le code généré ne nécessite aucune bibliothèque personnalisée supplémentaire pour compiler et exécuter: l&#8217;ensemble du code généré peut être utilisé sans installer WindowBuilder.&nbsp;&nbsp;.</p>
 
 
 
@@ -541,7 +541,7 @@ public class AddStudents {
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/install-windowBuilder-eclipse-plugin.jpg" alt="Héritage visuel - créer des hiérarchies de composants visuels. Gestion des événements: ajoutez des gestionnaires d'événements à vos composants. Édition de menu - Créez et modifiez visuellement des menus, des éléments de menu et des menus contextuels." class="wp-image-4605"/></figure></div>
 
 
-<ul><li>L&rsquo;éditeur est doté des principaux composants interface utilisateur (user interface ) suivants:<br>•&nbsp;&nbsp; &nbsp;Design View &#8211; la zone de présentation visuelle principale.<br>•&nbsp;&nbsp; &nbsp;Source View- code d&rsquo;écriture et analyse du code généré<br>•&nbsp;&nbsp; &nbsp;Structure View- composée de l&rsquo;arbre de composant et du volet Propriété.<br>&#8211; Component Tree- montre la relation hiérarchique entre tous les composants.<br>&#8211; Property Pane &#8211; affiche les propriétés et les événements des composants sélectionnés.<br>•&nbsp;&nbsp; &nbsp;Palette &#8211; permet un accès rapide aux composants spécifiques à une trousse d&rsquo;outils.<br>•&nbsp;&nbsp; &nbsp; ToolBar &#8211; permet d&rsquo;accéder aux commandes couramment utilisées.<br>•&nbsp;&nbsp; &nbsp; Context Menu &#8211; permet d&rsquo;accéder aux commandes couramment utilisées.</li></ul>
+<ul><li>L&#8217;éditeur est doté des principaux composants interface utilisateur (user interface ) suivants:<br>•&nbsp;&nbsp; &nbsp;Design View &#8211; la zone de présentation visuelle principale.<br>•&nbsp;&nbsp; &nbsp;Source View- code d&#8217;écriture et analyse du code généré<br>•&nbsp;&nbsp; &nbsp;Structure View- composée de l&#8217;arbre de composant et du volet Propriété.<br>&#8211; Component Tree- montre la relation hiérarchique entre tous les composants.<br>&#8211; Property Pane &#8211; affiche les propriétés et les événements des composants sélectionnés.<br>•&nbsp;&nbsp; &nbsp;Palette &#8211; permet un accès rapide aux composants spécifiques à une trousse d&#8217;outils.<br>•&nbsp;&nbsp; &nbsp; ToolBar &#8211; permet d&#8217;accéder aux commandes couramment utilisées.<br>•&nbsp;&nbsp; &nbsp; Context Menu &#8211; permet d&#8217;accéder aux commandes couramment utilisées.</li></ul>
 
 
 
@@ -549,7 +549,7 @@ public class AddStudents {
 
 
 
-<ol><li>Copiez le lien approprié pour votre version d&rsquo;Eclipse à partir de la colonne Site de mise à jour sur la page de téléchargement:</li><li>Depuis le menu Help d’Eclipse, choisissez&nbsp;&nbsp;<strong>Help &gt; Install new Software&#8230;<br>.</strong><img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/1-install-windowBuilder-eclipse-plugin.png" alt="Installation de WindowBuilder Pro. Tous les téléchargements sont fournis selon les termes et conditions du contrat d'utilisation du logiciel Eclipse Foundation, sauf indication contraire." width="623" height="395" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/1-install-windowBuilder-eclipse-plugin.png 623w, https://www.tresfacile.net/wp-content/uploads/2017/04/1-install-windowBuilder-eclipse-plugin-300x190.png 300w"><br>.</li><li>Dans la fenêtre qui apparait cliquez sur&nbsp;<strong>le bouton Add<br>.<br></strong><img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select.png" alt="cliquez sur le bouton add pour installer WindowBuilder" width="683" height="488" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select.png 806w, https://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select-300x214.png 300w, https://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select-768x549.png 768w"><br>.</li><li>Dans la boîte de dialogue apparue, dans le champ Name, saisissez un nom descriptif (comme « WindowBuilder Pro ») et collez le lien correct (voir étape 1) dans le champ Emplacement.&nbsp; Cliquez ensuite&nbsp; sur le bouton OK:&nbsp;.<img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/3-install-windowBuilder-eclipse-dialog.png" alt="configurer windowBuilder" width="490" height="189" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/3-install-windowBuilder-eclipse-dialog.png 490w, https://www.tresfacile.net/wp-content/uploads/2017/04/3-install-windowBuilder-eclipse-dialog-300x116.png 300w"><br>.</li><li>&nbsp;Sélectionnez toutes les<strong>&nbsp;cases à cocher</strong>&nbsp;qui vont apparaître, puis cliquez sur&nbsp;<strong>Suivant</strong>&nbsp;pour installez WindowBuilder :<br>:<br><img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/4-install-windowBuilder-eclipse-cochez.png" alt="graphique avec plugin Eclipse windowBuilder pro" width="683" height="556" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/4-install-windowBuilder-eclipse-cochez.png 750w, https://www.tresfacile.net/wp-content/uploads/2017/04/4-install-windowBuilder-eclipse-cochez-300x244.png 300w"><br>.</li></ol>
+<ol><li>Copiez le lien approprié pour votre version d&#8217;Eclipse à partir de la colonne Site de mise à jour sur la page de téléchargement:</li><li>Depuis le menu Help d’Eclipse, choisissez&nbsp;&nbsp;<strong>Help &gt; Install new Software&#8230;<br>.</strong><img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/1-install-windowBuilder-eclipse-plugin.png" alt="Installation de WindowBuilder Pro. Tous les téléchargements sont fournis selon les termes et conditions du contrat d'utilisation du logiciel Eclipse Foundation, sauf indication contraire." width="623" height="395" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/1-install-windowBuilder-eclipse-plugin.png 623w, https://www.tresfacile.net/wp-content/uploads/2017/04/1-install-windowBuilder-eclipse-plugin-300x190.png 300w"><br>.</li><li>Dans la fenêtre qui apparait cliquez sur&nbsp;<strong>le bouton Add<br>.<br></strong><img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select.png" alt="cliquez sur le bouton add pour installer WindowBuilder" width="683" height="488" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select.png 806w, https://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select-300x214.png 300w, https://www.tresfacile.net/wp-content/uploads/2017/04/2-install-windowBuilder-eclipse-select-768x549.png 768w"><br>.</li><li>Dans la boîte de dialogue apparue, dans le champ Name, saisissez un nom descriptif (comme &#8220;WindowBuilder Pro&#8221;) et collez le lien correct (voir étape 1) dans le champ Emplacement.&nbsp; Cliquez ensuite&nbsp; sur le bouton OK:&nbsp;.<img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/3-install-windowBuilder-eclipse-dialog.png" alt="configurer windowBuilder" width="490" height="189" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/3-install-windowBuilder-eclipse-dialog.png 490w, https://www.tresfacile.net/wp-content/uploads/2017/04/3-install-windowBuilder-eclipse-dialog-300x116.png 300w"><br>.</li><li>&nbsp;Sélectionnez toutes les<strong>&nbsp;cases à cocher</strong>&nbsp;qui vont apparaître, puis cliquez sur&nbsp;<strong>Suivant</strong>&nbsp;pour installez WindowBuilder :<br>:<br><img loading="lazy" src="http://www.tresfacile.net/wp-content/uploads/2017/04/4-install-windowBuilder-eclipse-cochez.png" alt="graphique avec plugin Eclipse windowBuilder pro" width="683" height="556" srcset="https://www.tresfacile.net/wp-content/uploads/2017/04/4-install-windowBuilder-eclipse-cochez.png 750w, https://www.tresfacile.net/wp-content/uploads/2017/04/4-install-windowBuilder-eclipse-cochez-300x244.png 300w"><br>.</li></ol>
 
 
 
@@ -582,7 +582,7 @@ public class AddStudents {
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/04/7-windowBuilder-design-view.png" alt="7-windowBuilder-design-view" class="wp-image-4618"/></figure></div>
 
 
-<ul><li>Cliquez maintenant sur l&rsquo;onglet&nbsp;<strong>Design</strong>&nbsp; pour afficher la fenêtre crée automatiquement par WindowBuilder , ainsi que&nbsp; les autres outils graphiques WYSIWYG : Containers, Layouts, Compoasants Swing et Awt &#8230;</li></ul>
+<ul><li>Cliquez maintenant sur l&#8217;onglet&nbsp;<strong>Design</strong>&nbsp; pour afficher la fenêtre crée automatiquement par WindowBuilder , ainsi que&nbsp; les autres outils graphiques WYSIWYG : Containers, Layouts, Compoasants Swing et Awt &#8230;</li></ul>
 
 
 <div class="wp-block-image">
@@ -603,11 +603,11 @@ public class AddStudents {
 
 					<description><![CDATA[1 &#8211; Création d&#8217;un JCombBox Java Etape 1&#160;: Avant de créer un JComboBox, il va falloire préalablement savoir qu&#8217;il s&#8217;agit d&#8217;un composant Swing.Pour cela, on doit impérativement créer une fenêtre dotée d&#8217;un JPanel en instanciant les classes&#160;JFrame&#160;et&#160;JPanel: Etape 2&#160;: Création des éléments qui vont constituer la JComboBox. Les éléments qui vont constituer la JComboBox, peuvent&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h1>1 &#8211; Création d&rsquo;un JCombBox Java</h1>
+<h1>1 &#8211; Création d&#8217;un JCombBox Java</h1>
 
 
 
-<p><strong>Etape 1</strong>&nbsp;: Avant de créer un JComboBox, il va falloire préalablement savoir qu&rsquo;il s&rsquo;agit d&rsquo;un composant Swing.<br>Pour cela, on doit impérativement créer une fenêtre dotée d&rsquo;un JPanel en instanciant les classes&nbsp;<strong>JFrame</strong>&nbsp;et&nbsp;<strong>JPanel</strong>:</p>
+<p><strong>Etape 1</strong>&nbsp;: Avant de créer un JComboBox, il va falloire préalablement savoir qu&#8217;il s&#8217;agit d&#8217;un composant Swing.<br>Pour cela, on doit impérativement créer une fenêtre dotée d&#8217;un JPanel en instanciant les classes&nbsp;<strong>JFrame</strong>&nbsp;et&nbsp;<strong>JPanel</strong>:</p>
 
 
 
@@ -623,7 +623,7 @@ f.setSize(250,200);</code></pre>
 
 
 
-<p><strong>Etape 2</strong>&nbsp;: Création des éléments qui vont constituer la JComboBox. Les éléments qui vont constituer la JComboBox, peuvent être créer et organiser sur un tableau d&rsquo;objets</p>
+<p><strong>Etape 2</strong>&nbsp;: Création des éléments qui vont constituer la JComboBox. Les éléments qui vont constituer la JComboBox, peuvent être créer et organiser sur un tableau d&#8217;objets</p>
 
 
 
@@ -671,11 +671,11 @@ f.setVisible(true);</code></pre>
 
 
 
-<h1>3 &#8211; Ajout d&rsquo;actions à la liste JComboBox</h1>
+<h1>3 &#8211; Ajout d&#8217;actions à la liste JComboBox</h1>
 
 
 
-<p>Après avoir créer une liste&nbsp;<strong>JomboBox</strong>, on peut lui associer une action qui se declenche au moment de la séléction&nbsp;à l&rsquo;aide de la méthode&nbsp;<strong>addActionListener()</strong>. L&rsquo;action ne peut être ajouter que si la séléction est récupérée via&nbsp;la méthode<strong>&nbsp;getSelectedItem()</strong>.</p>
+<p>Après avoir créer une liste&nbsp;<strong>JomboBox</strong>, on peut lui associer une action qui se declenche au moment de la séléction&nbsp;à l&#8217;aide de la méthode&nbsp;<strong>addActionListener()</strong>. L&#8217;action ne peut être ajouter que si la séléction est récupérée via&nbsp;la méthode<strong>&nbsp;getSelectedItem()</strong>.</p>
 
 
 
@@ -773,7 +773,7 @@ Object&#91;] elements = new Object&#91;]{"Laptop HP", "Laptop Acer", "Laptop Azu
 
 
 
-<p>Afin d&rsquo;organiser les menus, Java est doté d&rsquo;une barre susceptible d&rsquo;être placée en haut de la fenêtre, permettant d&rsquo;accueillir et organiser les menus Java. Pour cela le langage Java utilise une classe nommée JMenuBar est utilisée pour afficher la barre des menus dans la fenêtre JFrame.<br>Pour créer une barre de menu, il suffit de créer une fenêtre dotée d’un panneau ( JPanel), d&rsquo;instancier la classe JMenuBar, et d’ajouter ensuite la barre de menu au JPanel.</p>
+<p>Afin d&#8217;organiser les menus, Java est doté d&#8217;une barre susceptible d&#8217;être placée en haut de la fenêtre, permettant d&#8217;accueillir et organiser les menus Java. Pour cela le langage Java utilise une classe nommée JMenuBar est utilisée pour afficher la barre des menus dans la fenêtre JFrame.<br>Pour créer une barre de menu, il suffit de créer une fenêtre dotée d’un panneau ( JPanel), d&#8217;instancier la classe JMenuBar, et d’ajouter ensuite la barre de menu au JPanel.</p>
 
 
 
@@ -870,7 +870,7 @@ public class MyJMenu {
 
 
 
-<p>Pour créer un sous menu et l’ajouter à menu principal, il suffit d’instancier la classe&nbsp;<strong>JMenuItem</strong>&nbsp;et appliquer la&nbsp;<strong>méthode add()</strong>. La classe JMenuItem premet de créer des sous menus, ces sous menus peuvent être ajoutés au menu principal grâce à la méthode add(). Nous allons traiter un exemple simple qui permet d’insérer le menu&nbsp;<strong>« Nouveau »</strong>&nbsp;au menu principal&nbsp;<strong>« Fichier »</strong>&nbsp;:</p>
+<p>Pour créer un sous menu et l’ajouter à menu principal, il suffit d’instancier la classe&nbsp;<strong>JMenuItem</strong>&nbsp;et appliquer la&nbsp;<strong>méthode add()</strong>. La classe JMenuItem premet de créer des sous menus, ces sous menus peuvent être ajoutés au menu principal grâce à la méthode add(). Nous allons traiter un exemple simple qui permet d’insérer le menu&nbsp;<strong>&#8220;Nouveau&#8221;</strong>&nbsp;au menu principal&nbsp;<strong>&#8220;Fichier&#8221;</strong>&nbsp;:</p>
 
 
 
@@ -881,7 +881,7 @@ menuFichier.add(menuNouveau);</code></pre>
 
 
 
-<p>On peut également via la même méthode, ajouter d&rsquo;autres sous menus :&nbsp;<strong>« Ouvrir »&nbsp; « Enregistrer »&nbsp; « Imprimer »</strong>&nbsp;<strong>&nbsp;« Quitter »&nbsp;</strong></p>
+<p>On peut également via la même méthode, ajouter d&#8217;autres sous menus :&nbsp;<strong>&#8220;Ouvrir&#8221;&nbsp; &#8220;Enregistrer&#8221;&nbsp; &#8220;Imprimer&#8221;</strong>&nbsp;<strong>&nbsp;&#8220;Quitter&#8221;&nbsp;</strong></p>
 
 
 
@@ -916,7 +916,7 @@ menuFichier.add(menuNouveau);</code></pre>
 
 
 
-<p>Dans le paragraphe précédent, vous avez apris à créer des menus et des sous menus, et rien d&rsquo;autre ! Mais quand vous cliquez&nbsp; sur l&rsquo;un de ces sous menus, il doit se produire une&nbsp;<strong>action</strong>&nbsp;ou un&nbsp;<strong>évenement</strong>&nbsp;: exemple nous allons voir comment associer l&rsquo;action qui permet de fermer la fenêtre au sous menu&nbsp;<strong>« Quitter »</strong>.&nbsp; Por cela nous allons utiliser la même méthode&nbsp; &nbsp;<strong>addActionListener( )</strong>&nbsp; que nous avons appliqué aux boutons de comandes, et au sein de cette dernière, nous devons appliquer la méthode<strong>&nbsp;dispose( )</strong>&nbsp; pour fermer la fenêtre :</p>
+<p>Dans le paragraphe précédent, vous avez apris à créer des menus et des sous menus, et rien d&#8217;autre ! Mais quand vous cliquez&nbsp; sur l&#8217;un de ces sous menus, il doit se produire une&nbsp;<strong>action</strong>&nbsp;ou un&nbsp;<strong>évenement</strong>&nbsp;: exemple nous allons voir comment associer l&#8217;action qui permet de fermer la fenêtre au sous menu&nbsp;<strong>&#8220;Quitter&#8221;</strong>.&nbsp; Por cela nous allons utiliser la même méthode&nbsp; &nbsp;<strong>addActionListener( )</strong>&nbsp; que nous avons appliqué aux boutons de comandes, et au sein de cette dernière, nous devons appliquer la méthode<strong>&nbsp;dispose( )</strong>&nbsp; pour fermer la fenêtre :</p>
 
 
 
@@ -942,11 +942,11 @@ menuFichier.add(menuNouveau);</code></pre>
 
 					<description><![CDATA[La classe&#160;JTextArea&#160;est une classe Java permettant de créer une zone de texte multiligne. Ell permet l&#8217;édition de plusieurs lignes de texte. Il s&#8217;agit d&#8217;une classe Java qui hérite de la classe&#160;JTextComponent 1 &#8211; Déclaration de classe JTextArea via l&#8217;héritage de JTextComponent 2 &#8211; Constructeur de classe &#38; description JTextArea ()Construit une nouvelle TextArea.JTextArea (Document doc)Construit&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>La classe&nbsp;<strong>JTextArea</strong>&nbsp;est une classe Java permettant de créer une zone de texte multiligne. Ell permet l&rsquo;édition de plusieurs lignes de texte. Il s&rsquo;agit d&rsquo;une classe Java qui hérite de la classe<strong>&nbsp;JTextComponent</strong></p>
+<p>La classe&nbsp;<strong>JTextArea</strong>&nbsp;est une classe Java permettant de créer une zone de texte multiligne. Ell permet l&#8217;édition de plusieurs lignes de texte. Il s&#8217;agit d&#8217;une classe Java qui hérite de la classe<strong>&nbsp;JTextComponent</strong></p>
 
 
 
-<h2>1 &#8211; Déclaration de classe JTextArea via l&rsquo;héritage de JTextComponent</h2>
+<h2>1 &#8211; Déclaration de classe JTextArea via l&#8217;héritage de JTextComponent</h2>
 
 
 
@@ -970,7 +970,7 @@ menuFichier.add(menuNouveau);</code></pre>
 
 
 
-<p><strong>void append (String str)</strong><br>Ajoute le texte donné à la fin du document.<br><strong>protected Document createDefaultModel ()</strong><br>Crée l&rsquo;implémentation par défaut du modèle à utiliser lors de la construction si aucune n&rsquo;est explicitement donnée.<br><strong>AccessibleContext getAccessibleContext ()</strong><br>Obtient le AccessibleContext associé à cette JTextArea.<br><strong>int getColumns ()</strong><br>Renvoie le nombre de colonnes dans TextArea.<br><strong>protected int getColumnWidth ()</strong><br>Obtient la largeur de colonne.<br><strong>int getLineCount ()</strong><br>Détermine le nombre de lignes contenues dans la zone.<br><strong>int getLineEndOffset (ligne int)</strong><br>Détermine le décalage de la fin de la ligne donnée.<br><strong>int getLineOfOffset (décalage int)</strong><br>Traduit un décalage dans le texte des composants en un numéro de ligne.<br><strong>int getLineStartOffset (ligne int)</strong><br>Détermine le décalage du début de la ligne donnée.<br><strong>boolean getLineWrap ()</strong><br>Obtient la politique de retour à la ligne de la zone de texte.<br><strong>Dimension getPreferredScrollableViewportSize ()</strong><br>Renvoie la taille préférée de la fenêtre si ce composant est incorporé dans un JScrollPane.<br><strong>Dimension getPreferredSize ()</strong><br>Renvoie la taille préférée de TextArea.<br><strong>protected int getRowHeight ()</strong><br>Définit la signification de la hauteur d&rsquo;une ligne.<br><strong>int getRows ()</strong><br>Renvoie le nombre de lignes dans TextArea.<br><strong>boolean getScrollableTracksViewportWidth()</strong><br>Renvoie true si une fenêtre doit toujours forcer la largeur de ce défilement pour correspondre à la largeur de la fenêtre.<br><strong>int getScrollableUnitIncrement (Rectangle visibleRect, orientation int, int direction)</strong><br>Les composants qui affichent des lignes logiques ou des colonnes doivent calculer l&rsquo;incrément de défilement qui va complètement exposer une nouvelle ligne ou une colonne, en fonction de la valeur de l&rsquo;orientation.<br><strong>int getTabSize ()</strong><br>Obtient le nombre de caractères utilisés pour développer les onglets.<br><strong>String getUIClassID ()</strong><br>Renvoie l&rsquo;ID de la classe pour l&rsquo;interface utilisateur.<br><strong>boolean getWrapStyleWord ()</strong><br>Obtient le style de retour utilisé si la zone de texte est en train d&rsquo;encapsuler des lignes.<br><strong>void Insert(String str, int pos)</strong><br>Insère le texte spécifié à la position spécifiée.<br><strong>protected String paramString ()</strong><br>Renvoie une représentation sous forme de chaîne de cette JTextArea.<br><strong>void replaceRange (Chaîne str, int début, int fin)</strong><br>Remplace le texte de la position de début à la fin indiquée par le nouveau texte spécifié.<br><strong>void setColumns (colonnes int)</strong><br>Définit le nombre de colonnes pour ce TextArea.<br><strong>void setFont (Police f)</strong><br>Définit la police actuelle.<br><strong>void setLineWrap (enveloppe booléenne)</strong><br>Définit la politique de retour à la ligne de la zone de texte.<br><strong>void setRows (int rangées)</strong><br>Définit le nombre de lignes pour cette TextArea.<br><strong>void setTabSize (taille int)</strong><br>Définit le nombre de caractères pour développer les onglets.<br><strong>void setWrapStyleWord (mot booléen)</strong><br>Définit le style d&rsquo;habillage utilisé, si la zone de texte est en train d&rsquo;encapsuler des lignes.</p>
+<p><strong>void append (String str)</strong><br>Ajoute le texte donné à la fin du document.<br><strong>protected Document createDefaultModel ()</strong><br>Crée l&#8217;implémentation par défaut du modèle à utiliser lors de la construction si aucune n&#8217;est explicitement donnée.<br><strong>AccessibleContext getAccessibleContext ()</strong><br>Obtient le AccessibleContext associé à cette JTextArea.<br><strong>int getColumns ()</strong><br>Renvoie le nombre de colonnes dans TextArea.<br><strong>protected int getColumnWidth ()</strong><br>Obtient la largeur de colonne.<br><strong>int getLineCount ()</strong><br>Détermine le nombre de lignes contenues dans la zone.<br><strong>int getLineEndOffset (ligne int)</strong><br>Détermine le décalage de la fin de la ligne donnée.<br><strong>int getLineOfOffset (décalage int)</strong><br>Traduit un décalage dans le texte des composants en un numéro de ligne.<br><strong>int getLineStartOffset (ligne int)</strong><br>Détermine le décalage du début de la ligne donnée.<br><strong>boolean getLineWrap ()</strong><br>Obtient la politique de retour à la ligne de la zone de texte.<br><strong>Dimension getPreferredScrollableViewportSize ()</strong><br>Renvoie la taille préférée de la fenêtre si ce composant est incorporé dans un JScrollPane.<br><strong>Dimension getPreferredSize ()</strong><br>Renvoie la taille préférée de TextArea.<br><strong>protected int getRowHeight ()</strong><br>Définit la signification de la hauteur d&#8217;une ligne.<br><strong>int getRows ()</strong><br>Renvoie le nombre de lignes dans TextArea.<br><strong>boolean getScrollableTracksViewportWidth()</strong><br>Renvoie true si une fenêtre doit toujours forcer la largeur de ce défilement pour correspondre à la largeur de la fenêtre.<br><strong>int getScrollableUnitIncrement (Rectangle visibleRect, orientation int, int direction)</strong><br>Les composants qui affichent des lignes logiques ou des colonnes doivent calculer l&#8217;incrément de défilement qui va complètement exposer une nouvelle ligne ou une colonne, en fonction de la valeur de l&#8217;orientation.<br><strong>int getTabSize ()</strong><br>Obtient le nombre de caractères utilisés pour développer les onglets.<br><strong>String getUIClassID ()</strong><br>Renvoie l&#8217;ID de la classe pour l&#8217;interface utilisateur.<br><strong>boolean getWrapStyleWord ()</strong><br>Obtient le style de retour utilisé si la zone de texte est en train d&#8217;encapsuler des lignes.<br><strong>void Insert(String str, int pos)</strong><br>Insère le texte spécifié à la position spécifiée.<br><strong>protected String paramString ()</strong><br>Renvoie une représentation sous forme de chaîne de cette JTextArea.<br><strong>void replaceRange (Chaîne str, int début, int fin)</strong><br>Remplace le texte de la position de début à la fin indiquée par le nouveau texte spécifié.<br><strong>void setColumns (colonnes int)</strong><br>Définit le nombre de colonnes pour ce TextArea.<br><strong>void setFont (Police f)</strong><br>Définit la police actuelle.<br><strong>void setLineWrap (enveloppe booléenne)</strong><br>Définit la politique de retour à la ligne de la zone de texte.<br><strong>void setRows (int rangées)</strong><br>Définit le nombre de lignes pour cette TextArea.<br><strong>void setTabSize (taille int)</strong><br>Définit le nombre de caractères pour développer les onglets.<br><strong>void setWrapStyleWord (mot booléen)</strong><br>Définit le style d&#8217;habillage utilisé, si la zone de texte est en train d&#8217;encapsuler des lignes.</p>
 ]]></content:encoded>
 					
 		
@@ -992,7 +992,7 @@ menuFichier.add(menuNouveau);</code></pre>
 
 
 
-<p>Java Swing constitue l&rsquo;une des plus récentes bibliothèque graphique et la plus utilisée pour le langage Java, Java Swing&nbsp; fait partie du package Java Foundation Classes (JFC) qui elle même fait partie de J2SE.</p>
+<p>Java Swing constitue l&#8217;une des plus récentes bibliothèque graphique et la plus utilisée pour le langage Java, Java Swing&nbsp; fait partie du package Java Foundation Classes (JFC) qui elle même fait partie de J2SE.</p>
 
 
 
@@ -1004,7 +1004,7 @@ menuFichier.add(menuNouveau);</code></pre>
 
 
 
-<p>Pour ce faire nous devons préalablement importer la bibliothèque&nbsp;<strong>javax.swing.JFrame;</strong>&nbsp;et faire ensuite l&rsquo;instanciation sur la<strong>&nbsp;classe JFrame&nbsp;</strong>pour créer une&nbsp;<strong>fenêtre.</strong></p>
+<p>Pour ce faire nous devons préalablement importer la bibliothèque&nbsp;<strong>javax.swing.JFrame;</strong>&nbsp;et faire ensuite l&#8217;instanciation sur la<strong>&nbsp;classe JFrame&nbsp;</strong>pour créer une&nbsp;<strong>fenêtre.</strong></p>
 
 
 
@@ -1022,7 +1022,7 @@ public class maFenetre {
 
 
 
-<p>Ce qui n&rsquo;affiche rien après exécution bien sûr, puisqu&rsquo;on a pas invoquer la méthode&nbsp;<strong>setVisible( )</strong>&nbsp; qui permet de visualiser la fenêtre. On peut donc améliorer le code en ajoutant cette dernière et celle qui définit les dimensions de la façon suivante :</p>
+<p>Ce qui n&#8217;affiche rien après exécution bien sûr, puisqu&#8217;on a pas invoquer la méthode&nbsp;<strong>setVisible( )</strong>&nbsp; qui permet de visualiser la fenêtre. On peut donc améliorer le code en ajoutant cette dernière et celle qui définit les dimensions de la façon suivante :</p>
 
 
 
@@ -1046,7 +1046,7 @@ public class maFenetre {
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2017/03/JFrame-fenetre-java-sans-heritage.jpg" alt="JFrame-fenetre-java-sans-heritage" class="wp-image-4293"/></figure></div>
 
 
-<p>Afin de pouvoir améliorer la classe&nbsp;JFrame&nbsp;il vaut mieux créer une sous classe via l&rsquo;instruction&nbsp;extends&nbsp;!</p>
+<p>Afin de pouvoir améliorer la classe&nbsp;JFrame&nbsp;il vaut mieux créer une sous classe via l&#8217;instruction&nbsp;extends&nbsp;!</p>
 
 
 
@@ -1065,7 +1065,7 @@ this.setTitle("Ma propre fenêtre");
 
 
 
-<ol><li>Créer une&nbsp;<strong>méthode afficher( )</strong>&nbsp;permettant d&rsquo;afficher la fenêtre</li><li>Créer une&nbsp;<strong>méthode main( )</strong>&nbsp;pour instancier la classe&nbsp;<strong>maFenêtre</strong>&nbsp;et afficher l&rsquo;objet fenêtre</li></ol>
+<ol><li>Créer une&nbsp;<strong>méthode afficher( )</strong>&nbsp;permettant d&#8217;afficher la fenêtre</li><li>Créer une&nbsp;<strong>méthode main( )</strong>&nbsp;pour instancier la classe&nbsp;<strong>maFenêtre</strong>&nbsp;et afficher l&#8217;objet fenêtre</li></ol>
 
 
 
@@ -1087,7 +1087,7 @@ this.setTitle("Ma propre fenêtre");
 
 
 
-<p>En exécutant ce code vous obtenez une petite fenêtre de dimensions nulles, par ce qu&rsquo;on a pas préciser ses dimensions</p>
+<p>En exécutant ce code vous obtenez une petite fenêtre de dimensions nulles, par ce qu&#8217;on a pas préciser ses dimensions</p>
 
 
 <div class="wp-block-image">
@@ -1158,11 +1158,11 @@ this.setSize(300, 200);
 
 
 
-<h3>5 &#8211; 1 &#8211; Ajout d&rsquo;un bouton</h3>
+<h3>5 &#8211; 1 &#8211; Ajout d&#8217;un bouton</h3>
 
 
 
-<p>Avant d&rsquo;ajouter un bouton à une fenêtre il faut préalablement créer un panneau ( Panel ) en faisant une instanciation sur la classe JPanel&nbsp; et d&rsquo;associer le contenu de ce panel à la fenêtre via l&rsquo;instruction :</p>
+<p>Avant d&#8217;ajouter un bouton à une fenêtre il faut préalablement créer un panneau ( Panel ) en faisant une instanciation sur la classe JPanel&nbsp; et d&#8217;associer le contenu de ce panel à la fenêtre via l&#8217;instruction :</p>
 
 
 
@@ -1186,7 +1186,7 @@ f.setContentPane(pan);</code></pre>
 
 
 
-<p>A e moment là il est temps de créer un bouton à l&rsquo;aide d&rsquo;une instanciation sur la classe JButton :</p>
+<p>A e moment là il est temps de créer un bouton à l&#8217;aide d&#8217;une instanciation sur la classe JButton :</p>
 
 
 
@@ -1195,7 +1195,7 @@ f.setContentPane(pan);</code></pre>
 
 
 
-<p>Le bouton ne sera pas visible à ce moment là ! Il va falloir l&rsquo;<strong>ajouter</strong>&nbsp;à la fenêtre<strong>&nbsp;f</strong>&nbsp;l&rsquo;aide de la méthode :</p>
+<p>Le bouton ne sera pas visible à ce moment là ! Il va falloir l&#8217;<strong>ajouter</strong>&nbsp;à la fenêtre<strong>&nbsp;f</strong>&nbsp;l&#8217;aide de la méthode :</p>
 
 
 
@@ -1298,7 +1298,7 @@ public class AppGaphique {
 
 
 
-<p><a></a>Dans cette partie, nous allons voir comment créer un tableau pour afficher des données tabulaires en utilisant la classe JTable au sein de&nbsp; la bibliothèque Java swing. La classe&nbsp;<strong>JTable</strong>&nbsp;représente le&nbsp;<strong>composant Swing table</strong>.&nbsp;<strong>JTable</strong>&nbsp;offre une fonctionnalité riche pour gérer l&rsquo;apparence et le comportement du composant table.&nbsp;&nbsp;<strong>JTable étend directement JComponent</strong>&nbsp;et<strong>&nbsp;implémente</strong>&nbsp;plusieurs&nbsp;<strong>interfaces</strong>&nbsp;d&rsquo;auditeurs de modèles telles que&nbsp;<strong>TableModelListener,&nbsp;&nbsp;TableColumnModelListener,&nbsp;&nbsp;ListSelectionListener</strong>&nbsp;&#8230; etc. JTable implémente également une interface défilable; par conséquent, le tableau est généralement placé dans un&nbsp;<strong>JScrollPane</strong>.</p>
+<p><a></a>Dans cette partie, nous allons voir comment créer un tableau pour afficher des données tabulaires en utilisant la classe JTable au sein de&nbsp; la bibliothèque Java swing. La classe&nbsp;<strong>JTable</strong>&nbsp;représente le&nbsp;<strong>composant Swing table</strong>.&nbsp;<strong>JTable</strong>&nbsp;offre une fonctionnalité riche pour gérer l&#8217;apparence et le comportement du composant table.&nbsp;&nbsp;<strong>JTable étend directement JComponent</strong>&nbsp;et<strong>&nbsp;implémente</strong>&nbsp;plusieurs&nbsp;<strong>interfaces</strong>&nbsp;d&#8217;auditeurs de modèles telles que&nbsp;<strong>TableModelListener,&nbsp;&nbsp;TableColumnModelListener,&nbsp;&nbsp;ListSelectionListener</strong>&nbsp;&#8230; etc. JTable implémente également une interface défilable; par conséquent, le tableau est généralement placé dans un&nbsp;<strong>JScrollPane</strong>.</p>
 
 
 
@@ -1310,19 +1310,19 @@ public class AppGaphique {
 
 
 
-<p><strong>TableModel</strong>&nbsp; :&nbsp; est utilisé pour spécifier comment les données de la table sont stockées et la récupération de ces données. Les données de JTable sont souvent en structure bidimensionnelle telle qu&rsquo;un tableau à deux dimensions ou un vecteur de vecteurs. TableModel est également utilisé pour spécifier comment les données peuvent être modifiées dans la table.</p>
+<p><strong>TableModel</strong>&nbsp; :&nbsp; est utilisé pour spécifier comment les données de la table sont stockées et la récupération de ces données. Les données de JTable sont souvent en structure bidimensionnelle telle qu&#8217;un tableau à deux dimensions ou un vecteur de vecteurs. TableModel est également utilisé pour spécifier comment les données peuvent être modifiées dans la table.</p>
 
 
 
-<p><strong>TableColumnModel</strong>&nbsp; : est utilisé pour gérer tout TableColumn en terme de sélection de colonne, d&rsquo;ordre de colonne et de taille de marge.</p>
+<p><strong>TableColumnModel</strong>&nbsp; : est utilisé pour gérer tout TableColumn en terme de sélection de colonne, d&#8217;ordre de colonne et de taille de marge.</p>
 
 
 
-<p><strong>ListSelectionModel :</strong>&nbsp;permet au tableau d&rsquo;avoir un mode de sélection différent, tel qu&rsquo;un sélecteur unique, un intervalle unique et plusieurs sélections d&rsquo;intervalles.<br>Nous pouvons créer une table en utilisant ses constructeurs comme suit:</p>
+<p><strong>ListSelectionModel :</strong>&nbsp;permet au tableau d&#8217;avoir un mode de sélection différent, tel qu&#8217;un sélecteur unique, un intervalle unique et plusieurs sélections d&#8217;intervalles.<br>Nous pouvons créer une table en utilisant ses constructeurs comme suit:</p>
 
 
 
-<figure class="wp-block-table"><table><tbody><tr><td><strong>Constructeurs JTable</strong></td><td><strong>Description</strong></td></tr><tr><td><strong>JTable</strong>()</td><td>Création d&rsquo;une table vide</td></tr><tr><td><strong>JTable</strong>(int&nbsp;rows, int&nbsp;columns)</td><td>Création d&rsquo;une table avec des lignes et des colonnes avec cellules vides.</td></tr><tr><td><strong>JTable</strong>(Object[][]&nbsp;data, Object[]&nbsp;heading)</td><td>Création d&rsquo;une table avec les données spécifiées&nbsp; du tableau bidimensionnel et l&rsquo;en-tête de la colonne</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm)</td><td>Création d&rsquo;une table avec le modèle&nbsp;TableModel</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm, TableColumnModel&nbsp;cm)</td><td>Création d&rsquo;une table avec les modèles&nbsp;TableModel et TableColumnModel.</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm,TableColumnModel&nbsp;cm, ListSelectionModel&nbsp;sm)</td><td>Créez une table avec les modèles&nbsp;TableModel, TableColumnModel, et ListSelectionModel.</td></tr><tr><td><strong>JTable</strong>(Vector&nbsp;data, Vector&nbsp;heading)</td><td>&nbsp;Création d&rsquo;une table avec vector of Vectors&nbsp;<em>data</em>&nbsp;et column headings&nbsp;<em>headin.</em></td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>Constructeurs JTable</strong></td><td><strong>Description</strong></td></tr><tr><td><strong>JTable</strong>()</td><td>Création d&#8217;une table vide</td></tr><tr><td><strong>JTable</strong>(int&nbsp;rows, int&nbsp;columns)</td><td>Création d&#8217;une table avec des lignes et des colonnes avec cellules vides.</td></tr><tr><td><strong>JTable</strong>(Object[][]&nbsp;data, Object[]&nbsp;heading)</td><td>Création d&#8217;une table avec les données spécifiées&nbsp; du tableau bidimensionnel et l&#8217;en-tête de la colonne</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm)</td><td>Création d&#8217;une table avec le modèle&nbsp;TableModel</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm, TableColumnModel&nbsp;cm)</td><td>Création d&#8217;une table avec les modèles&nbsp;TableModel et TableColumnModel.</td></tr><tr><td><strong>JTable</strong>(TableModel&nbsp;dm,TableColumnModel&nbsp;cm, ListSelectionModel&nbsp;sm)</td><td>Créez une table avec les modèles&nbsp;TableModel, TableColumnModel, et ListSelectionModel.</td></tr><tr><td><strong>JTable</strong>(Vector&nbsp;data, Vector&nbsp;heading)</td><td>&nbsp;Création d&#8217;une table avec vector of Vectors&nbsp;<em>data</em>&nbsp;et column headings&nbsp;<em>headin.</em></td></tr></tbody></table></figure>
 
 
 
@@ -1330,11 +1330,11 @@ public class AppGaphique {
 
 
 
-<p>Nous verrons ici un exemple d&rsquo;utilisation de&nbsp;<strong>JTable</strong>&nbsp;pour afficher les achats de matériels informatiques :</p>
+<p>Nous verrons ici un exemple d&#8217;utilisation de&nbsp;<strong>JTable</strong>&nbsp;pour afficher les achats de matériels informatiques :</p>
 
 
 
-<ul><li>Nous commençons par spécifier l&rsquo;en-tête de colonne dans le tableau des colonnes.</li><li>Nous utilisons ensuite&nbsp; des données de tableau bidimensionnel pour stocker des données.</li><li>Nous créons ensuite une instance de JTable en transmettant les données du tableau et l&rsquo;en-tête de colonne au constructeur.</li><li>Enfin, nous plaçons la table JScrollPane et l&rsquo;ajoutons au cadre principal.</li></ul>
+<ul><li>Nous commençons par spécifier l&#8217;en-tête de colonne dans le tableau des colonnes.</li><li>Nous utilisons ensuite&nbsp; des données de tableau bidimensionnel pour stocker des données.</li><li>Nous créons ensuite une instance de JTable en transmettant les données du tableau et l&#8217;en-tête de colonne au constructeur.</li><li>Enfin, nous plaçons la table JScrollPane et l&#8217;ajoutons au cadre principal.</li></ul>
 
 
 
@@ -1395,19 +1395,19 @@ public class MainClass {
 <figure class="aligncenter"><img src="http://www.tresfacile.net/wp-content/uploads/2018/12/Programmation-Java-debutant-1.png" alt="" class="wp-image-5562"/></figure></div>
 
 
-<h2>1 &#8211; Qu&rsquo;est ce qu&rsquo;une interface en Java ?</h2>
+<h2>1 &#8211; Qu&#8217;est ce qu&#8217;une interface en Java ?</h2>
 
 
 
-<p>Une interface du langage de programmation Java est un type abstrait utilisé pour spécifier un comportement que les classes doivent implémenter. Ils sont similaires aux protocoles. Les interfaces sont déclarées à l&rsquo;aide du mot-clé interface et ne peuvent contenir que des déclarations de méthode et des déclarations de constante (variable declaratire déclarée à la fois statique et finale). Toutes les méthodes d&rsquo;une interface ne contiennent pas d&rsquo;implémentation (corps de méthodes) de toutes les versions antérieures à Java 11. À partir de Java 8, les méthodes par défaut et les méthodes statiques peuvent avoir une implémentation dans la définition d&rsquo;interface.</p>
+<p>Une interface du langage de programmation Java est un type abstrait utilisé pour spécifier un comportement que les classes doivent implémenter. Ils sont similaires aux protocoles. Les interfaces sont déclarées à l&#8217;aide du mot-clé interface et ne peuvent contenir que des déclarations de méthode et des déclarations de constante (variable declaratire déclarée à la fois statique et finale). Toutes les méthodes d&#8217;une interface ne contiennent pas d&#8217;implémentation (corps de méthodes) de toutes les versions antérieures à Java 11. À partir de Java 8, les méthodes par défaut et les méthodes statiques peuvent avoir une implémentation dans la définition d&#8217;interface.</p>
 
 
 
-<p>Les interfaces ne peuvent pas être instanciées, mais sont plutôt implémentées. Une classe qui implémente une interface doit implémenter toutes les méthodes non définies par défaut décrites dans l&rsquo;interface ou être une classe abstraite. Les références d&rsquo;objet en Java peuvent être spécifiées comme étant d&rsquo;un type d&rsquo;interface; dans chaque cas, ils doivent être nuls ou être liés à un objet qui implémente l&rsquo;interface.</p>
+<p>Les interfaces ne peuvent pas être instanciées, mais sont plutôt implémentées. Une classe qui implémente une interface doit implémenter toutes les méthodes non définies par défaut décrites dans l&#8217;interface ou être une classe abstraite. Les références d&#8217;objet en Java peuvent être spécifiées comme étant d&#8217;un type d&#8217;interface; dans chaque cas, ils doivent être nuls ou être liés à un objet qui implémente l&#8217;interface.</p>
 
 
 
-<p>L&rsquo;un des avantages de l&rsquo;utilisation des interfaces est qu&rsquo;elles simulent un héritage multiple. Toutes les classes en Java doivent avoir exactement une classe de base, la seule exception étant java.lang.Object (la classe racine du système de types Java); l&rsquo;héritage multiple de classes n&rsquo;est pas autorisé. Cependant, une interface peut hériter de plusieurs interfaces et une classe peut implémenter plusieurs interfaces.</p>
+<p>L&#8217;un des avantages de l&#8217;utilisation des interfaces est qu&#8217;elles simulent un héritage multiple. Toutes les classes en Java doivent avoir exactement une classe de base, la seule exception étant java.lang.Object (la classe racine du système de types Java); l&#8217;héritage multiple de classes n&#8217;est pas autorisé. Cependant, une interface peut hériter de plusieurs interfaces et une classe peut implémenter plusieurs interfaces.</p>
 
 
 
@@ -1415,7 +1415,7 @@ public class MainClass {
 
 
 
-<p>Pour bien comprendre l&rsquo;utilité des interfaces en Java, prenons un exemple simple :</p>
+<p>Pour bien comprendre l&#8217;utilité des interfaces en Java, prenons un exemple simple :</p>
 
 
 
@@ -1423,11 +1423,11 @@ public class MainClass {
 
 
 
-<p>Les objets&nbsp;<strong>rectangle, triangle</strong>&nbsp;et&nbsp;<strong>trapèze</strong>&nbsp; possèdent tous&nbsp;<strong>des propriétés communes</strong>&nbsp;comme :&nbsp;<strong>surface, perimètre, nombre de cotés</strong>&#8230; Et on souhaite créer un moyen qui permet de gérer ce processus c.a.d&nbsp;<strong>un triangle</strong>&nbsp;doit&nbsp;<strong>obligatoirement</strong>&nbsp;posséder une méthode qui&nbsp;<strong>calcule le périmètre</strong>&nbsp;et une<strong>&nbsp;méthode qui calcul la surface</strong>, faute de quoi le développeur&nbsp; rencontre un message d&rsquo;erreur lui indiquant qu&rsquo;il doit obligatoirement insérer les méthodes&nbsp;<strong>perimetre() et surface()</strong></p>
+<p>Les objets&nbsp;<strong>rectangle, triangle</strong>&nbsp;et&nbsp;<strong>trapèze</strong>&nbsp; possèdent tous&nbsp;<strong>des propriétés communes</strong>&nbsp;comme :&nbsp;<strong>surface, perimètre, nombre de cotés</strong>&#8230; Et on souhaite créer un moyen qui permet de gérer ce processus c.a.d&nbsp;<strong>un triangle</strong>&nbsp;doit&nbsp;<strong>obligatoirement</strong>&nbsp;posséder une méthode qui&nbsp;<strong>calcule le périmètre</strong>&nbsp;et une<strong>&nbsp;méthode qui calcul la surface</strong>, faute de quoi le développeur&nbsp; rencontre un message d&#8217;erreur lui indiquant qu&#8217;il doit obligatoirement insérer les méthodes&nbsp;<strong>perimetre() et surface()</strong></p>
 
 
 
-<p>C&rsquo;est à ce niveau là qu&rsquo;une interface intervient ! On doit créer une et appelons la par exemple interface polygone qui contient l&rsquo;ensemble des&nbsp; méthodes communes aux formes géométriques cités ci-dessus :</p>
+<p>C&#8217;est à ce niveau là qu&#8217;une interface intervient ! On doit créer une et appelons la par exemple interface polygone qui contient l&#8217;ensemble des&nbsp; méthodes communes aux formes géométriques cités ci-dessus :</p>
 
 
 <div class="wp-block-image">
@@ -1438,7 +1438,7 @@ public class MainClass {
 
 
 
-<p>En pratique, la création et la declaration d&rsquo;une interface est semblable à une&nbsp;<strong>classe</strong>, à la différence que l&rsquo;on remplace le mot-clé&nbsp;<strong>class</strong>&nbsp;par<strong>&nbsp;interface</strong>.</p>
+<p>En pratique, la création et la declaration d&#8217;une interface est semblable à une&nbsp;<strong>classe</strong>, à la différence que l&#8217;on remplace le mot-clé&nbsp;<strong>class</strong>&nbsp;par<strong>&nbsp;interface</strong>.</p>
 
 
 
@@ -1449,7 +1449,7 @@ public class MainClass {
 
 
 
-<p>Les classes&nbsp;&nbsp;<strong>rectangle, triangle</strong>&nbsp;et&nbsp;<strong>trapèze</strong>&nbsp;vont être maintenant declarées de la même façon comme celle de l&rsquo;héritage, à l a différence de remplacer le mot clé extends par implement:</p>
+<p>Les classes&nbsp;&nbsp;<strong>rectangle, triangle</strong>&nbsp;et&nbsp;<strong>trapèze</strong>&nbsp;vont être maintenant declarées de la même façon comme celle de l&#8217;héritage, à l a différence de remplacer le mot clé extends par implement:</p>
 
 
 
@@ -1535,11 +1535,11 @@ public Rectangle(double L,double l){
 
 					<description><![CDATA[&#160;&#8211; Notion d&#8217;objets et de classes 1 &#8211; 1 Exemple d&#8217;une classe prédéfinie : classe String Le but de la&#160; programmation orienté objet est de facilité la programmation en créant des classes qui à travers auxquelles on crée un nouveau objet chaque fois qu’on a besoin à l’aide de ce qu’on appelle l’instanciation. Exemple Ici&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>&nbsp;&#8211; Notion d&rsquo;objets et de classes</h2>
+<h2>&nbsp;&#8211; Notion d&#8217;objets et de classes</h2>
 
 
 
-<h3>1 &#8211; 1 Exemple d&rsquo;une classe prédéfinie : classe String</h3>
+<h3>1 &#8211; 1 Exemple d&#8217;une classe prédéfinie : classe String</h3>
 
 
 
@@ -1571,7 +1571,7 @@ public Rectangle(double L,double l){
 
 
 
-<p>qui fournit ici&nbsp;<strong>la longueur (length en anglais )</strong>&nbsp;de la chaine de caractères&nbsp;<strong>myString= « salut »</strong>&nbsp;qui est égale ici à 5.<br>Pour créer une classe en Java on utilise la syntaxe :</p>
+<p>qui fournit ici&nbsp;<strong>la longueur (length en anglais )</strong>&nbsp;de la chaine de caractères&nbsp;<strong>myString= &#8220;salut&#8221;</strong>&nbsp;qui est égale ici à 5.<br>Pour créer une classe en Java on utilise la syntaxe :</p>
 
 
 
@@ -1585,11 +1585,11 @@ public Rectangle(double L,double l){
 
 
 
-<h3>2 &#8211; 1 Déclaration d&rsquo;une classe Java</h3>
+<h3>2 &#8211; 1 Déclaration d&#8217;une classe Java</h3>
 
 
 
-<p>Pour bien faciliter l&rsquo;apprentissage nous allons traiter un exemple simple d&rsquo;une classe permettant de générer des objets voitures ayant tous la même marque et le même prix :</p>
+<p>Pour bien faciliter l&#8217;apprentissage nous allons traiter un exemple simple d&#8217;une classe permettant de générer des objets voitures ayant tous la même marque et le même prix :</p>
 
 
 
@@ -1629,7 +1629,7 @@ voiture(){
 
 
 
-<p>Et maintenant pour créer un objet voiture il suffit de faire&nbsp;l&rsquo;instanciation&nbsp;: par exemple si on veut créer un objet voiture nommé&nbsp;maVoiture&nbsp; on utilise le code :</p>
+<p>Et maintenant pour créer un objet voiture il suffit de faire&nbsp;l&#8217;instanciation&nbsp;: par exemple si on veut créer un objet voiture nommé&nbsp;maVoiture&nbsp; on utilise le code :</p>
 
 
 
@@ -1637,11 +1637,11 @@ voiture(){
 
 
 
-<p>L&rsquo;objet&nbsp;maVoiture&nbsp;qu&rsquo;on vient de créer est une voiture de&nbsp;marque Renault&nbsp;et de&nbsp;prix 20000&nbsp;( Euro )</p>
+<p>L&#8217;objet&nbsp;maVoiture&nbsp;qu&#8217;on vient de créer est une voiture de&nbsp;marque Renault&nbsp;et de&nbsp;prix 20000&nbsp;( Euro )</p>
 
 
 
-<p>Et maintenant si on veut accéder à la marque de l&rsquo;objet&nbsp;maVoiture&nbsp;et de la récupérer sur une variable String on utilise le code :</p>
+<p>Et maintenant si on veut accéder à la marque de l&#8217;objet&nbsp;maVoiture&nbsp;et de la récupérer sur une variable String on utilise le code :</p>
 
 
 
@@ -1667,7 +1667,7 @@ voiture(){
 
 
 
-<p>Ce qui affiche à l&rsquo;exécution :</p>
+<p>Ce qui affiche à l&#8217;exécution :</p>
 
 
 
@@ -1679,7 +1679,7 @@ voiture(){
 
 
 
-<p>On peut aussi donner la possibilité à l&rsquo;utilisateur de choisir lui même la marque et le prix de la voiture en ajoutant&nbsp; des&nbsp;paramètres&nbsp;au&nbsp;constructeur&nbsp;:</p>
+<p>On peut aussi donner la possibilité à l&#8217;utilisateur de choisir lui même la marque et le prix de la voiture en ajoutant&nbsp; des&nbsp;paramètres&nbsp;au&nbsp;constructeur&nbsp;:</p>
 
 
 
@@ -1690,7 +1690,7 @@ voiture(){
 
 
 
-<p>Et maintenant l&rsquo;utilisateur du modèle&nbsp;voiture&nbsp;est libre de choisir la&nbsp;marque&nbsp;qu&rsquo;il souhaite avec le&nbsp;prix&nbsp;qui qui lui convient au moment de l&rsquo;instanciation&nbsp;, par exemple s&rsquo;il souhaite créer une voiture de marque<strong>&nbsp;Peugeot</strong>&nbsp;et de&nbsp;<strong>prix 25000 Euro</strong>&nbsp;il n&rsquo;a qu&rsquo;à instancier avec ces paramètres :</p>
+<p>Et maintenant l&#8217;utilisateur du modèle&nbsp;voiture&nbsp;est libre de choisir la&nbsp;marque&nbsp;qu&#8217;il souhaite avec le&nbsp;prix&nbsp;qui qui lui convient au moment de l&#8217;instanciation&nbsp;, par exemple s&#8217;il souhaite créer une voiture de marque<strong>&nbsp;Peugeot</strong>&nbsp;et de&nbsp;<strong>prix 25000 Euro</strong>&nbsp;il n&#8217;a qu&#8217;à instancier avec ces paramètres :</p>
 
 
 
@@ -1718,7 +1718,7 @@ voiture(){
 
 
 
-<p>Ce qui affiche à l&rsquo;exécution :</p>
+<p>Ce qui affiche à l&#8217;exécution :</p>
 
 
 
@@ -1726,35 +1726,35 @@ voiture(){
 
 
 
-<h2>3 &#8211; Modificateurs d&rsquo;accès</h2>
+<h2>3 &#8211; Modificateurs d&#8217;accès</h2>
 
 
 
-<p>Vous auriez sûrement déjà remarqué les mots&nbsp;<strong>public, protected et private</strong>&nbsp;au début des déclarations des méthodes de classe. Ces mots-clés sont appelés les&nbsp;<strong>modificateurs d&rsquo;accès</strong>&nbsp;dans la syntaxe du langage Java, et ils définissent la portée d&rsquo;un constituant de la classe.</p>
+<p>Vous auriez sûrement déjà remarqué les mots&nbsp;<strong>public, protected et private</strong>&nbsp;au début des déclarations des méthodes de classe. Ces mots-clés sont appelés les&nbsp;<strong>modificateurs d&#8217;accès</strong>&nbsp;dans la syntaxe du langage Java, et ils définissent la portée d&#8217;un constituant de la classe.</p>
 
 
 
-<h3>3 &#8211; 1 &#8211; Cas d&rsquo;une classe</h3>
+<h3>3 &#8211; 1 &#8211; Cas d&#8217;une classe</h3>
 
 
 
-<ul><li>Si une classe a une visibilité&nbsp;<strong>public</strong>&nbsp;(publique), la classe peut être appelée &nbsp;depuis n&rsquo;importe où dans le programme.</li><li>Si une classe possède une visibilité du package, la classe ne peut être appelée que dans le package où la classe est définie.</li><li>Si une classe a une visibilité&nbsp;<strong>private</strong>&nbsp;(privée) (elle ne peut se produire que si la classe est définie imbriquée dans une autre classe), la classe ne peut être consultée que dans la classe externe.</li></ul>
+<ul><li>Si une classe a une visibilité&nbsp;<strong>public</strong>&nbsp;(publique), la classe peut être appelée &nbsp;depuis n&#8217;importe où dans le programme.</li><li>Si une classe possède une visibilité du package, la classe ne peut être appelée que dans le package où la classe est définie.</li><li>Si une classe a une visibilité&nbsp;<strong>private</strong>&nbsp;(privée) (elle ne peut se produire que si la classe est définie imbriquée dans une autre classe), la classe ne peut être consultée que dans la classe externe.</li></ul>
 
 
 
-<h3>3 &#8211; 2 &#8211; Cas d&rsquo;un attribut</h3>
+<h3>3 &#8211; 2 &#8211; Cas d&#8217;un attribut</h3>
 
 
 
-<ul><li>&nbsp;&nbsp;&nbsp;&nbsp;Si une variable est définie dans une&nbsp;<strong>classe publique</strong>&nbsp;et qu&rsquo;elle a une visibilité<strong>&nbsp;publique</strong>, la variable peut être appelée n&rsquo;importe où dans l&rsquo;application par la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité&nbsp;<strong>protected</strong>&nbsp;(protégée) , la variable ne peut être appelée que dans les&nbsp;<strong>sous-classes</strong>&nbsp;et dans le même paquet dans la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité du package , la variable ne peut être référencée que dans le même paquet dans la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité&nbsp;<strong>private</strong>&nbsp;(privée), la variable ne peut être accessible que dans la classe dans laquelle elle est définie.</li></ul>
+<ul><li>&nbsp;&nbsp;&nbsp;&nbsp;Si une variable est définie dans une&nbsp;<strong>classe publique</strong>&nbsp;et qu&#8217;elle a une visibilité<strong>&nbsp;publique</strong>, la variable peut être appelée n&#8217;importe où dans l&#8217;application par la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité&nbsp;<strong>protected</strong>&nbsp;(protégée) , la variable ne peut être appelée que dans les&nbsp;<strong>sous-classes</strong>&nbsp;et dans le même paquet dans la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité du package , la variable ne peut être référencée que dans le même paquet dans la classe dans laquelle elle est définie.</li><li>Si une variable a une visibilité&nbsp;<strong>private</strong>&nbsp;(privée), la variable ne peut être accessible que dans la classe dans laquelle elle est définie.</li></ul>
 
 
 
-<h3>3 &#8211; 3 &#8211; Cas d&rsquo;une méthode Java</h3>
+<h3>3 &#8211; 3 &#8211; Cas d&#8217;une méthode Java</h3>
 
 
 
-<ul><li>&nbsp;&nbsp;&nbsp;&nbsp;Si une méthode est définie dans une&nbsp;<strong>classe publique</strong>&nbsp;et qu&rsquo;elle a une&nbsp;<strong>visibilité publique</strong>, la méthode peut être appelée n&rsquo;importe où dans l&rsquo;application à travers la classe dans laquelle elle est définie.</li><li>Si une méthode est déclarée&nbsp;<strong>protected</strong>&nbsp; elle a une visibilité protégé, la méthode peut être appelée uniquement dans les sous-classes et dans le même paquetage à travers la classe dans laquelle elle est définie.</li><li>Si une méthode est déclarée&nbsp;<strong>private</strong>&nbsp;elle a une visibilité privée, la méthode peut être appelée uniquement dans la classe dans laquelle elle est définie.</li></ul>
+<ul><li>&nbsp;&nbsp;&nbsp;&nbsp;Si une méthode est définie dans une&nbsp;<strong>classe publique</strong>&nbsp;et qu&#8217;elle a une&nbsp;<strong>visibilité publique</strong>, la méthode peut être appelée n&#8217;importe où dans l&#8217;application à travers la classe dans laquelle elle est définie.</li><li>Si une méthode est déclarée&nbsp;<strong>protected</strong>&nbsp; elle a une visibilité protégé, la méthode peut être appelée uniquement dans les sous-classes et dans le même paquetage à travers la classe dans laquelle elle est définie.</li><li>Si une méthode est déclarée&nbsp;<strong>private</strong>&nbsp;elle a une visibilité privée, la méthode peut être appelée uniquement dans la classe dans laquelle elle est définie.</li></ul>
 
 
 
@@ -1762,7 +1762,7 @@ voiture(){
 
 
 
-<p>Le modificateur&nbsp;<strong>abstract</strong>&nbsp;est utilisé devant les classes&nbsp; Java pour définir les<strong>&nbsp;classes abstraites</strong>&nbsp;( les classes abstraite sont des classes non instanciables et par suite non exécutables directement, elle ne peuvent être utiliser qu&rsquo;en héritage )</p>
+<p>Le modificateur&nbsp;<strong>abstract</strong>&nbsp;est utilisé devant les classes&nbsp; Java pour définir les<strong>&nbsp;classes abstraites</strong>&nbsp;( les classes abstraite sont des classes non instanciables et par suite non exécutables directement, elle ne peuvent être utiliser qu&#8217;en héritage )</p>
 
 
 
@@ -1778,7 +1778,7 @@ voiture(){
 
 
 
-<p>Pour un attribut ou une méthode &nbsp;Java, le modificateur&nbsp;<strong>static</strong>&nbsp;indique, que la méthode ou l&rsquo;attribut &nbsp; peut être appelé sans faire une &nbsp;instanciation sur &nbsp;sa classe.</p>
+<p>Pour un attribut ou une méthode &nbsp;Java, le modificateur&nbsp;<strong>static</strong>&nbsp;indique, que la méthode ou l&#8217;attribut &nbsp; peut être appelé sans faire une &nbsp;instanciation sur &nbsp;sa classe.</p>
 ]]></content:encoded>
 					
 		
@@ -1800,7 +1800,7 @@ voiture(){
 
 
 
-<p>En Java, une instruction if est une instruction conditionnelle qui exécute un ensemble d&rsquo;instructions selon une condition si elle est réalisée ou non.<br>Syntaxe:</p>
+<p>En Java, une instruction if est une instruction conditionnelle qui exécute un ensemble d&#8217;instructions selon une condition si elle est réalisée ou non.<br>Syntaxe:</p>
 
 
 
@@ -1835,7 +1835,7 @@ System.out.println("vous êtes mineur"+" Ton age est : "+tonAge);
 
 
 
-<p>Vous êtes majeur si l&rsquo;âge tapé est &gt;=18<br>Vous êtes mineur si l&rsquo;âge tapé est &lt; 18</p>
+<p>Vous êtes majeur si l&#8217;âge tapé est &gt;=18<br>Vous êtes mineur si l&#8217;âge tapé est &lt; 18</p>
 
 
 
@@ -1843,7 +1843,7 @@ System.out.println("vous êtes mineur"+" Ton age est : "+tonAge);
 
 
 
-<p>La commande&nbsp;<strong>else {</strong>&nbsp; n&rsquo;est pas obligatoire</p>
+<p>La commande&nbsp;<strong>else {</strong>&nbsp; n&#8217;est pas obligatoire</p>
 
 
 
@@ -1851,7 +1851,7 @@ System.out.println("vous êtes mineur"+" Ton age est : "+tonAge);
 
 
 
-<p>Il existe de nombreuses&nbsp; situations qui vous oblige à exécuter un bloc d&rsquo;instructions plusieurs fois dans vos applications.&nbsp;Les boucles peuvent exécuter un bloc de code un certain nombre de fois.&nbsp;La boucle&nbsp;<strong>for</strong>&nbsp;de Java vous sera&nbsp; utile dans ce cas<br>Syntaxe:</p>
+<p>Il existe de nombreuses&nbsp; situations qui vous oblige à exécuter un bloc d&#8217;instructions plusieurs fois dans vos applications.&nbsp;Les boucles peuvent exécuter un bloc de code un certain nombre de fois.&nbsp;La boucle&nbsp;<strong>for</strong>&nbsp;de Java vous sera&nbsp; utile dans ce cas<br>Syntaxe:</p>
 
 
 
@@ -1872,7 +1872,7 @@ System.out.println("bonjour !");
 
 
 
-<p>L&rsquo;exemple ci dessus affiche 10 fois le message&nbsp;&nbsp;<strong>bonjour !</strong></p>
+<p>L&#8217;exemple ci dessus affiche 10 fois le message&nbsp;&nbsp;<strong>bonjour !</strong></p>
 
 
 
@@ -1880,7 +1880,7 @@ System.out.println("bonjour !");
 
 
 
-<p>La&nbsp; boucle&nbsp;<strong>while</strong>&nbsp;est une instruction&nbsp; de contrôle qui permet d&rsquo;exécuter le code à plusieurs reprises en fonction d&rsquo;une condition booléenne donnée, chaque fois que la condition est réalisée l&rsquo;instruction est exécutée.<br>Syntaxe:</p>
+<p>La&nbsp; boucle&nbsp;<strong>while</strong>&nbsp;est une instruction&nbsp; de contrôle qui permet d&#8217;exécuter le code à plusieurs reprises en fonction d&#8217;une condition booléenne donnée, chaque fois que la condition est réalisée l&#8217;instruction est exécutée.<br>Syntaxe:</p>
 
 
 
@@ -1904,7 +1904,7 @@ i ++;
 
 
 
-<p>L&rsquo;exemple ci dessus affiche 10 le message&nbsp;<strong>bonjour !</strong>&nbsp; et s&rsquo;arrête, puis qu&rsquo;à chaque affichage du message i est incrémenté de +1 et à la 10 ème fois il prends la valeur 10 + 1 = 11 et donc la condition i &lt;=10 n&rsquo;est plus réalisée ce qui entraine l&rsquo;arrêt de l&rsquo;instruction :</p>
+<p>L&#8217;exemple ci dessus affiche 10 le message&nbsp;<strong>bonjour !</strong>&nbsp; et s&#8217;arrête, puis qu&#8217;à chaque affichage du message i est incrémenté de +1 et à la 10 ème fois il prends la valeur 10 + 1 = 11 et donc la condition i &lt;=10 n&#8217;est plus réalisée ce qui entraine l&#8217;arrêt de l&#8217;instruction :</p>
 
 
 

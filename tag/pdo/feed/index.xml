@@ -50,7 +50,7 @@
 
 
 
-<p><strong>Touch(&lsquo;$nom_fichier&rsquo;) ;&nbsp;</strong></p>
+<p><strong>Touch(&#8216;$nom_fichier&#8217;) ;&nbsp;</strong></p>
 
 
 
@@ -72,11 +72,11 @@ touch('c: \ test.doc');
 
 
 
-<p>C&rsquo;est un exemple permet la création d&rsquo;un document Word à la racine du disque dur C:\ &nbsp;&nbsp;nommé<strong>&nbsp;test.doc</strong></p>
+<p>C&#8217;est un exemple permet la création d&#8217;un document Word à la racine du disque dur C:\ &nbsp;&nbsp;nommé<strong>&nbsp;test.doc</strong></p>
 
 
 
-<p><strong>Unlink()&nbsp;:&nbsp;</strong>La fonction unlink est utilisée en php pour supprimer un fichier qui existe déjà sa syntaxe est :&nbsp;&nbsp;<strong>unlink(&lsquo;$nom_fichier&rsquo;) ;</strong></p>
+<p><strong>Unlink()&nbsp;:&nbsp;</strong>La fonction unlink est utilisée en php pour supprimer un fichier qui existe déjà sa syntaxe est :&nbsp;&nbsp;<strong>unlink(&#8216;$nom_fichier&#8217;) ;</strong></p>
 
 
 
@@ -92,7 +92,7 @@ unlink('c:\test.doc');
 
 
 
-<p>C&rsquo;est un exemple qui permet la suppression du document Word&nbsp;<strong>test.doc</strong>&nbsp;que nous venons de créer à l’aide de l’exemple précédent.</p>
+<p>C&#8217;est un exemple qui permet la suppression du document Word&nbsp;<strong>test.doc</strong>&nbsp;que nous venons de créer à l’aide de l’exemple précédent.</p>
 
 
 
@@ -100,19 +100,19 @@ unlink('c:\test.doc');
 
 
 
-<p>La fonction&nbsp;<strong>fopen</strong>&nbsp;permet l&rsquo;ouverture des fichiers sa syntaxe est :</p>
+<p>La fonction&nbsp;<strong>fopen</strong>&nbsp;permet l&#8217;ouverture des fichiers sa syntaxe est :</p>
 
 
 
-<p><strong>$fichier = fopen(&lsquo;$nom_fichier&rsquo;, &lsquo;mode de l&rsquo;ouverture&rsquo;) ;</strong></p>
+<p><strong>$fichier = fopen(&#8216;$nom_fichier&#8217;, &#8216;mode de l&#8217;ouverture&#8217;) ;</strong></p>
 
 
 
-<p><strong>Les mode d&rsquo;ouverture sont :</strong><br>r : mode lecture seule<br>r+ : mode lecture et écriture<br>a : mode lecture seule et place le curseur à la fin du fichier<br>a+ : mode lecture et écriture et place le curseur à la fin du fichier<br>w : mode écriture seulement et la fonction crée le fichier s&rsquo;il n&rsquo;existe pas<br>w+ : mode lecture et écriture et la fonction crée le fichier s&rsquo;il n&rsquo;existe pas</p>
+<p><strong>Les mode d&#8217;ouverture sont :</strong><br>r : mode lecture seule<br>r+ : mode lecture et écriture<br>a : mode lecture seule et place le curseur à la fin du fichier<br>a+ : mode lecture et écriture et place le curseur à la fin du fichier<br>w : mode écriture seulement et la fonction crée le fichier s&#8217;il n&#8217;existe pas<br>w+ : mode lecture et écriture et la fonction crée le fichier s&#8217;il n&#8217;existe pas</p>
 
 
 
-<p><strong>fputs()</strong><br>La fonction&nbsp;<strong>fputs</strong>&nbsp;permet d&rsquo;écrire sur des fichiers sa syntaxe est :</p>
+<p><strong>fputs()</strong><br>La fonction&nbsp;<strong>fputs</strong>&nbsp;permet d&#8217;écrire sur des fichiers sa syntaxe est :</p>
 
 
 
@@ -223,7 +223,7 @@ readfile('c:\test.doc');
 
 
 
-<p>voici un exemple qui permet de lire le premier caractère d&rsquo;un fichier nommé&nbsp;<strong>fichier.txt</strong></p>
+<p>voici un exemple qui permet de lire le premier caractère d&#8217;un fichier nommé&nbsp;<strong>fichier.txt</strong></p>
 
 
 
@@ -245,7 +245,7 @@ fclose($fp);
 
 
 
-<p>Cette fonction permet de savoir si la fin du fichier est atteint ou non, nous allons voir comment peut on utiliser cette fonction pour lire la totalité d&rsquo;un fichier.</p>
+<p>Cette fonction permet de savoir si la fin du fichier est atteint ou non, nous allons voir comment peut on utiliser cette fonction pour lire la totalité d&#8217;un fichier.</p>
 
 
 
@@ -285,7 +285,7 @@ fclose($fp);
 
 
 
-<p>Voici un exemple permetttant d&rsquo;afficher la première ligne d&rsquo;un fichier</p>
+<p>Voici un exemple permetttant d&#8217;afficher la première ligne d&#8217;un fichier</p>
 
 
 
@@ -337,15 +337,15 @@ fclose($fp);
 
 
 
-<h3>2 &#8211; 1 &nbsp; Création d&rsquo;un dossier avec php</h3>
+<h3>2 &#8211; 1 &nbsp; Création d&#8217;un dossier avec php</h3>
 
 
 
-<p>Pour créer un dossier on utilise l&rsquo;instruction mkdir dont la sytaxe est la suivante :</p>
+<p>Pour créer un dossier on utilise l&#8217;instruction mkdir dont la sytaxe est la suivante :</p>
 
 
 
-<p><strong>mkdir(&lsquo;nom_du_dossier&rsquo; , &lsquo;droit d&rsquo;acées&rsquo;)</strong></p>
+<p><strong>mkdir(&#8216;nom_du_dossier&#8217; , &#8216;droit d&#8217;acées&#8217;)</strong></p>
 
 
 
@@ -369,11 +369,11 @@ mkdir('new');
 
 
 
-<h3>2 &#8211; 2&nbsp;&nbsp; Lecture du contenu d&rsquo;un dossier avec php</h3>
+<h3>2 &#8211; 2&nbsp;&nbsp; Lecture du contenu d&#8217;un dossier avec php</h3>
 
 
 
-<p>Pour lire le contenu d&rsquo;un dossier on doit d&rsquo;abord l&rsquo;ouvrir avec l&rsquo;instruction&nbsp;<strong>opendir( )</strong>&nbsp;et le lire ensuite avec l&rsquo;instruction&nbsp;<strong>readdir( )</strong></p>
+<p>Pour lire le contenu d&#8217;un dossier on doit d&#8217;abord l&#8217;ouvrir avec l&#8217;instruction&nbsp;<strong>opendir( )</strong>&nbsp;et le lire ensuite avec l&#8217;instruction&nbsp;<strong>readdir( )</strong></p>
 
 
 
@@ -381,7 +381,7 @@ mkdir('new');
 
 
 
-<p>Pour lire le contenu d&rsquo;un dossier nvd qui se trouve à l&rsquo;intérieur du dossier www on doit créer un fichier php à la racine du serveur on le nomme readdir.php par exemple et dont le code :</p>
+<p>Pour lire le contenu d&#8217;un dossier nvd qui se trouve à l&#8217;intérieur du dossier www on doit créer un fichier php à la racine du serveur on le nomme readdir.php par exemple et dont le code :</p>
 
 
 
@@ -405,7 +405,7 @@ echo"$res&lt;br /&gt;";
 
 <div class="wp-container-2 wp-block-columns">
 <div class="wp-container-1 wp-block-column" style="flex-basis:100%">
-<p>Pour lire le contenu du dossier parent on utilise la commande <strong>$open=opendir(..)</strong>Par exemple si le fichier qui contient le code d&rsquo;ouverture <strong>$open=opendir(..)</strong>se trouve à la racine du serveur wamp, le résultat retourné en tapant l&rsquo;adresse url de ce fichier est :<em>.</em></p>
+<p>Pour lire le contenu du dossier parent on utilise la commande <strong>$open=opendir(..)</strong>Par exemple si le fichier qui contient le code d&#8217;ouverture <strong>$open=opendir(..)</strong>se trouve à la racine du serveur wamp, le résultat retourné en tapant l&#8217;adresse url de ce fichier est :<em>.</em></p>
 </div>
 </div>
 
@@ -519,11 +519,11 @@ echo"$res&lt;br /&gt;";
 
 
 
-<h4>Suppression d&rsquo;un répertoire</h4>
+<h4>Suppression d&#8217;un répertoire</h4>
 
 
 
-<p>Pour supprimer un répertoire on utilise l&rsquo;instruction rmdir(&lsquo; nom_du dossier &lsquo; ).</p>
+<p>Pour supprimer un répertoire on utilise l&#8217;instruction rmdir(&#8216; nom_du dossier &#8216; ).</p>
 ]]></content:encoded>
 					
 		
@@ -544,11 +544,11 @@ echo"$res&lt;br /&gt;";
 
 					<description><![CDATA[1 &#8211; Création du formulaire d&#8217;upload Le langage php nous offre la possibilité d&#8217;Uploader des fichiers sur un serveur par une méthode assez simple à réaliser. Nous allons créer cela en deux étapes : On peut réaliser ceux- ci grâce à la commande : Voici le code : &#160;&#160;&#160; On crée ensuite un dossier sur&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>1 &#8211; Création du formulaire d&rsquo;upload</h2>
+<h2>1 &#8211; Création du formulaire d&#8217;upload</h2>
 
 
 
-<p>Le langage php nous offre la possibilité d&rsquo;Uploader des fichiers sur un serveur par une méthode assez simple à réaliser. Nous allons créer cela en deux étapes :</p>
+<p>Le langage php nous offre la possibilité d&#8217;Uploader des fichiers sur un serveur par une méthode assez simple à réaliser. Nous allons créer cela en deux étapes :</p>
 
 
 
@@ -575,19 +575,19 @@ echo"$res&lt;br /&gt;";
 
 
 
-<p>&nbsp;&nbsp;&nbsp; On crée ensuite un dossier sur le serveur qu&rsquo;on va nommer upload par exemple, ensuite un sous dossier nommé upload_fichiers et c&rsquo;est ce dossier qui va recevoir les fichiers uploadé, le formulaire ci-dessus sera enregistré dans une page web au sein du dossier uplod on va la nommer par exemple upload.html</p>
+<p>&nbsp;&nbsp;&nbsp; On crée ensuite un dossier sur le serveur qu&#8217;on va nommer upload par exemple, ensuite un sous dossier nommé upload_fichiers et c&#8217;est ce dossier qui va recevoir les fichiers uploadé, le formulaire ci-dessus sera enregistré dans une page web au sein du dossier uplod on va la nommer par exemple upload.html</p>
 
 
 
-<h2>2 &#8211; création du fichier php de l&rsquo;upload</h2>
+<h2>2 &#8211; création du fichier php de l&#8217;upload</h2>
 
 
 
-<p>&nbsp;&nbsp;&nbsp; &#8211; On doit tout d&rsquo;abord récupérer le fichier du formulaire à l&rsquo;aide de la méthode :</p>
+<p>&nbsp;&nbsp;&nbsp; &#8211; On doit tout d&#8217;abord récupérer le fichier du formulaire à l&#8217;aide de la méthode :</p>
 
 
 
-<p>&nbsp;<strong>$nomFichier = $_FILES[« fichier_choisi »][« name »]</strong></p>
+<p>&nbsp;<strong>$nomFichier = $_FILES[&#8220;fichier_choisi&#8221;][&#8220;name&#8221;]</strong></p>
 
 
 
@@ -595,7 +595,7 @@ echo"$res&lt;br /&gt;";
 
 
 
-<p>On a ajouté ici le code :&nbsp;<strong>[« name »]</strong>&nbsp;tout simplement pour utiliser le nom réel du fichier.</p>
+<p>On a ajouté ici le code :&nbsp;<strong>[&#8220;name&#8221;]</strong>&nbsp;tout simplement pour utiliser le nom réel du fichier.</p>
 
 
 
@@ -603,19 +603,19 @@ echo"$res&lt;br /&gt;";
 
 
 
-<p>&nbsp;<strong>$nomTemporaire = $_FILES[« fichier_choisi »][« tmp_name »] ;</strong></p>
+<p>&nbsp;<strong>$nomTemporaire = $_FILES[&#8220;fichier_choisi&#8221;][&#8220;tmp_name&#8221;] ;</strong></p>
 
 
 
-<p>&nbsp;&nbsp;&nbsp; &#8211; On indique ensuite le chemin où va&nbsp; -t &#8211; on uploader les fichiers à l&rsquo;aide de la méthode :</p>
+<p>&nbsp;&nbsp;&nbsp; &#8211; On indique ensuite le chemin où va&nbsp; -t &#8211; on uploader les fichiers à l&#8217;aide de la méthode :</p>
 
 
 
-<p>&nbsp;<strong>$chemin = « ./upload_fichier/ » ;</strong></p>
+<p>&nbsp;<strong>$chemin = &#8220;./upload_fichier/&#8221; ;</strong></p>
 
 
 
-<p>&nbsp;&nbsp;&nbsp; &#8211; Finalement on crée une copie sur le dossier&nbsp;<strong>upload_fichiers</strong>&nbsp;à l&rsquo;aide de la méthode :</p>
+<p>&nbsp;&nbsp;&nbsp; &#8211; Finalement on crée une copie sur le dossier&nbsp;<strong>upload_fichiers</strong>&nbsp;à l&#8217;aide de la méthode :</p>
 
 
 
@@ -662,11 +662,11 @@ echo'Fichier non envoyé';
 
 					<description><![CDATA[1 &#8211;&#160;&#160;contrôle des données d&#8217;un formulaire simple &#160;&#160;&#160; Les valeurs saisies par un internaute en remplissant un formulaire du type POST, doivent être récupérées à l&#8217;aide d&#8217;un script php et doivent être traitées comme étant des variables php. La commande utilisée par php pour réaliser cela est : $_POST[&#8216; nom du champ&#8217;] où l&#8217;expression nom&#8230;]]></description>
 										<content:encoded><![CDATA[
-<h2>1 &#8211;&nbsp;&nbsp;<strong>contrôle des données d&rsquo;un formulaire simple</strong></h2>
+<h2>1 &#8211;&nbsp;&nbsp;<strong>contrôle des données d&#8217;un formulaire simple</strong></h2>
 
 
 
-<p>&nbsp;&nbsp;&nbsp; Les valeurs saisies par un internaute en remplissant un formulaire du type POST, doivent être récupérées à l&rsquo;aide d&rsquo;un script php et doivent être traitées comme étant des variables php. La commande utilisée par php pour réaliser cela est : $_POST[&lsquo; nom du champ&rsquo;] où l&rsquo;expression nom du champ désigne le nom du champ du formulaire remplit par l&rsquo;internaute. La balise &lt;form&gt; du formulaire en question est de la forme :</p>
+<p>&nbsp;&nbsp;&nbsp; Les valeurs saisies par un internaute en remplissant un formulaire du type POST, doivent être récupérées à l&#8217;aide d&#8217;un script php et doivent être traitées comme étant des variables php. La commande utilisée par php pour réaliser cela est : $_POST[&#8216; nom du champ&#8217;] où l&#8217;expression nom du champ désigne le nom du champ du formulaire remplit par l&#8217;internaute. La balise &lt;form&gt; du formulaire en question est de la forme :</p>
 
 
 
@@ -689,7 +689,7 @@ echo'Fichier non envoyé';
 
 
 
-<p>Créeons un fichier html contenant une zone de texte( là où l&rsquo;internaute doit saisir son nom) et un bouton envoyer . Vous pouvez donner un nom quelconque à ce fichier html.</p>
+<p>Créeons un fichier html contenant une zone de texte( là où l&#8217;internaute doit saisir son nom) et un bouton envoyer . Vous pouvez donner un nom quelconque à ce fichier html.</p>
 
 
 
@@ -700,11 +700,11 @@ Introduisez votre nom &lt;input type = "text" name ="visiteur"&gt;
 
 
 
-<p>Nous venons de créer la page html qui contient le formulaire d&rsquo;envoi, nous allons maintenant créer le fichier php qui va récupérer la valeur saisi par l&rsquo;internaute ( nom de l’internaute ). Le nom de ce dernier n&rsquo;est pas n&rsquo;importe, il doit suivre la commande</p>
+<p>Nous venons de créer la page html qui contient le formulaire d&#8217;envoi, nous allons maintenant créer le fichier php qui va récupérer la valeur saisi par l&#8217;internaute ( nom de l’internaute ). Le nom de ce dernier n&#8217;est pas n&#8217;importe, il doit suivre la commande</p>
 
 
 
-<h3>action =  » nom du fichier php »</h3>
+<h3>action = &#8221; nom du fichier php&#8221;</h3>
 
 
 
@@ -731,7 +731,7 @@ Introduisez votre nom &lt;input type = "text" name ="visiteur"&gt;
 
 
 
-<p>La fonction mail permet l&rsquo;evoi d&rsquo;un message sous forme d&rsquo;un courriel à un destinataire. Sa syntaxe est la suivante :</p>
+<p>La fonction mail permet l&#8217;evoi d&#8217;un message sous forme d&#8217;un courriel à un destinataire. Sa syntaxe est la suivante :</p>
 
 
 
@@ -743,7 +743,7 @@ Introduisez votre nom &lt;input type = "text" name ="visiteur"&gt;
 
 
 
-<p>Créons un formulaire d&rsquo;envoie d&#8217;email à l&rsquo;adresse : y_derf@yahoo.fr</p>
+<p>Créons un formulaire d&#8217;envoie d&#8217;email à l&#8217;adresse : y_derf@yahoo.fr</p>
 
 
 
@@ -773,15 +773,15 @@ mail(&lt;code&gt;"&lt;/code&gt;y_derf@yahoo.fr &lt;code&gt;"&lt;/code&gt;,$sujet
 
 
 
-<p>On peut ajouter l&rsquo;adresse email de l&rsquo;internaute par la méthode :</p>
+<p>On peut ajouter l&#8217;adresse email de l&#8217;internaute par la méthode :</p>
 
 
 
-<h3>$to = $_POST[&lsquo;adresse email de l&rsquo;internaute&rsquo;]<br>mail(″ adresse mail destinataire ″ , $sujet , $message , ″from :″.$to) ;</h3>
+<h3>$to = $_POST[&#8216;adresse email de l&#8217;internaute&#8217;]<br>mail(″ adresse mail destinataire ″ , $sujet , $message , ″from :″.$to) ;</h3>
 
 
 
-<p>et si on veut rediriger l&rsquo;internaute vers une page de remerciement , on doit tout d&rsquo;abord créer cette page lui donner un nom par exemple une page web contenant le message « Merci pour votre participation » nommons la merci.htm, il suffit maintenant d&rsquo;ajouter la méthode suivante :</p>
+<p>et si on veut rediriger l&#8217;internaute vers une page de remerciement , on doit tout d&#8217;abord créer cette page lui donner un nom par exemple une page web contenant le message « Merci pour votre participation » nommons la merci.htm, il suffit maintenant d&#8217;ajouter la méthode suivante :</p>
 
 
 
@@ -789,7 +789,7 @@ mail(&lt;code&gt;"&lt;/code&gt;y_derf@yahoo.fr &lt;code&gt;"&lt;/code&gt;,$sujet
 
 
 
-<h3>&nbsp;<strong>Code complet de l&rsquo;exemple</strong></h3>
+<h3>&nbsp;<strong>Code complet de l&#8217;exemple</strong></h3>
 
 
 
@@ -861,19 +861,19 @@ header("Adresse url de la page merci.htm");
 
 
 
-<p>&nbsp;&nbsp;&nbsp; On peut envoyer l&#8217;email en mode html (mise en forme du texte : gras, italique, soulignement, couleur du texte,images &#8230;) , il suffit pour cela d&rsquo;ajouter quelque lignes de code au script ci-dessus :</p>
+<p>&nbsp;&nbsp;&nbsp; On peut envoyer l&#8217;email en mode html (mise en forme du texte : gras, italique, soulignement, couleur du texte,images &#8230;) , il suffit pour cela d&#8217;ajouter quelque lignes de code au script ci-dessus :</p>
 
 
 
-<h3>$to .= »MIME-version:1.0 \n »;</h3>
+<h3>$to .=&#8221;MIME-version:1.0 \n&#8221;;</h3>
 
 
 
-<h3>$to .= »Content-type:text/html; charset=iso-8859-1\n »;</h3>
+<h3>$to .=&#8221;Content-type:text/html; charset=iso-8859-1\n&#8221;;</h3>
 
 
 
-<p><strong>&nbsp;&nbsp;&nbsp; Code complet de l&rsquo;exemple</strong></p>
+<p><strong>&nbsp;&nbsp;&nbsp; Code complet de l&#8217;exemple</strong></p>
 
 
 
@@ -926,13 +926,13 @@ message&lt;input type="text" name="message"&gt;
 		<category><![CDATA[php]]></category>
 		<guid isPermaLink="false">https://sibylassana95.github.io/mon-blog/?p=269</guid>
 
-					<description><![CDATA[5.1 &#8211; Tableaux numérotés Un tableau est une sorte de variable qui permet de stocker ranger d&#8217;autres variables ou informations. Supposons que l&#8217;on souhaite regrouper deux variables $var1= »élève » et $var2= »professeur » $var3= »directeur »&#160; en une seule variable, on utilise pour cela la fonction&#160;array(): Exemple : Remarque&#160;: On peut définir directement le tableau par : $tab=array(« élève » , « professeur »&#8230;]]></description>
+					<description><![CDATA[5.1 &#8211; Tableaux numérotés Un tableau est une sorte de variable qui permet de stocker ranger d&#8217;autres variables ou informations. Supposons que l&#8217;on souhaite regrouper deux variables $var1=&#8221;élève&#8221; et $var2=&#8221;professeur&#8221; $var3=&#8221;directeur&#8221;&#160; en une seule variable, on utilise pour cela la fonction&#160;array(): Exemple : Remarque&#160;: On peut définir directement le tableau par : $tab=array(&#8220;élève&#8221; , &#8220;professeur&#8221;&#8230;]]></description>
 										<content:encoded><![CDATA[
 <h2>5.1 &#8211; Tableaux numérotés</h2>
 
 
 
-<p>Un tableau est une sorte de variable qui permet de stocker ranger d&rsquo;autres variables ou informations. Supposons que l&rsquo;on souhaite regrouper deux variables $var1= »élève » et $var2= »professeur » $var3= »directeur »&nbsp; en une seule variable, on utilise pour cela la fonction&nbsp;<strong>array():</strong></p>
+<p>Un tableau est une sorte de variable qui permet de stocker ranger d&#8217;autres variables ou informations. Supposons que l&#8217;on souhaite regrouper deux variables $var1=&#8221;élève&#8221; et $var2=&#8221;professeur&#8221; $var3=&#8221;directeur&#8221;&nbsp; en une seule variable, on utilise pour cela la fonction&nbsp;<strong>array():</strong></p>
 
 
 
@@ -969,7 +969,7 @@ $tab=array($var1,$var2,$var3);
 
 
 
-<p><strong>$tab=array(« élève » , « professeur » , « directeur » ) ;</strong></p>
+<p><strong>$tab=array(&#8220;élève&#8221; , &#8220;professeur&#8221; , &#8220;directeur&#8221; ) ;</strong></p>
 
 
 
@@ -993,7 +993,7 @@ $tab=array($var1,$var2,$var3);
 
 
 
-<p>Jusqu&rsquo;à présent on n&rsquo;a définie que les tableaux numéroté du type:</p>
+<p>Jusqu&#8217;à présent on n&#8217;a définie que les tableaux numéroté du type:</p>
 
 
 
@@ -1009,7 +1009,7 @@ $tab=array($var1,$var2,$var3);
 
 
 
-<p>Supposons que l&rsquo;on souhaite maintenant représenter en php un tableau du type :</p>
+<p>Supposons que l&#8217;on souhaite maintenant représenter en php un tableau du type :</p>
 
 
 
@@ -1025,7 +1025,7 @@ $tab=array($var1,$var2,$var3);
 
 
 
-<p>&nbsp;&nbsp;&nbsp; Le problème ici est différent du cas précédent puisqu&rsquo;il n&rsquo;y aura aucun indice. Ce genre de tableau est dit associatif est peut être représenté en php de la manière suivante:</p>
+<p>&nbsp;&nbsp;&nbsp; Le problème ici est différent du cas précédent puisqu&#8217;il n&#8217;y aura aucun indice. Ce genre de tableau est dit associatif est peut être représenté en php de la manière suivante:</p>
 
 
 
@@ -1047,11 +1047,11 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 
 
 
-<h2>5.3 &#8211; parcourt d&rsquo;un tableau</h2>
+<h2>5.3 &#8211; parcourt d&#8217;un tableau</h2>
 
 
 
-<h3>5.3.1 &#8211; Cas d&rsquo;un tableau numéroté</h3>
+<h3>5.3.1 &#8211; Cas d&#8217;un tableau numéroté</h3>
 
 
 
@@ -1059,7 +1059,7 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 
 
 
-<p><strong>$tab=array(« élève » , « professeur » , « directeur » );</strong></p>
+<p><strong>$tab=array(&#8220;élève&#8221; , &#8220;professeur&#8221; , &#8220;directeur&#8221; );</strong></p>
 
 
 
@@ -1103,15 +1103,15 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 
 
 
-<h3>5.3.2&nbsp; &#8211; Cas d&rsquo;un tableau associatif</h3>
+<h3>5.3.2&nbsp; &#8211; Cas d&#8217;un tableau associatif</h3>
 
 
 
-<p>La même boucle&nbsp;<strong>foreach</strong>&nbsp;est utilisé pour parcourir un tableau associatif avec une légère différence au niveau de la syntaxe. Prenons l&rsquo;exemple du tableau :</p>
+<p>La même boucle&nbsp;<strong>foreach</strong>&nbsp;est utilisé pour parcourir un tableau associatif avec une légère différence au niveau de la syntaxe. Prenons l&#8217;exemple du tableau :</p>
 
 
 
-<p><strong>$tab=array( « nom »=&gt; »Houssam », « âge »=&gt; »25 ans » , « taille »=&gt; »1 m80 » ) ;</strong></p>
+<p><strong>$tab=array( &#8220;nom&#8221;=&gt;&#8221;Houssam&#8221;, &#8220;âge&#8221;=&gt;&#8221;25 ans&#8221; , &#8220;taille&#8221;=&gt;&#8221;1 m80&#8221; ) ;</strong></p>
 
 
 
@@ -1148,11 +1148,11 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 
 
 
-<h2>&nbsp;1 &#8211; L&rsquo;instruction if</h2>
+<h2>&nbsp;1 &#8211; L&#8217;instruction if</h2>
 
 
 
-<p>&nbsp;&nbsp;&nbsp; C&rsquo;est une instruction permettant d&rsquo;exécuter un nombre d&rsquo;instruction lorsqu&rsquo;une condition est réalisée. La syntaxe est la suivante :</p>
+<p>&nbsp;&nbsp;&nbsp; C&#8217;est une instruction permettant d&#8217;exécuter un nombre d&#8217;instruction lorsqu&#8217;une condition est réalisée. La syntaxe est la suivante :</p>
 
 
 
@@ -1232,7 +1232,7 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 
 
 
-<p>Nous pouvons parcourir ce tableau à l&rsquo;aide de la fonction&nbsp;<strong>foreach()</strong>&nbsp;de la manière suivante:</p>
+<p>Nous pouvons parcourir ce tableau à l&#8217;aide de la fonction&nbsp;<strong>foreach()</strong>&nbsp;de la manière suivante:</p>
 
 
 
@@ -1240,7 +1240,7 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 
 
 
-<p>&nbsp;Cette méthode nous donne l&rsquo;accès à toutes les valeurs du tableau : a, b, c, d, e. voici le code finale :</p>
+<p>&nbsp;Cette méthode nous donne l&#8217;accès à toutes les valeurs du tableau : a, b, c, d, e. voici le code finale :</p>
 
 
 
@@ -1276,7 +1276,7 @@ $tab&#91;"taille"] // affiche ici la taille : 1 m 80.</code></pre>
 
 
 
-<p>&nbsp;&nbsp;&nbsp; La boucle while permet d&rsquo;exécuter un certain nombre d&rsquo;instructions tant qu&rsquo;une condition est réalisée, la syntaxe est :</p>
+<p>&nbsp;&nbsp;&nbsp; La boucle while permet d&#8217;exécuter un certain nombre d&#8217;instructions tant qu&#8217;une condition est réalisée, la syntaxe est :</p>
 
 
 
@@ -1332,7 +1332,7 @@ function diveuclide($a,$b){
 
 
 
-<p>Contrairement aux autres langages les variables en PHP ne se déclarent pas, si vous voulez utiliser une variable il suffit d&rsquo;introduire son nom précédé du symbole dollar&nbsp;<strong>$</strong>&nbsp;, le premier caractère du nom de la variable doit être une lettre tandis que pour les autres elles peuvent être des chiffres et même le caractère « _ »</p>
+<p>Contrairement aux autres langages les variables en PHP ne se déclarent pas, si vous voulez utiliser une variable il suffit d&#8217;introduire son nom précédé du symbole dollar&nbsp;<strong>$</strong>&nbsp;, le premier caractère du nom de la variable doit être une lettre tandis que pour les autres elles peuvent être des chiffres et même le caractère &#8220;_&#8221;</p>
 
 
 
@@ -1361,7 +1361,7 @@ echo " $z "; // affiche la somme des deux variables qui est 30
 
 
 
-<p>Entre les caractères &lsquo; &#8230; &lsquo; les variables ne sont pas interprétées tandis qu&rsquo;entre les caractères  » &#8230; » les variables sont interprétées</p>
+<p>Entre les caractères &#8216; &#8230; &#8216; les variables ne sont pas interprétées tandis qu&#8217;entre les caractères &#8221; &#8230;&#8221; les variables sont interprétées</p>
 
 
 
@@ -1369,7 +1369,7 @@ echo " $z "; // affiche la somme des deux variables qui est 30
 
 
 
-<p>Si on reprend l&rsquo;exemple ci- dessus avec les caractères &lsquo; &#8230; &lsquo;</p>
+<p>Si on reprend l&#8217;exemple ci- dessus avec les caractères &#8216; &#8230; &#8216;</p>
 
 
 
@@ -1383,11 +1383,11 @@ echo ' La valeur de z est $z ';
 
 
 
-<p>L&rsquo;interpréteur n&rsquo;affichera pas la valeur de la variable z qui est la somme de x et de y qui vaut 30 mais il affichera $z , il la considère comme étant une chaîne de caractères.</p>
+<p>L&#8217;interpréteur n&#8217;affichera pas la valeur de la variable z qui est la somme de x et de y qui vaut 30 mais il affichera $z , il la considère comme étant une chaîne de caractères.</p>
 
 
 
-<p>Mais en &nbsp;reprenant cette fois ci l&rsquo;exemple ci- dessus avec les caractères ’’ &#8230;’’</p>
+<p>Mais en &nbsp;reprenant cette fois ci l&#8217;exemple ci- dessus avec les caractères ’’ &#8230;’’</p>
 
 
 
@@ -1433,7 +1433,7 @@ Echo ’’ La valeur de z est $z ’’;
 
 
 
-<p>Les constantes sont une classe spéciale de variables dont la valeur est inchangeable. Les constantes sont définie à l&rsquo;aide de la fonction define() avec la syntaxe suivante :</p>
+<p>Les constantes sont une classe spéciale de variables dont la valeur est inchangeable. Les constantes sont définie à l&#8217;aide de la fonction define() avec la syntaxe suivante :</p>
 
 
 
@@ -1464,7 +1464,7 @@ echo 'mon age est '.monage; // affiche mon age est  30 ans
 
 
 
-<p>Contrairement aux variables les fonction PHP doivent être déclarées à l&rsquo;avance. La syntaxe de déclaration est la suivante :</p>
+<p>Contrairement aux variables les fonction PHP doivent être déclarées à l&#8217;avance. La syntaxe de déclaration est la suivante :</p>
 
 
 
@@ -1472,7 +1472,7 @@ echo 'mon age est '.monage; // affiche mon age est  30 ans
 
 
 
-<p><strong>{ liste d&rsquo;instructions }</strong></p>
+<p><strong>{ liste d&#8217;instructions }</strong></p>
 
 
 
@@ -1490,7 +1490,7 @@ echo'le double de 16 est '. double(16);
 
 
 
-<p>La valeur retournée ici par cette fonction c&rsquo;est&nbsp;<strong>le double de 16 qui est 32</strong></p>
+<p>La valeur retournée ici par cette fonction c&#8217;est&nbsp;<strong>le double de 16 qui est 32</strong></p>
 
 
 
@@ -1532,11 +1532,11 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p><strong>$res = addslashes(« C&rsquo;est l&rsquo;arbre qu&rsquo;il faut couper »);</strong></p>
+<p><strong>$res = addslashes(&#8220;C&#8217;est l&#8217;arbre qu&#8217;il faut couper&#8221;);</strong></p>
 
 
 
-<p><strong>Résultat : C\&rsquo;est l\&rsquo;arbre qu\&rsquo;il faut couper (cette fonction est généralement utilisée pour éviter les problèmes des magic quotes)</strong></p>
+<p><strong>Résultat : C\&#8217;est l\&#8217;arbre qu\&#8217;il faut couper (cette fonction est généralement utilisée pour éviter les problèmes des magic quotes)</strong></p>
 
 
 
@@ -1544,7 +1544,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p>Cette fonction réalise l&rsquo;opération contraire à la précédente elle permet de supprimer les slashes d&rsquo;une chaine de caractère.<strong></strong></p>
+<p>Cette fonction réalise l&#8217;opération contraire à la précédente elle permet de supprimer les slashes d&#8217;une chaine de caractère.<strong></strong></p>
 
 
 
@@ -1552,7 +1552,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p><strong>Retourne le nombre entier supérieur par exemple 3.2&nbsp;$res = ceil(« 3.2 »);</strong></p>
+<p><strong>Retourne le nombre entier supérieur par exemple 3.2&nbsp;$res = ceil(&#8220;3.2&#8221;);</strong></p>
 
 
 
@@ -1564,7 +1564,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p>Permet de subdiviser une chaîne en plusieurs morceaux.<br><strong>$chaine = chunk_split(« bonjour Monsieur », »3&Prime;, »-« );</strong></p>
+<p>Permet de subdiviser une chaîne en plusieurs morceaux.<br><strong>$chaine = chunk_split(&#8220;bonjour Monsieur&#8221;,&#8221;3&#8243;,&#8221;-&#8220;);</strong></p>
 
 
 
@@ -1580,11 +1580,11 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p>$<strong>res = htmlentities(« le code d&rsquo;un bouton est &lt;input type=button value=Envoyez&gt; »);</strong></p>
+<p>$<strong>res = htmlentities(&#8220;le code d&#8217;un bouton est &lt;input type=button value=Envoyez&gt;&#8221;);</strong></p>
 
 
 
-<p><strong>Renvoie</strong>&nbsp;:<br>Le code d&rsquo;un bouton est &lt;input type=button value=Envoyez&gt;. Par contre si vous appliquez le code directement vous obtenez un bouton sur lequel est écrit Envoyez</p>
+<p><strong>Renvoie</strong>&nbsp;:<br>Le code d&#8217;un bouton est &lt;input type=button value=Envoyez&gt;. Par contre si vous appliquez le code directement vous obtenez un bouton sur lequel est écrit Envoyez</p>
 
 
 
@@ -1592,7 +1592,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p>renvoie le nombre de caractère d&rsquo;une chaine</p>
+<p>renvoie le nombre de caractère d&#8217;une chaine</p>
 
 
 
@@ -1604,7 +1604,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p><strong>$res = strstr(« webmaster@domain.com », « r »);</strong></p>
+<p><strong>$res = strstr(&#8220;webmaster@domain.com&#8221;, &#8220;r&#8221;);</strong></p>
 
 
 
@@ -1640,7 +1640,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p><strong>$res= substr_replace(« ouJDA », »OU »,0,2);</strong></p>
+<p><strong>$res= substr_replace(&#8220;ouJDA&#8221;,&#8221;OU&#8221;,0,2);</strong></p>
 
 
 
@@ -1660,7 +1660,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p>exemple&nbsp;:&nbsp;<strong>str_replace(« b », »s », »bon »);</strong><br>ce qui renvoi :&nbsp;<strong>sons</strong></p>
+<p>exemple&nbsp;:&nbsp;<strong>str_replace(&#8220;b&#8221;,&#8221;s&#8221;,&#8221;bon&#8221;);</strong><br>ce qui renvoi :&nbsp;<strong>sons</strong></p>
 
 
 
@@ -1668,7 +1668,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p>Met la première lettre de chaque chaîne en Majuscule.<br><strong>$res = ucfirst(« salut Monsieur »);</strong></p>
+<p>Met la première lettre de chaque chaîne en Majuscule.<br><strong>$res = ucfirst(&#8220;salut Monsieur&#8221;);</strong></p>
 
 
 
@@ -1680,7 +1680,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p>Met la première lettre de chaque mot d&rsquo;une chaîne en Majuscule.<br><strong>$res = ucwords(« bienvenue sur le site »);</strong></p>
+<p>Met la première lettre de chaque mot d&#8217;une chaîne en Majuscule.<br><strong>$res = ucwords(&#8220;bienvenue sur le site&#8221;);</strong></p>
 
 
 
@@ -1692,7 +1692,7 @@ echo'Le produit de 5 et 7 vaut '.deuxvar ( 5 , 7) ;
 
 
 
-<p><em>longueur d&rsquo;une chaine de caractère en php</em></p>
+<p><em>longueur d&#8217;une chaine de caractère en php</em></p>
 
 
 
@@ -1821,7 +1821,7 @@ echo"$n"; // affiche mpi
 
 
 
-<p>Cette dernière &nbsp;permet d&rsquo;afficher un texte, la valeur d&rsquo;une constante ou d&rsquo;une variable&#8230;</p>
+<p>Cette dernière &nbsp;permet d&#8217;afficher un texte, la valeur d&#8217;une constante ou d&#8217;une variable&#8230;</p>
 
 
 
@@ -1890,7 +1890,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p><em><strong>4 &#8211; Tapons finalement dans notre navigateur l&rsquo;adresse URL&nbsp; http://localhost/test.php</strong></em></p>
+<p><em><strong>4 &#8211; Tapons finalement dans notre navigateur l&#8217;adresse URL&nbsp; http://localhost/test.php</strong></em></p>
 
 
 
@@ -1910,7 +1910,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>&nbsp; &nbsp; &#8211; Pour insérer un commentaire sur plusieurs lignes, il suffit d&rsquo;introduire les délimiteurs :</p>
+<p>&nbsp; &nbsp; &#8211; Pour insérer un commentaire sur plusieurs lignes, il suffit d&#8217;introduire les délimiteurs :</p>
 
 
 
@@ -1959,7 +1959,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>Contrairement aux langages HTML, Vbscript ou Javascript qui s&rsquo;exécutent du coté client, le langage PHP( Personal Home Page) est interprété et exécuté du coté Serveur, c&rsquo;est à dire quand un poste client envoi une requête à un Seveur exécutant du code PHP, ce dernier compile la page ( interprète) en HTML avant de l&rsquo;envoyer au poste client. On peut donc dire qu&rsquo;un poste client ne reçoit jamais du code PHP et par suite n&rsquo;exécutera jamais du code PHP. Pour exécuter du code PHP dans votre machine locale, certaines configurations sont exigées, procédez comme suit :</p>
+<p>Contrairement aux langages HTML, Vbscript ou Javascript qui s&#8217;exécutent du coté client, le langage PHP( Personal Home Page) est interprété et exécuté du coté Serveur, c&#8217;est à dire quand un poste client envoi une requête à un Seveur exécutant du code PHP, ce dernier compile la page ( interprète) en HTML avant de l&#8217;envoyer au poste client. On peut donc dire qu&#8217;un poste client ne reçoit jamais du code PHP et par suite n&#8217;exécutera jamais du code PHP. Pour exécuter du code PHP dans votre machine locale, certaines configurations sont exigées, procédez comme suit :</p>
 
 
 
@@ -1971,7 +1971,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p><strong><em>&#8211; Installer le logiciel Apache</em></strong><br><strong><em>&#8211; Installez PHP</em></strong><br><strong><em>&#8211; Vous pouvez choisir la méthode la plus simple :&nbsp;</em></strong>&nbsp;c&rsquo;est l&rsquo;installation de EasyPHP ou WAMP5 ( elle contient Apache, PHP et MySql en même temp). Vous aurez besoin d&rsquo;un éditeur de texte pour éditer le code PHP par exemple bloc-notes. Quand à moi je vous recommande vivement le serveur Wamp.</p>
+<p><strong><em>&#8211; Installer le logiciel Apache</em></strong><br><strong><em>&#8211; Installez PHP</em></strong><br><strong><em>&#8211; Vous pouvez choisir la méthode la plus simple :&nbsp;</em></strong>&nbsp;c&#8217;est l&#8217;installation de EasyPHP ou WAMP5 ( elle contient Apache, PHP et MySql en même temp). Vous aurez besoin d&#8217;un éditeur de texte pour éditer le code PHP par exemple bloc-notes. Quand à moi je vous recommande vivement le serveur Wamp.</p>
 
 
 
@@ -1982,7 +1982,7 @@ echo "Bienvenue  ! " ;
 <figure class="aligncenter"><a href="http://www.wampserver.com/" target="_blank" rel="noreferrer noopener"><img src="https://www.tresfacile.net/images/php/wamp.jpg" alt=""/></a></figure></div>
 
 
-<p>Choisissez la version qui correspond à votre système&nbsp;<strong>32 bits</strong>&nbsp;ou<strong>&nbsp;64 bits.&nbsp;</strong>Après avoir télécharger le serveur wamp, procédez à l&rsquo;installation&nbsp;<em>&nbsp;( l&rsquo;installation est très simple et très automatisée et donc elle nécessite pas à être développée ici )</em></p>
+<p>Choisissez la version qui correspond à votre système&nbsp;<strong>32 bits</strong>&nbsp;ou<strong>&nbsp;64 bits.&nbsp;</strong>Après avoir télécharger le serveur wamp, procédez à l&#8217;installation&nbsp;<em>&nbsp;( l&#8217;installation est très simple et très automatisée et donc elle nécessite pas à être développée ici )</em></p>
 
 
 
@@ -2000,15 +2000,15 @@ echo "Bienvenue  ! " ;
 <figure class="aligncenter"><img src="https://www.tresfacile.net/images/php/langage-mysql1.png" alt=""/></figure></div>
 
 
-<p><strong><em>&#8211; Si l&rsquo;icône est verte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; :&nbsp;</em></strong><em>le serveur fonctionne correctement</em></p>
+<p><strong><em>&#8211; Si l&#8217;icône est verte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; :&nbsp;</em></strong><em>le serveur fonctionne correctement</em></p>
 
 
 
-<p><strong><em>&#8211; Si l&rsquo;icône est rouge ou orange&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</em></strong><em>&nbsp;le serveur ne fonctionne pas</em>&nbsp;&nbsp;<em>!</em></p>
+<p><strong><em>&#8211; Si l&#8217;icône est rouge ou orange&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</em></strong><em>&nbsp;le serveur ne fonctionne pas</em>&nbsp;&nbsp;<em>!</em></p>
 
 
 
-<p>Après avoir vérifier que le serveur fonctionne correctement vous vous demander peut être comment y accéder ? Il suffit de lancer le navigateur et tapez l&rsquo;adresse url :&nbsp;<strong>http://localhost/</strong>&nbsp;ou bien&nbsp;<strong>http://127.0.0.1/</strong></p>
+<p>Après avoir vérifier que le serveur fonctionne correctement vous vous demander peut être comment y accéder ? Il suffit de lancer le navigateur et tapez l&#8217;adresse url :&nbsp;<strong>http://localhost/</strong>&nbsp;ou bien&nbsp;<strong>http://127.0.0.1/</strong></p>
 
 
 
@@ -2023,7 +2023,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>d&rsquo;autres configurations sont possibles, par exemple à la place du logiciel Apache vous pouvez installer IIS.</p>
+<p>d&#8217;autres configurations sont possibles, par exemple à la place du logiciel Apache vous pouvez installer IIS.</p>
 
 
 
@@ -2035,7 +2035,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>et doit être appelé localement par votre navigateur en tapant l&rsquo;adresse URL suivante :</p>
+<p>et doit être appelé localement par votre navigateur en tapant l&#8217;adresse URL suivante :</p>
 
 
 
@@ -2047,7 +2047,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>Si votre fichier est nommé test, pour l&rsquo;exécuter tappez dans votre navigateur l&rsquo;adresse URL :</p>
+<p>Si votre fichier est nommé test, pour l&#8217;exécuter tappez dans votre navigateur l&#8217;adresse URL :</p>
 
 
 
@@ -2059,7 +2059,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>Nous traitons ici le cas d&rsquo;UBUNTU pour les autres distribution l&rsquo;installation sera plus ou moins similaire.<br>Sous linux le serveur apache, le langage php et le serveur mysql sont disponible sous forme de package nommé&nbsp;<strong>lamp</strong>&nbsp;( qui veut dire Linux, Apache, MySql et PHP ). pour installer le package&nbsp;<strong>lamp-server</strong>&nbsp;on se loge en mode&nbsp;<strong>root</strong>&nbsp;à l&rsquo;aide de la commande&nbsp;<strong>sudo -i</strong>&nbsp;sur un terminal shell et puis on tape :</p>
+<p>Nous traitons ici le cas d&#8217;UBUNTU pour les autres distribution l&#8217;installation sera plus ou moins similaire.<br>Sous linux le serveur apache, le langage php et le serveur mysql sont disponible sous forme de package nommé&nbsp;<strong>lamp</strong>&nbsp;( qui veut dire Linux, Apache, MySql et PHP ). pour installer le package&nbsp;<strong>lamp-server</strong>&nbsp;on se loge en mode&nbsp;<strong>root</strong>&nbsp;à l&#8217;aide de la commande&nbsp;<strong>sudo -i</strong>&nbsp;sur un terminal shell et puis on tape :</p>
 
 
 
@@ -2067,7 +2067,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p><strong><br></strong>sans oublier le  » ^ » &nbsp;à la fin de la commande.</p>
+<p><strong><br></strong>sans oublier le &#8221; ^&#8221; &nbsp;à la fin de la commande.</p>
 
 
 
@@ -2075,7 +2075,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>Le langage PHP offre au phpeur toute la puissance : possibilité d&rsquo;ouvrir, d&rsquo;écrire sur des fichier et même de créer des fichiers aux différents formats&nbsp;<strong>txt pdf doc &#8230;</strong>grâce à la commande&nbsp;:</p>
+<p>Le langage PHP offre au phpeur toute la puissance : possibilité d&#8217;ouvrir, d&#8217;écrire sur des fichier et même de créer des fichiers aux différents formats&nbsp;<strong>txt pdf doc &#8230;</strong>grâce à la commande&nbsp;:</p>
 
 
 
@@ -2083,7 +2083,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>comme le PHP permet la création des fichiers il permet aussi la suppression des fichiers à l&rsquo;aide de la commande</p>
+<p>comme le PHP permet la création des fichiers il permet aussi la suppression des fichiers à l&#8217;aide de la commande</p>
 
 
 
@@ -2091,7 +2091,7 @@ echo "Bienvenue  ! " ;
 
 
 
-<p>Pour bien apprécier la puissance du PHP, essayez de répondre à la question suivante :<br>peut -on- modifier un fichier à l&rsquo;aide d&rsquo;un langage qui fonctionne du coté client comme&nbsp;<strong>vbscript ou javascript ?</strong>&nbsp;la réponse marque bien la puissance du PHP.</p>
+<p>Pour bien apprécier la puissance du PHP, essayez de répondre à la question suivante :<br>peut -on- modifier un fichier à l&#8217;aide d&#8217;un langage qui fonctionne du coté client comme&nbsp;<strong>vbscript ou javascript ?</strong>&nbsp;la réponse marque bien la puissance du PHP.</p>
 
 
 
@@ -2106,7 +2106,7 @@ echo "Bienvenue  ! " ;
 <figure class="aligncenter"><a href="http://3.bp.blogspot.com/-coh8qcSF7mA/UWmlDuQ79OI/AAAAAAAAABg/WeJ2f76PChc/s1600/fichiers-de-configuration-de-wamp.png"><img src="https://www.tresfacile.net/images/php/_d_improd_/configuration-php-ini_f_improf_274x320.png" alt="configuration php fichier php.ini" title="configuration-php-ini.png"/></a></figure></div>
 
 
-<p>&nbsp; &nbsp; Comme vous le voyez sur l&rsquo;image ci dessus il y a trois fichiers de configurations :</p>
+<p>&nbsp; &nbsp; Comme vous le voyez sur l&#8217;image ci dessus il y a trois fichiers de configurations :</p>
 
 
 

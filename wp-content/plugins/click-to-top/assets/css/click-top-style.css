@@ -1,0 +1,28 @@
+/*
+*
+*click to top style goes here.
+*
+*/
+
+a#clickTop {
+  box-sizing: unset;
+  display: block;
+  text-align: center;
+  vertical-align: unset
+}
+a#clickTop i{
+  margin-top: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+a#clickTop{
+  text-decoration:none;
+}
+
+a#clickTop:focus{
+	outline:none;
+}
+a#clickTop:active{
+	background:none;
+	color:none;
+}
